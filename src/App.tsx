@@ -17,14 +17,12 @@ const ATTRACTION_OPTIONS = [
   "L'idée d'en offrir",
 ]
 
-const INTENT_OPTIONS = [
-  'Pour toi',
-  'Pour offrir',
-  'Les deux',
-]
+const INTENT_OPTIONS = ['Pour toi', 'Pour offrir', 'Les deux']
 
-function isValidEmail(email: string) {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+const VIDEO_URL = import.meta.env.VITE_HERO_VIDEO_URL as string | undefined
+
+function isValidEmail(e: string) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)
 }
 
 export default function App() {
@@ -32,8 +30,6 @@ export default function App() {
   const [formState, setFormState] = useState<FormState>('idle')
   const [waitlistId, setWaitlistId] = useState<string | null>(null)
   const [surveyDone, setSurveyDone] = useState(false)
-
-  // Survey state
   const [frequency, setFrequency] = useState('')
   const [attraction, setAttraction] = useState<string[]>([])
   const [intent, setIntent] = useState('')
@@ -44,37 +40,27 @@ export default function App() {
   const scroll50Sent = useRef(false)
   const scroll100Sent = useRef(false)
 
-  // Page view
   useEffect(() => {
     trackEvent('page_view')
 
     const handleScroll = () => {
-      const scrollPct =
-        (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100
-      if (!scroll50Sent.current && scrollPct >= 50) {
-        scroll50Sent.current = true
-        trackEvent('scroll_50')
-      }
-      if (!scroll100Sent.current && scrollPct >= 95) {
-        scroll100Sent.current = true
-        trackEvent('scroll_100')
-      }
+      const pct = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100
+      if (!scroll50Sent.current && pct >= 50) { scroll50Sent.current = true; trackEvent('scroll_50') }
+      if (!scroll100Sent.current && pct >= 95) { scroll100Sent.current = true; trackEvent('scroll_100') }
     }
 
-    const handleBeforeUnload = () => {
-      const secs = Math.round((Date.now() - pageStartRef.current) / 1000)
-      trackEvent('page_exit', secs)
+    const handleUnload = () => {
+      trackEvent('page_exit', Math.round((Date.now() - pageStartRef.current) / 1000))
     }
 
     window.addEventListener('scroll', handleScroll, { passive: true })
-    window.addEventListener('beforeunload', handleBeforeUnload)
+    window.addEventListener('beforeunload', handleUnload)
     return () => {
       window.removeEventListener('scroll', handleScroll)
-      window.removeEventListener('beforeunload', handleBeforeUnload)
+      window.removeEventListener('beforeunload', handleUnload)
     }
   }, [])
 
-  // Focus survey after success
   useEffect(() => {
     if (formState === 'success' && surveyRef.current) {
       setTimeout(() => {
@@ -86,21 +72,13 @@ export default function App() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    if (!isValidEmail(email)) {
-      setFormState('invalid')
-      return
-    }
+    if (!isValidEmail(email)) { setFormState('invalid'); return }
     setFormState('loading')
     trackEvent('cta_click')
     const result = await submitEmail(email)
-    if (result.error === 'duplicate') {
-      setFormState('duplicate')
-    } else if (result.error === 'network') {
-      setFormState('network')
-    } else {
-      setWaitlistId(result.waitlistId)
-      setFormState('success')
-    }
+    if (result.error === 'duplicate') setFormState('duplicate')
+    else if (result.error === 'network') setFormState('network')
+    else { setWaitlistId(result.waitlistId); setFormState('success') }
   }
 
   async function handleSurveySubmit(e: React.FormEvent) {
@@ -111,10 +89,8 @@ export default function App() {
     setSurveyDone(true)
   }
 
-  function toggleAttraction(option: string) {
-    setAttraction(prev =>
-      prev.includes(option) ? prev.filter(o => o !== option) : [...prev, option],
-    )
+  function toggleAttraction(opt: string) {
+    setAttraction(prev => prev.includes(opt) ? prev.filter(o => o !== opt) : [...prev, opt])
   }
 
   return (
@@ -126,51 +102,83 @@ export default function App() {
       <main>
         {/* ── HERO ── */}
         <section className="hero" aria-labelledby="hero-heading">
-          <div className="hero-inner">
-            <div className="hero-image" role="img" aria-label="Un verre d'eau dorée avec du miel qui se fond — le geste de Lédjé">
-              <svg viewBox="0 0 280 320" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <ellipse cx="140" cy="295" rx="65" ry="12" fill="#c8a84b" opacity="0.18"/>
-                <path d="M80 80 Q75 200 85 290 Q140 310 195 290 Q205 200 200 80 Z" fill="#f9f3e8" stroke="#c8a84b" strokeWidth="1.5"/>
-                <ellipse cx="140" cy="80" rx="60" ry="18" fill="#f0e6cc" stroke="#c8a84b" strokeWidth="1.5"/>
-                <ellipse cx="140" cy="140" rx="38" ry="14" fill="#c8a84b" opacity="0.35"/>
-                <path d="M120 125 Q140 145 160 125" stroke="#c8a84b" strokeWidth="1" fill="none" opacity="0.6"/>
-                <path d="M110 150 Q140 175 170 150" stroke="#c8a84b" strokeWidth="0.8" fill="none" opacity="0.4"/>
-                <circle cx="130" cy="105" r="3" fill="#c8a84b" opacity="0.7"/>
-                <circle cx="150" cy="98" r="2" fill="#c8a84b" opacity="0.5"/>
-                <circle cx="143" cy="112" r="1.5" fill="#c8a84b" opacity="0.6"/>
+          <div className="hero-bg" aria-hidden="true" />
+
+          {VIDEO_URL ? (
+            <div className="hero-video-wrap" aria-hidden="true">
+              <video
+                src={VIDEO_URL}
+                autoPlay
+                loop
+                muted
+                playsInline
+                aria-hidden="true"
+              />
+            </div>
+          ) : (
+            <div className="hero-placeholder" aria-hidden="true">
+              <svg viewBox="0 0 280 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                {/* Glass */}
+                <path d="M85 90 Q80 230 88 360 Q140 385 192 360 Q200 230 195 90 Z" fill="rgba(255,255,255,0.06)" stroke="rgba(200,168,75,0.3)" strokeWidth="1.5"/>
+                <ellipse cx="140" cy="90" rx="55" ry="16" fill="rgba(255,255,255,0.04)" stroke="rgba(200,168,75,0.3)" strokeWidth="1.5"/>
+                {/* Honey swirl */}
+                <ellipse cx="140" cy="180" rx="40" ry="12" fill="rgba(200,168,75,0.2)"/>
+                <path d="M108 165 Q140 195 172 165" stroke="rgba(200,168,75,0.5)" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
+                <path d="M115 178 Q140 205 165 178" stroke="rgba(200,168,75,0.35)" strokeWidth="1" fill="none" strokeLinecap="round"/>
+                <path d="M122 192 Q140 215 158 192" stroke="rgba(200,168,75,0.2)" strokeWidth="0.8" fill="none" strokeLinecap="round"/>
+                {/* Honey drop */}
+                <path d="M140 55 Q145 70 148 80 Q148 90 140 92 Q132 90 132 80 Q135 70 140 55 Z" fill="rgba(200,168,75,0.7)"/>
+                {/* Particles */}
+                <circle cx="122" cy="145" r="2.5" fill="rgba(200,168,75,0.6)"/>
+                <circle cx="158" cy="138" r="2" fill="rgba(200,168,75,0.45)"/>
+                <circle cx="135" cy="132" r="1.5" fill="rgba(200,168,75,0.5)"/>
+                <circle cx="150" cy="155" r="1.8" fill="rgba(200,168,75,0.4)"/>
               </svg>
             </div>
-            <p className="hero-quote">
+          )}
+
+          <div className="hero-content">
+            <p className="hero-eyebrow">
               « Le Prophète ﷺ buvait le miel mêlé à l'eau fraîche. »
             </p>
+            <div className="hero-divider" aria-hidden="true" />
             <h1 id="hero-heading">
               Un geste de notre tradition,<br />remis au goût du jour.
             </h1>
             <p className="brand-name" aria-label="Lédjé">Lédjé</p>
-            <a href="#formulaire" className="btn-primary" onClick={() => trackEvent('cta_click')}>
+            <a
+              href="#formulaire"
+              className="btn-primary"
+              onClick={() => trackEvent('cta_click')}
+            >
               Rejoindre les premiers
             </a>
+          </div>
+
+          <div className="scroll-hint" aria-hidden="true">
+            <span>Découvrir</span>
+            <div className="scroll-hint-arrow" />
           </div>
         </section>
 
         {/* ── LE GESTE ── */}
         <section className="section-geste" aria-labelledby="geste-heading">
           <div className="container">
-            <div className="geste-visual" aria-hidden="true">
-              <svg viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="2" y="15" width="30" height="38" rx="4" fill="#f0e6cc" stroke="#c8a84b" strokeWidth="1.2"/>
-                <text x="17" y="36" textAnchor="middle" fontSize="14" fill="#c8a84b">🍯</text>
-                <path d="M38 34 L55 34" stroke="#c8a84b" strokeWidth="1.5" strokeLinecap="round" markerEnd="url(#arrow)"/>
-                <defs>
-                  <marker id="arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
-                    <path d="M0,0 L6,3 L0,6 Z" fill="#c8a84b"/>
-                  </marker>
-                </defs>
-                <rect x="60" y="8" width="24" height="45" rx="8" fill="#f9f3e8" stroke="#c8a84b" strokeWidth="1.2"/>
-                <ellipse cx="72" cy="30" rx="8" ry="4" fill="#c8a84b" opacity="0.4"/>
-                <circle cx="88" cy="20" r="6" fill="#c8a84b" opacity="0.15" stroke="#c8a84b" strokeWidth="1"/>
-                <text x="88" y="24" textAnchor="middle" fontSize="9" fill="#c8a84b">✓</text>
-              </svg>
+            <div className="geste-steps" aria-hidden="true">
+              <div className="geste-step">
+                <div className="geste-step-icon">🍯</div>
+                <span className="geste-step-label">Une portion</span>
+              </div>
+              <span className="geste-arrow" aria-hidden="true">→</span>
+              <div className="geste-step">
+                <div className="geste-step-icon">💧</div>
+                <span className="geste-step-label">Un verre d'eau</span>
+              </div>
+              <span className="geste-arrow" aria-hidden="true">→</span>
+              <div className="geste-step">
+                <div className="geste-step-icon">✓</div>
+                <span className="geste-step-label">C'est tout</span>
+              </div>
             </div>
             <h2 id="geste-heading">Une portion. Un verre d'eau. C'est tout.</h2>
             <p>
@@ -183,12 +191,8 @@ export default function App() {
         {/* ── L'ORIGINE ── */}
         <section className="section-origine" aria-labelledby="origine-heading">
           <div className="container">
-            <div className="origine-badge" aria-hidden="true">
-              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="40" cy="40" r="38" stroke="#c8a84b" strokeWidth="1.5" fill="none"/>
-                <path d="M40 15 L44 30 L60 30 L47 39 L51 54 L40 45 L29 54 L33 39 L20 30 L36 30 Z" fill="#c8a84b" opacity="0.25" stroke="#c8a84b" strokeWidth="1"/>
-                <text x="40" y="68" textAnchor="middle" fontSize="8" fill="#c8a84b" fontFamily="serif">FRANCE</text>
-              </svg>
+            <div className="origine-seal" aria-hidden="true">
+              <div className="seal-inner">Miel<br/>pur<br/>France</div>
             </div>
             <h2 id="origine-heading">Du vrai miel. Rien d'autre.</h2>
             <p>
@@ -196,18 +200,10 @@ export default function App() {
               Choisi avec soin, parce que ce geste mérite mieux que du frelaté.
             </p>
             <ul className="origine-points" role="list">
-              <li>
-                <span className="point-icon" aria-hidden="true">◈</span>
-                <span>Origine tracée</span>
-              </li>
-              <li>
-                <span className="point-icon" aria-hidden="true">◈</span>
-                <span>Jamais chauffé</span>
-              </li>
-              <li>
-                <span className="point-icon" aria-hidden="true">◈</span>
-                <span>Producteurs français</span>
-              </li>
+              <li><span className="point-icon" aria-hidden="true">◆</span>Origine tracée</li>
+              <li><span className="point-icon" aria-hidden="true">◆</span>Jamais chauffé</li>
+              <li><span className="point-icon" aria-hidden="true">◆</span>Producteurs français</li>
+              <li><span className="point-icon" aria-hidden="true">◆</span>Pur miel</li>
             </ul>
           </div>
         </section>
@@ -217,8 +213,12 @@ export default function App() {
           <div className="container">
             {formState !== 'success' ? (
               <>
-                <h2 id="form-heading">Sois prévenu au lancement.</h2>
-                <form onSubmit={handleSubmit} noValidate aria-describedby="consent-text">
+                <div className="form-header">
+                  <p className="form-eyebrow">Lancement bientôt</p>
+                  <h2 id="form-heading">Sois prévenu en premier.</h2>
+                </div>
+
+                <form onSubmit={handleSubmit} noValidate aria-describedby="consent-text" style={{ width: '100%' }}>
                   <div className="field-group">
                     <label htmlFor="email-input">Ton email</label>
                     <input
@@ -233,13 +233,9 @@ export default function App() {
                       }}
                       aria-invalid={formState === 'invalid'}
                       aria-describedby={
-                        formState === 'invalid'
-                          ? 'email-error'
-                          : formState === 'duplicate'
-                          ? 'email-duplicate'
-                          : formState === 'network'
-                          ? 'email-network'
-                          : undefined
+                        formState === 'invalid' ? 'email-error' :
+                        formState === 'duplicate' ? 'email-dup' :
+                        formState === 'network' ? 'email-net' : undefined
                       }
                       required
                     />
@@ -249,16 +245,17 @@ export default function App() {
                       </p>
                     )}
                     {formState === 'duplicate' && (
-                      <p id="email-duplicate" role="alert" className="field-info">
+                      <p id="email-dup" role="alert" className="field-info">
                         Tu es déjà sur la liste — on ne t'oublie pas.
                       </p>
                     )}
                     {formState === 'network' && (
-                      <p id="email-network" role="alert" className="field-error">
+                      <p id="email-net" role="alert" className="field-error">
                         La connexion a échoué. Réessaie dans un instant.
                       </p>
                     )}
                   </div>
+
                   <button
                     type="submit"
                     className="btn-primary"
@@ -267,6 +264,7 @@ export default function App() {
                   >
                     {formState === 'loading' ? 'Un instant…' : 'Je veux être prévenu'}
                   </button>
+
                   <p id="consent-text" className="consent">
                     En t'inscrivant, tu acceptes de recevoir nos nouvelles.
                     Pas de spam, désinscription en un clic.
@@ -275,8 +273,11 @@ export default function App() {
               </>
             ) : (
               <div className="form-success" role="status">
-                <span className="success-icon" aria-hidden="true">◈</span>
-                <p>C'est noté. On te prévient au lancement.</p>
+                <div className="success-mark" aria-hidden="true">◈</div>
+                <div>
+                  <h3>C'est noté.</h3>
+                  <p>On te prévient au lancement. À très vite.</p>
+                </div>
               </div>
             )}
           </div>
@@ -295,56 +296,39 @@ export default function App() {
               <p className="survey-sub">30 secondes pour nous aider à faire mieux.</p>
 
               <form onSubmit={handleSurveySubmit}>
-                {/* Q1 */}
                 <fieldset>
                   <legend>À quelle fréquence en boirais-tu ?</legend>
-                  <div className="radio-group" role="radiogroup">
+                  <div className="radio-group">
                     {FREQUENCY_OPTIONS.map(opt => (
                       <label key={opt} className="radio-option">
-                        <input
-                          type="radio"
-                          name="frequency"
-                          value={opt}
-                          checked={frequency === opt}
-                          onChange={() => setFrequency(opt)}
-                        />
+                        <input type="radio" name="frequency" value={opt} checked={frequency === opt} onChange={() => setFrequency(opt)} />
                         <span>{opt}</span>
                       </label>
                     ))}
                   </div>
                 </fieldset>
 
-                {/* Q2 */}
                 <fieldset>
-                  <legend>Qu'est-ce qui t'attire le plus ? <span className="legend-hint">(plusieurs choix possibles)</span></legend>
+                  <legend>
+                    Qu'est-ce qui t'attire le plus ?{' '}
+                    <span className="legend-hint">(plusieurs choix)</span>
+                  </legend>
                   <div className="checkbox-group">
                     {ATTRACTION_OPTIONS.map(opt => (
                       <label key={opt} className="checkbox-option">
-                        <input
-                          type="checkbox"
-                          value={opt}
-                          checked={attraction.includes(opt)}
-                          onChange={() => toggleAttraction(opt)}
-                        />
+                        <input type="checkbox" value={opt} checked={attraction.includes(opt)} onChange={() => toggleAttraction(opt)} />
                         <span>{opt}</span>
                       </label>
                     ))}
                   </div>
                 </fieldset>
 
-                {/* Q3 */}
                 <fieldset>
                   <legend>Tu en prendrais plutôt…</legend>
-                  <div className="radio-group" role="radiogroup">
+                  <div className="radio-group">
                     {INTENT_OPTIONS.map(opt => (
                       <label key={opt} className="radio-option">
-                        <input
-                          type="radio"
-                          name="intent"
-                          value={opt}
-                          checked={intent === opt}
-                          onChange={() => setIntent(opt)}
-                        />
+                        <input type="radio" name="intent" value={opt} checked={intent === opt} onChange={() => setIntent(opt)} />
                         <span>{opt}</span>
                       </label>
                     ))}
@@ -355,11 +339,7 @@ export default function App() {
                   <button type="submit" className="btn-primary" disabled={surveySubmitting}>
                     {surveySubmitting ? 'Un instant…' : 'Envoyer'}
                   </button>
-                  <button
-                    type="button"
-                    className="btn-skip"
-                    onClick={() => setSurveyDone(true)}
-                  >
+                  <button type="button" className="btn-skip" onClick={() => setSurveyDone(true)}>
                     Passer
                   </button>
                 </div>
@@ -379,10 +359,9 @@ export default function App() {
 
       <footer role="contentinfo">
         <div className="container">
-          <p className="legal">
-            Le miel est déconseillé aux enfants de moins d'un an.
-          </p>
-          <p className="footer-name">Lédjé © {new Date().getFullYear()}</p>
+          <p className="footer-logo" aria-label="Lédjé">Lédjé</p>
+          <p className="legal">Le miel est déconseillé aux enfants de moins d'un an.</p>
+          <p className="footer-copy">© {new Date().getFullYear()}</p>
         </div>
       </footer>
     </>

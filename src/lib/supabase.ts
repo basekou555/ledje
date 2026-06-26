@@ -33,17 +33,17 @@ export async function trackEvent(
 
 export async function submitEmail(email: string): Promise<{ error: string | null; waitlistId: string | null }> {
   const utm = getUtm()
-  const { data, error } = await supabase
+  // Generate UUID client-side to avoid needing a SELECT policy after insert
+  const id = crypto.randomUUID()
+  const { error } = await supabase
     .from('waitlist')
-    .insert({ email, ...utm })
-    .select('id')
-    .single()
+    .insert({ id, email, ...utm })
 
   if (error) {
     if (error.code === '23505') return { error: 'duplicate', waitlistId: null }
     return { error: 'network', waitlistId: null }
   }
-  return { error: null, waitlistId: data.id }
+  return { error: null, waitlistId: id }
 }
 
 export async function submitSurvey(
