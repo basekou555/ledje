@@ -70,6 +70,42 @@ function Alveole({
   )
 }
 
+/* ── Icônes line-art (Le Geste) — trait or fin, sobre ── */
+const ICON_STROKE = 'rgba(169,116,15,0.85)'
+
+function IconPortion() {
+  // Goutte de miel
+  return (
+    <svg className="geste-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M14 4 C14 4 20 12.5 20 17 a6 6 0 0 1-12 0 C8 12.5 14 4 14 4 Z"
+        stroke={ICON_STROKE} strokeWidth="1.5" strokeLinejoin="round"
+      />
+      <path d="M11.5 17.5 a2.5 2.5 0 0 0 2.5 2.5" stroke={ICON_STROKE} strokeWidth="1.3" strokeLinecap="round" opacity="0.6" />
+    </svg>
+  )
+}
+
+function IconGlass() {
+  // Verre d'eau avec ligne de surface
+  return (
+    <svg className="geste-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8 5 L20 5 L18.5 23 a1 1 0 0 1-1 0.9 L10.5 23.9 a1 1 0 0 1-1-0.9 Z"
+        stroke={ICON_STROKE} strokeWidth="1.5" strokeLinejoin="round" />
+      <path d="M9 12 C11 11 12.5 13 14 12 C15.5 11 17 13 18.6 12.2"
+        stroke={ICON_STROKE} strokeWidth="1.3" strokeLinecap="round" opacity="0.7" />
+    </svg>
+  )
+}
+
+function IconCheck() {
+  return (
+    <svg className="geste-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <path d="M7 14.5 L12 19.5 L21 8.5" stroke={ICON_STROKE} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
 /* Petit hexagone-puce pour les listes */
 function HexBullet() {
   return (
@@ -204,7 +240,7 @@ export default function App() {
               <div className="geste-step">
                 <div className="geste-step-hex">
                   <Alveole size={60} filled={false} stroke="rgba(169,116,15,0.5)" />
-                  <span className="geste-step-emoji">🍯</span>
+                  <span className="geste-step-icon-wrap"><IconPortion /></span>
                 </div>
                 <span className="geste-step-label">Une portion</span>
               </div>
@@ -212,7 +248,7 @@ export default function App() {
               <div className="geste-step">
                 <div className="geste-step-hex">
                   <Alveole size={60} filled={false} stroke="rgba(169,116,15,0.5)" />
-                  <span className="geste-step-emoji">💧</span>
+                  <span className="geste-step-icon-wrap"><IconGlass /></span>
                 </div>
                 <span className="geste-step-label">Un verre d'eau</span>
               </div>
@@ -220,7 +256,7 @@ export default function App() {
               <div className="geste-step">
                 <div className="geste-step-hex">
                   <Alveole size={60} filled={false} stroke="rgba(169,116,15,0.5)" />
-                  <span className="geste-step-emoji">✓</span>
+                  <span className="geste-step-icon-wrap"><IconCheck /></span>
                 </div>
                 <span className="geste-step-label">C'est tout</span>
               </div>

@@ -14,7 +14,25 @@
   --gold-light: #FBE9A8;
   --gold: #E8B65C;
   --gold-deep: #A9740F;
-  --gold-gradient: linear-gradient(160deg, #FBE9A8 0%, #E8B65C 48%, #A9740F 100%);
+  /* Métal liquide : reflets serrés façon dorure, pas un fondu plat */
+  --gold-gradient: linear-gradient(
+    177deg,
+    #FCEEB6 0%,
+    #F0CE7C 18%,
+    #E3B45D 38%,
+    #D9A648 52%,
+    #E0AE54 66%,
+    #C68E2C 84%,
+    #A9740F 100%
+  );
+  /* Variante pour le texte (nom) : un poil plus contrasté verticalement */
+  --gold-gradient-text: linear-gradient(
+    180deg,
+    #FCEEB6 0%,
+    #ECC470 34%,
+    #E0AC4E 60%,
+    #BC8A2A 100%
+  );
 
   /* Ambre — produit / appétence */
   --amber: #E0A52E;
@@ -172,12 +190,13 @@ h1 {
   font-weight: 600;
   letter-spacing: 0.04em;
   line-height: 1;
-  background: var(--gold-gradient);
+  background: var(--gold-gradient-text);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: var(--gold);
   padding: 0.1em 0;
+  filter: drop-shadow(0 1px 1px rgba(15,61,42,0.45));
 }
 
 .tagline {
@@ -207,33 +226,60 @@ h1 {
 
 /* ════ Boutons ════ */
 .btn-primary {
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background: var(--gold-gradient);
-  color: var(--emerald-deep);
+  color: #4a3208;
   font-family: 'Inter', sans-serif;
   font-size: 0.98rem;
   font-weight: 600;
   text-decoration: none;
-  border: none;
+  border: 1px solid rgba(146,99,18,0.55);
   border-radius: 100px;
   padding: 0.95rem 2.25rem;
   min-height: 52px;
   cursor: pointer;
   letter-spacing: 0.02em;
+  overflow: hidden;
   transition: transform var(--transition), box-shadow var(--transition), filter var(--transition);
   text-align: center;
   width: 100%;
-  box-shadow: 0 6px 22px rgba(169,116,15,0.32);
+  /* Métal : reflet haut interne + ombre basse interne + ombre portée sobre */
+  box-shadow:
+    inset 0 1px 0 rgba(255,250,235,0.7),
+    inset 0 -2px 3px rgba(120,80,12,0.3),
+    0 3px 10px rgba(40,30,8,0.18);
+}
+/* Sheen diagonal discret (bande de lumière qui balaie au survol) */
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -60%;
+  width: 50%; height: 100%;
+  background: linear-gradient(
+    100deg,
+    transparent 0%,
+    rgba(255,252,240,0.55) 50%,
+    transparent 100%
+  );
+  transform: skewX(-18deg);
+  transition: left 0.6s ease;
+  pointer-events: none;
 }
 .btn-primary:hover:not(:disabled) {
   transform: translateY(-1px);
-  filter: brightness(1.04);
-  box-shadow: 0 8px 30px rgba(169,116,15,0.42);
+  filter: brightness(1.03) saturate(1.02);
+  box-shadow:
+    inset 0 1px 0 rgba(255,250,235,0.8),
+    inset 0 -2px 3px rgba(120,80,12,0.3),
+    0 5px 16px rgba(40,30,8,0.24);
 }
-.btn-primary:active:not(:disabled) { transform: scale(0.98); }
-.btn-primary:disabled { opacity: 0.6; cursor: not-allowed; box-shadow: none; }
+.btn-primary:hover:not(:disabled)::before { left: 120%; }
+.btn-primary:active:not(:disabled) { transform: translateY(0) scale(0.99); }
+.btn-primary:disabled { opacity: 0.55; cursor: not-allowed; box-shadow: none; }
+.btn-primary > * { position: relative; z-index: 1; }
 
 /* ════ Scroll hint ════ */
 .scroll-hint {
@@ -341,8 +387,16 @@ h1 {
   justify-content: center;
   position: relative;
 }
-.geste-step-hex svg { position: absolute; inset: 0; width: 100%; height: 100%; }
-.geste-step-emoji { position: relative; font-size: 1.4rem; }
+.geste-step-hex > svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.geste-step-icon-wrap {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.geste-icon { width: 26px; height: 26px; }
 .geste-step-label {
   font-size: 0.72rem;
   letter-spacing: 0.06em;
@@ -431,7 +485,6 @@ h1 {
 }
 .field-info { color: var(--emerald); font-size: 0.85rem; font-weight: 500; }
 
-.section-form .btn-primary { box-shadow: 0 6px 22px rgba(169,116,15,0.22); }
 
 .consent {
   font-size: 0.76rem;
