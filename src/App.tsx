@@ -25,6 +25,60 @@ function isValidEmail(e: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)
 }
 
+/* ── Alvéole : symbole de marque (hexagone contour or + cellule centrale) ── */
+function Alveole({
+  size = 64,
+  filled = true,
+  stroke = 'var(--gold)',
+  className = '',
+}: {
+  size?: number
+  filled?: boolean
+  stroke?: string
+  className?: string
+}) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 64 64"
+      fill="none"
+      className={className}
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M32 4 L52 16 L52 40 L32 52 L12 40 L12 16 Z"
+        stroke={stroke}
+        strokeWidth="1.6"
+        fill="none"
+      />
+      {filled && (
+        <path
+          d="M32 19 L42 25 L42 37 L32 43 L22 37 L22 25 Z"
+          fill={stroke === 'var(--gold)' ? 'url(#alveole-gold)' : stroke}
+        />
+      )}
+      <defs>
+        <linearGradient id="alveole-gold" x1="22" y1="19" x2="42" y2="43" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#FBE9A8" />
+          <stop offset="0.5" stopColor="#E8B65C" />
+          <stop offset="1" stopColor="#A9740F" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}
+
+/* Petit hexagone-puce pour les listes */
+function HexBullet() {
+  return (
+    <svg className="pt-hex" viewBox="0 0 14 16" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <path d="M7 1 L13 4.5 L13 11.5 L7 15 L1 11.5 L1 4.5 Z" fill="var(--gold)" opacity="0.9" />
+    </svg>
+  )
+}
+
 export default function App() {
   const [email, setEmail] = useState('')
   const [formState, setFormState] = useState<FormState>('idle')
@@ -48,7 +102,6 @@ export default function App() {
       if (!scroll50Sent.current && pct >= 50) { scroll50Sent.current = true; trackEvent('scroll_50') }
       if (!scroll100Sent.current && pct >= 95) { scroll100Sent.current = true; trackEvent('scroll_100') }
     }
-
     const handleUnload = () => {
       trackEvent('page_exit', Math.round((Date.now() - pageStartRef.current) / 1000))
     }
@@ -96,61 +149,44 @@ export default function App() {
   return (
     <>
       <header role="banner">
-        <span className="logo" aria-label="Lédjé">Lédjé</span>
+        <Alveole size={22} className="header-mark" />
+        <span className="logo">Lédjé</span>
       </header>
 
       <main>
-        {/* ── HERO ── */}
+        {/* ════ HERO ════ */}
         <section className="hero" aria-labelledby="hero-heading">
-          <div className="hero-bg" aria-hidden="true" />
+          <div className="hero-honeycomb" aria-hidden="true" />
 
-          {VIDEO_URL ? (
-            <div className="hero-video-wrap" aria-hidden="true">
+          {VIDEO_URL && (
+            <div className="hero-video-wrap">
               <video
                 src={VIDEO_URL}
                 autoPlay
                 loop
                 muted
                 playsInline
-                aria-hidden="true"
+                aria-label="Une portion de miel pur se dissolvant lentement dans un verre d'eau fraîche"
               />
-            </div>
-          ) : (
-            <div className="hero-placeholder" aria-hidden="true">
-              <svg viewBox="0 0 280 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-                {/* Glass */}
-                <path d="M85 90 Q80 230 88 360 Q140 385 192 360 Q200 230 195 90 Z" fill="rgba(255,255,255,0.06)" stroke="rgba(200,168,75,0.3)" strokeWidth="1.5"/>
-                <ellipse cx="140" cy="90" rx="55" ry="16" fill="rgba(255,255,255,0.04)" stroke="rgba(200,168,75,0.3)" strokeWidth="1.5"/>
-                {/* Honey swirl */}
-                <ellipse cx="140" cy="180" rx="40" ry="12" fill="rgba(200,168,75,0.2)"/>
-                <path d="M108 165 Q140 195 172 165" stroke="rgba(200,168,75,0.5)" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
-                <path d="M115 178 Q140 205 165 178" stroke="rgba(200,168,75,0.35)" strokeWidth="1" fill="none" strokeLinecap="round"/>
-                <path d="M122 192 Q140 215 158 192" stroke="rgba(200,168,75,0.2)" strokeWidth="0.8" fill="none" strokeLinecap="round"/>
-                {/* Honey drop */}
-                <path d="M140 55 Q145 70 148 80 Q148 90 140 92 Q132 90 132 80 Q135 70 140 55 Z" fill="rgba(200,168,75,0.7)"/>
-                {/* Particles */}
-                <circle cx="122" cy="145" r="2.5" fill="rgba(200,168,75,0.6)"/>
-                <circle cx="158" cy="138" r="2" fill="rgba(200,168,75,0.45)"/>
-                <circle cx="135" cy="132" r="1.5" fill="rgba(200,168,75,0.5)"/>
-                <circle cx="150" cy="155" r="1.8" fill="rgba(200,168,75,0.4)"/>
-              </svg>
             </div>
           )}
 
           <div className="hero-content">
-            <p className="hero-eyebrow">
+            <Alveole size={64} className="hero-seal" />
+            <p className="hero-quote">
               « Le Prophète ﷺ buvait le miel mêlé à l'eau fraîche. »
             </p>
-            <div className="hero-divider" aria-hidden="true" />
             <h1 id="hero-heading">
               Un geste de notre tradition,<br />remis au goût du jour.
             </h1>
-            <p className="brand-name" aria-label="Lédjé">Lédjé</p>
-            <a
-              href="#formulaire"
-              className="btn-primary"
-              onClick={() => trackEvent('cta_click')}
-            >
+            <p className="brand-name">Lédjé</p>
+            <p className="tagline">Parmi les bienfaits de ce bas monde</p>
+
+            <div className="hero-rule" aria-hidden="true">
+              <Alveole size={14} filled={false} />
+            </div>
+
+            <a href="#formulaire" className="btn-primary" onClick={() => trackEvent('cta_click')}>
               Rejoindre les premiers
             </a>
           </div>
@@ -161,64 +197,72 @@ export default function App() {
           </div>
         </section>
 
-        {/* ── LE GESTE ── */}
-        <section className="section-geste" aria-labelledby="geste-heading">
+        {/* ════ LE GESTE — fond crème (respiration) ════ */}
+        <section className="section section-geste bg-cream" aria-labelledby="geste-heading">
           <div className="container">
             <div className="geste-steps" aria-hidden="true">
               <div className="geste-step">
-                <div className="geste-step-icon">🍯</div>
+                <div className="geste-step-hex">
+                  <Alveole size={60} filled={false} stroke="rgba(169,116,15,0.5)" />
+                  <span className="geste-step-emoji">🍯</span>
+                </div>
                 <span className="geste-step-label">Une portion</span>
               </div>
-              <span className="geste-arrow" aria-hidden="true">→</span>
+              <span className="geste-arrow">→</span>
               <div className="geste-step">
-                <div className="geste-step-icon">💧</div>
+                <div className="geste-step-hex">
+                  <Alveole size={60} filled={false} stroke="rgba(169,116,15,0.5)" />
+                  <span className="geste-step-emoji">💧</span>
+                </div>
                 <span className="geste-step-label">Un verre d'eau</span>
               </div>
-              <span className="geste-arrow" aria-hidden="true">→</span>
+              <span className="geste-arrow">→</span>
               <div className="geste-step">
-                <div className="geste-step-icon">✓</div>
+                <div className="geste-step-hex">
+                  <Alveole size={60} filled={false} stroke="rgba(169,116,15,0.5)" />
+                  <span className="geste-step-emoji">✓</span>
+                </div>
                 <span className="geste-step-label">C'est tout</span>
               </div>
             </div>
-            <h2 id="geste-heading">Une portion. Un verre d'eau. C'est tout.</h2>
-            <p>
+            <h2 id="geste-heading" className="section-title">Une portion. Un verre d'eau. C'est tout.</h2>
+            <p className="section-text">
               Un miel pur qui se fond dans l'eau fraîche.
               Le geste se fait en quelques secondes, où que tu sois.
             </p>
           </div>
         </section>
 
-        {/* ── L'ORIGINE ── */}
-        <section className="section-origine" aria-labelledby="origine-heading">
+        {/* ════ L'ORIGINE — fond émeraude velours (premium) ════ */}
+        <section className="section section-origine bg-velvet" aria-labelledby="origine-heading">
           <div className="container">
-            <div className="origine-seal" aria-hidden="true">
-              <div className="seal-inner">Miel<br/>pur<br/>France</div>
-            </div>
-            <h2 id="origine-heading">Du vrai miel. Rien d'autre.</h2>
-            <p>
+            <Alveole size={86} className="origine-seal" />
+            <p className="section-eyebrow">L'origine</p>
+            <h2 id="origine-heading" className="section-title">Du vrai miel. Rien d'autre.</h2>
+            <p className="section-text">
               Un miel pur, français, d'origine tracée, jamais chauffé.
               Choisi avec soin, parce que ce geste mérite mieux que du frelaté.
             </p>
             <ul className="origine-points" role="list">
-              <li><span className="point-icon" aria-hidden="true">◆</span>Origine tracée</li>
-              <li><span className="point-icon" aria-hidden="true">◆</span>Jamais chauffé</li>
-              <li><span className="point-icon" aria-hidden="true">◆</span>Producteurs français</li>
-              <li><span className="point-icon" aria-hidden="true">◆</span>Pur miel</li>
+              <li><HexBullet />Origine tracée</li>
+              <li><HexBullet />Jamais chauffé</li>
+              <li><HexBullet />Producteurs français</li>
+              <li><HexBullet />Pur miel</li>
             </ul>
           </div>
         </section>
 
-        {/* ── FORMULAIRE ── */}
-        <section className="section-form" id="formulaire" aria-labelledby="form-heading">
+        {/* ════ FORMULAIRE — fond crème (conversion) ════ */}
+        <section className="section section-form bg-cream" id="formulaire" aria-labelledby="form-heading">
           <div className="container">
             {formState !== 'success' ? (
               <>
                 <div className="form-header">
-                  <p className="form-eyebrow">Lancement bientôt</p>
-                  <h2 id="form-heading">Sois prévenu en premier.</h2>
+                  <p className="section-eyebrow">Lancement bientôt</p>
+                  <h2 id="form-heading" className="section-title">Sois prévenu au lancement.</h2>
                 </div>
 
-                <form onSubmit={handleSubmit} noValidate aria-describedby="consent-text" style={{ width: '100%' }}>
+                <form onSubmit={handleSubmit} noValidate aria-describedby="consent-text">
                   <div className="field-group">
                     <label htmlFor="email-input">Ton email</label>
                     <input
@@ -273,7 +317,7 @@ export default function App() {
               </>
             ) : (
               <div className="form-success" role="status">
-                <div className="success-mark" aria-hidden="true">◈</div>
+                <Alveole size={64} className="success-seal" />
                 <div>
                   <h3>C'est noté.</h3>
                   <p>On te prévient au lancement. À très vite.</p>
@@ -283,16 +327,18 @@ export default function App() {
           </div>
         </section>
 
-        {/* ── QUESTIONNAIRE ── */}
+        {/* ════ QUESTIONNAIRE — fond émeraude ════ */}
         {formState === 'success' && !surveyDone && (
           <section
-            className="section-survey"
+            className="section section-survey bg-emerald"
             aria-labelledby="survey-heading"
             ref={surveyRef}
             tabIndex={-1}
           >
             <div className="container">
-              <h2 id="survey-heading">Une dernière chose ?</h2>
+              <h2 id="survey-heading" className="section-title" style={{ color: 'var(--cream)' }}>
+                Une dernière chose ?
+              </h2>
               <p className="survey-sub">30 secondes pour nous aider à faire mieux.</p>
 
               <form onSubmit={handleSurveySubmit}>
@@ -349,7 +395,7 @@ export default function App() {
         )}
 
         {surveyDone && (
-          <section className="section-survey-done" aria-live="polite">
+          <section className="section-survey-done bg-emerald" aria-live="polite">
             <div className="container">
               <p className="survey-thanks">Merci. À très vite.</p>
             </div>
@@ -359,7 +405,9 @@ export default function App() {
 
       <footer role="contentinfo">
         <div className="container">
-          <p className="footer-logo" aria-label="Lédjé">Lédjé</p>
+          <Alveole size={40} className="footer-seal" />
+          <p className="footer-name">Lédjé</p>
+          <p className="footer-tagline">Parmi les bienfaits de ce bas monde</p>
           <p className="legal">Le miel est déconseillé aux enfants de moins d'un an.</p>
           <p className="footer-copy">© {new Date().getFullYear()}</p>
         </div>

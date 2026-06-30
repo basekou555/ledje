@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#3a2a10"/>
-  <text x="16" y="23" text-anchor="middle" font-size="18" fill="#c8a84b" font-family="Georgia, serif">L</text>
+  <rect width="32" height="32" rx="8" fill="#2E6B4F"/>
+  <!-- Alvéole: hexagone contour or + cellule centrale -->
+  <path d="M16 5 L25 10.5 L25 21.5 L16 27 L7 21.5 L7 10.5 Z" fill="none" stroke="#E8B65C" stroke-width="1.4"/>
+  <path d="M16 12 L20 14.5 L20 19.5 L16 22 L12 19.5 L12 14.5 Z" fill="#E8B65C"/>
 </svg>
