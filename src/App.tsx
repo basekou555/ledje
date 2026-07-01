@@ -210,7 +210,7 @@ export default function App() {
           <div className="hero-content">
             <Alveole size={64} className="hero-seal" />
             <p className="hero-quote">
-              « Le Prophète ﷺ buvait le miel mêlé à l'eau fraîche. »
+              « Ce que la tradition nous a laissé de meilleur. »
             </p>
             <h1 id="hero-heading">
               Un geste de notre tradition,<br />remis au goût du jour.
