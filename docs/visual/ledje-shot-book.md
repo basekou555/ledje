@@ -41,9 +41,9 @@ Sauf mention contraire, toutes les fiches appliquent **DA-01, DA-03, DA-04** ; *
 | ID | Ancien | Nom | ⭐ | P | Mission | Sujet / Action | Recette | Contraintes / Notes |
 |---|---|---|---|---|---|---|---|---|
 | ATT-01 | H01 | La Rencontre | ⭐ | P1 | L'image signature — la transformation qui arrête le scroll | La goutte/perle de miel touche l'eau, l'instant de la dissolution qui commence | SUJ-03 / DEC-00 / CAM-02 / LIGHT-02 / MAT-03 / COMP-01 / ACT-02 / EMO-01 | Le plan le plus important du set. Émeraude en accent, pas en fond plein. |
-| ATT-02 | B01 | Le Shake | ⭐ | P2 | Le geste signature de la bouteille, le teaser phase 2 | Main qui secoue la bouteille, miel qui se mélange | SUJ-04 / DEC-03 / CAM-01 / LIGHT-02 / MAT-01 / COMP-01 / ACT-07 / EMO-03 | ⚠️ Bouteille = communication anticipée uniquement (SOT §1.4), jamais présentée comme achetable. Spec verrouillée dans master-prompt. |
-| ATT-03 | B02 | La Fraîcheur | | P2 | L'envie immédiate | Bouteille perlée de condensation, posée dehors | SUJ-04 / DEC-03 / CAM-02 / LIGHT-02 / MAT-01 / COMP-01 / ACT-01 / EMO-01 | ⚠️ Idem ATT-02. Pas de cuisine/frigo (décor exclu). |
-| ATT-04 | B03 | Portrait bouteille | | P2 | Le packshot d'annonce | Bouteille de face, étiquette émeraude lisible | SUJ-04 / DEC-00 / CAM-05 / LIGHT-03 / MAT-02 / COMP-03 / — / — | ⚠️ Idem ATT-02. |
+| ATT-02 | B01 | Le Shake | ⭐ | P2 | Le geste signature de la bouteille | Main qui secoue la bouteille, miel qui se mélange | SUJ-04 / DEC-03 / CAM-01 / LIGHT-02 / MAT-01 / COMP-01 / ACT-07 / EMO-03 | Rendu : vrai produit fini, photographié comme réel (jamais un mockup). Spec verrouillée dans master-prompt. Note d'usage (pas visuelle) : phase 2 sur le site, cf. SOT §1.4. |
+| ATT-03 | B02 | La Fraîcheur | | P2 | L'envie immédiate | Bouteille perlée de condensation, posée dehors | SUJ-04 / DEC-03 / CAM-02 / LIGHT-02 / MAT-01 / COMP-01 / ACT-01 / EMO-01 | Rendu produit réel. Pas de cuisine/frigo (décor exclu). Note d'usage : phase 2 (SOT §1.4). |
+| ATT-04 | B03 | Portrait bouteille | | P2 | Le packshot produit | Bouteille de face, étiquette émeraude lisible | SUJ-04 / DEC-00 / CAM-05 / LIGHT-03 / MAT-02 / COMP-03 / — / — | Packshot d'un vrai produit fini, crédible. Note d'usage : phase 2 (SOT §1.4). |
 
 ## EXPLIQUER
 

@@ -28,7 +28,7 @@ Quand Basekou demande de compiler un shot :
 | SUJ-01 | La perle (le miel) | La portion de miel comme héros : forme géométrique simple, ambre chaud. | portion | CAM-02 macro, MAT-03 |
 | SUJ-02 | L'eau / le verre | Le verre d'eau, le rituel prêt ou en cours — l'eau comme héros (pureté, transparence, quotidien). | portion | selon décor lifestyle |
 | SUJ-03 | La rencontre | Miel + eau ensemble, le cœur du récit : le moment de la dissolution. | portion | CAM-02 macro, ACT-02, MAT-03 |
-| SUJ-04 | La bouteille | La bouteille prête-à-boire. ⚠️ Communication anticipée uniquement (phase 2, SOT §1.4) — jamais présentée comme achetable. Spec verrouillée dans master-prompt. | bottle | — |
+| SUJ-04 | La bouteille | La bouteille prête-à-boire, **rendue comme un vrai produit fini** (photographie produit crédible, jamais un mockup / render 3D / concept). Spec verrouillée dans master-prompt. Note d'usage (pas une contrainte visuelle) : sur le site, la bouteille reste en phase 2 (SOT §1.4) — c'est l'usage/copy qui l'encadre, pas l'apparence de l'image. | bottle | — |
 | SUJ-05 | Le packaging | L'objet commercial (packaging/coffret/étiquette). | pack | DEC-00, COMP-03, pas d'ACT/EMO |
 
 Notation dans une Recette : en tête, ex. `SUJ-03 / DEC-00 / CAM-02 / ...`.
