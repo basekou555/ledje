@@ -19,6 +19,23 @@ Quand Basekou demande de compiler un shot :
 
 ---
 
+## SUJET (SUJ) — le héros physique de l'image
+
+*Ajouté en v1.2 à la demande de Basekou, comme **premier** paramètre. Répond à la question "qu'est-ce que je regarde ?" — à ne pas confondre avec ACT ("qu'est-ce qui bouge ?") : le geste reste dans ACT. Cohérent avec `ledje-visual-language.md` : les héros sont le miel, l'eau, leur rencontre — le produit seul n'est jamais le héros. SUJET absorbe l'ancien champ "produit" implicite : c'est lui qui pilote le bloc PRODUCT du prompt et déclenche les contraintes associées.*
+
+| ID | Sujet | Cahier des charges fixe | Produit (bloc PRODUCT) | Défauts appelés |
+|---|---|---|---|---|
+| SUJ-01 | La perle (le miel) | La portion de miel comme héros : forme géométrique simple, ambre chaud. | portion | CAM-02 macro, MAT-03 |
+| SUJ-02 | L'eau / le verre | Le verre d'eau, le rituel prêt ou en cours — l'eau comme héros (pureté, transparence, quotidien). | portion | selon décor lifestyle |
+| SUJ-03 | La rencontre | Miel + eau ensemble, le cœur du récit : le moment de la dissolution. | portion | CAM-02 macro, ACT-02, MAT-03 |
+| SUJ-04 | La bouteille | La bouteille prête-à-boire. ⚠️ Communication anticipée uniquement (phase 2, SOT §1.4) — jamais présentée comme achetable. Spec verrouillée dans master-prompt. | bottle | — |
+| SUJ-05 | Le packaging | L'objet commercial (packaging/coffret/étiquette). | pack | DEC-00, COMP-03, pas d'ACT/EMO |
+
+Notation dans une Recette : en tête, ex. `SUJ-03 / DEC-00 / CAM-02 / ...`.
+Règle de cohérence : SUJ-04 (bouteille) force la mention "communication anticipée" ; SUJ-05 (packaging) appelle un traitement packshot (DEC-00, COMP-03, sans action ni émotion humaine).
+
+---
+
 ## DÉCOR (DEC)
 
 Chaque décor est un "set" fixe — les mêmes objets, le même monde, à chaque fois qu'il est convoqué (cohérent avec `ledje-visual-language.md` : *"la répétition crée l'identité"*).

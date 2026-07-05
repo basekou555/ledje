@@ -32,7 +32,7 @@ Sauf mention contraire, toutes les fiches appliquent **DA-01, DA-03, DA-04** ; *
 
 ## Structure d'une fiche
 
-`ID` · `Nom` · `⭐ Iconique ?` · `P (priorité)` · `Mission du shot` · `Sujet/Action (le delta narratif)` · `Recette (IDs de ledje-prompt-library.md : décor, caméra, lumière, matières, composition, action, émotion, + props)` · `Contraintes/Notes`. Le champ **Prompt** de chaque fiche vit dans l'annexe "Prompts compilés" en fin de document (vide au départ, rempli au fil des validations). Tout ce qui est invariant reste dans `master-prompt.md`.
+`ID` · `Nom` · `⭐ Iconique ?` · `P (priorité)` · `Mission du shot` · `Sujet/Action (le delta narratif)` · `Recette (IDs de ledje-prompt-library.md : sujet, décor, caméra, lumière, matières, composition, action, émotion, + props)` · `Contraintes/Notes`. La Recette commence par le **SUJET** (SUJ, le héros physique — c'est lui qui pilote le bloc PRODUCT du prompt), puis décor, caméra, lumière, matières, composition, action, émotion, puis les props. Le champ **Prompt** de chaque fiche vit dans l'annexe "Prompts compilés" en fin de document (vide au départ, rempli au fil des validations). Tout ce qui est invariant reste dans `master-prompt.md`.
 
 ---
 
@@ -40,62 +40,62 @@ Sauf mention contraire, toutes les fiches appliquent **DA-01, DA-03, DA-04** ; *
 
 | ID | Ancien | Nom | ⭐ | P | Mission | Sujet / Action | Recette | Contraintes / Notes |
 |---|---|---|---|---|---|---|---|---|
-| ATT-01 | H01 | La Rencontre | ⭐ | P1 | L'image signature — la transformation qui arrête le scroll | La goutte/perle de miel touche l'eau, l'instant de la dissolution qui commence | DEC-00 / CAM-02 / LIGHT-02 / MAT-03 / COMP-01 / ACT-02 / EMO-01 | Le plan le plus important du set. Émeraude en accent, pas en fond plein. |
-| ATT-02 | B01 | Le Shake | ⭐ | P2 | Le geste signature de la bouteille, le teaser phase 2 | Main qui secoue la bouteille, miel qui se mélange | DEC-03 / CAM-01 / LIGHT-02 / MAT-01 / COMP-01 / ACT-07 / EMO-03 | ⚠️ Bouteille = communication anticipée uniquement (SOT §1.4), jamais présentée comme achetable. Spec verrouillée dans master-prompt. |
-| ATT-03 | B02 | La Fraîcheur | | P2 | L'envie immédiate | Bouteille perlée de condensation, posée dehors | DEC-03 / CAM-02 / LIGHT-02 / MAT-01 / COMP-01 / ACT-01 / EMO-01 | ⚠️ Idem ATT-02. Pas de cuisine/frigo (décor exclu). |
-| ATT-04 | B03 | Portrait bouteille | | P2 | Le packshot d'annonce | Bouteille de face, étiquette émeraude lisible | DEC-00 / CAM-05 / LIGHT-03 / MAT-02 / COMP-03 / — / — | ⚠️ Idem ATT-02. |
+| ATT-01 | H01 | La Rencontre | ⭐ | P1 | L'image signature — la transformation qui arrête le scroll | La goutte/perle de miel touche l'eau, l'instant de la dissolution qui commence | SUJ-03 / DEC-00 / CAM-02 / LIGHT-02 / MAT-03 / COMP-01 / ACT-02 / EMO-01 | Le plan le plus important du set. Émeraude en accent, pas en fond plein. |
+| ATT-02 | B01 | Le Shake | ⭐ | P2 | Le geste signature de la bouteille, le teaser phase 2 | Main qui secoue la bouteille, miel qui se mélange | SUJ-04 / DEC-03 / CAM-01 / LIGHT-02 / MAT-01 / COMP-01 / ACT-07 / EMO-03 | ⚠️ Bouteille = communication anticipée uniquement (SOT §1.4), jamais présentée comme achetable. Spec verrouillée dans master-prompt. |
+| ATT-03 | B02 | La Fraîcheur | | P2 | L'envie immédiate | Bouteille perlée de condensation, posée dehors | SUJ-04 / DEC-03 / CAM-02 / LIGHT-02 / MAT-01 / COMP-01 / ACT-01 / EMO-01 | ⚠️ Idem ATT-02. Pas de cuisine/frigo (décor exclu). |
+| ATT-04 | B03 | Portrait bouteille | | P2 | Le packshot d'annonce | Bouteille de face, étiquette émeraude lisible | SUJ-04 / DEC-00 / CAM-05 / LIGHT-03 / MAT-02 / COMP-03 / — / — | ⚠️ Idem ATT-02. |
 
 ## EXPLIQUER
 
 | ID | Ancien | Nom | ⭐ | P | Mission | Sujet / Action | Recette | Contraintes / Notes |
 |---|---|---|---|---|---|---|---|---|
-| EXP-01 | G01 | Prendre | | P1 | Ouvrir la séquence du geste | Main saisit la portion de miel | DEC-00 / CAM-01 / LIGHT-01 / MAT-01 / COMP-01 / ACT-03 / EMO-01 | |
-| EXP-02 | H03 | Le Geste | | P1 | Montrer l'action, pas l'objet | Main qui verse ou dépose la portion dans l'eau | DEC-00 / CAM-01 / LIGHT-01 / MAT-01 / COMP-01 / ACT-01 / EMO-01 | |
-| EXP-03 | G02 | La Dissolution | ⭐ | P1 | Le fonctionnement, moment signature | Le miel se diffuse dans l'eau, façon infusion de thé — pas d'effervescence, eau qui reste limpide | DEC-00 / CAM-02 / LIGHT-01 / MAT-03 / COMP-01 / ACT-02 / EMO-01 | Lié à ATT-01, angle différent. Le plan le plus "produit" du set. |
+| EXP-01 | G01 | Prendre | | P1 | Ouvrir la séquence du geste | Main saisit la portion de miel | SUJ-01 / DEC-00 / CAM-01 / LIGHT-01 / MAT-01 / COMP-01 / ACT-03 / EMO-01 | |
+| EXP-02 | H03 | Le Geste | | P1 | Montrer l'action, pas l'objet | Main qui verse ou dépose la portion dans l'eau | SUJ-03 / DEC-00 / CAM-01 / LIGHT-01 / MAT-01 / COMP-01 / ACT-01 / EMO-01 | |
+| EXP-03 | G02 | La Dissolution | ⭐ | P1 | Le fonctionnement, moment signature | Le miel se diffuse dans l'eau, façon infusion de thé — pas d'effervescence, eau qui reste limpide | SUJ-03 / DEC-00 / CAM-02 / LIGHT-01 / MAT-03 / COMP-01 / ACT-02 / EMO-01 | Lié à ATT-01, angle différent. Le plan le plus "produit" du set. |
 
 ## PROUVER
 
 | ID | Ancien | Nom | ⭐ | P | Mission | Sujet / Action | Recette | Contraintes / Notes |
 |---|---|---|---|---|---|---|---|---|
-| PRV-01 | D01 | Le Lin | | P2 | La matière comme personnage | Verre posé sur lin froissé, une ombre traverse | DEC-00 / CAM-02 / LIGHT-01 / MAT-01 / COMP-01 / ACT-05 / EMO-02 | L'ombre = la trace de mouvement. |
-| PRV-02 | D02 | La Pierre | | P2 | La minéralité, le socle | Goutte d'eau qui glisse sur du calcaire, verre en amorce | DEC-00 / CAM-02 / LIGHT-02 / MAT-01 / COMP-01 / ACT-01 / EMO-02 | |
-| PRV-03 | D03 | L'Ambre | | P2 | La lumière dans le miel, la qualité de la matière | Filet de miel traversé par la lumière | DEC-00 / CAM-02 / LIGHT-02 / MAT-03 / COMP-01 / ACT-02 / EMO-01 | |
-| PRV-04 | D04 | L'Alvéole | | P2 | Le symbole, en discrétion | L'hexagone embossé sur papier texturé ou céramique | DEC-00 / CAM-02 / LIGHT-03 / MAT-01 / COMP-03 / — / — | Présence discrète, jamais systématique (cf. master-prompt). |
-| PRV-05 | P01 | L'Eau reste claire | | P2 | La dissolution propre, montrée pas dite | Verre en pleine dissolution, limpidité visible | DEC-00 / CAM-02 / LIGHT-03 / MAT-03 / COMP-01 / ACT-02 / EMO-01 | Proche d'EXP-03 — arbitrer à la production (peut devenir un recadrage d'EXP-03 validé). |
-| PRV-06 | P02 | La Portion nue | | P2 | Le produit tel qu'il est, honnête | Portion posée dans une main ouverte | DEC-00 / CAM-02 / LIGHT-01 / MAT-03 / COMP-03 / ACT-03 / EMO-01 | DA-02 strict. Forme générique tant que format non confirmé. |
-| PRV-07 | P03 | Deux ingrédients | | P2 | La simplicité de la composition | Portion et verre d'eau côte à côte, geste amorcé | DEC-00 / CAM-01 / LIGHT-03 / MAT-01 / COMP-02 / ACT-01 / EMO-01 | Rappel conformité SOT §2.5 : preuve visuelle et factuelle, jamais un argument santé. Aucun texte "sans X". |
-| PRV-08 | EC04 | Dos / étiquette | | P2 | La transparence — les informations | Packaging de dos | DEC-00 / CAM-05 / LIGHT-03 / MAT-01 ou MAT-02 / COMP-03 / — / — | |
-| PRV-09 | EC05 | Macro étiquette | | P2 | Le soin du détail | Détail de l'étiquette émeraude, typographie Fraunces or | DEC-00 / CAM-02 / LIGHT-03 / MAT-02 / COMP-03 / — / — | |
+| PRV-01 | D01 | Le Lin | | P2 | La matière comme personnage | Verre posé sur lin froissé, une ombre traverse | SUJ-02 / DEC-00 / CAM-02 / LIGHT-01 / MAT-01 / COMP-01 / ACT-05 / EMO-02 | L'ombre = la trace de mouvement. |
+| PRV-02 | D02 | La Pierre | | P2 | La minéralité, le socle | Goutte d'eau qui glisse sur du calcaire, verre en amorce | SUJ-02 / DEC-00 / CAM-02 / LIGHT-02 / MAT-01 / COMP-01 / ACT-01 / EMO-02 | |
+| PRV-03 | D03 | L'Ambre | | P2 | La lumière dans le miel, la qualité de la matière | Filet de miel traversé par la lumière | SUJ-01 / DEC-00 / CAM-02 / LIGHT-02 / MAT-03 / COMP-01 / ACT-02 / EMO-01 | |
+| PRV-04 | D04 | L'Alvéole | | P2 | Le symbole, en discrétion | L'hexagone embossé sur papier texturé ou céramique | SUJ-05 / DEC-00 / CAM-02 / LIGHT-03 / MAT-01 / COMP-03 / — / — | Présence discrète, jamais systématique (cf. master-prompt). |
+| PRV-05 | P01 | L'Eau reste claire | | P2 | La dissolution propre, montrée pas dite | Verre en pleine dissolution, limpidité visible | SUJ-03 / DEC-00 / CAM-02 / LIGHT-03 / MAT-03 / COMP-01 / ACT-02 / EMO-01 | Proche d'EXP-03 — arbitrer à la production (peut devenir un recadrage d'EXP-03 validé). |
+| PRV-06 | P02 | La Portion nue | | P2 | Le produit tel qu'il est, honnête | Portion posée dans une main ouverte | SUJ-01 / DEC-00 / CAM-02 / LIGHT-01 / MAT-03 / COMP-03 / ACT-03 / EMO-01 | DA-02 strict. Forme générique tant que format non confirmé. |
+| PRV-07 | P03 | Deux ingrédients | | P2 | La simplicité de la composition | Portion et verre d'eau côte à côte, geste amorcé | SUJ-03 / DEC-00 / CAM-01 / LIGHT-03 / MAT-01 / COMP-02 / ACT-01 / EMO-01 | Rappel conformité SOT §2.5 : preuve visuelle et factuelle, jamais un argument santé. Aucun texte "sans X". |
+| PRV-08 | EC04 | Dos / étiquette | | P2 | La transparence — les informations | Packaging de dos | SUJ-05 / DEC-00 / CAM-05 / LIGHT-03 / MAT-01 ou MAT-02 / COMP-03 / — / — | |
+| PRV-09 | EC05 | Macro étiquette | | P2 | Le soin du détail | Détail de l'étiquette émeraude, typographie Fraunces or | SUJ-05 / DEC-00 / CAM-02 / LIGHT-03 / MAT-02 / COMP-03 / — / — | |
 
 ## PROJETER
 
 | ID | Ancien | Nom | ⭐ | P | Mission | Sujet / Action | Recette | Contraintes / Notes |
 |---|---|---|---|---|---|---|---|---|
-| PRJ-01 | H02 | Le Premier Rituel | | P1 | Poser l'ambiance quotidienne | Une main s'approche du verre, lumière du matin | DEC-01 / CAM-01 / LIGHT-01 / MAT-01 / COMP-02 / ACT-01 / EMO-01 | |
-| PRJ-02 | H04 | Le Quotidien | | P1 | Ancrer dans une vraie vie, pas un studio | Le verre posé dans un décor de vie habité | DEC-02 ou DEC-03 / CAM-04 / LIGHT-01 / MAT-01 / COMP-02 / ACT-01 / EMO-03 | Béton/ville discret en fond si DEC-03. |
-| PRJ-03 | Q01 | La Pause bureau | | P2 | Le rituel au milieu du travail | Le verre posé près de l'ordinateur, une main quitte le clavier | DEC-02 / CAM-01 / LIGHT-01 / MAT-01 / COMP-02 / ACT-01 / EMO-03 + PRP-06, PRP-09 | Jamais une scène de productivité extrême. |
-| PRJ-04 | Q02 | Le Banc | | P2 | Le rituel dehors, la vraie ville | Silhouette assise de dos ou de profil, verre à la main | DEC-03 / CAM-04 / LIGHT-02 / MAT-01 / COMP-02 / ACT-03 / EMO-02 + PRP-11 (option) | Béton assumé, verdure discrète. |
-| PRJ-05 | Q03 | Le Balcon du soir | | P2 | La respiration de fin de journée | Verre porté aux lèvres, ville floutée en fond | DEC-04 / CAM-01 / LIGHT-02 / MAT-01 / COMP-02 / ACT-06 / EMO-02 | Héritier d'INV-01 (même geste, lieu/moment précis). |
-| PRJ-06 | Q04 | La Table du week-end | | P2 | La vie de famille, sans mise en scène | La table après le petit-déjeuner, portion posée près d'un verre | DEC-01 / CAM-03 / LIGHT-01 / MAT-01 / COMP-02 / ACT-01 / EMO-03 + PRP-01, PRP-10 | Le jouet en bois dit la famille sans montrer d'enfant. |
+| PRJ-01 | H02 | Le Premier Rituel | | P1 | Poser l'ambiance quotidienne | Une main s'approche du verre, lumière du matin | SUJ-02 / DEC-01 / CAM-01 / LIGHT-01 / MAT-01 / COMP-02 / ACT-01 / EMO-01 | |
+| PRJ-02 | H04 | Le Quotidien | | P1 | Ancrer dans une vraie vie, pas un studio | Le verre posé dans un décor de vie habité | SUJ-02 / DEC-02 ou DEC-03 / CAM-04 / LIGHT-01 / MAT-01 / COMP-02 / ACT-01 / EMO-03 | Béton/ville discret en fond si DEC-03. |
+| PRJ-03 | Q01 | La Pause bureau | | P2 | Le rituel au milieu du travail | Le verre posé près de l'ordinateur, une main quitte le clavier | SUJ-02 / DEC-02 / CAM-01 / LIGHT-01 / MAT-01 / COMP-02 / ACT-01 / EMO-03 + PRP-06, PRP-09 | Jamais une scène de productivité extrême. |
+| PRJ-04 | Q02 | Le Banc | | P2 | Le rituel dehors, la vraie ville | Silhouette assise de dos ou de profil, verre à la main | SUJ-02 / DEC-03 / CAM-04 / LIGHT-02 / MAT-01 / COMP-02 / ACT-03 / EMO-02 + PRP-11 (option) | Béton assumé, verdure discrète. |
+| PRJ-05 | Q03 | Le Balcon du soir | | P2 | La respiration de fin de journée | Verre porté aux lèvres, ville floutée en fond | SUJ-02 / DEC-04 / CAM-01 / LIGHT-02 / MAT-01 / COMP-02 / ACT-06 / EMO-02 | Héritier d'INV-01 (même geste, lieu/moment précis). |
+| PRJ-06 | Q04 | La Table du week-end | | P2 | La vie de famille, sans mise en scène | La table après le petit-déjeuner, portion posée près d'un verre | SUJ-02 / DEC-01 / CAM-03 / LIGHT-01 / MAT-01 / COMP-02 / ACT-01 / EMO-03 + PRP-01, PRP-10 | Le jouet en bois dit la famille sans montrer d'enfant. |
 
 ## INVITER
 
 | ID | Ancien | Nom | ⭐ | P | Mission | Sujet / Action | Recette | Contraintes / Notes |
 |---|---|---|---|---|---|---|---|---|
-| INV-01 | G03 | La Dégustation | | P1 | Montrer l'usage complet | Verre porté à la bouche, visage hors champ, belle couleur ambre dans le verre | DEC-01 ou DEC-03 / CAM-01 / LIGHT-02 / MAT-01 / COMP-02 / ACT-06 / EMO-03 | |
-| INV-02 | EC01 | Face | | P1 | Fiche produit — vue principale | Packaging de face | DEC-00 / CAM-05 / LIGHT-03 / MAT-01 ou MAT-02 / COMP-03 / — / — | Fond crème ou émeraude selon test (cf. MAT-02). |
-| INV-03 | EC02 | 45° | | P1 | Fiche produit — volume | Packaging en angle | DEC-00 / CAM-06 / LIGHT-03 / MAT-01 ou MAT-02 / COMP-03 / — / — | |
-| INV-04 | EC03 | Packaging ouvert | | P1 | Montrer le contenu | Packaging ouvert, portion(s) visible(s) | DEC-00 / CAM-05 ou CAM-06 / LIGHT-03 / MAT-01 ou MAT-02 / COMP-03 / ACT-04 / — | |
-| INV-05 | EC06 | Le Lot | | P2 | Vendre le multipack | Plusieurs unités alignées | DEC-00 / CAM-06 / LIGHT-03 / MAT-01 ou MAT-02 / COMP-03 / — / — | |
-| INV-06 | EC07 | À plat | | P2 | Vue d'ensemble du coffret | Coffret ouvert vu de dessus, portions rangées | DEC-00 / CAM-03 / LIGHT-03 / MAT-01 / COMP-03 / ACT-04 / — | |
-| INV-07 | EC08 | En situation | | P2 | Le pont entre packshot et lifestyle | Packaging posé sur la table à manger, geste en amorce | DEC-01 / CAM-01 / LIGHT-01 / MAT-01 / COMP-02 / ACT-01 / — | |
+| INV-01 | G03 | La Dégustation | | P1 | Montrer l'usage complet | Verre porté à la bouche, visage hors champ, belle couleur ambre dans le verre | SUJ-02 / DEC-01 ou DEC-03 / CAM-01 / LIGHT-02 / MAT-01 / COMP-02 / ACT-06 / EMO-03 | |
+| INV-02 | EC01 | Face | | P1 | Fiche produit — vue principale | Packaging de face | SUJ-05 / DEC-00 / CAM-05 / LIGHT-03 / MAT-01 ou MAT-02 / COMP-03 / — / — | Fond crème ou émeraude selon test (cf. MAT-02). |
+| INV-03 | EC02 | 45° | | P1 | Fiche produit — volume | Packaging en angle | SUJ-05 / DEC-00 / CAM-06 / LIGHT-03 / MAT-01 ou MAT-02 / COMP-03 / — / — | |
+| INV-04 | EC03 | Packaging ouvert | | P1 | Montrer le contenu | Packaging ouvert, portion(s) visible(s) | SUJ-05 / DEC-00 / CAM-05 ou CAM-06 / LIGHT-03 / MAT-01 ou MAT-02 / COMP-03 / ACT-04 / — | |
+| INV-05 | EC06 | Le Lot | | P2 | Vendre le multipack | Plusieurs unités alignées | SUJ-05 / DEC-00 / CAM-06 / LIGHT-03 / MAT-01 ou MAT-02 / COMP-03 / — / — | |
+| INV-06 | EC07 | À plat | | P2 | Vue d'ensemble du coffret | Coffret ouvert vu de dessus, portions rangées | SUJ-05 / DEC-00 / CAM-03 / LIGHT-03 / MAT-01 / COMP-03 / ACT-04 / — | |
+| INV-07 | EC08 | En situation | | P2 | Le pont entre packshot et lifestyle | Packaging posé sur la table à manger, geste en amorce | SUJ-05 / DEC-01 / CAM-01 / LIGHT-01 / MAT-01 / COMP-02 / ACT-01 / — | |
 
 ## CONCLURE
 
 | ID | Ancien | Nom | ⭐ | P | Mission | Sujet / Action | Recette | Contraintes / Notes |
 |---|---|---|---|---|---|---|---|---|
-| CON-01 | H05 | Le Calme | | P1 | L'émotion dominante, la dernière impression | Verre à moitié bu, personne dans le cadre, silhouette lointaine | DEC-04 / CAM-01 / LIGHT-02 / MAT-01 / COMP-02 / ACT-05 / EMO-02 | Le "après" — rarement montré par les marques de boisson. |
-| CON-02 | Q05 | Le Retour | | P2 | La boucle qui se referme | Une silhouette entre dans le cadre, le verre attend sur la table | DEC-04 / CAM-01 / LIGHT-02 / MAT-01 / COMP-02 / ACT-05 / EMO-02 | Frère de CON-01, au moment inverse. Hérite de sa recette validée. |
+| CON-01 | H05 | Le Calme | | P1 | L'émotion dominante, la dernière impression | Verre à moitié bu, personne dans le cadre, silhouette lointaine | SUJ-02 / DEC-04 / CAM-01 / LIGHT-02 / MAT-01 / COMP-02 / ACT-05 / EMO-02 | Le "après" — rarement montré par les marques de boisson. |
+| CON-02 | Q05 | Le Retour | | P2 | La boucle qui se referme | Une silhouette entre dans le cadre, le verre attend sur la table | SUJ-02 / DEC-04 / CAM-01 / LIGHT-02 / MAT-01 / COMP-02 / ACT-05 / EMO-02 | Frère de CON-01, au moment inverse. Hérite de sa recette validée. |
 
 ---
 
