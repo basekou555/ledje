@@ -21,7 +21,7 @@ Documents de référence (dans cet ordre de dépendance)
 1. `docs/LEDJE_SOURCE_OF_TRUTH.md` — déjà lu si tu as suivi l'instruction générale ci-dessus.
 2. `docs/visual/ledje-visual-language.md` — la constitution artistique.
 3. `docs/visual/ledje-master-prompt.md` — ce qui ne change jamais (produit, negative prompt, présence humaine, narrative, checklist).
-4. `docs/visual/ledje-prompt-library.md` — le catalogue d'options modulaires (décor, caméra, lumière, matières, composition, action, émotion) + les presets par catégorie de shot (Hero/Geste/Packshot).
+4. `docs/visual/ledje-prompt-library.md` — le catalogue d'options modulaires (décor, caméra, lumière, matières, composition, props, action, émotion) + les presets par catégorie de shot (Hero/Geste/Packshot).
 5. `docs/visual/ledje-shot-book.md` — la liste des shots, chacun avec sa recette d'IDs et son delta narratif spécifique.
 6. `docs/visual/ledje-asset-log.md` — l'historique des générations et ce qu'on en a appris.
 Ta mission quand Basekou te demande de "compiler" un shot

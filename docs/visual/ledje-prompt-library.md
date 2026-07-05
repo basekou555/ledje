@@ -78,6 +78,30 @@ Rappel non-négociable (DA-01, cf. master-prompt.md) : toujours naturelle, jamai
 
 ---
 
+## PROPS — indices de vie (PRP)
+
+*Ajoutés en v1.1 à la demande de Basekou. À ne pas confondre avec MATIÈRES (MAT), qui règle la palette et le dosage couleur : un prop est un petit objet qui rend l'image habitée. Un prop est toujours un **indice de vie, jamais le sujet** (cf. `ledje-visual-language.md`) et compte dans la règle des 3 éléments — d'où la limite : **0 à 2 props par image**, jamais en packshot.*
+
+| ID | Prop | Cahier des charges fixe | Décors compatibles |
+|---|---|---|---|
+| PRP-01 | Fruits de saison | Quelques fruits simples, posés naturellement — jamais une corbeille composée. | DEC-01 |
+| PRP-02 | Pain | Un pain rustique entamé ou quelques tranches. | DEC-01 |
+| PRP-03 | Dattes | Quelques dattes dans une petite coupelle en céramique — évocation subtile, jamais appuyée (SOT §2.5). | DEC-01 |
+| PRP-04 | Petit bouquet | Fleurs de saison discrètes, petit format. | DEC-01 |
+| PRP-05 | Carnet | Papier texturé, ouvert ou fermé, au plus un stylo posé dessus. | DEC-02, DEC-04 |
+| PRP-06 | Ordinateur portable | Fermé ou entrouvert, jamais d'écran lisible. | DEC-02 |
+| PRP-07 | Lunettes | Posées naturellement, branches ouvertes ou repliées. | DEC-02, DEC-04 |
+| PRP-08 | Casque audio | Posé, jamais porté. | DEC-02 |
+| PRP-09 | Téléphone | Posé à plat, écran éteint, légèrement à l'écart — dit "la pause", jamais la distraction. | DEC-02, DEC-03, DEC-04 |
+| PRP-10 | Jouet en bois | Petit jouet d'enfant en bois massif (cube, petite voiture) — indice d'une vie de famille. Jamais de plastique brillant (matière interdite). | DEC-01, DEC-04 |
+| PRP-11 | Livre | Ouvert retourné ou fermé, couverture sobre non lisible. | DEC-03, DEC-04 |
+
+Notation dans une Recette : ajoutés à la fin, ex. `... / EMO-03 + PRP-06, PRP-09`.
+Règles : max 2 props par image ; respecter les décors compatibles (cf. "Props contextuels par décor" dans `ledje-visual-language.md` — ne pas mélanger les mondes) ; jamais de prop en packshot (DEC-00 / COMP-03).
+Pour ajouter un prop au catalogue : le proposer via le bouton + de l'outil visuel ou directement à Claude — il est ajouté ici après un premier usage concluant.
+
+---
+
 ## ACTION (ACT)
 
 | ID | Nom |
