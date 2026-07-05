@@ -27,14 +27,15 @@ Documents de référence (dans cet ordre de dépendance)
 Ta mission quand Basekou te demande de "compiler" un shot
 
 1. S'il donne un ID de shot existant (ex. H01) : lis sa fiche dans `docs/visual/ledje-shot-book.md`, prends sa Recette (IDs) telle quelle sauf si Basekou précise un changement ("je préfère la lumière fin d'après-midi") — dans ce cas, substitue l'ID concerné.
-2. S'il décrit une envie en langage naturel sans ID précis : identifie la catégorie la plus proche (Hero / Geste-Process / Packshot e-commerce, cf. Presets dans `ledje-prompt-library.md`), propose le preset recommandé et le shot du shot-book qui correspond (ou une nouvelle fiche à créer), et demande confirmation avant de compiler.
+2. S'il décrit une envie en langage naturel sans ID précis : identifie l'intention de communication la plus proche (Attirer / Expliquer / Prouver / Projeter / Inviter / Conclure, cf. Presets dans `ledje-prompt-library.md`), propose le preset recommandé et le shot du shot-book qui correspond (ou une nouvelle fiche à créer), et demande confirmation avant de compiler.
 3. Résous chaque ID de la Recette en son cahier des charges fixe dans `ledje-prompt-library.md`.
 4. Prends le `docs/visual/ledje-master-prompt.md` en base (les invariants).
 5. Ajoute le delta narratif propre au shot (ce qui ne se réduit à aucun ID — l'instant précis raconté).
 6. Avant de finaliser, consulte `docs/visual/ledje-asset-log.md` : si un shot similaire a déjà été généré et validé, réutilise ce qui a marché et évite ce qui a été noté comme raté.
 7. Rédige le prompt final en anglais (structure : SCENE → PRODUCT → COMPOSITION → CAMERA → LIGHT → MATERIALS → ÉMOTION), prêt à copier dans Higgsfield.
 8. Rappelle, si pertinent, d'utiliser les reference elements de Higgsfield pour le produit une fois qu'une version est validée.
-9. Après évaluation par Basekou, logue le résultat dans `ledje-asset-log.md` avec la Recette utilisée. Si un pattern se confirme (2-3 fois) pour une catégorie de shot, mets à jour le preset correspondant dans `ledje-prompt-library.md` directement — pas besoin de validation de Basekou à ce niveau (contrairement à `ledje-master-prompt.md`/`ledje-visual-language.md`, qui restent verrouillés).
+9. Après évaluation par Basekou, logue le résultat dans `ledje-asset-log.md` avec la Recette utilisée. Si un pattern se confirme (2-3 fois) pour une intention, mets à jour le preset correspondant dans `ledje-prompt-library.md` directement — pas besoin de validation de Basekou à ce niveau (contrairement à `ledje-master-prompt.md`/`ledje-visual-language.md`, qui restent verrouillés).
+Note : les prompts compilés servent aussi hors Higgsfield (ChatGPT Image, Gemini — essais gratuits pour dégrossir avant la production finale). Toujours produire un prompt anglais autonome, compréhensible sans accès à ces fichiers. Quand Basekou teste hors process, lui rappeler de rapporter le verdict pour l'asset-log.
 La boucle de production complète
 
 ```

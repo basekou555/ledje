@@ -14,7 +14,7 @@ Un prompt de shot = `ledje-master-prompt.md` (lois de marque, invariant) + **une
 
 Quand Basekou demande de compiler un shot :
 1. S'il donne un ID de shot existant → appliquer le preset de sa catégorie (voir Presets ci-dessous), sauf s'il précise un changement ("je préfère la lumière fin d'après-midi").
-2. S'il décrit une envie en langage naturel sans ID précis → proposer la catégorie de shot la plus proche (Hero / Geste-Process / Packshot) + le preset recommandé, et demander confirmation avant de compiler.
+2. S'il décrit une envie en langage naturel sans ID précis → proposer l'intention la plus proche (Attirer / Expliquer / Prouver / Projeter / Inviter / Conclure) + le preset recommandé, et demander confirmation avant de compiler.
 3. Toujours vérifier `ledje-asset-log.md` avant de finaliser — si un pattern a été validé plusieurs fois, il doit déjà être remonté dans le preset ci-dessous (voir boucle d'apprentissage).
 
 ---
@@ -128,15 +128,20 @@ Rappel non-négociable (master-prompt.md, section Actions) : chaque image captur
 
 ---
 
-## Presets par catégorie de shot
+## Presets par intention de communication
 
-⚠️ **v1, hypothèse de départ — aucune génération n'a encore été validée dans `ledje-asset-log.md`.** Ces presets sont des recommandations de bon sens, pas des résultats prouvés. Dès qu'un choix est confirmé (validé 2-3 fois pour une catégorie), ce tableau est mis à jour directement — pas besoin de validation de Basekou pour ça (contrairement à `ledje-master-prompt.md`/`ledje-visual-language.md`, qui restent verrouillés).
+*(Le shot-book est organisé par intentions — Attirer / Expliquer / Prouver / Projeter / Inviter / Conclure, cf. `ledje-shot-book.md`. Chaque intention a son preset de départ.)*
 
-| Catégorie | Décor | Caméra | Lumière | Matières | Composition | Émotion |
+⚠️ **v1, hypothèse de départ — aucune génération n'a encore été validée dans `ledje-asset-log.md`.** Ces presets sont des recommandations de bon sens, pas des résultats prouvés. Dès qu'un choix est confirmé (validé 2-3 fois pour une intention), ce tableau est mis à jour directement — pas besoin de validation de Basekou pour ça (contrairement à `ledje-master-prompt.md`/`ledje-visual-language.md`, qui restent verrouillés).
+
+| Intention | Décor | Caméra | Lumière | Matières | Composition | Émotion |
 |---|---|---|---|---|---|---|
-| **Hero** (ambiance, narratif fort) | selon le shot | CAM-01 (CAM-02 pour un plan signature) | LIGHT-01 | MAT-01 | COMP-02 | EMO-01 ou EMO-02 |
-| **Geste / Process** (la transformation en train de se faire) | DEC-00 | CAM-02 | LIGHT-01 ou LIGHT-02 | MAT-03 | COMP-01 | EMO-01 |
-| **Packshot e-commerce** | DEC-00 | CAM-05 ou CAM-06 | LIGHT-03 | MAT-01 (MAT-02 en test) | COMP-03 | — (produit seul, pas d'émotion humaine) |
+| **Attirer** (l'émotion immédiate, arrêter le scroll) | selon le shot | CAM-02 | LIGHT-02 | MAT-03 | COMP-01 | EMO-01 |
+| **Expliquer** (le concept, le geste, le fonctionnement) | DEC-00 | CAM-02 | LIGHT-01 | MAT-03 | COMP-01 | EMO-01 |
+| **Prouver** (qualité, matières, transparence) | DEC-00 | CAM-02 | LIGHT-03 | MAT-01 | COMP-01 | EMO-01 |
+| **Projeter** (s'imaginer vivre le rituel) | selon le shot | CAM-01 | LIGHT-01 | MAT-01 | COMP-02 | EMO-03 |
+| **Inviter** (passer au geste, conversion) | DEC-00 | CAM-05 ou CAM-06 | LIGHT-03 | MAT-01 (MAT-02 en test) | COMP-03 | — (produit seul) |
+| **Conclure** (la dernière impression, calme) | DEC-04 | CAM-01 | LIGHT-02 | MAT-01 | COMP-02 | EMO-02 |
 
 ---
 
