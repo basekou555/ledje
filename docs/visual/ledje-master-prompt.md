@@ -101,4 +101,4 @@ Pour que ce document reste une référence fiable dans le temps et ne devienne p
 * Les préférences ponctuelles restent dans `shot-book.md`, jamais ici.
 * Toute modification de ce document est documentée dans `asset-log.md` avec sa justification.
 Comment ce document s'utilise
-Un prompt de shot = Master Prompt (ce fichier) + Shot Delta (fiche du shot-book.md). Claude Code peut cibler une section précise (ex. régénérer seulement en changeant Light) sans toucher au reste.
+Ce fichier ne couvre que ce qui ne change jamais (produit, negative prompt, priorité, présence humaine, narrative, checklist). Un prompt de shot complet = ce fichier (invariant) + une option par paramètre choisie dans `ledje-prompt-library.md` (décor, caméra, lumière, matières, composition, action, émotion — ou le preset par défaut de la catégorie du shot) + le delta narratif propre au shot dans `ledje-shot-book.md`. Claude Code peut cibler une section précise (ex. changer uniquement l'option Light) sans toucher au reste.
