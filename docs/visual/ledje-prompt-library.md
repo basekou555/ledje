@@ -112,6 +112,7 @@ Pour ajouter un prop au catalogue : le proposer via le bouton + de l'outil visue
 | ACT-04 | Opening (ouvrir) |
 | ACT-05 | Leaving / Returning (partir, revenir) |
 | ACT-06 | Drinking / Tasting (porter à la bouche, déguster) |
+| ACT-07 | Shaking (secouer — réservé à la bouteille, communication anticipée phase 2) |
 
 Rappel non-négociable (master-prompt.md, section Actions) : chaque image capture une transition, jamais un objet statique — même les shots d'ambiance (H04, H05) doivent porter la trace d'une action passée ou en cours.
 
