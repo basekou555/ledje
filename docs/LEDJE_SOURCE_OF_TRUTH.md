@@ -1,7 +1,7 @@
 # LÉDJÉ — SOURCE OF TRUTH
 > **Document central unique du projet Lédjé.** Toute personne ou IA qui travaille sur le projet part d'ici.
 > **RÈGLE ABSOLUE : en cas de contradiction entre la mémoire d'une session et ce document, le SOT gagne.**
-> Dernière mise à jour : 2026-07-02 (session valeurs/ICP/combat/prix).
+> Dernière mise à jour : 2026-07-05 (système visuel, sourcing exécuté, allégation nutritionnelle, revue stratégique, domaine/INPI).
 
 **Locations :**
 - Repo Git : `docs/LEDJE_SOURCE_OF_TRUTH.md` (source canonique)
@@ -87,8 +87,8 @@ Calcul réel du prix à faire dès les réponses fournisseurs (Partie 7) : coût
 - Racines ouest-africaines francophones — choix délibéré (pas arabe-centré) pour parler à toute la pluralité de la communauté.
 - Sonne comme « léger » : autorisé comme évocation sensorielle (goût léger et frais), **JAMAIS** comme positionnement diététique (« allégé / light / moins de sucre / minceur » = termes réglementés, interdits).
 - Prononciation canonique : « lé-djé ». Le verlan « ledge » toléré comme clin d'œil, jamais officiel.
-- Domaine **ledje.fr acheté chez OVH** (~18 €). Décision : ne pas renouveler à l'échéance (désactiver l'auto-renew). Pas de boîte mail pro pour l'instant (offre OVH sans mailbox ; Zoho payant ~10 €/an) → emails depuis Gmail perso, signature « Basekou — Fondateur, Lédjé ». Email pro = récompense de la traction.
-- Dépôt INPI (~190 €) : à faire plus tard, après signal de traction.
+- Domaine **ledje.fr acheté chez OVH** (~18 €). **Décision inversée (2026-07-05) : renouvellement maintenu** — le domaine sert la landing en production, la décision initiale "ne pas renouveler" était obsolète dès la connexion réelle du DNS. Pas de boîte mail pro pour l'instant (offre OVH sans mailbox ; Zoho payant ~10 €/an) → emails depuis Gmail perso, signature « Basekou — Fondateur, Lédjé ». Email pro = récompense de la traction.
+- **Dépôt INPI (~190-230 € selon classes) : différé pour raison budgétaire** (décision assumée, pas un oubli). Déclencheur de réexamen : au premier contenu TikTok public (le risque de dépôt par un tiers grandit avec la visibilité, pas avec le chiffre d'affaires) — à revisiter à ce moment, selon le budget disponible alors. Classes pertinentes identifiées : 30 (miel) impérative, 32 (boissons, pour la bouteille phase 2 — à inclure au même dépôt si possible, car impossible d'ajouter une classe après coup sans nouveau dépôt complet).
 
 ## 2.2 La signature
 
@@ -131,6 +131,14 @@ Chaleureux, fier, posé. On **élève**, on ne dénonce pas, on ne donne pas de 
 - **Registre spirituel par évocation, jamais par proclamation** : pas de symbole religieux explicite ni de citation sacrée sur support commercial.
 - **Mention obligatoire** sur tout produit réel : miel déconseillé aux enfants de moins d'un an.
 - Process : tout texte sortant (script, légende, page, étiquette) passe cette grille avant publication. Étape fixe.
+
+### 2.5bis Allégation nutritionnelle comparative (validée, régime légal différent — 2026-07-04)
+
+**« Moins de sucre qu'une boisson gazeuse classique » n'est PAS une allégation santé — c'est une allégation nutritionnelle**, régime distinct du CE 1924/2006 : porte sur un fait de composition mesurable, pas sur un effet corporel promis. Seuil légal : réduction ≥ 30 % vs un produit similaire pour employer "réduit en sucres".
+
+**Calcul de travail :** 2,5 c.à.c. de miel (~17,5 g, ~80 % sucres) dans 50 cl d'eau ≈ 14 g de sucres ≈ 2,8 g/100 mL, contre ~10-11 g/100 mL pour un soda classique → **réduction d'environ 70-75 %**, très largement au-dessus du seuil.
+
+**Conditions d'usage :** (1) comparer à une **catégorie générique** ("une boisson gazeuse classique"), jamais une marque nommée — cohérent avec la ligne rouge §1.3bis. (2) **Vérifier le chiffre sur le produit fini réel** (pas seulement le calcul théorique) avant toute publication — condition non encore remplie, en attente du produit confirmé (Partie 4/7). Formulation clean à date : *« Jusqu'à 4 fois moins de sucre qu'une boisson gazeuse classique »*.
 
 ---
 
@@ -186,16 +194,17 @@ Le vert = signature constante de marque. Chaque produit garde son monde ambre :
 
 ## 4.1 Produit de lancement
 
-**Portion / monodose de miel pur français** (15-20 g), à dissoudre dans l'eau fraîche.
+**Portion / monodose de miel pur français** (15-20 g), à dissoudre dans l'eau fraîche — statut actuel par défaut.
+**⚠️ La « perle de miel gravée » n'existe pas industriellement en France** (ultra-niche, White Lion aux US).
 
-**⚠️ La « perle de miel gravée » n'existe pas industriellement en France** (ultra-niche, White Lion aux US). Pour le test V0 : sourcer des **portions/monodoses standard**, pas la perle sculptée. La perle = développement sur-mesure ultérieur (signature produit potentielle).
+**🔄 Piste en cours d'exploration (2026-07-04, NON CONFIRMÉE) : bonbon à cœur de miel liquide, qui se dissout au secouage dans l'eau.** Comprendre cette piste comme la continuité naturelle de l'ambition initiale de la perle — pas un produit différent, mais une voie industrielle réelle trouvée là où la sphère gravée ne l'était pas. Fournisseur pilote pressenti : **Apior (Orléans)**, déjà en confiserie au miel. **Point de vigilance ouvert : la fabrication d'un bonbon implique généralement de chauffer le miel**, ce qui peut invalider l'argument "jamais chauffé" (§2.5) — à vérifier directement avec le fournisseur (température exacte, est-ce que seule la coque est chauffée en laissant le cœur cru ?). **Basekou travaille encore cette piste ; consigne explicite : ne rien avancer/verrouiller tant que l'information n'est pas fiable.** Ne pas re-router le shot-book ou le master prompt visuel sur cette base tant que non confirmé.
 
 ## 4.2 Points produit clés
 
 - Le goût est vital : subtilement miellé, jamais écœurant (mode d'échec n°1 de la catégorie).
 - La dissolution dans l'eau froide demande de l'agitation → le « shake » en bouteille est le geste le plus honnête ; en verre, un swirl élégant (jamais de cuillère — sous-entend que ça ne se dissout pas).
 - Le miel est **halal par nature** → aucune certification halal nécessaire pour la portion. Certification pertinente uniquement pour la future RTD (recette, ligne de prod).
-- Modèle : abonnement always-on (rétention par l'identité et le rituel).
+- Modèle : pack découverte en tête de gondole (produit d'entrée, cf. §1.6) ; **abonnement disponible en option dès la phase de précommande** (pas seulement post-Ramadan) — signal précoce de récurrence sans attendre le post-mortem du pic.
 
 ---
 
@@ -334,30 +343,34 @@ Référence pour générer scripts vidéo et contenu landing sans réexpliquer l
 
 ## 7.1 Apprentissages clés
 
-- La perle gravée n'existe pas en France → sonder sur des **portions/monodoses**.
+- La perle gravée n'existe pas en France → sonder sur des **portions/monodoses** (produit par défaut) et sur le **bonbon à cœur coulant** (piste en cours, cf. §4.1).
 - Miel = halal par nature → pas de certif halal pour la portion (uniquement RTD phase 2).
 - Objectif du sondage : **MOQ, prix de revient/unité, certifications (HACCP/IFS), délais** → ensuite calcul du prix de précommande viable + marge.
-- Contacter 2-3 fournisseurs par track ; s'attendre à des non-réponses ; ne pas négocier, sonder.
+- Contacter plusieurs fournisseurs par track ; s'attendre à des non-réponses et des emails invalides (taux élevé observé, cf. §7.3) ; ne pas négocier, sonder.
 
-## 7.2 Shortlist
+## 7.2 Shortlist (mise à jour 2026-07-04 — après mission de sourcing exécutée)
 
 **Track 1 — Conditionneurs miel (PRIORITÉ, produit de lancement) :**
-1. **Melli Ouest** (St-Laurent-de-la-Salle, Vendée) — meilleur fit : mise en pot à façon dès 30 g.
-2. **Gourmet Provence** (Arles) — à façon / marque blanche.
-3. **Naturalim** — coopérative, IFS, plus industriel (MOQ probablement hauts).
-4. **Culture Miel** — conditionnement + spécialités.
-5. (Apior, Orléans — bonbons au miel, piste format confiserie.)
+1. **Melli Ouest** (St-Laurent-de-la-Salle, 85) — mise en pot à façon dès 30 g. Contacté, en attente.
+2. **Naturalim / France Miel** (Port-Lesney, 39) — coopérative, IFS depuis 2006. Contacté, en attente.
+3. **GESTRA** (Raon-l'Étape/Saint-Dié, 88) — conditionnement à façon, ligne dédiée produits visqueux. Email invalide, à rappeler.
+4. **Culture Miel** (Villemandeur, 45) — sélection/conditionnement à façon. Email invalide, à rappeler.
+5. **Miellerie Chailan** (Thorame-Basse, 04) — miellerie familiale. Email invalide, à rappeler.
+6. **Gourmet Provence** (Arles, 13) — domaine .fr inexistant, profil à façon incertain, à traiter en dernier.
+7. **CELS Laboratoire** (Sète 34 / Sainte-Geneviève-des-Bois 45) — **fabrication de sticks à façon 2-10g de miel — piste la plus alignée avec un format portion, pas encore contacté, à prioriser.**
+8. (Apior, Orléans — bonbons au miel, fournisseur pilote pressenti pour la piste bonbon cœur coulant, cf. §4.1 — contact en cours hors mission Cowork.)
 
 **Track 2 — Co-packers boisson (phase 2) :**
-1. **Antartic** (France) — RTD sans alcool, R&D recette, PET 20 cl-200 cl.
-2. **Agilery** (agileryfood.com) — intermédiaire de matchmaking co-manufacturers Europe.
-3. (BEVA PACK — HACCP/Kosher mais probablement canadien, à vérifier.)
+1. **Antartic** (Saint-Martin-d'Abbat, 45) — RTD sans alcool, R&D recette, ligne PET. Email invalide, à rappeler.
+2. **JDLO / Les Jardins de l'Orbrie** (Bressuire, 79) — fabrication/embouteillage à façon (~70% de l'activité). Contacté, en attente.
+3. **Agilery** (Zurich, CH) — intermédiaire de matchmaking co-manufacturers Europe. Contacté, en attente.
 
-## 7.3 Process
+## 7.3 Process & statut (2026-07-04)
 
-- **Mission Cowork rédigée** : `ledje-cowork-sourcing-mission.md` — Shot 1 : trouver les emails, créer des **brouillons Gmail** (mode brouillon, PAS d'envoi auto), tableau de suivi. Deux templates d'emails embarqués (Miel / Boisson). Envoi depuis Gmail perso, signature « Basekou — Lédjé ».
-- **Shot 2** (plus tard, séparé) : relever les réponses, remplir le tableau MOQ/prix/certifs/délais → Claude calcule prix de vente viable + marge.
-- Statut : mission prête, **pas encore lancée** (à confirmer/lancer par Basekou).
+- **Mission Cowork exécutée (Shot 1)** : 9-10 fournisseurs contactés en mode brouillon Gmail (relu et envoyé par Basekou). Résultat des premiers envois : **4 mails bien partis** (Melli Ouest, Naturalim, JDLO, Agilery — en attente de réponse), **5 rebonds** (adresse/domaine invalide : GESTRA, Culture Miel, Antartic, Miellerie Chailan, Gourmet Provence — à relancer par téléphone/formulaire, coordonnées dans le suivi Notion).
+- **Suivi structuré dans Notion** (restructuré façon Wouli — dashboard + base de données avec vue kanban par statut, pas un simple tableau) : Dashboard Sourcing Fournisseurs → https://app.notion.com/p/3904bc5926a88160ada5d4f51f59fc70. Base `Fournisseurs — Suivi` avec statut, MOQ, prix/unité, certifs, délai par fournisseur.
+- **Shot 2** (à venir) : relever les réponses, remplir MOQ/prix/certifs/délais dans la base Notion → calcul du prix de vente viable + marge (cible ≤2€/portion, cf. §1.7).
+- Prochaine étape prioritaire : relancer les 5 rebonds par téléphone, contacter CELS Laboratoire (piste stick prometteuse).
 
 ---
 
@@ -372,8 +385,15 @@ Référence pour générer scripts vidéo et contenu landing sans réexpliquer l
 | **CapCut** | Montage vidéo, assemblage clips, texte |
 | **Canva** | Texte/typo sur visuels, déclinaisons |
 | **Supabase / Vercel / OVH** | Back, hosting, domaine |
+| **Notion** | Suivi opérationnel structuré façon Wouli (dashboard + bases de données, pas de tableaux plats) : sourcing fournisseurs, entretiens Mom Test |
 
-Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se compile, se déploie ou tourne en tâche planifiée.**
+Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se compile, se déploie ou tourne en tâche planifiée ; Notion pour le suivi opérationnel vivant (statuts, pipelines).**
+
+## 8.1 Documents stratégiques complémentaires
+
+- `ledje-retroplanning-general.md` — rétroplanning macro par pôles (Produit & Fournisseurs, Business, Communication, Tech, Recherche utilisateur, Opérations), ancré sur Ramadan 2027 (≈8 février) et Aïd (≈9-10 mars). Le détail du pôle Communication vit dans sa propre discussion dédiée (Direction Com/Production visuelle) — ne pas dupliquer ici, seulement les dépendances inter-pôles.
+- `ledje-lean-canvas.md` — premier jet (~80% rempli), utile comme carte d'identité business à partager. Case la plus faible et à tester en priorité : la proposition de valeur unique.
+- **Canal B acquisition (décision prise, 2026-07-04)** : créateurs payés (seeding rémunéré) comme plan de secours si le trafic TikTok organique ne décolle pas, la pub payée servant d'amplificateur une fois qu'un contenu a fait ses preuves (pas de découverte à l'aveugle par la pub). Trigger : si la waitlist n'est pas sur trajectoire cible fin octobre 2026. À préparer avant activation : mini-brief de conformité pour les créateurs (mêmes règles que la marque).
 
 ---
 
@@ -427,20 +447,30 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 | 2026-07-02 | **Grille de contenu par cible** rédigée (hooks, contenu landing, fidélisation, combat associé × 3 cibles). Hook du pratiquant inversé : message/rappel du rituel en premier, geste sensoriel en second temps (pas de food porn en ouverture). |
 | 2026-07-02 | Nouvelle piste produit : **abonnement calé sur le calendrier religieux** (Ramadan/Aïd) pour l'offreur, distinct de l'abonnement classique de la gardienne. |
 | 2026-07-02 | **Contrainte prix posée** : cible ≤ 2 €/portion consommateur (étage 1). Décision de ne JAMAIS communiquer sur le coût de revient ni comparer au prix d'un soda — le prix se justifie par la valeur, pas par le coût de production. |
+| 2026-07-04 | **Allégation nutritionnelle comparative validée** (régime légal distinct de l'allégation santé) : « Jusqu'à 4 fois moins de sucre qu'une boisson gazeuse classique », seuil légal largement dépassé (~70-75% vs 30% requis). Condition : comparer une catégorie générique jamais une marque nommée, vérifier le chiffre sur le produit fini réel avant publication. |
+| 2026-07-04 | **Piste bonbon à cœur de miel liquide** explorée (NON CONFIRMÉE) comme continuité de l'ambition perle gravée. Fournisseur pilote pressenti : Apior. Point de vigilance ouvert : la cuisson du bonbon menace potentiellement l'argument "jamais chauffé" — à vérifier. Consigne : ne rien verrouiller tant que non confirmé. |
+| 2026-07-04 | **Canal B acquisition** décidé : créateurs payés (seeding) en plan de secours si le TikTok organique ne décolle pas, trigger fin octobre 2026 si waitlist hors trajectoire. |
+| 2026-07-04 | **Abonnement rendu disponible dès la phase de précommande** (pas seulement post-Ramadan) — signal précoce de récurrence. |
+| 2026-07-04 | **Mission de sourcing exécutée** (Shot 1) : 9-10 fournisseurs contactés, 4 mails partis en attente de réponse, 5 rebonds à relancer par téléphone. Nouveau fournisseur prometteur identifié : **CELS Laboratoire** (sticks à façon 2-10g). Suivi structuré basculé sur Notion (dashboard + base de données). |
+| 2026-07-05 | **Domaine ledje.fr : décision inversée**, renouvellement maintenu (sert la prod). **Dépôt INPI différé pour raison budgétaire** (assumé), déclencheur de réexamen fixé au premier contenu TikTok public ; classes identifiées : 30 (miel, impérative) + 32 (boissons, à inclure au même dépôt si possible). |
+| 2026-07-05 | **Système de production visuelle construit** : `CLAUDE.md` + `docs/visual/` (visual-language, master-prompt, shot-book, prompt-library, asset-log) — architecture documentaire pour générer prompts et visuels cohérents avec le design system. |
+| 2026-07-05 | **Animations de la landing ajoutées** (révélation au scroll, entrée séquencée du hero, micro-interactions, parallax discret) — respect intégral de `prefers-reduced-motion`. |
 
 ---
 
 # PARTIE 11 : BACKLOG / PISTES OUVERTES
 
-1. **⚠️ Déployer la nouvelle accroche hero** dans `src/App.tsx` (prompt Claude Code prêt).
-2. **Lancer la mission Cowork sourcing** (Shot 1, mode brouillons) → puis Shot 2 (collecte réponses) → calcul prix/marge.
-3. **Retour designeuse** → verrouiller logo/alvéole final, typo finale, affinage palette → puis production visuelle définitive.
-4. **Images packaging exploratoires** (contenant à définir : boîte/sachet/tube, unitaire vs multi-pack, packshot vs mise en scène) — matière de dialogue avec la designeuse.
-5. **Upgrade plan Higgsfield** → regénérer la pub produit dans le monde émeraude+or (P2 retravaillé, P3, P4) → montage CapCut → brancher `VITE_HERO_VIDEO_URL`.
-6. **Vue/export des inscrits** waitlist (dashboard Supabase ou mini vue admin) — indispensable avant de lancer du trafic TikTok.
-7. Lancer le trafic TikTok (lien bio + UTM) une fois hero vidéo et vue inscrits prêts.
-8. Désactiver l'auto-renew ledje.fr chez OVH.
-9. Plus tard : dépôt INPI, anti-spam formulaire (Turnstile), email pro (récompense de traction), skill Higgsfield complet (production en volume), pub V1/V2 avec personnages, coffret + fil Égypte (phase 2), RTD (phase 2).
-10. **Réécrire le hook du premier TikTok test** selon la grille de contenu révisée (rappel du rituel en ouverture, pas le geste sensoriel).
-11. **Calculer le prix de revient réel** dès les réponses fournisseurs → vérifier la viabilité de la cible ≤2€/portion → ajuster prix/format/fournisseur si besoin.
-12. Étudier la piste **abonnement calendaire religieux** (Ramadan/Aïd) pour l'offreur, phase 2.
+1. **Relancer les 5 fournisseurs en rebond** (GESTRA, Culture Miel, Antartic, Miellerie Chailan, Gourmet Provence) par téléphone/formulaire.
+2. **Contacter CELS Laboratoire** (piste stick à façon 2-10g, la plus alignée avec le format portion) — priorité.
+3. **Shot 2 sourcing** : relever les réponses reçues, remplir MOQ/prix/certifs/délais dans la base Notion → calculer le prix de vente viable + marge (cible ≤2€/portion).
+4. **Statut bonbon à cœur coulant** : suivre l'avancée avec Apior (notamment la question de la cuisson vs "jamais chauffé"), ne rien verrouiller côté visuel/copy tant que non confirmé.
+5. **Vérifier le chiffre de l'allégation nutritionnelle** ("4x moins de sucre") sur le produit fini réel avant toute publication.
+6. **Retour designeuse** → verrouiller logo/alvéole final, typo finale, affinage palette → puis production visuelle définitive.
+7. **Images packaging exploratoires** (contenant à définir : boîte/sachet/tube, unitaire vs multi-pack, packshot vs mise en scène) — matière de dialogue avec la designeuse.
+8. **Upgrade plan Higgsfield** → regénérer la pub produit dans le monde émeraude+or (P2 retravaillé, P3, P4) → montage CapCut → brancher `VITE_HERO_VIDEO_URL`.
+9. **Vue/export des inscrits** waitlist (dashboard Supabase ou mini vue admin) — indispensable avant de lancer du trafic TikTok.
+10. Lancer le trafic TikTok (lien bio + UTM) une fois hero vidéo et vue inscrits prêts.
+11. **Réécrire le hook du premier TikTok test** selon la grille de contenu révisée (rappel du rituel en ouverture, pas le geste sensoriel).
+12. **Préparer le mini-brief de conformité créateurs** (mêmes règles que la marque) avant l'activation éventuelle du Canal B (trigger : fin octobre 2026 si waitlist hors trajectoire).
+13. Étudier la piste **abonnement calendaire religieux** (Ramadan/Aïd) pour l'offreur, phase 2.
+14. Plus tard : anti-spam formulaire (Turnstile), email pro (récompense de traction), skill Higgsfield complet (production en volume), pub V1/V2 avec personnages, coffret + fil Égypte (phase 2), RTD (phase 2).
