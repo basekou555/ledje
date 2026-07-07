@@ -50,12 +50,12 @@ export async function submitSurvey(
   waitlistId: string,
   frequency: string,
   attraction: string[],
-  intent: string,
+  entryFormat: string,
 ) {
   await supabase.from('survey_responses').insert({
     waitlist_id: waitlistId,
     frequency,
     attraction,
-    intent,
+    entry_format: entryFormat,
   })
 }

@@ -11,13 +11,18 @@ const FREQUENCY_OPTIONS = [
 ]
 
 const ATTRACTION_OPTIONS = [
-  'Le geste de la tradition',
-  'La qualité du miel local',
-  'Le rituel au quotidien',
-  "L'idée d'en offrir",
+  'La tradition musulmane',
+  'Le goût de la boisson',
+  "L'accessibilité",
+  'Une marque qui partage mes valeurs',
+  'La composition simple et pure',
 ]
 
-const INTENT_OPTIONS = ['Pour toi', 'Pour offrir', 'Les deux']
+const ENTRY_FORMAT_OPTIONS = [
+  'Un pack découverte, sans engagement',
+  'Un abonnement, pour ne plus y penser',
+  'Un coffret à offrir',
+]
 
 // Lien de réservation Stripe (acompte 5 € remboursable — « Lédjé, Réservation première production »)
 const STRIPE_RESERVE_URL = 'https://buy.stripe.com/3cIcN4gH19JhcIVb28gQE01'
@@ -137,7 +142,7 @@ export default function App() {
   const [surveyDone, setSurveyDone] = useState(false)
   const [frequency, setFrequency] = useState('')
   const [attraction, setAttraction] = useState<string[]>([])
-  const [intent, setIntent] = useState('')
+  const [entryFormat, setEntryFormat] = useState('')
   const [surveySubmitting, setSurveySubmitting] = useState(false)
 
   const surveyRef = useRef<HTMLDivElement>(null)
@@ -233,7 +238,7 @@ export default function App() {
     e.preventDefault()
     if (!waitlistId) return
     setSurveySubmitting(true)
-    await submitSurvey(waitlistId, frequency, attraction, intent)
+    await submitSurvey(waitlistId, frequency, attraction, entryFormat)
     setSurveyDone(true)
   }
 
@@ -481,11 +486,11 @@ export default function App() {
                 </fieldset>
 
                 <fieldset>
-                  <legend>Tu en prendrais plutôt…</legend>
+                  <legend>Pour commencer, tu préférerais…</legend>
                   <div className="radio-group">
-                    {INTENT_OPTIONS.map(opt => (
+                    {ENTRY_FORMAT_OPTIONS.map(opt => (
                       <label key={opt} className="radio-option">
-                        <input type="radio" name="intent" value={opt} checked={intent === opt} onChange={() => setIntent(opt)} />
+                        <input type="radio" name="entry_format" value={opt} checked={entryFormat === opt} onChange={() => setEntryFormat(opt)} />
                         <span>{opt}</span>
                       </label>
                     ))}
