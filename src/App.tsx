@@ -19,6 +19,9 @@ const ATTRACTION_OPTIONS = [
 
 const INTENT_OPTIONS = ['Pour toi', 'Pour offrir', 'Les deux']
 
+// Lien de réservation Stripe (acompte 5 € remboursable — « Lédjé, Réservation première production »)
+const STRIPE_RESERVE_URL = 'https://buy.stripe.com/3cIcN4gH19JhcIVb28gQE01'
+
 // Vidéo hero provisoire (génération Higgsfield hébergée CloudFront) —
 // à remplacer par l'asset final auto-hébergé quand la production visuelle sera validée.
 const VIDEO_URL =
@@ -503,9 +506,32 @@ export default function App() {
         )}
 
         {surveyDone && (
-          <section className="section-survey-done bg-emerald" aria-live="polite">
+          <section className="section-survey-done bg-emerald" aria-live="polite" aria-labelledby="reserve-heading">
             <div className="container fade-in-up">
               <p className="survey-thanks">Merci. À très vite.</p>
+
+              <div className="reserve-block">
+                <Alveole size={40} className="reserve-seal" />
+                <h3 id="reserve-heading" className="reserve-title">
+                  Tu veux une place dans la première production ?
+                </h3>
+                <p className="reserve-text">
+                  Réserve-la dès maintenant avec un acompte de 5 € —
+                  intégralement remboursé si la production n'est pas lancée.
+                </p>
+                <a
+                  href={STRIPE_RESERVE_URL}
+                  className="btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => trackEvent('stripe_click')}
+                >
+                  Je réserve ma place — 5 €
+                </a>
+                <p className="reserve-note">
+                  Paiement sécurisé par Stripe. Prix préférentiel de lancement garanti.
+                </p>
+              </div>
             </div>
           </section>
         )}
