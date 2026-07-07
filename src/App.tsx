@@ -19,7 +19,11 @@ const ATTRACTION_OPTIONS = [
 
 const INTENT_OPTIONS = ['Pour toi', 'Pour offrir', 'Les deux']
 
-const VIDEO_URL = import.meta.env.VITE_HERO_VIDEO_URL as string | undefined
+// Vidéo hero provisoire (génération Higgsfield hébergée CloudFront) —
+// à remplacer par l'asset final auto-hébergé quand la production visuelle sera validée.
+const VIDEO_URL =
+  (import.meta.env.VITE_HERO_VIDEO_URL as string | undefined) ??
+  'https://d8j0ntlcm91z4.cloudfront.net/user_3F7O8wGWXNEbyg1pRrys5kwKg5V/hf_20260629_045823_8c34005b-a94a-44ce-b1ba-7eae3bfcd8e8.mp4'
 
 function isValidEmail(e: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)
@@ -246,7 +250,7 @@ export default function App() {
         <section className="hero" aria-labelledby="hero-heading">
           <div className="hero-honeycomb" aria-hidden="true" />
 
-          {VIDEO_URL && (
+          {VIDEO_URL && !window.matchMedia('(prefers-reduced-motion: reduce)').matches && (
             <div className="hero-video-wrap">
               <video
                 src={VIDEO_URL}
@@ -254,6 +258,7 @@ export default function App() {
                 loop
                 muted
                 playsInline
+                preload="metadata"
                 aria-label="Une portion de miel pur se dissolvant lentement dans un verre d'eau fraîche"
               />
             </div>
