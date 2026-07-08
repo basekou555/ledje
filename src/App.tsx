@@ -11,18 +11,35 @@ const FREQUENCY_OPTIONS = [
 ]
 
 const ATTRACTION_OPTIONS = [
-  'Le geste de la tradition',
-  'La qualité du miel local',
-  'Le rituel au quotidien',
-  "L'idée d'en offrir",
+  'La tradition musulmane',
+  'Le goût de la boisson',
+  "L'accessibilité",
+  'Une marque qui partage mes valeurs',
+  'La composition simple et pure',
 ]
 
-const INTENT_OPTIONS = ['Pour toi', 'Pour offrir', 'Les deux']
+const ENTRY_FORMAT_OPTIONS = [
+  'Un pack découverte, sans engagement',
+  'Un abonnement, pour ne plus y penser',
+  'Un coffret à offrir',
+]
 
-const VIDEO_URL = import.meta.env.VITE_HERO_VIDEO_URL as string | undefined
+// Lien de réservation Stripe (acompte 5 € remboursable — « Lédjé, Réservation première production »)
+const STRIPE_RESERVE_URL = 'https://buy.stripe.com/3cIcN4gH19JhcIVb28gQE01'
+
+// Vidéo hero provisoire (génération Higgsfield hébergée CloudFront) —
+// à remplacer par l'asset final auto-hébergé quand la production visuelle sera validée.
+const VIDEO_URL =
+  (import.meta.env.VITE_HERO_VIDEO_URL as string | undefined) ??
+  'https://d8j0ntlcm91z4.cloudfront.net/user_3F7O8wGWXNEbyg1pRrys5kwKg5V/hf_20260629_045823_8c34005b-a94a-44ce-b1ba-7eae3bfcd8e8.mp4'
 
 function isValidEmail(e: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)
+}
+
+/* Délai de révélation en cascade — chaque enfant d'un bloc .reveal s'anime avec un léger décalage */
+function revealDelay(i: number): React.CSSProperties {
+  return { transitionDelay: `${i * 90}ms` }
 }
 
 /* ── Alvéole : symbole de marque (hexagone contour or + cellule centrale) ── */
@@ -31,11 +48,13 @@ function Alveole({
   filled = true,
   stroke = 'var(--gold)',
   className = '',
+  style,
 }: {
   size?: number
   filled?: boolean
   stroke?: string
   className?: string
+  style?: React.CSSProperties
 }) {
   return (
     <svg
@@ -44,6 +63,7 @@ function Alveole({
       viewBox="0 0 64 64"
       fill="none"
       className={className}
+      style={style}
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -122,7 +142,7 @@ export default function App() {
   const [surveyDone, setSurveyDone] = useState(false)
   const [frequency, setFrequency] = useState('')
   const [attraction, setAttraction] = useState<string[]>([])
-  const [intent, setIntent] = useState('')
+  const [entryFormat, setEntryFormat] = useState('')
   const [surveySubmitting, setSurveySubmitting] = useState(false)
 
   const surveyRef = useRef<HTMLDivElement>(null)
@@ -159,6 +179,50 @@ export default function App() {
     }
   }, [formState])
 
+  // Révélation au scroll (fondu + léger glissement) — désactivée si l'utilisateur préfère moins d'animation
+  useEffect(() => {
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const targets = document.querySelectorAll('.reveal')
+
+    if (prefersReduced) {
+      targets.forEach(el => el.classList.add('is-visible'))
+      return
+    }
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible')
+            observer.unobserve(entry.target)
+          }
+        })
+      },
+      { threshold: 0.15, rootMargin: '0px 0px -60px 0px' },
+    )
+    targets.forEach(el => observer.observe(el))
+    return () => observer.disconnect()
+  }, [])
+
+  // Parallax discret sur la trame d'alvéoles du hero
+  useEffect(() => {
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const honeycomb = document.querySelector<HTMLElement>('.hero-honeycomb')
+    if (prefersReduced || !honeycomb) return
+
+    let ticking = false
+    const onScroll = () => {
+      if (ticking) return
+      ticking = true
+      requestAnimationFrame(() => {
+        honeycomb.style.transform = `translate3d(0, ${window.scrollY * 0.12}px, 0)`
+        ticking = false
+      })
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
     if (!isValidEmail(email)) { setFormState('invalid'); return }
@@ -174,7 +238,7 @@ export default function App() {
     e.preventDefault()
     if (!waitlistId) return
     setSurveySubmitting(true)
-    await submitSurvey(waitlistId, frequency, attraction, intent)
+    await submitSurvey(waitlistId, frequency, attraction, entryFormat)
     setSurveyDone(true)
   }
 
@@ -194,7 +258,7 @@ export default function App() {
         <section className="hero" aria-labelledby="hero-heading">
           <div className="hero-honeycomb" aria-hidden="true" />
 
-          {VIDEO_URL && (
+          {VIDEO_URL && !window.matchMedia('(prefers-reduced-motion: reduce)').matches && (
             <div className="hero-video-wrap">
               <video
                 src={VIDEO_URL}
@@ -202,27 +266,33 @@ export default function App() {
                 loop
                 muted
                 playsInline
+                preload="metadata"
                 aria-label="Une portion de miel pur se dissolvant lentement dans un verre d'eau fraîche"
               />
             </div>
           )}
 
-          <div className="hero-content">
-            <Alveole size={64} className="hero-seal" />
-            <p className="hero-quote">
+          <div className="hero-content reveal">
+            <Alveole size={64} className="hero-seal reveal-child" style={revealDelay(0)} />
+            <p className="hero-quote reveal-child" style={revealDelay(1)}>
               « Ce que la tradition nous a laissé de meilleur. »
             </p>
-            <h1 id="hero-heading">
+            <h1 id="hero-heading" className="reveal-child" style={revealDelay(2)}>
               Un geste de notre tradition,<br />remis au goût du jour.
             </h1>
-            <p className="brand-name">Lédjé</p>
-            <p className="tagline">Parmi les bienfaits de ce bas monde</p>
+            <p className="brand-name reveal-child" style={revealDelay(3)}>Lédjé</p>
+            <p className="tagline reveal-child" style={revealDelay(4)}>Parmi les bienfaits de ce bas monde</p>
 
-            <div className="hero-rule" aria-hidden="true">
+            <div className="hero-rule reveal-child" style={revealDelay(5)} aria-hidden="true">
               <Alveole size={14} filled={false} />
             </div>
 
-            <a href="#formulaire" className="btn-primary" onClick={() => trackEvent('cta_click')}>
+            <a
+              href="#formulaire"
+              className="btn-primary reveal-child"
+              style={revealDelay(6)}
+              onClick={() => trackEvent('cta_click')}
+            >
               Rejoindre les premiers
             </a>
           </div>
@@ -235,25 +305,25 @@ export default function App() {
 
         {/* ════ LE GESTE — fond crème (respiration) ════ */}
         <section className="section section-geste bg-cream" aria-labelledby="geste-heading">
-          <div className="container">
+          <div className="container reveal">
             <div className="geste-steps" aria-hidden="true">
-              <div className="geste-step">
+              <div className="geste-step reveal-child" style={revealDelay(0)}>
                 <div className="geste-step-hex">
                   <Alveole size={60} filled={false} stroke="rgba(169,116,15,0.5)" />
                   <span className="geste-step-icon-wrap"><IconPortion /></span>
                 </div>
                 <span className="geste-step-label">Une portion</span>
               </div>
-              <span className="geste-arrow">→</span>
-              <div className="geste-step">
+              <span className="geste-arrow reveal-child" style={revealDelay(1)}>→</span>
+              <div className="geste-step reveal-child" style={revealDelay(2)}>
                 <div className="geste-step-hex">
                   <Alveole size={60} filled={false} stroke="rgba(169,116,15,0.5)" />
                   <span className="geste-step-icon-wrap"><IconGlass /></span>
                 </div>
                 <span className="geste-step-label">Un verre d'eau</span>
               </div>
-              <span className="geste-arrow">→</span>
-              <div className="geste-step">
+              <span className="geste-arrow reveal-child" style={revealDelay(3)}>→</span>
+              <div className="geste-step reveal-child" style={revealDelay(4)}>
                 <div className="geste-step-hex">
                   <Alveole size={60} filled={false} stroke="rgba(169,116,15,0.5)" />
                   <span className="geste-step-icon-wrap"><IconCheck /></span>
@@ -261,8 +331,10 @@ export default function App() {
                 <span className="geste-step-label">C'est tout</span>
               </div>
             </div>
-            <h2 id="geste-heading" className="section-title">Une portion. Un verre d'eau. C'est tout.</h2>
-            <p className="section-text">
+            <h2 id="geste-heading" className="section-title reveal-child" style={revealDelay(5)}>
+              Une portion. Un verre d'eau. C'est tout.
+            </h2>
+            <p className="section-text reveal-child" style={revealDelay(6)}>
               Un miel pur qui se fond dans l'eau fraîche.
               Le geste se fait en quelques secondes, où que tu sois.
             </p>
@@ -271,15 +343,17 @@ export default function App() {
 
         {/* ════ L'ORIGINE — fond émeraude velours (premium) ════ */}
         <section className="section section-origine bg-velvet" aria-labelledby="origine-heading">
-          <div className="container">
-            <Alveole size={86} className="origine-seal" />
-            <p className="section-eyebrow">L'origine</p>
-            <h2 id="origine-heading" className="section-title">Du vrai miel. Rien d'autre.</h2>
-            <p className="section-text">
+          <div className="container reveal">
+            <Alveole size={86} className="origine-seal reveal-child" style={revealDelay(0)} />
+            <p className="section-eyebrow reveal-child" style={revealDelay(1)}>L'origine</p>
+            <h2 id="origine-heading" className="section-title reveal-child" style={revealDelay(2)}>
+              Du vrai miel. Rien d'autre.
+            </h2>
+            <p className="section-text reveal-child" style={revealDelay(3)}>
               Un miel pur, français, d'origine tracée, jamais chauffé.
               Choisi avec soin, parce que ce geste mérite mieux que du frelaté.
             </p>
-            <ul className="origine-points" role="list">
+            <ul className="origine-points reveal-child" role="list" style={revealDelay(4)}>
               <li><HexBullet />Origine tracée</li>
               <li><HexBullet />Jamais chauffé</li>
               <li><HexBullet />Producteurs français</li>
@@ -290,15 +364,21 @@ export default function App() {
 
         {/* ════ FORMULAIRE — fond crème (conversion) ════ */}
         <section className="section section-form bg-cream" id="formulaire" aria-labelledby="form-heading">
-          <div className="container">
+          <div className="container reveal">
             {formState !== 'success' ? (
               <>
-                <div className="form-header">
+                <div className="form-header reveal-child" style={revealDelay(0)}>
                   <p className="section-eyebrow">Lancement bientôt</p>
                   <h2 id="form-heading" className="section-title">Sois prévenu au lancement.</h2>
                 </div>
 
-                <form onSubmit={handleSubmit} noValidate aria-describedby="consent-text">
+                <form
+                  onSubmit={handleSubmit}
+                  noValidate
+                  aria-describedby="consent-text"
+                  className="reveal-child"
+                  style={revealDelay(1)}
+                >
                   <div className="field-group">
                     <label htmlFor="email-input">Ton email</label>
                     <input
@@ -352,7 +432,7 @@ export default function App() {
                 </form>
               </>
             ) : (
-              <div className="form-success" role="status">
+              <div className="form-success fade-in-up" role="status">
                 <Alveole size={64} className="success-seal" />
                 <div>
                   <h3>C'est noté.</h3>
@@ -371,7 +451,7 @@ export default function App() {
             ref={surveyRef}
             tabIndex={-1}
           >
-            <div className="container">
+            <div className="container fade-in-up">
               <h2 id="survey-heading" className="section-title" style={{ color: 'var(--cream)' }}>
                 Une dernière chose ?
               </h2>
@@ -406,11 +486,11 @@ export default function App() {
                 </fieldset>
 
                 <fieldset>
-                  <legend>Tu en prendrais plutôt…</legend>
+                  <legend>Pour commencer, tu préférerais…</legend>
                   <div className="radio-group">
-                    {INTENT_OPTIONS.map(opt => (
+                    {ENTRY_FORMAT_OPTIONS.map(opt => (
                       <label key={opt} className="radio-option">
-                        <input type="radio" name="intent" value={opt} checked={intent === opt} onChange={() => setIntent(opt)} />
+                        <input type="radio" name="entry_format" value={opt} checked={entryFormat === opt} onChange={() => setEntryFormat(opt)} />
                         <span>{opt}</span>
                       </label>
                     ))}
@@ -431,21 +511,44 @@ export default function App() {
         )}
 
         {surveyDone && (
-          <section className="section-survey-done bg-emerald" aria-live="polite">
-            <div className="container">
+          <section className="section-survey-done bg-emerald" aria-live="polite" aria-labelledby="reserve-heading">
+            <div className="container fade-in-up">
               <p className="survey-thanks">Merci. À très vite.</p>
+
+              <div className="reserve-block">
+                <Alveole size={40} className="reserve-seal" />
+                <h3 id="reserve-heading" className="reserve-title">
+                  Tu veux une place dans la première production ?
+                </h3>
+                <p className="reserve-text">
+                  Réserve-la dès maintenant avec un acompte de 5 € —
+                  intégralement remboursé si la production n'est pas lancée.
+                </p>
+                <a
+                  href={STRIPE_RESERVE_URL}
+                  className="btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => trackEvent('stripe_click')}
+                >
+                  Je réserve ma place — 5 €
+                </a>
+                <p className="reserve-note">
+                  Paiement sécurisé par Stripe. Prix préférentiel de lancement garanti.
+                </p>
+              </div>
             </div>
           </section>
         )}
       </main>
 
       <footer role="contentinfo">
-        <div className="container">
-          <Alveole size={40} className="footer-seal" />
-          <p className="footer-name">Lédjé</p>
-          <p className="footer-tagline">Parmi les bienfaits de ce bas monde</p>
-          <p className="legal">Le miel est déconseillé aux enfants de moins d'un an.</p>
-          <p className="footer-copy">© {new Date().getFullYear()}</p>
+        <div className="container reveal">
+          <Alveole size={40} className="footer-seal reveal-child" style={revealDelay(0)} />
+          <p className="footer-name reveal-child" style={revealDelay(1)}>Lédjé</p>
+          <p className="footer-tagline reveal-child" style={revealDelay(2)}>Parmi les bienfaits de ce bas monde</p>
+          <p className="legal reveal-child" style={revealDelay(3)}>Le miel est déconseillé aux enfants de moins d'un an.</p>
+          <p className="footer-copy reveal-child" style={revealDelay(4)}>© {new Date().getFullYear()}</p>
         </div>
       </footer>
     </>
