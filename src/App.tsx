@@ -90,39 +90,17 @@ function Alveole({
   )
 }
 
-/* ── Icônes line-art (Le Geste) — trait or fin, sobre ── */
-const ICON_STROKE = 'rgba(169,116,15,0.85)'
-
-function IconPortion() {
-  // Goutte de miel
+/* Photo de production — repli propre (bloc coloré) si le fichier n'est pas encore déposé */
+function Photo({ name, alt, className = '' }: { name: string; alt: string; className?: string }) {
   return (
-    <svg className="geste-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M14 4 C14 4 20 12.5 20 17 a6 6 0 0 1-12 0 C8 12.5 14 4 14 4 Z"
-        stroke={ICON_STROKE} strokeWidth="1.5" strokeLinejoin="round"
-      />
-      <path d="M11.5 17.5 a2.5 2.5 0 0 0 2.5 2.5" stroke={ICON_STROKE} strokeWidth="1.3" strokeLinecap="round" opacity="0.6" />
-    </svg>
-  )
-}
-
-function IconGlass() {
-  // Verre d'eau avec ligne de surface
-  return (
-    <svg className="geste-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-      <path d="M8 5 L20 5 L18.5 23 a1 1 0 0 1-1 0.9 L10.5 23.9 a1 1 0 0 1-1-0.9 Z"
-        stroke={ICON_STROKE} strokeWidth="1.5" strokeLinejoin="round" />
-      <path d="M9 12 C11 11 12.5 13 14 12 C15.5 11 17 13 18.6 12.2"
-        stroke={ICON_STROKE} strokeWidth="1.3" strokeLinecap="round" opacity="0.7" />
-    </svg>
-  )
-}
-
-function IconCheck() {
-  return (
-    <svg className="geste-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-      <path d="M7 14.5 L12 19.5 L21 8.5" stroke={ICON_STROKE} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
+    <img
+      src={`/visuals/${name}`}
+      alt={alt}
+      loading="lazy"
+      decoding="async"
+      className={className}
+      onError={e => { e.currentTarget.style.visibility = 'hidden' }}
+    />
   )
 }
 
@@ -306,45 +284,37 @@ export default function App() {
         {/* ════ LE GESTE — fond crème (respiration) ════ */}
         <section className="section section-geste bg-cream" aria-labelledby="geste-heading">
           <div className="container reveal">
-            <div className="geste-steps" aria-hidden="true">
-              <div className="geste-step reveal-child" style={revealDelay(0)}>
-                <div className="geste-step-hex">
-                  <Alveole size={60} filled={false} stroke="rgba(169,116,15,0.5)" />
-                  <span className="geste-step-icon-wrap"><IconPortion /></span>
-                </div>
-                <span className="geste-step-label">Une portion</span>
-              </div>
-              <span className="geste-arrow reveal-child" style={revealDelay(1)}>→</span>
-              <div className="geste-step reveal-child" style={revealDelay(2)}>
-                <div className="geste-step-hex">
-                  <Alveole size={60} filled={false} stroke="rgba(169,116,15,0.5)" />
-                  <span className="geste-step-icon-wrap"><IconGlass /></span>
-                </div>
-                <span className="geste-step-label">Un verre d'eau</span>
-              </div>
-              <span className="geste-arrow reveal-child" style={revealDelay(3)}>→</span>
-              <div className="geste-step reveal-child" style={revealDelay(4)}>
-                <div className="geste-step-hex">
-                  <Alveole size={60} filled={false} stroke="rgba(169,116,15,0.5)" />
-                  <span className="geste-step-icon-wrap"><IconCheck /></span>
-                </div>
-                <span className="geste-step-label">C'est tout</span>
-              </div>
-            </div>
-            <h2 id="geste-heading" className="section-title reveal-child" style={revealDelay(5)}>
+            <h2 id="geste-heading" className="section-title reveal-child" style={revealDelay(0)}>
               Une portion. Un verre d'eau. C'est tout.
             </h2>
-            <p className="section-text reveal-child" style={revealDelay(6)}>
+            <p className="section-text reveal-child" style={revealDelay(1)}>
               Un miel pur qui se fond dans l'eau fraîche.
               Le geste se fait en quelques secondes, où que tu sois.
             </p>
+
+            <div className="geste-photos">
+              <figure className="geste-photo reveal-child" style={revealDelay(2)}>
+                <Photo name="geste-01.jpg" alt="Une main saisit une portion de miel ambré posée sur la pierre" />
+                <figcaption>1 · Une portion</figcaption>
+              </figure>
+              <figure className="geste-photo reveal-child" style={revealDelay(3)}>
+                <Photo name="geste-02.jpg" alt="La portion de miel au-dessus d'un verre d'eau fraîche" />
+                <figcaption>2 · Un verre d'eau</figcaption>
+              </figure>
+              <figure className="geste-photo reveal-child" style={revealDelay(4)}>
+                <Photo name="geste-03.jpg" alt="Le miel se dissout doucement dans l'eau, en volutes dorées" />
+                <figcaption>3 · Elle se fond</figcaption>
+              </figure>
+            </div>
           </div>
         </section>
 
         {/* ════ L'ORIGINE — fond émeraude velours (premium) ════ */}
         <section className="section section-origine bg-velvet" aria-labelledby="origine-heading">
           <div className="container reveal">
-            <Alveole size={86} className="origine-seal reveal-child" style={revealDelay(0)} />
+            <figure className="origine-image reveal-child" style={revealDelay(0)}>
+              <Photo name="origine.jpg" alt="Un filet de miel doré, traversé par la lumière, sur fond vert émeraude" />
+            </figure>
             <p className="section-eyebrow reveal-child" style={revealDelay(1)}>L'origine</p>
             <h2 id="origine-heading" className="section-title reveal-child" style={revealDelay(2)}>
               Du vrai miel. Rien d'autre.
@@ -359,6 +329,22 @@ export default function App() {
               <li><HexBullet />Producteurs français</li>
               <li><HexBullet />Pur miel</li>
             </ul>
+          </div>
+        </section>
+
+        {/* ════ BOUTEILLE — teaser (communication anticipée, pas d'achat) ════ */}
+        <section className="section section-bouteille bg-emerald" aria-labelledby="bouteille-heading">
+          <div className="container reveal">
+            <figure className="bouteille-image reveal-child" style={revealDelay(0)}>
+              <Photo name="bouteille.jpg" alt="La bouteille Lédjé, étiquette émeraude et or, perlée de fraîcheur" />
+            </figure>
+            <p className="section-eyebrow reveal-child" style={revealDelay(1)}>Bientôt</p>
+            <h2 id="bouteille-heading" className="section-title reveal-child" style={revealDelay(2)}>
+              Et un jour, prête à emporter.
+            </h2>
+            <p className="section-text reveal-child" style={revealDelay(3)}>
+              Le même geste, partout avec toi. On y travaille — sois là quand elle arrive.
+            </p>
           </div>
         </section>
 
