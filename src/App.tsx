@@ -292,18 +292,18 @@ export default function App() {
               Le geste se fait en quelques secondes, où que tu sois.
             </p>
 
-            <div className="geste-photos">
-              <figure className="geste-photo reveal-child" style={revealDelay(2)}>
+            <div className="geste-photos fullbleed">
+              <figure className="geste-photo">
                 <Photo name="geste-01.jpg" alt="Une main saisit une portion de miel ambré posée sur la pierre" />
-                <figcaption>1 · Une portion</figcaption>
+                <figcaption>Une portion</figcaption>
               </figure>
-              <figure className="geste-photo reveal-child" style={revealDelay(3)}>
+              <figure className="geste-photo">
                 <Photo name="geste-02.jpg" alt="La portion de miel au-dessus d'un verre d'eau fraîche" />
-                <figcaption>2 · Un verre d'eau</figcaption>
+                <figcaption>Un verre d'eau</figcaption>
               </figure>
-              <figure className="geste-photo reveal-child" style={revealDelay(4)}>
+              <figure className="geste-photo">
                 <Photo name="geste-03.jpg" alt="Le miel se dissout doucement dans l'eau, en volutes dorées" />
-                <figcaption>3 · Elle se fond</figcaption>
+                <figcaption>C'est tout</figcaption>
               </figure>
             </div>
           </div>
@@ -312,7 +312,7 @@ export default function App() {
         {/* ════ L'ORIGINE — fond émeraude velours (premium) ════ */}
         <section className="section section-origine bg-velvet" aria-labelledby="origine-heading">
           <div className="container reveal">
-            <figure className="origine-image reveal-child" style={revealDelay(0)}>
+            <figure className="origine-image fullbleed reveal-child" style={revealDelay(0)}>
               <Photo name="origine.jpg" alt="Un filet de miel doré, traversé par la lumière, sur fond vert émeraude" />
             </figure>
             <p className="section-eyebrow reveal-child" style={revealDelay(1)}>L'origine</p>
@@ -335,7 +335,7 @@ export default function App() {
         {/* ════ BOUTEILLE — teaser (communication anticipée, pas d'achat) ════ */}
         <section className="section section-bouteille bg-emerald" aria-labelledby="bouteille-heading">
           <div className="container reveal">
-            <figure className="bouteille-image reveal-child" style={revealDelay(0)}>
+            <figure className="bouteille-image fullbleed reveal-child" style={revealDelay(0)}>
               <Photo name="bouteille.jpg" alt="La bouteille Lédjé, étiquette émeraude et or, perlée de fraîcheur" />
             </figure>
             <p className="section-eyebrow reveal-child" style={revealDelay(1)}>Bientôt</p>
