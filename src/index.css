@@ -148,14 +148,15 @@ header {
 .hero-video-wrap video {
   width: 100%; height: 100%;
   object-fit: cover;
-  opacity: 0.5;
+  opacity: 0.82;
 }
 .hero-video-wrap::after {
   content: '';
   position: absolute; inset: 0;
+  /* Voile léger : la vidéo respire, le bas reste assez sombre pour lire le CTA */
   background: linear-gradient(to bottom,
-    rgba(15,61,42,0.35) 0%, rgba(15,61,42,0.1) 35%,
-    rgba(15,61,42,0.45) 70%, rgba(31,71,54,0.92) 100%);
+    rgba(15,61,42,0.18) 0%, rgba(15,61,42,0.04) 35%,
+    rgba(15,61,42,0.28) 68%, rgba(31,71,54,0.72) 100%);
 }
 
 .hero-content {
@@ -187,6 +188,7 @@ header {
   color: var(--text-on-dark);
   line-height: 1.55;
   max-width: 340px;
+  text-shadow: 0 1px 8px rgba(15,61,42,0.55);
 }
 
 h1 {
@@ -196,6 +198,7 @@ h1 {
   color: var(--cream);
   line-height: 1.18;
   letter-spacing: -0.015em;
+  text-shadow: 0 1px 12px rgba(15,61,42,0.6);
 }
 
 /* Nom de marque — or en dégradé (accent précieux, large = autorisé) */
@@ -211,7 +214,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   color: var(--gold);
   padding: 0.1em 0;
-  filter: drop-shadow(0 1px 1px rgba(15,61,42,0.45));
+  filter: drop-shadow(0 2px 6px rgba(15,61,42,0.6));
 }
 
 .tagline {
@@ -220,6 +223,7 @@ h1 {
   font-size: 1.05rem;
   color: var(--gold-text-on-dark);
   letter-spacing: 0.01em;
+  text-shadow: 0 1px 8px rgba(15,61,42,0.55);
 }
 
 .hero-rule {
