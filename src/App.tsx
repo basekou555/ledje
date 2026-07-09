@@ -197,12 +197,16 @@ export default function App() {
     const viewport = document.querySelector<HTMLElement>('.geste-carousel-viewport')
     if (prefersReduced || !track || !section || !viewport) return
 
+    // La translation se termine à HOLD_RATIO du scroll ; le reste = temps de
+    // « pause » où la dernière image reste affichée plein écran avant de libérer.
+    const HOLD_RATIO = 0.78
     let ticking = false
     const update = () => {
       const scrollable = section.offsetHeight - viewport.offsetHeight
-      const progress = scrollable > 0
+      const raw = scrollable > 0
         ? Math.min(Math.max(-section.getBoundingClientRect().top / scrollable, 0), 1)
         : 0
+      const progress = Math.min(raw / HOLD_RATIO, 1)
       const maxTranslate = track.scrollWidth - viewport.clientWidth
       track.style.transform = `translate3d(${-progress * maxTranslate}px, 0, 0)`
       ticking = false
