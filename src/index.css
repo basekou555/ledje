@@ -389,7 +389,7 @@ h1 {
 
 /* Fond ambre (couleur du miel) — couleurs inversées : texte foncé sur clair */
 .bg-amber {
-  background: linear-gradient(165deg, #EBB749 0%, var(--amber) 55%, var(--amber-deep) 100%);
+  background: linear-gradient(165deg, #E0A52E 0%, #EABB54 55%, #F4D078 100%);
   color: var(--emerald-deep);
 }
 .bg-amber .section-title { color: var(--emerald-deep); }
