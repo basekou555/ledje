@@ -393,55 +393,90 @@ h1 {
   margin-right: calc(50% - 50vw);
 }
 
-/* ════ Le Geste ════ */
-.section-geste .container {
+/* ════ Le Geste — carrousel horizontal figé (scroll vertical) ════ */
+.section-geste { background: var(--cream); }
+.geste-intro {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.4rem;
   text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
 }
-.geste-photos {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  width: 100%;
-  margin-top: 1rem;
-}
-/* Chaque photo : plein cadre, légende intégrée en bas, décalage alterné du texte */
-.geste-photo {
+
+/* Piste de scroll : sa hauteur (300vh) fournit la distance de défilement.
+   3 slides → 2 transitions → ~200vh de scroll pour ~200vw de translation. */
+.geste-carousel {
   position: relative;
+  height: 300vh;
+}
+.geste-carousel-viewport {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.geste-carousel-track {
+  display: flex;
+  height: 100vh;
+  will-change: transform;
+}
+.geste-slide {
+  position: relative;
+  flex: 0 0 100vw;
+  height: 100vh;
   margin: 0;
   overflow: hidden;
   background: var(--cream-dark);
 }
-.geste-photo img {
+.geste-slide img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
-.geste-photo figcaption {
-  position: absolute;
-  left: 1.25rem;
-  bottom: 1rem;
-  font-family: 'Fraunces', Georgia, serif;
-  font-size: 1.15rem;
-  font-weight: 500;
-  color: var(--cream);
-  text-shadow: 0 1px 10px rgba(15,61,42,0.7);
-  z-index: 2;
-}
-/* Scrim dégradé bas pour lisibilité de la légende */
-.geste-photo::after {
+/* Scrim bas pour la lisibilité de la légende */
+.geste-slide::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(15,61,42,0.6) 0%, transparent 45%);
+  background: linear-gradient(to top, rgba(15,61,42,0.62) 0%, transparent 42%);
   z-index: 1;
   pointer-events: none;
 }
-.geste-photo:nth-child(even) figcaption { left: auto; right: 1.25rem; text-align: right; }
+.geste-slide figcaption {
+  position: absolute;
+  left: 2rem;
+  bottom: 2.2rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(1.4rem, 5vw, 2rem);
+  font-weight: 500;
+  color: var(--cream);
+  text-shadow: 0 1px 12px rgba(15,61,42,0.7);
+  z-index: 2;
+}
+.geste-slide-num {
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  font-weight: 600;
+  color: var(--gold-light);
+  opacity: 0.9;
+}
+
+/* Repli sans animation : pile verticale classique, pas de section figée */
+@media (prefers-reduced-motion: reduce) {
+  .geste-carousel { height: auto; }
+  .geste-carousel-viewport { position: static; height: auto; display: block; overflow: visible; }
+  .geste-carousel-track { flex-direction: column; height: auto; transform: none !important; }
+  .geste-slide { flex-basis: auto; height: auto; }
+  .geste-slide img { aspect-ratio: 4 / 3; height: auto; }
+}
 
 /* ════ Photos de section (Origine, Bouteille) — plein cadre ════ */
 .origine-image, .bouteille-image {

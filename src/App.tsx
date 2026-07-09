@@ -129,6 +129,7 @@ export default function App() {
   const [surveySubmitting, setSurveySubmitting] = useState(false)
 
   const surveyRef = useRef<HTMLDivElement>(null)
+  const gesteTrackRef = useRef<HTMLDivElement>(null)
   const pageStartRef = useRef(Date.now())
   const scroll50Sent = useRef(false)
   const scroll100Sent = useRef(false)
@@ -185,6 +186,39 @@ export default function App() {
     )
     targets.forEach(el => observer.observe(el))
     return () => observer.disconnect()
+  }, [])
+
+  // Carrousel « Le Geste » : la section reste figée, les 3 images défilent
+  // horizontalement au rythme du scroll vertical (façon Red Bull, en natif).
+  useEffect(() => {
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const track = gesteTrackRef.current
+    const section = document.querySelector<HTMLElement>('.geste-carousel')
+    const viewport = document.querySelector<HTMLElement>('.geste-carousel-viewport')
+    if (prefersReduced || !track || !section || !viewport) return
+
+    let ticking = false
+    const update = () => {
+      const scrollable = section.offsetHeight - viewport.offsetHeight
+      const progress = scrollable > 0
+        ? Math.min(Math.max(-section.getBoundingClientRect().top / scrollable, 0), 1)
+        : 0
+      const maxTranslate = track.scrollWidth - viewport.clientWidth
+      track.style.transform = `translate3d(${-progress * maxTranslate}px, 0, 0)`
+      ticking = false
+    }
+    const onScroll = () => {
+      if (ticking) return
+      ticking = true
+      requestAnimationFrame(update)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', onScroll)
+    update()
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', onScroll)
+    }
   }, [])
 
   // Parallax discret sur la trame d'alvéoles du hero
@@ -286,9 +320,9 @@ export default function App() {
           </div>
         </section>
 
-        {/* ════ LE GESTE — fond crème (respiration) ════ */}
-        <section className="section section-geste bg-cream" aria-labelledby="geste-heading">
-          <div className="container reveal">
+        {/* ════ LE GESTE — carrousel horizontal piloté par le scroll vertical (section figée) ════ */}
+        <section className="section-geste bg-cream" aria-labelledby="geste-heading">
+          <div className="geste-intro container reveal">
             <h2 id="geste-heading" className="section-title reveal-child" style={revealDelay(0)}>
               Une portion. Un verre d'eau. C'est tout.
             </h2>
@@ -296,20 +330,24 @@ export default function App() {
               Un miel pur qui se fond dans l'eau fraîche.
               Le geste se fait en quelques secondes, où que tu sois.
             </p>
+          </div>
 
-            <div className="geste-photos fullbleed">
-              <figure className="geste-photo">
-                <Photo name="geste-01.jpg" alt="Une main saisit une portion de miel ambré posée sur la pierre" />
-                <figcaption>Une portion</figcaption>
-              </figure>
-              <figure className="geste-photo">
-                <Photo name="geste-02.jpg" alt="La portion de miel au-dessus d'un verre d'eau fraîche" />
-                <figcaption>Un verre d'eau</figcaption>
-              </figure>
-              <figure className="geste-photo">
-                <Photo name="geste-03.jpg" alt="Le miel se dissout doucement dans l'eau, en volutes dorées" />
-                <figcaption>C'est tout</figcaption>
-              </figure>
+          <div className="geste-carousel">
+            <div className="geste-carousel-viewport">
+              <div className="geste-carousel-track" ref={gesteTrackRef}>
+                <figure className="geste-slide">
+                  <Photo name="geste-01.jpg" alt="Une main saisit une portion de miel ambré posée sur la pierre" />
+                  <figcaption><span className="geste-slide-num">01</span>Une portion</figcaption>
+                </figure>
+                <figure className="geste-slide">
+                  <Photo name="geste-02.jpg" alt="La portion de miel au-dessus d'un verre d'eau fraîche" />
+                  <figcaption><span className="geste-slide-num">02</span>Un verre d'eau</figcaption>
+                </figure>
+                <figure className="geste-slide">
+                  <Photo name="geste-03.jpg" alt="Le miel se dissout doucement dans l'eau, en volutes dorées" />
+                  <figcaption><span className="geste-slide-num">03</span>C'est tout</figcaption>
+                </figure>
+              </div>
             </div>
           </div>
         </section>
