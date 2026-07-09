@@ -44,7 +44,7 @@ function revealDelay(i: number): React.CSSProperties {
 
 /* Délai propre au hero — on laisse la vidéo respirer ~1,5 s, puis le texte apparaît en fondu, en cascade */
 function heroRevealDelay(i: number): React.CSSProperties {
-  return { transitionDelay: `${4000 + i * 110}ms` }
+  return { transitionDelay: `${5000 + i * 110}ms` }
 }
 
 /* ── Alvéole : symbole de marque (hexagone contour or + cellule centrale) ── */

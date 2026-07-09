@@ -152,9 +152,9 @@ header {
 .hero-video-wrap video {
   width: 100%; height: 100%;
   object-fit: cover;
-  /* La vidéo joue d'abord en clair (opacité pleine), puis le filtre arrive avec le texte à 3 s */
+  /* La vidéo joue d'abord en clair (opacité pleine), puis le filtre arrive avec le texte à 5 s */
   opacity: 1;
-  animation: hero-filter-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) 4s forwards;
+  animation: hero-filter-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) 5s forwards;
 }
 .hero-video-wrap::after {
   content: '';
@@ -165,7 +165,7 @@ header {
     rgba(15,61,42,0.28) 68%, rgba(31,71,54,0.72) 100%);
   /* Le voile apparaît en même temps que le texte */
   opacity: 0;
-  animation: hero-veil-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) 4s forwards;
+  animation: hero-veil-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) 5s forwards;
 }
 @keyframes hero-filter-in { to { opacity: 0.82; } }
 @keyframes hero-veil-in { to { opacity: 1; } }
