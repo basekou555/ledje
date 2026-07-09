@@ -149,7 +149,9 @@ header {
 .hero-video-wrap video {
   width: 100%; height: 100%;
   object-fit: cover;
-  opacity: 0.82;
+  /* La vidéo joue d'abord en clair (opacité pleine), puis le filtre arrive avec le texte à 3 s */
+  opacity: 1;
+  animation: hero-filter-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) 3s forwards;
 }
 .hero-video-wrap::after {
   content: '';
@@ -158,7 +160,12 @@ header {
   background: linear-gradient(to bottom,
     rgba(15,61,42,0.18) 0%, rgba(15,61,42,0.04) 35%,
     rgba(15,61,42,0.28) 68%, rgba(31,71,54,0.72) 100%);
+  /* Le voile apparaît en même temps que le texte */
+  opacity: 0;
+  animation: hero-veil-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) 3s forwards;
 }
+@keyframes hero-filter-in { to { opacity: 0.82; } }
+@keyframes hero-veil-in { to { opacity: 1; } }
 
 .hero-content {
   position: relative;
@@ -803,6 +810,8 @@ footer .container { display: flex; flex-direction: column; gap: 0.7rem; align-it
   * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
   .scroll-hint { display: none; }
   .hero-seal { animation: none; }
+  .hero-video-wrap video { animation: none; opacity: 0.82; }
+  .hero-video-wrap::after { animation: none; opacity: 1; }
   .reveal-child { opacity: 1; transform: none; }
   .fade-in-up { animation: none; }
   .geste-step:hover, .geste-step:hover .geste-step-hex,
