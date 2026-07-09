@@ -396,6 +396,17 @@ h1 {
 .bg-amber .section-text { color: #244a37; }
 .bg-amber .section-eyebrow { color: var(--emerald-deep); }
 
+/* Fond émeraude profond + halo doré central — met en valeur le packshot (tons miel) */
+.bg-deep {
+  background:
+    radial-gradient(ellipse 72% 52% at 50% 40%, rgba(224,165,46,0.18) 0%, transparent 70%),
+    linear-gradient(180deg, #0b3122 0%, var(--emerald-deep) 52%, #0b3122 100%);
+  color: var(--text-on-dark);
+}
+.bg-deep .section-title { color: var(--cream); }
+.bg-deep .section-text { color: rgba(237,224,200,0.9); }
+.bg-deep .section-eyebrow { color: var(--gold-text-on-dark); }
+
 /* Utilitaire plein cadre : casse la colonne centrée, image bord à bord.
    Marge négative (pas de transform) pour cohabiter avec les animations reveal. */
 .fullbleed {
@@ -563,6 +574,16 @@ h1 {
   aspect-ratio: 16 / 9;
   object-fit: cover;
   display: block;
+}
+/* Packshot mis en scène : image encadrée qui « flotte » sur le fond profond */
+.bouteille-showcase {
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 0 0 1.7rem;
+  box-shadow:
+    0 28px 55px -18px rgba(0,0,0,0.6),
+    0 0 0 1px rgba(232,182,92,0.25),
+    inset 0 0 0 1px rgba(255,255,255,0.04);
 }
 .section-bouteille .container {
   display: flex;

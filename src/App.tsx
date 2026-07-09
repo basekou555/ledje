@@ -429,9 +429,9 @@ export default function App() {
         </section>
 
         {/* ════ BOUTEILLE — teaser (communication anticipée, pas d'achat) ════ */}
-        <section className="section section-bouteille bg-emerald" aria-labelledby="bouteille-heading">
+        <section className="section section-bouteille bg-deep" aria-labelledby="bouteille-heading">
           <div className="container reveal">
-            <figure className="bouteille-image fullbleed reveal-child" style={revealDelay(0)}>
+            <figure className="bouteille-image bouteille-showcase reveal-child" style={revealDelay(0)}>
               <Photo name="bouteille.jpg" alt="La bouteille Lédjé, étiquette émeraude et or, perlée de fraîcheur" />
             </figure>
             <p className="section-eyebrow reveal-child" style={revealDelay(1)}>Bientôt</p>
