@@ -264,18 +264,36 @@ export default function App() {
     setSurveyDone(true)
   }
 
-  // Vidéo « le miel qui coule » : se lance au survol/touch de l'image, se fige au départ
+  // Vidéo « le miel qui coule ».
+  // Desktop (souris) : au survol → lecture, au départ → figée.
+  // Mobile (tactile) : un tap lance, un tap arrête (pas besoin de maintenir le doigt).
   function playOrigineVideo(e: React.PointerEvent) {
+    if (e.pointerType !== 'mouse') return
     const v = origineVideoRef.current
     if (!v) return
     e.currentTarget.classList.add('is-playing')
     v.play().catch(() => {})
   }
   function stopOrigineVideo(e: React.PointerEvent) {
+    if (e.pointerType !== 'mouse') return
     const v = origineVideoRef.current
     if (!v) return
     e.currentTarget.classList.remove('is-playing')
     v.pause()
+  }
+  function toggleOrigineVideo(e: React.MouseEvent) {
+    // uniquement sur appareils sans survol (tactile) : tap pour lancer / arrêter
+    if (!window.matchMedia('(hover: none)').matches) return
+    const v = origineVideoRef.current
+    if (!v) return
+    const fig = e.currentTarget as HTMLElement
+    if (v.paused) {
+      fig.classList.add('is-playing')
+      v.play().catch(() => {})
+    } else {
+      fig.classList.remove('is-playing')
+      v.pause()
+    }
   }
 
   function toggleAttraction(opt: string) {
@@ -379,6 +397,7 @@ export default function App() {
               style={revealDelay(0)}
               onPointerEnter={playOrigineVideo}
               onPointerLeave={stopOrigineVideo}
+              onClick={toggleOrigineVideo}
             >
               <Photo name="origine.jpg" alt="Un filet de miel doré, traversé par la lumière, sur fond vert émeraude" />
               <video
@@ -391,7 +410,7 @@ export default function App() {
                 preload="none"
                 aria-hidden="true"
               />
-              <span className="hovervideo-hint" aria-hidden="true">Survole pour voir le miel couler</span>
+              <span className="hovervideo-hint" aria-hidden="true">Voir le miel couler</span>
             </figure>
             <p className="section-eyebrow reveal-child" style={revealDelay(1)}>L'origine</p>
             <h2 id="origine-heading" className="section-title reveal-child" style={revealDelay(2)}>

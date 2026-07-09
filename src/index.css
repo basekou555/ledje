@@ -505,7 +505,16 @@ h1 {
 }
 
 /* ── Image → vidéo au survol / touch (le miel qui coule) ── */
-.hovervideo { position: relative; cursor: pointer; }
+.hovervideo {
+  position: relative;
+  cursor: pointer;
+  /* Empêche la sélection / la surbrillance bleue / le menu long-press au tap mobile */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.hovervideo img, .hovervideo .origine-video { pointer-events: none; }
 .origine-video {
   position: absolute;
   inset: 0;
