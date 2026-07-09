@@ -410,7 +410,6 @@ export default function App() {
                 preload="none"
                 aria-hidden="true"
               />
-              <span className="hovervideo-hint" aria-hidden="true">Voir le miel couler</span>
             </figure>
             <p className="section-eyebrow reveal-child" style={revealDelay(1)}>L'origine</p>
             <h2 id="origine-heading" className="section-title reveal-child" style={revealDelay(2)}>
