@@ -348,6 +348,43 @@ export default function App() {
           </div>
         </section>
 
+        {/* ════ FAQ — fond crème (lever les freins avant conversion) ════ */}
+        <section className="section section-faq bg-cream" aria-labelledby="faq-heading">
+          <div className="container reveal">
+            <p className="section-eyebrow reveal-child" style={revealDelay(0)}>Les questions qu'on nous pose</p>
+            <h2 id="faq-heading" className="section-title reveal-child" style={revealDelay(1)}>
+              Ce qu'il faut savoir.
+            </h2>
+
+            <div className="faq-list reveal-child" style={revealDelay(2)}>
+              <details className="faq-item">
+                <summary>C'est quoi, Lédjé, exactement ?</summary>
+                <p>Une portion de miel pur à dissoudre dans un verre d'eau. Le même geste que la tradition nous a laissé, remis au goût du jour.</p>
+              </details>
+              <details className="faq-item">
+                <summary>C'est vraiment que du miel ?</summary>
+                <p>Oui. Un miel pur, français, d'origine tracée, jamais chauffé. Rien d'ajouté, rien de frelaté.</p>
+              </details>
+              <details className="faq-item">
+                <summary>Quand est-ce que ça sort ?</summary>
+                <p>On prépare la première production. Laisse ton email : les inscrits sont prévenus en premier, avant tout le monde.</p>
+              </details>
+              <details className="faq-item">
+                <summary>Combien ça va coûter ?</summary>
+                <p>Le prix sera annoncé au lancement. Les premiers inscrits bénéficient d'un tarif préférentiel garanti.</p>
+              </details>
+              <details className="faq-item">
+                <summary>Pourquoi réserver avec un acompte ?</summary>
+                <p>L'acompte de 5 € nous aide à lancer la première production et te garantit ta place. Il est intégralement remboursé si la production n'est pas lancée.</p>
+              </details>
+              <details className="faq-item">
+                <summary>Est-ce que ça convient à tout le monde ?</summary>
+                <p>Lédjé, c'est du miel. Comme tout miel, il est déconseillé aux enfants de moins d'un an.</p>
+              </details>
+            </div>
+          </div>
+        </section>
+
         {/* ════ FORMULAIRE — fond crème (conversion) ════ */}
         <section className="section section-form bg-cream" id="formulaire" aria-labelledby="form-heading">
           <div className="container reveal">

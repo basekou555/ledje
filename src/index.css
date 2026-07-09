@@ -496,6 +496,60 @@ h1 {
 }
 .origine-points .pt-hex { width: 14px; height: 16px; flex-shrink: 0; }
 
+/* ════ FAQ ════ */
+.section-faq .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.6rem;
+}
+.faq-list {
+  width: 100%;
+  max-width: 620px;
+  margin-top: 1.4rem;
+  text-align: left;
+}
+.faq-item {
+  border-bottom: 1px solid rgba(15,61,42,0.14);
+}
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 1.1rem 2.2rem 1.1rem 0;
+  position: relative;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 1.08rem;
+  font-weight: 500;
+  color: var(--emerald-deep);
+  transition: color 0.2s ease;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary:hover { color: var(--gold-deep); }
+.faq-item summary::after {
+  content: '';
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  border-right: 2px solid var(--gold-deep);
+  border-bottom: 2px solid var(--gold-deep);
+  transform: translateY(-70%) rotate(45deg);
+  transition: transform 0.25s ease;
+}
+.faq-item[open] summary::after {
+  transform: translateY(-30%) rotate(-135deg);
+}
+.faq-item p {
+  margin: 0 0 1.15rem;
+  padding-right: 2.2rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-on-light-muted);
+}
+.faq-item[open] summary { color: var(--gold-deep); }
+
 /* ════ Formulaire ════ */
 .section-form .container {
   display: flex;
