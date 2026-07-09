@@ -357,7 +357,7 @@ export default function App() {
         </section>
 
         {/* ════ L'ORIGINE — fond émeraude velours (premium) ════ */}
-        <section className="section section-origine bg-velvet" aria-labelledby="origine-heading">
+        <section className="section section-origine bg-amber" aria-labelledby="origine-heading">
           <div className="container reveal">
             <figure className="origine-image fullbleed reveal-child" style={revealDelay(0)}>
               <Photo name="origine.jpg" alt="Un filet de miel doré, traversé par la lumière, sur fond vert émeraude" />

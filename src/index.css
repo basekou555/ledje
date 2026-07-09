@@ -387,6 +387,15 @@ h1 {
 .bg-velvet .section-text { color: var(--text-on-dark-muted); }
 .bg-velvet .section-eyebrow { color: var(--gold); }
 
+/* Fond ambre (couleur du miel) — couleurs inversées : texte foncé sur clair */
+.bg-amber {
+  background: linear-gradient(165deg, #EBB749 0%, var(--amber) 55%, var(--amber-deep) 100%);
+  color: var(--emerald-deep);
+}
+.bg-amber .section-title { color: var(--emerald-deep); }
+.bg-amber .section-text { color: #244a37; }
+.bg-amber .section-eyebrow { color: var(--emerald-deep); }
+
 /* Utilitaire plein cadre : casse la colonne centrée, image bord à bord.
    Marge négative (pas de transform) pour cohabiter avec les animations reveal. */
 .fullbleed {
@@ -540,6 +549,18 @@ h1 {
   text-align: left;
 }
 .origine-points .pt-hex { width: 14px; height: 16px; flex-shrink: 0; }
+
+/* Inversion sur fond ambre : puces vertes, cartes contrastées en foncé */
+.bg-amber .origine-points li {
+  color: var(--emerald-deep);
+  background: rgba(15,61,42,0.06);
+  border-color: rgba(15,61,42,0.22);
+}
+.bg-amber .origine-points .pt-hex path { fill: var(--emerald-deep); }
+.bg-amber .origine-points li:hover {
+  border-color: rgba(15,61,42,0.4);
+  background: rgba(15,61,42,0.1);
+}
 
 /* ════ FAQ ════ */
 .section-faq .container {
