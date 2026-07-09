@@ -42,6 +42,11 @@ function revealDelay(i: number): React.CSSProperties {
   return { transitionDelay: `${i * 90}ms` }
 }
 
+/* Délai propre au hero — on laisse la vidéo respirer ~1,5 s, puis le texte apparaît en fondu, en cascade */
+function heroRevealDelay(i: number): React.CSSProperties {
+  return { transitionDelay: `${5000 + i * 110}ms` }
+}
+
 /* ── Alvéole : symbole de marque (hexagone contour or + cellule centrale) ── */
 function Alveole({
   size = 64,
@@ -124,6 +129,8 @@ export default function App() {
   const [surveySubmitting, setSurveySubmitting] = useState(false)
 
   const surveyRef = useRef<HTMLDivElement>(null)
+  const gesteTrackRef = useRef<HTMLDivElement>(null)
+  const origineVideoRef = useRef<HTMLVideoElement>(null)
   const pageStartRef = useRef(Date.now())
   const scroll50Sent = useRef(false)
   const scroll100Sent = useRef(false)
@@ -182,6 +189,43 @@ export default function App() {
     return () => observer.disconnect()
   }, [])
 
+  // Carrousel « Le Geste » : la section reste figée, les 3 images défilent
+  // horizontalement au rythme du scroll vertical (façon Red Bull, en natif).
+  useEffect(() => {
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const track = gesteTrackRef.current
+    const section = document.querySelector<HTMLElement>('.geste-carousel')
+    const viewport = document.querySelector<HTMLElement>('.geste-carousel-viewport')
+    if (prefersReduced || !track || !section || !viewport) return
+
+    // La translation se termine à HOLD_RATIO du scroll ; le reste = temps de
+    // « pause » où la dernière image reste affichée plein écran avant de libérer.
+    const HOLD_RATIO = 0.78
+    let ticking = false
+    const update = () => {
+      const scrollable = section.offsetHeight - viewport.offsetHeight
+      const raw = scrollable > 0
+        ? Math.min(Math.max(-section.getBoundingClientRect().top / scrollable, 0), 1)
+        : 0
+      const progress = Math.min(raw / HOLD_RATIO, 1)
+      const maxTranslate = track.scrollWidth - viewport.clientWidth
+      track.style.transform = `translate3d(${-progress * maxTranslate}px, 0, 0)`
+      ticking = false
+    }
+    const onScroll = () => {
+      if (ticking) return
+      ticking = true
+      requestAnimationFrame(update)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', onScroll)
+    update()
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', onScroll)
+    }
+  }, [])
+
   // Parallax discret sur la trame d'alvéoles du hero
   useEffect(() => {
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -220,6 +264,38 @@ export default function App() {
     setSurveyDone(true)
   }
 
+  // Vidéo « le miel qui coule ».
+  // Desktop (souris) : au survol → lecture, au départ → figée.
+  // Mobile (tactile) : un tap lance, un tap arrête (pas besoin de maintenir le doigt).
+  function playOrigineVideo(e: React.PointerEvent) {
+    if (e.pointerType !== 'mouse') return
+    const v = origineVideoRef.current
+    if (!v) return
+    e.currentTarget.classList.add('is-playing')
+    v.play().catch(() => {})
+  }
+  function stopOrigineVideo(e: React.PointerEvent) {
+    if (e.pointerType !== 'mouse') return
+    const v = origineVideoRef.current
+    if (!v) return
+    e.currentTarget.classList.remove('is-playing')
+    v.pause()
+  }
+  function toggleOrigineVideo(e: React.MouseEvent) {
+    // uniquement sur appareils sans survol (tactile) : tap pour lancer / arrêter
+    if (!window.matchMedia('(hover: none)').matches) return
+    const v = origineVideoRef.current
+    if (!v) return
+    const fig = e.currentTarget as HTMLElement
+    if (v.paused) {
+      fig.classList.add('is-playing')
+      v.play().catch(() => {})
+    } else {
+      fig.classList.remove('is-playing')
+      v.pause()
+    }
+  }
+
   function toggleAttraction(opt: string) {
     setAttraction(prev => prev.includes(opt) ? prev.filter(o => o !== opt) : [...prev, opt])
   }
@@ -251,24 +327,24 @@ export default function App() {
           )}
 
           <div className="hero-content reveal">
-            <Alveole size={64} className="hero-seal reveal-child" style={revealDelay(0)} />
-            <p className="hero-quote reveal-child" style={revealDelay(1)}>
+            <Alveole size={64} className="hero-seal reveal-child" style={heroRevealDelay(0)} />
+            <p className="hero-quote reveal-child" style={heroRevealDelay(1)}>
               « Ce que la tradition nous a laissé de meilleur. »
             </p>
-            <h1 id="hero-heading" className="reveal-child" style={revealDelay(2)}>
+            <h1 id="hero-heading" className="reveal-child" style={heroRevealDelay(2)}>
               Un geste de notre tradition,<br />remis au goût du jour.
             </h1>
-            <p className="brand-name reveal-child" style={revealDelay(3)}>Lédjé</p>
-            <p className="tagline reveal-child" style={revealDelay(4)}>Parmi les bienfaits de ce bas monde</p>
+            <p className="brand-name reveal-child" style={heroRevealDelay(3)}>Lédjé</p>
+            <p className="tagline reveal-child" style={heroRevealDelay(4)}>Parmi les bienfaits de ce bas monde</p>
 
-            <div className="hero-rule reveal-child" style={revealDelay(5)} aria-hidden="true">
+            <div className="hero-rule reveal-child" style={heroRevealDelay(5)} aria-hidden="true">
               <Alveole size={14} filled={false} />
             </div>
 
             <a
               href="#formulaire"
               className="btn-primary reveal-child"
-              style={revealDelay(6)}
+              style={heroRevealDelay(6)}
               onClick={() => trackEvent('cta_click')}
             >
               Rejoindre les premiers
@@ -281,9 +357,9 @@ export default function App() {
           </div>
         </section>
 
-        {/* ════ LE GESTE — fond crème (respiration) ════ */}
-        <section className="section section-geste bg-cream" aria-labelledby="geste-heading">
-          <div className="container reveal">
+        {/* ════ LE GESTE — carrousel horizontal piloté par le scroll vertical (section figée) ════ */}
+        <section className="section-geste bg-cream" aria-labelledby="geste-heading">
+          <div className="geste-intro container reveal">
             <h2 id="geste-heading" className="section-title reveal-child" style={revealDelay(0)}>
               Une portion. Un verre d'eau. C'est tout.
             </h2>
@@ -291,29 +367,49 @@ export default function App() {
               Un miel pur qui se fond dans l'eau fraîche.
               Le geste se fait en quelques secondes, où que tu sois.
             </p>
+          </div>
 
-            <div className="geste-photos">
-              <figure className="geste-photo reveal-child" style={revealDelay(2)}>
-                <Photo name="geste-01.jpg" alt="Une main saisit une portion de miel ambré posée sur la pierre" />
-                <figcaption>1 · Une portion</figcaption>
-              </figure>
-              <figure className="geste-photo reveal-child" style={revealDelay(3)}>
-                <Photo name="geste-02.jpg" alt="La portion de miel au-dessus d'un verre d'eau fraîche" />
-                <figcaption>2 · Un verre d'eau</figcaption>
-              </figure>
-              <figure className="geste-photo reveal-child" style={revealDelay(4)}>
-                <Photo name="geste-03.jpg" alt="Le miel se dissout doucement dans l'eau, en volutes dorées" />
-                <figcaption>3 · Elle se fond</figcaption>
-              </figure>
+          <div className="geste-carousel">
+            <div className="geste-carousel-viewport">
+              <div className="geste-carousel-track" ref={gesteTrackRef}>
+                <figure className="geste-slide">
+                  <Photo name="geste-01.jpg" alt="Une main saisit une portion de miel ambré posée sur la pierre" />
+                  <figcaption><span className="geste-slide-num">01</span>Une portion</figcaption>
+                </figure>
+                <figure className="geste-slide">
+                  <Photo name="geste-02.jpg" alt="La portion de miel au-dessus d'un verre d'eau fraîche" />
+                  <figcaption><span className="geste-slide-num">02</span>Un verre d'eau</figcaption>
+                </figure>
+                <figure className="geste-slide">
+                  <Photo name="geste-03.jpg" alt="Le miel se dissout doucement dans l'eau, en volutes dorées" />
+                  <figcaption><span className="geste-slide-num">03</span>C'est tout</figcaption>
+                </figure>
+              </div>
             </div>
           </div>
         </section>
 
         {/* ════ L'ORIGINE — fond émeraude velours (premium) ════ */}
-        <section className="section section-origine bg-velvet" aria-labelledby="origine-heading">
+        <section className="section section-origine bg-amber" aria-labelledby="origine-heading">
           <div className="container reveal">
-            <figure className="origine-image reveal-child" style={revealDelay(0)}>
+            <figure
+              className="origine-image fullbleed reveal-child hovervideo"
+              style={revealDelay(0)}
+              onPointerEnter={playOrigineVideo}
+              onPointerLeave={stopOrigineVideo}
+              onClick={toggleOrigineVideo}
+            >
               <Photo name="origine.jpg" alt="Un filet de miel doré, traversé par la lumière, sur fond vert émeraude" />
+              <video
+                ref={origineVideoRef}
+                className="origine-video"
+                src="/visuals/origine.mp4"
+                muted
+                loop
+                playsInline
+                preload="none"
+                aria-hidden="true"
+              />
             </figure>
             <p className="section-eyebrow reveal-child" style={revealDelay(1)}>L'origine</p>
             <h2 id="origine-heading" className="section-title reveal-child" style={revealDelay(2)}>
@@ -333,9 +429,9 @@ export default function App() {
         </section>
 
         {/* ════ BOUTEILLE — teaser (communication anticipée, pas d'achat) ════ */}
-        <section className="section section-bouteille bg-emerald" aria-labelledby="bouteille-heading">
+        <section className="section section-bouteille bg-deep" aria-labelledby="bouteille-heading">
           <div className="container reveal">
-            <figure className="bouteille-image reveal-child" style={revealDelay(0)}>
+            <figure className="bouteille-image bouteille-showcase reveal-child" style={revealDelay(0)}>
               <Photo name="bouteille.jpg" alt="La bouteille Lédjé, étiquette émeraude et or, perlée de fraîcheur" />
             </figure>
             <p className="section-eyebrow reveal-child" style={revealDelay(1)}>Bientôt</p>
@@ -345,6 +441,43 @@ export default function App() {
             <p className="section-text reveal-child" style={revealDelay(3)}>
               Le même geste, partout avec toi. On y travaille — sois là quand elle arrive.
             </p>
+          </div>
+        </section>
+
+        {/* ════ FAQ — fond crème (lever les freins avant conversion) ════ */}
+        <section className="section section-faq bg-cream" aria-labelledby="faq-heading">
+          <div className="container reveal">
+            <p className="section-eyebrow reveal-child" style={revealDelay(0)}>Les questions qu'on nous pose</p>
+            <h2 id="faq-heading" className="section-title reveal-child" style={revealDelay(1)}>
+              Ce qu'il faut savoir.
+            </h2>
+
+            <div className="faq-list reveal-child" style={revealDelay(2)}>
+              <details className="faq-item">
+                <summary>C'est quoi, Lédjé, exactement ?</summary>
+                <p>Une portion de miel pur à dissoudre dans un verre d'eau. Le même geste que la tradition nous a laissé, remis au goût du jour.</p>
+              </details>
+              <details className="faq-item">
+                <summary>C'est vraiment que du miel ?</summary>
+                <p>Oui. Un miel pur, français, d'origine tracée, jamais chauffé. Rien d'ajouté, rien de frelaté.</p>
+              </details>
+              <details className="faq-item">
+                <summary>Quand est-ce que ça sort ?</summary>
+                <p>On prépare la première production. Laisse ton email : les inscrits sont prévenus en premier, avant tout le monde.</p>
+              </details>
+              <details className="faq-item">
+                <summary>Combien ça va coûter ?</summary>
+                <p>Le prix sera annoncé au lancement. Les premiers inscrits bénéficient d'un tarif préférentiel garanti.</p>
+              </details>
+              <details className="faq-item">
+                <summary>Pourquoi réserver avec un acompte ?</summary>
+                <p>L'acompte de 5 € nous aide à lancer la première production et te garantit ta place. Il est intégralement remboursé si la production n'est pas lancée.</p>
+              </details>
+              <details className="faq-item">
+                <summary>Est-ce que ça convient à tout le monde ?</summary>
+                <p>Lédjé, c'est du miel. Comme tout miel, il est déconseillé aux enfants de moins d'un an.</p>
+              </details>
+            </div>
           </div>
         </section>
 

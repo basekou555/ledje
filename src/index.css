@@ -61,6 +61,10 @@
 /* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; font-size: 100%; -webkit-text-size-adjust: 100%; }
+/* clip (et non hidden) : bloque le débordement horizontal SANS créer de conteneur
+   de défilement — indispensable pour que position: sticky continue de fonctionner
+   (le carrousel figé du Geste). */
+html, body { overflow-x: clip; }
 body {
   font-family: 'Inter', system-ui, sans-serif;
   background: var(--emerald);
@@ -148,7 +152,9 @@ header {
 .hero-video-wrap video {
   width: 100%; height: 100%;
   object-fit: cover;
-  opacity: 0.82;
+  /* La vidéo joue d'abord en clair (opacité pleine), puis le filtre arrive avec le texte à 5 s */
+  opacity: 1;
+  animation: hero-filter-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) 5s forwards;
 }
 .hero-video-wrap::after {
   content: '';
@@ -157,7 +163,12 @@ header {
   background: linear-gradient(to bottom,
     rgba(15,61,42,0.18) 0%, rgba(15,61,42,0.04) 35%,
     rgba(15,61,42,0.28) 68%, rgba(31,71,54,0.72) 100%);
+  /* Le voile apparaît en même temps que le texte */
+  opacity: 0;
+  animation: hero-veil-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) 5s forwards;
 }
+@keyframes hero-filter-in { to { opacity: 0.82; } }
+@keyframes hero-veil-in { to { opacity: 1; } }
 
 .hero-content {
   position: relative;
@@ -376,65 +387,203 @@ h1 {
 .bg-velvet .section-text { color: var(--text-on-dark-muted); }
 .bg-velvet .section-eyebrow { color: var(--gold); }
 
-/* ════ Le Geste ════ */
-.section-geste .container {
+/* Fond ambre (couleur du miel) — couleurs inversées : texte foncé sur clair */
+.bg-amber {
+  background: linear-gradient(165deg, #E0A52E 0%, #EABB54 55%, #F4D078 100%);
+  color: var(--emerald-deep);
+}
+.bg-amber .section-title { color: var(--emerald-deep); }
+.bg-amber .section-text { color: #244a37; }
+.bg-amber .section-eyebrow { color: var(--emerald-deep); }
+
+/* Fond émeraude profond + halo doré central — met en valeur le packshot (tons miel) */
+.bg-deep {
+  background:
+    radial-gradient(ellipse 72% 52% at 50% 40%, rgba(224,165,46,0.18) 0%, transparent 70%),
+    linear-gradient(180deg, #0b3122 0%, var(--emerald-deep) 52%, #0b3122 100%);
+  color: var(--text-on-dark);
+}
+.bg-deep .section-title { color: var(--cream); }
+.bg-deep .section-text { color: rgba(237,224,200,0.9); }
+.bg-deep .section-eyebrow { color: var(--gold-text-on-dark); }
+
+/* Utilitaire plein cadre : casse la colonne centrée, image bord à bord.
+   Marge négative (pas de transform) pour cohabiter avec les animations reveal. */
+.fullbleed {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+/* ════ Le Geste — carrousel horizontal figé (scroll vertical) ════ */
+.section-geste { background: var(--cream); }
+.geste-intro {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.4rem;
   text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
 }
-.geste-photos {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.9rem;
-  width: 100%;
-  margin-top: 0.6rem;
+
+/* Piste de scroll : sa hauteur (300vh) fournit la distance de défilement.
+   3 slides → 2 transitions → ~200vh de scroll pour ~200vw de translation. */
+.geste-carousel {
+  position: relative;
+  height: 300vh;
 }
-.geste-photo {
+.geste-carousel-viewport {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.geste-carousel-track {
+  display: flex;
+  height: 100vh;
+  will-change: transform;
+}
+.geste-slide {
+  position: relative;
+  flex: 0 0 100vw;
+  height: 100vh;
   margin: 0;
-  border-radius: var(--radius);
   overflow: hidden;
   background: var(--cream-dark);
-  box-shadow: 0 6px 20px rgba(15,61,42,0.1);
 }
-.geste-photo img {
+.geste-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* Scrim bas pour la lisibilité de la légende */
+.geste-slide::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(15,61,42,0.62) 0%, transparent 42%);
+  z-index: 1;
+  pointer-events: none;
+}
+.geste-slide figcaption {
+  position: absolute;
+  left: 2rem;
+  bottom: 2.2rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(1.4rem, 5vw, 2rem);
+  font-weight: 500;
+  color: var(--cream);
+  text-shadow: 0 1px 12px rgba(15,61,42,0.7);
+  z-index: 2;
+}
+.geste-slide-num {
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  font-weight: 600;
+  color: var(--gold-light);
+  opacity: 0.9;
+}
+
+/* Repli sans animation : pile verticale classique, pas de section figée */
+@media (prefers-reduced-motion: reduce) {
+  .geste-carousel { height: auto; }
+  .geste-carousel-viewport { position: static; height: auto; display: block; overflow: visible; }
+  .geste-carousel-track { flex-direction: column; height: auto; transform: none !important; }
+  .geste-slide { flex-basis: auto; height: auto; }
+  .geste-slide img { aspect-ratio: 4 / 3; height: auto; }
+}
+
+/* ════ Photos de section (Origine, Bouteille) — plein cadre ════ */
+.origine-image, .bouteille-image {
+  margin: 0 0 0.6rem;
+  width: 100%;
+  overflow: hidden;
+  background: rgba(15,61,42,0.4);
+}
+.origine-image img {
   width: 100%;
   aspect-ratio: 16 / 10;
   object-fit: cover;
   display: block;
 }
-.geste-photo figcaption {
-  font-size: 0.74rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--text-on-light-muted);
-  font-weight: 600;
-  padding: 0.65rem 0.5rem 0.75rem;
-  background: var(--cream-soft);
-}
 
-/* ════ Photos de section (Origine, Bouteille) ════ */
-.origine-image, .bouteille-image {
-  margin: 0 0 0.4rem;
-  width: 100%;
-  max-width: 420px;
-  border-radius: var(--radius);
-  overflow: hidden;
-  background: rgba(15,61,42,0.4);
-  box-shadow: 0 8px 26px rgba(0,0,0,0.22);
+/* ── Image → vidéo au survol / touch (le miel qui coule) ── */
+.hovervideo {
+  position: relative;
+  cursor: pointer;
+  /* Empêche la sélection / la surbrillance bleue / le menu long-press au tap mobile */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
 }
-.origine-image img {
+.hovervideo img, .hovervideo .origine-video { pointer-events: none; }
+.origine-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.55s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+.hovervideo.is-playing .origine-video { opacity: 1; }
+/* Indice discret, en bas à droite, qui s'efface quand la vidéo joue */
+.hovervideo-hint {
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.9rem;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--cream);
+  background: rgba(15,61,42,0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(232,182,92,0.3);
+  border-radius: 999px;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+.hovervideo-hint::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 7px solid var(--gold);
+  border-top: 4.5px solid transparent;
+  border-bottom: 4.5px solid transparent;
+}
+.hovervideo.is-playing .hovervideo-hint { opacity: 0; }
+.bouteille-image img {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   display: block;
 }
-.bouteille-image img {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  display: block;
+/* Packshot mis en scène : image encadrée qui « flotte » sur le fond profond */
+.bouteille-showcase {
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 0 0 1.7rem;
+  box-shadow:
+    0 28px 55px -18px rgba(0,0,0,0.6),
+    0 0 0 1px rgba(232,182,92,0.25),
+    inset 0 0 0 1px rgba(255,255,255,0.04);
 }
 .section-bouteille .container {
   display: flex;
@@ -476,6 +625,72 @@ h1 {
   text-align: left;
 }
 .origine-points .pt-hex { width: 14px; height: 16px; flex-shrink: 0; }
+
+/* Inversion sur fond ambre : puces vertes, cartes contrastées en foncé */
+.bg-amber .origine-points li {
+  color: var(--emerald-deep);
+  background: rgba(15,61,42,0.06);
+  border-color: rgba(15,61,42,0.22);
+}
+.bg-amber .origine-points .pt-hex path { fill: var(--emerald-deep); }
+.bg-amber .origine-points li:hover {
+  border-color: rgba(15,61,42,0.4);
+  background: rgba(15,61,42,0.1);
+}
+
+/* ════ FAQ ════ */
+.section-faq .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.6rem;
+}
+.faq-list {
+  width: 100%;
+  max-width: 620px;
+  margin-top: 1.4rem;
+  text-align: left;
+}
+.faq-item {
+  border-bottom: 1px solid rgba(15,61,42,0.14);
+}
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 1.1rem 2.2rem 1.1rem 0;
+  position: relative;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 1.08rem;
+  font-weight: 500;
+  color: var(--emerald-deep);
+  transition: color 0.2s ease;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary:hover { color: var(--gold-deep); }
+.faq-item summary::after {
+  content: '';
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  border-right: 2px solid var(--gold-deep);
+  border-bottom: 2px solid var(--gold-deep);
+  transform: translateY(-70%) rotate(45deg);
+  transition: transform 0.25s ease;
+}
+.faq-item[open] summary::after {
+  transform: translateY(-30%) rotate(-135deg);
+}
+.faq-item p {
+  margin: 0 0 1.15rem;
+  padding-right: 2.2rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-on-light-muted);
+}
+.faq-item[open] summary { color: var(--gold-deep); }
 
 /* ════ Formulaire ════ */
 .section-form .container {
@@ -730,6 +945,8 @@ footer .container { display: flex; flex-direction: column; gap: 0.7rem; align-it
   * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
   .scroll-hint { display: none; }
   .hero-seal { animation: none; }
+  .hero-video-wrap video { animation: none; opacity: 0.82; }
+  .hero-video-wrap::after { animation: none; opacity: 1; }
   .reveal-child { opacity: 1; transform: none; }
   .fade-in-up { animation: none; }
   .geste-step:hover, .geste-step:hover .geste-step-hex,
