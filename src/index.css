@@ -560,7 +560,7 @@ h1 {
 .hovervideo.is-playing .hovervideo-hint { opacity: 0; }
 .bouteille-image img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   display: block;
 }
