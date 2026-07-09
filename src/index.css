@@ -503,6 +503,52 @@ h1 {
   object-fit: cover;
   display: block;
 }
+
+/* ── Image → vidéo au survol / touch (le miel qui coule) ── */
+.hovervideo { position: relative; cursor: pointer; }
+.origine-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.55s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+.hovervideo.is-playing .origine-video { opacity: 1; }
+/* Indice discret, en bas à droite, qui s'efface quand la vidéo joue */
+.hovervideo-hint {
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.9rem;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--cream);
+  background: rgba(15,61,42,0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(232,182,92,0.3);
+  border-radius: 999px;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+.hovervideo-hint::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 7px solid var(--gold);
+  border-top: 4.5px solid transparent;
+  border-bottom: 4.5px solid transparent;
+}
+.hovervideo.is-playing .hovervideo-hint { opacity: 0; }
 .bouteille-image img {
   width: 100%;
   aspect-ratio: 4 / 5;

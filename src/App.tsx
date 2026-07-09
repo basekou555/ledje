@@ -130,6 +130,7 @@ export default function App() {
 
   const surveyRef = useRef<HTMLDivElement>(null)
   const gesteTrackRef = useRef<HTMLDivElement>(null)
+  const origineVideoRef = useRef<HTMLVideoElement>(null)
   const pageStartRef = useRef(Date.now())
   const scroll50Sent = useRef(false)
   const scroll100Sent = useRef(false)
@@ -263,6 +264,20 @@ export default function App() {
     setSurveyDone(true)
   }
 
+  // Vidéo « le miel qui coule » : se lance au survol/touch de l'image, se fige au départ
+  function playOrigineVideo(e: React.PointerEvent) {
+    const v = origineVideoRef.current
+    if (!v) return
+    e.currentTarget.classList.add('is-playing')
+    v.play().catch(() => {})
+  }
+  function stopOrigineVideo(e: React.PointerEvent) {
+    const v = origineVideoRef.current
+    if (!v) return
+    e.currentTarget.classList.remove('is-playing')
+    v.pause()
+  }
+
   function toggleAttraction(opt: string) {
     setAttraction(prev => prev.includes(opt) ? prev.filter(o => o !== opt) : [...prev, opt])
   }
@@ -359,8 +374,24 @@ export default function App() {
         {/* ════ L'ORIGINE — fond émeraude velours (premium) ════ */}
         <section className="section section-origine bg-amber" aria-labelledby="origine-heading">
           <div className="container reveal">
-            <figure className="origine-image fullbleed reveal-child" style={revealDelay(0)}>
+            <figure
+              className="origine-image fullbleed reveal-child hovervideo"
+              style={revealDelay(0)}
+              onPointerEnter={playOrigineVideo}
+              onPointerLeave={stopOrigineVideo}
+            >
               <Photo name="origine.jpg" alt="Un filet de miel doré, traversé par la lumière, sur fond vert émeraude" />
+              <video
+                ref={origineVideoRef}
+                className="origine-video"
+                src="/visuals/origine.mp4"
+                muted
+                loop
+                playsInline
+                preload="none"
+                aria-hidden="true"
+              />
+              <span className="hovervideo-hint" aria-hidden="true">Survole pour voir le miel couler</span>
             </figure>
             <p className="section-eyebrow reveal-child" style={revealDelay(1)}>L'origine</p>
             <h2 id="origine-heading" className="section-title reveal-child" style={revealDelay(2)}>
