@@ -61,7 +61,10 @@
 /* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; font-size: 100%; -webkit-text-size-adjust: 100%; }
-html, body { overflow-x: hidden; }
+/* clip (et non hidden) : bloque le débordement horizontal SANS créer de conteneur
+   de défilement — indispensable pour que position: sticky continue de fonctionner
+   (le carrousel figé du Geste). */
+html, body { overflow-x: clip; }
 body {
   font-family: 'Inter', system-ui, sans-serif;
   background: var(--emerald);
