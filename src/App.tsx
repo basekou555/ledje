@@ -42,6 +42,11 @@ function revealDelay(i: number): React.CSSProperties {
   return { transitionDelay: `${i * 90}ms` }
 }
 
+/* Délai propre au hero — on laisse la vidéo respirer ~1,5 s, puis le texte apparaît en fondu, en cascade */
+function heroRevealDelay(i: number): React.CSSProperties {
+  return { transitionDelay: `${1500 + i * 110}ms` }
+}
+
 /* ── Alvéole : symbole de marque (hexagone contour or + cellule centrale) ── */
 function Alveole({
   size = 64,
@@ -251,24 +256,24 @@ export default function App() {
           )}
 
           <div className="hero-content reveal">
-            <Alveole size={64} className="hero-seal reveal-child" style={revealDelay(0)} />
-            <p className="hero-quote reveal-child" style={revealDelay(1)}>
+            <Alveole size={64} className="hero-seal reveal-child" style={heroRevealDelay(0)} />
+            <p className="hero-quote reveal-child" style={heroRevealDelay(1)}>
               « Ce que la tradition nous a laissé de meilleur. »
             </p>
-            <h1 id="hero-heading" className="reveal-child" style={revealDelay(2)}>
+            <h1 id="hero-heading" className="reveal-child" style={heroRevealDelay(2)}>
               Un geste de notre tradition,<br />remis au goût du jour.
             </h1>
-            <p className="brand-name reveal-child" style={revealDelay(3)}>Lédjé</p>
-            <p className="tagline reveal-child" style={revealDelay(4)}>Parmi les bienfaits de ce bas monde</p>
+            <p className="brand-name reveal-child" style={heroRevealDelay(3)}>Lédjé</p>
+            <p className="tagline reveal-child" style={heroRevealDelay(4)}>Parmi les bienfaits de ce bas monde</p>
 
-            <div className="hero-rule reveal-child" style={revealDelay(5)} aria-hidden="true">
+            <div className="hero-rule reveal-child" style={heroRevealDelay(5)} aria-hidden="true">
               <Alveole size={14} filled={false} />
             </div>
 
             <a
               href="#formulaire"
               className="btn-primary reveal-child"
-              style={revealDelay(6)}
+              style={heroRevealDelay(6)}
               onClick={() => trackEvent('cta_click')}
             >
               Rejoindre les premiers
