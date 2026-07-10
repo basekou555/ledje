@@ -195,7 +195,7 @@ Le vert = signature constante de marque. Chaque produit garde son monde ambre :
 
 ## 3.7 Statut designer
 
-**Brief designeuse envoyé/prêt** : `ledje-brief-designer.md` — distingue convictions verrouillées (principe fondateur, évocation/proclamation, direction émeraude+or, signature) de l'espace créatif ouvert (logo/alvéole final, typo finale, affinage palette, art direction, applications). **⚠️ Règle @update : toute modification du design system dans le SOT → vérifier la cohérence avec le brief designeuse et la relancer si besoin.** Travail définitif logo/symbole : attendre son retour pour éviter les allers-retours.
+**Brief designeuse** : `docs/ledje-brief-designer.md` (dans le repo, mis à jour 2026-07-10 avec la typo Cormorant/Lora et le nouveau symbole retenus, marqués « à valider avec elle ») — distingue convictions verrouillées (principe fondateur, évocation/proclamation, direction émeraude+or, signature) de l'espace créatif ouvert (logo/alvéole final, typo finale, affinage palette, art direction, applications). **⚠️ Règle @update : toute modification du design system dans le SOT → vérifier la cohérence avec le brief designeuse et la relancer si besoin.** Travail définitif logo/symbole : attendre son retour pour éviter les allers-retours.
 
 ---
 
