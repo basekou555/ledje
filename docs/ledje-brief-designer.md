@@ -1,7 +1,7 @@
 # Lédjé — Brief designeuse
 
 > Document de travail pour la designeuse. Source de vérité de la marque : `docs/LEDJE_SOURCE_OF_TRUTH.md` (SOT). En cas de contradiction, le SOT gagne.
-> Dernière mise à jour : 2026-07-10 (design system implémenté sur la landing — typo Cormorant Garamond + Lora, nouveau symbole de marque, favicon).
+> Dernière mise à jour : 2026-07-10 (design system implémenté sur la landing — typo Cormorant Garamond + Lora, nouveau symbole de marque, favicon ; **produit figé = cristal de miel**, terminologie à répercuter).
 
 ---
 
@@ -10,7 +10,8 @@
 - **Principe fondateur** : Lédjé n'est pas « une marque de miel ». La valeur, c'est le **geste de la tradition remis au goût du jour** ; le miel est le support, pas le sujet.
 - **Évocation, jamais proclamation** : registre spirituel par le ton, **jamais** de symbole religieux explicite ni de citation sacrée sur un support commercial.
 - **Aucune allégation santé**, explicite ou implicite (règlement CE 1924/2006 — l'implicite est couvert).
-- **Direction chromatique** : couleur reine = **vert émeraude** (le sens, la tradition, la noblesse). **Or** = le précieux, accent rare (jamais en aplat large, jamais en texte courant). **Ambre** = le produit / l'appétence (étiquette, portion). Contraste franc = signature, pas de douceur tiède. Matière : velours mat + dorure brillante.
+- **Produit & terminologie (figée 2026-07-09)** : le produit est un **cristal de miel** (miel pur cristallisé, à dissoudre dans l'eau) + une bouteille prête à boire. On dit **« cristal de miel »** partout — **jamais** « perle », « portion », « monodose », « pastille » ni « bonbon ». À répercuter dans tous tes documents/visuels.
+- **Direction chromatique** : couleur reine = **vert émeraude** (le sens, la tradition, la noblesse). **Or** = le précieux, accent rare (jamais en aplat large, jamais en texte courant). **Ambre** = le produit / l'appétence (étiquette, cristal de miel). Contraste franc = signature, pas de douceur tiède. Matière : velours mat + dorure brillante.
 - **Signature** : « Parmi les bienfaits de ce bas monde » + le nom Lédjé.
 - **Palette (tokens)** : voir SOT §3.2 (émeraude #2E6B4F / velours #1F4736 / profond #0F3D2A ; or dégradé #FBE9A8→#E8B65C→#A9740F ; ambre #E0A52E ; crème #EDE0C8).
 
