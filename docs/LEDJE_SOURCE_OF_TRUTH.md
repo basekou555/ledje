@@ -1,7 +1,7 @@
 # LÉDJÉ — SOURCE OF TRUTH
 > **Document central unique du projet Lédjé.** Toute personne ou IA qui travaille sur le projet part d'ici.
 > **RÈGLE ABSOLUE : en cas de contradiction entre la mémoire d'une session et ce document, le SOT gagne.**
-> Dernière mise à jour : 2026-07-10 (design system implémenté sur la landing : typo Cormorant Garamond + Lora, nouveau symbole de marque, favicon ; nouvelles sections/interactions de la landing ; questionnaire refondu ; réservation Stripe).
+> Dernière mise à jour : 2026-07-10 (synchronisation générale COO + site : produit = **cristal de miel**, pivot production artisanale intermédiaire, Mom Tests 1-8, coûts/format artisanal, réglementaire DDPP, sourcing ; + design system landing : typo Cormorant Garamond + Lora, nouveau symbole de marque, favicon, sections §5.9, questionnaire, réservation Stripe).
 
 **Locations :**
 - Repo Git : `docs/LEDJE_SOURCE_OF_TRUTH.md` (source canonique)
@@ -13,7 +13,9 @@
 
 ## 1.1 C'est quoi Lédjé
 
-**Lédjé** = marque DTC de **miel pur en portion, à dissoudre dans un verre d'eau fraîche**. Un geste de la tradition prophétique remis au goût du jour, sous une forme belle et simple, pour la **communauté musulmane francophone dans toute sa diversité**.
+**Lédjé** = marque DTC de **cristal de miel pur, à dissoudre dans un verre d'eau fraîche** (+ bouteille prête à boire). Un geste de la tradition prophétique remis au goût du jour, sous une forme belle et simple, pour la **communauté musulmane francophone dans toute sa diversité**.
+
+> **Terminologie figée (2026-07-09)** : on dit **« cristal de miel »** partout — SOT, site, prompts visuels. JAMAIS « portion », « monodose », « perle », « pastille » ni « bonbon ».
 
 **Le principe fondateur : créer un univers autour de quelque chose de simple.** (Références : Crocs — un univers entier autour d'une chaussure basique ; les marques de bougies — un imaginaire autour d'un objet qu'on chauffe ; Lipton — un monde de moments autour d'eau chaude infusée.) L'identité ne décrit pas le produit, elle impose un point de vue. Le moat = marque, communauté, authenticité — pas le produit lui-même.
 
@@ -44,13 +46,22 @@ Décision initiale ("pas d'antagoniste") nuancée avec le recul : un point de vu
 
 | | **Étage 1 — LE QUOTIDIEN** | **Étage 2 — L'EXCEPTION** |
 |---|---|---|
-| Produit | Portion de miel **français local** | **Coffret découverte** multi-origines (Sidr Yémen, Oman…) |
+| Produit | **Cristal de miel** français local | **Coffret découverte** multi-origines (Sidr Yémen, Oman…) |
 | Rôle | Abonnement, volume, habitude, rétention | Marge, cadeau, acquisition (boucle : le receveur découvre) |
 | Quand | **Lancement** | **Phase 2** (lié au fil narratif Égypte) |
 
 Le local est une **conviction** (consommer local, éthique), pas une contrainte. Le quotidien reste local ; le voyage et le prestige vivent dans le coffret. Vigilance : les miels exotiques sont les plus fraudés du marché → traçabilité non négociable.
 
 **Bouteille RTD (boisson prête à boire) = phase 2 également.**
+
+### 1.4bis Pivot : production artisanale intermédiaire (décidé 2026-07-07 avec Francesco Schianchi, startup manager)
+
+Une **production artisanale intermédiaire précède l'industrialisation** — elle la **finance et la dé-risque**, elle ne la remplace pas. Première série : **~300 bouteilles**.
+
+- **Objectifs** : tester la recette en réel · retours tracés (principe « chaque contact produit laisse une trace » : QR code / email / papier) · **vendre en lots aux mosquées** (B2B2C, jamais de détail sur stand) · mesurer les volumes par mosquée · autofinancer la première production industrielle · travailler le branding terrain.
+- **Séquence verrouillée** : l'artisanal se fait **PENDANT la présence de Basekou en France**. L'**industrialisation 100 % autonome (sans lui) = LA CONDITION du départ en Égypte.** Pas d'artisanal piloté à distance.
+- **Traction** : première mosquée déjà testée (dégustation offerte, retours positifs) ; proposition de vente en cours (~2,50 €/bouteille en lot, à négocier).
+- **Vigilances** : réglementaire **AVANT** première vente (déclaration DDPP, hygiène, étiquetage, stabilité microbiologique eau+miel non pasteurisé, cf. §4.4) · coût artisanal ≠ industriel · KPIs Francesco (bouteilles distribuées/achetées, coût de revient réel, retours mosquées, taille du marché adressable).
 
 ## 1.5 Le moment (ancre du rituel)
 
@@ -69,11 +80,11 @@ Le local est une **conviction** (consommer local, éthique), pas une contrainte.
 
 ## 1.7 Contrainte prix (cible business, PAS un argument marketing)
 
-**Cible : prix unitaire consommateur ≤ 2 €/portion** (étage 1 ; à confirmer si applicable à la future bouteille RTD). Le **pack découverte** a son propre prix, calculé séparément (coûts + marge + valeur de l'expérience), pas mécaniquement plafonné à 2€ × nombre d'unités.
+**Cible : prix unitaire consommateur ≤ 2 €/cristal** (étage 1 ; à confirmer si applicable à la future bouteille RTD). Le **pack découverte** a son propre prix, calculé séparément (coûts + marge + valeur de l'expérience), pas mécaniquement plafonné à 2€ × nombre d'unités. *(Prix bouteille artisanale : voir §4.3 — plafond psychologique B2C 3-3,50 €, vente en lot mosquée 2,50-3 €.)*
 
 **⚠️ Piège identifié — ne jamais communiquer publiquement sur le coût de revient ni comparer le prix à un soda (type Coca).** Raisons : (1) le prix de vente est indexé sur la valeur perçue et le positionnement, pas sur le coût des matières premières — communiquer "c'est pas cher à produire" casse l'argument de valeur qu'on construit. (2) Le parcours de décision du pratiquant (§1.6) ne fait *pas* intervenir le prix en premier critère — l'inviter à comparer au centime le fait raisonner sur un terrain (rapport qualité-prix face à une méga-marque) où on ne peut pas gagner. (3) Risque de retournement : "pas cher à produire" peut se lire comme "vous nous survendez", dans une communauté déjà sensible à la fraude/l'exploitation commerciale (cf. §1.3bis). Le prix se justifie par ce qu'on offre, jamais par ce que ça coûte à produire.
 
-Calcul réel du prix à faire dès les réponses fournisseurs (Partie 7) : coût de revient réel/portion → vérifier si 2€ laisse une marge saine → ajuster prix, format (packs groupés), ou fournisseur si besoin.
+Calcul réel du prix à faire dès les réponses fournisseurs (Partie 7) : coût de revient réel/cristal → vérifier si 2€ laisse une marge saine → ajuster prix, format (packs groupés), ou fournisseur si besoin.
 
 ---
 
@@ -166,7 +177,7 @@ L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« enco
 - L'or = accent **rare** (nom, CTA, filets, sceau, alvéole). Jamais en aplat large, **jamais en couleur de texte courant** (contraste insuffisant).
 - Texte courant = crème sur vert, ou émeraude profonde sur crème.
 - **Alterner** sections émeraude / crème (respiration — pas tout sombre).
-- **Où le vert domine :** landing, cartons, communication (l'écrin de marque). **Où l'ambre domine :** l'étiquette et la portion (contact alimentaire → préserver l'appétence ; le vert y devient le sceau).
+- **Où le vert domine :** landing, cartons, communication (l'écrin de marque). **Où l'ambre domine :** l'étiquette et le cristal de miel (contact alimentaire → préserver l'appétence ; le vert y devient le sceau).
 - Sobre et digne, pas d'effets criards.
 
 ## 3.4 Typographie (mise à jour 2026-07-10 — design system appliqué)
@@ -201,19 +212,39 @@ Le vert = signature constante de marque. Chaque produit garde son monde ambre :
 
 # PARTIE 4 : PRODUIT & OFFRE
 
-## 4.1 Produit de lancement
+## 4.1 Produit de lancement — le cristal de miel (retenu, 2026-07-09)
 
-**Portion / monodose de miel pur français** (15-20 g), à dissoudre dans l'eau fraîche — statut actuel par défaut.
-**⚠️ La « perle de miel gravée » n'existe pas industriellement en France** (ultra-niche, White Lion aux US).
+**Le format retenu est le CRISTAL DE MIEL** : cristallisation dirigée du miel (100 % miel, **jamais chauffé**), qui se moule en masse compacte solide. **Ce n'est plus une "piste" — c'est le produit.** Se dissout correctement dans l'eau fraîche à condition d'obtenir des **cristaux fins**.
 
-**🔄 Piste en cours d'exploration (2026-07-04, NON CONFIRMÉE) : bonbon à cœur de miel liquide, qui se dissout au secouage dans l'eau.** Comprendre cette piste comme la continuité naturelle de l'ambition initiale de la perle — pas un produit différent, mais une voie industrielle réelle trouvée là où la sphère gravée ne l'était pas. Fournisseur pilote pressenti : **Apior (Orléans)**, déjà en confiserie au miel. **Point de vigilance ouvert : la fabrication d'un bonbon implique généralement de chauffer le miel**, ce qui peut invalider l'argument "jamais chauffé" (§2.5) — à vérifier directement avec le fournisseur (température exacte, est-ce que seule la coque est chauffée en laissant le cœur cru ?). **Basekou travaille encore cette piste ; consigne explicite : ne rien avancer/verrouiller tant que l'information n'est pas fiable.** Ne pas re-router le shot-book ou le master prompt visuel sur cette base tant que non confirmé.
+- **Points de faisabilité ouverts** (à tester — test maison + fournisseurs) : tenue à **>25-30 °C** (ne pas fondre/coller) + **vitesse de dissolution**.
+- **Ordre de préférence format** (cf. §7.2bis) : 1) **cristallisation dirigée** (retenue) · 2) gélification alginate (plan B) · 3) coque chauffée (**écartée** — chauffe le miel).
+- **⚠️ La « perle de miel gravée » n'existe pas industriellement en France** (ultra-niche, White Lion aux US) — ambition d'origine, remplacée par le cristal.
+
+**📦 Piste ARCHIVÉE — bonbon à cœur de miel liquide (Apior).** Écartée car la fabrication du bonbon **chauffe le miel** (tue l'argument « jamais chauffé », §2.5). Conservée en historique, **non poursuivie**.
 
 ## 4.2 Points produit clés
 
 - Le goût est vital : subtilement miellé, jamais écœurant (mode d'échec n°1 de la catégorie).
 - La dissolution dans l'eau froide demande de l'agitation → le « shake » en bouteille est le geste le plus honnête ; en verre, un swirl élégant (jamais de cuillère — sous-entend que ça ne se dissout pas).
-- Le miel est **halal par nature** → aucune certification halal nécessaire pour la portion. Certification pertinente uniquement pour la future RTD (recette, ligne de prod).
+- Le miel est **halal par nature** → aucune certification halal nécessaire pour le cristal. Certification pertinente uniquement pour la future RTD (recette, ligne de prod).
+- **Dosage (bouteille) — à figer par DÉGUSTATION** : les 3 c.à.c. étaient calibrées pour 50 cl. Pour **33 cl**, ~**2 c.à.c. (≈14 g)** à concentration égale — mais la dose finale se fige **en aveugle** (tester 2 / 2,5 / 3 c.à.c., critère : **jamais la gorge sèche après**). Le tableau nutritionnel de l'étiquette reste en **placeholder** tant que la dose n'est pas figée.
 - Modèle : pack découverte en tête de gondole (produit d'entrée, cf. §1.6) ; **abonnement disponible en option dès la phase de précommande** (pas seulement post-Ramadan) — signal précoce de récurrence sans attendre le post-mortem du pic.
+
+## 4.3 Coûts & format artisanal (bouteille 33 cl, série ~300)
+
+- **Format bouteille : 33 cl** (choisi vs 50 cl — plus rentable, perçu « boisson » pas « eau aromatisée », moins d'écœurement).
+- **Bouteille** PET recyclé, bouchon intégré : 38 €/270 port compris (materieldecuisines.com) = **0,14 €/u**.
+- **Miel** (poste n°1) : 68 €/5 kg TTC (13,6 €/kg) → **recherche apiculteur français en direct** pour le volume (français uniquement, positionnement local).
+- **Étiquettes** : décision = **face avant 60×60 épurée (marque seule)** + **étiquette dos légale**, ~0,25 €/u pièce. Designs SVG créés côté COO.
+- **Coût matière total ~0,61-0,78 €/bouteille** selon dose → vendu **2,50-3 € en lot mosquée** (marge brute ×3 à ×5). **Plafond psychologique B2C : 3-3,50 €.**
+
+## 4.4 Réglementaire (boisson pré-mélangée artisanale)
+
+- Boisson pré-mélangée = **denrée préemballée** → **étiquetage INCO complet** : dénomination, liste d'ingrédients (miel **en gras**), quantité, DDM/DLC, conservation, exploitant, **mention nourrissons < 12 mois**, déclaration nutritionnelle.
+- **Allègement possible** (exemption de déclaration nutritionnelle) pour fabrication artisanale en petites quantités / circuit local ~100 km — **à CONFIRMER par la DDPP**.
+- **Démarche DDPP lancée** : premier contact fait ; la **DDPP du Rhône s'est déclarée non compétente** (siège de l'auto-entreprise dans un autre département) → **redirection vers la DDPP du département de domiciliation** en cours.
+- Étiquette : **dénomination + quantité nette dans le même champ visuel** (pas forcément face avant) ; taille caractères min **0,9 mm** (surface < 80 cm²).
+- **Règle** : boucler le réglementaire **AVANT** la première vente (cf. §1.4bis).
 
 ---
 
@@ -286,6 +317,12 @@ WCAG 2.1 AA, mobile-first (99 % du trafic = TikTok). Labels visibles, erreurs en
 
 Ordre : **Hero** (vidéo plein écran ; le voile + le texte apparaissent en fondu à ~5 s pour laisser la vidéo respirer) → **Le Geste** (carrousel horizontal des 3 photos, piloté par le scroll vertical, section figée/pinned, natif sans librairie, repli vertical en `prefers-reduced-motion`) → **L'Origine** (fond ambre dégradé, couleurs inversées ; l'image se transforme en **vidéo « miel qui coule »** au survol souris / au tap mobile — `preload="none"`) → **Bouteille** (teaser « Bientôt », packshot sur fond émeraude profond + halo doré, cadre encadré) → **FAQ** (accordéon natif `<details>`, 6 questions conformes SOT) → **Formulaire** email → **Questionnaire** → **Réservation Stripe**. Toutes les animations respectent `prefers-reduced-motion`.
 
+⚠️ **Cohérence produit à faire** : le site parle encore de « portion / geste » — à réaligner sur **« cristal de miel »** (§1.1) lors du prochain passage copy.
+
+## 5.10 Backlog corrections issues d'un test utilisateur (Valentin, 2026-07-09)
+
+Un test utilisateur complet a produit une liste de corrections (clarté produit, CTA/conversion, animation hero, finition UX, textes), transmise dans un **prompt séparé — non encore traité à date** (cf. Backlog Partie 11). **Ligne de conformité maintenue** : aucune allégation santé, même en question de FAQ (proposition poussée par Valentin → **refusée**, la ligne tient, §2.5).
+
 ---
 
 # PARTIE 6 : CRÉATION PUBLICITAIRE & VISUELS
@@ -304,8 +341,8 @@ Ordre : **Hero** (vidéo plein écran ; le voile + le texte apparaissent en fond
 
 Recette extraite de la référence Coca : monde mono-couleur, low-key, rim light, condensation, macro, cuts courts, payoff slogan. Transposée en ambre/digne :
 
-1. **P1 Héros** (image) — verre + perle texture rayon de miel, monde ambre chaud, bougie. **VALIDÉ** : asset `7dbd6316-3e53-4847-8a3f-2b051f990cde`.
-2. **P2 Épanouissement** (vidéo, plan signature) — la perle touche l'eau, le miel s'épanouit façon encre. Job `23284fd1-d317-4fed-b546-a59b96e509a9` (lancé, verdict utilisateur : pas encore satisfaisant).
+1. **P1 Héros** (image) — verre + cristal de miel (texture rayon de miel), monde ambre chaud, bougie. **VALIDÉ** : asset `7dbd6316-3e53-4847-8a3f-2b051f990cde` *(généré avant la bascule terminologique 2026-07-09 — montre l'ancienne forme « perle », à régénérer en cristal)*.
+2. **P2 Épanouissement** (vidéo, plan signature) — le cristal de miel touche l'eau, le miel s'épanouit façon encre. Job `23284fd1-d317-4fed-b546-a59b96e509a9` (lancé, verdict utilisateur : pas encore satisfaisant).
 3. **P3 Infusion** (vidéo) — volutes qui se posent, façon thé. **Pas encore généré.**
 4. **P4 Payoff** (image) — verre fini + espace texte. Texte « Parmi les bienfaits de ce bas monde » + Lédjé ajouté au montage. **Pas encore généré.**
 
@@ -313,8 +350,8 @@ Recette extraite de la référence Coca : monde mono-couleur, low-key, rim light
 
 ## 6.3 Scripts V1 & V2 (documentés, en attente)
 
-- **V1 « rituel du soir »** : pastille, nuit, rupture du jeûne, silhouette à contre-jour. Registre contemplatif.
-- **V2 « découverte » (bouteille RTD)** : test de demande pastille vs bouteille. Énergie shake, jeune, rafraîchissement. Garde-fou : jamais performance/sport/récup (= promesse santé déguisée).
+- **V1 « rituel du soir »** : cristal de miel, nuit, rupture du jeûne, silhouette à contre-jour. Registre contemplatif.
+- **V2 « découverte » (bouteille RTD)** : test de demande cristal vs bouteille. Énergie shake, jeune, rafraîchissement. Garde-fou : jamais performance/sport/récup (= promesse santé déguisée).
 - Doc : `ledje-scripts-pubs-v1-v2.md` (outputs).
 
 ## 6.4 Higgsfield — paramètres appris
@@ -359,8 +396,8 @@ Référence pour générer scripts vidéo et contenu landing sans réexpliquer l
 
 ## 7.1 Apprentissages clés
 
-- La perle gravée n'existe pas en France → sonder sur des **portions/monodoses** (produit par défaut) et sur le **bonbon à cœur coulant** (piste en cours, cf. §4.1).
-- Miel = halal par nature → pas de certif halal pour la portion (uniquement RTD phase 2).
+- Produit retenu = **cristal de miel** (cristallisation dirigée, cf. §4.1) → sonder les **conditionneurs de miel cristallisé / solide moulé**. La piste bonbon (Apior) est archivée.
+- Miel = halal par nature → pas de certif halal pour le cristal (uniquement RTD phase 2).
 - Objectif du sondage : **MOQ, prix de revient/unité, certifications (HACCP/IFS), délais** → ensuite calcul du prix de précommande viable + marge.
 - Contacter plusieurs fournisseurs par track ; s'attendre à des non-réponses et des emails invalides (taux élevé observé, cf. §7.3) ; ne pas négocier, sonder.
 
@@ -373,20 +410,25 @@ Référence pour générer scripts vidéo et contenu landing sans réexpliquer l
 4. **Culture Miel** (Villemandeur, 45) — sélection/conditionnement à façon. Email invalide, à rappeler.
 5. **Miellerie Chailan** (Thorame-Basse, 04) — miellerie familiale. Email invalide, à rappeler.
 6. **Gourmet Provence** (Arles, 13) — domaine .fr inexistant, profil à façon incertain, à traiter en dernier.
-7. **CELS Laboratoire** (Sète 34 / Sainte-Geneviève-des-Bois 45) — **fabrication de sticks à façon 2-10g de miel — piste la plus alignée avec un format portion, pas encore contacté, à prioriser.**
-8. (Apior, Orléans — bonbons au miel, fournisseur pilote pressenti pour la piste bonbon cœur coulant, cf. §4.1 — contact en cours hors mission Cowork.)
+7. **CELS Laboratoire** (Sète 34 / Sainte-Geneviève-des-Bois 45) — **fabrication de sticks à façon 2-10g de miel — piste à prioriser (à contacter).**
+8. *(Apior, Orléans — bonbons au miel : piste archivée, cf. §4.1, non poursuivie.)*
 
 **Track 2 — Co-packers boisson (phase 2) :**
 1. **Antartic** (Saint-Martin-d'Abbat, 45) — RTD sans alcool, R&D recette, ligne PET. Email invalide, à rappeler.
 2. **JDLO / Les Jardins de l'Orbrie** (Bressuire, 79) — fabrication/embouteillage à façon (~70% de l'activité). Contacté, en attente.
-3. **Agilery** (Zurich, CH) — intermédiaire de matchmaking co-manufacturers Europe. Contacté, en attente.
+3. ~~**Agilery** (Zurich, CH)~~ — **ÉCARTÉ (call Francisca, 2026-07-06)** : mapping ~3700 € HT × 2 produits ≈ 8000 €, 6-7 sem + 2-3 mois, aucune garantie → prix + délais incompatibles Ramadan. Mail de refus envoyé. **Ne PAS leur demander la recherche cristallisé** (= mapping payant).
+
+## 7.2bis Ordre de préférence du format (produit)
+
+1. **Cristallisation dirigée** (retenue) · 2. Gélification alginate (plan B) · 3. Coque chauffée (écartée — chauffe le miel). Cf. §4.1.
 
 ## 7.3 Process & statut (2026-07-04)
 
 - **Mission Cowork exécutée (Shot 1)** : 9-10 fournisseurs contactés en mode brouillon Gmail (relu et envoyé par Basekou). Résultat des premiers envois : **4 mails bien partis** (Melli Ouest, Naturalim, JDLO, Agilery — en attente de réponse), **5 rebonds** (adresse/domaine invalide : GESTRA, Culture Miel, Antartic, Miellerie Chailan, Gourmet Provence — à relancer par téléphone/formulaire, coordonnées dans le suivi Notion).
 - **Suivi structuré dans Notion** (restructuré façon Wouli — dashboard + base de données avec vue kanban par statut, pas un simple tableau) : Dashboard Sourcing Fournisseurs → https://app.notion.com/p/3904bc5926a88160ada5d4f51f59fc70. Base `Fournisseurs — Suivi` avec statut, MOQ, prix/unité, certifs, délai par fournisseur.
-- **Shot 2** (à venir) : relever les réponses, remplir MOQ/prix/certifs/délais dans la base Notion → calcul du prix de vente viable + marge (cible ≤2€/portion, cf. §1.7).
-- Prochaine étape prioritaire : relancer les 5 rebonds par téléphone, contacter CELS Laboratoire (piste stick prometteuse).
+- **Shot 2** (à venir) : relever les réponses, remplir MOQ/prix/certifs/délais dans la base Notion → calcul du prix de vente viable + marge (cible ≤2€/cristal, cf. §1.7).
+- **Nouvelle recherche Cowork lancée (cristal)** : conditionneurs de miel **cristallisé / solide moulé** (5-8 fournisseurs, anti-doublon Notion, brouillons Gmail). Base restructurée (dashboard + kanban) : https://app.notion.com/p/3904bc5926a88160ada5d4f51f59fc70
+- Prochaine étape prioritaire : relancer les 5 rebonds par téléphone, contacter **CELS Laboratoire** (sticks 2-10 g à façon — piste à prioriser).
 
 ---
 
@@ -410,6 +452,19 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 - `ledje-retroplanning-general.md` — rétroplanning macro par pôles (Produit & Fournisseurs, Business, Communication, Tech, Recherche utilisateur, Opérations), ancré sur Ramadan 2027 (≈8 février) et Aïd (≈9-10 mars). Le détail du pôle Communication vit dans sa propre discussion dédiée (Direction Com/Production visuelle) — ne pas dupliquer ici, seulement les dépendances inter-pôles.
 - `ledje-lean-canvas.md` — premier jet (~80% rempli), utile comme carte d'identité business à partager. Case la plus faible et à tester en priorité : la proposition de valeur unique.
 - **Canal B acquisition (décision prise, 2026-07-04)** : créateurs payés (seeding rémunéré) comme plan de secours si le trafic TikTok organique ne décolle pas, la pub payée servant d'amplificateur une fois qu'un contenu a fait ses preuves (pas de découverte à l'aveugle par la pub). Trigger : si la waitlist n'est pas sur trajectoire cible fin octobre 2026. À préparer avant activation : mini-brief de conformité pour les créateurs (mêmes règles que la marque).
+
+## 8.2 Recherche utilisateur — Mom Tests
+
+- **8 entretiens réalisés et loggés** dans Notion (objectif ~20). Dashboard : https://app.notion.com/p/3944bc5926a881709945c2c4cc545f54
+- **Pattern établi** : le concept résonne **uniquement chez qui a déjà le miel en pratique** → validation chirurgicale de la **Branche C**.
+- **État des hypothèses** : **H2** (le rituel a déjà un pied) = la plus solide · **H1** = validée dans la cible (boycott Coca éthique cité ×4 spontanément) · **H3** (cadeau) = la plus contestée, désormais testée en **comportement pré-pitch** ; première validation propre (entretien 8 : offre des plats régulièrement).
+- **Signaux récurrents** : le visuel évoque « santé » tout seul (×4-5 → vigilance conformité + sujet designeuse) · référence spontanée Prime/Squeezie (×2) et kombucha/Holy (×4) · miel+gingembre = forme de miel-boisson déjà vécue · friction e-shop réelle (plusieurs ne commandent jamais d'alimentaire en ligne) · ancres prix : canette 1,50 € / Prime 3 € / Monster 3,50 € · **critère recette or : « jamais la gorge sèche après »**.
+- **Process affiné avec le mentor sales (Valentin, calls 08-09/07)** :
+  - Découverte **Mom Test (fiable)** SÉPARÉE du **pitch de vente (indicatif)**.
+  - Fil conducteur temporel : situation actuelle → solution actuelle → situation future → solution future, **sans retour en arrière**.
+  - **« Est-ce que ça te parle ? » = question BANNIE.** La seule qui compte : **« tu achètes ? »**, puis creuser le non ou tester le oui (lien envoyé en direct).
+  - On **prescrit un produit** selon le profil détecté (**cristal OU bouteille**), jamais de catalogue ni de pack fourre-tout.
+  - **Prévente Stripe 5 €** active (`buy.stripe.com/3cIcN4gH19JhcIVb28gQE01`), proposée **uniquement sur signaux d'achat forts**.
 
 ---
 
@@ -475,17 +530,23 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 | 2026-07-08/10 | **Questionnaire refondu** (aligné SOT) : Q2 attraction (tradition musulmane / goût / accessibilité / valeurs / composition simple et pure) et Q3 `entry_format` (pack / abonnement / coffret) — colonne DB `entry_format` ajoutée (migration `survey_v2_entry_format`). Option « bon pour la santé » **refusée** (allégation implicite interdite), remplacée par « composition simple et pure ». |
 | 2026-07-08 | **Réservation Stripe** ajoutée en fin de parcours waitlist (Payment Link, acompte 5 € remboursable) ; événement `stripe_click`. |
 | 2026-07-10 | **Design system « Lédjé Design System » (Claude Design) implémenté sur la landing** : typo **Cormorant Garamond** (titres/tagline) + **Lora** (wordmark) à la place de Fraunces ; nouveau **symbole de marque** (fleur d'alvéoles + goutte) remplaçant l'hexagone ; **favicon** assorti ; tokens sémantiques/effets ajoutés. Couleurs inchangées (déjà identiques). ⚠️ Typo + symbole issus du design system de Basekou, **non encore validés par la designeuse** — à aligner avec elle (cf. §3.5/§3.7) avant de verrouiller. |
+| 2026-07-07 | **Pivot : production artisanale intermédiaire** (avec Francesco Schianchi) : ~300 bouteilles pour financer/dé-risquer l'industrialisation, vente en lots aux mosquées (B2B2C). Artisanal = pendant la présence en France ; industrialisation autonome = condition du départ en Égypte (§1.4bis). Première mosquée testée (retours positifs). |
+| 2026-07-09 | **Produit de lancement figé = CRISTAL DE MIEL** (cristallisation dirigée, 100 % miel jamais chauffé). **Terminologie figée** : « cristal de miel » partout, jamais portion/monodose/perle/pastille/bonbon. **Piste bonbon (Apior) archivée** (chauffe le miel). Ordre format : cristallisation dirigée > alginate > coque chauffée (écartée). |
+| 2026-07-06/10 | **Coûts & format artisanal** : bouteille **33 cl** (vs 50 cl), PET 0,14 €/u, miel 13,6 €/kg (poste n°1 → apiculteur français en direct), étiquette 60×60 + dos légal ~0,25 €/u → coût matière ~0,61-0,78 €/bouteille, vente lot mosquée 2,50-3 € (marge ×3-5), plafond B2C 3-3,50 €. Dosage 33 cl ~2 c.à.c. **à figer par dégustation** (critère : jamais la gorge sèche). |
+| 2026-07-10 | **Réglementaire lancé** : boisson pré-mélangée = préemballée (INCO complet) ; allègement artisanal/circuit local ~100 km à confirmer DDPP. DDPP du Rhône non compétente → redirection vers DDPP du département de domiciliation. Réglementaire bouclé **avant** première vente. |
+| 2026-07-08/09 | **Mom Tests 1-8** loggés (Notion) : le concept ne résonne que chez qui a déjà le miel en pratique (valide Branche C). H2 la plus solide, H1 validée dans la cible, H3 la plus contestée. Process affiné (Valentin) : découverte Mom Test séparée du pitch ; « est-ce que ça te parle ? » bannie, seule question « tu achètes ? » ; on prescrit un produit (cristal OU bouteille). |
+| 2026-07-06 | **Agilery écarté** (call Francisca) : mapping ~8000 € / délais 6-7 sem + 2-3 mois incompatibles Ramadan → mail de refus. Nouvelle recherche Cowork = conditionneurs de miel cristallisé/solide moulé ; CELS Laboratoire priorisé. |
 
 ---
 
 # PARTIE 11 : BACKLOG / PISTES OUVERTES
 
 1. **Relancer les 5 fournisseurs en rebond** (GESTRA, Culture Miel, Antartic, Miellerie Chailan, Gourmet Provence) par téléphone/formulaire.
-2. **Contacter CELS Laboratoire** (piste stick à façon 2-10g, la plus alignée avec le format portion) — priorité.
-3. **Shot 2 sourcing** : relever les réponses reçues, remplir MOQ/prix/certifs/délais dans la base Notion → calculer le prix de vente viable + marge (cible ≤2€/portion).
-4. **Statut bonbon à cœur coulant** : suivre l'avancée avec Apior (notamment la question de la cuisson vs "jamais chauffé"), ne rien verrouiller côté visuel/copy tant que non confirmé.
+2. **Contacter CELS Laboratoire** (sticks 2-10 g à façon, aligné avec le cristal) + **relancer la recherche Cowork conditionneurs de miel cristallisé/solide moulé** — priorité.
+3. **Shot 2 sourcing** : relever les réponses reçues, remplir MOQ/prix/certifs/délais dans la base Notion → calculer le prix de vente viable + marge (cible ≤2€/cristal).
+4. **Test maison cristal de miel** : valider la faisabilité (cristallisation dirigée, cristaux fins) — **tenue à >25-30 °C** + **vitesse de dissolution**.
 5. **Vérifier le chiffre de l'allégation nutritionnelle** ("4x moins de sucre") sur le produit fini réel avant toute publication.
-6. **Retour designeuse** → verrouiller logo/alvéole final, typo finale, affinage palette → puis production visuelle définitive.
+6. **Retour designeuse** → verrouiller logo/alvéole final, typo finale, affinage palette → puis production visuelle définitive. **+ répercuter le terme « cristal de miel »** (remplace perle/portion) dans ses documents.
 7. **Images packaging exploratoires** (contenant à définir : boîte/sachet/tube, unitaire vs multi-pack, packshot vs mise en scène) — matière de dialogue avec la designeuse.
 8. **Upgrade plan Higgsfield** → regénérer la pub produit dans le monde émeraude+or (P2 retravaillé, P3, P4) → montage CapCut → brancher `VITE_HERO_VIDEO_URL`.
 9. **Vue/export des inscrits** waitlist (dashboard Supabase ou mini vue admin) — indispensable avant de lancer du trafic TikTok.
@@ -493,4 +554,8 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 11. **Réécrire le hook du premier TikTok test** selon la grille de contenu révisée (rappel du rituel en ouverture, pas le geste sensoriel).
 12. **Préparer le mini-brief de conformité créateurs** (mêmes règles que la marque) avant l'activation éventuelle du Canal B (trigger : fin octobre 2026 si waitlist hors trajectoire).
 13. Étudier la piste **abonnement calendaire religieux** (Ramadan/Aïd) pour l'offreur, phase 2.
-14. Plus tard : anti-spam formulaire (Turnstile), email pro (récompense de traction), skill Higgsfield complet (production en volume), pub V1/V2 avec personnages, coffret + fil Égypte (phase 2), RTD (phase 2).
+14. **Figer la dose (dégustation en aveugle 2 / 2,5 / 3 c.à.c. pour 33 cl)** → puis figer le tableau nutritionnel de l'étiquette (placeholder à date).
+15. **Réglementaire artisanal** : obtenir la réponse de la **DDPP du bon département** (domiciliation) sur l'allègement circuit local ; boucler étiquetage INCO **avant** première vente.
+16. **Mosquée — pitch de vente** : convertir la dégustation offerte en **vente en lot** (~2,50 €/bouteille à négocier) ; mesurer les volumes.
+17. **Réaligner la copy du site sur « cristal de miel »** (le site parle encore de « portion/geste ») + traiter les **corrections du test utilisateur Valentin (09/07)** (prompt séparé non encore traité) — sans jamais introduire d'allégation santé.
+18. Plus tard : anti-spam formulaire (Turnstile), email pro (récompense de traction), skill Higgsfield complet (production en volume), pub V1/V2 avec personnages, coffret + fil Égypte (phase 2), RTD (phase 2).
