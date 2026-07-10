@@ -1,7 +1,7 @@
 # LÉDJÉ — SOURCE OF TRUTH
 > **Document central unique du projet Lédjé.** Toute personne ou IA qui travaille sur le projet part d'ici.
 > **RÈGLE ABSOLUE : en cas de contradiction entre la mémoire d'une session et ce document, le SOT gagne.**
-> Dernière mise à jour : 2026-07-05 (système visuel, sourcing exécuté, allégation nutritionnelle, revue stratégique, domaine/INPI).
+> Dernière mise à jour : 2026-07-10 (design system implémenté sur la landing : typo Cormorant Garamond + Lora, nouveau symbole de marque, favicon ; nouvelles sections/interactions de la landing ; questionnaire refondu ; réservation Stripe).
 
 **Locations :**
 - Repo Git : `docs/LEDJE_SOURCE_OF_TRUTH.md` (source canonique)
@@ -94,7 +94,7 @@ Calcul réel du prix à faire dès les réponses fournisseurs (Partie 7) : coût
 
 **« Parmi les bienfaits de ce bas monde »** + le nom Lédjé.
 
-Évoque le registre coranique par le ton, **sans citer de verset** (décision consciente : pas de parole sacrée sur un support commercial). Fraunces italique.
+Évoque le registre coranique par le ton, **sans citer de verset** (décision consciente : pas de parole sacrée sur un support commercial). Cormorant Garamond italique (tagline) ; le wordmark « Lédjé » en Lora.
 
 ## 2.3 Accroche hero de la landing (mise à jour)
 
@@ -169,13 +169,22 @@ L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« enco
 - **Où le vert domine :** landing, cartons, communication (l'écrin de marque). **Où l'ambre domine :** l'étiquette et la portion (contact alimentaire → préserver l'appétence ; le vert y devient le sceau).
 - Sobre et digne, pas d'effets criards.
 
-## 3.4 Typographie
+## 3.4 Typographie (mise à jour 2026-07-10 — design system appliqué)
 
-**Fraunces** (titres, nom, tagline — dont tagline en italique) + **Inter** (texte courant). Google Fonts.
+- **Cormorant Garamond** — titres, tagline, citations, légendes, italiques d'évocation.
+- **Lora** — wordmark « Lédjé » (header, hero, footer).
+- **Inter** — texte courant + UI.
+- Servies par Google Fonts. Tokens : `--font-serif` (Cormorant), `--font-wordmark` (Lora), `--font-sans` (Inter).
 
-## 3.5 Le symbole : l'alvéole
+*Historique : la version précédente utilisait **Fraunces** pour tout le serif. Remplacée le 2026-07-10 par la typo du **« Lédjé Design System »** (projet Claude Design, cf. §3.7).*
 
-Hexagone contour or fin + **une cellule pleine au centre** — le cercle, l'harmonie, le point de rassemblement, la **communauté**. Rejetés : abeille et pot de miel (génériques, décrivent le produit et non la valeur). Piste à travailler (avec la designeuse) : cellules **jointes par l'or**, façon kintsugi. Usage : récurrent mais **discret** (header, sceaux, puces, trame de fond, favicon).
+## 3.5 Le symbole (mise à jour 2026-07-10)
+
+**Symbole actuel (déployé)** : une **fleur d'alvéoles** (huit pétales dédoublés autour d'une cellule centrale) surmontant une **goutte de miel**, en contour or dégradé métallique. Porte le même sens que l'alvéole d'origine — l'harmonie, le rassemblement, la **communauté** — enrichi de la goutte (le miel, le produit). Usage : récurrent mais **discret** (header, sceaux hero/footer, favicon). Composant `Alveole` dans `src/App.tsx` (centré dans un carré pour rester un sceau homogène), favicon assorti sur carré émeraude arrondi.
+
+*Historique : jusqu'au 2026-07-10, le symbole était un **hexagone contour or + une cellule pleine au centre**. Rejetés dès l'origine : abeille et pot de miel (génériques). La fleur d'alvéoles + goutte vient du « Lédjé Design System » (Claude Design) et remplace l'hexagone partout.*
+
+**⚠️ @update (cf. §3.7)** : ce symbole et cette typo viennent du design system construit par Basekou dans Claude Design ; ils ne sont pas encore validés par la designeuse. À confirmer/aligner avec elle avant de les considérer comme définitifs (le brief distingue convictions verrouillées et espace créatif ouvert — logo/typo finale font partie de l'ouvert).
 
 ## 3.6 Les deux mondes produit (sous l'écrin vert)
 
@@ -220,12 +229,13 @@ Le vert = signature constante de marque. Chaque produit garde son monde ambre :
 
 | Fichier | Rôle |
 |---|---|
-| `src/App.tsx` | Toute la page : hero, geste, origine, formulaire, questionnaire, footer. Composants `Alveole`, `HexBullet`. Logique Supabase appelée ici. |
+| `src/App.tsx` | Toute la page : hero (vidéo + fondu texte/voile), Le Geste (carrousel horizontal figé au scroll), L'Origine (fond ambre + vidéo « miel qui coule » au survol/tap), teaser Bouteille (packshot), FAQ, formulaire, questionnaire, réservation Stripe, footer. Composants `Alveole`, `HexBullet`, `Photo`. Logique Supabase appelée ici. |
 | `src/lib/supabase.ts` | Client + `trackEvent`, `submitEmail`, `submitSurvey`. |
-| `src/index.css` | Design system complet (tokens). |
-| `index.html` | Fraunces + Inter, meta, favicon. |
+| `src/index.css` | Design system complet (tokens : couleurs, typo Cormorant/Lora/Inter, effets, surfaces). |
+| `index.html` | Cormorant Garamond + Lora + Inter (Google Fonts), meta, favicon. |
 | `vercel.json` | Build Vite + rewrite SPA. |
-| `public/favicon.svg` | Alvéole or sur émeraude. |
+| `public/favicon.svg` | Symbole de marque (fleur d'alvéoles + goutte) or sur carré émeraude arrondi. |
+| `public/visuals/` | Photos produit optimisées (`geste-01/02/03.jpg`, `origine.jpg`, `bouteille.jpg`) + `origine.mp4` (vidéo au survol). |
 
 ## 5.3 Supabase — IMPORTANT
 
@@ -234,8 +244,8 @@ Le vert = signature constante de marque. Chaque produit garde son monde ambre :
 
 **Schéma (3 tables, RLS activée, policy INSERT anon uniquement) :**
 - `waitlist` : id (uuid pk), email (unique not null), utm_source/medium/campaign, created_at.
-- `survey_responses` : id, waitlist_id (fk nullable), frequency, attraction (text[]), intent, created_at.
-- `page_events` : id, event_type (`page_view`, `cta_click`, `scroll_50`, `scroll_100`, `page_exit`), time_on_page_sec, utm_source, created_at.
+- `survey_responses` : id, waitlist_id (fk nullable), frequency, attraction (text[]), **entry_format** (remplace l'ancien `intent` — migration `survey_v2_entry_format` appliquée en prod ; la colonne `intent` reste tolérée en base), created_at.
+- `page_events` : id, event_type (`page_view`, `cta_click`, `scroll_50`, `scroll_100`, `page_exit`, `stripe_click`), time_on_page_sec, utm_source, created_at.
 
 **Pièges de sécurité (voulus — ne pas « corriger ») :**
 - Policies INSERT-only pour anon (pas de SELECT) → personne ne peut lire les emails côté client.
@@ -255,7 +265,9 @@ Dev local : `.env.local` (gitignoré) avec les deux mêmes variables.
 - Succès : « C'est noté. On te prévient au lancement. » · Déjà inscrit : « Tu es déjà sur la liste — on ne t'oublie pas. »
 - Email invalide : « Cet email semble incorrect. Vérifie l'adresse et réessaie. » · Échec réseau : « La connexion a échoué. Réessaie dans un instant. »
 - Consentement : « En t'inscrivant, tu acceptes de recevoir nos nouvelles. Pas de spam, désinscription en un clic. »
-- **Questionnaire** (après email, optionnel, bouton « Passer ») : Q1 Fréquence (signal de réachat — le plus important) : Tous les jours / Plusieurs fois par semaine / De temps en temps / Surtout pendant le Ramadan. Q2 Attraction (multi) : Le geste de la tradition / La qualité du miel local / Le rituel au quotidien / L'idée d'en offrir. Q3 Intention : Pour toi / Pour offrir / Les deux. Fin : « Merci. À très vite. »
+- **Questionnaire** (après email, optionnel, bouton « Passer ») — refondu 2026-07-10 : Q1 Fréquence (signal de réachat — le plus important) : Tous les jours / Plusieurs fois par semaine / De temps en temps / Surtout pendant le Ramadan. Q2 Attraction (multi) : La tradition musulmane / Le goût de la boisson / L'accessibilité / Une marque qui partage mes valeurs / La composition simple et pure. Q3 Format d'entrée (`entry_format`) : Un pack découverte, sans engagement / Un abonnement, pour ne plus y penser / Un coffret à offrir. Fin : « Merci. À très vite. »
+- **Note conformité Q2** : l'option demandée « côté bon pour la santé » a été refusée et remplacée par « La composition simple et pure » (allégation santé implicite interdite, §2.5 + décision 2026-07-02). Ne pas réintroduire de formulation santé sans arbitrage explicite tracé au SOT.
+- **Réservation Stripe** (après le questionnaire) : bloc « Tu veux une place dans la première production ? » → CTA « Je réserve ma place — 5 € » (Payment Link Stripe, acompte remboursable). Événement `stripe_click` loggé.
 
 ## 5.6 Analytics
 
@@ -269,6 +281,10 @@ WCAG 2.1 AA, mobile-first (99 % du trafic = TikTok). Labels visibles, erreurs en
 
 - Branche de dev : `claude/ledge-landing-page-mq2acp`. Prod : `main` (déploiement auto au merge).
 - Nouvelle tâche = repartir de `origin/main` à jour, **nouvelle PR draft**, jamais empiler sur du mergé. Vercel : preview par push, prod au merge.
+
+## 5.9 Sections & interactions de la landing (à jour 2026-07-10)
+
+Ordre : **Hero** (vidéo plein écran ; le voile + le texte apparaissent en fondu à ~5 s pour laisser la vidéo respirer) → **Le Geste** (carrousel horizontal des 3 photos, piloté par le scroll vertical, section figée/pinned, natif sans librairie, repli vertical en `prefers-reduced-motion`) → **L'Origine** (fond ambre dégradé, couleurs inversées ; l'image se transforme en **vidéo « miel qui coule »** au survol souris / au tap mobile — `preload="none"`) → **Bouteille** (teaser « Bientôt », packshot sur fond émeraude profond + halo doré, cadre encadré) → **FAQ** (accordéon natif `<details>`, 6 questions conformes SOT) → **Formulaire** email → **Questionnaire** → **Réservation Stripe**. Toutes les animations respectent `prefers-reduced-motion`.
 
 ---
 
@@ -455,6 +471,10 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 | 2026-07-05 | **Domaine ledje.fr : décision inversée**, renouvellement maintenu (sert la prod). **Dépôt INPI différé pour raison budgétaire** (assumé), déclencheur de réexamen fixé au premier contenu TikTok public ; classes identifiées : 30 (miel, impérative) + 32 (boissons, à inclure au même dépôt si possible). |
 | 2026-07-05 | **Système de production visuelle construit** : `CLAUDE.md` + `docs/visual/` (visual-language, master-prompt, shot-book, prompt-library, asset-log) — architecture documentaire pour générer prompts et visuels cohérents avec le design system. |
 | 2026-07-05 | **Animations de la landing ajoutées** (révélation au scroll, entrée séquencée du hero, micro-interactions, parallax discret) — respect intégral de `prefers-reduced-motion`. |
+| 2026-07-08/10 | **Photos produit intégrées et optimisées** (geste ×3, origine, bouteille) : correction des noms (`.jpg.png` → `.jpg`), passage en JPG mozjpeg (~20-95 Ko). Nouvelles sections pilotées par l'image : **carrousel du Geste** (scroll horizontal figé), **Origine** en fond ambre + **vidéo au survol/tap**, **teaser Bouteille** (packshot sur fond émeraude profond + halo). Hero : **fondu texte + voile à ~5 s**. **FAQ** ajoutée (accordéon conforme). |
+| 2026-07-08/10 | **Questionnaire refondu** (aligné SOT) : Q2 attraction (tradition musulmane / goût / accessibilité / valeurs / composition simple et pure) et Q3 `entry_format` (pack / abonnement / coffret) — colonne DB `entry_format` ajoutée (migration `survey_v2_entry_format`). Option « bon pour la santé » **refusée** (allégation implicite interdite), remplacée par « composition simple et pure ». |
+| 2026-07-08 | **Réservation Stripe** ajoutée en fin de parcours waitlist (Payment Link, acompte 5 € remboursable) ; événement `stripe_click`. |
+| 2026-07-10 | **Design system « Lédjé Design System » (Claude Design) implémenté sur la landing** : typo **Cormorant Garamond** (titres/tagline) + **Lora** (wordmark) à la place de Fraunces ; nouveau **symbole de marque** (fleur d'alvéoles + goutte) remplaçant l'hexagone ; **favicon** assorti ; tokens sémantiques/effets ajoutés. Couleurs inchangées (déjà identiques). ⚠️ Typo + symbole issus du design system de Basekou, **non encore validés par la designeuse** — à aligner avec elle (cf. §3.5/§3.7) avant de verrouiller. |
 
 ---
 
