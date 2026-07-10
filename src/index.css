@@ -55,7 +55,35 @@
   --gold-text-on-dark: #f5d88e; /* eyebrow/tagline sur fond émeraude */
 
   --radius: 12px;
+  --radius-sm: 10px;
+  --radius-pill: 100px;
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ── Typographie (design system Lédjé) ──
+     Cormorant Garamond : titres, tagline, italiques d'évocation.
+     Lora : wordmark « Lédjé ». Inter : texte courant + UI. */
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-wordmark: 'Lora', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* ── Surfaces & filets sémantiques ── */
+  --surface-brand: var(--emerald);
+  --surface-premium: var(--emerald-velvet);
+  --surface-cream: var(--cream);
+  --surface-footer: var(--emerald-deep);
+  --border-on-dark: rgba(232, 182, 92, 0.18);
+  --border-on-dark-strong: rgba(232, 182, 92, 0.5);
+  --border-on-light: rgba(15, 61, 42, 0.18);
+
+  /* ── Ombre métallique de l'or (bouton primaire) ── */
+  --shadow-gold:
+    inset 0 1px 0 rgba(255, 250, 235, 0.7),
+    inset 0 -2px 3px rgba(120, 80, 12, 0.3),
+    0 3px 10px rgba(40, 30, 8, 0.18);
+  --shadow-gold-hover:
+    inset 0 1px 0 rgba(255, 250, 235, 0.8),
+    inset 0 -2px 3px rgba(120, 80, 12, 0.3),
+    0 5px 16px rgba(40, 30, 8, 0.24);
 }
 
 /* ── Reset ── */
@@ -66,7 +94,7 @@ html { scroll-behavior: smooth; font-size: 100%; -webkit-text-size-adjust: 100%;
    (le carrousel figé du Geste). */
 html, body { overflow-x: clip; }
 body {
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: var(--font-sans);
   background: var(--emerald);
   color: var(--text-on-dark);
   line-height: 1.6;
@@ -82,7 +110,7 @@ img, svg, video { display: block; max-width: 100%; }
 }
 
 /* ── Typo helpers ── */
-.serif { font-family: 'Fraunces', Georgia, serif; }
+.serif { font-family: var(--font-serif); }
 
 /* ── Container ── */
 .container {
@@ -111,7 +139,7 @@ header {
 .header-mark { width: 22px; height: 22px; }
 
 .logo {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-wordmark);
   font-size: 1.35rem;
   font-weight: 600;
   color: var(--cream);
@@ -192,7 +220,7 @@ header {
 }
 
 .hero-quote {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-serif);
   font-style: italic;
   font-size: 1.05rem;
   font-weight: 400;
@@ -203,7 +231,7 @@ header {
 }
 
 h1 {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-serif);
   font-size: clamp(1.9rem, 6.5vw, 2.6rem);
   font-weight: 500;
   color: var(--cream);
@@ -214,7 +242,7 @@ h1 {
 
 /* Nom de marque — or en dégradé (accent précieux, large = autorisé) */
 .brand-name {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-wordmark);
   font-size: clamp(3rem, 13vw, 4.25rem);
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -229,7 +257,7 @@ h1 {
 }
 
 .tagline {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-serif);
   font-style: italic;
   font-size: 1.05rem;
   color: var(--gold-text-on-dark);
@@ -261,7 +289,7 @@ h1 {
   justify-content: center;
   background: var(--gold-gradient);
   color: #4a3208;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.98rem;
   font-weight: 600;
   text-decoration: none;
@@ -352,7 +380,7 @@ h1 {
   margin-bottom: 0.85rem;
 }
 .section-title {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-serif);
   font-size: clamp(1.55rem, 5.5vw, 2.1rem);
   font-weight: 500;
   line-height: 1.22;
@@ -477,7 +505,7 @@ h1 {
   display: flex;
   align-items: baseline;
   gap: 0.7rem;
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-serif);
   font-size: clamp(1.4rem, 5vw, 2rem);
   font-weight: 500;
   color: var(--cream);
@@ -660,7 +688,7 @@ h1 {
   cursor: pointer;
   padding: 1.1rem 2.2rem 1.1rem 0;
   position: relative;
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-serif);
   font-size: 1.08rem;
   font-weight: 500;
   color: var(--emerald-deep);
@@ -713,7 +741,7 @@ h1 {
   width: 100%;
   padding: 0.95rem 1.1rem;
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-sans);
   background: var(--cream-soft);
   border: 1.5px solid rgba(15,61,42,0.18);
   border-radius: var(--radius);
@@ -757,7 +785,7 @@ h1 {
 }
 .success-seal { width: 64px; height: 64px; }
 .form-success h3 {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-serif);
   font-size: 1.6rem;
   color: var(--emerald-deep);
   font-weight: 500;
@@ -771,7 +799,7 @@ h1 {
 .section-survey form { display: flex; flex-direction: column; gap: 2rem; }
 .section-survey fieldset { border: none; padding: 0; }
 .section-survey legend {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-serif);
   font-size: 1.1rem;
   color: var(--cream);
   font-weight: 500;
@@ -781,7 +809,7 @@ h1 {
 .legend-hint {
   font-size: 0.78rem;
   color: rgba(237,224,200,0.95);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-sans);
   font-weight: 400;
 }
 .radio-group, .checkbox-group { display: flex; flex-direction: column; gap: 0.5rem; }
@@ -826,7 +854,7 @@ h1 {
 
 .section-survey-done { text-align: center; padding: 3rem 0 4rem; }
 .survey-thanks {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-serif);
   font-style: italic;
   font-size: 1.35rem;
   color: var(--cream);
@@ -846,7 +874,7 @@ h1 {
 }
 .reserve-seal { width: 40px; height: 40px; }
 .reserve-title {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-serif);
   font-size: 1.3rem;
   font-weight: 500;
   color: var(--cream);
@@ -870,13 +898,13 @@ footer { background: var(--emerald-deep); padding: 2.75rem 0; text-align: center
 footer .container { display: flex; flex-direction: column; gap: 0.7rem; align-items: center; }
 .footer-seal { width: 40px; height: 40px; margin-bottom: 0.2rem; opacity: 0.85; }
 .footer-name {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-wordmark);
   font-size: 1.25rem;
   letter-spacing: 0.12em;
   color: var(--gold);
 }
 .footer-tagline {
-  font-family: 'Fraunces', Georgia, serif;
+  font-family: var(--font-serif);
   font-style: italic;
   font-size: 0.92rem;
   color: var(--text-on-dark-muted);
