@@ -1,6 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#2E6B4F"/>
-  <!-- Alvéole: hexagone contour or + cellule centrale -->
-  <path d="M16 5 L25 10.5 L25 21.5 L16 27 L7 21.5 L7 10.5 Z" fill="none" stroke="#E8B65C" stroke-width="1.4"/>
-  <path d="M16 12 L20 14.5 L20 19.5 L16 22 L12 19.5 L12 14.5 Z" fill="#E8B65C"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <rect width="240" height="240" rx="52" fill="#2E6B4F"></rect>
+  <defs>
+    <linearGradient id="fav-gold" x1="120" y1="34" x2="120" y2="212" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBE9A8"></stop>
+      <stop offset="0.55" stop-color="#E8B65C"></stop>
+      <stop offset="1" stop-color="#A9740F"></stop>
+    </linearGradient>
+  </defs>
+  <g transform="translate(120 34) scale(0.86) translate(-100 -26)">
+    <g fill="none" stroke="url(#fav-gold)" stroke-width="4" stroke-linejoin="round">
+      <g>
+        <path d="M100 96 C72 72 72 46 100 26 C128 46 128 72 100 96 Z"></path>
+        <path d="M100 96 C72 72 72 46 100 26 C128 46 128 72 100 96 Z" transform="rotate(45 100 96)"></path>
+        <path d="M100 96 C72 72 72 46 100 26 C128 46 128 72 100 96 Z" transform="rotate(90 100 96)"></path>
+        <path d="M100 96 C72 72 72 46 100 26 C128 46 128 72 100 96 Z" transform="rotate(135 100 96)"></path>
+        <path d="M100 96 C72 72 72 46 100 26 C128 46 128 72 100 96 Z" transform="rotate(180 100 96)"></path>
+        <path d="M100 96 C72 72 72 46 100 26 C128 46 128 72 100 96 Z" transform="rotate(225 100 96)"></path>
+        <path d="M100 96 C72 72 72 46 100 26 C128 46 128 72 100 96 Z" transform="rotate(270 100 96)"></path>
+        <path d="M100 96 C72 72 72 46 100 26 C128 46 128 72 100 96 Z" transform="rotate(315 100 96)"></path>
+      </g>
+      <g>
+        <path d="M100 96 C92 82 92 70 100 58 C108 70 108 82 100 96 Z" transform="rotate(22.5 100 96)"></path>
+        <path d="M100 96 C92 82 92 70 100 58 C108 70 108 82 100 96 Z" transform="rotate(67.5 100 96)"></path>
+        <path d="M100 96 C92 82 92 70 100 58 C108 70 108 82 100 96 Z" transform="rotate(112.5 100 96)"></path>
+        <path d="M100 96 C92 82 92 70 100 58 C108 70 108 82 100 96 Z" transform="rotate(157.5 100 96)"></path>
+        <path d="M100 96 C92 82 92 70 100 58 C108 70 108 82 100 96 Z" transform="rotate(202.5 100 96)"></path>
+        <path d="M100 96 C92 82 92 70 100 58 C108 70 108 82 100 96 Z" transform="rotate(247.5 100 96)"></path>
+        <path d="M100 96 C92 82 92 70 100 58 C108 70 108 82 100 96 Z" transform="rotate(292.5 100 96)"></path>
+        <path d="M100 96 C92 82 92 70 100 58 C108 70 108 82 100 96 Z" transform="rotate(337.5 100 96)"></path>
+      </g>
+      <circle cx="100" cy="96" r="15" fill="#1F4736"></circle>
+      <circle cx="100" cy="96" r="15"></circle>
+      <circle cx="100" cy="96" r="6" fill="url(#fav-gold)" stroke="none"></circle>
+      <path d="M100 166 C107 179 114 189 114 200 A14 14 0 0 1 86 200 C86 189 93 179 100 166 Z" stroke-linecap="butt"></path>
+    </g>
+  </g>
 </svg>
