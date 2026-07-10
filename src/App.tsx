@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useId, useRef, useState } from 'react'
 import { submitEmail, submitSurvey, trackEvent } from './lib/supabase'
 
 type FormState = 'idle' | 'loading' | 'success' | 'invalid' | 'duplicate' | 'network'
@@ -47,12 +47,18 @@ function heroRevealDelay(i: number): React.CSSProperties {
   return { transitionDelay: `${5000 + i * 110}ms` }
 }
 
-/* ── Symbole de marque Lédjé (design system) : fleur d'alvéoles + goutte de miel,
-   contour or en dégradé métallique. Centré dans un carré pour un sceau homogène. ── */
-const ALVEOLE_OUTER = [0, 45, 90, 135, 180, 225, 270, 315]
+/* ── Symbole de marque Lédjé (design system, handoff validé) :
+   rosace de 8 pétales entrelacés + couche interne, cœur émeraude à point d'or,
+   goutte d'eau en pendentif. Contour or dégradé. Drop-in de la géométrie
+   de référence (handoff/Alveole.jsx.txt) — API inchangée (size, filled, stroke). ── */
+const ALVEOLE_MAIN = [0, 45, 90, 135, 180, 225, 270, 315]
 const ALVEOLE_INNER = [22.5, 67.5, 112.5, 157.5, 202.5, 247.5, 292.5, 337.5]
+const ALVEOLE_MAIN_D = 'M100 96 C72 72 72 46 100 26 C128 46 128 72 100 96 Z'
+const ALVEOLE_INNER_D = 'M100 96 C92 82 92 70 100 58 C108 70 108 82 100 96 Z'
+const ALVEOLE_DROP_D = 'M100 166 C107 179 114 189 114 200 A14 14 0 0 1 86 200 C86 189 93 179 100 166 Z'
 function Alveole({
   size = 64,
+  filled = true,
   stroke = 'var(--gold)',
   className = '',
   style,
@@ -63,43 +69,46 @@ function Alveole({
   className?: string
   style?: React.CSSProperties
 }) {
-  const line = stroke === 'var(--gold)' ? 'url(#ledje-mark-gold)' : stroke
+  const gradId = useId()
+  const line = stroke === 'var(--gold)' ? `url(#${gradId})` : stroke
   return (
     <svg
       width={size}
       height={size}
-      viewBox="0 0 240 240"
+      viewBox="-10 18 220 220"
       fill="none"
       className={className}
       style={style}
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
     >
+      <g fill="none" stroke={line} strokeWidth="2.4" strokeLinejoin="round">
+        <g>
+          {ALVEOLE_MAIN.map(a => (
+            <path key={`m${a}`} d={ALVEOLE_MAIN_D} transform={`rotate(${a} 100 96)`} />
+          ))}
+        </g>
+        <g>
+          {ALVEOLE_INNER.map(a => (
+            <path key={`i${a}`} d={ALVEOLE_INNER_D} transform={`rotate(${a} 100 96)`} />
+          ))}
+        </g>
+        {filled && (
+          <>
+            <circle cx="100" cy="96" r="14" fill="#1F4736" />
+            <circle cx="100" cy="96" r="14" />
+            <circle cx="100" cy="96" r="5.5" fill={line} stroke="none" />
+          </>
+        )}
+        <path d={ALVEOLE_DROP_D} strokeLinecap="butt" />
+      </g>
       <defs>
-        <linearGradient id="ledje-mark-gold" x1="120" y1="34" x2="120" y2="212" gradientUnits="userSpaceOnUse">
+        <linearGradient id={gradId} x1="100" y1="26" x2="100" y2="230" gradientUnits="userSpaceOnUse">
           <stop stopColor="#FBE9A8" />
           <stop offset="0.55" stopColor="#E8B65C" />
           <stop offset="1" stopColor="#A9740F" />
         </linearGradient>
       </defs>
-      <g
-        transform="translate(120 34) scale(0.86) translate(-100 -26)"
-        fill="none"
-        stroke={line}
-        strokeWidth="3.6"
-        strokeLinejoin="round"
-      >
-        {ALVEOLE_OUTER.map(r => (
-          <path key={`o${r}`} d="M100 96 C72 72 72 46 100 26 C128 46 128 72 100 96 Z" transform={`rotate(${r} 100 96)`} />
-        ))}
-        {ALVEOLE_INNER.map(r => (
-          <path key={`i${r}`} d="M100 96 C92 82 92 70 100 58 C108 70 108 82 100 96 Z" transform={`rotate(${r} 100 96)`} />
-        ))}
-        <circle cx="100" cy="96" r="15" fill="#1F4736" />
-        <circle cx="100" cy="96" r="15" />
-        <circle cx="100" cy="96" r="6" fill={line} stroke="none" />
-        <path d="M100 166 C107 179 114 189 114 200 A14 14 0 0 1 86 200 C86 189 93 179 100 166 Z" strokeLinecap="butt" />
-      </g>
     </svg>
   )
 }
