@@ -24,8 +24,19 @@ const ENTRY_FORMAT_OPTIONS = [
   'Un coffret à offrir',
 ]
 
-// Lien de réservation Stripe (acompte 5 € remboursable — « Lédjé, Réservation première production »)
-const STRIPE_RESERVE_URL = 'https://buy.stripe.com/3cIcN4gH19JhcIVb28gQE01'
+// ── Précommande cristal (cœur business, cf. SOT §5.0) ──
+// 1 cristal = 1 €, minimum 5 cristaux (5 €) pour rentabiliser l'expédition.
+const CRISTAL_UNIT_PRICE = 1
+const MIN_CRISTAUX = 5
+const MAX_CRISTAUX = 50
+
+// ⚠️ À REMPLACER : Payment Link Stripe d'un produit « 1 cristal = 1 € » à quantité
+// ajustable (min 5). Renseigner VITE_STRIPE_PRECOMMANDE_URL. En attendant, repli sur
+// l'ancien lien d'acompte fixe (le paramètre ?quantity sera ignoré tant que le lien
+// n'est pas configuré en « quantité ajustable »).
+const STRIPE_PRECOMMANDE_URL =
+  (import.meta.env.VITE_STRIPE_PRECOMMANDE_URL as string | undefined) ??
+  'https://buy.stripe.com/3cIcN4gH19JhcIVb28gQE01'
 
 // Vidéo hero provisoire (génération Higgsfield hébergée CloudFront) —
 // à remplacer par l'asset final auto-hébergé quand la production visuelle sera validée.
@@ -42,7 +53,7 @@ function revealDelay(i: number): React.CSSProperties {
   return { transitionDelay: `${i * 90}ms` }
 }
 
-/* Délai propre au hero — on laisse la vidéo respirer ~1,5 s, puis le texte apparaît en fondu, en cascade */
+/* Délai propre au hero — on laisse la vidéo respirer ~5 s, puis le texte apparaît en fondu, en cascade */
 function heroRevealDelay(i: number): React.CSSProperties {
   return { transitionDelay: `${5000 + i * 110}ms` }
 }
@@ -145,6 +156,7 @@ export default function App() {
   const [attraction, setAttraction] = useState<string[]>([])
   const [entryFormat, setEntryFormat] = useState('')
   const [surveySubmitting, setSurveySubmitting] = useState(false)
+  const [cristaux, setCristaux] = useState(MIN_CRISTAUX)
 
   const surveyRef = useRef<HTMLDivElement>(null)
   const gesteTrackRef = useRef<HTMLDivElement>(null)
@@ -207,7 +219,7 @@ export default function App() {
     return () => observer.disconnect()
   }, [])
 
-  // Carrousel « Le Geste » : la section reste figée, les 3 images défilent
+  // Carrousel « Le rituel » : la section reste figée, les 3 images défilent
   // horizontalement au rythme du scroll vertical (façon Red Bull, en natif).
   useEffect(() => {
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -216,8 +228,6 @@ export default function App() {
     const viewport = document.querySelector<HTMLElement>('.geste-carousel-viewport')
     if (prefersReduced || !track || !section || !viewport) return
 
-    // La translation se termine à HOLD_RATIO du scroll ; le reste = temps de
-    // « pause » où la dernière image reste affichée plein écran avant de libérer.
     const HOLD_RATIO = 0.78
     let ticking = false
     const update = () => {
@@ -300,7 +310,6 @@ export default function App() {
     v.pause()
   }
   function toggleOrigineVideo(e: React.MouseEvent) {
-    // uniquement sur appareils sans survol (tactile) : tap pour lancer / arrêter
     if (!window.matchMedia('(hover: none)').matches) return
     const v = origineVideoRef.current
     if (!v) return
@@ -318,14 +327,27 @@ export default function App() {
     setAttraction(prev => prev.includes(opt) ? prev.filter(o => o !== opt) : [...prev, opt])
   }
 
+  const total = cristaux * CRISTAL_UNIT_PRICE
+  const precommandeHref = `${STRIPE_PRECOMMANDE_URL}?quantity=${cristaux}`
+
   return (
     <>
-      <header role="banner">
-        <Alveole size={22} className="header-mark" />
-        <span className="logo">Lédjé</span>
+      {/* ════ HEADER DE NAVIGATION (logo + ancres + CTA Précommander) ════ */}
+      <header className="lp-header" role="banner">
+        <a href="#top" className="lp-brand" aria-label="Lédjé — haut de page">
+          <Alveole size={26} className="header-mark" />
+          <span className="logo">Lédjé</span>
+        </a>
+        <nav className="lp-nav" aria-label="Navigation principale">
+          <a href="#origine">Le miel</a>
+          <a href="#rituel">Le rituel</a>
+          <a href="#precommande" className="nav-cta" onClick={() => trackEvent('cta_click')}>
+            Précommander
+          </a>
+        </nav>
       </header>
 
-      <main>
+      <main id="top">
         {/* ════ HERO ════ */}
         <section className="hero" aria-labelledby="hero-heading">
           <div className="hero-honeycomb" aria-hidden="true" />
@@ -339,33 +361,32 @@ export default function App() {
                 muted
                 playsInline
                 preload="metadata"
-                aria-label="Une portion de miel pur se dissolvant lentement dans un verre d'eau fraîche"
+                aria-label="Une eau miellée fraîche, le miel qui se dissout lentement dans un verre d'eau"
               />
             </div>
           )}
 
           <div className="hero-content reveal">
             <Alveole size={64} className="hero-seal reveal-child" style={heroRevealDelay(0)} />
-            <p className="hero-quote reveal-child" style={heroRevealDelay(1)}>
-              « Ce que la tradition nous a laissé de meilleur. »
-            </p>
+            <p className="brand-name reveal-child" style={heroRevealDelay(1)}>Lédjé</p>
             <h1 id="hero-heading" className="reveal-child" style={heroRevealDelay(2)}>
-              Un geste de notre tradition,<br />remis au goût du jour.
+              De l'eau fraîche,<br />du miel pur.
             </h1>
-            <p className="brand-name reveal-child" style={heroRevealDelay(3)}>Lédjé</p>
-            <p className="tagline reveal-child" style={heroRevealDelay(4)}>Parmi les bienfaits de ce bas monde</p>
+            <p className="tagline reveal-child" style={heroRevealDelay(3)}>
+              Le rappel d'un bienfait pour la ummah.
+            </p>
 
-            <div className="hero-rule reveal-child" style={heroRevealDelay(5)} aria-hidden="true">
+            <div className="hero-rule reveal-child" style={heroRevealDelay(4)} aria-hidden="true">
               <Alveole size={14} filled={false} />
             </div>
 
             <a
-              href="#formulaire"
+              href="#precommande"
               className="btn-primary reveal-child"
-              style={heroRevealDelay(6)}
+              style={heroRevealDelay(5)}
               onClick={() => trackEvent('cta_click')}
             >
-              Rejoindre les premiers
+              Précommander
             </a>
           </div>
 
@@ -375,40 +396,43 @@ export default function App() {
           </div>
         </section>
 
-        {/* ════ LE GESTE — carrousel horizontal piloté par le scroll vertical (section figée) ════ */}
-        <section className="section-geste bg-cream" aria-labelledby="geste-heading">
-          <div className="geste-intro container reveal">
-            <h2 id="geste-heading" className="section-title reveal-child" style={revealDelay(0)}>
-              Une portion. Un verre d'eau. C'est tout.
+        {/* ════ LA BOUTEILLE — produit phare mis en scène (non vendue en ligne) ════ */}
+        <section className="section section-bouteille bg-deep" aria-labelledby="bouteille-heading">
+          <div className="container reveal">
+            <figure className="bouteille-image bouteille-showcase reveal-child" style={revealDelay(0)}>
+              <Photo name="bouteille.jpg" alt="La bouteille Lédjé d'eau miellée, étiquette émeraude et or" />
+            </figure>
+            <p className="section-eyebrow reveal-child" style={revealDelay(1)}>L'eau miellée Lédjé</p>
+            <h2 id="bouteille-heading" className="section-title reveal-child" style={revealDelay(2)}>
+              Une boisson simple, belle et vraie.
             </h2>
-            <p className="section-text reveal-child" style={revealDelay(1)}>
-              Un miel pur qui se fond dans l'eau fraîche.
-              Le geste se fait en quelques secondes, où que tu sois.
+            <p className="section-text reveal-child" style={revealDelay(3)}>
+              De l'eau fraîche et du miel pur. Rien d'autre.
+              La bouteille prête à boire arrive — en attendant, on commence par le cristal de miel.
             </p>
-          </div>
-
-          <div className="geste-carousel">
-            <div className="geste-carousel-viewport">
-              <div className="geste-carousel-track" ref={gesteTrackRef}>
-                <figure className="geste-slide">
-                  <Photo name="geste-01.jpg" alt="Une main saisit une portion de miel ambré posée sur la pierre" />
-                  <figcaption><span className="geste-slide-num">01</span>Une portion</figcaption>
-                </figure>
-                <figure className="geste-slide">
-                  <Photo name="geste-02.jpg" alt="La portion de miel au-dessus d'un verre d'eau fraîche" />
-                  <figcaption><span className="geste-slide-num">02</span>Un verre d'eau</figcaption>
-                </figure>
-                <figure className="geste-slide">
-                  <Photo name="geste-03.jpg" alt="Le miel se dissout doucement dans l'eau, en volutes dorées" />
-                  <figcaption><span className="geste-slide-num">03</span>C'est tout</figcaption>
-                </figure>
-              </div>
-            </div>
           </div>
         </section>
 
-        {/* ════ L'ORIGINE — fond émeraude velours (premium) ════ */}
-        <section className="section section-origine bg-amber" aria-labelledby="origine-heading">
+        {/* ════ POURQUOI LÉDJÉ — le sens, le désir ════ */}
+        <section className="section section-pourquoi bg-cream" aria-labelledby="pourquoi-heading">
+          <div className="container reveal">
+            <p className="section-eyebrow reveal-child" style={revealDelay(0)}>Pourquoi Lédjé</p>
+            <h2 id="pourquoi-heading" className="section-title reveal-child" style={revealDelay(1)}>
+              Un geste de notre tradition,<br />remis au goût du jour.
+            </h2>
+            <p className="section-text reveal-child" style={revealDelay(2)}>
+              La vie moderne grignote nos gestes un par un, sans qu'on s'en rende compte.
+              Lédjé en garde un vivant : le miel mêlé à l'eau fraîche — beau, simple, à nous.
+            </p>
+            <p className="section-text reveal-child" style={revealDelay(3)}>
+              Une marque pensée pour la ummah, par les siens. Transparente sur ce qu'elle est,
+              fière de ce qu'elle transmet.
+            </p>
+          </div>
+        </section>
+
+        {/* ════ L'ORIGINE / LA PURETÉ — rassurer (fond ambre + vidéo au survol) ════ */}
+        <section className="section section-origine bg-amber" id="origine" aria-labelledby="origine-heading">
           <div className="container reveal">
             <figure
               className="origine-image fullbleed reveal-child hovervideo"
@@ -417,7 +441,7 @@ export default function App() {
               onPointerLeave={stopOrigineVideo}
               onClick={toggleOrigineVideo}
             >
-              <Photo name="origine.jpg" alt="Un filet de miel doré, traversé par la lumière, sur fond vert émeraude" />
+              <Photo name="origine.jpg" alt="Un filet de miel doré, traversé par la lumière" />
               <video
                 ref={origineVideoRef}
                 className="origine-video"
@@ -446,23 +470,40 @@ export default function App() {
           </div>
         </section>
 
-        {/* ════ BOUTEILLE — teaser (communication anticipée, pas d'achat) ════ */}
-        <section className="section section-bouteille bg-deep" aria-labelledby="bouteille-heading">
-          <div className="container reveal">
-            <figure className="bouteille-image bouteille-showcase reveal-child" style={revealDelay(0)}>
-              <Photo name="bouteille.jpg" alt="La bouteille Lédjé, étiquette émeraude et or, perlée de fraîcheur" />
-            </figure>
-            <p className="section-eyebrow reveal-child" style={revealDelay(1)}>Bientôt</p>
-            <h2 id="bouteille-heading" className="section-title reveal-child" style={revealDelay(2)}>
-              Et un jour, prête à emporter.
+        {/* ════ LE RITUEL & LA UMMAH — appartenance ; le geste en second rideau ════ */}
+        <section className="section-geste bg-cream" id="rituel" aria-labelledby="rituel-heading">
+          <div className="geste-intro container reveal">
+            <p className="section-eyebrow reveal-child" style={revealDelay(0)}>Le rituel</p>
+            <h2 id="rituel-heading" className="section-title reveal-child" style={revealDelay(1)}>
+              Un geste partagé, d'un bout à l'autre de la ummah.
             </h2>
-            <p className="section-text reveal-child" style={revealDelay(3)}>
-              Le même geste, partout avec toi. On y travaille — sois là quand elle arrive.
+            <p className="section-text reveal-child" style={revealDelay(2)}>
+              Un cristal de miel, un verre d'eau fraîche. Le geste se fait en quelques secondes,
+              où que tu sois — et il nous relie.
             </p>
+          </div>
+
+          <div className="geste-carousel">
+            <div className="geste-carousel-viewport">
+              <div className="geste-carousel-track" ref={gesteTrackRef}>
+                <figure className="geste-slide">
+                  <Photo name="geste-01.jpg" alt="Une main saisit un cristal de miel ambré posé sur la pierre" />
+                  <figcaption><span className="geste-slide-num">01</span>Un cristal</figcaption>
+                </figure>
+                <figure className="geste-slide">
+                  <Photo name="geste-02.jpg" alt="Le cristal de miel au-dessus d'un verre d'eau fraîche" />
+                  <figcaption><span className="geste-slide-num">02</span>Un verre d'eau</figcaption>
+                </figure>
+                <figure className="geste-slide">
+                  <Photo name="geste-03.jpg" alt="Le miel se dissout doucement dans l'eau, en volutes dorées" />
+                  <figcaption><span className="geste-slide-num">03</span>C'est tout</figcaption>
+                </figure>
+              </div>
+            </div>
           </div>
         </section>
 
-        {/* ════ FAQ — fond crème (lever les freins avant conversion) ════ */}
+        {/* ════ FAQ — lever les freins avant conversion ════ */}
         <section className="section section-faq bg-cream" aria-labelledby="faq-heading">
           <div className="container reveal">
             <p className="section-eyebrow reveal-child" style={revealDelay(0)}>Les questions qu'on nous pose</p>
@@ -473,23 +514,19 @@ export default function App() {
             <div className="faq-list reveal-child" style={revealDelay(2)}>
               <details className="faq-item">
                 <summary>C'est quoi, Lédjé, exactement ?</summary>
-                <p>Une portion de miel pur à dissoudre dans un verre d'eau. Le même geste que la tradition nous a laissé, remis au goût du jour.</p>
+                <p>Une eau miellée : de l'eau fraîche et du miel pur. On commence par le cristal de miel, à dissoudre dans un verre d'eau ; la bouteille prête à boire suivra.</p>
               </details>
               <details className="faq-item">
                 <summary>C'est vraiment que du miel ?</summary>
                 <p>Oui. Un miel pur, français, d'origine tracée, jamais chauffé. Rien d'ajouté, rien de frelaté.</p>
               </details>
               <details className="faq-item">
-                <summary>Quand est-ce que ça sort ?</summary>
-                <p>On prépare la première production. Laisse ton email : les inscrits sont prévenus en premier, avant tout le monde.</p>
+                <summary>Qu'est-ce que je précommande, au juste ?</summary>
+                <p>Des cristaux de miel — 1 cristal = 1 €, minimum 5. Tu réserves ta place dans la première production, livraison visée pour le Ramadan 2027. Intégralement remboursé si le lancement n'a pas lieu.</p>
               </details>
               <details className="faq-item">
-                <summary>Combien ça va coûter ?</summary>
-                <p>Le prix sera annoncé au lancement. Les premiers inscrits bénéficient d'un tarif préférentiel garanti.</p>
-              </details>
-              <details className="faq-item">
-                <summary>Pourquoi réserver avec un acompte ?</summary>
-                <p>L'acompte de 5 € nous aide à lancer la première production et te garantit ta place. Il est intégralement remboursé si la production n'est pas lancée.</p>
+                <summary>Pourquoi la bouteille n'est pas en vente ?</summary>
+                <p>Elle arrive. Pour l'instant on lance le cristal, plus simple à expédier — la bouteille prête à boire demande une logistique qu'on met en place.</p>
               </details>
               <details className="faq-item">
                 <summary>Est-ce que ça convient à tout le monde ?</summary>
@@ -499,91 +536,119 @@ export default function App() {
           </div>
         </section>
 
-        {/* ════ FORMULAIRE — fond crème (conversion) ════ */}
-        <section className="section section-form bg-cream" id="formulaire" aria-labelledby="form-heading">
+        {/* ════ PRÉCOMMANDE — action principale (finance la première production) ════ */}
+        <section className="section section-precommande bg-emerald" id="precommande" aria-labelledby="precommande-heading">
           <div className="container reveal">
-            {formState !== 'success' ? (
-              <>
-                <div className="form-header reveal-child" style={revealDelay(0)}>
-                  <p className="section-eyebrow">Lancement bientôt</p>
-                  <h2 id="form-heading" className="section-title">Sois prévenu au lancement.</h2>
-                </div>
+            <Alveole size={48} className="precommande-seal reveal-child" style={revealDelay(0)} />
+            <p className="section-eyebrow reveal-child" style={revealDelay(1)}>Précommande</p>
+            <h2 id="precommande-heading" className="section-title reveal-child" style={revealDelay(2)}>
+              Réserve tes cristaux de miel.
+            </h2>
+            <p className="section-text reveal-child" style={revealDelay(3)}>
+              1 cristal = 1 €. À dissoudre dans un verre d'eau fraîche, où que tu sois.
+              Tu réserves ta place dans la première production — livraison visée pour le Ramadan 2027.
+            </p>
 
-                <form
-                  onSubmit={handleSubmit}
-                  noValidate
-                  aria-describedby="consent-text"
-                  className="reveal-child"
-                  style={revealDelay(1)}
-                >
-                  <div className="field-group">
-                    <label htmlFor="email-input">Ton email</label>
-                    <input
-                      id="email-input"
-                      type="email"
-                      autoComplete="email"
-                      placeholder="ton@email.com"
-                      value={email}
-                      onChange={e => {
-                        setEmail(e.target.value)
-                        if (formState === 'invalid') setFormState('idle')
-                      }}
-                      aria-invalid={formState === 'invalid'}
-                      aria-describedby={
-                        formState === 'invalid' ? 'email-error' :
-                        formState === 'duplicate' ? 'email-dup' :
-                        formState === 'network' ? 'email-net' : undefined
-                      }
-                      required
-                    />
-                    {formState === 'invalid' && (
-                      <p id="email-error" role="alert" className="field-error">
-                        Cet email semble incorrect. Vérifie l'adresse et réessaie.
-                      </p>
-                    )}
-                    {formState === 'duplicate' && (
-                      <p id="email-dup" role="alert" className="field-info">
-                        Tu es déjà sur la liste — on ne t'oublie pas.
-                      </p>
-                    )}
-                    {formState === 'network' && (
-                      <p id="email-net" role="alert" className="field-error">
-                        La connexion a échoué. Réessaie dans un instant.
-                      </p>
-                    )}
-                  </div>
-
+            <div className="precommande-card reveal-child" style={revealDelay(4)}>
+              <div className="qty">
+                <span className="qty-label">Nombre de cristaux</span>
+                <div className="qty-stepper" role="group" aria-label="Nombre de cristaux">
                   <button
-                    type="submit"
-                    className="btn-primary"
-                    disabled={formState === 'loading'}
-                    aria-busy={formState === 'loading'}
+                    type="button"
+                    className="qty-btn"
+                    aria-label="Retirer un cristal"
+                    onClick={() => setCristaux(c => Math.max(MIN_CRISTAUX, c - 1))}
+                    disabled={cristaux <= MIN_CRISTAUX}
                   >
-                    {formState === 'loading' ? 'Un instant…' : 'Je veux être prévenu'}
+                    −
                   </button>
-
-                  <p id="consent-text" className="consent">
-                    En t'inscrivant, tu acceptes de recevoir nos nouvelles.
-                    Pas de spam, désinscription en un clic.
-                  </p>
-                </form>
-              </>
-            ) : (
-              <div className="form-success fade-in-up" role="status">
-                <Alveole size={64} className="success-seal" />
-                <div>
-                  <h3>C'est noté.</h3>
-                  <p>On te prévient au lancement. À très vite.</p>
+                  <span className="qty-value" aria-live="polite">{cristaux}</span>
+                  <button
+                    type="button"
+                    className="qty-btn"
+                    aria-label="Ajouter un cristal"
+                    onClick={() => setCristaux(c => Math.min(MAX_CRISTAUX, c + 1))}
+                    disabled={cristaux >= MAX_CRISTAUX}
+                  >
+                    +
+                  </button>
                 </div>
+                <span className="qty-min">minimum {MIN_CRISTAUX}</span>
               </div>
+
+              <div className="precommande-total">
+                <span className="total-amount">{total} €</span>
+                <span className="total-note">soit {cristaux} cristaux</span>
+              </div>
+
+              <a
+                href={precommandeHref}
+                className="btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => trackEvent('stripe_click')}
+              >
+                Précommander — {total} €
+              </a>
+
+              <p className="reserve-note">
+                Paiement sécurisé par Stripe. Intégralement remboursé si le lancement n'a pas lieu.
+                Les premiers servis au lancement.
+              </p>
+            </div>
+
+            {/* Ligne discrète pour les tièdes — l'email ne concurrence jamais la précommande */}
+            {formState !== 'success' ? (
+              <form className="soft-email reveal-child" style={revealDelay(5)} onSubmit={handleSubmit} noValidate aria-describedby="soft-consent">
+                <label htmlFor="email-input" className="soft-email-label">
+                  Pas encore prêt ? Laisse ton email, on te préviendra.
+                </label>
+                <div className="soft-email-row">
+                  <input
+                    id="email-input"
+                    type="email"
+                    autoComplete="email"
+                    placeholder="ton@email.com"
+                    value={email}
+                    onChange={e => {
+                      setEmail(e.target.value)
+                      if (formState === 'invalid') setFormState('idle')
+                    }}
+                    aria-invalid={formState === 'invalid'}
+                    aria-describedby={
+                      formState === 'invalid' ? 'email-error' :
+                      formState === 'duplicate' ? 'email-dup' :
+                      formState === 'network' ? 'email-net' : undefined
+                    }
+                    required
+                  />
+                  <button type="submit" className="btn-ghost" disabled={formState === 'loading'} aria-busy={formState === 'loading'}>
+                    {formState === 'loading' ? '…' : 'OK'}
+                  </button>
+                </div>
+                {formState === 'invalid' && (
+                  <p id="email-error" role="alert" className="field-error">Cet email semble incorrect. Vérifie l'adresse et réessaie.</p>
+                )}
+                {formState === 'duplicate' && (
+                  <p id="email-dup" role="alert" className="field-info">Tu es déjà sur la liste — on ne t'oublie pas.</p>
+                )}
+                {formState === 'network' && (
+                  <p id="email-net" role="alert" className="field-error">La connexion a échoué. Réessaie dans un instant.</p>
+                )}
+                <p id="soft-consent" className="consent">Pas de spam, désinscription en un clic.</p>
+              </form>
+            ) : (
+              <p className="soft-email-done reveal-child" role="status" style={revealDelay(5)}>
+                C'est noté — on te prévient au lancement. 🌿
+              </p>
             )}
           </div>
         </section>
 
-        {/* ════ QUESTIONNAIRE — fond émeraude ════ */}
+        {/* ════ QUESTIONNAIRE — après email (optionnel) ════ */}
         {formState === 'success' && !surveyDone && (
           <section
-            className="section section-survey bg-emerald"
+            className="section section-survey bg-velvet"
             aria-labelledby="survey-heading"
             ref={surveyRef}
             tabIndex={-1}
@@ -643,37 +708,6 @@ export default function App() {
                   </button>
                 </div>
               </form>
-            </div>
-          </section>
-        )}
-
-        {surveyDone && (
-          <section className="section-survey-done bg-emerald" aria-live="polite" aria-labelledby="reserve-heading">
-            <div className="container fade-in-up">
-              <p className="survey-thanks">Merci. À très vite.</p>
-
-              <div className="reserve-block">
-                <Alveole size={40} className="reserve-seal" />
-                <h3 id="reserve-heading" className="reserve-title">
-                  Tu veux une place dans la première production ?
-                </h3>
-                <p className="reserve-text">
-                  Réserve-la dès maintenant avec un acompte de 5 € —
-                  intégralement remboursé si la production n'est pas lancée.
-                </p>
-                <a
-                  href={STRIPE_RESERVE_URL}
-                  className="btn-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => trackEvent('stripe_click')}
-                >
-                  Je réserve ma place — 5 €
-                </a>
-                <p className="reserve-note">
-                  Paiement sécurisé par Stripe. Prix préférentiel de lancement garanti.
-                </p>
-              </div>
             </div>
           </section>
         )}
