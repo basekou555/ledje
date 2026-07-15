@@ -61,6 +61,7 @@ Le local est une **conviction** (consommer local, éthique), pas une contrainte.
 1. **Tester la recette** en conditions réelles (goût, dosage, critère « jamais la gorge sèche »).
 2. **Collecter des retours réels de testeurs** — principe Francesco : *chaque contact produit laisse une trace* (QR code, email, papier — peu importe le support, l'essentiel est la trace).
 3. **Vendre en LOTS aux mosquées** (B2B2C, jamais du détail individuel sur stand — c'est ce cadre qui rend l'artisanal compatible avec l'ambition) : gratuit d'abord, payant lors des événements.
+   - **Canal restaurant en TEST (décision 2026-07-13)** : suite à l'entretien Ahmed Diaby (restaurateur, 12/07), test autorisé pour évaluer si le canal restaurant est exploitable en phase artisanale (dégustation Odawa mardi 19h, 3-5 bouteilles). Statut : exploratoire — ne modifie pas le cadre mosquées tant que le test n'est pas concluant.
 4. **Identifier les volumes de consommation par mosquée** → construire la courbe jusqu'aux volumes justifiant l'usine.
 5. **Autofinancer la première production industrielle** si la phase est rentable.
 6. **Travailler le branding** sur le terrain (option légère : carafe + verres logotés en événement si bouteilles personnalisées trop chères).
@@ -146,6 +147,7 @@ Chaleureux, fier, posé. On **élève**, on ne dénonce pas, on ne donne pas de 
 | Goût « léger et frais » (sensoriel) | « Allégé / light / minceur » (réglementé) |
 
 - **Registre spirituel par évocation, jamais par proclamation** : pas de symbole religieux explicite ni de citation sacrée sur support commercial.
+- **À l'oral (pitch, entretiens — précision 2026-07-13)** : « tradition musulmane » acceptée ; le mot « sunna » à éviter. L'argument tradition est à exploiter, mais sans dépasser la limite fixée ci-dessus — formulations à travailler.
 - **Mention obligatoire** sur tout produit réel : miel déconseillé aux enfants de moins d'un an.
 - Process : tout texte sortant (script, légende, page, étiquette) passe cette grille avant publication. Étape fixe.
 
@@ -155,7 +157,7 @@ Chaleureux, fier, posé. On **élève**, on ne dénonce pas, on ne donne pas de 
 
 **Calcul de travail :** 2,5 c.à.c. de miel (~17,5 g, ~80 % sucres) dans 50 cl d'eau ≈ 14 g de sucres ≈ 2,8 g/100 mL, contre ~10-11 g/100 mL pour un soda classique → **réduction d'environ 70-75 %**, très largement au-dessus du seuil.
 
-**Conditions d'usage :** (1) comparer à une **catégorie générique** ("une boisson gazeuse classique"), jamais une marque nommée — cohérent avec la ligne rouge §1.3bis. (2) **Vérifier le chiffre sur le produit fini réel** (pas seulement le calcul théorique) avant toute publication — condition non encore remplie, en attente du produit confirmé (Partie 4/7). Formulation clean à date : *« Jusqu'à 4 fois moins de sucre qu'une boisson gazeuse classique »*.
+**Conditions d'usage :** (1) comparer à une **catégorie générique** ("une boisson gazeuse classique"), jamais une marque nommée — cohérent avec la ligne rouge §1.3bis. (2) **Vérifier le chiffre sur le produit fini réel** (pas seulement le calcul théorique) avant toute publication — condition non encore remplie, en attente du produit confirmé (Partie 4/7). Formulation clean à date : *« Jusqu'à 4 fois moins de sucre qu'une boisson gazeuse classique »*. **Le « jusqu'à » est obligatoire, y compris à l'oral** (dérive détectée en entretien du 12/07 : « 4 fois moins sucrée » sans « jusqu'à ») — formulation maintenue avec la recette actuelle (décision 2026-07-13).
 
 ---
 
@@ -219,6 +221,7 @@ Le vert = signature constante de marque. Chaque produit garde son monde ambre :
 ## 4.1 Produit de lancement
 
 **Cristal de miel pur français** (~15-20 g), à dissoudre dans l'eau fraîche — **format retenu** (obtenu par cristallisation dirigée : 100 % miel, jamais chauffé, se moule en masse compacte, se dissout si cristaux fins). Le terme produit figé, à l'oral comme sur le site, est **« cristal de miel »** (jamais "portion", "monodose", "perle", "pastille", "bonbon").
+**Tolérance pédagogique à l'oral (2026-07-13)** : quand « cristal de miel » ne parle pas à l'interlocuteur, les comparaisons « comme un stick » / « comme une dosette » sont admises pour expliquer — uniquement en comparaison, jamais comme nom du produit ; les termes bannis restent bannis sur tout support écrit.
 **⚠️ La « perle de miel gravée » n'existe pas industriellement en France** (ultra-niche, White Lion aux US) — abandonnée au profit du cristal.
 
 **Point de faisabilité ouvert (cf. §7.2bis) :** tenue du cristal à >25-30 °C, et vitesse de dissolution (à valider par test maison + fournisseurs). La gélification alginate reste le plan B si la cristallisation échoue sur ces deux points.
@@ -228,6 +231,7 @@ Le vert = signature constante de marque. Chaque produit garde son monde ambre :
 ## 4.2 Points produit clés
 
 - Le goût est vital : subtilement miellé, jamais écœurant (mode d'échec n°1 de la catégorie).
+- **Aucune communication sur un caractère « addictif » (2026-07-13)** : l'envie de revenir fait partie des effets du produit (on est dedans), mais on ne communique volontairement rien dans ce sens — on vend un bienfait, pas une addiction. (Suggestion d'un interviewé, écartée.)
 - La dissolution dans l'eau froide demande de l'agitation → le « shake » en bouteille est le geste le plus honnête ; en verre, un swirl élégant (jamais de cuillère — sous-entend que ça ne se dissout pas).
 - Le miel est **halal par nature** → aucune certification halal nécessaire pour le cristal. Certification pertinente uniquement pour la future RTD (recette, ligne de prod).
 - Modèle : pack découverte en tête de gondole (produit d'entrée, cf. §1.6) ; **abonnement disponible en option dès la phase de précommande** (pas seulement post-Ramadan) — signal précoce de récurrence sans attendre le post-mortem du pic.
@@ -557,6 +561,7 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 | 2026-07-10 | **Refonte site — décisions cadre (cf. §5.0).** Boisson nommée « eau miellée ». Bouteille = phare mis en scène mais NON vendue en ligne (logistique/fermentation) ; cristal = produit pré-vendu (1 cristal = 1 €, min. 5 €, remboursé si pas de lancement). Le site sert à **pré-vendre pour financer l'industriel**. Header de navigation (logo + CTA Précommander + ancres). Hero : « De l'eau fraîche, du miel pur. / Le rappel d'un bienfait pour la ummah. » Nouvelle vidéo Hero à produire (brief séparé). **Le « geste » n'est plus l'argument d'entrée** — couleur différenciante en second rideau (le produit = boisson finie, pas un kit à mélanger). |
 | 2026-07-10 | **Refonte identité visuelle amorcée (retours designeuse Inès).** Diagnostic : l'identité actuelle lit « cosmétique/gel douche », pas « boisson » — trop élégante, fine, féminine. **Conservé : palette émeraude + or.** **À refaire : logo (plus gros, impactant), typo (→ sans-serif affirmée), alvéole (tire vers médical/cosmétique, à reconsidérer).** Direction : miel gourmand (goutte/reflets/brillance) + eau. Méthode : benchmark (miel brandé + boissons naturelles, éviter sodas/apiculteurs/cosmétique) → 2 moodboards (univers + cible) → logo v2 → tests typo → charte couleur disciplinée (un ton/couleur, variations à l'opacité). Filtre décisif : « est-ce que la cible comprend ? », pas « est-ce que ça me plaît ? ». Chantier suivi dans la page Com & Branding. |
 | 2026-07-05→07 | **6 entretiens Mom Test réalisés et loggés** (cf. §8.2). Pattern : le concept résonne uniquement chez qui a déjà le miel en pratique = validation Branche C. H2 la plus solide, H3 la plus contestée. Script recalibré ×3 (questions ciblées boisson, H3 comportemental pré-pitch, sondes rayon/prix, test e-shop) + **3 argumentaires de vente écrits** + **prévente Stripe 5 € active** (signaux forts uniquement). |
+| 2026-07-13 | **5 arbitrages post-entretien Ahmed Diaby (digest du 13/07)** : canal restaurant en test artisanal (dégustation Odawa) ; allégation sucre : « jusqu'à » obligatoire, y compris à l'oral, recette actuelle ; « tradition musulmane » OK à l'oral, « sunna » évité ; comparaisons « stick »/« dosette » tolérées à l'oral pour expliquer le cristal ; aucune communication « addictif » (on vend un bienfait, pas une addiction). |
 
 ---
 
