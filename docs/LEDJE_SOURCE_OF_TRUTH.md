@@ -242,6 +242,14 @@ Le vert = signature constante de marque. Chaque produit garde son monde ambre :
 
 Spec verrouillée pour l'image, indépendamment de la production (phase 2) : PET transparent, silhouette cylindrique fine et droite, col court, bouchon or brossé, étiquette vert émeraude à typographie or (Fraunces), liquide quasi transparent à légère teinte dorée ("pale golden amber"). Détail complet dans `docs/visual/ledje-master-prompt.md` (section Product Definition). Principe : le statut business (pas encore en vente) n'empêche jamais une description visuelle confiante pour du contenu de teasing/appétit.
 
+## 4.4 Réglementaire (vente artisanale)
+
+Boisson pré-mélangée = denrée préemballée → **étiquetage INCO** (dénomination, ingrédients dont miel, quantité nette, DDM/DLC, conservation, exploitant, mention nourrissons < 12 mois, déclaration nutritionnelle). **Allègement possible** (exemption de déclaration nutritionnelle) pour fabrication artisanale en petites quantités / circuit local — à confirmer au cas par cas.
+
+**Démarche DDPP (suivi daté) :**
+- **[≈2026-07-10]** DDPP du **Rhône** : **non compétente** (siège de l'auto-entreprise dans un autre département) → **redirection vers la DDPP de domiciliation** en cours.
+- **[2026-07-18]** Réponse DDPP 56 (Schlosser) : ni agrément ni dérogation requis — déclaration d'activité seule, à faire sur mesdemarches.agriculture.gouv.fr. HACCP obligatoire (deux voies à comparer : formation 14 h, ou voie GBPH apicole). Tableau nutritionnel obligatoire dès lors qu'il y a vente en restaurant. Production en cuisine domicile : conformité à sécuriser.
+
 ---
 
 # PARTIE 5 : LANDING PAGE (état technique — vérifié en prod)
@@ -564,6 +572,7 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 | 2026-07-10 | **Refonte identité visuelle amorcée (retours designeuse Inès).** Diagnostic : l'identité actuelle lit « cosmétique/gel douche », pas « boisson » — trop élégante, fine, féminine. **Conservé : palette émeraude + or.** **À refaire : logo (plus gros, impactant), typo (→ sans-serif affirmée), alvéole (tire vers médical/cosmétique, à reconsidérer).** Direction : miel gourmand (goutte/reflets/brillance) + eau. Méthode : benchmark (miel brandé + boissons naturelles, éviter sodas/apiculteurs/cosmétique) → 2 moodboards (univers + cible) → logo v2 → tests typo → charte couleur disciplinée (un ton/couleur, variations à l'opacité). Filtre décisif : « est-ce que la cible comprend ? », pas « est-ce que ça me plaît ? ». Chantier suivi dans la page Com & Branding. |
 | 2026-07-05→07 | **6 entretiens Mom Test réalisés et loggés** (cf. §8.2). Pattern : le concept résonne uniquement chez qui a déjà le miel en pratique = validation Branche C. H2 la plus solide, H3 la plus contestée. Script recalibré ×3 (questions ciblées boisson, H3 comportemental pré-pitch, sondes rayon/prix, test e-shop) + **3 argumentaires de vente écrits** + **prévente Stripe 5 € active** (signaux forts uniquement). |
 | 2026-07-13 | **5 arbitrages post-entretien Ahmed Diaby (digest du 13/07)** : canal restaurant en test artisanal (dégustation Odawa) ; allégation sucre : « jusqu'à » obligatoire, y compris à l'oral, recette actuelle ; « tradition musulmane » OK à l'oral, « sunna » évité ; comparaisons « stick »/« dosette » tolérées à l'oral pour expliquer le cristal ; aucune communication « addictif » (on vend un bienfait, pas une addiction). |
+| 2026-07-18 | **Réglementaire — réponse DDPP 56 (Schlosser)** (cf. §4.4) : ni agrément ni dérogation requis, **déclaration d'activité seule** (mesdemarches.agriculture.gouv.fr) ; **HACCP obligatoire** (formation 14 h ou voie GBPH apicole) ; tableau nutritionnel obligatoire dès vente en restaurant ; production en cuisine domicile à sécuriser. Remplace l'état « redirection Rhône en cours ». |
 | 2026-07-18 | **Conditions réelles des canaux artisanaux arrêtées (cf. §1.4bis).** Restaurant : accord de test 20-30 bouteilles offertes puis réappro autofinancé, succès = réachat sur 1-2 mois, prix de cession > 1,50 €, kit de vente sans allégation santé. Mosquée : la mosquée achète et OFFRE aux fidèles (pas de revente) ; grille 2,50 € → 2 € (≥50) → plancher interne 1,50 €, concessions en bouteilles offertes, levier donateur en réserve. |
 
 ---
