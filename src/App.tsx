@@ -30,13 +30,11 @@ const CRISTAL_UNIT_PRICE = 1
 const MIN_CRISTAUX = 5
 const MAX_CRISTAUX = 50
 
-// ⚠️ À REMPLACER : Payment Link Stripe d'un produit « 1 cristal = 1 € » à quantité
-// ajustable (min 5). Renseigner VITE_STRIPE_PRECOMMANDE_URL. En attendant, repli sur
-// l'ancien lien d'acompte fixe (le paramètre ?quantity sera ignoré tant que le lien
-// n'est pas configuré en « quantité ajustable »).
+// Payment Link Stripe « précommande cristal » (1 cristal = 1 €, quantité ajustable, min 5).
+// Le code ajoute ?quantity=N automatiquement. Surchargé possible via VITE_STRIPE_PRECOMMANDE_URL.
 const STRIPE_PRECOMMANDE_URL =
   (import.meta.env.VITE_STRIPE_PRECOMMANDE_URL as string | undefined) ??
-  'https://buy.stripe.com/3cIcN4gH19JhcIVb28gQE01'
+  'https://buy.stripe.com/9B66oG0I3dZx10ddaggQE04'
 
 // Vidéo hero provisoire (génération Higgsfield hébergée CloudFront) —
 // à remplacer par l'asset final auto-hébergé quand la production visuelle sera validée.
