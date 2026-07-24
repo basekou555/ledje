@@ -3,20 +3,21 @@ statut: en_cours
 domaine: marche
 maj: 2026-07-20
 source: "SOT §1.4bis (archive 2026-07-24) — test décidé 2026-07-13, accord 2026-07-18"
-resume: "Canal en test (Odawa, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois."
+resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois."
 ---
 
 # Canal — Restaurant (TEST)
 
 ## Modèle
 
-**Canal en TEST (décision 2026-07-13)** : suite à l'entretien Ahmed Diaby (restaurateur, 12/07), test autorisé pour évaluer si le canal restaurant est exploitable en phase artisanale (dégustation Odawa mardi 19h, 3-5 bouteilles). Statut : exploratoire — ne modifie pas le cadre mosquées tant que le test n'est pas concluant.
+**Canal en TEST (décision 2026-07-13)** : suite à l'entretien Ahmed Diaby (restaurateur, 12/07), test autorisé pour évaluer si le canal restaurant est exploitable en phase artisanale (dégustation O'Daba mardi 19h, 3-5 bouteilles). Statut : exploratoire — ne modifie pas le cadre mosquées tant que le test n'est pas concluant.
 
 **[2026-07-18] Accord de test** : 20-30 bouteilles offertes, puis réapprovisionnement autofinancé par les ventes réelles.
 
 ## Conditions commerciales
 
 ⚠️ Prix de cession : donnée commerciale sensible — ne pas diffuser hors négociation directe.
+**Clarification 2026-07-24** : le B2B restaurateurs est le **seul canal où l'on négocie réellement** — le plancher 1,50 € (⚠️ interne, jamais diffusé) et les concessions en bouteilles offertes sont propres à ce canal (cf. `../02_produit/prix.md`).
 
 | Point | Valeur | Statut |
 |---|---|---|
@@ -42,4 +43,4 @@ resume: "Canal en test (Odawa, via Ahmed Diaby) : 20-30 bouteilles offertes puis
 
 | Nom | Rôle | Dernier échange | Suivi |
 |---|---|---|---|
-| Ahmed Diaby | Restaurateur (Odawa) | Entretien 12/07 · accord test 18/07 | à compléter |
+| Ahmed Diaby | Restaurateur (O'Daba) | Entretien 12/07 · accord test 18/07 | à compléter |
