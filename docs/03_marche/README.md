@@ -16,9 +16,10 @@ le dossier qui bouge le plus vite avec le terrain.
 
 | Fiche | Résumé | Statut |
 |---|---|---|
-| [`canal-mosquee.md`](canal-mosquee.md) | Canal principal artisanal : la mosquée achète et offre, grille de négociation | en_cours |
-| [`canal-restaurant.md`](canal-restaurant.md) | Canal en test (Odawa) : accord, critère de succès = réachat 1-2 mois | en_cours |
+| [`canal-mosquee.md`](canal-mosquee.md) | Canal mosquée en C2B2C : un fidèle donateur offre un lot, barème sans négociation | en_cours |
+| [`canal-restaurant.md`](canal-restaurant.md) | Canal en test (O'Daba) : accord, critère de succès = réachat 1-2 mois | en_cours |
 | [`acquisition-tiktok.md`](acquisition-tiktok.md) | Canal digital (inactif à ce jour) : UTM, canal B créateurs, trigger fin octobre | bloquant |
 | [`site-precommande.md`](site-precommande.md) | La refonte du site côté conversion : structure, hero, copy, précommande cristal | en_cours |
 | [`contenu-et-pubs.md`](contenu-et-pubs.md) | Méthode créa, pub 4 plans, scripts V1/V2, paramètres Higgsfield ; renvoi `../visual/` | en_cours |
 | [`mom-test.md`](mom-test.md) | Hypothèses H1/H2/H3, pattern Branche C, signaux récurrents, réserves méthodo | hypothèse |
+| [`marche-adressable.md`](marche-adressable.md) | Premier dimensionnement : panier 1-4 bouteilles/sem, SAM cœur 13-100 M€/an, SOM 130 k€-3 M€ | hypothèse |
