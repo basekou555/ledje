@@ -16,9 +16,9 @@ le dossier qui bouge le plus vite avec le terrain.
 
 | Fiche | Résumé | Statut |
 |---|---|---|
-| `canal-mosquee.md` | Canal principal artisanal : la mosquée achète et offre, grille de négociation | à créer — étape 4 |
-| `canal-restaurant.md` | Canal en test (Odawa) : accord, critère de succès = réachat 1-2 mois | à créer — étape 4 |
-| `acquisition-tiktok.md` | Canal digital (inactif à ce jour) : UTM, canal B créateurs, trigger fin octobre | à créer — étape 4 |
-| `site-precommande.md` | La refonte du site côté conversion : structure, hero, copy, précommande cristal | à créer — étape 4 |
-| `contenu-et-pubs.md` | Méthode créa, pub 4 plans, scripts V1/V2, paramètres Higgsfield ; renvoi `../visual/` | à créer — étape 4 |
-| `mom-test.md` | Hypothèses H1/H2/H3, pattern Branche C, signaux récurrents, réserves méthodo | à créer — étape 4 |
+| [`canal-mosquee.md`](canal-mosquee.md) | Canal principal artisanal : la mosquée achète et offre, grille de négociation | en_cours |
+| [`canal-restaurant.md`](canal-restaurant.md) | Canal en test (Odawa) : accord, critère de succès = réachat 1-2 mois | en_cours |
+| [`acquisition-tiktok.md`](acquisition-tiktok.md) | Canal digital (inactif à ce jour) : UTM, canal B créateurs, trigger fin octobre | bloquant |
+| [`site-precommande.md`](site-precommande.md) | La refonte du site côté conversion : structure, hero, copy, précommande cristal | en_cours |
+| [`contenu-et-pubs.md`](contenu-et-pubs.md) | Méthode créa, pub 4 plans, scripts V1/V2, paramètres Higgsfield ; renvoi `../visual/` | en_cours |
+| [`mom-test.md`](mom-test.md) | Hypothèses H1/H2/H3, pattern Branche C, signaux récurrents, réserves méthodo | hypothèse |
