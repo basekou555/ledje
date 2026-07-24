@@ -1,8 +1,8 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-07-20
-source: "SOT Partie 10 (archive 2026-07-24) — repris verbatim"
+maj: 2026-07-24
+source: "SOT Partie 10 (archive 2026-07-24, verbatim) + décisions 20-24/07 injectées depuis la page relais (passe validée par Basekou)"
 resume: "L'historique des décisions du projet, append-only : on ajoute une ligne, on ne réécrit jamais."
 ---
 
@@ -48,3 +48,17 @@ L'état courant vit dans les fiches ; ce log explique comment on y est arrivé.
 | 2026-07-13 | **5 arbitrages post-entretien Ahmed Diaby (digest du 13/07)** : canal restaurant en test artisanal (dégustation Odawa) ; allégation sucre : « jusqu'à » obligatoire, y compris à l'oral, recette actuelle ; « tradition musulmane » OK à l'oral, « sunna » évité ; comparaisons « stick »/« dosette » tolérées à l'oral pour expliquer le cristal ; aucune communication « addictif » (on vend un bienfait, pas une addiction). |
 | 2026-07-18 | **Réglementaire — réponse DDPP 56 (Schlosser)** (cf. §4.4) : ni agrément ni dérogation requis, **déclaration d'activité seule** (mesdemarches.agriculture.gouv.fr) ; **HACCP obligatoire** (formation 14 h ou voie GBPH apicole) ; tableau nutritionnel obligatoire dès vente en restaurant ; production en cuisine domicile à sécuriser. Remplace l'état « redirection Rhône en cours ». |
 | 2026-07-18 | **Conditions réelles des canaux artisanaux arrêtées (cf. §1.4bis).** Restaurant : accord de test 20-30 bouteilles offertes puis réappro autofinancé, succès = réachat sur 1-2 mois, prix de cession > 1,50 €, kit de vente sans allégation santé. Mosquée : la mosquée achète et OFFRE aux fidèles (pas de revente) ; grille 2,50 € → 2 € (≥50) → plancher interne 1,50 €, concessions en bouteilles offertes, levier donateur en réserve. |
+| 2026-07-20 | **Valeurs de marque validées** : transmission · cohérence · le vrai (ordre et mots actés ; cascade détaillée dans les Fondations com, hors repo). |
+| 2026-07-20 | **Personas gardienne et offreur rétrogradés en hypothèses à confirmer** (« les Mom Tests disent autre chose ») — leur activation phase 2 n'est plus un acquis. |
+| 2026-07-20 | **Plafond prix B2C bouteille : 2,50 €** (prix idéal à ce stade — remplace la fourchette 3-3,50 €, invalidée). Panier observé Mom Tests : 1-4 bouteilles/semaine ; dimensionnement SAM cœur 13-100 M€/an, SOM an 2-3 : 130 k€-3 M€. |
+| 2026-07-20 | **Appel Melli Ouest** : ensemencement + dissolution eau froide confirmés (tests à faire) ; « jamais chauffé > ~35 °C » acté comme ligne produit ; conditionnement chez eux = S2 2027, min. 70-100 kg → **plan B post-Ramadan, pas le partenaire de lancement**. |
+| 2026-07-20 | **Email pro fermé** : basekou@ledje.fr opérationnelle (Zoho Mail), correspond à la prod ; pas de contact@. |
+| 2026-07-21 | **Bascule modèle mosquée : B2B → C2B2C** (échange Mosquée Lyon 2 : les mosquées n'achètent pas leurs consommables) — don sponsorisé : un fidèle offre un lot ; mosquée = lieu + « oui d'autorisation » ; paiement Stripe/prévente. Le RDV « 1ère mosquée » du 18/07 au soir n'a pas eu lieu — remplacé par cet échange. |
+| 2026-07-21 | **Dose 33cl quasi figée** : éq. 6 c.à.c./50 cl → ~8,5 g miel/100 mL (~28 g/bouteille) ; QUID « miel de fleurs de France (8 %) » en mention **ferme** (« de France » à confirmer sur l'origine lavande) ; fabricant acté (Basekou Diaby, Lorient, SIRET 852 085 562 00019) ; décision : peser au gramme pour respecter le tableau nutritionnel. |
+| 2026-07-21 | **HACCP — voie choisie : GBPH apicole ITSAP** (formation 14 h reportée). Réserve à lever : confirmer que le GBPH couvre une boisson au miel. |
+| 2026-07-21 | **CERFA 13984** : catégorie « préparation de produits composés » ; envoi via mesdemarches (routage national) pour trancher le conflit de compétence DDPP 69/56. |
+| 2026-07-21 | **Outillage** : Salle du conseil niveau B construite (socle council-context.md, protégé) ; règle « outils partagés intégrés tels quels ». Migration email Zoho → Google Workspace : plus tard, non urgent. |
+| 2026-07-24 | **Accroche hero tranchée (session Com)** : « De l'eau fraîche, du miel pur. » retenue ; « Ce que la tradition nous a laissé de meilleur » retirée (la tradition est passée en second rideau). Réserve ouverte (Basekou) sur la sous-ligne « ummah ». |
+| 2026-07-24 | **Étiquette 33cl : contenu légal figé côté COO** ; habillage provisoire assumé pour le lot O'Daba ; règle générale : **aucune étiquette de série imprimée avant le logo v2**. |
+| 2026-07-24 | **Volet com du canal mosquée** (flyer/affiche fidèle donateur) : ne s'ouvre qu'après l'étiquette et le branding. |
+| 2026-07-24 | **Grilles de prix clarifiées par canal** : plancher 1,50 € et concessions = B2B restaurateurs uniquement (seul canal négocié) ; barème 2,50 €/2 € applicable au C2B2C **sans négociation** ; B2C plafond 2,50 €. |
