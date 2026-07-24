@@ -1,9 +1,9 @@
 ---
-statut: figé
+statut: en_cours
 domaine: adn
-maj: 2026-07-02
-source: "SOT §1.6 + Partie 6bis (archive 2026-07-24) — correction importante du 2026-07-02"
-resume: "Le pratiquant (persona de conception) + ses extensions (gardienne, offreur), et la grille de contenu par cible."
+maj: 2026-07-20
+source: "SOT §1.6 + Partie 6bis (archive 2026-07-24) — gardienne/offreur rétrogradés en hypothèses le 2026-07-20 (page relais)"
+resume: "Le pratiquant (persona de conception, figé) + ses extensions gardienne/offreur (⚠️ hypothèses à confirmer depuis le 20/07), et la grille de contenu par cible."
 ---
 
 # Cibles & grille de contenu
@@ -11,6 +11,8 @@ resume: "Le pratiquant (persona de conception) + ses extensions (gardienne, offr
 ## Les trois cibles — ce sont des EXTENSIONS d'un même persona, pas trois marques différentes
 
 **Correction importante (2026-07-02) :** on ne construit pas trois identités de marque. Une seule marque, pensée à 100 % pour le **pratiquant** (persona de conception). La gardienne et l'offreur sont des **rôles/usages secondaires** qui viennent se brancher sur le même univers — souvent la même personne à des moments différents de sa vie. Le ton de fond reste constant ; **l'angle de message** change selon le rôle (grille ci-dessous).
+
+**⚠️ Statut révisé (2026-07-20) :** la gardienne et l'offreur sont rétrogradés en **hypothèses à confirmer** — « les Mom Tests disent autre chose » (Basekou). Leur activation phase 2 n'est plus un acquis ; à confronter au terrain. Le pratiquant reste le persona de conception, figé.
 
 1. **Le pratiquant** — vit le rituel personnellement. **Persona de conception et de test n°1.** 18-35 ans, jeune actif à jeune parent, vit en grande ville, achète halal en grande distribution et épiceries de quartier, va à la mosquée le vendredi ou plus, **en démarche active d'approfondissement** (médecine prophétique, apprentissage religieux) — pas une pratique héritée figée. Produit d'entrée : **pack découverte** (achat simple, sans engagement) — PAS l'abonnement, qui ne correspond pas à son mode d'achat.
    - **Parcours de décision :** (1) est-ce bon pour ma santé ? → répondre par la preuve produit (pureté, traçabilité), jamais par une allégation. (2) le goût → faible frein, le miel est déjà apprécié. (3) les valeurs de la marque, est-ce qu'elle "fait des dingueries" (repoussoir cité : Coca et ses financements contestés) → la transparence sur qui est derrière la marque et ce qu'elle soutient doit être visible, pas juste esthétique.
