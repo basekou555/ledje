@@ -1,6 +1,6 @@
 # Lédjé — Brief designeuse
 
-> Document de travail pour la designeuse. Source de vérité de la marque : `docs/LEDJE_SOURCE_OF_TRUTH.md` (SOT). En cas de contradiction, le SOT gagne.
+> Document de travail pour la designeuse. Source de vérité de la marque : les fiches `docs/01_adn/` (surtout `identite-visuelle.md`, `identite-verbale.md`, `conformite.md`) — carte d'entrée `docs/README.md`. En cas de contradiction, ces fiches gagnent. *(Ancien SOT monolithique archivé : `docs/_ARCHIVE_SOT_monolithique_2026-07-24.md`.)*
 > Dernière mise à jour : 2026-07-10 (design system implémenté sur la landing — typo Cormorant Garamond + Lora, nouveau symbole de marque, favicon ; **produit figé = cristal de miel**, terminologie à répercuter).
 
 ---
