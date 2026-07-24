@@ -33,7 +33,8 @@ d'une session (ou la copie Project Knowledge Claude) et ces fiches, **les fiches
 - **`ledje-brief-designer.md`** — brief designeuse, document de travail transmis tel quel.
 - **`CLAUDE.md`** (racine du repo) — le routeur des sessions Claude Code (site / visuel / cerveau).
 - **Notion** — le suivi opérationnel vivant (pipelines sourcing, Mom Test). Les fiches portent
-  l'état durable et les décisions ; Notion porte le quotidien. Page relais : à compléter.
+  l'état durable et les décisions ; Notion porte le quotidien.
+  Page relais : https://app.notion.com/p/39e4bc5926a88163b425c0607514a3b6
 
 ## Règles qui s'appliquent partout
 

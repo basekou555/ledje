@@ -14,10 +14,10 @@ d'écrire un texte, de compiler un prompt ou d'ouvrir un canal, c'est ici qu'on 
 
 | Fiche | Résumé | Statut |
 |---|---|---|
-| `vision-positionnement.md` | C'est quoi Lédjé, Branche C, hiérarchie de marque, moments du rituel | à créer — étape 4 |
-| `combats.md` | Les deux combats (dilution de la pratique / grandes marques) + la ligne rouge absolue | à créer — étape 4 |
-| `architecture-offre.md` | Deux étages (quotidien/exception) + chemin artisanal → industriel, contrainte Égypte | à créer — étape 4 |
-| `cibles-et-contenu.md` | Le pratiquant + extensions (gardienne, offreur), grille de contenu par cible | à créer — étape 4 |
-| `identite-verbale.md` | Nom, signature, accroches (⚠️ à trancher avec la com), ton de voix, lexique | à créer — étape 4 |
-| `conformite.md` | La grille autorisé/interdit, allégation nutritionnelle comparative, règles orales | à créer — étape 4 |
-| `identite-visuelle.md` | Palette (figée), typo/logo/symbole (refonte Inès en cours), statut designer | à créer — étape 4 |
+| [`vision-positionnement.md`](vision-positionnement.md) | C'est quoi Lédjé, Branche C, hiérarchie de marque, moments du rituel | figé |
+| [`combats.md`](combats.md) | Les deux combats (dilution de la pratique / grandes marques) + la ligne rouge absolue | figé |
+| [`architecture-offre.md`](architecture-offre.md) | Deux étages (quotidien/exception) + chemin artisanal → industriel, contrainte Égypte | figé |
+| [`cibles-et-contenu.md`](cibles-et-contenu.md) | Le pratiquant + extensions (gardienne, offreur), grille de contenu par cible | figé |
+| [`identite-verbale.md`](identite-verbale.md) | Nom, signature, accroches (⚠️ à trancher avec la com), ton de voix, lexique | en_cours |
+| [`conformite.md`](conformite.md) | La grille autorisé/interdit, allégation nutritionnelle comparative, règles orales | figé |
+| [`identite-visuelle.md`](identite-visuelle.md) | Palette (figée), typo/logo/symbole (refonte Inès en cours), statut designer | en_cours |
