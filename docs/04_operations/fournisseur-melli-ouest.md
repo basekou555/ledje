@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-07-13
-source: "SOT §7.2, 7.3 (archive 2026-07-24)"
-resume: "Seul fournisseur passé en fiche individuelle (actif). État SOT : contacté 04/07, en attente — l'appel récent et la suite vivent en page relais Notion (passe séparée à venir)."
+maj: 2026-07-20
+source: "SOT §7.2, 7.3 (archive 2026-07-24) + appel du 2026-07-20 (page relais)"
+resume: "Gros producteur vendéen (~100 t/an), de bon conseil — mais conditionnement S2 2027 min. 70-100 kg : plan B post-Ramadan, pas le partenaire de lancement. Échantillons à commander."
 ---
 
 # Fournisseur — Melli Ouest
@@ -21,25 +21,30 @@ resume: "Seul fournisseur passé en fiche individuelle (actif). État SOT : cont
 
 | Date | Canal | Contenu | Réponse |
 |---|---|---|---|
-| 2026-07-04 | Email (brouillon Cowork, envoyé par Basekou) | Sondage : MOQ, prix/unité, certifs, délais | Mail bien parti — en attente (état SOT) |
+| 2026-07-04 | Email (brouillon Cowork, envoyé par Basekou) | Sondage : MOQ, prix/unité, certifs, délais | Mail bien parti |
+| 2026-07-20 | Appel | Sondage approfondi (voir ci-dessous) | Gros producteur (~100 t/an), pro et ouvert, de bon conseil |
 
-> ⚠️ Décalage de fraîcheur assumé (2026-07-24) : un appel a eu lieu depuis (échantillons à
-> commander) — détail dans la page relais Notion, à injecter ici avec sa vraie date lors de
-> la passe de mise à jour séparée.
-
-## Données de sondage
+## Données de l'appel du 2026-07-20
 
 | Point | Valeur | Statut |
 |---|---|---|
-| MOQ | à compléter | |
-| Prix de revient / unité | à compléter | |
-| Certifications (HACCP/IFS…) | à compléter | |
-| Délais | à compléter | |
-| Tenue du cristal >25-30 °C | à compléter | |
+| Profil | Gros producteur, ~100 t/an | confirmé |
+| Ensemencement (cristallisation dirigée) | Confirmé possible | tests à faire |
+| Dissolution eau froide | Confirmée possible | tests à faire |
+| Miels recommandés pour le goût | Châtaigne / acacia / lavande | conseil |
+| Chauffe | Jamais au-dessus de la température de ruche (~35 °C) — ligne produit validée | confirmé |
+| Conditionnement par eux | **S2 2027 seulement, minimum 70-100 kg** | confirmé |
+| MOQ / prix / certifs / délais précis | à compléter (devis reporté — volumes trop loin des 70 kg) | |
 
-## Verdict
+## Verdict (2026-07-20)
 
-En course — seul fournisseur actif du track cristal à ce jour. À compléter après réception des données.
+**Plan B post-Ramadan — pas le partenaire de lancement** (conditionnement trop tard et trop gros pour Ramadan 2027). Reste précieux comme fournisseur de miel possible et source de conseil.
+
+## Prochaines étapes
+
+- Commander les **échantillons goût** (châtaigne, lavande, acacia) → tests dilution maison.
+- Devis reporté.
+- La recherche du conditionneur de lancement passe par la **cartographie large** (cf. `fournisseurs.md`).
 
 ## Notes
 
