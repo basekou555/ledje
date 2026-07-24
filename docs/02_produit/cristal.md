@@ -1,8 +1,8 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-07-15
-source: "SOT §4.1, 4.2, 7.2bis (archive 2026-07-24)"
+maj: 2026-07-21
+source: "SOT §4.1, 4.2, 7.2bis (archive 2026-07-24) + appel Melli Ouest 2026-07-20/21 (page relais)"
 resume: "Le produit de lancement : cristal de miel (cristallisation dirigée), terminologie, points produit clés, ordre de préférence des formats, faisabilité ouverte."
 ---
 
@@ -24,6 +24,8 @@ resume: "Le produit de lancement : cristal de miel (cristallisation dirigée), t
 - Le miel est **halal par nature** → aucune certification halal nécessaire pour le cristal. Certification pertinente uniquement pour la future RTD (recette, ligne de prod).
 - Modèle : pack découverte en tête de gondole (produit d'entrée, cf. `../01_adn/cibles-et-contenu.md`) ; **abonnement disponible en option dès la phase de précommande** (pas seulement post-Ramadan) — signal précoce de récurrence sans attendre le post-mortem du pic.
 - **Critère recette or (Mom Test, entretien 5)** : "si la gorge est sèche juste après, ça crée un problème".
+- **Précision ligne produit (appel Melli Ouest, 2026-07-20)** : « jamais chauffé » = jamais au-dessus de la température de ruche (**~35 °C**) — ligne produit validée.
+- **Sujet ouvert — logique « 2 miels »** (un miel pour le goût, un pour la cristallisation) : cf. `../04_operations/fournisseurs.md`.
 
 ## Pistes de format — ordre de préférence (2026-07-06)
 
@@ -38,9 +40,6 @@ resume: "Le produit de lancement : cristal de miel (cristallisation dirigée), t
 - La gélification alginate reste le plan B si la cristallisation échoue sur ces deux points.
 
 **🔄 Piste antérieure archivée (2026-07-04) : bonbon à cœur de miel liquide** — écartée au profit du cristal (le bonbon impliquait de chauffer le miel, ce qui tue l'argument "jamais chauffé"). Conservée ici pour mémoire, non poursuivie.
-
-> ⚠️ Décalage de fraîcheur assumé (2026-07-24) : des décisions récentes (dose de miel figée, fabricant)
-> vivent dans la page relais Notion et pas encore ici — passe de mise à jour séparée à venir.
 
 ## Renvois
 
