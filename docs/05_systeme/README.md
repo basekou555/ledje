@@ -12,6 +12,7 @@ métier ici : que de l'outillage.
 | [`decisions-log.md`](decisions-log.md) | L'historique des décisions, append-only — on ajoute, on ne réécrit jamais | figé |
 | [`backlog.md`](backlog.md) | Les pistes ouvertes et actions en attente, par priorité | en_cours |
 | [`outils.md`](outils.md) | Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, Notion…) + inventaire des docs hors repo | figé |
+| [`council-context.md`](council-context.md) | Socle permanent de la Salle du conseil (v. 19/07) — **protégé**, à répercuter dans l'artefact à chaque màj | figé |
 | [`templates/`](templates/) | Les 5 gabarits : fiche-produit, fiche-canal, fiche-fournisseur, debrief-terrain, entree-conseil | ✅ en place |
 | `conseil/` | Les entrées de conseil datées (verdict, décision, prédiction à revisiter) | créé à la première entrée |
 
