@@ -8,10 +8,10 @@ métier ici : que de l'outillage.
 
 | Élément | Résumé | Statut |
 |---|---|---|
-| `workflow-maj.md` | Hiérarchie des sources, protégé/libre, rituels de session, resynchro Project Knowledge, page relais Notion | à créer — étape 4 |
-| `decisions-log.md` | L'historique des décisions, append-only — on ajoute, on ne réécrit jamais | à créer — étape 4 |
-| `backlog.md` | Les pistes ouvertes et actions en attente, par priorité | à créer — étape 4 |
-| `outils.md` | Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, Notion…) + inventaire des docs hors repo | à créer — étape 4 |
+| [`workflow-maj.md`](workflow-maj.md) | Hiérarchie des sources, protégé/libre, rituels de session, resynchro Project Knowledge, page relais Notion | figé |
+| [`decisions-log.md`](decisions-log.md) | L'historique des décisions, append-only — on ajoute, on ne réécrit jamais | figé |
+| [`backlog.md`](backlog.md) | Les pistes ouvertes et actions en attente, par priorité | en_cours |
+| [`outils.md`](outils.md) | Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, Notion…) + inventaire des docs hors repo | figé |
 | [`templates/`](templates/) | Les 5 gabarits : fiche-produit, fiche-canal, fiche-fournisseur, debrief-terrain, entree-conseil | ✅ en place |
 | `conseil/` | Les entrées de conseil datées (verdict, décision, prédiction à revisiter) | créé à la première entrée |
 
