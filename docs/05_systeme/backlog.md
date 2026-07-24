@@ -1,14 +1,14 @@
 ---
 statut: en_cours
 domaine: systeme
-maj: 2026-07-13
-source: "SOT Partie 11 (archive 2026-07-24)"
+maj: 2026-07-24
+source: "SOT Partie 11 (archive 2026-07-24) — annotations d'état 24/07"
 resume: "Les pistes ouvertes et actions en attente, reprises telles quelles du SOT."
 ---
 
 # Backlog / pistes ouvertes
 
-1. **⚠️ Déployer la nouvelle accroche hero** dans `src/App.tsx` (prompt Claude Code prêt — toujours pas confirmé exécuté). *(⚠️ Laquelle des deux accroches : à trancher avec la com — cf. `../01_adn/identite-verbale.md`.)*
+1. **⚠️ Déployer l'accroche hero tranchée** « De l'eau fraîche, du miel pur. » dans `src/App.tsx` — ✅ accroche tranchée le 24/07 (Com) ; ⚠️ la sous-ligne « Le rappel d'un bienfait pour la ummah » reste à trancher par Basekou avant mise en ligne (cf. `../01_adn/identite-verbale.md`).
 2. **Suivre les réponses fournisseurs** (4 en attente) et **relancer les 5 rebonds par téléphone** ; contacter CELS Laboratoire (piste stick prometteuse) — suivi dans le dashboard Notion.
 3. **Retour designeuse** → verrouiller logo/alvéole final, typo finale, affinage palette → puis production visuelle définitive. Périmètre/délai/budget toujours "[à préciser]", aucun engagement formel à ce jour.
 4. **Compiler et générer le premier shot réel (H01 "La Rencontre")** via le système de production visuelle — ne dépend pas de la confirmation du format produit.
@@ -24,5 +24,5 @@ resume: "Les pistes ouvertes et actions en attente, reprises telles quelles du S
 14. Réexaminer le **dépôt INPI** au premier contenu TikTok public, selon budget disponible à ce moment.
 15. **Cadrer le réglementaire de la vente artisanale** AVANT la première vente (déclaration d'activité, hygiène DDPP, étiquetage/DLC, stabilité microbiologique eau+miel non pasteurisé) — recherche à préparer. *(Avancé : réponse DDPP 56 reçue le 18/07, cf. `../04_operations/demarches-admin.md`.)*
 16. **Calculer le coût de revient artisanal** par bouteille (eau, miel, packaging, conditionnement) — distinct du coût industriel (item 11), c'est la fondation des KPIs Francesco.
-17. **Chiffrer le marché adressable** (nombre de musulmans pratiquants actifs en France) — demandé par Francesco pour le prochain point d'étape.
+17. **Chiffrer le marché adressable** (nombre de musulmans pratiquants actifs en France) — demandé par Francesco pour le prochain point d'étape. *(Premier dimensionnement fait le 20/07 : cf. `../03_marche/marche-adressable.md` — reste à consigner le détail du calcul.)*
 18. **Identifier les premiers contacts mosquées** pour la phase artisanale (piste déjà offerte par l'entretien 4 : fête d'école islamique, Cheikh Zakaria Ivry, président culturel) + option branding léger carafe/verres logotés pour les événements.
