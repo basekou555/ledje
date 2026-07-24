@@ -1,9 +1,9 @@
 ---
-statut: en_cours
+statut: bloquant
 domaine: adn
-maj: 2026-07-13
-source: "SOT Partie 3 (archive 2026-07-24) — refonte amorcée 2026-07-10 (retours Inès)"
-resume: "Palette émeraude+or (figée), principe de l'or en dégradé, typo/logo/alvéole en refonte (retours Inès), statut brief designeuse."
+maj: 2026-07-24
+source: "SOT Partie 3 (archive 2026-07-24) — refonte amorcée 2026-07-10 (Inès) ; chemin critique + typo dédoublée 2026-07-24 (page relais)"
+resume: "Palette émeraude+or (figée) ; logo v2 = chemin critique (bloque l'étiquette O'Daba) ; typo dédoublée système/wordmark ; chantier moodboards en cours."
 ---
 
 # Identité visuelle (design system)
@@ -42,6 +42,16 @@ L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« enco
 
 *(Historique — direction provisoire antérieure, à ne plus considérer comme validée : Fraunces titres/nom/tagline + Inter courant. Fraunces apparaît encore sur le site et dans la spec bouteille tant que la nouvelle typo n'est pas verrouillée.)*
 
+### ⚠️ Chemin critique (2026-07-24) : le logo v2 bloque l'étiquette
+
+Seul élément com sur le chemin critique : le contenu légal de l'étiquette 33cl est figé côté COO (cf. `../02_produit/eau-miellee-33cl.md`), il ne manque que l'habillage. **Décision actée : aucune étiquette de série imprimée tant que l'identité en refonte n'est pas livrée** (sinon stock mort) ; un **habillage provisoire est retenu pour le lot O'Daba** (« fait avec ce qu'on a pu »). Séquence : logo v2 → habillage étiquette → commande.
+
+### La question typo se dédouble (2026-07-24)
+
+- **(a) Typo système** (titres, texte) : arbitrage **Zodiak Black** (héritage, serif robuste) vs **Bricolage Bold** (contemporain, grotesque à caractère) — maquette comparative faite. Cadrage à porter à Inès : « le problème était la finesse, pas les empattements ».
+- **(b) Wordmark** : ces polices jugées trop génériques/vues (Basekou) — l'authenticité ne viendra pas d'un choix de police mais d'une **personnalisation**. Pistes ouvertes : les deux « é » comme signature (accents = gouttes miel/eau), révéler la césure lé|djé (le nom porte le produit), une lettre qui porte le concept.
+- Une fois la typo verrouillée : **harmoniser les 3 specs Fraunces restantes** (signature, étiquette bouteille, master prompt visuel).
+
 ## Le symbole : l'alvéole — ⚠️ À RECONSIDÉRER
 
 Hexagone contour or fin + **une cellule pleine au centre** — le cercle, l'harmonie, le point de rassemblement, la **communauté**. Rejetés : abeille et pot de miel (génériques, décrivent le produit et non la valeur). Piste à travailler (avec la designeuse) : cellules **jointes par l'or**, façon kintsugi. Usage : récurrent mais **discret** (header, sceaux, puces, trame de fond, favicon).
@@ -53,6 +63,10 @@ Hexagone contour or fin + **une cellule pleine au centre** — le cercle, l'harm
 Le vert = signature constante de marque. Chaque produit garde son monde ambre :
 - **Monde doré** — solaire, lumineux, accessible.
 - **Monde nocturne** — profond, intime, premium (rupture du jeûne, bougie, low-key).
+
+## Chantier moodboards (état 2026-07-20)
+
+Brief moodboards corrigé (minéral rétrogradé, blocs réécrits) ; planche B recentrée (épiceries/supermarchés/fast food/iftar) ; premier jet planche A revu (91 épingles Pinterest) : forts sur mélange/encres et précieux sombre. Critères de tri actés : concurrents isolés en section technique ; eau « donne soif » garde / « promet un bénéfice » sort ; déficit émeraude → requêtes matière + génération possible. **Prochaine étape : tri V1 (91 → 12-15 images) par Basekou → revue → planches B/C/X → Inès.**
 
 ## Statut designer
 
