@@ -17,6 +17,7 @@ l'étiquetage réglementaire. La vérité produit vit ici ; le discours qui la v
 | Fiche | Résumé | Statut |
 |---|---|---|
 | [`cristal.md`](cristal.md) | Le produit de lancement : définition, formats (ordre de préférence), faisabilité ouverte | en_cours |
+| [`eau-miellee-33cl.md`](eau-miellee-33cl.md) | La bouteille artisanale 33cl : recette/dose, QUID, tableau nutritionnel, fabricant, habillage | en_cours |
 | [`bouteille.md`](bouteille.md) | Spec visuelle verrouillée (communication anticipée), statut business phase 2 | figé |
 | [`prix.md`](prix.md) | Cible ≤ 2 €/cristal, mécanique précommande (1 € / min. 5 €), pièges de communication prix | en_cours |
 | [`reglementaire-etiquetage.md`](reglementaire-etiquetage.md) | Étiquetage INCO, mentions obligatoires, allègements possibles | en_cours |
