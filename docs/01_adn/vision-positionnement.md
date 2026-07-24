@@ -1,9 +1,9 @@
 ---
 statut: figé
 domaine: adn
-maj: 2026-07-13
-source: "SOT §1.1, 1.2, 1.3, 1.5 (archive 2026-07-24)"
-resume: "C'est quoi Lédjé, le positionnement Branche C verrouillé, la hiérarchie de marque, les moments du rituel."
+maj: 2026-07-20
+source: "SOT §1.1, 1.2, 1.3, 1.5 (archive 2026-07-24) + valeurs validées 2026-07-20 (page relais)"
+resume: "C'est quoi Lédjé, le positionnement Branche C verrouillé, les valeurs (transmission · cohérence · le vrai), la hiérarchie de marque, les moments du rituel."
 ---
 
 # Vision & positionnement
@@ -21,6 +21,10 @@ resume: "C'est quoi Lédjé, le positionnement Branche C verrouillé, la hiérar
 **Branche C : 100 % communauté dans la conception, mainstream = bonus non payé.** On conçoit tout pour la communauté musulmane pratiquante francophone (Maghreb, Afrique de l'Ouest, convertis, 2e/3e générations). Si un non-musulman achète, on l'accueille sans rien changer — on ne dilue jamais, on ne paie pas pour l'acquérir.
 
 **Le job du produit :** « vivre un geste de ma tradition, au quotidien, sans le cacher et sans me contenter du cheap. » Job identitaire, pas « hydratation + santé perçue ». Achat émotionnel, prime de prix acceptée, réachat porté par l'identité.
+
+## Valeurs (validées le 2026-07-20)
+
+**Transmission · cohérence · le vrai** — ordre et mots actés par Basekou, cascade adossée aux verbatims. La déclinaison complète (« cascade ») vit dans les Fondations com (hors repo) : à compléter ici lors d'un prochain import.
 
 ## La hiérarchie de marque (à ne jamais inverser)
 
