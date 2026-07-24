@@ -1,3 +1,8 @@
+> **📦 ARCHIVE (2026-07-24) — document remplacé, ne plus mettre à jour.**
+> Ce SOT monolithique a été découpé en fiches atomiques : point d'entrée `docs/README.md`.
+> Conservé tel quel pour la trace ; l'état courant vit dans les fiches, l'historique des
+> décisions dans `docs/05_systeme/decisions-log.md`.
+
 # LÉDJÉ — SOURCE OF TRUTH
 
 > **Document central unique du projet Lédjé.** Toute personne ou IA qui travaille sur le projet part d'ici.

@@ -4,21 +4,21 @@ Ce dépôt contient
 
 * Le code de la landing page (React/TypeScript + Supabase + Vercel).
 * Les documents de référence de la marque (`docs/`) : vision, conformité, design system, et le système de production visuelle (`docs/visual/`).
-Dans tous les cas, commence par lire `docs/LEDJE_SOURCE_OF_TRUTH.md` — c'est la source unique pour la marque, la conformité, l'état du produit. En cas de contradiction entre ta mémoire et ce document, le SOT gagne.
+Dans tous les cas, commence par lire `docs/README.md` — la carte du cerveau Lédjé (fiches atomiques avec frontmatter, un README par dossier). Ouvre ensuite uniquement les fiches du domaine concerné, via les `resume` des index. Les règles de mise à jour du cerveau (hiérarchie des sources, protégé/libre, rituels de session) : `docs/05_systeme/workflow-maj.md`. En cas de contradiction entre ta mémoire (ou Project Knowledge) et les fiches du repo, les fiches gagnent. *(L'ancien SOT monolithique est archivé : `docs/_ARCHIVE_SOT_monolithique_2026-07-24.md` — ne plus s'y référer sauf pour l'histoire.)*
 Règles qui s'appliquent à TOUTE tâche, quel que soit le sujet
 
-* Aucune allégation santé, explicite ou implicite (SOT §2.5) — vrai pour le copy du site comme pour les prompts d'image.
-* Aucun symbole religieux explicite (SOT §1.3bis).
-* Si une tâche touche la marque, la conformité ou les valeurs : vérifier dans le SOT avant d'agir, ne jamais improviser.
+* Aucune allégation santé, explicite ou implicite (`docs/01_adn/conformite.md`) — vrai pour le copy du site comme pour les prompts d'image.
+* Aucun symbole religieux explicite (`docs/01_adn/combats.md` et `conformite.md`).
+* Si une tâche touche la marque, la conformité ou les valeurs : vérifier dans `docs/01_adn/` avant d'agir, ne jamais improviser.
 Si la tâche concerne le SITE (landing page, déploiement, DNS, Supabase)
 
-* Référence technique complète : `docs/LEDJE_SOURCE_OF_TRUTH.md`, Partie 5 (pièges connus : variables d'environnement Vercel qui écrasent le fallback, policies Supabase INSERT-only à ne pas modifier, ne jamais réintroduire de `.select()` après un insert anon).
-* Workflow git (SOT §5.8) : repartir de `origin/main` à jour, nouvelle PR draft, ne jamais empiler sur du mergé.
+* Référence technique complète : `docs/04_operations/site-technique.md` (pièges connus : variables d'environnement Vercel qui écrasent le fallback, policies Supabase INSERT-only à ne pas modifier, ne jamais réintroduire de `.select()` après un insert anon). Côté conversion/copy : `docs/03_marche/site-precommande.md`.
+* Workflow git (`docs/04_operations/site-technique.md`) : repartir de `origin/main` à jour, nouvelle PR draft, ne jamais empiler sur du mergé.
 * Toute modification de copy (accroche, CTA, textes) doit respecter les règles de conformité ci-dessus.
 Si la tâche concerne la PRODUCTION VISUELLE (compiler un prompt, générer un shot)
 Documents de référence (dans cet ordre de dépendance)
 
-1. `docs/LEDJE_SOURCE_OF_TRUTH.md` — déjà lu si tu as suivi l'instruction générale ci-dessus.
+1. `docs/README.md` + les fiches ADN pertinentes (`docs/01_adn/`, surtout `conformite.md` et `identite-visuelle.md`) — déjà lues si tu as suivi l'instruction générale ci-dessus.
 2. `docs/visual/ledje-visual-language.md` — la constitution artistique.
 3. `docs/visual/ledje-master-prompt.md` — ce qui ne change jamais (produit, negative prompt, présence humaine, narrative, checklist).
 4. `docs/visual/ledje-prompt-library.md` — le catalogue d'options modulaires (sujet, décor, caméra, lumière, matières, composition, props, action, émotion) + les presets par intention. Le SUJET (SUJ) est le premier paramètre : le héros physique de l'image (perle / eau-verre / rencontre / bouteille / packaging), il pilote le bloc PRODUCT — à ne pas confondre avec ACT (le geste, l'action).
@@ -64,6 +64,6 @@ Règles spécifiques à la production visuelle
 * Jamais de visage identifiable ni d'yeux visibles dans les prompts.
 * Ne jamais modifier `ledje-master-prompt.md` ou `ledje-visual-language.md` sans le signaler explicitement à Basekou et attendre confirmation. `ledje-prompt-library.md` (les options et leurs presets) n'a pas cette contrainte — c'est la couche destinée à évoluer vite avec l'usage (cf. boucle d'apprentissage à deux niveaux dans `ledje-asset-log.md`).
 Si la tâche ne rentre dans aucune des deux catégories ci-dessus
-Demande une clarification plutôt que de deviner — surtout si la tâche touche au positionnement, aux valeurs, ou à une décision déjà tranchée dans le SOT (Decisions Log, Partie 10).
+Demande une clarification plutôt que de deviner — surtout si la tâche touche au positionnement, aux valeurs, ou à une décision déjà tranchée (`docs/05_systeme/decisions-log.md`).
 Ce qu'on ne construit PAS (décision consciente, mise à jour)
 Pas d'outil web/app séparé pour la production visuelle — tout reste dans ces fichiers `.md`, compilés par Claude Code. La v1 excluait aussi un système d'options modulaire séparé (jugé surdimensionné pour 8-10 images) ; Basekou en a depuis demandé l'introduction pour pouvoir choisir/ajuster chaque paramètre de photo et capitaliser plus vite sur ce qui marche — voir `docs/visual/ledje-prompt-library.md`. Ce qui reste vrai : pas de dossier séparé par paramètre (`subjects/`, `actions/`, `decor/`... en fichiers distincts) — tout le catalogue d'options tient dans ce fichier unique, pour rester simple à parcourir et à maintenir.
