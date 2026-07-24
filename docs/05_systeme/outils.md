@@ -1,8 +1,8 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-07-13
-source: "SOT Partie 8 + §8.1 (archive 2026-07-24)"
+maj: 2026-07-21
+source: "SOT Partie 8 + §8.1 (archive 2026-07-24) + outillage conseil 2026-07-21 (page relais)"
 resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo."
 ---
 
@@ -20,6 +20,12 @@ resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, No
 | **Supabase / Vercel / OVH** | Back, hosting, domaine |
 
 Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se compile, se déploie ou tourne en tâche planifiée ; Notion pour le suivi opérationnel vivant (statuts, pipelines).**
+
+## Salle du conseil (2026-07-21)
+
+**Salle du conseil niveau B construite** : 5 appels API indépendants + Chairman, socle de contexte projet validé et intégré en dur. Le socle canonique est versionné dans le repo : [`council-context.md`](council-context.md) — **protégé** : toute mise à jour passe par Basekou, et **doit être répercutée dans l'artefact « Salle du conseil »**, sinon les deux divergent.
+
+**Règle outillage (2026-07-21)** : les outils partagés sont **intégrés tels quels** par défaut — pas de réécriture unilatérale par Claude.
 
 ## Documents stratégiques complémentaires — ⚠️ HORS REPO
 
