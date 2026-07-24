@@ -32,5 +32,8 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 - **Réglementaire** : vente de denrées alimentaires même artisanale = déclaration d'activité, hygiène (DDPP), étiquetage (ingrédients, DLC, mention nourrissons), et **stabilité microbiologique du mélange eau+miel non pasteurisé** (risque fermentation). Suivi : `demarches-admin.md` et `../02_produit/reglementaire-etiquetage.md`.
 - **Prix** : coût de revient artisanal ≠ industriel — ne pas ancrer la communauté sur un prix intenable, ni vendre à perte pour le volume (cf. `../02_produit/prix.md`).
 
-> ⚠️ Décalage de fraîcheur assumé (2026-07-24) : les décisions récentes de la semaine (dose de miel
-> figée, fabricant, voie HACCP) vivent dans la page relais Notion — passe de mise à jour séparée à venir.
+## Renvois (décisions de la semaine, consignées dans leurs fiches)
+
+- Recette/dose 33cl, étiquette, fabricant : `../02_produit/eau-miellee-33cl.md`
+- Voie HACCP (GBPH apicole) et CERFA : `demarches-admin.md`
+- Dimensionnement du marché adressable (KPI Francesco) : `../03_marche/marche-adressable.md`
