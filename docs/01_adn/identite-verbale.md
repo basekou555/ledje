@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: adn
-maj: 2026-07-13
-source: "SOT §2.1, 2.2, 2.3, 2.4 + §5.0 hero (archive 2026-07-24)"
-resume: "Nom, signature, accroches (⚠️ deux accroches concurrentes, à trancher avec la com), ton de voix, lexique."
+maj: 2026-07-24
+source: "SOT §2.1-2.4 (archive 2026-07-24) + décisions Com 2026-07-24 (accroche) et 2026-07-20 (mots du goût), via page relais"
+resume: "Nom, signature, accroche tranchée « De l'eau fraîche, du miel pur. » (sous-ligne « ummah » en réserve), ton de voix, lexique."
 ---
 
 # Identité verbale
@@ -24,14 +24,16 @@ resume: "Nom, signature, accroches (⚠️ deux accroches concurrentes, à tranc
 **« Parmi les bienfaits de ce bas monde »** + le nom Lédjé.
 Évoque le registre coranique par le ton, **sans citer de verset** (décision consciente : pas de parole sacrée sur un support commercial). Fraunces italique *(⚠️ typo en refonte — cf. `identite-visuelle.md` ; Fraunces reste sur les supports tant que la nouvelle typo n'est pas verrouillée)*.
 
-## Les accroches — ⚠️ À TRANCHER AVEC LA COM
+## L'accroche (tranchée le 2026-07-24, session Com)
 
-Deux accroches coexistent dans les décisions, sans arbitrage final (constat du 2026-07-24 — décision reportée côté com) :
+**Accroche retenue : « De l'eau fraîche, du miel pur. »**
+Raison : le renversement du pilier (10/07, confirmé 20/07) a fait passer la tradition en second rideau ; une accroche qui ouvre sur la tradition contredit la hiérarchie actée. La version retenue ouvre sur le produit fini, simple et concret, puis l'appartenance.
 
-1. **« Ce que la tradition nous a laissé de meilleur. »** — décision 2026-07-02, en remplacement de ~~« Le Prophète ﷺ buvait le miel mêlé à l'eau fraîche. »~~ (l'originale contredisait la règle « évocation, jamais proclamation » : nom + symbole religieux explicite sur support commercial).
-2. **« De l'eau fraîche, du miel pur. »** + sous-titre **« Le rappel d'un bienfait pour la ummah. »** — refonte site 2026-07-10 (⚠️ « bienfait » isolé = à revalider conformité avant mise en ligne, choix assumé par Basekou pour l'instant).
+**⚠️ Sous-ligne « Le rappel d'un bienfait pour la ummah. » : réserve ouverte (Basekou, à trancher avant déploiement)** — mot le plus marqué jamais mis en façade, défendable mais à peser consciemment. (« bienfait » isolé : à revalider conformité avant mise en ligne.)
 
-Tant que ce n'est pas tranché : ne déployer ni l'une ni l'autre sur un nouveau support sans validation de Basekou. La signature (« Parmi les bienfaits de ce bas monde ») n'est pas concernée — elle reste la signature.
+**Historique** : « Ce que la tradition nous a laissé de meilleur. » (2026-07-02) est **retirée** (décision Com 24/07) ; elle remplaçait elle-même ~~« Le Prophète ﷺ buvait le miel mêlé à l'eau fraîche. »~~ (contraire à la règle « évocation, jamais proclamation »).
+
+La signature (« Parmi les bienfaits de ce bas monde ») n'est pas concernée — elle reste la signature.
 
 ## Ton de voix
 
@@ -50,4 +52,5 @@ Chaleureux, fier, posé. On **élève**, on ne dénonce pas, on ne donne pas de 
 
 - On dit « être prévenu » / « la liste » — pas « s'abonner » (réservé au vrai produit).
 - La boisson sur le site : **« eau miellée »** (simple, direct, descriptif — c'est une *boisson*, pas un pot de miel).
+- **Mots du goût (2026-07-20)** : doux / frais / subtil — les trois fonctionnent pour Basekou ; **à tester** auprès de la cible (dégustation dosage + entretiens) avant de figer.
 - Le produit : **« cristal de miel »** — terminologie complète et termes bannis dans `../02_produit/cristal.md` et `conformite.md`.
