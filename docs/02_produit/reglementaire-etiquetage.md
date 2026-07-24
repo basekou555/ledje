@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-07-20
-source: "SOT §4.4 partie étiquetage (archive 2026-07-24)"
-resume: "Étiquetage INCO de la boisson pré-mélangée, mentions obligatoires, allègements possibles, tableau nutritionnel."
+maj: 2026-07-24
+source: "SOT §4.4 partie étiquetage (archive 2026-07-24) + contenu légal 33cl figé 2026-07-24 (page relais)"
+resume: "Étiquetage INCO de la boisson pré-mélangée, mentions obligatoires, allègements possibles ; contenu légal 33cl figé (détail : eau-miellee-33cl.md)."
 ---
 
 # Réglementaire produit — étiquetage
@@ -15,8 +15,9 @@ Boisson pré-mélangée = denrée préemballée → **étiquetage INCO** (dénom
 - Vigilance produit : **stabilité microbiologique du mélange eau+miel non pasteurisé** (risque fermentation) — à cadrer avant la première vente.
 - Étiquette (design) : l'ambre domine sur l'étiquette, le vert devient le sceau — cf. `../01_adn/identite-visuelle.md`.
 
-> ⚠️ Décalage de fraîcheur assumé (2026-07-24) : des précisions récentes vivent dans la page
-> relais Notion et pas encore ici — passe de mise à jour séparée à venir.
+## Étiquette 33cl artisanale (contenu légal figé côté COO, 2026-07-24)
+
+Le contenu légal de l'étiquette de la bouteille 33cl est figé — QUID « miel de fleurs de France (8 %) » en mention ferme, tableau nutritionnel de travail, mention fabricant : détail dans [`eau-miellee-33cl.md`](eau-miellee-33cl.md). Habillage provisoire pour le lot O'Daba ; aucune étiquette de série avant le logo v2 (`../01_adn/identite-visuelle.md`).
 
 ## Renvois
 
