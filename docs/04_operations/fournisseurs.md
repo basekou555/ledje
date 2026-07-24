@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-07-13
-source: "SOT Partie 7 (archive 2026-07-24) — mission sourcing exécutée 2026-07-04 ; Apior écarté (Basekou, 2026-07-24)"
-resume: "Sourcing industriel : apprentissages, shortlist tracks cristal/RTD, statut des contacts, prochaines étapes."
+maj: 2026-07-21
+source: "SOT Partie 7 (archive 2026-07-24) ; Apior écarté (Basekou, 24/07) ; critères cartographie 2026-07-21 (page relais)"
+resume: "Sourcing industriel : apprentissages (dont logique « 2 miels », sujet ouvert), shortlist tracks cristal/RTD, cartographie cristaux à lancer (le conditionneur pour Ramadan 2027 n'existe pas encore)."
 ---
 
 # Sourcing fournisseurs
@@ -15,6 +15,7 @@ resume: "Sourcing industriel : apprentissages, shortlist tracks cristal/RTD, sta
 - Objectif du sondage : **MOQ, prix de revient/unité, certifications (HACCP/IFS), délais** → ensuite calcul du prix de précommande viable + marge.
 - Contacter plusieurs fournisseurs par track ; s'attendre à des non-réponses et des emails invalides (taux élevé observé) ; ne pas négocier, sonder.
 - LA question de faisabilité à poser : tenue du cristal à >25-30 °C + vitesse de dissolution.
+- **⚠️ Sujet ouvert — logique « 2 miels » (pas une conclusion)** : un miel choisi pour un **goût qui tient une fois dilué** (destination bouteille — candidats : châtaigne, acacia, lavande) ; un autre pour son **comportement de cristallisation** (destination cristal — candidats : colza, tournesol). La **lavande** figure sur les deux listes, seule candidate à double usage. **Recherche approfondie à mener sur les types de miels et leurs caractéristiques.**
 
 ## Track 1 — Conditionneurs miel (PRIORITÉ, produit de lancement)
 
@@ -42,7 +43,16 @@ resume: "Sourcing industriel : apprentissages, shortlist tracks cristal/RTD, sta
 - **Mission Cowork exécutée (Shot 1)** : 9-10 fournisseurs contactés en mode brouillon Gmail (relu et envoyé par Basekou). **4 mails bien partis** (Melli Ouest, Naturalim, JDLO, Agilery), **5 rebonds** (GESTRA, Culture Miel, Antartic, Miellerie Chailan, Gourmet Provence — à relancer par téléphone/formulaire, coordonnées dans le suivi Notion).
 - **Suivi structuré dans Notion** : [Dashboard Sourcing Fournisseurs](https://app.notion.com/p/3904bc5926a88160ada5d4f51f59fc70) — base `Fournisseurs — Suivi` (statut, MOQ, prix/unité, certifs, délai).
 - **Shot 2** (à venir) : relever les réponses, remplir MOQ/prix/certifs/délais dans Notion → calcul du prix de vente viable + marge (cible ≤ 2 €/cristal).
-- Prochaines étapes : relancer les 5 rebonds par téléphone, contacter CELS Laboratoire, lancer la recherche Cowork conditionneurs de miel cristallisé/solide moulé.
+- Prochaines étapes : relancer les 5 rebonds par téléphone, contacter CELS Laboratoire, lancer la cartographie ci-dessous.
 
-> ⚠️ Décalage de fraîcheur assumé (2026-07-24) : ce tableau reflète l'état du SOT (04-13/07).
-> L'appel Melli Ouest et les avancées de la semaine vivent dans la page relais Notion — passe séparée à venir.
+## Cartographie large — conditionneurs de cristaux (critères précisés 2026-07-21)
+
+**Enjeu : le partenaire de conditionnement cristal pour Ramadan 2027 n'existe pas encore** (Melli Ouest = S2 2027 seulement, cf. [`fournisseur-melli-ouest.md`](fournisseur-melli-ouest.md)).
+
+Critères de recherche (précisés via l'appel Melli Ouest) :
+- Cristallisation par **ensemencement** ;
+- **Jamais chauffé > ~35 °C** ;
+- **Conditionnement en doses** possible ;
+- **Disponible avant fin 2026** pour les tests.
+
+Prompt Cowork « cartographie large » rédigé (lister tout, filtrer par téléphone ensuite). À suivre : script d'appel de vérification (à demander) ; recherche approfondie miels × caractéristiques.
