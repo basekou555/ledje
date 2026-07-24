@@ -15,8 +15,8 @@ production artisanale, démarches administratives et réglementaires, technique 
 
 | Fiche | Résumé | Statut |
 |---|---|---|
-| `production-artisanale.md` | Objectifs de la phase, KPIs Francesco, vigilances, cadre B2B2C | à créer — étape 4 |
-| `fournisseurs.md` | Apprentissages sourcing + tableau des pistes (tracks cristal / RTD) | à créer — étape 4 |
-| `fournisseur-melli-ouest.md` | Seul fournisseur actif : appel fait, échantillons à commander | à créer — étape 4 |
-| `demarches-admin.md` | DDPP/HACCP, déclaration d'activité, domaine OVH, INPI différé | à créer — étape 4 |
-| `site-technique.md` | Stack, Supabase (pièges voulus), piège Vercel, accessibilité, workflow git | à créer — étape 4 |
+| [`production-artisanale.md`](production-artisanale.md) | Objectifs de la phase, KPIs Francesco, vigilances, cadre B2B2C | en_cours |
+| [`fournisseurs.md`](fournisseurs.md) | Apprentissages sourcing + tableau des pistes (tracks cristal / RTD) | en_cours |
+| [`fournisseur-melli-ouest.md`](fournisseur-melli-ouest.md) | Seul fournisseur actif — état SOT : contacté, en attente (màj récente en page relais Notion) | en_cours |
+| [`demarches-admin.md`](demarches-admin.md) | DDPP/HACCP, déclaration d'activité, domaine OVH, INPI différé | bloquant |
+| [`site-technique.md`](site-technique.md) | Stack, Supabase (pièges voulus), piège Vercel, accessibilité, workflow git | figé |
