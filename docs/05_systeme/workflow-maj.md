@@ -2,7 +2,7 @@
 statut: figé
 domaine: systeme
 maj: 2026-07-24
-source: "Validé par Basekou en session 2026-07-24 — remplace la Partie 9 (@update) du SOT archivé"
+source: "Validé par Basekou en session 2026-07-24 (+ compléments même jour : garde-fous métier, council-context protégé) — remplace la Partie 9 (@update) du SOT archivé"
 resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, rituels de session (page relais Notion, resynchro Project Knowledge), tri de l'inbox."
 ---
 
@@ -17,7 +17,7 @@ resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, ritu
 
 ## 2. Protégé / libre (qui a le droit de modifier quoi)
 
-- **Protégé** — modification uniquement sur demande explicite de Basekou (déclencheur `@update` ou demande équivalente), jamais suggérée spontanément : tout `01_adn/`, `visual/ledje-master-prompt.md`, `visual/ledje-visual-language.md`, et cette fiche. `decisions-log.md` est **append-only** (on ajoute une ligne, on ne réécrit jamais l'historique).
+- **Protégé** — modification uniquement sur demande explicite de Basekou (déclencheur `@update` ou demande équivalente), jamais suggérée spontanément : tout `01_adn/`, `visual/ledje-master-prompt.md`, `visual/ledje-visual-language.md`, `council-context.md` (avec répercussion obligatoire dans l'artefact « Salle du conseil »), et cette fiche. `decisions-log.md` est **append-only** (on ajoute une ligne, on ne réécrit jamais l'historique).
 - **Libre** — l'IA met à jour au fil du travail, en le signalant dans son rapport : `00_inbox/`, fiches `03_marche/` et `04_operations/` (statuts, suivis, dates), `backlog.md`, index/README, `visual/ledje-prompt-library.md`, `visual/ledje-asset-log.md`, templates.
 - **Intermédiaire** — `02_produit/` : modification proposée dans la réponse, appliquée après OK de Basekou (une spec produit engage le sourcing et la conformité).
 
@@ -37,6 +37,7 @@ resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, ritu
 
 ## 4. Règles critiques (invariantes)
 
+- **Garde-fous métier** : tout texte sortant (script, légende, page, étiquette, kit de vente, mail partenaire) passe la grille de `../01_adn/conformite.md` — aucune allégation santé explicite ou implicite, évocation jamais proclamation, terminologie verrouillée (« cristal de miel » / « eau miellée » ; perle, portion, monodose, pastille, bonbon, « ancestral » bannis). Étape fixe.
 - Modifications chirurgicales uniquement — jamais réécrire une fiche entière.
 - Zéro invention : un trou reste balisé « à compléter ».
 - Contradiction repérée = signalée à Basekou, jamais tranchée seul.
