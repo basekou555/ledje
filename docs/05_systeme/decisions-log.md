@@ -62,3 +62,4 @@ L'état courant vit dans les fiches ; ce log explique comment on y est arrivé.
 | 2026-07-24 | **Étiquette 33cl : contenu légal figé côté COO** ; habillage provisoire assumé pour le lot O'Daba ; règle générale : **aucune étiquette de série imprimée avant le logo v2**. |
 | 2026-07-24 | **Volet com du canal mosquée** (flyer/affiche fidèle donateur) : ne s'ouvre qu'après l'étiquette et le branding. |
 | 2026-07-24 | **Grilles de prix clarifiées par canal** : plancher 1,50 € et concessions = B2B restaurateurs uniquement (seul canal négocié) ; barème 2,50 €/2 € applicable au C2B2C **sans négociation** ; B2C plafond 2,50 €. |
+| 2026-07-26 | **@update sur les 2 fichiers verrouillés de `visual/`** : les renvois vers `LEDJE_SOURCE_OF_TRUTH.md` (archivé le 24/07) pointent désormais vers `docs/01_adn/identite-visuelle.md` (design system) et `docs/README.md` (carte). Aucune règle artistique modifiée. |

@@ -1,6 +1,6 @@
 Lédjé — Master Prompt
 Le socle canonique. Chaque prompt de shot = ce document + le delta spécifique du shot (voir shot-book.md). Sections alignées avec l'ordre de compilation défini dans visual-language.md.
-Source : dérivé de `LEDJE_SOURCE_OF_TRUTH.md` (Partie 3, Design System) et `ledje-visual-language.md`. Si le Design System change, ce fichier doit être resynchronisé.
+Source : dérivé de `docs/01_adn/identite-visuelle.md` (le design system — carte d'entrée : `docs/README.md`) et `ledje-visual-language.md`. Si le design system change, ce fichier doit être resynchronisé.
 Global Identity
 Photographie éditoriale contemporaine, sobre et digne — jamais froide, jamais ostentatoire. Registre : sobriété vivante, pas minimalisme froid.
 Descripteurs autorisés pour guider le modèle : "editorial product photography", "contemporary premium lifestyle campaign" (qualité photographique, pas positionnement de marque). 🧪 À tester, pas encore tranché : l'interdiction stricte de tout vocabulaire "luxe" reste la règle par défaut ("on n'est pas une marque de luxe"). La nuance ci-dessus (descripteurs techniques neutres autorisés, clichés "quiet luxury"/"old money"/"ultra luxury" toujours bannis) est une hypothèse à tester sur quelques générations avant d'être verrouillée — cf. Evolution Policy. Logger le résultat dans `asset-log.md`.
