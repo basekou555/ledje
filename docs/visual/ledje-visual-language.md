@@ -1,6 +1,6 @@
 # Lédjé — Visual Language (constitution visuelle)
 
-*Document de référence pour toute génération d'image ou de vidéo. Toute session (Claude, ChatGPT, Higgsfield) doit s'y conformer. Complète le Design System (`LEDJE_SOURCE_OF_TRUTH.md` Partie 3) sans le remplacer — en cas de contradiction sur la couleur/typo, le SOT gagne.*
+*Document de référence pour toute génération d'image ou de vidéo. Toute session (Claude, ChatGPT, Higgsfield) doit s'y conformer. Complète le design system (`docs/01_adn/identite-visuelle.md` — carte d'entrée : `docs/README.md`) sans le remplacer — en cas de contradiction sur la couleur/typo, la fiche gagne.*
 
 ---
 
