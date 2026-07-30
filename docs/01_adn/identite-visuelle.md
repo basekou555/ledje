@@ -1,20 +1,20 @@
 ---
 statut: bloquant
 domaine: adn
-maj: 2026-07-24
-source: "SOT Partie 3 (archive 2026-07-24) — refonte amorcée 2026-07-10 (Inès) ; chemin critique + typo dédoublée 2026-07-24 (page relais)"
-resume: "Palette émeraude+or (figée) ; logo v2 = chemin critique (bloque l'étiquette O'Daba) ; typo dédoublée système/wordmark ; chantier moodboards en cours."
+maj: 2026-07-30
+source: "SOT Partie 3 (archive 2026-07-24) ; retours Inès 2026-07-10 ; réalignement relevé COO 2026-07-28 (MMD 3)"
+resume: "Palette ROUVERTE (seul l'émeraude tient) ; pas de designer sur le projet (Inès = aidante-conseil) ; wordmark Basekou = seul élément d'identité ; identité à trancher par Basekou."
 ---
 
 # Identité visuelle (design system)
 
-> **⚠️ REFONTE EN COURS (retours designeuse Inès, 2026-07-10).** L'identité visuelle actuelle (typo élégante à empattements + symbole alvéole) est **en cours de retravail**, jugée trop élégante/fine/féminine — elle lit « cosmétique / gel douche », pas « boisson » (test d'Inès : *« si tu me dis pas ce que c'est, je dis que c'est un gel douche »*). **Ce qui est validé et conservé : la palette émeraude + or/doré** (cohérente avec la cible, « les deux matchent »). **Ce qui est à refaire : le logo (plus gros, plus impactant), la typo (sans-serif affirmée, pas serif fine), et l'usage de l'alvéole** (tire vers le médical/cosmétique). Direction : miel **gourmand** (goutte, reflets, brillance) + eau (transparence), plus d'impact, codes des boissons. Tant que la refonte n'est pas aboutie, les choix typo/logo/symbole ci-dessous sont **provisoires**. Chantier détaillé dans la page Com & Branding (benchmark → 2 moodboards → logo v2 → typo sans-serif → charte couleur disciplinée).
+> **⚠️ REFONTE EN COURS (retours d'Inès, aidante-conseil, 2026-07-10).** L'identité visuelle actuelle (typo élégante à empattements + symbole alvéole) est **en cours de retravail**, jugée trop élégante/fine/féminine — elle lit « cosmétique / gel douche », pas « boisson » (test d'Inès : *« si tu me dis pas ce que c'est, je dis que c'est un gel douche »*). **⚠️ Palette ROUVERTE (2026-07-28) : seul l'émeraude tient ; l'or et les autres couleurs sont remis en question.** (État antérieur — « palette émeraude + or conservée » — caduc.) **Ce qui est à refaire : le logo (plus gros, plus impactant), la typo (sans-serif affirmée, pas serif fine), et l'usage de l'alvéole** (tire vers le médical/cosmétique). Direction : miel **gourmand** (goutte, reflets, brillance) + eau (transparence), plus d'impact, codes des boissons. Tant que la refonte n'est pas aboutie, les choix typo/logo/symbole ci-dessous sont **provisoires**. *(Séquence antérieure « benchmark → 2 moodboards → logo v2 → typo sans-serif → charte couleur » : caduque depuis le 2026-07-28 — voir « Statut designer » en bas de fiche.)*
 
 ## Principe
 
 L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« encore une marque de miel ») mais le **vert émeraude** — le sens, la tradition, la noblesse, par évocation. L'or = le précieux (contraste enluminure/manuscrit ancien). L'ambre = le produit et l'appétence. **Le contraste franc est la signature ; pas de douceur tiède.** La matière compte autant que la couleur (velours mat + dorure brillante).
 
-## Palette (tokens) — CONSERVÉE
+## Palette (tokens) — ⚠️ ROUVERTE (2026-07-28 : seul l'émeraude tient, le reste est remis en question ; tokens ci-dessous = état de travail)
 
 | Rôle | Nom | Hex |
 |---|---|---|
@@ -42,21 +42,21 @@ L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« enco
 
 *(Historique — direction provisoire antérieure, à ne plus considérer comme validée : Fraunces titres/nom/tagline + Inter courant. Fraunces apparaît encore sur le site et dans la spec bouteille tant que la nouvelle typo n'est pas verrouillée.)*
 
-### ⚠️ Chemin critique (2026-07-24) : le logo v2 bloque l'étiquette
+### ⚠️ Chemin critique (2026-07-24, corrigé le 2026-07-28) : l'habillage de l'étiquette attend l'identité
 
-Seul élément com sur le chemin critique : le contenu légal de l'étiquette 33cl est figé côté COO (cf. `../02_produit/eau-miellee-33cl.md`), il ne manque que l'habillage. **Décision actée : aucune étiquette de série imprimée tant que l'identité en refonte n'est pas livrée** (sinon stock mort) ; un **habillage provisoire est retenu pour le lot O'Daba** (« fait avec ce qu'on a pu »). Séquence : logo v2 → habillage étiquette → commande.
+Seul élément com sur le chemin critique : le contenu légal de l'étiquette 33cl est figé côté COO (cf. `../02_produit/eau-miellee-33cl.md`), il ne manque que l'habillage. **Décision actée : aucune étiquette de série imprimée tant que l'identité en refonte n'est pas livrée** (sinon stock mort) ; un **habillage provisoire est retenu pour le lot O'Daba** (« fait avec ce qu'on a pu »). Séquence (corrigée 2026-07-28) : identité tranchée par Basekou lui-même — aucun designer ne travaille sur le projet, il n'y a pas de chantier « logo v2 » → habillage étiquette → commande.
 
 ### La question typo se dédouble (2026-07-24)
 
-- **(a) Typo système** (titres, texte) : arbitrage **Zodiak Black** (héritage, serif robuste) vs **Bricolage Bold** (contemporain, grotesque à caractère) — maquette comparative faite. Cadrage à porter à Inès : « le problème était la finesse, pas les empattements ».
+- **(a) Typo système** (titres, texte) : arbitrage **Zodiak Black** (héritage, serif robuste) vs **Bricolage Bold** (contemporain, grotesque à caractère) — maquette comparative faite. Cadrage retenu : « le problème était la finesse, pas les empattements » — arbitrage à trancher par Basekou (2026-07-28).
 - **(b) Wordmark** : ces polices jugées trop génériques/vues (Basekou) — l'authenticité ne viendra pas d'un choix de police mais d'une **personnalisation**. Pistes ouvertes : les deux « é » comme signature (accents = gouttes miel/eau), révéler la césure lé|djé (le nom porte le produit), une lettre qui porte le concept.
 - Une fois la typo verrouillée : **harmoniser les 3 specs Fraunces restantes** (signature, étiquette bouteille, master prompt visuel).
 
 ## Le symbole : l'alvéole — ⚠️ À RECONSIDÉRER
 
-Hexagone contour or fin + **une cellule pleine au centre** — le cercle, l'harmonie, le point de rassemblement, la **communauté**. Rejetés : abeille et pot de miel (génériques, décrivent le produit et non la valeur). Piste à travailler (avec la designeuse) : cellules **jointes par l'or**, façon kintsugi. Usage : récurrent mais **discret** (header, sceaux, puces, trame de fond, favicon).
+Hexagone contour or fin + **une cellule pleine au centre** — le cercle, l'harmonie, le point de rassemblement, la **communauté**. Rejetés : abeille et pot de miel (génériques, décrivent le produit et non la valeur). Piste à travailler : cellules **jointes par l'or**, façon kintsugi. Usage : récurrent mais **discret** (header, sceaux, puces, trame de fond, favicon).
 
-**⚠️ ALERTE Inès (2026-07-10) :** l'alvéole/hexagone **tire vers le registre médical/cosmétique** (« les alvéoles sur une marque de cosmétique, ça rappelle le côté médical ») — exactement ce qu'on veut fuir. **À reconsidérer.** Direction alternative proposée : décortiquer le symbole du miel pour n'en garder qu'un élément réinterprété, et explorer le **miel gourmand** (la goutte qui tombe, les reflets, la brillance) mixé à l'**eau** (transparence, reflets) plutôt qu'un motif géométrique abstrait. Décision reportée au chantier logo v2.
+**⚠️ ALERTE Inès (2026-07-10) :** l'alvéole/hexagone **tire vers le registre médical/cosmétique** (« les alvéoles sur une marque de cosmétique, ça rappelle le côté médical ») — exactement ce qu'on veut fuir. **À reconsidérer.** Direction alternative proposée : décortiquer le symbole du miel pour n'en garder qu'un élément réinterprété, et explorer le **miel gourmand** (la goutte qui tombe, les reflets, la brillance) mixé à l'**eau** (transparence, reflets) plutôt qu'un motif géométrique abstrait. Décision à trancher par Basekou avec le reste de l'identité (2026-07-28).
 
 ## Les deux mondes produit (sous l'écrin vert)
 
@@ -66,11 +66,11 @@ Le vert = signature constante de marque. Chaque produit garde son monde ambre :
 
 ## Chantier moodboards (état 2026-07-20)
 
-Brief moodboards corrigé (minéral rétrogradé, blocs réécrits) ; planche B recentrée (épiceries/supermarchés/fast food/iftar) ; premier jet planche A revu (91 épingles Pinterest) : forts sur mélange/encres et précieux sombre. Critères de tri actés : concurrents isolés en section technique ; eau « donne soif » garde / « promet un bénéfice » sort ; déficit émeraude → requêtes matière + génération possible. **Prochaine étape : tri V1 (91 → 12-15 images) par Basekou → revue → planches B/C/X → Inès.**
+Brief moodboards corrigé (minéral rétrogradé, blocs réécrits) ; planche B recentrée (épiceries/supermarchés/fast food/iftar) ; premier jet planche A revu (91 épingles Pinterest) : forts sur mélange/encres et précieux sombre. Critères de tri actés : concurrents isolés en section technique ; eau « donne soif » garde / « promet un bénéfice » sort ; déficit émeraude → requêtes matière + génération possible. **Statut 2026-07-28 : chantier déprioritisé** — valeur opérationnelle jugée faible par Basekou (« ça ne me permet pas de faire des posts »), et il n'y a pas de destinataire designer pour les planches. Reste disponible comme matière : tri V1 (91 → 12-15 images) si le chantier est rouvert.
 
-## Statut designer
+## Statut designer — ⚠️ CORRIGÉ 2026-07-28
 
-**Brief designeuse envoyé/prêt** : `../ledje-brief-designer.md` — distingue convictions verrouillées (principe fondateur, évocation/proclamation, direction émeraude+or, signature) de l'espace créatif ouvert (logo/alvéole final, typo finale, affinage palette, art direction, applications). **⚠️ Règle : toute modification de cette fiche → vérifier la cohérence avec le brief designeuse et la relancer si besoin.** Travail définitif logo/symbole : attendre son retour pour éviter les allers-retours.
+**Il n'y a pas de designer sur le projet.** Inès conseille à titre d'aidante (retours du 10/07 toujours valides comme diagnostic), mais elle ne produit rien et aucun livrable n'est attendu d'elle. Le seul élément d'identité existant est le **wordmark réalisé par Basekou**. L'identité (typo, personnalisation du wordmark, palette) est **à trancher par Basekou lui-même**. Le document `../ledje-brief-designer.md` reste comme matière, mais n'a plus de destinataire. La valeur opérationnelle du chantier moodboards est jugée faible par Basekou (28/07 : « ça ne me permet pas de faire des posts »).
 
 ## Renvois
 
