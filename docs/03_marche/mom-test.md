@@ -8,7 +8,7 @@ resume: "Campagne v1 close (8 entretiens, H1/H2 validées, H3 fragile) ; campagn
 
 # Recherche utilisateur — Mom Test
 
-**Statut au 2026-07-29 : campagne Mom Test v1 CLOSE — 8 entretiens réalisés.** Acquis documentés : H1 et H2 validées, boycott acquis, H3 fragile. **Campagne v2 ACTIVE : « Test CEP & actifs distinctifs »** — cartographier les Category Entry Points (inventaire de la veille, moments miel/Ramadan/mosquée — angle mort : zéro donnée en 8 entretiens —, cadeau-boisson) et tester les actifs seuls (3 cartes muettes AVANT pitch : duel des 2 verts + goutte seule ; wordmark + bouteille APRÈS pitch). Carte CEP v0 : boisson chaude au miel (4/8), boissons traditionnelles maison (4/8), table du Ramadan (1/8) ; **CEP « miel-remède » = INTERDIT (santé)**.
+**Statut au 2026-07-29 : campagne Mom Test v1 CLOSE — 8 entretiens réalisés.** Acquis documentés : H1 et H2 validées, boycott acquis, H3 fragile. **Campagne v2 ACTIVE : « Test CEP & actifs distinctifs »** — cartographier les Category Entry Points (inventaire de la veille, moments miel/Ramadan/mosquée — angle mort : zéro donnée en 8 entretiens —, cadeau-boisson) et tester les actifs seuls (3 cartes muettes AVANT pitch : duel des 2 verts + goutte seule ; wordmark + bouteille APRÈS pitch). Carte CEP v0 : boisson chaude au miel (4/8), boissons traditionnelles maison (4/8), table du Ramadan (1/8) ; **CEP « miel-remède » : exploration AUTORISÉE en entretien/test, INTERDITE en communication** (allégation santé — précision Basekou, 2026-07-30). On peut donc sonder ce CEP auprès de la cible ; on ne peut jamais l'exploiter dans un support.
 
 ## Infrastructure (Notion)
 
