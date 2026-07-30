@@ -1,8 +1,8 @@
 ---
 statut: en_cours
 domaine: adn
-maj: 2026-07-20
-source: "SOT §1.6 + Partie 6bis (archive 2026-07-24) — gardienne/offreur rétrogradés en hypothèses le 2026-07-20 (page relais)"
+maj: 2026-07-28
+source: "SOT §1.6 + Partie 6bis (archive 2026-07-24) ; gardienne/offreur → hypothèses 2026-07-20 ; cible active actée 2026-07-28 (MMD 3)"
 resume: "Le pratiquant (persona de conception, figé) + ses extensions gardienne/offreur (⚠️ hypothèses à confirmer depuis le 20/07), et la grille de contenu par cible."
 ---
 
@@ -14,7 +14,7 @@ resume: "Le pratiquant (persona de conception, figé) + ses extensions gardienne
 
 **⚠️ Statut révisé (2026-07-20) :** la gardienne et l'offreur sont rétrogradés en **hypothèses à confirmer** — « les Mom Tests disent autre chose » (Basekou). Leur activation phase 2 n'est plus un acquis ; à confronter au terrain. Le pratiquant reste le persona de conception, figé.
 
-1. **Le pratiquant** — vit le rituel personnellement. **Persona de conception et de test n°1.** 18-35 ans, jeune actif à jeune parent, vit en grande ville, achète halal en grande distribution et épiceries de quartier, va à la mosquée le vendredi ou plus, **en démarche active d'approfondissement** (médecine prophétique, apprentissage religieux) — pas une pratique héritée figée. Produit d'entrée : **pack découverte** (achat simple, sans engagement) — PAS l'abonnement, qui ne correspond pas à son mode d'achat.
+1. **Le pratiquant** — vit le rituel personnellement. **Persona de conception et de test n°1.** 18-35 ans, jeune actif à jeune parent, vit en grande ville, achète halal en grande distribution et épiceries de quartier, va à la mosquée le vendredi ou plus, **en démarche active d'approfondissement** (médecine prophétique, apprentissage religieux) — pas une pratique héritée figée. **Précision actée (2026-07-28)** : le cœur de cible est le musulman **actif dans sa pratique** — celui qui « fait par obligation, n'est pas conscient des règles » ne se sentira pas concerné par la marque. Corollaire : cette cible décode des **codes subtils** (boire de la main droite, vêtement, gestes) — les codes indirects fonctionnent. Produit d'entrée : **pack découverte** (achat simple, sans engagement) — PAS l'abonnement, qui ne correspond pas à son mode d'achat.
    - **Parcours de décision :** (1) est-ce bon pour ma santé ? → répondre par la preuve produit (pureté, traçabilité), jamais par une allégation. (2) le goût → faible frein, le miel est déjà apprécié. (3) les valeurs de la marque, est-ce qu'elle "fait des dingueries" (repoussoir cité : Coca et ses financements contestés) → la transparence sur qui est derrière la marque et ce qu'elle soutient doit être visible, pas juste esthétique.
 2. **La gardienne du foyer** (souvent mère/épouse) — gère le réapprovisionnement du foyer. Cible naturelle de l'**abonnement classique** (structurellement plus abonnable que le pratiquant). Activation phase 2.
 3. **L'offreur** — achète pour offrir, pics Aïd/Ramadan. Cible du **coffret découverte** (étage 2) et piste nouvelle : un **abonnement calé sur le calendrier religieux** (envoi automatique programmé pour Ramadan, Aïd al-Fitr, Aïd al-Adha) — différent d'un abonnement de consommation, c'est un abonnement de fidélité aux moments qui comptent ("ne jamais rater l'occasion d'offrir"). Activation phase 2.
