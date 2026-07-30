@@ -1,18 +1,18 @@
 ---
 statut: hypothèse
 domaine: marche
-maj: 2026-07-13
-source: "SOT §8.2 (archive 2026-07-24) — statut au 2026-07-07 : 6 entretiens / ~20 visés"
-resume: "Recherche utilisateur : hypothèses H1/H2/H3, pattern Branche C validé, signaux récurrents, réserves méthodo, infrastructure Notion."
+maj: 2026-07-30
+source: "SOT §8.2 (archive 2026-07-24) ; campagne v1 close et v2 ouverte le 2026-07-29 (session Com)"
+resume: "Campagne v1 close (8 entretiens, H1/H2 validées, H3 fragile) ; campagne v2 active « Test CEP & actifs distinctifs » ; signaux récurrents et réserves méthodo."
 ---
 
 # Recherche utilisateur — Mom Test
 
-**Statut au 2026-07-07 : 6 entretiens / ~20 visés.**
+**Statut au 2026-07-29 : campagne Mom Test v1 CLOSE — 8 entretiens réalisés.** Acquis documentés : H1 et H2 validées, boycott acquis, H3 fragile. **Campagne v2 ACTIVE : « Test CEP & actifs distinctifs »** — cartographier les Category Entry Points (inventaire de la veille, moments miel/Ramadan/mosquée — angle mort : zéro donnée en 8 entretiens —, cadeau-boisson) et tester les actifs seuls (3 cartes muettes AVANT pitch : duel des 2 verts + goutte seule ; wordmark + bouteille APRÈS pitch). Carte CEP v0 : boisson chaude au miel (4/8), boissons traditionnelles maison (4/8), table du Ramadan (1/8) ; **CEP « miel-remède » = INTERDIT (santé)**.
 
 ## Infrastructure (Notion)
 
-[Dashboard Mom Test](https://app.notion.com/p/3944bc5926a881709945c2c4cc545f54) — base Candidats & Verbatims (verdicts H1/H2/H3 + nouvelles colonnes : mode de consommation, gardienne détectée, H3 comportemental pré-pitch, test rayon/canal, sonde prix, achat alimentaire en ligne), script d'appel calibré (25 min, questions ciblées BOISSON), et **3 argumentaires de vente écrits** (A Boisson+Cristal / B Foyer / C Cadeau — structure verrouillage → agitation → bénéfices → trial close → close prévente, avec réponses aux objections connues). **Prévente Stripe active : 5 € (Payment Link `buy.stripe.com/3cIcN4gH19JhcIVb28gQE01`) — proposée UNIQUEMENT sur signaux d'achat forts.**
+[Lédjé — Customer](https://app.notion.com/p/3944bc5926a881709945c2c4cc545f54) (ex-Dashboard Mom Test, restructuré le 2026-07-29 : sous-page « Mom Test v1 » = campagne close archivée avec script + pitchs ; sous-page « Test CEP & actifs — script v2 » = campagne active) — base Candidats & Verbatims (verdicts H1/H2/H3 + nouvelles colonnes : mode de consommation, gardienne détectée, H3 comportemental pré-pitch, test rayon/canal, sonde prix, achat alimentaire en ligne), script d'appel calibré (25 min, questions ciblées BOISSON), et **3 argumentaires de vente écrits** (A Boisson+Cristal / B Foyer / C Cadeau — structure verrouillage → agitation → bénéfices → trial close → close prévente, avec réponses aux objections connues). **Prévente Stripe active : 5 € (Payment Link `buy.stripe.com/3cIcN4gH19JhcIVb28gQE01`) — proposée UNIQUEMENT sur signaux d'achat forts.**
 
 ## Pattern établi (le résultat le plus important)
 
