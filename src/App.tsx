@@ -13,7 +13,8 @@ const FREQUENCY_OPTIONS = [
 const ATTRACTION_OPTIONS = [
   'La tradition musulmane',
   'Le goût de la boisson',
-  "L'accessibilité",
+  'Disponible partout',
+  'Le prix',
   'Une marque qui partage mes valeurs',
   'La composition simple et pure',
 ]
