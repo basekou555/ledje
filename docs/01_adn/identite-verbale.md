@@ -52,5 +52,6 @@ Chaleureux, fier, posé. On **élève**, on ne dénonce pas, on ne donne pas de 
 
 - On dit « être prévenu » / « la liste » — pas « s'abonner » (réservé au vrai produit).
 - La boisson sur le site : **« eau miellée »** (simple, direct, descriptif — c'est une *boisson*, pas un pot de miel).
+- **« Accessible » (tranché le 2026-07-30)** : **interdit comme revendication de prix** — à 2,50 € le 33 cl, l'affirmer est faux et se retourne contre la marque (désaccord Valentin, MMD 2 du 24/07). **Autorisé au sens de la disponibilité géographique et de la trajectoire** : « rendre le produit le plus accessible possible ». Le prix baisse quand le coût de fabrication baisse — **jamais communiqué** (cf. `../02_produit/prix.md`, piège coût de revient).
 - **Mots du goût (2026-07-20)** : doux / frais / subtil — les trois fonctionnent pour Basekou ; **à tester** auprès de la cible (dégustation dosage + entretiens) avant de figer.
 - Le produit : **« cristal de miel »** — terminologie complète et termes bannis dans `../02_produit/cristal.md` et `conformite.md`.
