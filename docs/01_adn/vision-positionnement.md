@@ -1,9 +1,9 @@
 ---
 statut: figé
 domaine: adn
-maj: 2026-07-20
-source: "SOT §1.1, 1.2, 1.3, 1.5 (archive 2026-07-24) + valeurs validées 2026-07-20 (page relais)"
-resume: "C'est quoi Lédjé, le positionnement Branche C verrouillé, les valeurs (transmission · cohérence · le vrai), la hiérarchie de marque, les moments du rituel."
+maj: 2026-07-31
+source: "SOT §1.1, 1.2, 1.3, 1.5 (archive 2026-07-24) ; valeurs 2026-07-20 ; positionnement affiné verrouillé 2026-07-30 (session Com), hiérarchie de marque remplacée sur décision Basekou 2026-07-31"
+resume: "C'est quoi Lédjé, Branche C, valeurs, positionnement affiné (catégorie eau aromatisée, ambition nomade, mission) et hiérarchie des motivations fraîcheur>plaisir>compromis>tradition>appartenance."
 ---
 
 # Vision & positionnement
@@ -22,11 +22,37 @@ resume: "C'est quoi Lédjé, le positionnement Branche C verrouillé, les valeur
 
 **Le job du produit :** « vivre un geste de ma tradition, au quotidien, sans le cacher et sans me contenter du cheap. » Job identitaire, pas « hydratation + santé perçue ». Achat émotionnel, prime de prix acceptée, réachat porté par l'identité.
 
+## Positionnement affiné — verrouillé le 2026-07-30 (session Com)
+
+- **Catégorie de référence : l'EAU AROMATISÉE.** Double implantation visée : entrée du magasin OU rayon halal. Concurrents réels : eaux aromatisées, thés glacés, boissons fruitées, sodas.
+- **Frustration fondatrice** (verbatims Basekou) : « toujours choisir la moins mauvaise option », « des boissons qui essaient de me piéger », « réconcilier plaisir et cohérence ».
+- **Pratiquant-first maintenu** — universalisation explicitement rejetée (« ce n'est pas mes mots »).
+- **Ambition NOMADE actée** (décision d'offre) : chez soi, on fait son eau miellée soi-même — la valeur de Lédjé = la version prête, dehors. Concurrent n°1 à domicile = le fait-maison. Le nomade est un principe transversal (format, packaging, distribution, prix, com).
+- **Mission : « Préserver l'essence, adapter la forme. »**
+- ⚠️ Réserve méthodo consignée : les moments extérieurs (nomade) restent à documenter côté demande (campagne v2, inventaire de la veille).
+
+### La hiérarchie des motivations (remplace la hiérarchie de marque)
+
+**Fraîcheur > plaisir > absence de compromis > tradition > appartenance**, déclinée en parcours à 3 étages :
+
+1. **Achat** — fraîcheur, plaisir.
+2. **Rachat** — confiance : « cette marque me respecte ».
+3. **Fidélité** — tradition, appartenance.
+
+**Cette hiérarchie remplace la hiérarchie de marque (rituel / soin / dignité), conservée plus bas pour l'histoire** *(décision Basekou, 2026-07-31)*. La tradition n'arrive jamais en accroche d'achat : elle se gagne en fidélité.
+
 ## Valeurs (validées le 2026-07-20)
 
 **Transmission · cohérence · le vrai** — ordre et mots actés par Basekou, cascade adossée aux verbatims. La déclinaison complète (« cascade ») vit dans les Fondations com (hors repo) : à compléter ici lors d'un prochain import.
 
-## La hiérarchie de marque (à ne jamais inverser)
+## La hiérarchie de marque — ⚠️ REMPLACÉE le 2026-07-30 (conservée pour l'histoire)
+
+> Remplacée par la **hiérarchie des motivations** ci-dessus (décision Basekou, 2026-07-31). Ne plus s'en servir comme grille de priorisation.
+>
+> **Trois règles issues de cette section restent en vigueur** et sont reprises telles quelles :
+> 1. **Le geste n'est jamais l'argument d'entrée** — couleur différenciante en second rideau, jamais l'accroche. Le produit vendu est une boisson finie, pas un kit à préparer. *(Règle citée par `../03_marche/site-precommande.md`.)*
+> 2. **Jamais cheap** — la dignité/beauté justifie la prime de prix.
+> 3. **La « protection » reste tournée vers l'intérieur** — prendre soin des siens, jamais une posture de combat sanitaire.
 
 1. **Le rituel / le geste** *(différenciant, PAS l'argument d'entrée — décision 2026-07-10)* — le mélange/la préparation n'est **pas** un argument de vente (« les gens n'achètent pas parce qu'ils doivent mélanger une boisson »). C'est une **couleur différenciante** à exploiter en second rideau (intéressant parce que singulier), jamais l'accroche. Le produit vendu = **une eau miellée, boisson finie prête à boire** — pas un kit à préparer. Reste un moteur de réachat et de contenu, mais on n'ouvre jamais dessus.
 2. **Le soin, la pureté, l'origine locale** *(soutient)* — confiance, ticket d'entrée. La "protection" reste tournée vers l'intérieur (prendre soin des siens en leur offrant quelque chose de vrai et digne).
