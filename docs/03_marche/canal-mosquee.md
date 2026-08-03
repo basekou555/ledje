@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-07-24
+maj: 2026-07-31
 source: "SOT §1.4bis pt 3 (archive 2026-07-24) — bascule C2B2C 2026-07-21, volet com 2026-07-24 (page relais + arbitrage Basekou)"
 resume: "Canal mosquée basculé en C2B2C (don sponsorisé : un fidèle offre un lot à sa mosquée) ; barème sans négociation ; volet com après étiquette + branding."
 ---
@@ -43,7 +43,8 @@ Identifier les volumes de consommation par mosquée → construire la courbe jus
 ## Statut & prochaine étape
 
 - **Où on en est** : modèle C2B2C validé (21/07), à re-tester auprès d'autres mosquées. Premiers contacts à identifier (piste de l'entretien Mom Test 4 : fête d'école islamique, Cheikh Zakaria Ivry, président culturel).
-- **Prochaines actions** : construire le modèle C2B2C opérationnel — argumentaire fidèle donateur, mécanique de commande/paiement (Stripe), « oui d'autorisation » mosquée ; re-tester auprès d'autres mosquées. Volet com : après étiquette + branding.
+- **⚠️ Priorité (2026-07-31) : canal en attente volontaire.** Basekou concentre l'effort sur **le canal restaurant d'abord** ; la mosquée sera reprise une fois que les restaurants auront avancé. Ce n'est pas un abandon, c'est un ordre de passage.
+- **Prochaines actions (quand le canal sera repris)** : construire le modèle C2B2C opérationnel — argumentaire fidèle donateur, mécanique de commande/paiement (Stripe), « oui d'autorisation » mosquée ; re-tester auprès d'autres mosquées. Volet com : après étiquette + branding.
 
 ## Contacts
 

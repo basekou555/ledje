@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-07-21
+maj: 2026-07-31
 source: "SOT Partie 7 (archive 2026-07-24) ; Apior écarté (Basekou, 24/07) ; critères cartographie 2026-07-21 (page relais)"
 resume: "Sourcing industriel : apprentissages (dont logique « 2 miels », sujet ouvert), shortlist tracks cristal/RTD, cartographie cristaux à lancer (le conditionneur pour Ramadan 2027 n'existe pas encore)."
 ---
@@ -29,6 +29,7 @@ resume: "Sourcing industriel : apprentissages (dont logique « 2 miels », sujet
 | 6 | **Gourmet Provence** | Arles (13) | Profil à façon incertain | Domaine .fr inexistant, à traiter en dernier |
 | 7 | **CELS Laboratoire** | Sète (34) / Sainte-Geneviève-des-Bois (45) | Fabrication de sticks à façon 2-10 g de miel | **Piste alignée avec le format cristal, pas encore contacté, à prioriser** |
 | 8 | Apior | Orléans | Bonbons au miel (piste bonbon cœur coulant) | **ÉCARTÉ** — la piste bonbon est morte (confirmé Basekou, 2026-07-24) |
+| 9 | **Le Cueilleur de Miels** (`lecueilleurdemiels.fr`) | à compléter | Apiculteur — **> 300 ruches**, capacité **≥ 3 tonnes de miel/an**, prix **< 15 €/kg** (jugé « très intéressant ») | **PISTE PRIORITAIRE pour le lot artisanal.** Dégustation prévue **mardi** ; **la commande ne sera passée qu'après validation du test goût**. |
 
 ## Track 2 — Co-packers boisson (phase 2)
 
