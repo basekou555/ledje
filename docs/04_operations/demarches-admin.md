@@ -1,7 +1,7 @@
 ---
 statut: bloquant
 domaine: operations
-maj: 2026-07-21
+maj: 2026-07-31
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro)"
 resume: "Le réglementaire à boucler avant la première vente (CERFA à envoyer, voie HACCP = GBPH apicole, conflit DDPP 69/56) + l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
@@ -13,6 +13,7 @@ resume: "Le réglementaire à boucler avant la première vente (CERFA à envoyer
 ## Démarche DDPP (suivi daté)
 
 - **[2026-07-18]** Réponse DDPP 56 (Schlosser) : **ni agrément ni dérogation requis — déclaration d'activité seule**, à faire sur mesdemarches.agriculture.gouv.fr. **HACCP obligatoire.** **Tableau nutritionnel obligatoire dès lors qu'il y a vente en restaurant.** Production en cuisine domicile : conformité à sécuriser.
+- **[2026-07-30] ⚠️ À VÉRIFIER (évoqué en visio, non sourcé DDPP)** : en dessous de **1 000 litres**, une déclaration d'activité simple suffirait ; **deux tests seraient requis : pH et activité de l'eau (a_w)**. Ne remplace pas la réponse DDPP 56 du 18/07 — **à faire confirmer par la DDPP compétente** (candidat pour le mail de questions, qui passerait de 3 à 4 questions).
 - **[2026-07-21] Conflit de compétence DDPP 69/56** *(remplace la formulation antérieure « DDPP du Rhône → redirection », signalée erronée)* : la DDPP 69 se déclare incompétente et renvoie au département du siège (56), alors que le lieu de production est à Lyon. **Décision Basekou : envoyer via mesdemarches (routage national interne) et attendre l'accusé d'enregistrement pour savoir quelle DDPP suit le dossier.**
 
 ## Déclaration d'activité — CERFA 13984 (2026-07-21)
