@@ -19,6 +19,7 @@ resume: "La grille autorisé/interdit (jamais d'effet sur le corps), l'allégati
 
 - **Registre spirituel par évocation, jamais par proclamation** : pas de symbole religieux explicite ni de citation sacrée sur support commercial.
 - **À l'oral (pitch, entretiens — précision 2026-07-13)** : « tradition musulmane » acceptée ; le mot « sunna » à éviter. L'argument tradition est à exploiter, mais sans dépasser la limite fixée ci-dessus — formulations à travailler.
+- **CEP « miel-remède » (précision 2026-07-30)** : l'interdit porte sur la **communication** — aucune exploitation com d'un registre remède ou d'effet santé, sur aucun support. L'**exploration en entretien** (sonder ce Category Entry Point auprès de la cible, en test) est **autorisée** : comprendre n'est pas revendiquer. Cf. `../03_marche/mom-test.md`.
 - **Mention obligatoire** sur tout produit réel : miel déconseillé aux enfants de moins d'un an.
 - Process : tout texte sortant (script, légende, page, étiquette) passe cette grille avant publication. Étape fixe.
 
