@@ -61,7 +61,7 @@ Plus c'est subtil, plus c'est universel — et plus ça respecte la ligne « év
 
 ## Personnages
 
-Mains, silhouettes, profils, gestes — **jamais de visage identifiable, jamais les yeux visibles.** Idéalement, visage totalement hors champ. Règle stricte, applicable à toute image avec présence humaine.
+Mains, silhouettes, profils, gestes — **jamais les yeux visibles** (règle stricte, non négociable, applicable à toute image avec présence humaine). Idéalement, visage totalement hors champ : on privilégie le moins de visage possible. Depuis le 2026-07-30, un visage ou une partie de visage est admis au cas par cas quand le cadrage le justifie, les yeux restant floutés, cachés ou hors champ.
 
 ## Règle des 3 éléments
 

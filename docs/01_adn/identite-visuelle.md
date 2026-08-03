@@ -35,6 +35,7 @@ L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« enco
 - **Discipline couleur (Inès, 2026-07-10) :** figer **UN seul ton par couleur** (un émeraude, un ambre, un or) — pas plusieurs teintes proches. Pour les variations, jouer sur **l'opacité** de ce ton unique, pas sur des teintes différentes (sinon les valeurs « décalent » et cassent la cohérence). Palette de 4-5 couleurs max. Piste ouverte : une **touche de bleu clair** en contraste possible — mais prudence, « le bleu fait vite médical ». Outils : Coolors, Adobe Color (roue chromatique / complémentaires).
 - **Où le vert domine :** landing, cartons, communication (l'écrin de marque). **Où l'ambre domine :** l'étiquette et le cristal de miel (contact alimentaire → préserver l'appétence ; le vert y devient le sceau).
 - Sobre et digne, pas d'effets criards.
+- **Visages (tranché 2026-07-30, précisé 2026-07-31)** : les visages deviennent **possibles**, mais la règle de conduite reste de **privilégier le moins de visage possible**. **Les yeux ne sont JAMAIS visibles** (floutés, cachés, détournés, hors cadre) — non négociable. Montrer une **partie** du visage est admis quand le visuel le justifie ; ce n'est pas un encouragement, c'est une permission au cas par cas. Codes subtils bienvenus (main droite, vêtement, gestes — la cible les décode). Remplace la règle antérieure « jamais de visage identifiable ».
 
 ## Typographie — ⚠️ EN REFONTE
 

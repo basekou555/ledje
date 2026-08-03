@@ -66,7 +66,7 @@ Materials
 Autorisées : pierre calcaire/travertin, verre, eau, lin, coton, bois massif, papier texturé, miel, laiton brossé, céramique artisanale. Interdites (non-negotiable) : plastique brillant, marbre noir, chrome, résine, surfaces miroir, décors futuristes, clichés "bio" (prairies, abeilles à profusion), tout ce qui lit comme ostentatoire.
 Palette (cf. SOT §3.2) : dominantes neutres (crème `#EDE0C8`, sable, pierre, blanc cassé) + accents émeraude (`#2E6B4F` moyen / `#0F3D2A` profond), or (dégradé `#FBE9A8`→`#E8B65C`→`#A9740F`), ambre (`#E0A52E`). Nuance par médium : packshot produit = l'émeraude peut dominer (fond) ; lifestyle = émeraude en touche signature, les neutres dominent.
 Human Presence
-Mains, silhouettes, profils, gestes uniquement. Non-negotiable : jamais de visage identifiable, jamais les yeux visibles. Idéalement hors champ.
+Mains, silhouettes, profils, gestes en priorité — privilégier le moins de visage possible. Depuis le 2026-07-30, un visage (ou une partie de visage) est possible quand le cadrage le justifie, au cas par cas. Non-negotiable : **jamais les yeux visibles** (floutés, cachés, détournés, hors champ). Codes subtils bienvenus (main droite, vêtement, gestes).
 Actions
 Chaque image capture une transition, jamais un objet statique.
 Exemples : placing · pouring · shaking · dissolving · reaching · lifting · opening · leaving · returning.
@@ -77,7 +77,7 @@ Negative Prompt
 Non-negotiable, sur toute image :
 
 * Aucun symbole religieux explicite.
-* Aucun visage identifiable, aucun regard/yeux visibles.
+* Aucun regard/yeux visibles — non négociable (visage ou partie de visage possible depuis le 2026-07-30, à condition que les yeux soient floutés, cachés ou hors cadre ; on privilégie le moins de visage possible).
 * Aucun texte généré par l'IA suggérant un effet santé — le texte s'ajoute en montage.
 * Aucune comparaison ou symbole visuel évoquant une marque concurrente nommée.
 * Aucun signal visuel de luxe ostentatoire (dorures excessives, cristal, marbre noir, chrome).
