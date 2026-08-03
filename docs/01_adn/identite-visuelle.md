@@ -51,6 +51,7 @@ Seul élément com sur le chemin critique : le contenu légal de l'étiquette 33
 
 - **(a) Typo système** (titres, texte) : arbitrage **Zodiak Black** (héritage, serif robuste) vs **Bricolage Bold** (contemporain, grotesque à caractère) — maquette comparative faite. Cadrage retenu : « le problème était la finesse, pas les empattements » — arbitrage à trancher par Basekou (2026-07-28).
 - **(b) Wordmark** : ces polices jugées trop génériques/vues (Basekou) — l'authenticité ne viendra pas d'un choix de police mais d'une **personnalisation**. Pistes ouvertes : les deux « é » comme signature (accents = gouttes miel/eau), révéler la césure lé|djé (le nom porte le produit), une lettre qui porte le concept.
+- **Casse : minuscules « lédjé », accents systématiques** *(tranché 2026-07-30, précisé 2026-07-31)*. Seule exception aux accents : la recherche/le référencement Google. Les capitales vues sur les étiquettes de test sont un artefact du lot, pas une direction. Détail de la convention : `identite-verbale.md`.
 - Une fois la typo verrouillée : **harmoniser les 3 specs Fraunces restantes** (signature, étiquette bouteille, master prompt visuel).
 
 ## Le symbole : l'alvéole — ⚠️ À RECONSIDÉRER

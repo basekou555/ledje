@@ -10,7 +10,10 @@ resume: "Nom, signature, accroche tranchée « De l'eau fraîche, du miel pur. �
 
 ## Le nom
 
-**Lédjé** (mot de marque, avec accents) / **ledje** (digital : domaine, handles, emails).
+**lédjé** — le wordmark s'écrit **en minuscules, avec les accents** *(précisé le 2026-07-31 ; corrige la formulation antérieure « **Lédjé** (mot de marque) / **ledje** (digital) », qui posait à tort une majuscule initiale)*.
+
+- **Les accents sont systématiques.** Seule exception : la **recherche / le référencement Google**, où la forme sans accents est utilisée.
+- La forme `ledje` (sans accent ni majuscule) subsiste là où la technique l'impose — **domaine `ledje.fr`, handles, emails** — par contrainte, pas par choix de casse.
 - **Lé** = miel (soso, Guinée) · **Djé** = eau (diakanké). Le nom EST le produit : le miel et l'eau réunis.
 - Racines ouest-africaines francophones — choix délibéré (pas arabe-centré) pour parler à toute la pluralité de la communauté.
 - Sonne comme « léger » : autorisé comme évocation sensorielle (goût léger et frais), **JAMAIS** comme positionnement diététique (« allégé / light / moins de sucre / minceur » = termes réglementés, interdits).
