@@ -45,13 +45,15 @@ L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« enco
 
 ### ⚠️ Chemin critique (2026-07-24, corrigé le 2026-07-28) : l'habillage de l'étiquette attend l'identité
 
-Seul élément com sur le chemin critique : le contenu légal de l'étiquette 33cl est figé côté COO (cf. `../02_produit/eau-miellee-33cl.md`), il ne manque que l'habillage. **Décision actée : aucune étiquette de série imprimée tant que l'identité en refonte n'est pas livrée** (sinon stock mort) ; un **habillage provisoire est retenu pour le lot O'Daba** (« fait avec ce qu'on a pu »). Séquence (corrigée 2026-07-28) : identité tranchée par Basekou lui-même — aucun designer ne travaille sur le projet, il n'y a pas de chantier « logo v2 » → habillage étiquette → commande.
+Seul élément com sur le chemin critique : le contenu légal de l'étiquette 33cl est figé côté COO (cf. `../02_produit/eau-miellee-33cl.md`), il ne manque que l'habillage. **Décision actée, toujours en vigueur : aucune étiquette de série imprimée tant que l'identité en refonte n'est pas livrée** (sinon stock mort). La règle reste **l'identité visuelle d'abord, les supports produit ensuite**.
+
+> **Exception assumée — lot O'Daba (état 2026-07-31).** L'étiquette du lot test est **quasiment terminée** : Basekou a anticipé ce travail pour honorer la demande du restaurant, le test ne pouvant pas attendre l'identité. C'est une **dérogation ponctuelle, pas une levée de la règle** — elle ne vaut que pour ce lot, et ne préjuge pas de l'habillage de série. Séquence (corrigée 2026-07-28) : identité tranchée par Basekou lui-même — aucun designer ne travaille sur le projet, il n'y a pas de chantier « logo v2 » → habillage étiquette → commande.
 
 ### La question typo se dédouble (2026-07-24)
 
 - **(a) Typo système** (titres, texte) : arbitrage **Zodiak Black** (héritage, serif robuste) vs **Bricolage Bold** (contemporain, grotesque à caractère) — maquette comparative faite. Cadrage retenu : « le problème était la finesse, pas les empattements » — arbitrage à trancher par Basekou (2026-07-28).
 - **(b) Wordmark** : ces polices jugées trop génériques/vues (Basekou) — l'authenticité ne viendra pas d'un choix de police mais d'une **personnalisation**. Pistes ouvertes : les deux « é » comme signature (accents = gouttes miel/eau), révéler la césure lé|djé (le nom porte le produit), une lettre qui porte le concept.
-- **Casse : minuscules « lédjé », accents systématiques** *(tranché 2026-07-30, précisé 2026-07-31)*. Seule exception aux accents : la recherche/le référencement Google. Les capitales vues sur les étiquettes de test sont un artefact du lot, pas une direction. Détail de la convention : `identite-verbale.md`.
+- **Casse : minuscules « lédjé », accents systématiques** *(tranché 2026-07-30, précisé 2026-07-31)*. Seule dérogation : l'existant technique où l'accent est impossible (domaine, emails, handles). Les capitales vues sur les étiquettes de test sont un artefact du lot, pas une direction. Détail de la convention : `identite-verbale.md`.
 - Une fois la typo verrouillée : **harmoniser les 3 specs Fraunces restantes** (signature, étiquette bouteille, master prompt visuel).
 
 ## Le symbole : l'alvéole — ⚠️ À RECONSIDÉRER
