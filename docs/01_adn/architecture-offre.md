@@ -1,5 +1,5 @@
 ---
-statut: figé
+statut: en_cours
 domaine: adn
 maj: 2026-07-20
 source: "SOT §1.4, §1.4bis cadre stratégique (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco"
