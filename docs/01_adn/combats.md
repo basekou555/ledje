@@ -1,5 +1,5 @@
 ---
-statut: figé
+statut: en_cours
 domaine: adn
 maj: 2026-07-02
 source: "SOT §1.3bis (archive 2026-07-24) — décision réouverte et nuancée le 2026-07-02"

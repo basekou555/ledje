@@ -1,16 +1,20 @@
 ---
-statut: figé
+statut: en_cours
 domaine: adn
 maj: 2026-07-31
 source: "SOT §1.1, 1.2, 1.3, 1.5 (archive 2026-07-24) ; valeurs 2026-07-20 ; positionnement affiné verrouillé 2026-07-30 (session Com), hiérarchie de marque remplacée sur décision Basekou 2026-07-31"
-resume: "C'est quoi Lédjé, Branche C, valeurs, positionnement affiné (catégorie eau aromatisée, ambition nomade, mission) et hiérarchie des motivations fraîcheur>plaisir>compromis>tradition>appartenance."
+resume: "Marque d'eau miellée, Branche C, valeurs, positionnement affiné (catégorie eau aromatisée, ambition nomade, mission), hiérarchie des motivations ; moments ancrés à requalifier sous l'angle nomade. ⚠️ fiche évolutive, pas un socle figé."
 ---
 
 # Vision & positionnement
 
 ## C'est quoi Lédjé
 
-**Lédjé** = marque DTC de **cristal de miel pur, à dissoudre dans un verre d'eau fraîche** (+ bouteille prête à boire). Un geste de la tradition remis au goût du jour, sous une forme belle et simple, pour la **communauté musulmane francophone dans toute sa diversité**.
+**Lédjé** = marque d'**eau miellée** — eau et miel, rien d'autre — pour la **communauté musulmane francophone dans toute sa diversité**. Un geste de la tradition remis au goût du jour, sous une forme belle et simple.
+
+Deux formes : la **bouteille prête à boire** (la valeur nomade — cf. positionnement affiné ci-dessous) et le **cristal de miel** à dissoudre dans l'eau fraîche.
+
+> *Réécrit le 2026-07-31 : la définition antérieure plaçait le cristal en tête et la bouteille en second (« marque DTC de cristal de miel pur (+ bouteille prête à boire) »). Elle ne correspondait plus au positionnement du 30/07, qui pose la catégorie **eau aromatisée** et fait de la version prête-à-boire la valeur centrale.*
 
 **Le principe fondateur : créer un univers autour de quelque chose de simple.** (Références : Crocs — un univers entier autour d'une chaussure basique ; les marques de bougies — un imaginaire autour d'un objet qu'on chauffe ; Lipton — un monde de moments autour d'eau chaude infusée.) L'identité ne décrit pas le produit, elle impose un point de vue. Le moat = marque, communauté, authenticité — pas le produit lui-même.
 
@@ -58,7 +62,10 @@ resume: "C'est quoi Lédjé, Branche C, valeurs, positionnement affiné (catégo
 2. **Le soin, la pureté, l'origine locale** *(soutient)* — confiance, ticket d'entrée. La "protection" reste tournée vers l'intérieur (prendre soin des siens en leur offrant quelque chose de vrai et digne).
 3. **La dignité / la beauté** *(finit)* — prime de prix. Jamais cheap.
 
-## Le moment (ancre du rituel)
+## Le moment (ancre du rituel) — ⚠️ à requalifier sous l'angle nomade
+
+> **Statut 2026-07-31** : les deux moments ci-dessous sont **hérités** et se passent tous les deux **à domicile** — or l'ambition nomade actée le 30/07 pose que le fait-maison est le concurrent n°1 à domicile, et que la valeur de Lédjé se joue **dehors**. Ces ancres ne sont donc plus suffisantes.
+> **Rien n'est remplacé pour l'instant** : les moments extérieurs restent **à documenter côté demande** (campagne v2, inventaire de la veille) — on ne les invente pas depuis le bureau. À reprendre dès que la campagne v2 aura produit des données.
 
 - **Moment-héros : la rupture du jeûne.** PAS limité au Ramadan — lundi, jeudi, jours blancs, Arafat, Achoura, six de Shawwal : le moment récurre chaque semaine pour un pratiquant. Plus la personne est pratiquante, plus elle a d'occasions. Le Ramadan est le *pic*, pas le modèle.
 - **Moment-volume : la boisson de fin de repas.** Quotidien, convivial.

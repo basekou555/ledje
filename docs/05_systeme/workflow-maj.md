@@ -17,7 +17,11 @@ resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, ritu
 
 ## 2. Protégé / libre (qui a le droit de modifier quoi)
 
-- **Protégé** — modification uniquement sur demande explicite de Basekou (déclencheur `@update` ou demande équivalente), jamais suggérée spontanément : tout `01_adn/`, `visual/ledje-master-prompt.md`, `visual/ledje-visual-language.md`, `council-context.md` (avec répercussion obligatoire dans l'artefact « Salle du conseil »), et cette fiche. `decisions-log.md` est **append-only** (on ajoute une ligne, on ne réécrit jamais l'historique).
+- **Protégé** — modification uniquement sur demande explicite de Basekou (déclencheur `@update` ou demande équivalente), jamais suggérée spontanément : `visual/ledje-master-prompt.md`, `visual/ledje-visual-language.md`, `council-context.md` (avec répercussion obligatoire dans l'artefact « Salle du conseil »), `01_adn/conformite.md`, et cette fiche. `decisions-log.md` est **append-only** (on ajoute une ligne, on ne réécrit jamais l'historique).
+- **⚠️ DÉVERROUILLAGE TEMPORAIRE de `01_adn/` (décidé le 2026-07-31)** — le positionnement et le branding vont beaucoup bouger dans les prochains jours ; on est trop early pour verrouiller autant d'éléments. Les fiches ADN peuvent donc être modifiées **sans validation préalable au cas par cas**, à trois conditions non négociables :
+  1. **Le circuit de traçabilité reste entier** : une branche + une PR par changement, jamais de commit direct sur `main`, et **une ligne au `decisions-log.md`** pour chaque décision — comme pour le reste du cerveau. Le merge de Basekou reste la validation.
+  2. **`conformite.md` n'est PAS concernée** : le réglementaire (DGCCRF, CE 1924/2006) ne devient pas révisable parce que le projet est jeune. Elle reste protégée et `figé`.
+  3. **Régime temporaire** : à re-verrouiller quand le positionnement et le branding se stabilisent. Tant que ce déverrouillage court, les fiches ADN portent `statut: en_cours` — elles décrivent une direction de travail, pas un socle acquis.
 - **Libre** — l'IA met à jour au fil du travail, en le signalant dans son rapport : `00_inbox/`, fiches `03_marche/` et `04_operations/` (statuts, suivis, dates), `backlog.md`, index/README, `visual/ledje-prompt-library.md`, `visual/ledje-asset-log.md`, templates.
 - **Intermédiaire** — `02_produit/` : modification proposée dans la réponse, appliquée après OK de Basekou (une spec produit engage le sourcing et la conformité).
 
