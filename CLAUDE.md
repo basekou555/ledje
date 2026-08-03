@@ -61,7 +61,7 @@ Règles spécifiques à la production visuelle
 
 * Ne jamais inventer de spec produit non confirmée (format de lancement en attente de vérification fournisseur, voir `docs/visual/ledje-master-prompt.md`).
 * Ne jamais utiliser de vocabulaire luxe non testé/validé (voir la note "à tester" dans `ledje-master-prompt.md`, section Global Identity).
-* Jamais de visage identifiable ni d'yeux visibles dans les prompts.
+* Jamais d'yeux visibles dans les prompts (non négociable). On privilégie le moins de visage possible ; un visage ou une partie de visage est admis au cas par cas depuis le 2026-07-30 (cf. `docs/01_adn/identite-visuelle.md`).
 * Ne jamais modifier `ledje-master-prompt.md` ou `ledje-visual-language.md` sans le signaler explicitement à Basekou et attendre confirmation. `ledje-prompt-library.md` (les options et leurs presets) n'a pas cette contrainte — c'est la couche destinée à évoluer vite avec l'usage (cf. boucle d'apprentissage à deux niveaux dans `ledje-asset-log.md`).
 Si la tâche ne rentre dans aucune des deux catégories ci-dessus
 Demande une clarification plutôt que de deviner — surtout si la tâche touche au positionnement, aux valeurs, ou à une décision déjà tranchée (`docs/05_systeme/decisions-log.md`).
