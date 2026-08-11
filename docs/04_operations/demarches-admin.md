@@ -1,14 +1,16 @@
 ---
-statut: bloquant
+statut: en_cours
 domaine: operations
-maj: 2026-07-31
+maj: 2026-08-11
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro)"
-resume: "Le réglementaire à boucler avant la première vente (CERFA à envoyer, voie HACCP = GBPH apicole, conflit DDPP 69/56) + l'administratif marque (domaine, email pro Zoho, INPI différé)."
+resume: "Le réglementaire à boucler avant la première vente (CERFA envoyé le 11/08, accusé attendu ; voie HACCP = GBPH apicole ; conflit DDPP 69/56 à trancher par l'accusé) + l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
 
 # Démarches administratives & réglementaires
 
-**⚠️ Bloquant : le réglementaire de la vente artisanale doit être cadré AVANT la première vente** (déclaration d'activité, hygiène DDPP, étiquetage/DLC, stabilité microbiologique eau+miel non pasteurisé). La livraison restaurant y est conditionnée.
+**⚠️ Le réglementaire de la vente artisanale doit être cadré AVANT la première vente** (déclaration d'activité, hygiène DDPP, étiquetage/DLC, stabilité microbiologique eau+miel non pasteurisé). La livraison restaurant y est conditionnée.
+
+**[2026-08-11] Statut `bloquant` → `en_cours`** : la déclaration d'activité **est partie**. Le point dur n'est plus l'envoi mais **l'attente de l'accusé d'enregistrement**, qui désignera la DDPP compétente et débloquera les 3 questions. Les autres volets (HACCP, étiquetage/DLC, stabilité) restent ouverts — la fiche n'est pas close pour autant.
 
 ## Démarche DDPP (suivi daté)
 
@@ -20,7 +22,7 @@ resume: "Le réglementaire à boucler avant la première vente (CERFA à envoyer
 
 - Formulaire **pré-rempli** : catégorie « **préparation de produits composés** » (2e activité « fermière/commerce » retirée), enseigne corrigée « Lédjé », production à Lyon 2 / siège à Lorient.
 - **Mail 3 questions prêt** (catégorie / dérogation 13982 vente resto+assos / voie HACCP) — à poser à la DDPP compétente une fois l'accusé reçu.
-- **Prochaine étape : envoyer le CERFA → attendre l'accusé (= DDPP compétente) → poser les 3 questions.**
+- **[2026-08-11] CERFA ENVOYÉ** — 22 jours après sa préparation (prêt depuis le 21/07). **Prochaine étape : attendre l'accusé d'enregistrement (= identification de la DDPP compétente) → poser les 3 questions.** Le conflit de compétence 69/56 ci-dessus se tranchera à ce moment-là.
 
 ## HACCP — voie choisie : GBPH apicole (2026-07-21)
 
