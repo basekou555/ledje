@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-08-12
+maj: 2026-08-13
 source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco"
 resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, et le point dur stabilité/fermentation (DDM non déterminée, étiquette bloquée)."
 ---
@@ -40,7 +40,7 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 
 **✅ Décision (2026-08-11)** : la perte de pollen par filtration n'est pas un problème (cadre denrée composée, traçabilité par documents fournisseur). Conséquence actée : un monofloral prouvé sur la boisson finie deviendrait indémontrable — « miel de fleurs » non concerné.
 
-**Protocole pH (mesure du départ de fermentation)** : papiers pH 3,8-5,5 + 4,6-6,2 ; mesurer à J0 (embouteillage) puis J+2, J+4, J+6, EN PARALLÈLE lot au frais / lot à température ambiante ; même température, lumière du jour, même opérateur, heure notée, échantillon prélevé puis jeté.
+**Protocole pH (mesure du départ de fermentation)** : papier pH **plage 3,8-5,5 uniquement** — une seule plage retenue (décision 2026-08-13 : une sortie de plage est lisible dans les deux sens, un paquet suffit au diagnostic) ; **commandé le 13/08** (Rolling Beers, réf. 289138, 11,90 €), non encore reçu. Mesurer à J0 (embouteillage) puis J+2, J+4, J+6, EN PARALLÈLE lot au frais / lot à température ambiante ; même température, lumière du jour, même opérateur, heure notée, échantillon prélevé puis jeté.
 
 **Questions à poser aux apiculteurs (actées 11/08)** : miel filtré ou non (finesse), taux d'humidité (> 18 % = sujet à fermenter), pH / HMF / indice diastasique si mesurés, analyse par lot, clients qui diluent, transformateurs boisson connus, et **attestation écrite du process thermique** (sans document, « jamais chauffé » repose sur une parole).
 
