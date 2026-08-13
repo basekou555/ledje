@@ -1231,3 +1231,77 @@ footer .container { display: flex; flex-direction: column; gap: 0.7rem; align-it
   font-size: 0.92rem;
   color: var(--gold-text-on-dark);
 }
+
+/* ════ Page /avis (recueil d'avis) ════ */
+.avis-page { min-height: 100svh; background: var(--emerald-velvet); }
+.avis-page .section-survey { min-height: 100svh; display: flex; align-items: center; padding-block: clamp(2.5rem, 8vw, 4.5rem); }
+.avis-header { text-align: center; margin-bottom: 2rem; }
+.avis-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 6vw, 2.1rem);
+  color: var(--cream);
+  font-weight: 500;
+  line-height: 1.2;
+}
+.avis-lede { color: var(--gold-text-on-dark); font-size: 1.05rem; margin-top: 0.5rem; }
+.avis-form { display: flex; flex-direction: column; gap: 2rem; }
+.avis-sublabel {
+  font-size: 0.95rem;
+  color: var(--text-on-dark);
+  margin: 0.4rem 0 0.7rem;
+}
+.avis-sublabel + .avis-stars { margin-bottom: 1.4rem; }
+
+/* Étoiles */
+.avis-stars { display: flex; gap: 0.4rem; }
+.avis-star {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  line-height: 1;
+  padding: 0.1rem 0.15rem;
+  color: rgba(237,224,200,0.28);
+  transition: color var(--transition), transform var(--transition);
+  min-height: 44px;
+  min-width: 44px;
+}
+.avis-star:hover { transform: translateY(-2px); }
+.avis-star.is-on { color: var(--gold); }
+
+/* Option désactivée quand le max de mots est atteint */
+.checkbox-option.is-disabled { opacity: 0.45; cursor: not-allowed; }
+.checkbox-option.is-disabled:hover { border-color: rgba(232,182,92,0.18); }
+
+/* Champs texte de la page avis (sur fond émeraude) */
+.avis-input, .avis-textarea {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  font-size: 1rem;
+  font-family: var(--font-sans);
+  background: rgba(237,224,200,0.06);
+  border: 1.5px solid rgba(232,182,92,0.18);
+  border-radius: var(--radius);
+  color: var(--cream);
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+.avis-input { min-height: 52px; margin-top: 0.5rem; }
+.avis-textarea { resize: vertical; line-height: 1.5; }
+.avis-input::placeholder, .avis-textarea::placeholder { color: rgba(237,224,200,0.4); }
+.avis-input:focus, .avis-textarea:focus {
+  border-color: var(--gold);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(232,182,92,0.18);
+}
+.avis-consent {
+  font-size: 0.78rem;
+  color: var(--text-on-dark-muted);
+  line-height: 1.5;
+  margin-top: 0.6rem;
+}
+.avis-error { color: #f2b8b5; font-size: 0.9rem; text-align: center; }
+
+/* Écran de fin */
+.avis-done { text-align: center; display: flex; flex-direction: column; gap: 0.6rem; outline: none; }
+.avis-done-title { font-size: clamp(1.7rem, 6vw, 2.2rem); color: var(--cream); font-weight: 500; }
+.avis-done-sub { color: var(--gold-text-on-dark); font-size: 1.1rem; }
