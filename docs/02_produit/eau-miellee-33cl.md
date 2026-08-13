@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-07-24
+maj: 2026-08-12
 source: "Page relais Notion — dose quasi figée 2026-07-21, contenu légal figé côté COO 2026-07-24"
-resume: "La bouteille artisanale 33cl : recette/dose, QUID, tableau nutritionnel de travail, fabricant, habillage provisoire O'Daba."
+resume: "La bouteille artisanale 33cl : recette/dose, QUID, tableau nutritionnel de travail, fabricant, habillage provisoire O'Daba. 🔴 DDM non déterminée — impression de l'étiquette bloquée."
 ---
 
 # Eau miellée — bouteille 33cl (produit artisanal)
@@ -39,7 +39,7 @@ La bouteille d'eau miellée de la phase artisanale : eau + miel, vendue en lots 
 - **Peser le miel d'un lot réel** pour verrouiller QUID + tableau nutritionnel.
 - **Analyse labo recommandée** en parallèle.
 - Origine de la lavande (conditionne le « de France » du QUID).
-- Stabilité microbiologique du mélange eau+miel non pasteurisé (risque fermentation) — cf. `../04_operations/production-artisanale.md`.
+- **🔴 Stabilité microbiologique & DDM/DLC (2026-08-11)** : test maison ~4-5 j de tenue ; la DDM (mention obligatoire) n'est pas déterminée → **impression de l'étiquette bloquée**. Détail, options et protocole : `../04_operations/production-artisanale.md`.
 
 ## Prix
 
