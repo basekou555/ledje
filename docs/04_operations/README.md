@@ -15,7 +15,7 @@ production artisanale, démarches administratives et réglementaires, technique 
 
 | Fiche | Résumé | Statut |
 |---|---|---|
-| [`production-artisanale.md`](production-artisanale.md) | Objectifs de la phase, KPIs Francesco, vigilances, cadre B2B2C | en_cours |
+| [`production-artisanale.md`](production-artisanale.md) | Objectifs de la phase, KPIs Francesco, vigilances, cadre B2B2C, stabilité/fermentation (DDM non déterminée) | en_cours |
 | [`fournisseurs.md`](fournisseurs.md) | Apprentissages sourcing + tableau des pistes (tracks cristal / RTD) | en_cours |
 | [`fournisseur-melli-ouest.md`](fournisseur-melli-ouest.md) | Appel 20/07 : plan B post-Ramadan (conditionnement S2 2027), échantillons à commander | en_cours |
 | [`demarches-admin.md`](demarches-admin.md) | DDPP/HACCP, déclaration d'activité, domaine OVH, INPI différé | en_cours |
