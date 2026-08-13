@@ -59,3 +59,37 @@ export async function submitSurvey(
     entry_format: entryFormat,
   })
 }
+
+// ── Avis produit (page /avis) ──
+// Table `avis` : INSERT-only pour le rôle anon, horodatée (created_at) pour
+// rattacher chaque retour au lot de production. Pas de .select() après l'insert
+// (aucune policy SELECT anon) — id généré côté client comme pour waitlist.
+export type AvisPayload = {
+  consumptionSince: string   // Q1 — depuis quand
+  frequencyIntent: string    // Q2 — fréquence envisagée
+  tasteRating: number | null // Q3 — note 1..5
+  tasteWords: string[]       // Q3 — mots (max 3, « Autre » inclus)
+  tasteWordOther: string     // Q3 — texte libre si « Autre »
+  chooseReason: string       // Q4 — pourquoi Lédjé (libre, sans exemple)
+  improvement: string        // Q5 — remarque / idée (libre)
+  email: string              // facultatif
+}
+
+export async function submitAvis(a: AvisPayload): Promise<{ error: string | null }> {
+  const utm = getUtm()
+  const id = crypto.randomUUID()
+  const { error } = await supabase.from('avis').insert({
+    id,
+    consumption_since: a.consumptionSince || null,
+    frequency_intent: a.frequencyIntent || null,
+    taste_rating: a.tasteRating,
+    taste_words: a.tasteWords.length ? a.tasteWords : null,
+    taste_word_other: a.tasteWordOther.trim() || null,
+    choose_reason: a.chooseReason.trim() || null,
+    improvement: a.improvement.trim() || null,
+    email: a.email.trim() || null,
+    utm_source: utm.utm_source,
+  })
+  if (error) return { error: 'network' }
+  return { error: null }
+}
