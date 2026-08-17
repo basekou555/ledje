@@ -1,7 +1,7 @@
 ---
 statut: bloquant
 domaine: adn
-maj: 2026-07-30
+maj: 2026-08-17
 source: "SOT Partie 3 (archive 2026-07-24) ; retours Inès 2026-07-10 ; réalignement relevé COO 2026-07-28 (MMD 3)"
 resume: "Palette ROUVERTE (seul l'émeraude tient) ; pas de designer sur le projet (Inès = aidante-conseil) ; wordmark Basekou = seul élément d'identité ; identité à trancher par Basekou."
 ---
@@ -47,7 +47,7 @@ L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« enco
 
 Seul élément com sur le chemin critique : le contenu légal de l'étiquette 33cl est figé côté COO (cf. `../02_produit/eau-miellee-33cl.md`), il ne manque que l'habillage. **Décision actée, toujours en vigueur : aucune étiquette de série imprimée tant que l'identité en refonte n'est pas livrée** (sinon stock mort). La règle reste **l'identité visuelle d'abord, les supports produit ensuite**.
 
-> **Exception assumée — lot O'Daba (état 2026-07-31).** L'étiquette du lot test est **quasiment terminée** : Basekou a anticipé ce travail pour honorer la demande du restaurant, le test ne pouvant pas attendre l'identité. C'est une **dérogation ponctuelle, pas une levée de la règle** — elle ne vaut que pour ce lot, et ne préjuge pas de l'habillage de série. Séquence (corrigée 2026-07-28) : identité tranchée par Basekou lui-même — aucun designer ne travaille sur le projet, il n'y a pas de chantier « logo v2 » → habillage étiquette → commande.
+> **Exception assumée — lot O'Daba (état 2026-07-31).** L'étiquette du lot test est **quasiment terminée** : Basekou a anticipé ce travail pour honorer la demande du restaurant, le test ne pouvant pas attendre l'identité. C'est une **dérogation ponctuelle, pas une levée de la règle** — elle ne vaut que pour ce lot, et ne préjuge pas de l'habillage de série. Séquence (corrigée 2026-07-28) : identité tranchée par Basekou lui-même — aucun designer ne travaille sur le projet, il n'y a pas de chantier « logo v2 » → habillage étiquette → commande. *(Suite : la refonte tentée par Vistaprint le 13/08 a été écartée le 17/08 — voir plus bas.)*
 
 ### La question typo se dédouble (2026-07-24)
 
@@ -55,6 +55,11 @@ Seul élément com sur le chemin critique : le contenu légal de l'étiquette 33
 - **(b) Wordmark** : ces polices jugées trop génériques/vues (Basekou) — l'authenticité ne viendra pas d'un choix de police mais d'une **personnalisation**. Pistes ouvertes : les deux « é » comme signature (accents = gouttes miel/eau), révéler la césure lé|djé (le nom porte le produit), une lettre qui porte le concept.
 - **Casse : minuscules « lédjé », accents systématiques** *(tranché 2026-07-30, précisé 2026-07-31)*. Seule dérogation : l'existant technique où l'accent est impossible (domaine, emails, handles). Les capitales vues sur les étiquettes de test sont un artefact du lot, pas une direction. Détail de la convention : `identite-verbale.md`.
 - Une fois la typo verrouillée : **harmoniser les 3 specs Fraunces restantes** (signature, étiquette bouteille, master prompt visuel).
+- **Typo « Alice » (consignée le 2026-08-17, source : appel service design Vistaprint du 13/08, périmètre confirmé en session)** — **périmètre : l'étiquette du lot O'Daba uniquement.** Basekou lui reconnaît le potentiel de devenir **une des typos du site**, mais ce n'est pas tranché : le sujet se travaille dans une autre discussion. **Elle ne tranche donc PAS l'arbitrage (a) Zodiak Black vs Bricolage Bold**, qui reste ouvert, et **ne lève pas la règle « identité visuelle d'abord »** — l'étiquette du lot O'Daba reste la dérogation ponctuelle actée le 31/07.
+
+### Étiquette du lot O'Daba — piste Vistaprint écartée (2026-08-17)
+
+Le service design de Vistaprint (Myriam, appel du 13/08) a jugé le PDF **flou à l'impression** (logo et fond) et proposé une refonte : logo refait sous Illustrator, deux fonds au choix, trois directions pour la goutte, trois révisions gratuites, QR régénéré avec la goutte au centre (URL `/avis` à jour). **Les deux versions livrées ne conviennent pas** (Basekou, 17/08) : la piste est **écartée**. Basekou commande lui-même **un lot d'étiquettes de test**. *(Rappel de cadre : Vistaprint est un prestataire d'impression, pas une direction artistique — il n'y a toujours pas de designer sur le projet.)*
 
 ## Le symbole : l'alvéole — ⚠️ À RECONSIDÉRER
 
