@@ -27,6 +27,22 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 - Retours mosquées sur commandes potentielles.
 - Taille du marché adressable (musulmans pratiquants actifs en France) — **à chiffrer** (demandé pour le prochain point d'étape).
 
+## Plafond de capacité artisanale (consigné le 2026-08-17, source MMD 5 du 13/08)
+
+| Point | Valeur | Statut |
+|---|---|---|
+| Production actuelle | ~30 bouteilles/semaine (1 restaurant) | constaté |
+| Objectif sur le test | ~100 bouteilles/semaine | visé |
+| Plafond estimé en cuisine | 3 restaurants à 100/semaine — 6 si activité à plein temps | ⚠️ **estimation au jugé** |
+| **Déclencheur de contact usines** | **300 bouteilles/semaine** | acté |
+| Horizon de la phase artisanale | 1 à 3 restaurants pendant 3-4 mois | plan énoncé |
+
+**⚠️ La capacité de production artisanale maximale n'est PAS connue** (Basekou, 2026-08-17) : le plafond ci-dessus est une estimation au jugé, jamais mesurée. Tant qu'elle ne l'est pas, le déclencheur des 300 bouteilles/semaine repose sur une hypothèse et non sur une limite constatée. **Point ouvert : mesurer la capacité réelle** (temps par lot, contrainte limitante — cuisine, stockage, temps disponible).
+
+**Étape intermédiaire non tranchée** : un local partagé / garage avant de payer un local dédié (suggestion Valentin, MMD 5).
+
+*(Aucun objectif chiffré de production n'existe dans `../03_marche/canal-restaurant.md` — vérifié le 2026-08-17.)*
+
 ## Vigilances posées (à cadrer avant la première vente)
 
 - **Réglementaire** : vente de denrées alimentaires même artisanale = déclaration d'activité, hygiène (DDPP), étiquetage (ingrédients, DLC, mention nourrissons), et **stabilité microbiologique du mélange eau+miel non pasteurisé** (risque fermentation). Suivi : `demarches-admin.md` et `../02_produit/reglementaire-etiquetage.md`.
