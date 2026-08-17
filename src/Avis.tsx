@@ -36,6 +36,7 @@ export default function Avis() {
   const [tasteWordOther, setTasteWordOther] = useState('')
   const [chooseReason, setChooseReason] = useState('')
   const [improvement, setImprovement] = useState('')
+  const [reclamation, setReclamation] = useState('')
   const [email, setEmail] = useState('')
 
   const [state, setState] = useState<AvisState>('idle')
@@ -78,6 +79,7 @@ export default function Avis() {
       tasteWordOther: otherSelected ? tasteWordOther : '',
       chooseReason,
       improvement,
+      reclamation,
       email,
     })
     if (error) {
@@ -247,6 +249,25 @@ export default function Avis() {
                 aria-label="Une remarque, une idée, quelque chose à améliorer"
               />
             </fieldset>
+
+            {/* Réclamation produit — section distincte de Q5, dépliable, repliée par défaut.
+                Libellé exact validé par Basekou. Aucune allégation santé. */}
+            <details className="avis-reclamation">
+              <summary className="avis-reclamation-summary">
+                J&rsquo;ai un problème avec ma bouteille
+              </summary>
+              <div className="avis-reclamation-body">
+                <textarea
+                  className="avis-textarea"
+                  rows={3}
+                  value={reclamation}
+                  maxLength={800}
+                  onChange={e => setReclamation(e.target.value)}
+                  placeholder="Décris ce que tu as remarqué (aspect, odeur, goût inhabituel…)"
+                  aria-label="Décris le problème avec ta bouteille"
+                />
+              </div>
+            </details>
 
             {/* Email facultatif */}
             <fieldset>
