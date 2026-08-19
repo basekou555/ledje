@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-07-13
+maj: 2026-08-19
 source: "SOT §5.0, 5.5, 5.9 (archive 2026-07-24) — refonte décidée 2026-07-10"
 resume: "Le site comme machine à convertir : refonte en cours (bouteille séduit, cristal convertit), structure de parcours, copy, écart avec l'état déployé."
 ---
@@ -24,7 +24,7 @@ Refonte en cours suite aux retours utilisateur (Valentin, cf. plus bas) et à la
 
 **Structure de parcours (logique « questions du visiteur ») :** Hero (c'est quoi + séduire) → Pourquoi Lédjé (créer le désir, le sens) → Origine/pureté (rassurer : vrai miel français) → le rituel + la ummah (appartenance + geste comme couleur) → Précommande (agir). Le **geste** n'ouvre jamais une section — il vient en second rideau (cf. `../01_adn/vision-positionnement.md`).
 
-**Hero :** accroche = *« De l'eau fraîche, du miel pur. »* / sous-titre = *« Le rappel d'un bienfait pour la ummah. »* — ⚠️ deux accroches concurrentes coexistent dans les décisions, arbitrage à faire avec la com : cf. `../01_adn/identite-verbale.md`. (« bienfait » isolé = à revalider conformité avant mise en ligne, choix assumé par Basekou pour l'instant). Visuel = une personne de la cible (marqueur culturel : tenue traditionnelle, ou subtil ; **yeux jamais visibles** — lunettes, angles, flou ; visage admis au cas par cas depuis le 2026-07-30) dans un moment de vie qui respire l'équilibre ; la santé et l'appartenance passent par l'**image**, jamais par le texte. Nouvelle **vidéo Hero** à produire (brief séparé `ledje-brief-video-hero.md` — ⚠️ hors repo : séquence refus en rayon → bouteille → cristal → transmission → partage → signature).
+**Hero :** accroche = *« De l'eau fraîche, du miel pur. »* / sous-titre = *« Le rappel d'un bienfait pour la ummah. »* — ⚠️ **L'ACCROCHE N'EST PAS TRANCHÉE** (confirmé le 2026-08-19 — la décision du 24/07 a été annulée) : ce qui est en ligne est un choix provisoire, pas une décision de marque. cf. `../01_adn/identite-verbale.md`. (« bienfait » isolé = à revalider conformité avant mise en ligne, choix assumé par Basekou pour l'instant). Visuel = une personne de la cible (marqueur culturel : tenue traditionnelle, ou subtil ; **yeux jamais visibles** — lunettes, angles, flou ; visage admis au cas par cas depuis le 2026-07-30) dans un moment de vie qui respire l'équilibre ; la santé et l'appartenance passent par l'**image**, jamais par le texte. Nouvelle **vidéo Hero** à produire (brief séparé `ledje-brief-video-hero.md` — ⚠️ hors repo : séquence refus en rayon → bouteille → cristal → transmission → partage → signature).
 
 ## Copy & états du formulaire (voix Lédjé — version déployée)
 
