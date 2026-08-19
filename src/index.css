@@ -1305,3 +1305,34 @@ footer .container { display: flex; flex-direction: column; gap: 0.7rem; align-it
 .avis-done { text-align: center; display: flex; flex-direction: column; gap: 0.6rem; outline: none; }
 .avis-done-title { font-size: clamp(1.7rem, 6vw, 2.2rem); color: var(--cream); font-weight: 500; }
 .avis-done-sub { color: var(--gold-text-on-dark); font-size: 1.1rem; }
+
+/* Section réclamation (dépliable) sur /avis */
+.avis-reclamation {
+  border: 1.5px solid rgba(232,182,92,0.18);
+  border-radius: var(--radius);
+  background: rgba(237,224,200,0.04);
+}
+.avis-reclamation[open] { border-color: rgba(232,182,92,0.4); }
+.avis-reclamation-summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.9rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-on-dark);
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 52px;
+}
+.avis-reclamation-summary::-webkit-details-marker { display: none; }
+.avis-reclamation-summary::before {
+  content: '＋';
+  color: var(--gold);
+  font-size: 1.1rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.avis-reclamation[open] .avis-reclamation-summary::before { content: '－'; }
+.avis-reclamation-summary:hover { color: var(--cream); }
+.avis-reclamation-body { padding: 0 1rem 1rem; }

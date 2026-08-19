@@ -72,6 +72,7 @@ export type AvisPayload = {
   tasteWordOther: string     // Q3 — texte libre si « Autre »
   chooseReason: string       // Q4 — pourquoi Lédjé (libre, sans exemple)
   improvement: string        // Q5 — remarque / idée (libre)
+  reclamation: string        // Réclamation produit (section dédiée, dépliable) — distincte de Q5
   email: string              // facultatif
 }
 
@@ -87,6 +88,7 @@ export async function submitAvis(a: AvisPayload): Promise<{ error: string | null
     taste_word_other: a.tasteWordOther.trim() || null,
     choose_reason: a.chooseReason.trim() || null,
     improvement: a.improvement.trim() || null,
+    reclamation: a.reclamation.trim() || null,
     email: a.email.trim() || null,
     utm_source: utm.utm_source,
   })
