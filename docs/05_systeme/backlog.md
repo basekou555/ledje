@@ -1,14 +1,14 @@
 ---
 statut: en_cours
 domaine: systeme
-maj: 2026-07-24
+maj: 2026-08-19
 source: "SOT Partie 11 (archive 2026-07-24) — annotations d'état 24/07"
 resume: "Les pistes ouvertes et actions en attente, reprises telles quelles du SOT."
 ---
 
 # Backlog / pistes ouvertes
 
-1. **⚠️ Déployer l'accroche hero tranchée** « De l'eau fraîche, du miel pur. » dans `src/App.tsx` — ✅ accroche tranchée le 24/07 (Com) ; ⚠️ la sous-ligne « Le rappel d'un bienfait pour la ummah » reste à trancher par Basekou avant mise en ligne (cf. `../01_adn/identite-verbale.md`).
+1. **⛔ SUSPENDU (2026-08-19) — « déployer l'accroche hero tranchée »** : **l'accroche n'est pas tranchée**, la décision du 24/07 a été annulée. Il n'y a donc rien à déployer tant qu'une accroche n'est pas choisie. La sous-ligne « Le rappel d'un bienfait pour la ummah » reste elle aussi à trancher (cf. `../01_adn/identite-verbale.md`).
 2. **Suivre les réponses fournisseurs** (4 en attente) et **relancer les 5 rebonds par téléphone** ; contacter CELS Laboratoire (piste stick prometteuse) — suivi dans le dashboard Notion.
 3. **Retour designeuse** → verrouiller logo/alvéole final, typo finale, affinage palette → puis production visuelle définitive. Périmètre/délai/budget toujours "[à préciser]", aucun engagement formel à ce jour.
 4. **Compiler et générer le premier shot réel (H01 "La Rencontre")** via le système de production visuelle — ne dépend pas de la confirmation du format produit.

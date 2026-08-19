@@ -18,6 +18,6 @@ d'écrire un texte, de compiler un prompt ou d'ouvrir un canal, c'est ici qu'on 
 | [`combats.md`](combats.md) | Les deux combats (dilution de la pratique / grandes marques) + la ligne rouge absolue | figé |
 | [`architecture-offre.md`](architecture-offre.md) | Deux étages (quotidien/exception) + chemin artisanal → industriel, contrainte Égypte | figé |
 | [`cibles-et-contenu.md`](cibles-et-contenu.md) | Le pratiquant + extensions (gardienne, offreur), grille de contenu par cible | figé |
-| [`identite-verbale.md`](identite-verbale.md) | Nom, signature, accroches (⚠️ à trancher avec la com), ton de voix, lexique | en_cours |
+| [`identite-verbale.md`](identite-verbale.md) | Nom (100 % diakanké), signature, ton de voix, lexique — ⚠️ **accroche NON tranchée** | en_cours |
 | [`conformite.md`](conformite.md) | La grille autorisé/interdit, allégation nutritionnelle comparative, règles orales | figé |
 | [`identite-visuelle.md`](identite-visuelle.md) | Palette ROUVERTE, typo/logo/symbole en refonte, statut designer, typo « Alice » (étiquette O'Daba) | bloquant |

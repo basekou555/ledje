@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-08-18
+maj: 2026-08-19
 source: "SOT Partie 7 (archive 2026-07-24) ; Apior écarté (Basekou, 24/07) ; critères cartographie 2026-07-21 (page relais)"
-resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — commande des 10 kg visée le 22/08, après les tests de saveurs). Sourcing industriel : apprentissages (dont logique « 2 miels », sujet ouvert), shortlist tracks cristal/RTD, cartographie cristaux à lancer (le conditionneur pour Ramadan 2027 n'existe pas encore)."
+resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — commande des 10 kg maintenue au 22/08 ; mélange montagne+châtaignier+tilleul candidat, doses à ajuster). Sourcing industriel : apprentissages (dont logique « 2 miels », sujet ouvert), shortlist tracks cristal/RTD, cartographie cristaux à lancer (le conditionneur pour Ramadan 2027 n'existe pas encore)."
 ---
 
 # Sourcing fournisseurs
@@ -29,7 +29,7 @@ resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — 
 | 6 | **Gourmet Provence** | Arles (13) | Profil à façon incertain | Domaine .fr inexistant, à traiter en dernier |
 | 7 | **CELS Laboratoire** | Sète (34) / Sainte-Geneviève-des-Bois (45) | Fabrication de sticks à façon 2-10 g de miel | **Piste alignée avec le format cristal, pas encore contacté, à prioriser** |
 | 8 | Apior | Orléans | Bonbons au miel (piste bonbon cœur coulant) | **ÉCARTÉ** — la piste bonbon est morte (confirmé Basekou, 2026-07-24) |
-| 9 | **Le Cueilleur de Miels** (`lecueilleurdemiels.fr`) | à compléter | Apiculteur — **> 300 ruches**, capacité **≥ 3 tonnes de miel/an**, prix **< 15 €/kg** (jugé « très intéressant ») | ✅ **FOURNISSEUR RETENU POUR LA PARTIE ARTISANALE (2026-08-17).** Appel passé, **dégustation faite**, échantillons de miels récupérés le **15/08**. **Tests de saveurs en cours.** ⚠️ **10 kg pas encore commandés — commande visée le SAMEDI 2026-08-22**, à l'issue des tests de saveurs (en cours, résultats attendus dans la semaine). Rien d'autre ne bloque la commande (décision du 2026-08-18). *(Historique : dégustation reportée le 04/08 — boutique fermée ; contact repris par messages le 11/08.)* |
+| 9 | **Le Cueilleur de Miels** (`lecueilleurdemiels.fr`) | à compléter | Apiculteur — **> 300 ruches**, capacité **≥ 3 tonnes de miel/an**, prix **< 15 €/kg** (jugé « très intéressant ») | ✅ **FOURNISSEUR RETENU POUR LA PARTIE ARTISANALE (2026-08-17).** **Contact : Jérôme** (confirmé en session le 19/08). Appel passé, **dégustation faite**, échantillons de miels récupérés le **15/08**. **Tests de saveurs (état au 2026-08-19, confirmé en session)** : le candidat retenu est un **mélange montagne + châtaignier + tilleul** — **non figé, les doses restent à ajuster** (ajustement prévu le soir du 19/08). ⚠️ **10 kg pas encore commandés — commande maintenue au SAMEDI 2026-08-22.** Rien d'autre ne bloque la commande. *(Historique : dégustation reportée le 04/08 — boutique fermée ; contact repris par messages le 11/08.)* |
 
 ## Track 2 — Co-packers boisson (phase 2)
 
