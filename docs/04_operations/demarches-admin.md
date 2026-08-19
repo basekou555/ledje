@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-08-11
+maj: 2026-08-18
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro)"
-resume: "Le réglementaire à boucler avant la première vente (CERFA envoyé le 11/08, accusé attendu ; voie HACCP = GBPH apicole ; conflit DDPP 69/56 à trancher par l'accusé) + l'administratif marque (domaine, email pro Zoho, INPI différé)."
+resume: "Le réglementaire à boucler avant la première vente (déclaration ENREGISTRÉE — accusé reçu le 18/08, DDPP du Rhône compétente ; voie HACCP = GBPH apicole, recevabilité pour une boisson NON confirmée) + l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
 
 # Démarches administratives & réglementaires
@@ -11,6 +11,8 @@ resume: "Le réglementaire à boucler avant la première vente (CERFA envoyé le
 **⚠️ Le réglementaire de la vente artisanale doit être cadré AVANT la première vente** (déclaration d'activité, hygiène DDPP, étiquetage/DLC, stabilité microbiologique eau+miel non pasteurisé). La livraison restaurant y est conditionnée.
 
 **[2026-08-11] Statut `bloquant` → `en_cours`** : la déclaration d'activité **est partie**. Le point dur n'est plus l'envoi mais **l'attente de l'accusé d'enregistrement**, qui désignera la DDPP compétente et débloquera les 3 questions. Les autres volets (HACCP, étiquetage/DLC, stabilité) restent ouverts — la fiche n'est pas close pour autant.
+
+**[2026-08-18] Mise à jour** : l'accusé est reçu, la DDPP du Rhône est compétente — **cette attente-là est finie**. Le point dur devient l'**étiquetage/DDM** (`../02_produit/eau-miellee-33cl.md`) et la **stabilité** (`production-artisanale.md`) ; la réserve HACCP reste ouverte.
 
 ## Démarche DDPP (suivi daté)
 
@@ -21,8 +23,10 @@ resume: "Le réglementaire à boucler avant la première vente (CERFA envoyé le
 ## Déclaration d'activité — CERFA 13984 (2026-07-21)
 
 - Formulaire **pré-rempli** : catégorie « **préparation de produits composés** » (2e activité « fermière/commerce » retirée), enseigne corrigée « Lédjé », production à Lyon 2 / siège à Lorient.
-- **Mail 3 questions prêt** (catégorie / dérogation 13982 vente resto+assos / voie HACCP) — à poser à la DDPP compétente une fois l'accusé reçu.
-- **[2026-08-11] CERFA ENVOYÉ** — 22 jours après sa préparation (prêt depuis le 21/07). **Prochaine étape : attendre l'accusé d'enregistrement (= identification de la DDPP compétente) → poser les 3 questions.** Le conflit de compétence 69/56 ci-dessus se tranchera à ce moment-là.
+- **Mail 3 questions rédigé** (catégorie / dérogation 13982 vente resto+assos / voie HACCP) — **non envoyé, jugé non nécessaire le 18/08** (voir ci-dessous).
+- **[2026-08-11] CERFA ENVOYÉ** — 22 jours après sa préparation (prêt depuis le 21/07). ~~Prochaine étape : attendre l'accusé → poser les 3 questions.~~ *(dépassé le 18/08 : accusé reçu, mail non envoyé.)* Le conflit de compétence 69/56 ci-dessus se tranchera à ce moment-là.
+- **[2026-08-18] ✅ ACCUSÉ REÇU — la DDPP compétente est la DDPP DU RHÔNE (69).** Déclaration signée « Le chef du service de la sécurité sanitaire des aliments », faite à Lyon le **14/08/2026** (SORA arrivée 2026-8260 / départ 2026-6885), archivée dans le Drive Lédjé. **Le conflit 69/56 est clos par les faits.** Le document confirme au passage la **catégorie déclarée** : « activités de préparation de produits composés », case « denrées contenant à la fois des produits d'origine végétale et des produits transformés d'origine animale ». Il déclare aussi les **locaux à usage mixte privé/professionnel**, et distingue l'**établissement** (Lorient) du **lieu d'activité** (Lyon).
+- **[2026-08-18] Décision : le mail des 3 questions N'EST PAS ENVOYÉ pour l'instant.** Après relecture de la réponse DDPP 56 du 18/07, Basekou le juge non nécessaire. *(La question « catégorie » était de toute façon répondue par la déclaration enregistrée elle-même.)* ⚠️ **Cette décision ne lève pas la réserve GBPH ci-dessous** — la recevabilité du guide apicole pour une BOISSON reste non confirmée.
 
 ## HACCP — voie choisie : GBPH apicole (2026-07-21)
 

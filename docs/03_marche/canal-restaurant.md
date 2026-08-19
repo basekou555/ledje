@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-07-26
+maj: 2026-08-18
 source: "SOT §1.4bis (archive 2026-07-24) — accord 2026-07-18 ; intel MMD 2026-07-24, corrigée en session 2026-07-26"
-resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois."
+resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché."
 ---
 
 # Canal — Restaurant (TEST)
@@ -37,7 +37,24 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 ## Statut & prochaine étape
 
 - **Où on en est** : accord de test acté (18/07), livraison en attente du bouclage réglementaire.
-- **Prochaine action** : boucler déclaration + étiquette → livrer le lot O'Daba ; brief staff (faire poser la question à chaque client à l'encaissement) ; le vrai indicateur reste le RÉACHAT.
+- **Prochaine action (mise à jour 2026-08-18)** : la **déclaration d'activité est bouclée** (accusé DDPP reçu le 18/08, cf. `../04_operations/demarches-admin.md`). Restent l'**étiquette** (V1.6 en test) et le **miel** (10 kg à commander) → livrer le lot O'Daba ; brief staff (faire poser la question à chaque client à l'encaissement) ; le vrai indicateur reste le RÉACHAT.
+
+## Prospection ouverte (2026-08-18)
+
+**Décision (MMD 5 du 13/08, exécution démarrée le 18/08) : la prospection restaurants s'ouvre SANS attendre le réachat d'O'Daba.** Approche assumée : « j'attends encore les retours du premier testeur, mais je viens vous rencontrer ».
+
+**Règles d'appel (doctrine commerciale)** : jamais le prix au téléphone, **jamais le plancher** (cf. `../02_produit/prix.md`), aucune promesse de bienfait (grille `../01_adn/conformite.md`).
+
+Le **carnet de prospection**, le **script d'appel** complet et le suivi des appels vivent dans **Notion** — trop mouvants pour une fiche. Ici, seulement ce qui dure.
+
+**⚠️ Désaccord non tranché (MMD 5, 13/08)** : Valentin estime qu'un site soigné et de belles photos ne font pas closer un restaurateur — ce qui compte serait le volume déjà vendu et la notoriété qui fait choisir la bouteille dans le frigo. Basekou estime que cela rassure et crédibilise. **Consigné sans arbitrage.**
+
+## Leçons du marché
+
+Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimenter au fil des rencontres.
+
+- **[2026-07-24 — O'Daba]** Le marché nomme spontanément le produit **« eau aromatisée » plutôt que « boisson »**. 3ᵉ occurrence du signal à cette date. Cohérent avec la catégorie de référence actée le 30/07 (`../01_adn/vision-positionnement.md`).
+- **[2026-08-18 — carnet de prospection]** Sur **60 établissements** identifiés à Lyon, **17 vendent déjà des boissons de tradition en bouteille**. C'est le sous-ensemble le plus qualifié : le produit y trouve un rayon existant plutôt qu'une catégorie à créer.
 
 ## Intel terrain (appel « Money Making Djaks », 2026-07-24 — corrigée en session 2026-07-26)
 

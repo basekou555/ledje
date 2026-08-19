@@ -17,7 +17,7 @@ le dossier qui bouge le plus vite avec le terrain.
 | Fiche | Résumé | Statut |
 |---|---|---|
 | [`canal-mosquee.md`](canal-mosquee.md) | Canal mosquée en C2B2C : un fidèle donateur offre un lot, barème sans négociation | en_cours |
-| [`canal-restaurant.md`](canal-restaurant.md) | Canal en test (O'Daba) : accord, critère de succès = réachat 1-2 mois | en_cours |
+| [`canal-restaurant.md`](canal-restaurant.md) | Canal en test (O'Daba) : accord, critère = réachat 1-2 mois ; prospection ouverte (18/08) ; leçons du marché | en_cours |
 | [`acquisition-tiktok.md`](acquisition-tiktok.md) | Canal digital (inactif à ce jour) : UTM, canal B créateurs, trigger fin octobre | bloquant |
 | [`site-precommande.md`](site-precommande.md) | La refonte du site côté conversion : structure, hero, copy, précommande cristal | en_cours |
 | [`contenu-et-pubs.md`](contenu-et-pubs.md) | Méthode créa, pub 4 plans, scripts V1/V2, paramètres Higgsfield ; renvoi `../visual/` | en_cours |
