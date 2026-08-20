@@ -118,13 +118,10 @@ de cette restitution).
    « le cristal de miel » — correctif appliqué à `prompt-library.md`, `shot-book.md`, `CLAUDE.md`.
    ⚠️ Reste `ledje-master-prompt.md` qui porte encore le label « Honey Portion » : fiche **protégée**,
    correction seulement sur `@update` de Basekou.
-2. **La grille de contenu déposée est en retard sur la dernière version.** Le repo contient la
-   `03_marche/grille-contenu.md` du **17/08** (5 formats documentaires : journal de fabrication · le
-   pourquoi · produit en situation réelle · le terrain · le nom). Une version plus récente (**20/08**,
-   transmise par Basekou) porte **7 formats répétables** dont deux à forte génération — **l'évidence**
-   et **le détournement de pub** — et liste « le cahier des charges du générateur » comme bloquant.
-   ⚠️ **La version 20/08 n'est pas encore déposée** : divergence temporelle à résorber (dépôt de la
-   grille à jour).
+2. **Grille de contenu — résolu.** La `03_marche/grille-contenu.md` est désormais à jour (version
+   **20/08**) : **7 formats répétables** dont deux à forte génération — **l'évidence** et **le
+   détournement de pub** — et « le cahier des charges du générateur » listé comme bloquant, pointant
+   vers cette fiche. La version documentaire du 17/08 est remplacée. Plus de divergence.
 3. **« l'évidence » : réconcilié dans la grille 20/08.** La version récente tranche la collision : «
    l'évidence » est un **format** qui découle explicitement de l'**ingrédient 3 du territoire**
    (`territoire-de-marque.md`, « l'évidence du produit »). Plus de contradiction une fois la grille
