@@ -3,7 +3,7 @@ statut: en_cours
 domaine: operations
 maj: 2026-08-20
 source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco"
-resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH NON lancé au 20/08 ; DDM non déterminée, étiquette bloquée)."
+resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : J0 PRÉVU le 20/08, non confirmé ; DDM non déterminée, étiquette bloquée)."
 ---
 
 # Production artisanale
@@ -60,9 +60,11 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 
 **⛔ PROTOCOLE NON LANCÉ au 2026-08-20.** *(Correction : cette fiche a affirmé du 19 au 20/08 un « J0 le 19/08 » qui n'a jamais eu lieu — une intention énoncée en séance avait été écrite comme un fait accompli. Erreur de consignation, corrigée le 20/08.)*
 
-Les papiers pH sont en main depuis le **17/08** ; le protocole reste **lançable à tout moment** et prend environ un quart d'heure. **Aucune date de J0 n'est arrêtée.** Les échéances J+2 / J+4 / J+6 se calculeront à partir du J0 réel — rien n'est planifiable avant.
+Les papiers pH sont en main depuis le **17/08** ; le protocole prend environ un quart d'heure.
 
-⚠️ **Portée du résultat** : le mélange de miel n'est pas figé au 19/08 (montagne + châtaignier + tilleul, doses en cours d'ajustement — cf. `fournisseurs.md`). Ce premier passage mesure donc **la méthode et l'ordre de grandeur**, pas la DDM du produit final. Une seconde série sur le miel réellement embouteillé restera nécessaire avant d'arrêter une date.
+**📅 J0 PRÉVU le 2026-08-20** (annoncé en session le 20/08). ⚠️ **Prévu, pas fait** — cette ligne ne passera à « réalisé » qu'à la confirmation de la mesure par Basekou. Échéances qui en découleraient : **J+2 = 22/08 · J+4 = 24/08 · J+6 = 26/08**. À noter : le **J+2 tombe le même jour que la commande du miel** (samedi 22/08).
+
+⚠️ **Portée du résultat** : le mélange de miel n'est toujours pas figé au 20/08 (montagne + châtaignier + tilleul, doses en cours d'ajustement — cf. `fournisseurs.md`). Ce premier passage mesure donc **la méthode et l'ordre de grandeur**, pas la DDM du produit final. Une seconde série sur le miel réellement embouteillé restera nécessaire avant d'arrêter une date.
 
 **Questions à poser aux apiculteurs (actées 11/08)** : miel filtré ou non (finesse), taux d'humidité (> 18 % = sujet à fermenter), pH / HMF / indice diastasique si mesurés, analyse par lot, clients qui diluent, transformateurs boisson connus, et **attestation écrite du process thermique** (sans document, « jamais chauffé » repose sur une parole).
 
