@@ -26,8 +26,13 @@ Le fil qui relie tout, et qu'il faut pouvoir refaire à tout moment :
 
 ## Règles du dossier
 
-- **Zone PROTÉGÉE** : modification uniquement sur demande explicite de Basekou, jamais
-  suggérée spontanément (cf. `../05_systeme/workflow-maj.md`).
+- **⚠️ Zone MODIFIABLE — déverrouillage temporaire en cours** *(décidé le 2026-07-31, confirmé le 2026-08-20)*.
+  Les fiches ADN se modifient **sans validation préalable au cas par cas**, à trois conditions :
+  branche + PR + une ligne au `decisions-log` ; **`conformite.md` reste protégée et figée**
+  (le réglementaire ne devient pas révisable) ; régime temporaire, à re-verrouiller quand
+  positionnement et branding se stabilisent (cf. `../05_systeme/workflow-maj.md`).
+  *(Corrige la mention « Zone PROTÉGÉE » portée par la version du 17/08, qui contredisait
+  `workflow-maj.md`.)*
 - Toute production de texte sortant passe la grille de `conformite.md` — étape fixe.
 - Le texte de base de l'ADN est la **base de connaissance de marque V1** ; les acquis des sessions
   la complètent. En cas de formulation divergente, c'est la V1 qui fait foi.
