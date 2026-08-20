@@ -1,45 +1,126 @@
 ---
 statut: en_cours
 domaine: adn
-maj: 2026-07-28
-source: "SOT §1.6 + Partie 6bis (archive 2026-07-24) ; gardienne/offreur → hypothèses 2026-07-20 ; cible active actée 2026-07-28 (MMD 3)"
-resume: "Le pratiquant (persona de conception, figé) + ses extensions gardienne/offreur (⚠️ hypothèses à confirmer depuis le 20/07), et la grille de contenu par cible."
+maj: 2026-08-17
+source: "Base de connaissance de marque V1 (sections 4, 5, 7) comme texte de base, complétée par la fiche antérieure (SOT §1.6 + Partie 6bis) et les décisions datées : 2026-07-28 cible active, 2026-07-29 carte CEP v0, 2026-07-30 ambition nomade et rejet de l'universalisation, 2026-08-17 sortie des profils secondaires vers les hypothèses terrain"
+resume: "Le pratiquant, unique persona de conception : population, psychologie, moments de consommation, frontières, parcours de décision. La grille de contenu est sortie de cette fiche le 2026-08-17."
 ---
 
-# Cibles & grille de contenu
+# Cible
 
-## Les trois cibles — ce sont des EXTENSIONS d'un même persona, pas trois marques différentes
+La cible se définit à **trois niveaux complémentaires** : la population, la psychologie, les situations de consommation. Les trois ensemble — aucun ne suffit seul.
 
-**Correction importante (2026-07-02) :** on ne construit pas trois identités de marque. Une seule marque, pensée à 100 % pour le **pratiquant** (persona de conception). La gardienne et l'offreur sont des **rôles/usages secondaires** qui viennent se brancher sur le même univers — souvent la même personne à des moments différents de sa vie. Le ton de fond reste constant ; **l'angle de message** change selon le rôle (grille ci-dessous).
+> **Un seul persona de conception : le pratiquant.** Les rôles secondaires autrefois décrits ici (gardienne du foyer, offreur) sont sortis de l'ADN le 2026-08-17 : ce sont des **hypothèses à tester**, pas des cibles acquises, et elles ont pris la forme d'hypothèses testables **H4 et H5** dans `../03_marche/mom-test.md`. Elles reviendront ici si la campagne v2 les confirme.
 
-**⚠️ Statut révisé (2026-07-20) :** la gardienne et l'offreur sont rétrogradés en **hypothèses à confirmer** — « les Mom Tests disent autre chose » (Basekou). Leur activation phase 2 n'est plus un acquis ; à confronter au terrain. Le pratiquant reste le persona de conception, figé.
+---
 
-1. **Le pratiquant** — vit le rituel personnellement. **Persona de conception et de test n°1.** 18-35 ans, jeune actif à jeune parent, vit en grande ville, achète halal en grande distribution et épiceries de quartier, va à la mosquée le vendredi ou plus, **en démarche active d'approfondissement** (médecine prophétique, apprentissage religieux) — pas une pratique héritée figée. **Précision actée (2026-07-28)** : le cœur de cible est le musulman **actif dans sa pratique** — celui qui « fait par obligation, n'est pas conscient des règles » ne se sentira pas concerné par la marque. Corollaire : cette cible décode des **codes subtils** (boire de la main droite, vêtement, gestes) — les codes indirects fonctionnent. Produit d'entrée : **pack découverte** (achat simple, sans engagement) — PAS l'abonnement, qui ne correspond pas à son mode d'achat.
-   - **Parcours de décision :** (1) est-ce bon pour ma santé ? → répondre par la preuve produit (pureté, traçabilité), jamais par une allégation. (2) le goût → faible frein, le miel est déjà apprécié. (3) les valeurs de la marque, est-ce qu'elle "fait des dingueries" (repoussoir cité : Coca et ses financements contestés) → la transparence sur qui est derrière la marque et ce qu'elle soutient doit être visible, pas juste esthétique.
-2. **La gardienne du foyer** (souvent mère/épouse) — gère le réapprovisionnement du foyer. Cible naturelle de l'**abonnement classique** (structurellement plus abonnable que le pratiquant). Activation phase 2.
-3. **L'offreur** — achète pour offrir, pics Aïd/Ramadan. Cible du **coffret découverte** (étage 2) et piste nouvelle : un **abonnement calé sur le calendrier religieux** (envoi automatique programmé pour Ramadan, Aïd al-Fitr, Aïd al-Adha) — différent d'un abonnement de consommation, c'est un abonnement de fidélité aux moments qui comptent ("ne jamais rater l'occasion d'offrir"). Activation phase 2.
+# 1. La population cœur de cible
 
-## Grille de contenu par cible (2026-07-02)
+Le cœur de cible initial : **personnes musulmanes actives dans leur religion.**
 
-Référence pour générer scripts vidéo et contenu landing sans réexpliquer les personas à chaque fois. Un ton de fond constant, un angle de message différent par cible.
+« Actives » signifie une **démarche volontaire d'apprentissage et de recherche de savoir religieux**. Elles ne pratiquent pas uniquement par habitude ou héritage : elles cherchent à comprendre leur religion et à progresser dans leur pratique. *(Précision actée le 2026-07-28 : celui qui « fait par obligation, n'est pas conscient des règles » ne se sentira pas concerné par la marque.)*
 
-### Le pratiquant *(priorité — persona de lancement)*
+Cette caractéristique rend la personne plus susceptible de : découvrir l'origine du produit · comprendre la référence au miel · être sensible à la transmission · rechercher des produits cohérents avec ses convictions · être intéressée par une marque qui s'adresse réellement à elle.
 
-- **Hook d'acquisition (TikTok) :** ⚠️ PAS du "food porn"/ASMR en premier (testé et écarté : produit de l'engagement passif, "joli" mais sans intérêt actif pour ce persona). **Le hook gagnant = un rappel du rituel oublié**, un message qui interpelle avant de montrer le produit (ex. "Tu fais ça tous les jours. Et ça, tu l'as oublié ?"). Le geste sensoriel (dissolution, shake) vient en second temps, comme preuve/paiement une fois l'attention captée — pas comme porte d'entrée.
-- **Contenu landing :** pack découverte comme premier geste sans engagement. Récit du geste ancré dans la tradition (évocation, jamais de verset cité). Faits produits (pur, français, jamais chauffé) en réassurance, pas en argument principal.
-- **Contenu de fidélisation :** série sur le combat "dilution de la pratique" (décliné sur plusieurs habitudes du quotidien, pas seulement le miel). Contenu calendaire discret sur les jours de jeûne recommandés (lundi/jeudi, jours blancs).
-- **Combat associé :** dilution de la pratique (dominant). Grandes marques en ponctuel, seulement si une actualité s'y prête.
+**Corollaire opérationnel** : cette cible **décode des codes subtils** (boire de la main droite, vêtement, gestes). Les codes indirects fonctionnent — on n'a pas besoin d'expliciter pour être compris.
 
-### La gardienne du foyer *(activation phase 2 — abonnement)*
+**Chiffrage.** Les musulmans pratiquants représentent environ **35 % des musulmans de France, soit ~1,3 million de personnes tous âges confondus** (IFOP 2025). Le cœur de cible de Lédjé en est le **sous-ensemble jeune** : 18-35 ans, urbain, jeune actif à jeune parent, mosquée hebdomadaire ou plus — segment que la mesure identifie comme le plus dynamique de la pratique.
 
-- **Hook d'acquisition :** varier — rappel du geste ET transmission (le plus fort des deux : elle prépare le geste pour ses enfants). Format posé, moins speed que le pratiquant.
-- **Contenu landing/page abonnement :** "ne plus s'en soucier" — fiabilité, praticité, toujours avoir le vrai produit à la maison. Pack famille / format qui dure.
-- **Contenu de fidélisation :** transmission intergénérationnelle — comment elle initie ses enfants au geste, mémoire familiale.
-- **Combat associé :** grandes marques (dominant — "ce que je donne vraiment à ma famille" vs marketing industriel, vigilance parentale universelle, aucun risque religieux). Dilution de la pratique en secondaire.
+Achats : halal en grande distribution et **épiceries de quartier** (H-Market cité spontanément trois fois en entretien). Produit d'entrée : **pack découverte**, achat simple sans engagement — pas l'abonnement, qui ne correspond pas à son mode d'achat.
 
-### L'offreur *(activation phase 2 — coffret + abonnement calendaire)*
+---
 
-- **Hook d'acquisition :** le déballage/unboxing, l'objet précieux qu'on ouvre — cohérent avec le design system émeraude+or, pensé pour cet usage.
-- **Contenu landing (page coffret) :** le voyage des origines (Yémen, Oman — fil narratif Égypte quand activé), rareté et traçabilité, mise en scène du cadeau comme geste de transmission entre proches.
-- **Contenu de fidélisation :** contenu saisonnier Aïd/Ramadan — "offrir un vrai geste plutôt qu'un objet de plus".
-- **Combat associé :** aucun des deux combats principaux — registre propre au cadeau (le sens contre le superflu), ponctuel.
+# 2. La psychologie de la cible
+
+La cible n'est pas définie uniquement par son identité religieuse. Elle possède une recherche de **cohérence personnelle**. Elle ressent une frustration lorsqu'elle doit faire des compromis dans sa consommation quotidienne. Elle cherche progressivement à rapprocher : ce qu'elle croit · ce qu'elle veut pour elle-même · ce qu'elle consomme · la personne qu'elle souhaite devenir.
+
+La consommation devient donc l'un des endroits où cette cohérence se manifeste.
+
+**Une tension importante** : la personne ne veut pas nécessairement « être parfaite ». Elle veut pouvoir faire des choix qui lui ressemblent davantage **sans avoir l'impression de renoncer au plaisir ou de compliquer sa vie**.
+
+## 2.1 Ce que le terrain a établi
+
+- **Le boycott est un comportement réel, pas une posture** : 5 occurrences spontanées sur 8 entretiens. Elle vérifie les compositions, se renseigne sur qui est derrière une marque et sur ce qu'elle soutient. Signal considéré comme **acquis** — inutile de le re-tester.
+- **L'exploitation commerciale du religieux est un repoussoir immédiat.** Puisqu'elle décode les codes subtils, elle repère d'autant plus vite l'instrumentalisation.
+- **Son rapport au miel est hérité et déjà quotidien** : le remède de l'enfance transmis par la mère, les boissons traditionnelles de la maison (gingembre, bissap, kenkeliba), et une présence installée dans ses boissons de tous les jours (le café, le thé). **Lédjé ne lui apprend rien de nouveau** : elle lui offre, prête et fraîche, une chose qu'elle connaît déjà.
+- **Ses ancres de prix**, entendues en entretien : canette 1,50 € · Prime 3 € · Monster 3,50 €. Panier observé : 1 à 4 bouteilles par semaine.
+- **Son référentiel de nouveauté** : Prime, Holy, les kombuchas. Elle connaît les codes de la boisson de nouvelle génération.
+
+## 2.2 Le parcours de décision
+
+Trois questions, dans cet ordre :
+
+1. **Est-ce bon pour moi ?** → on répond par la **preuve produit** (pureté, traçabilité), **jamais par une allégation** (cf. `conformite.md`).
+2. **Le goût** → frein faible, le miel est déjà apprécié.
+3. **Les valeurs de la marque** — « est-ce qu'elle fait des dingueries » (repoussoir cité : Coca et ses financements contestés) → la transparence sur qui est derrière la marque et ce qu'elle soutient doit être **visible, pas juste esthétique**.
+
+**Le prix n'est pas un critère d'entrée.**
+
+---
+
+# 3. Le moment de consommation
+
+Le moment particulièrement pertinent pour Lédjé est celui où **le choix de boissons est limité**.
+
+Le cas emblématique est le **snack**. Une personne commande à manger, arrive devant le réfrigérateur et trouve principalement des sodas, des boissons très sucrées, des listes d'ingrédients complexes, des produits qui ne lui correspondent pas. Lédjé devient alors une **évidence parmi les choix disponibles**.
+
+> **Lédjé existe pour qu'on puisse choisir sans avoir à faire un mauvais compromis.**
+
+**Situations pertinentes** : snack · restauration rapide · repas à emporter · lieux où le choix est limité · pause déjeuner · voiture · trajet · arrêt de bus · banc, parc · rue · pique-nique · moments de partage · consommation extérieure au domicile.
+
+**Le positionnement nomade est important** : une boisson que l'on **emmène et consomme dans la vie quotidienne**. Il repose sur un pari assumé — chez soi, rien n'empêche de préparer son eau miellée soi-même ; la valeur de Lédjé est d'exister **prête, fraîche, dehors**, là où personne ne se prépare sa boisson. Conséquence : **à domicile, le concurrent n°1 est le fait-maison.**
+
+## 3.1 Ce que le terrain dit à ce jour — ⚠️ écart avec la stratégie
+
+Les moments de consommation du miel documentés sont **très majoritairement domestiques**. Carte des occasions candidates, tirée des 8 entretiens de la campagne v1 :
+
+| Occasion candidate | Fréquence | Remarque |
+|---|---|---|
+| La boisson chaude quotidienne au miel (café, thé, matin) | 4/8 | Moment **chaud** : Lédjé propose de le déplacer vers le frais, ce qui est plus difficile que de s'y insérer. |
+| Les boissons traditionnelles préparées à la maison (gingembre, bissap, kenkeliba) | 4/8 | Elles se boivent **déjà fraîches** — point d'entrée possiblement plus naturel. |
+| La table du Ramadan (iftar, imsak) | 1/8 | Peu documenté mais précis. Aligné sur la north star. |
+
+**Le miel-remède** (gorge, toux) est un moment de consommation réel mais **interdit d'exploitation en communication** — c'est une allégation santé. L'explorer en entretien reste autorisé : comprendre n'est pas revendiquer (cf. `conformite.md`).
+
+**Deux angles morts** :
+- **Le moment de la mosquée** : zéro donnée sur 8 entretiens, alors que c'est un canal de la marque.
+- **Les situations nomades** listées plus haut : elles fondent la stratégie mais **restent à documenter côté demande**. L'ambition nomade est une décision d'offre assumée, pas encore un fait établi.
+
+*(Campagne d'entretiens v2 en cours pour combler ces trous : voir `../03_marche/mom-test.md`.)*
+
+---
+
+# 4. Les frontières de la cible
+
+Les frontières actuelles sont des **hypothèses de travail**, pas des vérités démontrées.
+
+**Probablement hors cible** : qui n'aime pas le miel · qui n'est pas sensible à l'origine ou à la dimension religieuse du produit · qui ne se reconnaît pas dans la démarche de la marque · qui ne recherche pas particulièrement de cohérence dans ses choix de consommation.
+
+**Attirées mais peu fidélisables** : certaines personnes peuvent aimer le goût du miel ou être curieuses sans adhérer à l'univers. Achat ponctuel possible, potentiel de fidélisation faible.
+
+**Cercles d'élargissement** : à terme, des personnes non musulmanes recherchant des produits simples, des recettes compréhensibles, une consommation plus cohérente, une alternative aux boissons conventionnelles, des produits ayant une histoire et une origine authentiques.
+
+⚠️ Cette ouverture est une **ambition d'expansion, pas une raison de diluer le cœur de cible initial**. L'universalisation de la cible a été **explicitement rejetée** par Basekou (2026-07-30). La communauté musulmane est le point de départ naturel de la marque, pas nécessairement sa limite finale.
+
+---
+
+# 5. La question stratégique ouverte
+
+**Quelle place occupe réellement la religion dans la décision d'achat ?** Deux thèses s'opposent :
+
+- « J'achète Lédjé **parce que je suis musulman**. »
+- « J'achète Lédjé **parce que c'est une meilleure boisson**, qui en plus est musulmane. »
+
+Ce que la matière actuelle suggère sans trancher : la hiérarchie des motivations (fraîcheur d'abord, appartenance en fidélité) et l'architecture des messages penchent vers la **seconde**.
+
+**L'instrument de mesure est le réachat O'Daba** : il répondra du même coup à l'inconnue jumelle, le critère réel de fidélité (goût, valeurs, habitude ou appartenance).
+
+---
+
+# À compléter
+
+- Les **moments nomades** côté demande (campagne v2).
+- Le **moment de la mosquée** : angle mort total.
+- La **question stratégique** de la section 5, que le réachat O'Daba tranchera.
+- Les hypothèses **H4 (gardienne)** et **H5 (offreur)** : si confirmées, réintégrer les rôles dans cette fiche.
+- La **fiche grille de contenu**, à construire sur le cadre actuel (quatre niveaux de messages, cinq ingrédients du territoire, moments de consommation).

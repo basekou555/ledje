@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: adn
-maj: 2026-07-31
-source: "SOT §1.1, 1.2, 1.3, 1.5 (archive 2026-07-24) ; valeurs 2026-07-20 ; positionnement affiné verrouillé 2026-07-30 (session Com), hiérarchie de marque remplacée sur décision Basekou 2026-07-31"
-resume: "Marque d'eau miellée, Branche C, valeurs, positionnement affiné (catégorie eau aromatisée, ambition nomade, mission), hiérarchie des motivations ; moments ancrés à requalifier sous l'angle nomade. ⚠️ fiche évolutive, pas un socle figé."
+maj: 2026-08-17
+source: "Base de connaissance de marque V1 (sections 1.2, 2, 3, 6, 13, 14, 15, 16, 22) comme texte de base, complétée par la fiche antérieure (SOT §1.1, 1.2, 1.3, 1.5) et les décisions datées : 2026-07-20 valeurs, 2026-07-30 positionnement affiné et vision 3 ans, 2026-07-31 hiérarchie des motivations"
+resume: "Vision, mission, catégorie, valeurs, proposition de valeur, hiérarchie des motivations, expérience de marque et principes de décision. ⚠️ fiche évolutive, pas un socle figé."
 ---
 
 # Vision & positionnement
@@ -12,67 +12,138 @@ resume: "Marque d'eau miellée, Branche C, valeurs, positionnement affiné (cat�
 
 **Lédjé** = marque d'**eau miellée** — eau et miel, rien d'autre — pour la **communauté musulmane francophone dans toute sa diversité**. Un geste de la tradition remis au goût du jour, sous une forme belle et simple.
 
-Deux formes : la **bouteille prête à boire** (la valeur nomade — cf. positionnement affiné ci-dessous) et le **cristal de miel** à dissoudre dans l'eau fraîche.
-
-> *Réécrit le 2026-07-31 : la définition antérieure plaçait le cristal en tête et la bouteille en second (« marque DTC de cristal de miel pur (+ bouteille prête à boire) »). Elle ne correspondait plus au positionnement du 30/07, qui pose la catégorie **eau aromatisée** et fait de la version prête-à-boire la valeur centrale.*
+Deux formes : la **bouteille prête à boire** (la valeur nomade) et le **cristal de miel** à dissoudre dans l'eau fraîche.
 
 **Le principe fondateur : créer un univers autour de quelque chose de simple.** (Références : Crocs — un univers entier autour d'une chaussure basique ; les marques de bougies — un imaginaire autour d'un objet qu'on chauffe ; Lipton — un monde de moments autour d'eau chaude infusée.) L'identité ne décrit pas le produit, elle impose un point de vue. Le moat = marque, communauté, authenticité — pas le produit lui-même.
 
 **North star : Ramadan 2027.**
 
-## Positionnement (verrouillé)
+---
 
-**Branche C : 100 % communauté dans la conception, mainstream = bonus non payé.** On conçoit tout pour la communauté musulmane pratiquante francophone (Maghreb, Afrique de l'Ouest, convertis, 2e/3e générations). Si un non-musulman achète, on l'accueille sans rien changer — on ne dilue jamais, on ne paie pas pour l'acquérir.
+# 1. La vision
 
-**Le job du produit :** « vivre un geste de ma tradition, au quotidien, sans le cacher et sans me contenter du cheap. » Job identitaire, pas « hydratation + santé perçue ». Achat émotionnel, prime de prix acceptée, réachat porté par l'identité.
+> **Rendre désirable une consommation plus cohérente.**
 
-## Positionnement affiné — verrouillé le 2026-07-30 (session Com)
+Cette vision dépasse la seule boisson. Lédjé cherche à montrer qu'il est possible de consommer autrement **sans avoir à choisir systématiquement** entre plaisir, simplicité, convictions, qualité et désirabilité.
 
-- **Catégorie de référence : l'EAU AROMATISÉE.** Double implantation visée : entrée du magasin OU rayon halal. Concurrents réels : eaux aromatisées, thés glacés, boissons fruitées, sodas.
-- **Frustration fondatrice** (verbatims Basekou) : « toujours choisir la moins mauvaise option », « des boissons qui essaient de me piéger », « réconcilier plaisir et cohérence ».
-- **Pratiquant-first maintenu** — universalisation explicitement rejetée (« ce n'est pas mes mots »).
-- **Ambition NOMADE actée** (décision d'offre) : chez soi, on fait son eau miellée soi-même — la valeur de Lédjé = la version prête, dehors. Concurrent n°1 à domicile = le fait-maison. Le nomade est un principe transversal (format, packaging, distribution, prix, com).
-- **Mission : « Préserver l'essence, adapter la forme. »**
-- ⚠️ Réserve méthodo consignée : les moments extérieurs (nomade) restent à documenter côté demande (campagne v2, inventaire de la veille).
+La cohérence n'est jamais présentée comme une contrainte ou une morale. Elle doit devenir **désirable**.
 
-### La hiérarchie des motivations (remplace la hiérarchie de marque)
+**L'étape à trois ans : devenir une référence culturelle** — la marque que la communauté reconnaît comme la sienne. La vision est la boussole ; la référence culturelle est l'étape qui y mène.
 
-**Fraîcheur > plaisir > absence de compromis > tradition > appartenance**, déclinée en parcours à 3 étages :
+**Critères de réussite de la vision** : dépasser le produit (elle doit guider Lédjé au-delà de l'eau miellée) · découler naturellement de la mission · donner une direction ambitieuse (pas seulement une nouvelle boisson) · être désirable, jamais une punition · être actionnable sur le produit, la communication, la distribution et la marque · rester suffisamment ouverte pour ne pas enfermer Lédjé dans une seule communauté ou un seul produit à long terme.
+
+---
+
+# 2. La mission
+
+> **Préserver l'essence, adapter la forme.**
+
+Lédjé part d'une tradition, d'un savoir ou d'une pratique existante, mais ne cherche pas simplement à la reproduire. Elle cherche à : conserver ce qui fait son essence · supprimer ce qui n'est plus nécessaire · adapter la forme aux usages contemporains · rendre cette tradition accessible et désirable aujourd'hui.
+
+**Critères de réussite de la mission** : être concrète · guider les décisions · rester cohérente avec le produit · permettre d'évoluer au-delà de l'eau miellée · éviter une approche nostalgique ou conservatrice de la tradition · traduire le rôle de Lédjé, **faire vivre quelque chose d'existant sous une forme contemporaine**.
+
+---
+
+# 3. La catégorie
+
+**Catégorie de référence : l'EAU AROMATISÉE.** Lédjé doit être comprise immédiatement comme une boisson fraîche et désaltérante, et **non** comme : un complément alimentaire, un médicament, une boisson fonctionnelle, une boisson premium, une infusion, un produit uniquement religieux.
+
+Double implantation visée : **entrée du magasin** (le réflexe soif) **ou rayon halal** (l'appartenance). Concurrents réels : eaux aromatisées, thés glacés, boissons fruitées, sodas.
+
+---
+
+# 4. Les valeurs
+
+**Transmission · cohérence · le vrai** — ordre et mots actés le 2026-07-20, cascade adossée aux verbatims.
+
+1. **La transmission** — faire vivre et transmettre ce qui mérite de l'être (« une Sunna qu'on avait oubliée »). Lédjé ne raconte pas une tradition : elle la fait exister au présent. **La racine.**
+2. **La cohérence** — ne pas dire une chose et en faire une autre (« je peux pas financer ça »). C'est aussi un **principe de décision** : elle guide le produit, les ingrédients, le discours, les partenaires, la distribution, les prises de parole. **La conséquence.**
+3. **Le vrai** — préférer le réel, le compréhensible et le sincère à l'artificiellement construit (« si c'est vraiment du miel »). Refuser les fausses promesses, les artifices, les exagérations, l'exploitation opportuniste de la religion. **L'exigence.**
+
+**Clarification actée** : la **fraîcheur n'est pas une valeur**, c'est une **promesse faite au consommateur** — ce qu'il ressent, pas ce que la marque défend.
+
+---
+
+# 5. La proposition de valeur
+
+> **L'eau miellée qui permet de choisir une boisson simple, fraîche et agréable, sans avoir à faire de compromis avec ce qui compte pour soi.**
+
+Elle reste centrée sur le **bénéfice consommateur**. Elle ne doit jamais devenir une explication de la mission ou de l'histoire de Lédjé.
+
+**Critères** : compréhensible immédiatement · parle du bénéfice réel · cohérente avec le produit · différenciante · crédible · compréhensible **sans connaître l'histoire** de Lédjé · ne dépend d'aucune promesse santé illégale.
+
+---
+
+# 6. Achat, réachat et hiérarchie des motivations
+
+**Premier achat : la curiosité.** La personne voit une boisson qu'elle ne connaît pas, avec une proposition inhabituelle — eau + miel. Elle veut essayer.
+
+**Réachat : le plaisir, le goût, la fraîcheur.** La marque, ses valeurs et son univers jouent un rôle de **réassurance et de fidélisation**.
+
+> La marque peut provoquer l'essai, mais le produit doit donner envie de revenir.
+
+Si le goût n'est pas bon, la fidélisation est très difficile. Si le goût est comparable à celui d'un concurrent, la marque et la confiance deviennent alors les facteurs de préférence.
+
+## La hiérarchie des motivations
+
+**Fraîcheur > plaisir > absence de compromis > tradition > appartenance**, déclinée en parcours à trois étages :
 
 1. **Achat** — fraîcheur, plaisir.
 2. **Rachat** — confiance : « cette marque me respecte ».
 3. **Fidélité** — tradition, appartenance.
 
-**Cette hiérarchie remplace la hiérarchie de marque (rituel / soin / dignité), conservée plus bas pour l'histoire** *(décision Basekou, 2026-07-31)*. La tradition n'arrive jamais en accroche d'achat : elle se gagne en fidélité.
+**La tradition n'arrive jamais en accroche d'achat : elle se gagne en fidélité.** Le consommateur n'achète pas d'abord une tradition — il achète une boisson fraîche qui, en plus, est cohérente avec ce qu'il est.
 
-## Valeurs (validées le 2026-07-20)
+*(Cette hiérarchie remplace la hiérarchie de marque — rituel / soin / dignité — archivée. Décision Basekou, 2026-07-31.)*
 
-**Transmission · cohérence · le vrai** — ordre et mots actés par Basekou, cascade adossée aux verbatims. La déclinaison complète (« cascade ») vit dans les Fondations com (hors repo) : à compléter ici lors d'un prochain import.
+**Lédjé n'est pas une boisson santé.** La santé n'est pas un déclencheur d'achat : elle joue un rôle de **réassurance**, après coup. Le premier contact passe par la désirabilité.
 
-## La hiérarchie de marque — ⚠️ REMPLACÉE le 2026-07-30 (conservée pour l'histoire)
+---
 
-> Remplacée par la **hiérarchie des motivations** ci-dessus (décision Basekou, 2026-07-31). Ne plus s'en servir comme grille de priorisation.
->
-> **Trois règles issues de cette section restent en vigueur** et sont reprises telles quelles :
-> 1. **Le geste n'est jamais l'argument d'entrée** — couleur différenciante en second rideau, jamais l'accroche. Le produit vendu est une boisson finie, pas un kit à préparer. *(Règle citée par `../03_marche/site-precommande.md`.)*
-> 2. **Jamais cheap** — la dignité/beauté justifie la prime de prix.
-> 3. **La « protection » reste tournée vers l'intérieur** — prendre soin des siens, jamais une posture de combat sanitaire.
+# 7. L'expérience de marque
 
-1. **Le rituel / le geste** *(différenciant, PAS l'argument d'entrée — décision 2026-07-10)* — le mélange/la préparation n'est **pas** un argument de vente (« les gens n'achètent pas parce qu'ils doivent mélanger une boisson »). C'est une **couleur différenciante** à exploiter en second rideau (intéressant parce que singulier), jamais l'accroche. Le produit vendu = **une eau miellée, boisson finie prête à boire** — pas un kit à préparer. Reste un moteur de réachat et de contenu, mais on n'ouvre jamais dessus.
-2. **Le soin, la pureté, l'origine locale** *(soutient)* — confiance, ticket d'entrée. La "protection" reste tournée vers l'intérieur (prendre soin des siens en leur offrant quelque chose de vrai et digne).
-3. **La dignité / la beauté** *(finit)* — prime de prix. Jamais cheap.
+Une progression en cinq temps :
 
-## Le moment (ancre du rituel) — ⚠️ à requalifier sous l'angle nomade
+1. **Découverte / curiosité** — « C'est quoi ? » L'objectif est de donner envie d'essayer.
+2. **Plaisir / évidence** — « C'est bon. » puis « En fait, c'est évident. » Le produit doit justifier à lui seul une partie de la proposition de marque.
+3. **Sérénité** — « Je suis bien avec ce choix. » La personne n'a pas seulement bu quelque chose qu'elle aime : elle a l'impression d'avoir fait un choix cohérent.
+4. **Découverte progressive** — l'histoire, la tradition, les personnes, les valeurs, la mission, l'univers. Cette découverte n'arrive pas immédiatement, elle se construit avec le temps.
+5. **Fidélisation** — plaisir, habitude, confiance, cohérence, identification, bons moments associés à la marque.
 
-> **Statut 2026-07-31** : les deux moments ci-dessous sont **hérités** et se passent tous les deux **à domicile** — or l'ambition nomade actée le 30/07 pose que le fait-maison est le concurrent n°1 à domicile, et que la valeur de Lédjé se joue **dehors**. Ces ancres ne sont donc plus suffisantes.
-> **Rien n'est remplacé pour l'instant** : les moments extérieurs restent **à documenter côté demande** (campagne v2, inventaire de la veille) — on ne les invente pas depuis le bureau. À reprendre dès que la campagne v2 aura produit des données.
+---
 
-- **Moment-héros : la rupture du jeûne.** PAS limité au Ramadan — lundi, jeudi, jours blancs, Arafat, Achoura, six de Shawwal : le moment récurre chaque semaine pour un pratiquant. Plus la personne est pratiquante, plus elle a d'occasions. Le Ramadan est le *pic*, pas le modèle.
-- **Moment-volume : la boisson de fin de repas.** Quotidien, convivial.
-- *(Image « au lieu du vin des Français » = outil de réflexion interne uniquement, jamais en com — pas de « eux contre nous ».)*
+# 8. Les principes de décision
 
-## Renvois
+Lorsque plusieurs options sont possibles :
 
-- Les deux combats et la ligne rouge : `combats.md`
+| Domaine | La question |
+|---|---|
+| Produit | Est-ce que c'est **réellement nécessaire** ? |
+| Marque | Est-ce **cohérent avec ce que nous sommes** ? |
+| Communication | Est-ce que **nous le dirions réellement comme ça** ? |
+| Culture | Est-ce que nous **incarnons** cette culture plutôt que de la caricaturer ? |
+| Consommateur | Est-ce que cela rend le choix **plus désirable** ? |
+| Créativité | Est-ce que cela **apporte quelque chose**, ou est-ce seulement décoratif ? |
+
+---
+
+# 9. La logique générale de la marque
+
+Lédjé part d'une chose extrêmement simple : **de l'eau et du miel.** Cette simplicité donne naissance à une expérience. La personne découvre. Elle est curieuse. Elle goûte. Elle apprécie. Le produit provoque alors : **« Mais oui. C'était évident. »** Cette évidence produit une forme de sérénité : **« Je suis bien avec ce choix. »** Puis la personne découvre progressivement l'histoire, la tradition, les personnes et les valeurs qui se trouvent derrière le produit.
+
+L'ensemble doit finalement produire quelque chose de plus grand que le simple plaisir de boire :
+
+> **la sensation d'avoir fait un choix qui ressemble à la personne que l'on veut être.**
+
+C'est cette cohérence que Lédjé cherche à rendre **désirable**.
+
+---
+
+# Renvois
+
+- **Archives** (hiérarchie de marque remplacée, moments hérités, ancienne section positionnement) : `../_ARCHIVE_vision-positionnement_2026-08-17.md`
+- Les deux combats, la ligne rouge et ce que Lédjé refuse d'être : `combats.md`
 - L'offre à deux étages et le chemin de production : `architecture-offre.md`
-- Les cibles : `cibles-et-contenu.md`
+- La cible, sa psychologie et ses moments de consommation : `cibles-et-contenu.md`
+- Le territoire créatif et ses questions filtres : `territoire-de-marque.md`
+- Le nom, le ton, le lexique, l'architecture des messages : `identite-verbale.md`
