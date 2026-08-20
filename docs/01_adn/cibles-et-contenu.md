@@ -1,16 +1,16 @@
 ---
 statut: en_cours
 domaine: adn
-maj: 2026-08-17
-source: "Base de connaissance de marque V1 (sections 4, 5, 7) comme texte de base, complétée par la fiche antérieure (SOT §1.6 + Partie 6bis) et les décisions datées : 2026-07-28 cible active, 2026-07-29 carte CEP v0, 2026-07-30 ambition nomade et rejet de l'universalisation, 2026-08-17 sortie des profils secondaires vers les hypothèses terrain"
-resume: "Le pratiquant, unique persona de conception : population, psychologie, moments de consommation, frontières, parcours de décision. La grille de contenu est sortie de cette fiche le 2026-08-17."
+maj: 2026-08-20
+source: "Base de connaissance de marque V1 (sections 4, 5, 7) comme texte de base, complétée par la fiche antérieure (SOT §1.6 + Partie 6bis) et les décisions datées : 2026-07-28 cible active, 2026-07-29 carte CEP v0, 2026-07-30 ambition nomade et rejet de l'universalisation, 2026-08-20 sortie des profils secondaires vers les hypothèses terrain"
+resume: "Le pratiquant, unique persona de conception : population, psychologie, moments de consommation, frontières, parcours de décision. La grille de contenu est sortie de cette fiche le 2026-08-20."
 ---
 
 # Cible
 
 La cible se définit à **trois niveaux complémentaires** : la population, la psychologie, les situations de consommation. Les trois ensemble — aucun ne suffit seul.
 
-> **Un seul persona de conception : le pratiquant.** Les rôles secondaires autrefois décrits ici (gardienne du foyer, offreur) sont sortis de l'ADN le 2026-08-17 : ce sont des **hypothèses à tester**, pas des cibles acquises, et elles ont pris la forme d'hypothèses testables **H4 et H5** dans `../03_marche/mom-test.md`. Elles reviendront ici si la campagne v2 les confirme.
+> **Un seul persona de conception : le pratiquant.** Les rôles secondaires autrefois décrits ici (gardienne du foyer, offreur) sont sortis de l'ADN le 2026-08-20 : ce sont des **hypothèses à tester**, pas des cibles acquises, et elles ont pris la forme d'hypothèses testables **H4 et H5** dans `../03_marche/mom-test.md`. Elles reviendront ici si la campagne v2 les confirme.
 
 ---
 

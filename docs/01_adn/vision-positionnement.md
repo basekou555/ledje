@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: adn
-maj: 2026-08-17
+maj: 2026-08-20
 source: "Base de connaissance de marque V1 (sections 1.2, 2, 3, 6, 13, 14, 15, 16, 22) comme texte de base, complétée par la fiche antérieure (SOT §1.1, 1.2, 1.3, 1.5) et les décisions datées : 2026-07-20 valeurs, 2026-07-30 positionnement affiné et vision 3 ans, 2026-07-31 hiérarchie des motivations"
 resume: "Vision, mission, catégorie, valeurs, proposition de valeur, hiérarchie des motivations, expérience de marque et principes de décision. ⚠️ fiche évolutive, pas un socle figé."
 ---
@@ -141,7 +141,7 @@ C'est cette cohérence que Lédjé cherche à rendre **désirable**.
 
 # Renvois
 
-- **Archives** (hiérarchie de marque remplacée, moments hérités, ancienne section positionnement) : `../_ARCHIVE_vision-positionnement_2026-08-17.md`
+- **Archives** (hiérarchie de marque remplacée, moments hérités, ancienne section positionnement) : `../_ARCHIVE_vision-positionnement_2026-08-20.md`
 - Les deux combats, la ligne rouge et ce que Lédjé refuse d'être : `combats.md`
 - L'offre à deux étages et le chemin de production : `architecture-offre.md`
 - La cible, sa psychologie et ses moments de consommation : `cibles-et-contenu.md`

@@ -1,8 +1,8 @@
 ---
 statut: en_cours
 domaine: adn
-maj: 2026-08-17
-source: "Base de connaissance de marque V1 (session Com, 11/08 puis 17/08) — territoire arbitré par Basekou en remplacement du « mix 3 couches » proposé en session"
+maj: 2026-08-20
+source: "Base de connaissance de marque V1 (session Com, 11/08 puis 20/08) — territoire arbitré par Basekou en remplacement du « mix 3 couches » proposé en session"
 resume: "Le territoire créatif en 5 ingrédients (quotidien urbain, tradition incarnée, évidence du produit, sérénité, expression simple) avec leur question filtre ; la cohérence en est le résultat, pas un 6e ingrédient."
 ---
 

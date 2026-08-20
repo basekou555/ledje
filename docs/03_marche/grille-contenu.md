@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-08-17
-source: "Reconstruite le 2026-08-17 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Objectifs fixés par Basekou le 2026-08-17."
-resume: "À quoi sert le contenu (première impression, appui prospection, actif pour la vente en ligne), ce qui est publiable malgré l'identité visuelle non figée, les formats et la cadence."
+maj: 2026-08-20
+source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Objectifs, formats, production, comptes et cadence arrêtés par Basekou le 2026-08-20."
+resume: "À quoi sert le contenu (première impression, appui prospection, actif pour la vente en ligne), ce qui est publiable malgré l'identité visuelle non figée, les 7 formats répétables, le partage réel/IA, les comptes et la cadence."
 ---
 
 # Grille de contenu
@@ -15,6 +15,8 @@ resume: "À quoi sert le contenu (première impression, appui prospection, actif
 3. **Constituer l'actif pour la vente en ligne**, quand elle viendra. Ce qu'on tourne aujourd'hui servira demain.
 
 L'ordre compte : le contenu n'a pas à vendre aujourd'hui. Il doit rendre **crédible et désirable**.
+
+**Les hooks parlent uniquement au consommateur.** Aucun contenu n'est dédié aux professionnels — le restaurateur tire sa réassurance en passant, il n'est pas l'audience adressée.
 
 ---
 
@@ -45,27 +47,75 @@ Le contenu de la période est donc **documentaire plutôt que publicitaire**. Ce
 
 ---
 
-## Les formats
+## Les 7 formats *(arrêtés le 2026-08-20 — sujet clos)*
 
-**Le journal de fabrication.** Ce qu'on fait vraiment, tourné brut. Peser le miel, embouteiller, coller les étiquettes, livrer. C'est le format le plus honnête, le moins coûteux, et il alimente les trois objectifs à la fois. Niveau 1 et 3.
+Des **contenants répétables**, pas des idées de post : on remplit un format, on n'invente pas à chaque fois.
 
-**Le pourquoi.** Une décision, expliquée. Pourquoi eau et miel seulement, pourquoi du miel français, pourquoi pas de sucre ajouté à la formule. Toujours par le produit, jamais par une promesse d'effet. Niveau 3.
+**1. Le geste** — filmé pendant la production, sans parole : le miel qui coule, la pesée, le remplissage, l'étiquetage. Aucune préparation, puisqu'il filme un travail qui a lieu de toute façon. Niveau 1 et 3.
 
-**Le produit en situation réelle.** La bouteille dans un vrai frigo, sur une vraie table, dans une vraie main. Sert directement la prospection : le restaurateur se projette. Niveau 1 et 2.
+**2. La voix off** — **remplace le « face caméra »**, conséquence directe de la règle « Basekou n'apparaît jamais ». Mêmes rushes que *le geste*, sa voix par-dessus, 30-60 s, **une idée par vidéo**. Un seul tournage alimente donc deux formats. Niveau 3.
 
-**Le terrain.** Les dégustations, les entretiens de la campagne v2, les réactions. Montre qu'on écoute avant de vendre. Niveau 3 et 4.
+**3. Le produit en situation** — un plan, la bouteille dans un contexte réel : un vrai frigo, une vraie table, une vraie main. Sert directement la prospection, le restaurateur se projette. Niveau 1 et 2.
 
-**Le nom.** Une pièce à part : *lé* le miel, *djé* l'eau, en diakanké. Unique, explique le produit, et neutralise les mauvaises lectures. Pas urgent, mais c'est le meilleur contenu d'introduction quand on le fera. Niveau 4.
+**4. Le terrain** — livraison, dégustation, réaction, restaurateur. Montre qu'il y a de la vie, pas seulement un projet. Niveau 3 et 4.
 
-⚠️ **Formats sensoriels (food porn, ASMR) : statut rouvert.** Écartés le 2026-07-02 sur une observation d'engagement, **remis en question le 2026-08-17** après des retours positifs reçus par Basekou. À trancher avant d'en faire une série. L'éviction reposait sur une mesure, les retours sont des opinions : ne pas arbitrer à l'enthousiasme.
+**5. La sensation** — **c'est LE format du niveau 2** : il ne dit rien, il fait ressentir. Trois angles, jouables seuls ou enchaînés :
+- **la matière** — gros plan, son, goutte, condensation, gorgée ;
+- **le manque** — ce qui précède : la chaleur, la marche, l'effort, l'attente ;
+- **le relâchement** — ce qui suit : l'épaule qui redescend, la main qui repose la bouteille, le souffle.
+
+Sans visage, la sensation passe par le détail et le geste. **Les formats sensoriels (food porn, ASMR) vivent ici** — cf. section dédiée ci-dessous.
+⚠️ **Le « manque » est l'angle le plus fort et le plus risqué** : construire la soif frôle l'allégation dès qu'on suggère un bénéfice. **On montre un contexte, jamais un effet.**
+
+**6. L'écrit** — une idée en texte ou en carrousel. Le format le moins coûteux, et le seul qui se lit sans son.
+
+**7. L'évidence** — empiler des évidences universelles puis y ranger Lédjé. *« 1 + 1 = 2. L'eau, ça mouille. Lédjé, c'est de l'eau et du miel. »* Comique de répétition (référence Khaby Lame **pour la répétition uniquement**). C'est le seul format qui sort directement de l'ADN — l'ingrédient 3 du territoire, « l'évidence du produit » (`../01_adn/territoire-de-marque.md`). **La chute est toujours à la fin.** **Deux registres à tester** : évidences universelles neutres, contre évidences proches du quotidien de la cible.
+
+**+ Le détournement de pub** — reprendre les codes publicitaires de la catégorie et les jouer au premier degré : voix off grave, ralenti sur la goutte, paysage, « source naturelle depuis 1826 », musique épique. Le comique naît de **l'écart entre le sérieux du dispositif et la simplicité du produit**.
+✅ **Marques nommées — tranché le 2026-08-20** : **aucune marque nommée dans le contenu** ; la mention reste possible **en description et/ou en crédits**. On parodie des codes, pas un acteur (cohérent avec « on combat un compromis, jamais un acteur », `../01_adn/combats.md`).
+⚠️ **Point ferme** : **la parodie ne protège pas d'une allégation.** Le pastiche porte sur la forme publicitaire, jamais sur une promesse d'effet.
+
+### Le niveau 2 est résolu par un format, pas par une formule
+
+Il manquait une formule de marque pour le niveau 2 (l'expérience). **Basekou tranche le 2026-08-20 : il fallait un format, pas un slogan.** « La sensation » comble ce manque. La tâche « écrire la formule du niveau 2 » est **close**.
+
+### Formats sensoriels (food porn, ASMR) — statut
+
+✅ **Tranché le 2026-08-20 : on teste.** L'éviction du 2026-07-02 — fondée sur une observation d'engagement — est **levée**. Ils entrent en production **comme hypothèse à mesurer, pas comme acquis** : c'est la mesure d'engagement qui tranchera, pas l'enthousiasme.
 
 ---
 
-## La cadence
+## La production — le partage réel / IA *(arrêté le 2026-08-20)*
 
-Fondateur seul, production artisanale en cours, prospection active. **Une cadence tenue vaut mieux qu'une cadence ambitieuse.** Le journal de fabrication ne demande aucune préparation puisqu'il filme un travail qui a lieu de toute façon : c'est le format à privilégier quand le temps manque.
+**Le produit est filmé pour de vrai ; tout le reste passe à l'IA.** L'IA ne sait pas produire la bouteille de façon fiable (l'étiquette change à chaque plan) — en revanche elle sait **traiter** des plans réels.
 
-**Règle de tournage** : filmer plus qu'on ne publie. Chaque session de production, chaque livraison, chaque dégustation est une occasion de constituer du stock. Le montage peut attendre, pas le tournage.
+- **Basekou n'apparaît jamais.** Cohérent avec la règle visuelle existante : pas de visage, pas de regard, mains et silhouettes (`../01_adn/identite-visuelle.md`).
+- **La voix off est sa vraie voix** — une voix n'est pas un visage. Voix synthétique écartée : elle s'entend, sur une marque qui défend le vrai. Texte à l'écran gardé en repli.
+- **Un seul tournage réel alimente deux formats** (le geste + la voix off).
+- **Règle de tournage** : filmer plus qu'on ne publie. Chaque session de production, chaque livraison, chaque dégustation constitue du stock. Le montage peut attendre, pas le tournage.
+
+Le générateur de prompts visuels et son cahier des charges : `../visual/README.md`.
+
+---
+
+## Les comptes *(arrêté le 2026-08-20)*
+
+**Aucun compte n'existe à ce jour.** On part de zéro. *(Le TikTok documenté dans `acquisition-tiktok.md` est un chantier, pas un compte actif.)*
+
+- Création de **TikTok + Instagram**, **cross-post au démarrage**.
+- Plus un **compte « style UGC » généré** (pas de vrais créateurs).
+
+⚠️ **Réserve consignée, non tranchée** : un compte « style UGC » sans témoignage réel est de la fiction publicitaire ordinaire — c'est admissible. Mais dès qu'il ressemble à un avis vécu (« je l'ai testé, c'est top »), c'est un **faux témoignage**, et le risque est élevé sur une cible qui vérifie tout. La ligne à tenir est celle de la mise en scène assumée, pas du faux client.
+
+---
+
+## La cadence *(arrêtée le 2026-08-20)*
+
+**2 à 3 publications par jour pendant 1 à 3 mois**, soit **~20 pièces par semaine**. Logique de test rapide et d'adaptation rapide, jusqu'à identifier l'audience et les formats gagnants ; ensuite **moins mais mieux**.
+
+Conséquence assumée : **le volume viendra des formats IA** (l'évidence, le détournement de pub, la sensation). Le réel sert de **socle de crédibilité**, pas de moteur de cadence.
+
+⚠️ **Recommandation non tranchée** : construire les prompts **par variantes comparables** (même script, deux hooks ; même hook, deux traitements). Sans cela on produit beaucoup sans rien apprendre — et la cadence devient du volume, pas un test.
 
 ---
 
@@ -89,7 +139,7 @@ Pas les vues. À ce stade, deux signaux comptent vraiment : **un restaurateur d�
 
 ## À compléter
 
-- **Les canaux actifs** : TikTok est documenté (`acquisition-tiktok.md`). Les autres comptes et leur état sont à confirmer avant de construire une cadence par canal.
-- **Le statut des formats sensoriels**, à trancher.
-- **La formule qui accompagne le produit sur les réseaux** — le niveau 2 n'a pas encore de formulation propre.
-- **Le storytelling du nom**, à écrire quand le moment viendra.
+- **La banque de hooks et de prompts** prêts à l'emploi (~20 pièces/semaine), à produire à la semaine. Le générateur a besoin de **textes**, pas de principes.
+- **Les registres du format « évidence »** (universelles neutres vs quotidien de la cible), à départager par le test.
+- **Le compte « style UGC »** : où passe exactement la ligne entre mise en scène assumée et faux témoignage.
+- **Le nom et son sens** — sujet de contenu dans la liste, plus une tâche bloquante : aucun support ne l'attend.

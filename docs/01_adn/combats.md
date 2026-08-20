@@ -1,8 +1,8 @@
 ---
 statut: en_cours
 domaine: adn
-maj: 2026-08-17
-source: "SOT §1.3bis (archive 2026-07-24) — décision réouverte et nuancée le 2026-07-02 ; complétée par la base de connaissance V1 (sections 17, 18) le 2026-08-17"
+maj: 2026-08-20
+source: "SOT §1.3bis (archive 2026-07-24) — décision réouverte et nuancée le 2026-07-02 ; complétée par la base de connaissance V1 (sections 17, 18) le 2026-08-20"
 resume: "Les deux combats de la marque, la ligne rouge absolue, ce que Lédjé refuse d'être, et l'ambition d'élargissement."
 ---
 

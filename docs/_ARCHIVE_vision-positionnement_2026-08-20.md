@@ -1,8 +1,8 @@
 ---
 statut: archive
 domaine: archives
-maj: 2026-08-17
-source: "Sorties de 01_adn/vision-positionnement.md le 2026-08-17. Motif : la hiérarchie de marque est remplacée depuis le 2026-07-31 ; la section positionnement est mieux traitée dans la base de connaissance V1."
+maj: 2026-08-20
+source: "Sorties de 01_adn/vision-positionnement.md le 2026-08-20. Motif : la hiérarchie de marque est remplacée depuis le 2026-07-31 ; la section positionnement est mieux traitée dans la base de connaissance V1."
 resume: "Hiérarchie de marque (rituel/soin/dignité), moments hérités à domicile, et ancienne section positionnement. Conservés pour l'histoire, ne plus s'en servir comme référence."
 ---
 
@@ -22,7 +22,7 @@ Remplacée par la **hiérarchie des motivations** (fraîcheur > plaisir > absenc
 2. **Le soin, la pureté, l'origine locale** *(soutient)* — confiance, ticket d'entrée. La « protection » reste tournée vers l'intérieur : prendre soin des siens en leur offrant quelque chose de vrai et digne.
 3. **La dignité / la beauté** *(finit)* — prime de prix. Jamais cheap.
 
-**⚠️ Trois règles issues de cette section ont été archivées le 2026-08-17** avec le reste, la base V1 les formulant mieux. Voici où chacune est reprise dans le contenu actuel :
+**⚠️ Trois règles issues de cette section ont été archivées le 2026-08-20** avec le reste, la base V1 les formulant mieux. Voici où chacune est reprise dans le contenu actuel :
 
 | Ancienne règle | Où elle vit maintenant |
 |---|---|
@@ -46,7 +46,7 @@ Retirés parce qu'ils se passent tous les deux à domicile, alors que l'ambition
 
 ## 3. L'ancienne section positionnement
 
-Retirée le 2026-08-17 : mieux expliquée dans la base de connaissance V1, dont le contenu est descendu dans les fiches actives (catégorie et valeurs dans `vision-positionnement.md`, frontières de cible et psychologie dans `cibles-et-contenu.md`).
+Retirée le 2026-08-20 : mieux expliquée dans la base de connaissance V1, dont le contenu est descendu dans les fiches actives (catégorie et valeurs dans `vision-positionnement.md`, frontières de cible et psychologie dans `cibles-et-contenu.md`).
 
 **Branche C : 100 % communauté dans la conception, mainstream = bonus non payé.** On conçoit tout pour la communauté musulmane pratiquante francophone (Maghreb, Afrique de l'Ouest, convertis, 2e et 3e générations). Si un non-musulman achète, on l'accueille sans rien changer — on ne dilue jamais, on ne paie pas pour l'acquérir.
 

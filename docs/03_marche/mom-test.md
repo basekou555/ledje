@@ -1,8 +1,8 @@
 ---
 statut: hypothèse
 domaine: marche
-maj: 2026-08-17
-source: "SOT §8.2 (archive 2026-07-24) ; campagne v1 close et v2 ouverte le 2026-07-29 (session Com) ; H4 et H5 formulées le 2026-08-17 après sortie des rôles secondaires de l'ADN"
+maj: 2026-08-20
+source: "SOT §8.2 (archive 2026-07-24) ; campagne v1 close et v2 ouverte le 2026-07-29 (session Com) ; H4 et H5 formulées le 2026-08-20 après sortie des rôles secondaires de l'ADN"
 resume: "Campagne v1 close (8 entretiens, H1/H2 validées, H3 fragile) ; campagne v2 active « Test CEP & actifs » ; H4 gardienne et H5 offreur à tester ; signaux récurrents et réserves méthodo."
 ---
 
@@ -26,7 +26,7 @@ Le concept résonne **uniquement chez qui a déjà le miel en pratique** — val
 
 ## H4 et H5 — les rôles secondaires, sortis de l'ADN
 
-**Décision du 2026-08-17 :** la gardienne du foyer et l'offreur ne sont plus décrits comme des cibles dans `../01_adn/cibles-et-contenu.md`. Motif : ce sont des suppositions, et la forme « persona » les rendait indéfendables — un portrait bien écrit se défend tout seul, une hypothèse peut être tuée. Elles prennent ici la forme d'énoncés testables. Elles réintégreront l'ADN si, et seulement si, elles sont confirmées. *(Leurs grilles de contenu sont en réserve hors ADN, voir `../_ARCHIVE_grilles-contenu-roles-secondaires_2026-08-17.md` — ne pas produire sur cette base sans confirmation.)*
+**Décision du 2026-08-20 :** la gardienne du foyer et l'offreur ne sont plus décrits comme des cibles dans `../01_adn/cibles-et-contenu.md`. Motif : ce sont des suppositions, et la forme « persona » les rendait indéfendables — un portrait bien écrit se défend tout seul, une hypothèse peut être tuée. Elles prennent ici la forme d'énoncés testables. Elles réintégreront l'ADN si, et seulement si, elles sont confirmées. *(Leurs grilles de contenu sont en réserve hors ADN, voir `../_ARCHIVE_grilles-contenu-roles-secondaires_2026-08-20.md` — ne pas produire sur cette base sans confirmation.)*
 
 ### H4 — La gardienne du foyer
 
