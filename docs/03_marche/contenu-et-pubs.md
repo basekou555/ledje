@@ -48,6 +48,8 @@ Recette extraite de la référence Coca : monde mono-couleur, low-key, rim light
 
 Le système complet (constitution artistique, master prompt, prompt library, shot book, asset log) vit dans **`../visual/`**, routé par le `CLAUDE.md` racine — on ne le duplique pas ici. Statut au moment de la découpe : système complet, **zéro image générée dans ce cadre**. Premier shot candidat : H01 "La Rencontre" (image fixe, ne dépend pas de la confirmation du format produit).
 
+**Le générateur lui-même** (Higgsfield via MCP : format d'entrée réel, ce que le cahier des charges impose déjà, ce qui reste au rédacteur, limites, contradictions) est restitué dans **`../visual/ledje-generateur.md`** — la fiche à lire avant d'écrire une banque de hooks ou de prompts.
+
 > ⚠️ Contradiction signalée (non tranchée) : le SOT archivé (§6.5) affirmait « pas de
 > `prompt-library.md` maintenu à la main », mais `../visual/ledje-prompt-library.md` existe —
 > introduit volontairement plus tard (cf. CLAUDE.md racine). Le CLAUDE.md fait foi.
