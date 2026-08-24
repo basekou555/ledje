@@ -1,8 +1,8 @@
 ---
 statut: en_reserve
 domaine: archives
-maj: 2026-08-17
-source: "Sorties de 01_adn/cibles-et-contenu.md le 2026-08-17 : les rôles gardienne et offreur sont des hypothèses (H4, H5), pas des cibles acquises. Contenu d'origine daté du 2026-07-02."
+maj: 2026-08-20
+source: "Sorties de 01_adn/cibles-et-contenu.md le 2026-08-20 : les rôles gardienne et offreur sont des hypothèses (H4, H5), pas des cibles acquises. Contenu d'origine daté du 2026-07-02."
 resume: "Grilles de contenu des deux rôles secondaires, mises de côté le temps que H4 et H5 soient tranchées. Ne pas produire sur cette base sans confirmation."
 ---
 

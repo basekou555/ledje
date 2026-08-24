@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: visual
-maj: 2026-08-20
+maj: 2026-08-24
 source: "Restitution demandée par Basekou (session 2026-08-20) : le chantier générateur n'était documenté nulle part. Dérivé de docs/visual/*, docs/03_marche/contenu-et-pubs.md, et du schéma réel du MCP Higgsfield."
 resume: "Ce qu'est le générateur (Higgsfield via MCP, pas un outil maison), son format d'entrée réel, ce que le cahier des charges impose déjà (à ne pas répéter dans les prompts), ce qui reste au rédacteur, les limites et les contradictions ouvertes."
 ---
@@ -62,10 +62,10 @@ Source : `ledje-master-prompt.md` (invariants) + `contenu-et-pubs.md` (paramètr
 - **Style** : photographie éditoriale contemporaine sobre ; jamais rustic / vintage / cottagecore /
   « vieille pub de miel » ; lumière naturelle douce (matin ou fin d'après-midi) ; focale humaine,
   faible profondeur de champ ; pas de grand-angle, drone, flash, néon, studio visible.
-- **Palette** : neutres (crème / sable / pierre) + accents émeraude + or + ambre.
+- **Palette** : neutres (crème / sable / pierre) + accent **émeraude**. ⚠️ **L'or et l'ambre sont remis en question** comme couleurs de marque (palette rouverte, cf. `../01_adn/identite-visuelle.md`) — les employer avec retenue, jamais comme socle d'une image. *(L'ambre du miel lui-même est un fait de matière, pas une couleur de marque.)*
 - **Matières** : liste autorisée / interdite (cf. master-prompt, section Materials).
 - **Produit** : cristal de miel = forme géométrique simple, dissolution lente sans effervescence,
-  eau qui reste claire ; bouteille = spec figée, rendue comme un vrai produit fini.
+  eau qui reste claire ; bouteille = spec figée, rendue comme un vrai produit fini. ⚠️ **L'étiquette : ne jamais spécifier de police**, et garder le texte **suggéré, jamais rendu lisible** — l'identité typographique n'est pas tranchée, et l'IA rend les mentions en lettres aléatoires.
 - **Présence humaine** : mains / silhouettes / profils ; **jamais les yeux visibles** (non négociable).
 - **Composition** : max 3 éléments, espace négatif pour le texte.
 - **Texte** : jamais généré par l'IA — ajouté en CapCut / Canva. Le payoff (signature + lédjé)
@@ -116,24 +116,31 @@ de cette restitution).
    **SUJ-01 « la perle »** et décrivait le sujet comme « la portion de miel » (introduit en v1.2 à
    la demande orale de Basekou). ✅ **Rename validé (Basekou, 2026-08-20)** : SUJ-01 devient
    « le cristal de miel » — correctif appliqué à `prompt-library.md`, `shot-book.md`, `CLAUDE.md`.
-   ⚠️ Reste `ledje-master-prompt.md` qui porte encore le label « Honey Portion » : fiche **protégée**,
-   correction seulement sur `@update` de Basekou.
+   ✅ **RÉSOLU le 2026-08-20** : `ledje-master-prompt.md` (fiche protégée) est corrigé **sur accord
+   explicite de Basekou** — « Honey Portion » devient « Honey Crystal / cristal de miel », avec le rappel
+   de l'interdit. Tracé dans `ledje-asset-log.md`, section « Modifications du Master Prompt ».
 2. **Grille de contenu — résolu.** La `03_marche/grille-contenu.md` est désormais à jour (version
    **20/08**) : **7 formats répétables** dont deux à forte génération — **l'évidence** et **le
    détournement de pub** — et « le cahier des charges du générateur » listé comme bloquant, pointant
    vers cette fiche. La version documentaire du 17/08 est remplacée. Plus de divergence.
-3. **« l'évidence » : réconcilié dans la grille 20/08.** La version récente tranche la collision : «
+3. **Rôles produit — ✅ RÉSOLU le 2026-08-20.** Le master-prompt et le visual-language présentaient le
+   **cristal comme « produit de lancement »** et la **bouteille comme « phase 2 »** : les deux rôles étaient
+   inversés. Rétabli sur accord de Basekou — la **bouteille 33 cl est le produit de lancement** (fabriquée
+   et vendue, canal restaurant), le **cristal est le produit de conversion en ligne** (pas encore produit,
+   aucun conditionneur identifié). L'ancienne réserve « bouteille = phase 2 » portait sur la **vente en
+   ligne uniquement**, pas sur l'existence du produit : on peut la montrer comme réelle, parce qu'elle l'est.
+4. **« l'évidence » : réconcilié dans la grille 20/08.** La version récente tranche la collision : «
    l'évidence » est un **format** qui découle explicitement de l'**ingrédient 3 du territoire**
    (`territoire-de-marque.md`, « l'évidence du produit »). Plus de contradiction une fois la grille
    20/08 déposée.
-4. **Allégation santé implicite (image comprise).** Les formats génératifs « l'évidence » et « le
+5. **Allégation santé implicite (image comprise).** Les formats génératifs « l'évidence » et « le
    détournement de pub » sont ceux qui risquent le plus l'allégation implicite ; le filtre
    `conformite.md` et le garde-fou V2 (jamais performance / sport / récup) s'appliquent à chaque pièce.
-5. **Yeux visibles.** Interdiction non négociable — contrainte forte pour tout format à personnages
+6. **Yeux visibles.** Interdiction non négociable — contrainte forte pour tout format à personnages
    (le geste, le terrain, la voix off, UGC).
-6. **Le cahier existant est image-centré.** La partie vidéo (MCSLA) n'est qu'esquissée dans
+7. **Le cahier existant est image-centré.** La partie vidéo (MCSLA) n'est qu'esquissée dans
    `contenu-et-pubs.md` ; pour une production en volume, la spec vidéo reste à écrire.
-7. **Rappel déjà consigné** : le SOT archivé disait « pas de prompt-library maintenue à la main »,
+8. **Rappel déjà consigné** : le SOT archivé disait « pas de prompt-library maintenue à la main »,
    mais elle existe — le `CLAUDE.md` racine fait foi.
 
 ## Renvois

@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: adn
-maj: 2026-08-17
+maj: 2026-08-20
 source: "Base de connaissance de marque V1 (sections 10, 11, 12) comme texte de base, complétée par la fiche antérieure (SOT §2.1-2.4) et les décisions Com datées : 2026-07-20 mots du goût, 2026-07-29 tutoiement et langue, 2026-07-30 « accessible », 2026-07-31 casse et accents, 2026-08-17 étymologie diakanké, signature et accroche non tranchées"
 resume: "Comment Lédjé parle : le nom, la personnalité, le ton, le langage et le lexique, l'architecture des messages. ⚠️ La signature ET l'accroche ne sont PAS tranchées."
 ---
@@ -22,12 +22,9 @@ resume: "Comment Lédjé parle : le nom, la personnalité, le ton, le langage et
 - **Les accents sont systématiques : partout, sans exception de principe.** Seule dérogation : l'existant technique où l'accent est impossible (`ledje.fr`, adresses email, handles). C'est une contrainte de ce qui a déjà été créé, pas une règle de marque. *(La recherche et le référencement ne sont PAS une exception : l'accent y fonctionne.)*
 - Prononciation canonique : « lé-djé ». Le verlan « ledge » toléré comme clin d'œil, jamais officiel.
 
-**Le nom est un actif narratif, et il demande à être raconté.** Deux signaux de mauvaise lecture sont documentés et doivent être neutralisés par le récit, jamais ignorés :
+**Le nom est un actif narratif, et il demande à être raconté.** Le nom et son sens sont un **sujet de contenu** parmi d'autres (`../03_marche/grille-contenu.md`), pas une tâche bloquante : aucun support ne l'attend.
 
-- Sonne comme « **léger** » : autorisé comme évocation sensorielle (goût léger et frais), **JAMAIS** comme positionnement diététique (« allégé / light / minceur » = termes réglementés, interdits). La césure *lé | djé* accentue cette lecture — point de vigilance pour tout traitement graphique du mot.
-- Lu « **lait** » une fois en entretien, quand le mot est décomposé.
-
-*(Le storytelling public du nom reste à écrire. Domaine et dépôt INPI : voir `../04_operations/demarches-admin.md`.)*
+*(Domaine et dépôt INPI : voir `../04_operations/demarches-admin.md`.)*
 
 ---
 
@@ -130,9 +127,11 @@ Quatre niveaux. C'est la grille qui permet de **choisir la bonne formule selon l
 | Niveau | Ce qu'il dit | Supports |
 |---|---|---|
 | **1 — Le produit** | Ce que c'est : eau + miel. Prioritaire à la découverte. | bouteille, étiquette, publicité produit, point de vente |
-| **2 — L'expérience** | Ce que l'on ressent : fraîcheur, plaisir, évidence, sérénité, moments vécus. | publicité, réseaux, campagnes, contenus lifestyle, dégustation |
+| **2 — L'expérience** | Ce que l'on ressent : fraîcheur, plaisir, évidence, sérénité, moments vécus. | publicité, campagnes, contenus lifestyle, dégustation |
 | **3 — La marque** | Pourquoi Lédjé existe : mission, valeurs, cohérence, tradition, transmission, vision. | site, page à propos, contenus éditoriaux, prises de parole |
 | **4 — L'univers** | Ce que Lédjé représente au-delà du produit : identité, communauté, codes culturels, attachement. | communication long terme, collaborations, campagnes de marque |
+
+**⚠️ Les réseaux sociaux ne sont PAS un niveau** *(corrigé le 2026-08-20)*. Ils **traversent les quatre** : avant l'achat, entre l'achat et le rachat, après le rachat. Un même compte porte donc du niveau 1, du 2, du 3 et du 4, à des moments différents et pour des gens à des stades différents. **On n'assigne pas un niveau à un canal, on équilibre les niveaux à l'intérieur du canal** (`../03_marche/grille-contenu.md`).
 
 **Critères de réussite** : comprendre vite le produit · ressentir avant de connaître l'histoire · découvrir progressivement · ne pas surcharger le packaging · adapter le discours au support · cohérence entre tous les points de contact.
 
@@ -168,13 +167,11 @@ Ce qu'elle réussit, et qu'une alternative devra réussir aussi : elle évoque l
 
 **Réserve ouverte** : la sous-ligne « Le rappel d'un bienfait pour la ummah. » est **reportée** *(2026-07-30)*. Mot le plus marqué jamais mis en façade — défendable, à peser consciemment. (« bienfait » isolé : revalider la conformité avant mise en ligne.)
 
-**Trou identifié** : aucune formule n'existe pour le **niveau 2** (l'expérience, le rachat, « cette marque me respecte »). À écrire.
+✅ **Le niveau 2 n'attend plus de formule** *(tranché le 2026-08-20)*. Il manquait une phrase pour l'expérience ; Basekou tranche qu'il fallait un **format** et non un slogan — « la sensation » le comble côté contenu (`../03_marche/grille-contenu.md`). La tâche « écrire la formule du niveau 2 » est close.
 
 ---
 
 # À compléter
 
-- Le **storytelling public du nom** (étymologie diakanké, neutralisation des lectures « léger » et « lait »).
-- La **formule du niveau 2**.
 - Les **mots du goût** à tester avant de figer.
 - Décider si la **personnalité de marque** (section 2) reste ici ou mérite sa propre fiche : elle dépasse le verbal (relation au monde, à la religion, humour).

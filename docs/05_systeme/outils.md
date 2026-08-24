@@ -1,8 +1,8 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-07-21
-source: "SOT Partie 8 + §8.1 (archive 2026-07-24) + outillage conseil 2026-07-21 (page relais)"
+maj: 2026-08-20
+source: "SOT Partie 8 + §8.1 (archive 2026-07-24) + outillage conseil 2026-07-21 (page relais) ; générateur de prompts visuels rendu visible le 2026-08-20 (il n'était référencé que par CLAUDE.md)"
 resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo."
 ---
 
@@ -41,7 +41,11 @@ Ces documents sont référencés par le projet mais ne vivent pas dans ce dépô
 ## Ce qui vit dans le repo
 
 - Le cerveau : `docs/` (ce système).
-- Le système de production visuelle : `docs/visual/` (5 fichiers).
+- **Le générateur de prompts visuels** : `docs/visual/` — mode d'emploi, format d'entrée, ce que le
+  cahier des charges impose déjà et ses limites dans [`../visual/README.md`](../visual/README.md).
+  C'est lui qui produit les prompts d'image envoyés à Higgsfield (et utilisables tels quels sur
+  ChatGPT Image ou Gemini). ⚠️ Il est dimensionné pour l'image fixe de marque, pas pour la cadence
+  de contenu social (`../03_marche/grille-contenu.md`).
 - Le brief designeuse : `docs/ledje-brief-designer.md`.
 - Le routeur de sessions : `CLAUDE.md` (racine).
 - Le code du site : `src/`, `public/`, `index.html`, `vercel.json`.

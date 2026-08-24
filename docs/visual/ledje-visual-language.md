@@ -22,7 +22,7 @@ Le fil rouge de toute la marque. Pas un objet, pas un logo — une sensation qui
 - **L'eau** — le quotidien, la pureté, la transparence, le mouvement.
 - **Leur rencontre** — la transformation, le cœur du récit.
 
-Le produit (portion/bonbon aujourd'hui, bouteille en communication anticipée) n'est **jamais** le héros seul — c'est une façon de vivre le rituel. Les vrais sujets : le geste, l'eau, le miel, la lumière, le moment.
+Le produit (la bouteille d'eau miellée aujourd'hui, le cristal de miel pour la vente en ligne) n'est **jamais** le héros seul — c'est une façon de vivre le rituel. Les vrais sujets : le geste, l'eau, le miel, la lumière, le moment.
 
 ## Les 5 piliers
 
@@ -48,7 +48,7 @@ Le Design System (SOT §3) fixe l'émeraude comme **fond de marque dominant** �
 
 **Sur les photos produit/lifestyle elles-mêmes, l'émeraude fonctionne en signature/accent plutôt qu'en fond systématique** — les images ont besoin de respirer en tons neutres (crème, sable, pierre, blanc cassé) pour ne pas se répéter et lasser. L'émeraude y intervient comme touche forte et reconnaissable (un élément, un reflet, un détail), l'or et l'ambre comme accents chauds. Les images produit (packshots) peuvent pousser un peu plus le vert que les images lifestyle.
 
-Palette de matière : dominantes neutres + accents vert émeraude, ambre, or (dégradé métallique — cf. SOT §3.2).
+Palette de matière : dominantes neutres + accent vert émeraude. ⚠️ **L'or et l'ambre sont remis en question comme couleurs de marque** — la palette est rouverte depuis le 2026-07-28, seul l'émeraude tient (`../01_adn/identite-visuelle.md`). Les employer avec retenue, jamais comme socle d'une image. *(L'ambre du miel lui-même est un fait de matière, pas une couleur de marque : il n'est pas concerné.)*
 
 ---
 
@@ -104,9 +104,11 @@ Jamais plus de trois éléments principaux par image. Les matières secondaires 
 
 **Ne pas verrouiller de spec produit définitive avant confirmation.** État actuel des deux formats :
 
-**Le format de lancement (portion/bonbon de miel)** — probablement le format réel sourçable aujourd'hui (voir shortlist SOT §7.2, en particulier Apior qui fabrique déjà des bonbons au miel). **Point de vigilance non résolu : la fabrication d'un bonbon implique généralement de chauffer le miel**, ce qui peut contredire l'argument « miel jamais chauffé » utilisé ailleurs dans la communication (SOT §2.5). À vérifier directement auprès d'Apior et des autres conditionneurs avant de figer texture, apparence de dissolution, et argument produit associé. Tant que non tranché : décrire le produit dans les prompts de façon simple et honnête (une portion de miel qui se dissout), sans inventer de mécanisme ou de texture non confirmés.
+⚠️ **Correction du 2026-08-20 : les deux rôles étaient inversés.** Ce document présentait le cristal comme « le format de lancement » et la bouteille comme « phase 2 ». C'est le contraire.
 
-**La bouteille (format prêt-à-boire)** — confirmée en **communication anticipée uniquement** (visuels et contenu peuvent l'évoquer dès maintenant pour construire l'appétit, façon precommande), **production réelle en phase 2** (SOT §1.4). Ne pas présenter comme disponible à l'achat immédiat.
+**La bouteille d'eau miellée 33 cl — LE PRODUIT DE LANCEMENT.** C'est ce qui est fabriqué et vendu aujourd'hui (canal restaurant, `../03_marche/canal-restaurant.md`). La réserve « phase 2 » qui figurait ici portait en réalité sur la **vente en ligne uniquement** : le site la met en scène mais ne la vend pas, pour une contrainte logistique (poids, chaîne du froid, fermentation). Ce n'est pas une réserve sur l'existence du produit — on peut la montrer comme réelle, parce qu'elle l'est.
+
+**Le cristal de miel — le produit de CONVERSION EN LIGNE**, ce qu'on pré-vend pour financer la production industrielle (`../03_marche/site-precommande.md`). ⚠️ **Terminologie : on dit *cristal de miel*.** « portion », « perle », « pastille » et « monodose » sont des interdits de lexique (`../01_adn/identite-verbale.md` §4.3). **Il n'est pas encore produit** : aucun partenaire de conditionnement n'est identifié à ce jour. **Point de vigilance non résolu : fabriquer un bonbon implique généralement de chauffer le miel**, ce qui contredirait l'argument « miel jamais chauffé ». À vérifier auprès des conditionneurs avant de figer texture, apparence de dissolution et argument produit. Tant que non tranché : décrire le produit dans les prompts de façon simple et honnête (un cristal de miel qui se dissout), sans inventer de mécanisme ni de texture non confirmés.
 
 *(Les détails techniques explorés dans la session exploratoire — sphère gravée avec mécanisme de séparation eau/miel, bouteille 33cl avec spec précise — restent des pistes créatives possibles pour une version premium future, mais ne doivent pas structurer le shot book de lancement tant que le produit réel n'est pas confirmé.)*
 

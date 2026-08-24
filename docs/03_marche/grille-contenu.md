@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-08-20
-source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients."
-resume: "À quoi sert le contenu, les 4 niveaux et leur test, les formats répétables, les sujets, la cadence et le filtre avant publication."
+maj: 2026-08-24
+source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
+resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication."
 ---
 
 # Grille de contenu
@@ -15,6 +15,8 @@ resume: "À quoi sert le contenu, les 4 niveaux et leur test, les formats répé
 3. **Constituer l'actif pour la vente en ligne**, quand elle viendra. Ce qu'on tourne aujourd'hui servira demain.
 
 Le contenu n'a pas à vendre aujourd'hui. Il doit rendre **crédible et désirable**.
+
+**Les hooks parlent uniquement au consommateur.** Aucun contenu n'est dédié aux professionnels — le restaurateur tire sa réassurance en passant, il n'est pas l'audience adressée.
 
 ---
 
@@ -29,9 +31,30 @@ Un contenu peut dire quatre choses différentes. Ce ne sont ni des étapes, ni d
 | **3 — la marque** | Pourquoi elle existe | Est-ce que ça explique une décision, une conviction, un refus ? |
 | **4 — l'univers** | Ce qu'elle représente | Est-ce que quelqu'un peut s'y reconnaître au-delà du produit ? |
 
+⚠️ **Correction du modèle, actée le 2026-08-20 : les réseaux sociaux ne sont PAS un niveau.** Ils **traversent les quatre** — avant l'achat, entre l'achat et le rachat, après le rachat. **On n'assigne pas un niveau à un canal, on équilibre les niveaux à l'intérieur du canal.** *(`../01_adn/identite-verbale.md` §6 les rangeait dans le seul niveau 2 ; c'est corrigé.)*
+
 **La règle d'équilibre.** Un compte qui ne fait que du niveau 1 est un catalogue. Que du 3, un blog. Que du 4, du vent. Le niveau 2 est le plus négligé et le plus utile : c'est celui qui donne envie.
 
 En pratique, **on ne planifie pas par niveau** — on vérifie après coup que les quatre sont représentés sur les dernières semaines. Si un niveau manque, on sait quoi produire ensuite.
+
+✅ **Le niveau 2 n'attend plus de formule.** Il manquait une accroche pour l'expérience ; Basekou tranche le 2026-08-20 qu'il fallait un **format** et non un slogan — « la sensation » le comble. La tâche « écrire la formule du niveau 2 » est close.
+
+---
+
+## Ce qui est publiable maintenant, et ce qui ne l'est pas
+
+L'identité visuelle n'est pas figée. Publier des visuels de marque installerait dans les têtes une image qui va changer.
+
+**Bloqué** : les visuels d'identité (déclinaisons de logo, chartes, habillages), la mise en avant de l'étiquette du lot O'Daba comme si elle était définitive, toute campagne construite sur ces éléments.
+
+**Ouvert, et c'est beaucoup** :
+- le **réel filmé** — la production, le miel, les gestes, le terrain, les livraisons ;
+- la **parole du fondateur** — le pourquoi, les décisions, les difficultés ;
+- le **produit en situation** sans mise en scène d'identité ;
+- le **texte** sous toutes ses formes ;
+- les **retours et verbatims** (avec accord des personnes).
+
+Le contenu de la période est donc **documentaire plutôt que publicitaire**. Ce n'est pas un pis-aller : à ce stade, une marque qui se construit sous les yeux des gens est plus crédible qu'une marque déjà lisse.
 
 ---
 
@@ -88,11 +111,38 @@ Cette liste s'allonge en continu. **Tout sujet qui revient trois fois dans la vr
 
 ---
 
-## La cadence
+## La production — le partage réel / IA *(arrêté le 2026-08-20)*
 
-Fondateur seul, production en cours, prospection active. **Une cadence tenue vaut mieux qu'une cadence ambitieuse.** Le geste est le format de secours : il ne demande rien.
+**Le produit est filmé pour de vrai ; tout le reste passe à l'IA.** L'IA ne sait pas produire la bouteille de façon fiable (l'étiquette change à chaque plan) — en revanche elle sait **traiter** des plans réels.
+
+- **Basekou n'apparaît jamais.** Cohérent avec la règle visuelle existante : pas de visage, pas de regard, mains et silhouettes (`../01_adn/identite-visuelle.md`).
+- **La voix off est sa vraie voix.** Voix synthétique écartée : elle s'entend, sur une marque qui défend le vrai. Texte à l'écran gardé en repli.
+- **Un seul tournage réel alimente deux formats** (le geste + la voix off).
+
+Comment on écrit les prompts, ce que le cahier des charges impose déjà et ce qui reste au rédacteur : **[`../visual/README.md`](../visual/README.md)** (carte d'entrée du dossier) et **[`../visual/ledje-generateur.md`](../visual/ledje-generateur.md)** (restitution technique — format d'entrée réel, formule vidéo, coûts, limites).
+
+---
+
+## Les comptes *(arrêté le 2026-08-20)*
+
+**Aucun compte n'existe à ce jour.** On part de zéro. *(Le TikTok documenté dans `acquisition-tiktok.md` est un chantier, pas un compte actif.)*
+
+- Création de **TikTok + Instagram**, **cross-post au démarrage**.
+- Plus un **compte « style UGC » généré** (pas de vrais créateurs).
+
+⚠️ **Réserve consignée, non tranchée** : un compte « style UGC » sans témoignage réel est de la fiction publicitaire ordinaire — c'est admissible. Mais dès qu'il ressemble à un avis vécu (« je l'ai testé, c'est top »), c'est un **faux témoignage**, et le risque est élevé sur une cible qui vérifie tout. La ligne à tenir est celle de la mise en scène assumée, pas du faux client.
+
+---
+
+## La cadence *(arrêtée le 2026-08-20)*
+
+**2 à 3 publications par jour pendant 1 à 3 mois**, soit **~20 pièces par semaine**. Logique de test rapide et d'adaptation rapide, jusqu'à identifier l'audience et les formats gagnants ; ensuite **moins mais mieux**.
+
+Conséquence assumée : **le volume viendra des formats IA** (l'évidence, le détournement de pub, la sensation). Le réel sert de **socle de crédibilité**, pas de moteur de cadence. Fondateur seul, production en cours, prospection active : **une cadence tenue vaut mieux qu'une cadence ambitieuse**, et *le geste* est le format de secours — il ne demande rien.
 
 **Règle de tournage : filmer plus qu'on ne publie.** Chaque production, chaque livraison, chaque dégustation constitue du stock. Le montage peut attendre — le tournage non, un lot embouteillé ne se refilme pas.
+
+⚠️ **Recommandation non tranchée** : construire les prompts **par variantes comparables** (même script, deux hooks ; même hook, deux traitements). Sans cela on produit beaucoup sans rien apprendre — et la cadence devient du volume, pas un test.
 
 ---
 
@@ -103,7 +153,8 @@ Dans l'ordre. Le premier est éliminatoire.
 1. **Conformité** — aucune allégation santé, explicite ou implicite, image comprise ; aucun terme diététique réglementé (`../01_adn/conformite.md`).
 2. **Lexique** — les interdits (`../01_adn/identite-verbale.md`).
 3. **Territoire** — les cinq questions filtres (`../01_adn/territoire-de-marque.md`), en particulier « est-ce que Lédjé pourrait réellement dire cette phrase comme ça ? ».
-4. **Ton** — on tutoie, en français, on élève sans donner de leçon.
+4. **Identité** — est-ce que ça installe une image visuelle qui va changer ?
+5. **Ton** — on tutoie, en français, on élève sans donner de leçon.
 
 ---
 
@@ -115,5 +166,7 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 
 ## À compléter
 
-- **Les comptes** : **aucun n'est créé à ce jour**. TikTok et Instagram à ouvrir, cross-post au démarrage.
-- **Le cahier des charges du générateur** — bloquant pour la banque de hooks et de prompts. *(Restitution technique déposée : `../visual/ledje-generateur.md` ; le cahier des charges vidéo complet reste à écrire.)*
+- **La banque de hooks et de prompts** prêts à l'emploi (~20 pièces/semaine), à produire à la semaine. Le générateur a besoin de **textes**, pas de principes.
+- **Le cahier des charges vidéo** — la restitution technique est déposée (`../visual/ledje-generateur.md`), mais la spec vidéo pour une production en volume reste à écrire.
+- **Les registres du format « évidence »** (universelles neutres vs quotidien de la cible), à départager par le test.
+- **Le compte « style UGC »** : où passe exactement la ligne entre mise en scène assumée et faux témoignage.
