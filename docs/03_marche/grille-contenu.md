@@ -39,6 +39,23 @@ En pratique, **on ne planifie pas par niveau** — on vérifie après coup que l
 
 ✅ **Le niveau 2 n'attend plus de formule.** Il manquait une accroche pour l'expérience ; Basekou tranche le 2026-08-20 qu'il fallait un **format** et non un slogan — « la sensation » le comble. La tâche « écrire la formule du niveau 2 » est close.
 
+### Les 4 niveaux comme objectifs : rôle, signal mesurable, canal dominant
+
+*(Acté avec Basekou le 2026-08-24. Traduit les 4 niveaux en 4 objectifs **mesurables** — pour brancher la mesure et, plus tard, la boucle d'apprentissage, sur les bons signaux plutôt que sur les vues. Les quatre sont **équilibrés** : aucun prioritaire, cf. règle d'équilibre ci-dessus. Le canal est **dominant, pas exclusif** — un même compte continue de mélanger les quatre.)*
+
+| Niveau | Objectif | « Ça a marché » = signal | Canal · format dominant |
+|---|---|---|---|
+| **1 · produit** | **Compréhension** | Baisse des « c'est quoi ? » en commentaire ; montée des « où l'acheter / combien » ; taux de complétion | Reels — le geste, produit en situation, l'écrit, l'évidence |
+| **2 · expérience** | **Désirabilité** | Saves, partages, re-watch, commentaires d'envie | Reels — la sensation, produit en situation |
+| **3 · marque** | **Prospection** (enlever le doute) | Un restaurateur démarché a regardé le compte avant de répondre (**tag manuel, signal-or**) ; visites profil → clics site / inscriptions ; complétion sur « le pourquoi » | Voix off (le pourquoi), le terrain ; profondeur sur Instagram |
+| **4 · univers** | **Image de marque** | Abonnés qualifiés, mentions / DM, sauvegardes des posts identitaires | Posts Instagram (feed), carrousels — l'écrit, le nom |
+
+**La prospection (redirection site / achat) est un CTA transversal**, greffable sur n'importe quel niveau, mais **mesuré à part** : clics vers le site, inscriptions à la liste.
+
+**Le principe d'équilibre, précisé (Basekou, 2026-08-24) : un plancher, puis la liberté.** Chaque semaine, produire **au moins un minimum de chacun des quatre niveaux** — le plancher qui empêche la dérive vers le seul format « viral ». Au-delà de ce plancher, **liberté de moduler** selon ce qui marche et les besoins du moment : ce qui **sur-performe**, on garde la dynamique et on en produit plus ; ce qui **sous-performe**, on ne l'abandonne pas — on relance ce niveau avec de nouveaux éléments, on se concentre dessus et on le met en avant autrement. *(C'est, concrètement, le « gouverneur de diversité » : un plancher d'exploration garanti, de l'exploitation au-dessus.)*
+
+**Deux mots, dans leur sens autorisé** *(cf. `../01_adn/identite-verbale.md`)* : « bienfaits » = **les qualités de la boisson** (hors allégations santé interdites) ; « accessibilité » = **la disponibilité géographique** (où on la trouve), jamais une revendication de prix. ⚠️ Le **mot** « bienfait » reste à revalider conformité avant tout emploi en contenu — on l'utilise ici comme repère interne, pas comme accroche : dans le contenu, on exprime les qualités concrètement (goût, fraîcheur, simplicité, origine).
+
 ---
 
 ## Ce qui est publiable maintenant, et ce qui ne l'est pas
