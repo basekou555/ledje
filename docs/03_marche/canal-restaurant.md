@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-08-18
+maj: 2026-08-24
 source: "SOT §1.4bis (archive 2026-07-24) — accord 2026-07-18 ; intel MMD 2026-07-24, corrigée en session 2026-07-26"
-resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché."
+resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV)."
 ---
 
 # Canal — Restaurant (TEST)
@@ -55,6 +55,7 @@ Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimente
 
 - **[2026-07-24 — O'Daba]** Le marché nomme spontanément le produit **« eau aromatisée » plutôt que « boisson »**. 3ᵉ occurrence du signal à cette date. Cohérent avec la catégorie de référence actée le 30/07 (`../01_adn/vision-positionnement.md`).
 - **[2026-08-18 — carnet de prospection]** Sur **60 établissements** identifiés à Lyon, **17 vendent déjà des boissons de tradition en bouteille**. C'est le sous-ensemble le plus qualifié : le produit y trouve un rayon existant plutôt qu'une catégorie à créer.
+- **[2026-08-18 → 24/08 — premier tour d'appels]** **10 appels passés, 8 répondeurs, 2 contacts établis, 0 rendez-vous.** Les deux contacts ont donné un rappel (Tam-Tam le 25/08, Gojo le 26/08), pas un rendez-vous. **Le téléphone froid ne convertit quasiment pas sur cette cible** : un premier tour à ce rythme donne un taux de contact de l'ordre de 20 %, et aucun engagement. Conséquence de méthode : le créneau d'appels sert à **qualifier et à préparer un passage**, pas à obtenir un accord — c'est le passage en direct qui décide, comme pour O'Daba. *(Attention à ne pas confondre un rappel programmé avec un rendez-vous obtenu : l'écart s'est produit une fois, en visio le 19/08.)*
 
 ## Intel terrain (appel « Money Making Djaks », 2026-07-24 — corrigée en session 2026-07-26)
 
