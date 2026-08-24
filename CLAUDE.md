@@ -21,9 +21,10 @@ Documents de référence (dans cet ordre de dépendance)
 1. `docs/README.md` + les fiches ADN pertinentes (`docs/01_adn/`, surtout `conformite.md` et `identite-visuelle.md`) — déjà lues si tu as suivi l'instruction générale ci-dessus.
 2. `docs/visual/ledje-visual-language.md` — la constitution artistique.
 3. `docs/visual/ledje-master-prompt.md` — ce qui ne change jamais (produit, negative prompt, présence humaine, narrative, checklist).
-4. `docs/visual/ledje-prompt-library.md` — le catalogue d'options modulaires (sujet, décor, caméra, lumière, matières, composition, props, action, émotion) + les presets par intention. Le SUJET (SUJ) est le premier paramètre : le héros physique de l'image (perle / eau-verre / rencontre / bouteille / packaging), il pilote le bloc PRODUCT — à ne pas confondre avec ACT (le geste, l'action).
+4. `docs/visual/ledje-prompt-library.md` — le catalogue d'options modulaires (sujet, décor, caméra, lumière, matières, composition, props, action, émotion) + les presets par intention. Le SUJET (SUJ) est le premier paramètre : le héros physique de l'image (cristal de miel / eau-verre / rencontre / bouteille / packaging), il pilote le bloc PRODUCT — à ne pas confondre avec ACT (le geste, l'action).
 5. `docs/visual/ledje-shot-book.md` — la liste des shots, chacun avec sa recette d'IDs et son delta narratif spécifique.
 6. `docs/visual/ledje-asset-log.md` — l'historique des générations et ce qu'on en a appris.
+7. `docs/visual/ledje-generateur.md` — ce qu'est le générateur (Higgsfield via MCP, pas un outil maison), son format d'entrée réel, ce que le cahier des charges impose déjà (à ne pas répéter dans les prompts), ce qui reste au rédacteur, et les contradictions ouvertes. À lire par toute session qui écrit des prompts/hooks pour les réseaux.
 Ta mission quand Basekou te demande de "compiler" un shot
 
 1. S'il donne un ID de shot existant (ex. H01) : lis sa fiche dans `docs/visual/ledje-shot-book.md`, prends sa Recette (IDs) telle quelle sauf si Basekou précise un changement ("je préfère la lumière fin d'après-midi") — dans ce cas, substitue l'ID concerné.
