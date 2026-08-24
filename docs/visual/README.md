@@ -97,8 +97,8 @@ Shot `ATT-01` — *La Rencontre*, recette `SUJ-03 / DEC-00 / CAM-02 / LIGHT-02 /
 SCENE — A quiet interior surface, neutral and uncluttered. Late-afternoon daylight enters
 from one side. Nothing else competes for attention.
 
-PRODUCT — A clear, straight, unbranded glass of still water. A small warm-amber piece of
-honey, simple geometric shape, has just met the surface of the water and is beginning to
+PRODUCT — A clear, straight, unbranded glass of still water. A small warm-amber honey crystal,
+simple geometric shape, has just met the surface of the water and is beginning to
 diffuse — slow, infusion-like, no effervescence; the water stays clear.
 
 COMPOSITION — Three elements maximum. One subject. Generous negative space on one side,
@@ -123,31 +123,33 @@ marble, chrome). No glossy plastic, resin, mirrored surfaces, futuristic sets, o
 
 ## Limites connues
 
-- **Aucune génération n'a encore été validée.** `ledje-asset-log.md` est vide : les presets sont des
+- **Aucune génération n'a encore été validée.** `ledje-asset-log.md` ne porte aucune génération : les presets sont des
   hypothèses de bon sens, pas des résultats prouvés. La boucle d'apprentissage n'a jamais tourné.
 - **Le système est conçu pour l'image fixe de marque** — 8 à 10 shots iconiques, organisés par intention.
   Il n'est pas dimensionné pour une production sociale à ~20 pièces par semaine, majoritairement vidéo
   (`../03_marche/grille-contenu.md`). Les deux besoins peuvent cohabiter, mais le shot-book ne fournit ni
   hooks, ni scripts, ni découpage de plans.
-- **Le format de lancement du cristal n'est pas confirmé** par les fournisseurs : les shots produit
+- **Le format du cristal n'est pas confirmé** par les fournisseurs : les shots produit
   restent volontairement génériques, sans détail de texture ni de mécanisme non vérifié.
 
-## ⚠️ Écarts avec l'ADN — relevés le 2026-08-20, non corrigés
+## ✅ Écarts avec l'ADN — relevés ET corrigés le 2026-08-20
 
-Ces quatre points sont **signalés, pas modifiés** : ils touchent des fichiers protégés.
+Quatre écarts avaient été relevés. **Basekou a validé leur correction en session** ; elle est appliquée aux
+fichiers protégés comme aux autres, et tracée dans `ledje-asset-log.md` (section « Modifications du Master
+Prompt », comme l'exige l'Evolution Policy).
 
-1. **Terminologie du produit.** Le master-prompt et la prompt-library nomment le produit de lancement
-   « Honey Portion » / « la portion », et `SUJ-01` s'appelle « La perle ». Or **portion, monodose, perle et
-   pastille sont des interdits stratégiques du lexique** — on dit **cristal de miel**
-   (`../01_adn/identite-verbale.md` §4.3, `../02_produit/cristal.md`). Le prompt est un objet interne et
-   anglais, donc ce n'est pas une infraction en soi ; le risque est que le mot remonte dans le copy en
-   passant par le shot-book.
-2. **Typographie.** Le master-prompt fixe `Label: Emerald green, gold typography (Fraunces)`. Fraunces est
-   retirée depuis la refonte ; l'étiquette réelle porte la typo « Alice », et l'arbitrage de la typo
-   système n'est pas tranché (`../01_adn/identite-visuelle.md`).
-3. **Palette.** Le master-prompt donne l'or et l'ambre comme acquis et renvoie au « SOT §3.2 », archivé
-   depuis le 2026-07-24. La palette est **rouverte** : seul l'émeraude tient
-   (`../01_adn/identite-visuelle.md`, statut `bloquant`).
-4. **Produit de lancement.** Le master-prompt présente le cristal comme « produit de lancement » et la
-   bouteille comme « phase 2 ». Le produit de lancement réel est la **bouteille 33 cl d'eau miellée** ; le
-   cristal est le produit de **conversion en ligne** (`../03_marche/site-precommande.md`).
+1. **Terminologie du produit** — le système nommait le produit « portion » / « perle ». **Corrigé : on dit
+   *cristal de miel* partout** (`../01_adn/identite-verbale.md` §4.3, `../02_produit/cristal.md`). Le
+   master-prompt porte désormais le rappel de l'interdit ; `SUJ-01` s'appelle « Le cristal ».
+2. **Typographie** — la spec `Fraunces` est **retirée**. Nouvelle règle : **ne jamais spécifier de police
+   dans un prompt**, et garder le texte d'étiquette **suggéré, jamais rendu lisible**. Double motif :
+   l'identité typographique n'est pas tranchée (`../01_adn/identite-visuelle.md`), et l'IA rend les
+   mentions en lettres aléatoires — constat de production du 14/08.
+3. **Palette** — le renvoi au « SOT §3.2 » (archivé) est supprimé. **Seul l'émeraude tient** ; l'or et
+   l'ambre sont **remis en question** comme couleurs de marque, à employer avec retenue et jamais comme
+   socle d'une image. *(L'ambre du **miel** est un fait de matière, pas une couleur de marque — il n'est
+   pas concerné.)*
+4. **Rôles produit** — ils étaient **inversés**. Rétabli : la **bouteille 33 cl d'eau miellée est le
+   produit de lancement**, fabriquée et vendue aujourd'hui ; le **cristal est le produit de conversion en
+   ligne**, pas encore produit et sans conditionneur identifié. L'ancienne réserve « bouteille = phase 2 »
+   est requalifiée : elle porte sur la **vente en ligne uniquement**, pas sur l'existence du produit.

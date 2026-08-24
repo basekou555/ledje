@@ -17,20 +17,30 @@ Product Definition
 Non-negotiable (jamais d'exception)
 
 ```
-Bottle
+Bottle — l'eau miellée 33 cl (LE PRODUIT DE LANCEMENT, fabriqué et vendu aujourd'hui)
   Material: PET transparent
   Capacity: 33 cl
   Shape: Slim, straight cylinder, short neck
   Cap: Brushed gold
-  Label: Emerald green, gold typography (Fraunces)
+  Label: ⚠️ NOT SETTLED — l'identité visuelle est rouverte. NE JAMAIS spécifier de
+         police dans un prompt. Le texte de l'étiquette reste SUGGÉRÉ, jamais rendu
+         lisible (l'IA le rend en lettres aléatoires — constat de production).
+         Seul élément acquis : le fond émeraude.
   Liquid: Pale golden amber, near-transparent — reads as fresh water first, never a thick juice
-  Status: communication anticipée uniquement (phase 2) — jamais présentée en achat immédiat
+  Status: produit RÉEL de la phase artisanale (canal restaurant). ⚠️ La réserve
+          « phase 2 » porte sur la VENTE EN LIGNE uniquement — le site la met en
+          scène mais ne la vend pas (contrainte logistique). Ce n'est pas une
+          réserve sur l'existence du produit.
 
-Honey Portion (produit de lancement)
+Honey Crystal — « cristal de miel » (produit de CONVERSION EN LIGNE, pas encore produit)
+  ⚠️ Terminologie : on dit CRISTAL DE MIEL. « portion », « perle », « pastille » et
+     « monodose » sont des interdits de lexique (docs/01_adn/identite-verbale.md §4.3).
   Form: simple geometric shape (square / rectangle / disc) — NOT a carved sphere (non confirmé industriellement)
   Color: warm amber
   Behaviour on dissolving: slow infusion-like diffusion, no effervescence, water stays clear
-  Status: format exact et argument "jamais chauffé" en attente de vérification fournisseur
+  Status: c'est ce qu'on PRÉ-VEND en ligne, pas ce qu'on lance. Format exact et
+          argument « jamais chauffé » en attente de vérification fournisseur ;
+          aucun partenaire de conditionnement identifié à ce jour.
 
 Glass
   Clear, straight, minimal
@@ -64,7 +74,10 @@ Toujours naturelle, douce, crédible — matin diffus ou fin d'après-midi. Jama
 Strong default.
 Materials
 Autorisées : pierre calcaire/travertin, verre, eau, lin, coton, bois massif, papier texturé, miel, laiton brossé, céramique artisanale. Interdites (non-negotiable) : plastique brillant, marbre noir, chrome, résine, surfaces miroir, décors futuristes, clichés "bio" (prairies, abeilles à profusion), tout ce qui lit comme ostentatoire.
-Palette (cf. SOT §3.2) : dominantes neutres (crème `#EDE0C8`, sable, pierre, blanc cassé) + accents émeraude (`#2E6B4F` moyen / `#0F3D2A` profond), or (dégradé `#FBE9A8`→`#E8B65C`→`#A9740F`), ambre (`#E0A52E`). Nuance par médium : packshot produit = l'émeraude peut dominer (fond) ; lifestyle = émeraude en touche signature, les neutres dominent.
+Palette — ⚠️ **ROUVERTE depuis le 2026-07-28** (cf. `../01_adn/identite-visuelle.md`, statut `bloquant`). **Seul l'émeraude tient** : `#2E6B4F` moyen / `#0F3D2A` profond. Les dominantes neutres (crème `#EDE0C8`, sable, pierre, blanc cassé) restent le socle des images. **L'or (`#FBE9A8`→`#E8B65C`→`#A9740F`) et l'ambre (`#E0A52E`) sont remis en question comme couleurs de marque** : les employer avec retenue, ne jamais construire une image sur eux, et ne pas les traiter comme acquis tant que la palette n'est pas retranchée.
+*(Distinction à tenir : l'ambre du **miel lui-même** est un fait de matière, pas une couleur de marque — il n'est pas concerné par cette réserve.)*
+Nuance par médium : packshot produit = l'émeraude peut dominer (fond) ; lifestyle = émeraude en touche signature, les neutres dominent.
+*(L'ancien renvoi « cf. SOT §3.2 » est caduc — le SOT monolithique est archivé depuis le 2026-07-24.)*
 Human Presence
 Mains, silhouettes, profils, gestes en priorité — privilégier le moins de visage possible. Depuis le 2026-07-30, un visage (ou une partie de visage) est possible quand le cadrage le justifie, au cas par cas. Non-negotiable : **jamais les yeux visibles** (floutés, cachés, détournés, hors champ). Codes subtils bienvenus (main droite, vêtement, gestes).
 Actions
