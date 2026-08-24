@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-08-20
+maj: 2026-08-24
 source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco"
-resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : J0 PRÉVU le 20/08, non confirmé ; DDM non déterminée, étiquette bloquée)."
+resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : J0 SANS DATE, il attend que la recette soit figée — décision du 24/08 ; DDM non déterminée, étiquette bloquée)."
 ---
 
 # Production artisanale
@@ -58,13 +58,17 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 
 **Protocole pH (mesure du départ de fermentation)** : papier pH **plage 3,8-5,5 uniquement** — une seule plage retenue (décision 2026-08-13 : une sortie de plage est lisible dans les deux sens, un paquet suffit au diagnostic) ; commandé le 13/08 (Rolling Beers, réf. 289138, 11,90 €), **reçu le 17/08 — protocole lançable**. Mesurer à J0 (embouteillage) puis J+2, J+4, J+6, EN PARALLÈLE lot au frais / lot à température ambiante ; même température, lumière du jour, même opérateur, heure notée, échantillon prélevé puis jeté.
 
-**⛔ PROTOCOLE NON LANCÉ au 2026-08-20.** *(Correction : cette fiche a affirmé du 19 au 20/08 un « J0 le 19/08 » qui n'a jamais eu lieu — une intention énoncée en séance avait été écrite comme un fait accompli. Erreur de consignation, corrigée le 20/08.)*
+**⛔ PROTOCOLE NON LANCÉ au 2026-08-24 — en attente de la recette, par décision.** *(Correction historique : cette fiche a affirmé du 19 au 20/08 un « J0 le 19/08 » qui n'a jamais eu lieu — une intention énoncée en séance avait été écrite comme un fait accompli. Erreur de consignation, corrigée le 20/08.)*
 
 Les papiers pH sont en main depuis le **17/08** ; le protocole prend environ un quart d'heure.
 
-**📅 J0 PRÉVU le 2026-08-20** (annoncé en session le 20/08). ⚠️ **Prévu, pas fait** — cette ligne ne passera à « réalisé » qu'à la confirmation de la mesure par Basekou. Échéances qui en découleraient : **J+2 = 22/08 · J+4 = 24/08 · J+6 = 26/08**. À noter : le **J+2 tombe le même jour que la commande du miel** (samedi 22/08).
+**📅 J0 SANS DATE — le protocole attend la recette** *(arbitré en session le 2026-08-24)*. Le J0 annoncé pour le 20/08 n'a pas eu lieu, et **ce n'est pas un oubli** : Basekou tranche que **mesurer avant d'avoir figé la recette revient à mesurer un autre produit**. Le protocole ne se lance pas tant que les proportions ne sont pas arrêtées (`fournisseurs.md`).
 
-⚠️ **Portée du résultat** : le mélange de miel n'est toujours pas figé au 20/08 (montagne + châtaignier + tilleul, doses en cours d'ajustement — cf. `fournisseurs.md`). Ce premier passage mesure donc **la méthode et l'ordre de grandeur**, pas la DDM du produit final. Une seconde série sur le miel réellement embouteillé restera nécessaire avant d'arrêter une date.
+**Le déclencheur est donc la recette, pas une date.** Le jour où elle est figée, le J0 se fait dans la foulée — la mesure prend une vingtaine de minutes — et la chaîne J+2 / J+4 / J+6 se calcule à partir de là.
+
+*(Historique de la chaîne abandonnée : un J0 avait été annoncé le 19/08 puis le 20/08, chacun consigné comme « prévu » et jamais réalisé. Les blocs agenda des 21 et 23/08 étiquetés « J+2 » et « J+4 » suivaient la première chaîne, déjà invalidée à ce moment-là. Tout cela est caduc.)*
+
+⚠️ **Portée du résultat.** La session du 20/08 envisageait un premier passage « à blanc » sur une recette non figée, qui n'aurait mesuré **que la méthode et l'ordre de grandeur**. Le 24/08, Basekou écarte cette option : on ne lance qu'une fois les proportions arrêtées, pour que la série porte directement sur le produit réel. **Une seule série, sur la bonne recette**, au lieu de deux dont la première n'aurait rien dit de la DDM.
 
 **Questions à poser aux apiculteurs (actées 11/08)** : miel filtré ou non (finesse), taux d'humidité (> 18 % = sujet à fermenter), pH / HMF / indice diastasique si mesurés, analyse par lot, clients qui diluent, transformateurs boisson connus, et **attestation écrite du process thermique** (sans document, « jamais chauffé » repose sur une parole).
 

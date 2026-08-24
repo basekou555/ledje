@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-08-20
-source: "Page relais Notion — dose quasi figée 2026-07-21, contenu légal figé côté COO 2026-07-24 ; principe produit repris de la base de connaissance V1 (§1.1) ; corrections du 2026-08-17 (DDM débloquée, règle logo v2 caduque, lieu de fabrication, format et matériau) ; QUID aligné sur l'étiquette V1.6 et assemblage corrigé en session le 2026-08-20"
-resume: "La bouteille artisanale 33cl : principe produit, recette/dose, QUID, tableau nutritionnel de travail, fabricant, habillage provisoire O'Daba, format d'étiquette 185×67."
+maj: 2026-08-24
+source: "Page relais Notion — dose quasi figée 2026-07-21, contenu légal figé côté COO 2026-07-24 ; principe produit repris de la base de connaissance V1 (§1.1) ; corrections du 2026-08-17 (DDM débloquée, règle logo v2 caduque, lieu de fabrication, format et matériau) ; QUID aligné sur l'étiquette V1.6 et assemblage corrigé en session le 2026-08-20 ; recette non figée et bascule imprimeur actées le 2026-08-24"
+resume: "La bouteille artisanale 33cl : principe produit, recette/dose (⚠️ NON FIGÉE au 24/08 — elle bloque le miel et le pH), QUID, tableau nutritionnel de travail, fabricant, habillage provisoire O'Daba, format d'étiquette 185×67 et bascule vers ETIQ'LYON."
 ---
 
 # Eau miellée — bouteille 33cl (produit artisanal)
@@ -25,6 +25,8 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 | Méthode de production | Basekou **pèse au gramme** pour respecter le tableau nutritionnel (au lieu de recalculer) | décidé 21/07 |
 | Miel (assemblage) | ⚠️ **Acacia + lavande est PÉRIMÉ** (confirmé le 2026-08-20). Le miel retenu vient du **Cueilleur de Miels** — mélange **montagne + châtaignier + tilleul**, doses non figées (`../04_operations/fournisseurs.md`) | en_cours |
 
+⚠️ **La recette est le chantier prioritaire au 2026-08-24, et elle n'est pas figée.** Basekou y a travaillé tout le week-end (à partir du 21/08) et l'a nettement avancée, **sans arrêter les proportions ni les mettre au propre**. Deux chantiers en dépendent et attendent le même signal : la **commande des 10 kg de miel** et le **lancement du protocole pH** — donc la DDM, donc l'impression de l'étiquette. **Rien ne se débloque avant que les proportions soient écrites** : une recette non consignée n'est pas reproductible sur le lot suivant.
+
 ## Étiquette — contenu légal (FIGÉ côté COO, 2026-07-24)
 
 - **QUID (aligné sur l'étiquette V1.6, confirmé en session le 2026-08-19/20)** : dans la liste d'ingrédients on écrit **« miel de fleurs (8 %) »** — mention **ferme**, PAS « jusqu'à » — et **« miel de France » figure sur un badge séparé**. *(Corrige la formulation antérieure « miel de fleurs de France (8 %) » dans la liste, portée jusqu'au 20/08.)*
@@ -37,7 +39,8 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 
 - **Format retenu : 185 × 67 mm** *(tranché par les faits : c'est le format commandé ; toutes les specs antérieures portaient 189 × 67, elles sont caduques)*.
 - **Matériau : plastique blanc (polypropylène)** — jamais du papier. La bouteille sort du réfrigérateur : condensation, mains mouillées.
-- **Lot de test commandé chez Avery** : 8 étiquettes, pour juger du rendu réel avant toute série.
+- ⚠️ **Le lot de test Avery (8 étiquettes) est abandonné** *(2026-08-24)* : la commande a bien été reçue, mais **aucun mail, aucune vérification, aucune nouvelle depuis plus d'une semaine** — l'entreprise semble fermée. On ne l'attend plus.
+- ✅ **Nouvelle piste : ETIQ'LYON** (Caluire, imprimeur numérique, livraison en journée sur Lyon), rouvert le 2026-08-24 et appelé le jour même. Objectif en deux temps : d'abord **une étiquette test** pour vérifier que le format passe réellement à l'impression, puis la série chez eux **s'ils sont réactifs**. C'est la réactivité qui tranche, pas le prix.
 - Contraintes d'impression valables chez n'importe quel imprimeur : 300 dpi minimum, CMJN, corps de texte 6 pt minimum et traits 0,5 pt minimum (le tableau nutritionnel et les mentions du fabricant sont les plus exposés), 3 mm de fond perdu et 3 mm de zone de sécurité, BAT relu intégralement avant série.
 - Cartographie de 13 imprimeurs lyonnais en cours pour la série (base Notion dédiée).
 
@@ -51,7 +54,7 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 - **Peser le miel d'un lot réel** pour verrouiller QUID + tableau nutritionnel.
 - **Analyse labo recommandée** en parallèle.
 - **Origine du miel** (conditionne le badge « miel de France ») — à confirmer auprès du Cueilleur de Miels. *(Remplace « origine de la lavande », caduque depuis l'abandon de l'assemblage acacia+lavande.)*
-- **DDM (mis à jour 2026-08-17)** : le blocage d'impression est **levé**. Papiers pH reçus, protocole J0→J+6 (frais contre ambiant) lançable ; si le résultat est bon, la DDM imprimée sera celle du test maison. ⚠️ **Réserve non levée** : une DDM issue d'un test maison n'est pas opposable, et aucun devis de laboratoire n'a été demandé à ce jour. Protocole et options : `../04_operations/production-artisanale.md`.
+- **DDM (mis à jour 2026-08-24)** : les papiers pH sont en main depuis le 17/08, mais le protocole J0→J+6 **attend que la recette soit figée** — décision du 24/08 : mesurer avant, c'est mesurer un autre produit. Si le résultat est bon, la DDM imprimée sera celle du test maison. ⚠️ **Deux réserves non levées** : une DDM issue d'un test maison n'est pas opposable, et aucun devis de laboratoire n'a été demandé à ce jour. Protocole et options : `../04_operations/production-artisanale.md`.
 
 ## Prix
 
