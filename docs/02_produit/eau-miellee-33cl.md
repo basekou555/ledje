@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-08-24
-source: "Page relais Notion — dose quasi figée 2026-07-21, contenu légal figé côté COO 2026-07-24 ; principe produit repris de la base de connaissance V1 (§1.1) ; corrections du 2026-08-17 (DDM débloquée, règle logo v2 caduque, lieu de fabrication, format et matériau) ; QUID aligné sur l'étiquette V1.6 et assemblage corrigé en session le 2026-08-20 ; recette non figée et bascule imprimeur actées le 2026-08-24"
-resume: "La bouteille artisanale 33cl : principe produit, recette/dose (⚠️ NON FIGÉE au 24/08 — elle bloque le miel et le pH), QUID, tableau nutritionnel de travail, fabricant, habillage provisoire O'Daba, format d'étiquette 185×67 et bascule vers ETIQ'LYON."
+maj: 2026-08-25
+source: "Page relais Notion — dose quasi figée 2026-07-21, contenu légal figé côté COO 2026-07-24 ; principe produit repris de la base de connaissance V1 (§1.1) ; corrections du 2026-08-17 (DDM débloquée, règle logo v2 caduque, lieu de fabrication, format et matériau) ; QUID aligné sur l'étiquette V1.6 et assemblage corrigé en session le 2026-08-20 ; recette non figée et bascule imprimeur actées le 2026-08-24 ; tilleul différé et échange ETIQ'LYON confirmés le 2026-08-25"
+resume: "La bouteille artisanale 33cl : principe produit, recette/dose (⚠️ NON FIGÉE au 25/08 — elle bloque le miel et le pH ; travail sur le duo montagne+châtaignier, tilleul différé), QUID, tableau nutritionnel de travail, fabricant, habillage provisoire O'Daba, format d'étiquette 185×67 et bascule vers ETIQ'LYON."
 ---
 
 # Eau miellée — bouteille 33cl (produit artisanal)
@@ -16,16 +16,18 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 
 **Le miel n'est jamais chauffé** : la fidélité au geste d'origine passe par cette exigence, et c'est une preuve produit — jamais une promesse de bienfait (`../01_adn/conformite.md`).
 
-## Recette / dose (quasi figée, 2026-07-21)
+## Recette / dose (dose quasi figée le 2026-07-21 · **assemblage EN COURS** au 2026-08-25)
 
 | Point | Valeur | Statut |
 |---|---|---|
 | Recette | Équivalent 6 c.à.c./50 cl, porté au 33cl | quasi figée |
 | Dose de miel | ~8,5 g miel/100 mL (~28 g/bouteille) | quasi figée |
 | Méthode de production | Basekou **pèse au gramme** pour respecter le tableau nutritionnel (au lieu de recalculer) | décidé 21/07 |
-| Miel (assemblage) | ⚠️ **Acacia + lavande est PÉRIMÉ** (confirmé le 2026-08-20). Le miel retenu vient du **Cueilleur de Miels** — mélange **montagne + châtaignier + tilleul**, doses non figées (`../04_operations/fournisseurs.md`) | en_cours |
+| Miel (assemblage) | ⚠️ **Acacia + lavande est PÉRIMÉ** (confirmé le 2026-08-20). Le miel retenu vient du **Cueilleur de Miels**. Au 2026-08-25, le travail porte sur le **duo montagne + châtaignier** ; le **tilleul est différé** (mis de côté le temps de caler le duo, pas écarté). Doses non figées (`../04_operations/fournisseurs.md`) | en_cours |
 
-⚠️ **La recette est le chantier prioritaire au 2026-08-24, et elle n'est pas figée.** Basekou y a travaillé tout le week-end (à partir du 21/08) et l'a nettement avancée, **sans arrêter les proportions ni les mettre au propre**. Deux chantiers en dépendent et attendent le même signal : la **commande des 10 kg de miel** et le **lancement du protocole pH** — donc la DDM, donc l'impression de l'étiquette. **Rien ne se débloque avant que les proportions soient écrites** : une recette non consignée n'est pas reproductible sur le lot suivant.
+⚠️ **La recette est le chantier prioritaire au 2026-08-25, et elle n'est toujours pas figée.** Le travail continue ; le chantier porte pour l'instant sur le **duo montagne + châtaignier**, le **tilleul étant mis de côté le temps de caler ce duo** (différé, pas écarté). Deux chantiers en dépendent et attendent le même signal : la **commande des 10 kg de miel** et le **lancement du protocole pH** — donc la DDM, donc l'impression de l'étiquette. **Rien ne se débloque avant que les proportions soient écrites** : une recette non consignée n'est pas reproductible sur le lot suivant.
+
+*(Des séries de tests ont été menées depuis le 21/08. **Leurs résultats ne sont pas consignés ici** : le dépouillement est en cours et rien n'entre en fiche avant qu'il soit terminé — décision du 25/08.)*
 
 ## Étiquette — contenu légal (FIGÉ côté COO, 2026-07-24)
 
@@ -40,7 +42,7 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 - **Format retenu : 185 × 67 mm** *(tranché par les faits : c'est le format commandé ; toutes les specs antérieures portaient 189 × 67, elles sont caduques)*.
 - **Matériau : plastique blanc (polypropylène)** — jamais du papier. La bouteille sort du réfrigérateur : condensation, mains mouillées.
 - ⚠️ **Le lot de test Avery (8 étiquettes) est abandonné** *(2026-08-24)* : la commande a bien été reçue, mais **aucun mail, aucune vérification, aucune nouvelle depuis plus d'une semaine** — l'entreprise semble fermée. On ne l'attend plus.
-- ✅ **Nouvelle piste : ETIQ'LYON** (Caluire, imprimeur numérique, livraison en journée sur Lyon), rouvert le 2026-08-24 et appelé le jour même. Objectif en deux temps : d'abord **une étiquette test** pour vérifier que le format passe réellement à l'impression, puis la série chez eux **s'ils sont réactifs**. C'est la réactivité qui tranche, pas le prix.
+- ✅ **Nouvelle piste : ETIQ'LYON** (Caluire, imprimeur numérique, livraison en journée sur Lyon), rouvert le 2026-08-24. **Échange par mail EN COURS au 2026-08-25** — leur réponse est arrivée, elle est en cours de traitement ; rien à consigner encore sur les délais, le BAT ou le prix. *(Correction : cette ligne a porté « appelé le jour même » le 24/08 — c'était l'intention du bloc Admin, écrite comme un fait accompli avant qu'elle ait eu lieu.)* Objectif en deux temps : d'abord **une étiquette test** pour vérifier que le format passe réellement à l'impression, puis la série chez eux **s'ils sont réactifs**. C'est la réactivité qui tranche, pas le prix.
 - Contraintes d'impression valables chez n'importe quel imprimeur : 300 dpi minimum, CMJN, corps de texte 6 pt minimum et traits 0,5 pt minimum (le tableau nutritionnel et les mentions du fabricant sont les plus exposés), 3 mm de fond perdu et 3 mm de zone de sécurité, BAT relu intégralement avant série.
 - Cartographie de 13 imprimeurs lyonnais en cours pour la série (base Notion dédiée).
 
@@ -62,4 +64,4 @@ Par canal : `prix.md` (B2C plafond 2,50 € ; C2B2C ; B2B restaurateurs).
 
 ## Décisions liées
 
-`../05_systeme/decisions-log.md` : lignes des 2026-07-21, 2026-07-24 et 2026-08-17.
+`../05_systeme/decisions-log.md` : lignes des 2026-07-21, 2026-07-24, 2026-08-17, 2026-08-20 (QUID et assemblage), 2026-08-24 (recette prioritaire, bascule imprimeur) et 2026-08-25 (tilleul différé, ETIQ'LYON corrigé).
