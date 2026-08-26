@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-08-25
-source: "Page relais Notion — dose quasi figée 2026-07-21, contenu légal figé côté COO 2026-07-24 ; principe produit repris de la base de connaissance V1 (§1.1) ; corrections du 2026-08-17 (DDM débloquée, règle logo v2 caduque, lieu de fabrication, format et matériau) ; QUID aligné sur l'étiquette V1.6 et assemblage corrigé en session le 2026-08-20 ; recette non figée et bascule imprimeur actées le 2026-08-24 ; tilleul différé et échange ETIQ'LYON confirmés le 2026-08-25"
-resume: "La bouteille artisanale 33cl : principe produit, recette/dose (⚠️ NON FIGÉE au 25/08 — elle bloque le miel et le pH ; travail sur le duo montagne+châtaignier, tilleul différé), QUID, tableau nutritionnel de travail, fabricant, habillage provisoire O'Daba, format d'étiquette 185×67 et bascule vers ETIQ'LYON."
+maj: 2026-08-26
+source: "Page relais Notion — dose quasi figée 2026-07-21, contenu légal figé côté COO 2026-07-24 ; principe produit repris de la base de connaissance V1 (§1.1) ; corrections du 2026-08-17 (DDM débloquée, règle logo v2 caduque, lieu de fabrication, format et matériau) ; QUID aligné sur l'étiquette V1.6 et assemblage corrigé en session le 2026-08-20 ; recette non figée et bascule imprimeur actées le 2026-08-24 ; tilleul différé le 2026-08-25 ; eau de production tranchée (Cristaline), dénomination légale versée en fiche et commande d'étiquettes conditionnée à la recette le 2026-08-26"
+resume: "La bouteille artisanale 33cl : principe produit, recette/dose (⚠️ NON FIGÉE au 26/08 — elle bloque le miel, le pH ET la commande d'étiquettes ; travail sur le duo montagne+châtaignier, tilleul différé), eau de production (Cristaline, eau de source) et dénomination légale, QUID, tableau nutritionnel de travail, fabricant, habillage provisoire O'Daba, format d'étiquette 185×67 et bascule vers ETIQ'LYON."
 ---
 
 # Eau miellée — bouteille 33cl (produit artisanal)
@@ -16,21 +16,23 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 
 **Le miel n'est jamais chauffé** : la fidélité au geste d'origine passe par cette exigence, et c'est une preuve produit — jamais une promesse de bienfait (`../01_adn/conformite.md`).
 
-## Recette / dose (dose quasi figée le 2026-07-21 · **assemblage EN COURS** au 2026-08-25)
+## Recette / dose (dose quasi figée le 2026-07-21 · **assemblage EN COURS** au 2026-08-26)
 
 | Point | Valeur | Statut |
 |---|---|---|
 | Recette | Équivalent 6 c.à.c./50 cl, porté au 33cl | quasi figée |
 | Dose de miel | ~8,5 g miel/100 mL (~28 g/bouteille) | quasi figée |
 | Méthode de production | Basekou **pèse au gramme** pour respecter le tableau nutritionnel (au lieu de recalculer) | décidé 21/07 |
-| Miel (assemblage) | ⚠️ **Acacia + lavande est PÉRIMÉ** (confirmé le 2026-08-20). Le miel retenu vient du **Cueilleur de Miels**. Au 2026-08-25, le travail porte sur le **duo montagne + châtaignier** ; le **tilleul est différé** (mis de côté le temps de caler le duo, pas écarté). Doses non figées (`../04_operations/fournisseurs.md`) | en_cours |
+| Miel (assemblage) | ⚠️ **Acacia + lavande est PÉRIMÉ** (confirmé le 2026-08-20). Le miel retenu vient du **Cueilleur de Miels**. Au 2026-08-26, le travail porte sur le **duo montagne + châtaignier** ; le **tilleul est différé** (mis de côté le temps de caler le duo, pas écarté). Doses non figées (`../04_operations/fournisseurs.md`) | en_cours |
 
-⚠️ **La recette est le chantier prioritaire au 2026-08-25, et elle n'est toujours pas figée.** Le travail continue ; le chantier porte pour l'instant sur le **duo montagne + châtaignier**, le **tilleul étant mis de côté le temps de caler ce duo** (différé, pas écarté). Deux chantiers en dépendent et attendent le même signal : la **commande des 10 kg de miel** et le **lancement du protocole pH** — donc la DDM, donc l'impression de l'étiquette. **Rien ne se débloque avant que les proportions soient écrites** : une recette non consignée n'est pas reproductible sur le lot suivant.
+⚠️ **La recette est le chantier prioritaire au 2026-08-26, et elle n'est toujours pas figée.** Basekou annonce avoir **besoin de toute la semaine** pour confirmer les proportions. Le chantier porte sur le **duo montagne + châtaignier**, le **tilleul restant différé** (mis de côté le temps de caler ce duo, pas écarté). Deux chantiers en dépendent et attendent le même signal : la **commande des 10 kg de miel** et le **lancement du protocole pH** — donc la DDM, donc l'impression de l'étiquette. **Rien ne se débloque avant que les proportions soient écrites** : une recette non consignée n'est pas reproductible sur le lot suivant.
 
 *(Des séries de tests ont été menées depuis le 21/08. **Leurs résultats ne sont pas consignés ici** : le dépouillement est en cours et rien n'entre en fiche avant qu'il soit terminé — décision du 25/08.)*
 
 ## Étiquette — contenu légal (FIGÉ côté COO, 2026-07-24)
 
+- **💧 L'EAU — tranchée le 2026-08-26 : la production se fait à l'EAU DE SOURCE, marque Cristaline.** Pas d'eau du robinet. *(Le robinet a servi ponctuellement sur certains tests de formulation ; ce n'est pas l'eau de production, et le test de confirmation doit se faire à l'eau réelle sous peine de valider un autre produit.)* Cette décision **conditionne la dénomination légale** : voir le point ci-dessous.
+- ⚠️ **DÉNOMINATION LÉGALE — à vérifier sur le fichier avant impression.** L'étiquette produite le 2026-07-24 portait **« Eau miellée — boisson à l'eau de source et au miel »**. Cette dénomination **n'était écrite dans aucune fiche jusqu'au 2026-08-26** — elle ne vivait que dans la page relais. Elle **tient** tant que l'eau de production est une eau de source (décision ci-dessus), mais **son libellé exact sur la V1.6 n'a pas été vérifié en session** : à confronter au fichier avant toute impression. Une dénomination est une mention obligatoire (`reglementaire-etiquetage.md`), pas un choix de style.
 - **QUID (aligné sur l'étiquette V1.6, confirmé en session le 2026-08-19/20)** : dans la liste d'ingrédients on écrit **« miel de fleurs (8 %) »** — mention **ferme**, PAS « jusqu'à » — et **« miel de France » figure sur un badge séparé**. *(Corrige la formulation antérieure « miel de fleurs de France (8 %) » dans la liste, portée jusqu'au 20/08.)*
 - Un **mélange de plusieurs miels reste « miel de fleurs »** : la mention ne dépend pas du nombre de miels assemblés.
 - **Tableau nutritionnel (version de travail)** : 28 kcal, 7 g glucides dont 7 g sucres, 0 g MG/protéines/sel, pour 100 mL.
@@ -42,7 +44,8 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 - **Format retenu : 185 × 67 mm** *(tranché par les faits : c'est le format commandé ; toutes les specs antérieures portaient 189 × 67, elles sont caduques)*.
 - **Matériau : plastique blanc (polypropylène)** — jamais du papier. La bouteille sort du réfrigérateur : condensation, mains mouillées.
 - ⚠️ **Le lot de test Avery (8 étiquettes) est abandonné** *(2026-08-24)* : la commande a bien été reçue, mais **aucun mail, aucune vérification, aucune nouvelle depuis plus d'une semaine** — l'entreprise semble fermée. On ne l'attend plus.
-- ✅ **Nouvelle piste : ETIQ'LYON** (Caluire, imprimeur numérique, livraison en journée sur Lyon), rouvert le 2026-08-24. **Échange par mail EN COURS au 2026-08-25** — leur réponse est arrivée, elle est en cours de traitement ; rien à consigner encore sur les délais, le BAT ou le prix. *(Correction : cette ligne a porté « appelé le jour même » le 24/08 — c'était l'intention du bloc Admin, écrite comme un fait accompli avant qu'elle ait eu lieu.)* Objectif en deux temps : d'abord **une étiquette test** pour vérifier que le format passe réellement à l'impression, puis la série chez eux **s'ils sont réactifs**. C'est la réactivité qui tranche, pas le prix.
+- ✅ **Nouvelle piste : ETIQ'LYON** (Caluire, imprimeur numérique, livraison en journée sur Lyon), rouvert le 2026-08-24. **État réel au 2026-08-26 : le mail est parti AUJOURD'HUI, aucune réponse à ce jour.** *(Deux corrections successives sur cette ligne : le 24/08 elle portait « appelé le jour même » — l'intention du bloc Admin écrite comme un fait ; le 25/08 elle portait « leur réponse est arrivée, en cours de traitement » — une consignation trop rapide d'une parole ambiguë. Ce qui est établi : **Basekou a envoyé le mail le 26/08**.)* Objectif en deux temps : d'abord **une étiquette test** pour vérifier que le format passe réellement à l'impression, puis la série chez eux **s'ils sont réactifs**. C'est la réactivité qui tranche, pas le prix.
+- ⚠️ **NOUVEAU (2026-08-26) : la COMMANDE des étiquettes attend la VALIDATION DE LA RECETTE.** Décision de Basekou — on ne commande rien avant que les proportions soient arrêtées, et il annonce en avoir pour la semaine. *(Cela dépasse la règle antérieure, qui ne suspendait que l'impression de la **série** à la DDM : c'est désormais **toute commande**, étiquette test comprise, qui attend la recette.)*
 - Contraintes d'impression valables chez n'importe quel imprimeur : 300 dpi minimum, CMJN, corps de texte 6 pt minimum et traits 0,5 pt minimum (le tableau nutritionnel et les mentions du fabricant sont les plus exposés), 3 mm de fond perdu et 3 mm de zone de sécurité, BAT relu intégralement avant série.
 - Cartographie de 13 imprimeurs lyonnais en cours pour la série (base Notion dédiée).
 
