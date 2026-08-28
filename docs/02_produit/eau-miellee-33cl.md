@@ -2,8 +2,8 @@
 statut: en_cours
 domaine: produit
 maj: 2026-08-28
-source: "Page relais Notion — dose quasi figée 2026-07-21, contenu légal figé côté COO 2026-07-24 ; principe produit repris de la base de connaissance V1 (§1.1) ; corrections du 2026-08-17 (DDM débloquée, règle logo v2 caduque, lieu de fabrication, format et matériau) ; QUID aligné sur l'étiquette V1.6 et assemblage corrigé en session le 2026-08-20 ; recette non figée et bascule imprimeur actées le 2026-08-24 ; tilleul différé le 2026-08-25 ; eau de production tranchée (Cristaline), dénomination légale versée en fiche et commande d'étiquettes conditionnée à la recette le 2026-08-26 ; dénomination VÉRIFIÉE ABSENTE du PDF V1.6 et « sans arôme artificiel » confirmée le 2026-08-27 ; correction CONFIRMÉE au fichier le 2026-08-28 (V1.7)"
-resume: "La bouteille artisanale 33cl : principe produit, recette/dose (⚠️ TOUJOURS NON FIGÉE au 27/08 — elle bloque le miel, le pH ET la commande d'étiquettes ; travail sur le duo montagne+châtaignier, tilleul différé), eau de production (Cristaline, eau de source), dénomination légale (⚠️ vérifiée ABSENTE de la V1.6 le 27/08, corrigée et CONFIRMÉE au fichier le 28/08 — la V1.7 remplace la V1.6 ; réserve ouverte sur la revendication « eau de source »), QUID, « sans arôme artificiel » confirmée, tableau nutritionnel de travail, fabricant, habillage provisoire O'Daba, format d'étiquette 185×67 et bascule vers ETIQ'LYON."
+source: "Page relais Notion — dose quasi figée 2026-07-21, contenu légal figé côté COO 2026-07-24 ; principe produit repris de la base de connaissance V1 (§1.1) ; corrections du 2026-08-17 (DDM débloquée, règle logo v2 caduque, lieu de fabrication, format et matériau) ; QUID aligné sur l'étiquette V1.6 et assemblage corrigé en session le 2026-08-20 ; recette non figée et bascule imprimeur actées le 2026-08-24 ; tilleul différé le 2026-08-25 ; eau de production tranchée (Cristaline), dénomination légale versée en fiche et commande d'étiquettes conditionnée à la recette le 2026-08-26 ; dénomination VÉRIFIÉE ABSENTE du PDF V1.6 et « sans arôme artificiel » confirmée le 2026-08-27 ; correction CONFIRMÉE au fichier le 2026-08-28 (V1.7) et date du test de confirmation consignée le 2026-08-28"
+resume: "La bouteille artisanale 33cl : principe produit, recette/dose (⚠️ TOUJOURS NON FIGÉE au 28/08 — test de confirmation mené le 26/08 au matin, il n'a rien verrouillé — elle bloque le miel, le pH ET la commande d'étiquettes ; travail sur le duo montagne+châtaignier, tilleul différé), eau de production (Cristaline, eau de source), dénomination légale (⚠️ vérifiée ABSENTE de la V1.6 le 27/08, corrigée et CONFIRMÉE au fichier le 28/08 — la V1.7 remplace la V1.6 ; réserve ouverte sur la revendication « eau de source »), QUID, « sans arôme artificiel » confirmée, tableau nutritionnel de travail, fabricant, habillage provisoire O'Daba, format d'étiquette 185×67 et bascule vers ETIQ'LYON."
 ---
 
 # Eau miellée — bouteille 33cl (produit artisanal)
@@ -16,7 +16,7 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 
 **Le miel n'est jamais chauffé** : la fidélité au geste d'origine passe par cette exigence, et c'est une preuve produit — jamais une promesse de bienfait (`../01_adn/conformite.md`).
 
-## Recette / dose (dose quasi figée le 2026-07-21 · **assemblage EN COURS** au 2026-08-26)
+## Recette / dose (dose quasi figée le 2026-07-21 · **assemblage EN COURS** au 2026-08-28)
 
 | Point | Valeur | Statut |
 |---|---|---|
@@ -28,6 +28,8 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 ⚠️ **La recette est le chantier prioritaire au 2026-08-26, et elle n'est toujours pas figée.** Basekou annonce avoir **besoin de toute la semaine** pour confirmer les proportions. Le chantier porte sur le **duo montagne + châtaignier**, le **tilleul restant différé** (mis de côté le temps de caler ce duo, pas écarté). Deux chantiers en dépendent et attendent le même signal : la **commande des 10 kg de miel** et le **lancement du protocole pH** — donc la DDM, donc l'impression de l'étiquette. **Rien ne se débloque avant que les proportions soient écrites** : une recette non consignée n'est pas reproductible sur le lot suivant.
 
 *(Des séries de tests ont été menées depuis le 21/08. **Leurs résultats ne sont pas consignés ici** : le dépouillement est en cours et rien n'entre en fiche avant qu'il soit terminé — décision du 25/08.)*
+
+**Le test de confirmation a été mené le mercredi 2026-08-26 au matin — et il n'a PAS verrouillé la recette** (confirmé en séance le 28/08). ⚠️ **Un test mené n'est pas une recette figée** : rien n'est débloqué. ⚠️ **Réserve de chronologie, vérifiée** : ce test précède de quelques heures la décision « eau de source Cristaline », prise en séance le 26/08 dans l'après-midi. **Rien n'établit avec quelle eau il a été mené** — or mesurer à une autre eau revient à valider un autre produit (conséquence de méthode posée le 26/08). Point à lever au dépouillement, non pressé.
 
 ## Étiquette — contenu légal (FIGÉ côté COO, 2026-07-24)
 
