@@ -23,9 +23,15 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 | Recette | Équivalent 6 c.à.c./50 cl, porté au 33cl | quasi figée |
 | Dose de miel | ~8,5 g miel/100 mL (~28 g/bouteille) | quasi figée |
 | Méthode de production | Basekou **pèse au gramme** pour respecter le tableau nutritionnel (au lieu de recalculer) | décidé 21/07 |
-| Miel (assemblage) | ⚠️ **Acacia + lavande est PÉRIMÉ** (confirmé le 2026-08-20). Le miel retenu vient du **Cueilleur de Miels**. Au 2026-08-26, le travail porte sur le **duo montagne + châtaignier** ; le **tilleul est différé** (mis de côté le temps de caler le duo, pas écarté). Doses non figées (`../04_operations/fournisseurs.md`) | en_cours |
+| Miel (assemblage) | ⚠️ **Acacia + lavande est PÉRIMÉ** (confirmé le 2026-08-20). Le miel retenu vient du **Cueilleur de Miels**. Au 2026-08-28 : **base verrouillée = montagne** ; **miel de caractère à choisir — châtaignier OU tilleul** (arbitrage inclus dans le figeage). Doses non figées (`../04_operations/fournisseurs.md`) | en_cours |
 
-⚠️ **La recette est le chantier prioritaire au 2026-08-26, et elle n'est toujours pas figée.** Basekou annonce avoir **besoin de toute la semaine** pour confirmer les proportions. Le chantier porte sur le **duo montagne + châtaignier**, le **tilleul restant différé** (mis de côté le temps de caler ce duo, pas écarté). Deux chantiers en dépendent et attendent le même signal : la **commande des 10 kg de miel** et le **lancement du protocole pH** — donc la DDM, donc l'impression de l'étiquette. **Rien ne se débloque avant que les proportions soient écrites** : une recette non consignée n'est pas reproductible sur le lot suivant.
+⚠️ **La recette reste le chantier prioritaire au 2026-08-28, et elle n'est TOUJOURS PAS figée** — la semaine annoncée le 26/08 se termine sans figeage. **Figeage PRÉVU le soir du 2026-08-28** *(intention énoncée en séance, pas un fait : à confirmer)*.
+
+**La structure du duo, précisée en séance le 28/08** : un **miel de base verrouillé — le montagne** (rond, sucré), et un **miel de caractère encore à choisir : châtaignier OU tilleul**. Le tilleul n'est donc **plus simplement « différé »** — il est en concurrence directe avec le châtaignier, et cet arbitrage fait partie du figeage. *(Corrige la formulation portée jusqu'au 27/08, qui présentait le duo comme « montagne + châtaignier » avec le tilleul mis de côté.)*
+
+**📅 Objectif consigné le 2026-08-28 : être opérationnel pour le 7/09.** ⚠️ **Chaîne à tenir, vérifiée en séance** : le devis ETIQ'LYON expire le **6/09** et la commande d'étiquettes attend la recette (décision du 26/08) — il faut ensuite un délai d'impression. Le 7/09 suppose donc un figeage **nettement avant le 6/09**, pas le 6.
+
+Deux chantiers dépendent du même signal : la **commande des 10 kg de miel** et le **lancement du protocole pH** — donc la DDM, donc l'impression de l'étiquette. **Rien ne se débloque avant que les proportions soient écrites** : une recette non consignée n'est pas reproductible sur le lot suivant.
 
 *(Des séries de tests ont été menées depuis le 21/08. **Leurs résultats ne sont pas consignés ici** : le dépouillement est en cours et rien n'entre en fiche avant qu'il soit terminé — décision du 25/08.)*
 
