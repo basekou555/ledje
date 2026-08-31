@@ -16,20 +16,22 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 
 **Le miel n'est jamais chauffé** : la fidélité au geste d'origine passe par cette exigence, et c'est une preuve produit — jamais une promesse de bienfait (`../01_adn/conformite.md`).
 
-## Recette / dose (dose quasi figée le 2026-07-21 · **assemblage EN COURS** au 2026-08-28)
+## Recette / dose (dose quasi figée le 2026-07-21 · **assemblage EN COURS** au 2026-08-31)
 
 | Point | Valeur | Statut |
 |---|---|---|
 | Recette | Équivalent 6 c.à.c./50 cl, porté au 33cl | quasi figée |
 | Dose de miel | ~8,5 g miel/100 mL (~28 g/bouteille) | quasi figée |
 | Méthode de production | Basekou **pèse au gramme** pour respecter le tableau nutritionnel (au lieu de recalculer) | décidé 21/07 |
-| Miel (assemblage) | ⚠️ **Acacia + lavande est PÉRIMÉ** (confirmé le 2026-08-20). Le miel retenu vient du **Cueilleur de Miels**. Au 2026-08-28 : **base verrouillée = montagne** ; **miel de caractère à choisir — châtaignier OU tilleul** (arbitrage inclus dans le figeage). Doses non figées (`../04_operations/fournisseurs.md`) | en_cours |
+| Miel (assemblage) | ⚠️ **Acacia + lavande est PÉRIMÉ** (confirmé le 2026-08-20). Le miel retenu vient du **Cueilleur de Miels**. **Base verrouillée = montagne** ; **miel de caractère à choisir — châtaignier OU tilleul** (arbitrage inclus dans le figeage ; état non réactualisé entre deux figeages, cf. règle du 31/08). Doses non figées (`../04_operations/fournisseurs.md`) | en_cours |
 
-⚠️ **La recette reste le chantier prioritaire au 2026-08-28, et elle n'est TOUJOURS PAS figée** — la semaine annoncée le 26/08 se termine sans figeage. **Figeage PRÉVU le soir du 2026-08-28** *(intention énoncée en séance, pas un fait : à confirmer)*.
+⚠️ **La recette reste le chantier prioritaire au 2026-08-31, et elle n'est TOUJOURS PAS figée.** Le figeage annoncé pour le soir du 28/08 **n'a pas eu lieu**.
 
-**La structure du duo, précisée en séance le 28/08** : un **miel de base verrouillé — le montagne** (rond, sucré), et un **miel de caractère encore à choisir : châtaignier OU tilleul**. Le tilleul n'est donc **plus simplement « différé »** — il est en concurrence directe avec le châtaignier, et cet arbitrage fait partie du figeage. *(Corrige la formulation portée jusqu'au 27/08, qui présentait le duo comme « montagne + châtaignier » avec le tilleul mis de côté.)*
+📌 **RÈGLE POSÉE LE 2026-08-31 : on consigne le FIGEAGE, pas le trajet.** Les avancées intermédiaires de la recette ne s'écrivent plus — « si on note toutes les petites avancées, on va noter des trucs pour dire l'inverse le lendemain » (Basekou). Cette fiche ne sera donc mise à jour qu'au figeage réel, en une fois, avec la mise au propre. *(Abroge la pratique des séances du 24 au 28/08, qui logeaient chaque état intermédiaire.)*
 
-**📅 Objectif consigné le 2026-08-28 : être opérationnel pour le 7/09.** ⚠️ **Chaîne à tenir, vérifiée en séance** : le devis ETIQ'LYON expire le **6/09** et la commande d'étiquettes attend la recette (décision du 26/08) — il faut ensuite un délai d'impression. Le 7/09 suppose donc un figeage **nettement avant le 6/09**, pas le 6.
+**La structure du duo (précisée le 28/08, toujours en vigueur)** : un **miel de base verrouillé — le montagne** (rond, sucré), et un **miel de caractère encore à choisir : châtaignier OU tilleul**. Le tilleul n'est donc **plus simplement « différé »** — il est en concurrence directe avec le châtaignier, et cet arbitrage fait partie du figeage. *(Corrige la formulation portée jusqu'au 27/08, qui présentait le duo comme « montagne + châtaignier » avec le tilleul mis de côté.)*
+
+**📅 Objectif consigné le 2026-08-28 : être opérationnel pour le 7/09.** ⚠️ **Au 2026-08-31, cet objectif n'est plus alimenté** : le devis ETIQ'LYON n'est pas validé (il comporte des erreurs) et sa validation est **volontairement repoussée à la sécurisation des bouteilles** — « ce serait précipité ». L'objectif n'est pas formellement abandonné ; il n'a plus de chaîne qui le porte.
 
 Deux chantiers dépendent du même signal : la **commande des 10 kg de miel** et le **lancement du protocole pH** — donc la DDM, donc l'impression de l'étiquette. **Rien ne se débloque avant que les proportions soient écrites** : une recette non consignée n'est pas reproductible sur le lot suivant.
 
