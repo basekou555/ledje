@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: systeme
-maj: 2026-08-24
+maj: 2026-08-31
 source: "SOT Partie 11 (archive 2026-07-24) — annotations d'état 24/07"
-resume: "Les pistes ouvertes et actions en attente. ⚠️ Nettoyé le 2026-08-24 : deux items reposaient sur des décisions annulées (retour designeuse, éviction des formats sensoriels) — supprimés avec leur motif."
+resume: "Les pistes ouvertes et actions en attente. ⚠️ Nettoyé le 2026-08-24 : deux items reposaient sur des décisions annulées (retour designeuse, éviction des formats sensoriels) — supprimés avec leur motif. Item 19 ajouté le 2026-08-31 : rendre le site mesurable (l'instrumentation actuelle ne dit ni la source, ni les pages, ni la durée)."
 ---
 
 # Backlog / pistes ouvertes
@@ -26,3 +26,4 @@ resume: "Les pistes ouvertes et actions en attente. ⚠️ Nettoyé le 2026-08-2
 16. **Calculer le coût de revient artisanal** par bouteille (eau, miel, packaging, conditionnement) — distinct du coût industriel (item 11), c'est la fondation des KPIs Francesco.
 17. **Chiffrer le marché adressable** (nombre de musulmans pratiquants actifs en France) — demandé par Francesco pour le prochain point d'étape. *(Premier dimensionnement fait le 20/07 : cf. `../03_marche/marche-adressable.md` — reste à consigner le détail du calcul.)*
 18. **Identifier les premiers contacts mosquées** pour la phase artisanale (piste déjà offerte par l'entretien 4 : fête d'école islamique, Cheikh Zakaria Ivry, président culturel) + option branding léger carafe/verres logotés pour les événements.
+19. **⚠️ Rendre le site mesurable — chantier ouvert le 2026-08-31.** Aujourd'hui la table `page_events` ne porte que `event_type`, `time_on_page_sec` (au seul `page_exit`), `utm_source` et `created_at` : **ni referrer, ni chemin de page, ni identifiant de session**. On ne peut donc **ni distinguer un visiteur d'un rechargement, ni savoir d'où il vient, ni ce qu'il a regardé, ni combien de temps**. Constat de terrain : le week-end du 29-30/08 a produit 14 événements pour ~10 vues, **sans une seule source**, 0 inscription et 0 avis — soit une donnée dont on ne peut rien tirer. À cadrer avant de lancer du trafic (lien avec les items 6 et 7). ⚠️ Toute évolution doit respecter les policies Supabase INSERT-only côté anon et ne jamais réintroduire de `.select()` après un insert anon (`../04_operations/site-technique.md`), et rester sobre côté données personnelles.
