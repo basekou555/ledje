@@ -21,5 +21,6 @@ le dossier qui bouge le plus vite avec le terrain.
 | [`acquisition-tiktok.md`](acquisition-tiktok.md) | Canal digital (inactif à ce jour) : UTM, canal B créateurs, trigger fin octobre | bloquant |
 | [`site-precommande.md`](site-precommande.md) | La refonte du site côté conversion : structure, hero, copy, précommande cristal | en_cours |
 | [`contenu-et-pubs.md`](contenu-et-pubs.md) | Méthode créa, pub 4 plans, scripts V1/V2, paramètres Higgsfield ; renvoi `../visual/` | en_cours |
-| [`mom-test.md`](mom-test.md) | Hypothèses H1/H2/H3, pattern Branche C, signaux récurrents, réserves méthodo | hypothèse |
+| [`mom-test.md`](mom-test.md) | Campagne v1 close (8 entretiens), v2 active « Test CEP & actifs » ; H4 gardienne et H5 offreur à tester ; signaux récurrents, réserves méthodo | hypothèse |
+| [`grille-contenu.md`](grille-contenu.md) | Objectifs du contenu, ce qui est publiable malgré l’identité non figée, les 7 formats arrêtés, partage réel/IA, comptes et cadence | en_cours |
 | [`marche-adressable.md`](marche-adressable.md) | Premier dimensionnement : panier 1-4 bouteilles/sem, SAM cœur 13-100 M€/an, SOM 130 k€-3 M€ | hypothèse |

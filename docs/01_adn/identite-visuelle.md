@@ -1,9 +1,9 @@
 ---
 statut: bloquant
 domaine: adn
-maj: 2026-08-17
+maj: 2026-08-19
 source: "SOT Partie 3 (archive 2026-07-24) ; retours Inès 2026-07-10 ; réalignement relevé COO 2026-07-28 (MMD 3)"
-resume: "Palette ROUVERTE (seul l'émeraude tient) ; pas de designer sur le projet (Inès = aidante-conseil) ; wordmark Basekou = seul élément d'identité ; identité à trancher par Basekou."
+resume: "Palette ROUVERTE (seul l'émeraude tient) ; aucun designer mandaté sur l'identité (Inès = conseil, Léa a coproduit l'étiquette du lot O'Daba) ; wordmark Basekou = seul élément d'identité ; identité à trancher par Basekou."
 ---
 
 # Identité visuelle (design system)
@@ -59,7 +59,7 @@ Seul élément com sur le chemin critique : le contenu légal de l'étiquette 33
 
 ### Étiquette du lot O'Daba — piste Vistaprint écartée (2026-08-17)
 
-Le service design de Vistaprint (Myriam, appel du 13/08) a jugé le PDF **flou à l'impression** (logo et fond) et proposé une refonte : logo refait sous Illustrator, deux fonds au choix, trois directions pour la goutte, trois révisions gratuites, QR régénéré avec la goutte au centre (URL `/avis` à jour). **Les deux versions livrées ne conviennent pas** (Basekou, 17/08) : la piste est **écartée**. Basekou commande lui-même **un lot d'étiquettes de test**. *(Rappel de cadre : Vistaprint est un prestataire d'impression, pas une direction artistique — il n'y a toujours pas de designer sur le projet.)*
+Le service design de Vistaprint (Myriam, appel du 13/08) a jugé le PDF **flou à l'impression** (logo et fond) et proposé une refonte : logo refait sous Illustrator, deux fonds au choix, trois directions pour la goutte, trois révisions gratuites, QR régénéré avec la goutte au centre (URL `/avis` à jour). **Les deux versions livrées ne conviennent pas** (Basekou, 17/08) : la piste est **écartée**. Basekou commande lui-même **un lot d'étiquettes de test**. *(Rappel de cadre : Vistaprint est un prestataire d'impression, pas une direction artistique — aucun designer n'est mandaté sur l'identité de marque. Précision du 19/08 : l'étiquette du lot, elle, a été **coproduite avec Léa** — voir « Statut designer » en bas de fiche.)*
 
 ## Le symbole : l'alvéole — ⚠️ À RECONSIDÉRER
 
@@ -80,6 +80,8 @@ Brief moodboards corrigé (minéral rétrogradé, blocs réécrits) ; planche B 
 ## Statut designer — ⚠️ CORRIGÉ 2026-07-28
 
 **Il n'y a pas de designer sur le projet.** Inès conseille à titre d'aidante (retours du 10/07 toujours valides comme diagnostic), mais elle ne produit rien et aucun livrable n'est attendu d'elle. Le seul élément d'identité existant est le **wordmark réalisé par Basekou**. L'identité (typo, personnalisation du wordmark, palette) est **à trancher par Basekou lui-même**. Le document `../ledje-brief-designer.md` reste comme matière, mais n'a plus de destinataire. La valeur opérationnelle du chantier moodboards est jugée faible par Basekou (28/07 : « ça ne me permet pas de faire des posts »).
+
+**⚠️ Mise à jour du 2026-08-19 — la formule « personne ne produit rien » n'est plus exacte.** **Léa** aide Basekou **sur le design et sur les tests produit**, et elle a **coproduit l'étiquette** du lot O'Daba (V1.6). C'est de la **production**, pas seulement du conseil — à la différence d'Inès. Ce qui reste vrai : **aucun designer n'est mandaté sur l'identité de marque**, et la typo, la personnalisation du wordmark et la palette restent **à trancher par Basekou lui-même**.
 
 ## Renvois
 

@@ -27,9 +27,13 @@ d'une session (ou la copie Project Knowledge Claude) et ces fiches, **les fiches
 
 ## Ce qui vit ailleurs (et pourquoi)
 
-- **`visual/`** — le système de production visuelle (langage, master prompt, prompt library,
-  shot book, asset log). Système autonome avec sa propre boucle de vie, routé par le
-  `CLAUDE.md` racine. On ne le duplique pas ici, on le référence.
+- **[`visual/`](visual/README.md)** — la production visuelle : la constitution artistique, le master
+  prompt, la prompt library, le shot book, l'asset log, plus
+  [`ledje-generateur.md`](visual/ledje-generateur.md) (le générateur Higgsfield : format d'entrée réel,
+  ce que le cahier des charges impose déjà, ce qui reste au rédacteur). Système autonome avec sa propre
+  boucle de vie, routé par le `CLAUDE.md` racine. On ne le duplique pas ici, on le référence.
+  **Carte d'entrée du dossier : [`visual/README.md`](visual/README.md)** — à ouvrir avant d'écrire le
+  moindre prompt d'image.
 - **`ledje-brief-designer.md`** — brief designeuse, document de travail transmis tel quel.
 - **`CLAUDE.md`** (racine du repo) — le routeur des sessions Claude Code (site / visuel / cerveau).
 - **Notion** — le suivi opérationnel vivant (pipelines sourcing, Mom Test). Les fiches portent

@@ -1,8 +1,8 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-08-18
-source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro)"
+maj: 2026-09-03
+source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03"
 resume: "Le réglementaire à boucler avant la première vente (déclaration ENREGISTRÉE — accusé reçu le 18/08, DDPP du Rhône compétente ; voie HACCP = GBPH apicole, recevabilité pour une boisson NON confirmée) + l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
 
@@ -12,7 +12,7 @@ resume: "Le réglementaire à boucler avant la première vente (déclaration ENR
 
 **[2026-08-11] Statut `bloquant` → `en_cours`** : la déclaration d'activité **est partie**. Le point dur n'est plus l'envoi mais **l'attente de l'accusé d'enregistrement**, qui désignera la DDPP compétente et débloquera les 3 questions. Les autres volets (HACCP, étiquetage/DLC, stabilité) restent ouverts — la fiche n'est pas close pour autant.
 
-**[2026-08-18] Mise à jour** : l'accusé est reçu, la DDPP du Rhône est compétente — **cette attente-là est finie**. Le point dur devient l'**étiquetage/DDM** (`../02_produit/eau-miellee-33cl.md`) et la **stabilité** (`production-artisanale.md`) ; la réserve HACCP reste ouverte.
+**[2026-08-18] Mise à jour** : l'accusé est reçu, la DDPP du Rhône est compétente — **cette attente-là est finie**. Le point dur devient l'**étiquetage/DLC** *(mention corrigée le 03/09 : c'était « DDM », erroné — voir `../02_produit/eau-miellee-33cl.md`)* et la **stabilité** (`production-artisanale.md`) ; la réserve HACCP reste ouverte.
 
 ## Démarche DDPP (suivi daté)
 
