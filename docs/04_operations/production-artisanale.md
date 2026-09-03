@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-08-24
-source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco"
-resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : J0 SANS DATE, il attend que la recette soit figée — décision du 24/08 ; DDM non déterminée, étiquette bloquée)."
+maj: 2026-09-03
+source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco ; mention légale DLC (pas DDM) tranchée le 2026-09-03 d'après le rapport produit du 01/09 (Drive)"
+resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : J0 SANS DATE, il attend que la recette soit figée — décision du 24/08 ; ⚠️ mention légale TRANCHÉE le 03/09 : DLC, pas DDM, non déterminée à ce jour, étiquette bloquée ; risque de gonflement en PET signalé par le rapport produit, non traité ailleurs)."
 ---
 
 # Production artisanale
@@ -48,7 +48,7 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 - **Réglementaire** : vente de denrées alimentaires même artisanale = déclaration d'activité, hygiène (DDPP), étiquetage (ingrédients, DLC, mention nourrissons), et **stabilité microbiologique du mélange eau+miel non pasteurisé** (risque fermentation). Suivi : `demarches-admin.md` et `../02_produit/reglementaire-etiquetage.md`.
 - **Prix** : coût de revient artisanal ≠ industriel — ne pas ancrer la communauté sur un prix intenable, ni vendre à perte pour le volume (cf. `../02_produit/prix.md`).
 
-## Stabilité du produit — fermentation & DDM/DLC (ouvert le 2026-08-11, 🔴 bloquant)
+## Stabilité du produit — fermentation & DLC (ouvert le 2026-08-11, 🔴 bloquant ; mention légale tranchée le 2026-09-03 : DLC, pas DDM)
 
 **Test de fermentation maison (11/08) : ~4-5 jours de tenue** avec les produits actuels (miel non représentatif de la prod). Le produit dilué est un moût d'hydromel : les levures osmophiles d'un miel non chauffé se réveillent à la dilution (CO2 + éthanol — ⚠️ l'appréciation de l'enjeu éthanol pour la cible relève d'une référence religieuse compétente). Le miel n'est qu'un facteur parmi d'autres : hygiène d'embouteillage, température de stockage et dilution à 8 % pèsent au moins autant.
 
@@ -68,15 +68,15 @@ Les papiers pH sont en main depuis le **17/08** ; le protocole prend environ un 
 
 *(Historique de la chaîne abandonnée : un J0 avait été annoncé le 19/08 puis le 20/08, chacun consigné comme « prévu » et jamais réalisé. Les blocs agenda des 21 et 23/08 étiquetés « J+2 » et « J+4 » suivaient la première chaîne, déjà invalidée à ce moment-là. Tout cela est caduc.)*
 
-⚠️ **Portée du résultat.** La session du 20/08 envisageait un premier passage « à blanc » sur une recette non figée, qui n'aurait mesuré **que la méthode et l'ordre de grandeur**. Le 24/08, Basekou écarte cette option : on ne lance qu'une fois les proportions arrêtées, pour que la série porte directement sur le produit réel. **Une seule série, sur la bonne recette**, au lieu de deux dont la première n'aurait rien dit de la DDM.
+⚠️ **Portée du résultat.** La session du 20/08 envisageait un premier passage « à blanc » sur une recette non figée, qui n'aurait mesuré **que la méthode et l'ordre de grandeur**. Le 24/08, Basekou écarte cette option : on ne lance qu'une fois les proportions arrêtées, pour que la série porte directement sur le produit réel. **Une seule série, sur la bonne recette**, au lieu de deux dont la première n'aurait rien dit de la durée de conservation.
 
-**Questions à poser aux apiculteurs (actées 11/08)** : miel filtré ou non (finesse), taux d'humidité (> 18 % = sujet à fermenter), pH / HMF / indice diastasique si mesurés, analyse par lot, clients qui diluent, transformateurs boisson connus, et **attestation écrite du process thermique** (sans document, « jamais chauffé » repose sur une parole).
+**Questions à poser aux apiculteurs (actées 11/08)** : miel filtré ou non (finesse), **taux d'humidité** (> 18 % = sujet à fermenter — c'est aussi la donnée qui convertit la dose à la seringue en g/100 mL, cf. `../02_produit/eau-miellee-33cl.md`), pH / HMF / indice diastasique si mesurés, analyse par lot, clients qui diluent, transformateurs boisson connus, et **attestation écrite du process thermique** (sans document, « jamais chauffé » repose sur une parole).
 
-**⚠️ DDM/DLC : mention d'étiquetage OBLIGATOIRE, non déterminée — bloque l'impression de l'étiquette.** Voie de sortie : refaire le test en isolant les variables + analyse laboratoire du produit fini (DLC réelle + tableau nutritionnel vérifié + conseil procédé). Un technologue alimentaire est plus compétent que Claude sur ce point.
+⚠️ **MENTION LÉGALE TRANCHÉE LE 2026-09-03 : DLC, pas DDM.** *(Corrige les mentions « DDM » ci-dessus et ci-dessous, portées de manière erronée depuis le 17/08 — la réponse DDPP du 18/07 ne mentionne ni l'une ni l'autre, c'était notre propre formulation.)* Un rapport produit sourcé (session Produit, 01/09, Drive) établit qu'une boisson réfrigérée non pasteurisée relève d'une **DLC** — la DDM étant réservée aux produits stables. **Décision de Basekou : on part sur la DLC**, aucun mail de vérification à la DDPP n'étant prévu. Mention d'étiquetage **obligatoire, toujours non déterminée** — bloque l'impression de l'étiquette. Voie de sortie : le protocole pH maison, complété par une **étude de durée de vie microbiologique** (norme NF V01-003, laboratoires type CTCPA/Eurofins — méthode de référence citée par le rapport, plus exigeante qu'une simple analyse de pH).
 
-**Voie de sortie tranchée le 2026-08-17** : **le protocole pH maison d'abord** — les papiers sont reçus (17/08), le protocole est lançable. **Si le résultat est bon, la DDM imprimée sera celle du test maison** ; pas d'analyse laboratoire préalable (décision Basekou). ⚠️ Réserve consignée, non levée : une DDM issue d'un test maison **n'est pas opposable** — le rappel du 12/08 (un test maison cadre une durée, il ne la certifie pas) reste vrai. Aucun devis de laboratoire n'a été demandé à ce jour.
+**Voie de sortie tranchée le 2026-08-17** : **le protocole pH maison d'abord** — les papiers sont reçus (17/08), le protocole est lançable. **Si le résultat est bon, la DLC imprimée sera celle du test maison** ; pas d'analyse laboratoire préalable (décision Basekou). ⚠️ Réserve consignée, non levée et **renforcée par le rapport du 01/09** : une mention issue d'un test maison **n'est pas opposable** — le rappel du 12/08 (un test maison cadre une durée, il ne la certifie pas) reste vrai, et la méthode de référence administrative est l'étude de durée de vie, pas le seul relevé de pH. Aucun devis de laboratoire n'a été demandé à ce jour. ⚠️ **Risque signalé par le rapport, non traité ailleurs dans le SOT** : le miel dilué se comporte comme un moût d'hydromel non ensemencé — la fermentation est son état par défaut, et en bouteille PET scellée elle peut produire un gonflement (précédents kombucha/kéfir).
 
-**Ce que le protocole peut faire (précisé en session du 2026-08-12)** : il **mesure**, il ne stabilise pas. Il peut néanmoins éviter tout changement de recette — si la tenue mesurée couvre le délai d'écoulement réel du circuit, la durée constatée est écrite sur l'étiquette et le produit reste nu. La stabilisation ne devient nécessaire que pour une durée supérieure à ce que le produit tient seul (expédition, mise en rayon). Rappel : la bouteille n'est **pas** vendue en ligne (cf. `../02_produit/bouteille.md`). Un test maison **cadre** une durée, il ne la **certifie** pas — la DDM opposable passe par le laboratoire.
+**Ce que le protocole peut faire (précisé en session du 2026-08-12)** : il **mesure**, il ne stabilise pas. Il peut néanmoins éviter tout changement de recette — si la tenue mesurée couvre le délai d'écoulement réel du circuit, la durée constatée est écrite sur l'étiquette et le produit reste nu. La stabilisation ne devient nécessaire que pour une durée supérieure à ce que le produit tient seul (expédition, mise en rayon). Rappel : la bouteille n'est **pas** vendue en ligne (cf. `../02_produit/bouteille.md`). Un test maison **cadre** une durée, il ne la **certifie** pas — la mention opposable passe par le laboratoire.
 
 ## Renvois (décisions de la semaine, consignées dans leurs fiches)
 
