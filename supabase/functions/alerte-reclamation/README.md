@@ -12,7 +12,7 @@ réclamations sont traitées dans la journée.
 trigger trg_avis_reclamation   (ne tire QUE si reclamation non nul)
         ↓ pg_net.http_post — asynchrone, ne bloque jamais l'insertion
 Edge Function alerte-reclamation
-        ↓ SMTP Zoho
+        ↓ API Resend (HTTP)
 boîte d'alerte  →  puis marque avis.alerte_envoyee_at
 ```
 
@@ -30,12 +30,29 @@ Points de conception :
 - **Conformité** : le contenu du mail est purement factuel, aucune allégation
   santé même implicite (`docs/01_adn/conformite.md`).
 
+## Historique : pourquoi Resend et pas Zoho
+
+La v1 passait par SMTP Zoho (`ZOHO_USER`/`ZOHO_APP_PASSWORD`). Abandonné le
+2026-09-03 : le **plan gratuit Zoho Mail bloque IMAP/POP/SMTP**, réservé au
+plan payant Mail Lite. Les logs montraient `535: Authentication Failed` même
+avec un mot de passe d'application valide et fraîchement régénéré — ce n'était
+pas un secret mal réglé, mais le protocole SMTP fermé côté Zoho.
+
+Resend est une **API HTTP** : aucun protocole SMTP en jeu, donc ce blocage ne
+s'applique pas.
+
 ## Activation (à faire une fois)
 
-### 1. Générer le mot de passe d'application Zoho
+### 1. Créer un compte Resend et une clé API
 
-Dans Zoho Mail : **Paramètres → Sécurité → Mots de passe d'application** →
-en générer un pour « Supabase ». Ce n'est **pas** le mot de passe du compte.
+Sur [resend.com](https://resend.com) : inscription, puis **API Keys → Create
+API Key**. La clé (`re_...`) ne s'affiche qu'une fois.
+
+Tant qu'aucun domaine n'est vérifié sur Resend, l'envoi ne peut se faire que
+depuis `onboarding@resend.dev` et **uniquement vers l'adresse email du compte
+Resend**. Pour envoyer vers une autre adresse ou depuis `@ledje.fr`, il faut
+vérifier le domaine `ledje.fr` dans Resend (ajout d'enregistrements DNS) puis
+régler `RESEND_FROM` en conséquence (voir étape 3).
 
 ### 2. Récupérer le secret partagé
 
@@ -53,14 +70,14 @@ Dashboard Supabase → **Edge Functions → alerte-reclamation → Secrets** :
 
 | Nom | Valeur |
 |---|---|
-| `ZOHO_USER` | `basekou@ledje.fr` |
-| `ZOHO_APP_PASSWORD` | le mot de passe d'application de l'étape 1 |
+| `RESEND_API_KEY` | la clé de l'étape 1 (`re_...`) |
 | `ALERTE_SECRET` | la valeur lue à l'étape 2 |
-| `ALERTE_DESTINATAIRE` | *(facultatif)* adresse de réception, sinon `ZOHO_USER` |
-| `ZOHO_SMTP_HOST` | *(facultatif)* `smtp.zoho.eu` par défaut ; `smtp.zoho.com` si le compte est sur la région US |
+| `ALERTE_DESTINATAIRE` | l'adresse qui doit recevoir les alertes (`basekou@ledje.fr`) |
+| `RESEND_FROM` | *(facultatif)* `Lédjé <onboarding@resend.dev>` par défaut ; à passer à une adresse `@ledje.fr` une fois le domaine vérifié |
 
 Tant que `ALERTE_SECRET` n'est pas réglé, la fonction répond `401` et aucun
-email ne part — l'avis, lui, est bien enregistré.
+email ne part — l'avis, lui, est bien enregistré. Tant que `RESEND_API_KEY`
+ou `ALERTE_DESTINATAIRE` manque, elle répond `500 resend_not_configured`.
 
 ### 4. Vérifier
 
@@ -77,11 +94,6 @@ select id, created_at, alerte_envoyee_at, reclamation
   from public.avis where reclamation is not null order by created_at desc limit 5;
 ```
 
-## Réserve connue
-
-L'envoi **SMTP sortant peut être bloqué** selon le plan Supabase / la
-politique réseau du runtime Edge. Si l'étape 4 renvoie `smtp_failed` alors
-que les identifiants sont bons, il faudra basculer sur une **API HTTP**
-d'envoi (ZeptoMail de Zoho, ou Resend) plutôt que le SMTP direct — seule la
-partie « envoi » de `index.ts` est à remplacer, le reste de la chaîne ne bouge
-pas.
+Si le statut n'est pas 200, les logs détaillés (`resend_failed` avec le
+message renvoyé par l'API) sont visibles dans Supabase → Edge Functions →
+alerte-reclamation → Logs.

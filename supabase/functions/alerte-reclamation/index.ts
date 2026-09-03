@@ -1,8 +1,12 @@
 // Alerte email sur réclamation produit (SOT décision 2026-08-17).
 //
 // Déclenchée par un trigger Postgres sur `public.avis` quand la colonne
-// `reclamation` est renseignée. Envoie un mail via SMTP Zoho à l'adresse
+// `reclamation` est renseignée. Envoie un mail via l'API Resend à l'adresse
 // d'alerte, puis marque la ligne (`alerte_envoyee_at`) pour éviter les doublons.
+//
+// Historique : la v1 passait par SMTP Zoho — abandonné, le plan gratuit Zoho
+// Mail bloque IMAP/POP/SMTP (535 Authentication Failed, confirmé par les logs
+// le 2026-09-03). Resend est une API HTTP, aucun protocole SMTP en jeu.
 //
 // Aucun secret n'est écrit ici : tout vient des variables d'environnement
 // (secrets Edge Function, réglés dans le dashboard Supabase).
@@ -10,13 +14,12 @@
 // Conformité : le contenu du mail est purement factuel — aucune allégation
 // santé, même implicite (cf. docs/01_adn/conformite.md).
 
-import { SMTPClient } from 'https://deno.land/x/denomailer@1.6.0/mod.ts'
-
-const SMTP_HOST = Deno.env.get('ZOHO_SMTP_HOST') ?? 'smtp.zoho.eu'
-const SMTP_PORT = Number(Deno.env.get('ZOHO_SMTP_PORT') ?? '465')
-const SMTP_USER = Deno.env.get('ZOHO_USER') ?? ''
-const SMTP_PASSWORD = Deno.env.get('ZOHO_APP_PASSWORD') ?? ''
-const ALERT_TO = Deno.env.get('ALERTE_DESTINATAIRE') ?? SMTP_USER
+const RESEND_API_KEY = Deno.env.get('RESEND_API_KEY') ?? ''
+// Tant qu'aucun domaine n'est vérifié sur Resend, seul le domaine de test
+// onboarding@resend.dev peut envoyer — et uniquement vers l'adresse du compte
+// Resend. Une fois ledje.fr vérifié, passer RESEND_FROM à une adresse @ledje.fr.
+const RESEND_FROM = Deno.env.get('RESEND_FROM') ?? 'Lédjé <onboarding@resend.dev>'
+const ALERT_TO = Deno.env.get('ALERTE_DESTINATAIRE') ?? ''
 const ALERTE_SECRET = Deno.env.get('ALERTE_SECRET') ?? ''
 
 const SUPABASE_URL = Deno.env.get('SUPABASE_URL') ?? ''
@@ -67,9 +70,9 @@ Deno.serve(async (req: Request) => {
     return new Response('Unauthorized', { status: 401 })
   }
 
-  if (!SMTP_USER || !SMTP_PASSWORD) {
-    console.error('Secrets SMTP manquants (ZOHO_USER / ZOHO_APP_PASSWORD)')
-    return new Response(JSON.stringify({ error: 'smtp_not_configured' }), {
+  if (!RESEND_API_KEY || !ALERT_TO) {
+    console.error('Secrets Resend manquants (RESEND_API_KEY / ALERTE_DESTINATAIRE)')
+    return new Response(JSON.stringify({ error: 'resend_not_configured' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' },
     })
@@ -127,29 +130,34 @@ Deno.serve(async (req: Request) => {
     <p style="color:#666;font-size:12px">Référence : ${esc(txt(record.id))}</p>
   `
 
-  const client = new SMTPClient({
-    connection: {
-      hostname: SMTP_HOST,
-      port: SMTP_PORT,
-      tls: true,
-      auth: { username: SMTP_USER, password: SMTP_PASSWORD },
-    },
-  })
-
   try {
-    await client.send({
-      from: SMTP_USER,
-      to: ALERT_TO,
-      replyTo: record.email ?? undefined,
-      subject: `Lédjé — réclamation reçue (${recuFr})`,
-      content: corpsTexte,
-      html: corpsHtml,
+    const res = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${RESEND_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from: RESEND_FROM,
+        to: [ALERT_TO],
+        reply_to: record.email || undefined,
+        subject: `Lédjé — réclamation reçue (${recuFr})`,
+        text: corpsTexte,
+        html: corpsHtml,
+      }),
     })
-    await client.close()
+
+    if (!res.ok) {
+      const detail = await res.text()
+      console.error('Echec envoi Resend', res.status, detail)
+      return new Response(JSON.stringify({ error: 'resend_failed', status: res.status }), {
+        status: 500,
+        headers: { 'Content-Type': 'application/json' },
+      })
+    }
   } catch (e) {
-    console.error('Echec envoi SMTP', e)
-    try { await client.close() } catch { /* déjà fermé */ }
-    return new Response(JSON.stringify({ error: 'smtp_failed' }), {
+    console.error('Echec envoi Resend', e)
+    return new Response(JSON.stringify({ error: 'resend_failed' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' },
     })
