@@ -907,3 +907,54 @@ img, svg, video { display: block; max-width: 100%; }
   .hd-tint { opacity: 0.8; }
   .hd-d1 { opacity: 1; transform: translateY(74px) scale(0.8, 1.4); }
 }
+
+/* ════════════════════════════════════════════
+   MATIÈRE & PROFONDEUR
+   Diagnostic : tout était en aplats plats. Un crème uni reste « propre »
+   sans devenir désirable. Le grain lui donne la matière d'un papier teinté,
+   la parallaxe donne de la profondeur au hero.
+   ⚠️ À JUGER — le grain se règle d'une seule valeur (--grain-force).
+   ════════════════════════════════════════════ */
+:root {
+  --grain-force: 0.055;   /* 0 = aucun grain · 0.03 discret · 0.09 marqué */
+}
+
+.v-grain {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  pointer-events: none;
+  opacity: var(--grain-force);
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+
+/* ── Parallaxe : la vidéo défile moins vite que le texte ── */
+.v-hero-media { will-change: transform; }
+.v-hero-content { will-change: transform, opacity; }
+
+/* ── L'accroche se dévoile ligne par ligne, derrière un masque ── */
+.v-line { display: block; overflow: hidden; }
+.v-line-in {
+  display: block;
+  transform: translateY(105%);
+  animation: v-line-up 0.85s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.v-line-1 { animation-delay: 0.30s; }
+.v-line-2 { animation-delay: 0.42s; }
+@keyframes v-line-up { to { transform: translateY(0); } }
+
+/* ── Ombres chaudes, pas grises : la lumière du crème est ambrée ── */
+.v-aside {
+  box-shadow:
+    0 1px 2px rgba(90, 62, 20, 0.05),
+    0 8px 24px -12px rgba(90, 62, 20, 0.16);
+}
+.v-figure { box-shadow: 0 10px 32px -16px rgba(90, 62, 20, 0.22); }
+.v-strip li { box-shadow: 0 1px 2px rgba(90, 62, 20, 0.04); }
+
+@media (prefers-reduced-motion: reduce) {
+  .v-line-in { transform: none; animation: none; }
+  .v-hero-media, .v-hero-content { transform: none !important; opacity: 1 !important; }
+}

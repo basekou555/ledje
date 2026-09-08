@@ -154,6 +154,35 @@ export default function App() {
     }
   }, [])
 
+  // Parallaxe du hero : la vidéo défile moins vite que le texte, ce qui crée
+  // de la profondeur. Calculé en rAF et seulement tant que le hero est visible.
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    const media = document.querySelector<HTMLElement>('.v-hero-media')
+    const content = document.querySelector<HTMLElement>('.v-hero-content')
+    if (!media) return
+
+    let ticking = false
+    const apply = () => {
+      const y = window.scrollY
+      const h = window.innerHeight
+      if (y < h) {
+        media.style.transform = `translate3d(0, ${y * 0.28}px, 0)`
+        if (content) {
+          content.style.transform = `translate3d(0, ${y * -0.06}px, 0)`
+          content.style.opacity = String(Math.max(0, 1 - (y / h) * 1.35))
+        }
+      }
+      ticking = false
+    }
+    const onScroll = () => {
+      if (!ticking) { ticking = true; requestAnimationFrame(apply) }
+    }
+    apply()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
   // Révélation au scroll, désactivée si l'utilisateur préfère moins d'animation.
   useEffect(() => {
     const targets = document.querySelectorAll('.reveal')
@@ -193,6 +222,11 @@ export default function App() {
         <a className="v-header-cta" href="#contact">Être prévenu</a>
       </header>
 
+      {/* Grain : une trame très fine posée sur toute la page. Sans elle, le crème
+          reste un aplat numérique ; avec, il prend la matière d'un papier teinté.
+          Purement décoratif, ne capte jamais le pointeur. */}
+      <div className="v-grain" aria-hidden="true" />
+
       <main id="top">
         {/* ══ 1 · LE PRODUIT — ce que c'est, tout de suite ══ */}
         <section className="v-hero" aria-labelledby="hero-title">
@@ -204,7 +238,12 @@ export default function App() {
           <div className="v-hero-content">
             <p className="v-hero-kicker v-fade v-fade-1">Eau miellée</p>
             <p className="v-hero-brand v-fade v-fade-2">lédjé</p>
-            <h1 id="hero-title" className="v-hero-title v-fade v-fade-3">{ACCROCHE}</h1>
+            {/* L'accroche se dévoile ligne par ligne, chaque ligne montant
+                de derrière un masque — plus habité qu'un simple fondu. */}
+            <h1 id="hero-title" className="v-hero-title">
+              <span className="v-line"><span className="v-line-in v-line-1">De l’eau et du miel.</span></span>
+              <span className="v-line"><span className="v-line-in v-line-2">Rien de plus.</span></span>
+            </h1>
             <div className="v-hero-actions v-fade v-fade-4">
               <a className="btn-ghost" href="#produit">Découvrir</a>
               <span className="v-hero-meta">Miel français · 33 cl</span>
