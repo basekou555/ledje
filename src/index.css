@@ -789,11 +789,16 @@ img, svg, video { display: block; max-width: 100%; }
   white-space: nowrap;
   animation: v-rise 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
-.reveal .v-strip li { animation-play-state: paused; }
-.reveal.is-visible .v-strip li { animation-play-state: running; }
-.v-strip li:nth-child(1) { animation-delay: 0.06s; }
-.v-strip li:nth-child(2) { animation-delay: 0.16s; }
-.v-strip li:nth-child(3) { animation-delay: 0.26s; }
+.reveal .v-strip li {
+  animation: none;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.55s ease, transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.is-visible .v-strip li { opacity: 1; transform: none; }
+.reveal.is-visible .v-strip li:nth-child(1) { transition-delay: 0.30s; }
+.reveal.is-visible .v-strip li:nth-child(2) { transition-delay: 0.38s; }
+.reveal.is-visible .v-strip li:nth-child(3) { transition-delay: 0.46s; }
 
 @media (min-width: 900px) {
   .v-title--huge { font-size: clamp(3.4rem, 5.6vw, 5.4rem); }
@@ -825,52 +830,20 @@ img, svg, video { display: block; max-width: 100%; }
   overflow: visible;
 }
 
-.hd-shadow { fill: rgba(20, 61, 43, 0.09); }
-
-/* Paroi : pas de contour uniforme — un dégradé qui s'éclaire aux bords,
-   c'est ce qui donne l'épaisseur du verre au lieu d'un pictogramme. */
-.hd-wall {
-  fill: url(#hd-wall);
-  stroke: rgba(20, 61, 43, 0.26);
-  stroke-width: 1.1;
-  stroke-linejoin: round;
-}
-
-/* Rebord ouvert : l'ellipse complète en arrière, l'arc avant plus marqué */
-.hd-rim {
-  fill: rgba(255, 255, 255, 0.3);
-  stroke: rgba(20, 61, 43, 0.24);
-  stroke-width: 1.1;
-}
-.hd-rim-front {
-  stroke: rgba(20, 61, 43, 0.42);
-  stroke-width: 1.7;
-  stroke-linecap: round;
-  fill: none;
-}
-
-.hd-water   { fill: rgba(150, 190, 205, 0.22); }
-.hd-surface {
-  fill: rgba(255, 255, 255, 0.32);
-  stroke: rgba(20, 61, 43, 0.2);
-  stroke-width: 1;
-}
-
-/* Reflets : deux filés lumineux sur les bords, pas un bloc blanc */
-.hd-shine {
-  stroke: #FFFFFF;
-  stroke-width: 3.4;
-  stroke-linecap: round;
-  opacity: 0.55;
-}
-.hd-shine-2 { stroke-width: 1.8; opacity: 0.3; }
-
-/* ── La teinte : c'est le cœur de l'animation ── */
-.hd-tint {
+/* La nappe de liquide — plus de verre dessiné : un verre au trait lit toujours
+   « illustration », alors que la nappe seule reste abstraite et élégante. */
+.hd-pool-clear { fill: url(#hd-clear); }
+.hd-pool-tint {
   fill: url(#hd-tinted);
   opacity: 0;
   animation: hd-tint 10s linear infinite;
 }
+.hd-pool-edge {
+  fill: none;
+  stroke: rgba(20, 61, 43, 0.16);
+  stroke-width: 1.2;
+}
+
 @keyframes hd-tint {
   0%,  15%  { opacity: 0; }
   17%, 46%  { opacity: 0.34; }
@@ -882,7 +855,7 @@ img, svg, video { display: block; max-width: 100%; }
 /* ── Les gouttes ── */
 .hd-drop {
   opacity: 0;
-  transform-origin: 100px 22px;
+  transform-origin: 110px 24px;
   animation: hd-fall 10s cubic-bezier(0.45, 0, 0.75, 0.35) infinite;
 }
 .hd-d1 { animation-delay: 0s; }
@@ -893,22 +866,22 @@ img, svg, video { display: block; max-width: 100%; }
    puis s'écrase à la surface. */
 @keyframes hd-fall {
   0%    { opacity: 0; transform: translateY(0) scale(0.5, 0.45); }
-  2%    { opacity: 1; transform: translateY(2px) scale(0.85, 0.8); }
-  5%    { opacity: 1; transform: translateY(6px) scale(0.92, 1.05); }
-  8%    { opacity: 1; transform: translateY(18px) scale(0.82, 1.34); }
-  13%   { opacity: 1; transform: translateY(74px) scale(0.76, 1.5); }
-  15.2% { opacity: 1; transform: translateY(108px) scale(0.9, 1.15); }
-  16.4% { opacity: 0.55; transform: translateY(116px) scale(1.7, 0.28); }
-  18%   { opacity: 0; transform: translateY(118px) scale(2.1, 0.16); }
-  100%  { opacity: 0; transform: translateY(118px) scale(2.1, 0.16); }
+  2%    { opacity: 1; transform: translateY(3px) scale(0.85, 0.8); }
+  5%    { opacity: 1; transform: translateY(9px) scale(0.92, 1.05); }
+  8%    { opacity: 1; transform: translateY(26px) scale(0.82, 1.36); }
+  13%   { opacity: 1; transform: translateY(108px) scale(0.74, 1.55); }
+  15.2% { opacity: 1; transform: translateY(156px) scale(0.9, 1.18); }
+  16.4% { opacity: 0.55; transform: translateY(166px) scale(1.8, 0.28); }
+  18%   { opacity: 0; transform: translateY(168px) scale(2.2, 0.14); }
+  100%  { opacity: 0; transform: translateY(168px) scale(2.2, 0.14); }
 }
 
 /* ── Les ondes, une par impact ── */
 .hd-ripple {
   fill: none;
-  stroke: rgba(255, 255, 255, 0.75);
-  stroke-width: 1.4;
-  transform-origin: 100px 141px;
+  stroke: rgba(255, 255, 255, 0.9);
+  stroke-width: 1.6;
+  transform-origin: 110px 196px;
   opacity: 0;
   animation: hd-ripple 10s ease-out infinite;
 }
@@ -932,9 +905,9 @@ img, svg, video { display: block; max-width: 100%; }
 /* ── Sans animation : le verre reste plein d'eau miellée, une goutte suspendue.
       La scène garde son sens même immobile. ── */
 @media (prefers-reduced-motion: reduce) {
-  .hd-tint, .hd-drop, .hd-ripple { animation: none !important; }
-  .hd-tint { opacity: 0.8; }
-  .hd-d1 { opacity: 1; transform: translateY(74px) scale(0.8, 1.4); }
+  .hd-pool-tint, .hd-drop, .hd-ripple { animation: none !important; }
+  .hd-pool-tint { opacity: 0.9; }
+  .hd-d1 { opacity: 1; transform: translateY(108px) scale(0.78, 1.5); }
 }
 
 /* ════════════════════════════════════════════
@@ -945,7 +918,7 @@ img, svg, video { display: block; max-width: 100%; }
    ⚠️ À JUGER — le grain se règle d'une seule valeur (--grain-force).
    ════════════════════════════════════════════ */
 :root {
-  --grain-force: 0.19;    /* 0 = aucun · 0.10 discret · 0.19 visible · 0.30 marqué */
+  --grain-force: 0.30;    /* 0 = aucun · 0.18 discret · 0.30 visible · 0.45 marqué */
 }
 
 .v-grain {
@@ -954,9 +927,12 @@ img, svg, video { display: block; max-width: 100%; }
   z-index: 999;
   pointer-events: none;
   opacity: var(--grain-force);
-  mix-blend-mode: multiply;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.62' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
-  background-size: 150px 150px;
+  /* Pas de mix-blend-mode : il ne composite pas de façon fiable sur un élément
+     fixe au-dessus de plusieurs contextes d'empilement — le grain restait
+     invisible. Ici la trame est du noir dont l'alpha vient de la turbulence,
+     posé en alpha simple : ça se voit toujours. */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 160px 160px;
 }
 
 /* ── Parallaxe : la vidéo défile moins vite que le texte ── */
@@ -1003,10 +979,18 @@ img, svg, video { display: block; max-width: 100%; }
 .reveal--right.is-visible,
 .reveal--up.is-visible { transform: none; }
 
-/* Les titres de section attendent d'être à l'écran pour se dévoiler */
-.reveal .v-line-in { animation-play-state: paused; }
-.reveal.is-visible .v-line-in { animation-play-state: running; }
-.v-line-3 { animation-delay: 0.54s; }
+/* Les titres de section : transition et non animation, pour que le
+   dévoilement se rejoue à l'envers quand la section ressort de l'écran.
+   (Le hero, lui, garde son animation : il ne joue qu'au chargement.) */
+.reveal .v-line-in {
+  animation: none;
+  transform: translateY(105%);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.is-visible .v-line-in { transform: none; }
+.reveal .v-line-1 { transition-delay: 0.06s; }
+.reveal .v-line-2 { transition-delay: 0.16s; }
+.reveal .v-line-3 { transition-delay: 0.26s; }
 
 /* Le visuel produit arrive avec un léger rapprochement, pas un simple fondu */
 .reveal .v-figure {

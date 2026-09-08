@@ -56,78 +56,52 @@ function EauMiellee() {
   return (
     <svg
       className="hd"
-      viewBox="0 0 200 300"
+      viewBox="0 0 220 260"
       fill="none"
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
     >
       <defs>
-        {/* Miel : dégradé chaud avec un reflet clair */}
         <linearGradient id="hd-honey" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#F6D384" />
-          <stop offset="0.45" stopColor="#E0A52E" />
-          <stop offset="1" stopColor="#B4761A" />
+          <stop offset="0" stopColor="#F8DA97" />
+          <stop offset="0.42" stopColor="#E2A733" />
+          <stop offset="1" stopColor="#B0731A" />
         </linearGradient>
-        {/* Eau miellée : la teinte que prend le liquide */}
-        <linearGradient id="hd-tinted" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#F0C87E" />
-          <stop offset="1" stopColor="#D2921F" />
-        </linearGradient>
-        {/* Paroi du verre : clair aux bords, transparent au centre */}
-        <linearGradient id="hd-wall" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stopColor="#143D2B" stopOpacity="0.2" />
-          <stop offset="0.1" stopColor="#FFFFFF" stopOpacity="0.5" />
-          <stop offset="0.4" stopColor="#FFFFFF" stopOpacity="0.06" />
-          <stop offset="0.72" stopColor="#FFFFFF" stopOpacity="0.14" />
-          <stop offset="0.92" stopColor="#FFFFFF" stopOpacity="0.42" />
-          <stop offset="1" stopColor="#143D2B" stopOpacity="0.2" />
-        </linearGradient>
-        {/* Le liquide ne déborde jamais de l'intérieur du verre */}
-        <clipPath id="hd-inside">
-          <path d="M62.5 78 L73.5 245 Q74.5 250 81 250 L119 250 Q125.5 250 126.5 245 L137.5 78 Z" />
-        </clipPath>
+        {/* La nappe une fois miellée */}
+        <radialGradient id="hd-tinted" cx="0.5" cy="0.35" r="0.75">
+          <stop offset="0" stopColor="#F2CE86" />
+          <stop offset="0.6" stopColor="#DCA23A" />
+          <stop offset="1" stopColor="#C1861F" />
+        </radialGradient>
+        {/* La nappe d'eau claire */}
+        <radialGradient id="hd-clear" cx="0.5" cy="0.35" r="0.75">
+          <stop offset="0" stopColor="#FFFFFF" stopOpacity="0.75" />
+          <stop offset="1" stopColor="#BFD4D8" stopOpacity="0.5" />
+        </radialGradient>
       </defs>
 
-      {/* Ombre posée sous le verre */}
-      <ellipse className="hd-shadow" cx="100" cy="256" rx="40" ry="5.5" />
+      {/* La nappe : eau claire, puis la teinte miel par-dessus */}
+      <ellipse className="hd-pool-clear" cx="110" cy="196" rx="86" ry="26" />
+      <ellipse className="hd-pool-tint"  cx="110" cy="196" rx="86" ry="26" />
+      <ellipse className="hd-pool-edge"  cx="110" cy="196" rx="86" ry="26" />
 
-      {/* Paroi */}
-      <path className="hd-wall" d="M60 76 L71 246 Q72 253 80 253 L120 253 Q128 253 129 246 L140 76 Z" />
+      {/* Ondes concentriques à chaque impact */}
+      <ellipse className="hd-ripple hd-r1" cx="110" cy="196" rx="20" ry="6" />
+      <ellipse className="hd-ripple hd-r2" cx="110" cy="196" rx="20" ry="6" />
+      <ellipse className="hd-ripple hd-r3" cx="110" cy="196" rx="20" ry="6" />
 
-      <g clipPath="url(#hd-inside)">
-        {/* Eau claire */}
-        <rect className="hd-water" x="55" y="140" width="90" height="120" />
-        {/* Teinte miel, qui monte par paliers à chaque goutte */}
-        <rect className="hd-tint" x="55" y="140" width="90" height="120" />
-        {/* Ondes à la surface */}
-        <ellipse className="hd-ripple hd-r1" cx="100" cy="141" rx="10" ry="2.6" />
-        <ellipse className="hd-ripple hd-r2" cx="100" cy="141" rx="10" ry="2.6" />
-        <ellipse className="hd-ripple hd-r3" cx="100" cy="141" rx="10" ry="2.6" />
-      </g>
-
-      {/* Surface du liquide */}
-      <ellipse className="hd-surface" cx="100" cy="140" rx="35.8" ry="5.4" />
-
-      {/* Rebord du verre — c'est lui qui fait lire « verrerie » et non « pictogramme » */}
-      <ellipse className="hd-rim" cx="100" cy="76" rx="40" ry="8.5" />
-      <path className="hd-rim-front" d="M60 76 A40 8.5 0 0 0 140 76" />
-
-      {/* Reflets sur les deux bords */}
-      <path className="hd-shine" d="M69 92 L77.5 232" />
-      <path className="hd-shine hd-shine-2" d="M131 92 L122.5 232" />
-
-      {/* Les gouttes — même forme, trois départs décalés */}
+      {/* Les gouttes */}
       <g className="hd-drop hd-d1">
-        <path d="M100 6 c5 10.5 9 16.5 9 21.5 a9 9 0 0 1 -18 0 C91 22.5 95 16.5 100 6 Z" fill="url(#hd-honey)" />
-        <ellipse cx="96.5" cy="24" rx="2.2" ry="3.4" fill="#FCEEC0" opacity="0.75" />
+        <path d="M110 8 c5.5 11.5 9.5 18 9.5 23.5 a9.5 9.5 0 0 1 -19 0 C100.5 26 104.5 19.5 110 8 Z" fill="url(#hd-honey)" />
+        <ellipse cx="106" cy="27" rx="2.4" ry="3.8" fill="#FDF1CE" opacity="0.8" />
       </g>
       <g className="hd-drop hd-d2">
-        <path d="M100 6 c5 10.5 9 16.5 9 21.5 a9 9 0 0 1 -18 0 C91 22.5 95 16.5 100 6 Z" fill="url(#hd-honey)" />
-        <ellipse cx="96.5" cy="24" rx="2.2" ry="3.4" fill="#FCEEC0" opacity="0.75" />
+        <path d="M110 8 c5.5 11.5 9.5 18 9.5 23.5 a9.5 9.5 0 0 1 -19 0 C100.5 26 104.5 19.5 110 8 Z" fill="url(#hd-honey)" />
+        <ellipse cx="106" cy="27" rx="2.4" ry="3.8" fill="#FDF1CE" opacity="0.8" />
       </g>
       <g className="hd-drop hd-d3">
-        <path d="M100 6 c5 10.5 9 16.5 9 21.5 a9 9 0 0 1 -18 0 C91 22.5 95 16.5 100 6 Z" fill="url(#hd-honey)" />
-        <ellipse cx="96.5" cy="24" rx="2.2" ry="3.4" fill="#FCEEC0" opacity="0.75" />
+        <path d="M110 8 c5.5 11.5 9.5 18 9.5 23.5 a9.5 9.5 0 0 1 -19 0 C100.5 26 104.5 19.5 110 8 Z" fill="url(#hd-honey)" />
+        <ellipse cx="106" cy="27" rx="2.4" ry="3.8" fill="#FDF1CE" opacity="0.8" />
       </g>
     </svg>
   )
@@ -194,9 +168,12 @@ export default function App() {
       targets.forEach(el => el.classList.add('is-visible'))
       return
     }
+    // Réversible : on n'arrête pas d'observer après la première apparition,
+    // et la classe se retire quand la section ressort — l'animation se rejoue
+    // donc à l'envers quand on remonte la page.
     const obs = new IntersectionObserver(
       entries => entries.forEach(e => {
-        if (e.isIntersecting) { e.target.classList.add('is-visible'); obs.unobserve(e.target) }
+        e.target.classList.toggle('is-visible', e.isIntersecting)
       }),
       { threshold: 0.12, rootMargin: '0px 0px -60px 0px' },
     )
