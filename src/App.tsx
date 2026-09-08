@@ -168,31 +168,29 @@ export default function App() {
         </section>
 
         {/* ══ 2 · L'EXPÉRIENCE — la sensation, pas l'argument ══ */}
-        <section className="v-section v-section--green" aria-labelledby="gout-title">
-          <div className="container container--wide reveal">
-            <div className="v-split v-split--media">
-              <figure className="v-figure v-figure--tall">
-                <img
-                  src="/visuals/origine.jpg"
-                  alt="Du miel versé dans un verre d’eau fraîche"
-                  loading="lazy"
-                  decoding="async"
-                />
-              </figure>
-              <div className="v-split-main">
-                <p className="v-eyebrow">À la dégustation</p>
-                <h2 id="gout-title" className="v-title v-title--lg">
-                  Frais, doux, léger.
-                </h2>
-                <p className="v-text">
-                  Le miel se laisse reconnaître sans s’imposer. On la boit glacée,
-                  à la sortie du frigo, quand il fait chaud ou quand on a simplement soif.
-                </p>
-                <p className="v-text">
-                  C’est le genre de boisson qu’on finit sans y penser, et qu’on ressert.
-                </p>
-              </div>
-            </div>
+        {/* Bande en plein cadre : même traitement que le hero — l'image porte
+            le texte au lieu de le côtoyer. */}
+        <section className="v-band" aria-labelledby="gout-title">
+          <div className="v-band-media">
+            <img
+              src="/visuals/origine.jpg"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div className="v-band-content container container--wide reveal">
+            <p className="v-eyebrow">À la dégustation</p>
+            <h2 id="gout-title" className="v-title v-title--lg">
+              Frais, doux, léger.
+            </h2>
+            <p className="v-text">
+              Le miel se laisse reconnaître sans s’imposer. On la boit glacée,
+              à la sortie du frigo, quand il fait chaud ou quand on a simplement soif.
+            </p>
+            <p className="v-text">
+              C’est le genre de boisson qu’on finit sans y penser, et qu’on ressert.
+            </p>
           </div>
         </section>
 

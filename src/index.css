@@ -540,13 +540,6 @@ img, svg, video { display: block; max-width: 100%; }
   color: var(--gold-ink);
 }
 
-/* Visuel vertical (portrait) — cadré pour ne pas dévorer l'écran mobile */
-.v-figure--tall img {
-  max-height: 62vh;
-  width: auto;
-  margin-inline: auto;
-  object-fit: contain;
-}
 
 /* Kicker de la page construction (remplace l'alvéole retirée) */
 .construction-kicker {
@@ -639,14 +632,6 @@ img, svg, video { display: block; max-width: 100%; }
   .v-split-main { flex: 1 1 54%; min-width: 0; }
   .v-split-side { flex: 1 1 46%; min-width: 0; }
 
-  /* Bloc dégustation : l'image passe à gauche, le texte se cale au milieu */
-  .v-split--media { align-items: center; }
-  .v-split--media .v-figure { flex: 0 1 42%; margin-top: 0; }
-  .v-split--media .v-split-main { flex: 1 1 58%; }
-
-  /* Le visuel vertical n'écrase plus la page en grand écran */
-  .v-figure--tall img { max-height: 78vh; }
-
   /* ── Échelle typographique élargie ── */
   .v-title--lg { font-size: clamp(2rem, 3vw, 2.7rem); }
   .v-title--xl { font-size: clamp(2.3rem, 4vw, 3.4rem); max-width: 16ch; }
@@ -661,4 +646,121 @@ img, svg, video { display: block; max-width: 100%; }
 
 @media (min-width: 1400px) {
   .v-hero-brand { font-size: 10rem; }
+}
+
+/* ════════════════════════════════════════════
+   MOUVEMENT & MATIÈRE
+   Registre volontairement retenu : la marque demande « sobre, beaucoup de
+   blanc, rien de chargé ». Le mouvement sert la matière du produit
+   (le miel qui coule, l'eau), il ne cherche pas l'effet.
+   Tout est neutralisé sous prefers-reduced-motion (bloc plus bas).
+   ════════════════════════════════════════════ */
+
+/* ── Bande plein cadre : l'image porte le texte, comme le hero ── */
+.v-band {
+  position: relative;
+  min-height: 88svh;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background: var(--green-deep);
+  padding: 6rem 0 clamp(3rem, 8vh, 5rem);
+}
+.v-band-media {
+  position: absolute; inset: 0; z-index: 0;
+  /* Le visuel se pose : il arrive légèrement agrandi et se détend.
+     Porté par le conteneur — sur l'image, le fill-mode figerait transform
+     et empêcherait le zoom au survol. */
+  animation: v-settle 1.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.v-band-media img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: 50% 45%;
+}
+.v-band-media::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(to bottom,
+    rgba(20, 61, 43, 0.30) 0%,
+    rgba(20, 61, 43, 0.45) 45%,
+    rgba(20, 61, 43, 0.86) 100%);
+}
+.v-band-content { position: relative; z-index: 1; width: 100%; }
+.v-band .v-title { color: var(--surface); }
+.v-band .v-text  { color: #E8DCC0; }
+.v-band .v-eyebrow { color: var(--gold-on-green); }
+
+@keyframes v-settle { from { transform: scale(1.08); } to { transform: scale(1); } }
+
+@media (min-width: 900px) {
+  .v-band { align-items: center; min-height: 92svh; }
+  .v-band-content { max-width: 1120px; }
+  .v-band .v-title, .v-band .v-text { max-width: 20ch; }
+  .v-band .v-text { max-width: 42ch; }
+  .v-band-media::after {
+    background: linear-gradient(to right,
+      rgba(20, 61, 43, 0.88) 0%,
+      rgba(20, 61, 43, 0.66) 42%,
+      rgba(20, 61, 43, 0.18) 78%,
+      rgba(20, 61, 43, 0.30) 100%);
+  }
+}
+
+/* ── Zoom au survol sur les visuels ── */
+.v-figure { overflow: hidden; border-radius: var(--radius); }
+.v-figure img {
+  transition: transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+.v-figure:hover img { transform: scale(1.05); }
+
+/* La bande réagit aussi, plus discrètement (surface bien plus grande) */
+.v-band:hover .v-band-media img { transform: scale(1.03); }
+.v-band-media img { transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1); }
+
+/* L'emplacement en attente respire lui aussi au survol */
+.v-placeholder { transition: border-color var(--transition), background var(--transition); }
+.v-figure:hover .v-placeholder { border-color: var(--green); background: #E3D2B2; }
+
+/* ── Vidéo du hero : très lent rapprochement, pour que l'image ne soit pas figée ── */
+.v-hero-media video { animation: v-drift 26s ease-in-out infinite alternate; }
+@keyframes v-drift { from { transform: scale(1); } to { transform: scale(1.07); } }
+
+/* ── Les lignes de faits se révèlent une à une ── */
+.reveal.is-visible .v-facts li {
+  animation: v-rise 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.reveal.is-visible .v-facts li:nth-child(1) { animation-delay: 0.05s; }
+.reveal.is-visible .v-facts li:nth-child(2) { animation-delay: 0.13s; }
+.reveal.is-visible .v-facts li:nth-child(3) { animation-delay: 0.21s; }
+.reveal.is-visible .v-facts li:nth-child(4) { animation-delay: 0.29s; }
+@keyframes v-rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+
+/* ── Soulignement animé sur les liens du pied de page ── */
+.v-footer-mail a {
+  text-decoration: none;
+  background-image: linear-gradient(var(--gold-on-green), var(--gold-on-green));
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  padding-bottom: 2px;
+}
+.v-footer-mail a:hover { background-size: 100% 1px; }
+
+/* ── Boutons : réponse plus franche au survol ── */
+.btn-ghost { transition: border-color var(--transition), background var(--transition), transform var(--transition); }
+.btn-ghost:hover { transform: translateY(-2px); }
+.v-header-cta { transition: background var(--transition), transform var(--transition); }
+.v-header-cta:hover { transform: translateY(-1px); }
+
+/* ── Neutralisation complète du mouvement si l'utilisateur le demande ── */
+@media (prefers-reduced-motion: reduce) {
+  .v-hero-media video,
+  .v-band-media,
+  .reveal.is-visible .v-facts li { animation: none !important; }
+  .v-figure img, .v-band-media img { transition: none !important; }
+  .v-figure:hover img,
+  .v-band:hover .v-band-media img { transform: none !important; }
 }
