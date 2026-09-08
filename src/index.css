@@ -809,88 +809,101 @@ img, svg, video { display: block; max-width: 100%; }
   .v-strip li { animation: none !important; }
 }
 
+
 /* ════════════════════════════════════════════
-   GOUTTES DE MIEL — scène animée de la bande dégustation
-   Trois gouttes tombent en décalé, se fondent dans la surface, une onde part
-   à l'impact. Cycle de 3,6 s. Trait fin, or : c'est la matière du produit
-   qui bouge, pas un effet décoratif de plus.
+   SCÈNE « EAU + MIEL » — section Pourquoi lédjé
+   Trois gouttes tombent dans un verre d'eau claire ; à chaque impact l'eau
+   gagne un palier de teinte, jusqu'à devenir de l'eau miellée, puis le cycle
+   repart. Cycle de 10 s : impacts à 1,6 s / 4,8 s / 8 s.
+   Le miel est en dégradé avec un reflet — pas un aplat, sinon ça fait clipart.
    ════════════════════════════════════════════ */
-.v-drops {
-  position: absolute;
-  z-index: 1;
-  right: 6vw;
-  bottom: 8vh;
-  width: clamp(96px, 22vw, 150px);
+.hd {
+  width: clamp(180px, 52vw, 300px);
   height: auto;
-  pointer-events: none;
-  opacity: 0.92;
+  flex-shrink: 0;
+  margin-inline: auto;
+  overflow: visible;
 }
 
-.v-glass {
-  stroke: var(--gold-on-green);
-  stroke-width: 2;
+.hd-shadow { fill: rgba(20, 61, 43, 0.1); }
+.hd-glass-body {
+  fill: url(#hd-glass);
+  stroke: rgba(20, 61, 43, 0.3);
+  stroke-width: 1.6;
   stroke-linejoin: round;
-  fill: rgba(232, 182, 92, 0.05);
 }
-.v-glass-fill { fill: rgba(232, 182, 92, 0.22); }
-.v-surface {
-  fill: rgba(232, 182, 92, 0.55);
-  stroke: var(--gold-on-green);
-  stroke-width: 1.2;
-}
+.hd-water   { fill: rgba(120, 170, 190, 0.2); }
+.hd-surface { fill: rgba(255, 255, 255, 0.4); stroke: rgba(20, 61, 43, 0.22); stroke-width: 1.2; }
+.hd-shine   { fill: #FFFFFF; opacity: 0.4; }
 
-.v-drop {
-  fill: var(--gold-on-green);
-  transform-origin: 60px 14px;
-  animation: v-drop-fall 3.6s cubic-bezier(0.55, 0, 0.85, 0.4) infinite;
+/* ── La teinte : c'est le cœur de l'animation ── */
+.hd-tint {
+  fill: url(#hd-tinted);
   opacity: 0;
+  animation: hd-tint 10s linear infinite;
 }
-.v-drop-1 { animation-delay: 0s; }
-.v-drop-2 { animation-delay: 1.2s; }
-.v-drop-3 { animation-delay: 2.4s; }
-
-/* La goutte apparaît, s'étire en tombant, puis s'écrase à la surface */
-@keyframes v-drop-fall {
-  0%   { opacity: 0; transform: translateY(0) scaleY(0.7); }
-  8%   { opacity: 1; transform: translateY(6px) scaleY(0.9); }
-  55%  { opacity: 1; transform: translateY(84px) scaleY(1.25); }
-  70%  { opacity: 1; transform: translateY(106px) scaleY(1.05); }
-  76%  { opacity: 0; transform: translateY(112px) scaleY(0.4); }
-  100% { opacity: 0; transform: translateY(112px) scaleY(0.4); }
+@keyframes hd-tint {
+  0%,  15%  { opacity: 0; }
+  17%, 46%  { opacity: 0.34; }
+  49%, 77%  { opacity: 0.66; }
+  80%, 92%  { opacity: 0.95; }
+  100%      { opacity: 0; }
 }
 
-.v-ripple {
+/* ── Les gouttes ── */
+.hd-drop {
+  opacity: 0;
+  transform-origin: 100px 22px;
+  animation: hd-fall 10s cubic-bezier(0.45, 0, 0.75, 0.35) infinite;
+}
+.hd-d1 { animation-delay: 0s; }
+.hd-d2 { animation-delay: 3.2s; }
+.hd-d3 { animation-delay: 6.4s; }
+
+/* La goutte se forme, pend, s'étire en tombant (le miel est visqueux),
+   puis s'écrase à la surface. */
+@keyframes hd-fall {
+  0%    { opacity: 0; transform: translateY(0) scale(0.5, 0.45); }
+  2%    { opacity: 1; transform: translateY(2px) scale(0.85, 0.8); }
+  5%    { opacity: 1; transform: translateY(6px) scale(0.92, 1.05); }
+  8%    { opacity: 1; transform: translateY(18px) scale(0.82, 1.34); }
+  13%   { opacity: 1; transform: translateY(74px) scale(0.76, 1.5); }
+  15.2% { opacity: 1; transform: translateY(108px) scale(0.9, 1.15); }
+  16.4% { opacity: 0.55; transform: translateY(116px) scale(1.7, 0.28); }
+  18%   { opacity: 0; transform: translateY(118px) scale(2.1, 0.16); }
+  100%  { opacity: 0; transform: translateY(118px) scale(2.1, 0.16); }
+}
+
+/* ── Les ondes, une par impact ── */
+.hd-ripple {
   fill: none;
-  stroke: var(--gold-on-green);
-  stroke-width: 1.2;
-  transform-origin: 60px 128px;
+  stroke: rgba(255, 255, 255, 0.75);
+  stroke-width: 1.4;
+  transform-origin: 100px 141px;
   opacity: 0;
-  animation: v-ripple-out 3.6s ease-out infinite;
+  animation: hd-ripple 10s ease-out infinite;
 }
-.v-ripple-1 { animation-delay: 0.76s; }
-.v-ripple-2 { animation-delay: 1.96s; }
-
-@keyframes v-ripple-out {
-  0%   { opacity: 0.75; transform: scale(0.4); }
-  22%  { opacity: 0; transform: scale(2.2); }
-  100% { opacity: 0; transform: scale(2.2); }
-}
-
-/* Sur petit écran : la bande est cadrée en bas, donc la scène se cale en haut
-   à droite, là où il reste de la place. Elle reste hors du flux pour ne pas
-   devenir un frère de rangée du bloc de texte. */
-@media (max-width: 899px) {
-  .v-drops {
-    right: 7vw;
-    bottom: auto;
-    top: 14vh;
-    width: clamp(80px, 24vw, 110px);
-    opacity: 0.8;
-  }
+.hd-r1 { animation-delay: 1.62s; }
+.hd-r2 { animation-delay: 4.82s; }
+.hd-r3 { animation-delay: 8.02s; }
+@keyframes hd-ripple {
+  0%   { opacity: 0.85; transform: scale(0.35); }
+  14%  { opacity: 0; transform: scale(2.6); }
+  100% { opacity: 0; transform: scale(2.6); }
 }
 
+/* ── Mise en page du bloc marque ── */
+.v-split--marque { align-items: center; }
+
+@media (min-width: 900px) {
+  .v-split--marque .v-split-main { flex: 1 1 58%; }
+  .v-split--marque .hd { flex: 0 1 42%; width: clamp(240px, 26vw, 340px); margin-inline: 0 auto; }
+}
+
+/* ── Sans animation : le verre reste plein d'eau miellée, une goutte suspendue.
+      La scène garde son sens même immobile. ── */
 @media (prefers-reduced-motion: reduce) {
-  .v-drop, .v-ripple { animation: none !important; }
-  /* Une goutte reste visible, immobile, juste au-dessus de la surface */
-  .v-drop-1 { opacity: 1; transform: translateY(84px); }
+  .hd-tint, .hd-drop, .hd-ripple { animation: none !important; }
+  .hd-tint { opacity: 0.8; }
+  .hd-d1 { opacity: 1; transform: translateY(74px) scale(0.8, 1.4); }
 }

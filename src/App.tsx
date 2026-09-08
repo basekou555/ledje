@@ -47,36 +47,84 @@ function isValidEmail(e: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)
 }
 
-/* Scène animée : des gouttes de miel tombent et se fondent dans le verre.
-   Trait fin, or, purement décoratif — c'est la matière du produit qui bouge,
-   pas un effet. Entièrement figée sous prefers-reduced-motion (cf. index.css). */
-function GouttesDeMiel() {
+/* Scène animée « eau + miel ».
+   Trois gouttes de miel tombent dans un verre d'eau claire ; à chaque impact
+   l'eau se teinte d'un palier, jusqu'à devenir de l'eau miellée — puis le
+   cycle repart. C'est le produit lui-même qui se fabrique sous les yeux.
+   Purement décorative (aria-hidden), figée sous prefers-reduced-motion. */
+function EauMiellee() {
   return (
     <svg
-      className="v-drops"
-      viewBox="0 0 120 230"
+      className="hd"
+      viewBox="0 0 200 300"
       fill="none"
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
     >
-      {/* Le verre */}
+      <defs>
+        {/* Miel : dégradé chaud avec un reflet clair en haut à gauche */}
+        <linearGradient id="hd-honey" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stopColor="#F6D384" />
+          <stop offset="0.45" stopColor="#E0A52E" />
+          <stop offset="1" stopColor="#B4761A" />
+        </linearGradient>
+        {/* Eau miellée : la teinte que prend le liquide */}
+        <linearGradient id="hd-tinted" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#EFC474" />
+          <stop offset="1" stopColor="#D89A2E" />
+        </linearGradient>
+        {/* Verre : très léger, pour ne pas faire dessin au trait */}
+        <linearGradient id="hd-glass" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stopColor="#143D2B" stopOpacity="0.16" />
+          <stop offset="0.14" stopColor="#143D2B" stopOpacity="0.04" />
+          <stop offset="0.86" stopColor="#143D2B" stopOpacity="0.04" />
+          <stop offset="1" stopColor="#143D2B" stopOpacity="0.16" />
+        </linearGradient>
+        {/* Le liquide ne déborde jamais du verre */}
+        <clipPath id="hd-inside">
+          <path d="M63 74 L70 250 Q70.5 258 79 258 L121 258 Q129.5 258 130 250 L137 74 Z" />
+        </clipPath>
+      </defs>
+
+      {/* Ombre portée sous le verre */}
+      <ellipse className="hd-shadow" cx="100" cy="266" rx="42" ry="6" />
+
+      {/* Corps du verre */}
       <path
-        className="v-glass"
-        d="M33 84 L38 205 Q38 214 47 214 L73 214 Q82 214 82 205 L87 84 Z"
+        className="hd-glass-body"
+        d="M62 70 L69.5 250 Q70 259 79 259 L121 259 Q130 259 130.5 250 L138 70 Z"
       />
-      {/* Le miel déjà dans le verre */}
-      <path className="v-glass-fill" d="M40 128 L43 205 Q43 209 47 209 L73 209 Q77 209 77 205 L80 128 Z" />
+
+      <g clipPath="url(#hd-inside)">
+        {/* Eau claire */}
+        <rect className="hd-water" x="60" y="140" width="80" height="130" />
+        {/* Teinte miel qui monte par paliers */}
+        <rect className="hd-tint" x="60" y="140" width="80" height="130" />
+        {/* Ondes à la surface, une par impact */}
+        <ellipse className="hd-ripple hd-r1" cx="100" cy="141" rx="9" ry="2.4" />
+        <ellipse className="hd-ripple hd-r2" cx="100" cy="141" rx="9" ry="2.4" />
+        <ellipse className="hd-ripple hd-r3" cx="100" cy="141" rx="9" ry="2.4" />
+      </g>
+
       {/* Surface du liquide */}
-      <ellipse className="v-surface" cx="60" cy="128" rx="20" ry="4.5" />
+      <ellipse className="hd-surface" cx="100" cy="140" rx="38.5" ry="4.5" />
 
-      {/* Ondes à l'impact */}
-      <ellipse className="v-ripple v-ripple-1" cx="60" cy="128" rx="6" ry="1.6" />
-      <ellipse className="v-ripple v-ripple-2" cx="60" cy="128" rx="6" ry="1.6" />
+      {/* Reflet vertical sur le verre */}
+      <rect className="hd-shine" x="75" y="96" width="5" height="132" rx="2.5" />
 
-      {/* Les gouttes */}
-      <path className="v-drop v-drop-1" d="M60 8 c3.4 6.6 6 10.4 6 13.6 a6 6 0 0 1 -12 0 C54 18.4 56.6 14.6 60 8 Z" />
-      <path className="v-drop v-drop-2" d="M60 8 c3.4 6.6 6 10.4 6 13.6 a6 6 0 0 1 -12 0 C54 18.4 56.6 14.6 60 8 Z" />
-      <path className="v-drop v-drop-3" d="M60 8 c3.4 6.6 6 10.4 6 13.6 a6 6 0 0 1 -12 0 C54 18.4 56.6 14.6 60 8 Z" />
+      {/* Les gouttes — même forme, trois départs décalés */}
+      <g className="hd-drop hd-d1">
+        <path d="M100 6 c5 10.5 9 16.5 9 21.5 a9 9 0 0 1 -18 0 C91 22.5 95 16.5 100 6 Z" fill="url(#hd-honey)" />
+        <ellipse cx="96.5" cy="24" rx="2.2" ry="3.4" fill="#FCEEC0" opacity="0.75" />
+      </g>
+      <g className="hd-drop hd-d2">
+        <path d="M100 6 c5 10.5 9 16.5 9 21.5 a9 9 0 0 1 -18 0 C91 22.5 95 16.5 100 6 Z" fill="url(#hd-honey)" />
+        <ellipse cx="96.5" cy="24" rx="2.2" ry="3.4" fill="#FCEEC0" opacity="0.75" />
+      </g>
+      <g className="hd-drop hd-d3">
+        <path d="M100 6 c5 10.5 9 16.5 9 21.5 a9 9 0 0 1 -18 0 C91 22.5 95 16.5 100 6 Z" fill="url(#hd-honey)" />
+        <ellipse cx="96.5" cy="24" rx="2.2" ry="3.4" fill="#FCEEC0" opacity="0.75" />
+      </g>
     </svg>
   )
 }
@@ -219,20 +267,24 @@ export default function App() {
               On la boit glacée, à la sortie du frigo.
             </p>
           </div>
-          <GouttesDeMiel />
         </section>
 
         {/* ══ 3 · LA MARQUE — pourquoi lédjé existe. Court. ══ */}
         <section className="v-section v-section--soft" id="marque" aria-labelledby="marque-title">
-          <div className="container container--prose reveal">
-            <p className="v-eyebrow">Pourquoi lédjé</p>
-            <h2 id="marque-title" className="v-title v-title--huge">
-              Une tradition,<br />remise au goût du jour.
-            </h2>
-            <p className="v-text v-text--lead">
-              L’eau miellée se boit depuis longtemps. Elle n’avait jamais été
-              faite proprement.
-            </p>
+          <div className="container container--wide reveal">
+            <div className="v-split v-split--marque">
+              <div className="v-split-main">
+                <p className="v-eyebrow">Pourquoi lédjé</p>
+                <h2 id="marque-title" className="v-title v-title--huge">
+                  Une tradition,<br />remise au goût du jour.
+                </h2>
+                <p className="v-text v-text--lead">
+                  L’eau miellée se boit depuis longtemps. Elle n’avait jamais été
+                  faite proprement.
+                </p>
+              </div>
+              <EauMiellee />
+            </div>
           </div>
         </section>
 
