@@ -120,78 +120,87 @@ export default function App() {
             )}
           </div>
           <div className="v-hero-content">
-            <p className="v-hero-brand v-fade v-fade-1">lédjé</p>
-            <p className="v-hero-kicker v-fade v-fade-2">Eau miellée</p>
+            <p className="v-hero-kicker v-fade v-fade-1">Eau miellée</p>
+            <p className="v-hero-brand v-fade v-fade-2">lédjé</p>
             <h1 id="hero-title" className="v-hero-title v-fade v-fade-3">{ACCROCHE}</h1>
             <div className="v-hero-actions v-fade v-fade-4">
               <a className="btn-ghost" href="#produit">Découvrir</a>
+              <span className="v-hero-meta">Miel français · 33 cl</span>
             </div>
           </div>
+          <div className="v-hero-cue v-fade v-fade-4" aria-hidden="true" />
         </section>
 
         {/* ══ 1 bis · CE QUE C'EST — le concret, factuel, rassurant ══ */}
         <section className="v-section" id="produit" aria-labelledby="produit-title">
-          <div className="container reveal">
-            <p className="v-eyebrow">Le produit</p>
-            <h2 id="produit-title" className="v-title">
-              De l’eau de source et du miel français. C’est tout.
-            </h2>
-            <p className="v-text">
-              lédjé, c’est une eau miellée prête à boire. Deux ingrédients, aucun additif,
-              rien d’autre à comprendre.
-            </p>
-
-            <ul className="v-facts">
-              <li><span className="v-fact-key">Composition</span><span className="v-fact-val">Eau de source, miel</span></li>
-              <li><span className="v-fact-key">Le miel</span><span className="v-fact-val">Français, pur, origine tracée, jamais chauffé</span></li>
-              <li><span className="v-fact-key">Format</span><span className="v-fact-val">Bouteille de 33 cl</span></li>
-              <li><span className="v-fact-key">Le nom</span><span className="v-fact-val">Lé, le miel · djé, l’eau — du diakanké</span></li>
-            </ul>
-
-            <figure className="v-figure">
-              <div className="v-placeholder">
-                <strong>Photo du produit à venir</strong>
-                <span>Le premier lot n’est pas encore étiqueté.</span>
+          <div className="container container--wide reveal">
+            <div className="v-split">
+              <div className="v-split-main">
+                <p className="v-eyebrow">Le produit</p>
+                <h2 id="produit-title" className="v-title v-title--lg">
+                  De l’eau de source et du miel français. C’est tout.
+                </h2>
+                <p className="v-text">
+                  lédjé, c’est une eau miellée prête à boire. Deux ingrédients,
+                  aucun additif, rien d’autre à comprendre.
+                </p>
+                <p className="v-legal">
+                  Le miel est déconseillé aux enfants de moins d’un an.
+                </p>
               </div>
-              <figcaption>Bouteille 33 cl — visuel définitif en préparation.</figcaption>
-            </figure>
 
-            <p className="v-legal">
-              Le miel est déconseillé aux enfants de moins d’un an.
-            </p>
+              <div className="v-split-side">
+                <ul className="v-facts">
+                  <li><span className="v-fact-key">Composition</span><span className="v-fact-val">Eau de source, miel</span></li>
+                  <li><span className="v-fact-key">Le miel</span><span className="v-fact-val">Français, pur, origine tracée, jamais chauffé</span></li>
+                  <li><span className="v-fact-key">Format</span><span className="v-fact-val">Bouteille de 33 cl</span></li>
+                  <li><span className="v-fact-key">Le nom</span><span className="v-fact-val">Lé, le miel · djé, l’eau — du diakanké</span></li>
+                </ul>
+                <figure className="v-figure">
+                  <div className="v-placeholder">
+                    <strong>Photo du produit à venir</strong>
+                    <span>Le premier lot n’est pas encore étiqueté.</span>
+                  </div>
+                </figure>
+              </div>
+            </div>
           </div>
         </section>
 
         {/* ══ 2 · L'EXPÉRIENCE — la sensation, pas l'argument ══ */}
         <section className="v-section v-section--green" aria-labelledby="gout-title">
-          <div className="container reveal">
-            <p className="v-eyebrow">À la dégustation</p>
-            <h2 id="gout-title" className="v-title">
-              Frais, doux, léger.
-            </h2>
-            <p className="v-text">
-              Le miel se laisse reconnaître sans s’imposer. On la boit glacée, à la sortie
-              du frigo, quand il fait chaud ou quand on a simplement soif.
-            </p>
-            <p className="v-text">
-              C’est le genre de boisson qu’on finit sans y penser, et qu’on ressert.
-            </p>
-            <figure className="v-figure v-figure--tall">
-              <img
-                src="/visuals/origine.jpg"
-                alt="Du miel versé dans un verre d’eau fraîche"
-                loading="lazy"
-                decoding="async"
-              />
-            </figure>
+          <div className="container container--wide reveal">
+            <div className="v-split v-split--media">
+              <figure className="v-figure v-figure--tall">
+                <img
+                  src="/visuals/origine.jpg"
+                  alt="Du miel versé dans un verre d’eau fraîche"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <div className="v-split-main">
+                <p className="v-eyebrow">À la dégustation</p>
+                <h2 id="gout-title" className="v-title v-title--lg">
+                  Frais, doux, léger.
+                </h2>
+                <p className="v-text">
+                  Le miel se laisse reconnaître sans s’imposer. On la boit glacée,
+                  à la sortie du frigo, quand il fait chaud ou quand on a simplement soif.
+                </p>
+                <p className="v-text">
+                  C’est le genre de boisson qu’on finit sans y penser, et qu’on ressert.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
         {/* ══ 3 · LA MARQUE — pourquoi lédjé existe. Court. ══ */}
         <section className="v-section v-section--soft" id="marque" aria-labelledby="marque-title">
-          <div className="container reveal">
+          <div className="container container--prose reveal">
             <p className="v-eyebrow">Pourquoi lédjé</p>
-            <h2 id="marque-title" className="v-title">
+            <h2 id="marque-title" className="v-title v-title--xl">
               Une tradition, remise au goût du jour.
             </h2>
             <p className="v-text">
@@ -207,9 +216,11 @@ export default function App() {
 
         {/* ══ RESTER EN CONTACT — la précommande en second rideau ══ */}
         <section className="v-section" id="contact" aria-labelledby="contact-title">
-          <div className="container reveal">
+          <div className="container container--wide reveal">
+            <div className="v-split">
+            <div className="v-split-main">
             <p className="v-eyebrow">Rester au courant</p>
-            <h2 id="contact-title" className="v-title">
+            <h2 id="contact-title" className="v-title v-title--lg">
               On te préviendra au lancement.
             </h2>
             <p className="v-text">
@@ -248,9 +259,10 @@ export default function App() {
                 <p className="v-note">Pas de spam, désinscription en un clic.</p>
               </form>
             )}
+            </div>
 
             {/* Précommande — disponible, volontairement en retrait */}
-            <aside className="v-aside">
+            <aside className="v-aside v-split-side">
               <p className="v-aside-title">Réserver des cristaux de miel</p>
               <p>
                 Un cristal de miel à dissoudre dans un verre d’eau fraîche.
@@ -282,6 +294,7 @@ export default function App() {
                 Réserver {cristaux} cristaux — {cristaux * CRISTAL_UNIT_PRICE} €
               </a>
             </aside>
+            </div>
           </div>
         </section>
       </main>

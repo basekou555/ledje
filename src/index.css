@@ -558,3 +558,107 @@ img, svg, video { display: block; max-width: 100%; }
   color: var(--gold-ink);
   margin-top: 0.5rem;
 }
+
+/* ════════════════════════════════════════════
+   MISE EN PAGE LARGE (≥ 900 px)
+   Le mobile reste la référence ; au-delà, on sort de la colonne centrée :
+   hero aligné à gauche en pleine largeur, sections en deux colonnes.
+   ════════════════════════════════════════════ */
+
+.container--wide  { max-width: 1120px; }
+.container--prose { max-width: 760px; }
+
+/* Repère de défilement sous le hero */
+.v-hero-cue { display: none; }
+
+/* Métadonnée à côté du bouton (desktop seulement) */
+.v-hero-meta { display: none; }
+
+.v-split { display: flex; flex-direction: column; gap: 2rem; }
+
+@media (min-width: 900px) {
+  /* ── Hero : plein cadre, texte à gauche, grande échelle ── */
+  .v-hero {
+    align-items: flex-start;
+    text-align: left;
+    justify-content: flex-end;
+    padding: 8rem clamp(2rem, 6vw, 5rem) clamp(3.5rem, 9vh, 6rem);
+  }
+  .v-hero-media::after {
+    /* Sur large écran la vidéo tient plus de place : le voile crème remonte
+       moins haut, et s'appuie à gauche pour porter le texte. */
+    background:
+      linear-gradient(to right,
+        rgba(244, 235, 218, 0.94) 0%,
+        rgba(244, 235, 218, 0.80) 34%,
+        rgba(244, 235, 218, 0.12) 62%,
+        rgba(20, 61, 43, 0.10) 100%),
+      linear-gradient(to bottom,
+        rgba(20, 61, 43, 0.20) 0%,
+        rgba(20, 61, 43, 0.02) 40%,
+        rgba(244, 235, 218, 0.55) 88%,
+        var(--surface) 100%);
+  }
+  .v-hero-content { max-width: 1120px; margin-inline: auto; width: 100%; }
+  .v-hero-brand { font-size: clamp(5rem, 11vw, 9rem); margin-bottom: 0.4rem; }
+  .v-hero-kicker { margin-bottom: 0.9rem; }
+  .v-hero-title {
+    font-size: clamp(2rem, 3.4vw, 3rem);
+    max-width: 18ch;
+    margin-bottom: 1.8rem;
+  }
+  .v-hero-actions { justify-content: flex-start; align-items: center; gap: 1.4rem; }
+  .v-hero-meta {
+    display: inline-block;
+    font-size: 0.8rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    font-weight: 500;
+  }
+  .v-hero-cue {
+    display: block;
+    position: absolute;
+    right: clamp(2rem, 6vw, 5rem);
+    bottom: clamp(3.5rem, 9vh, 6rem);
+    width: 1px;
+    height: 68px;
+    background: linear-gradient(to bottom, transparent, var(--ink));
+    opacity: 0.45;
+    z-index: 1;
+  }
+
+  /* ── Sections en deux colonnes ── */
+  .v-section { padding: clamp(5rem, 8vw, 8rem) 0; }
+
+  .v-split {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: clamp(3rem, 6vw, 6rem);
+  }
+  .v-split-main { flex: 1 1 54%; min-width: 0; }
+  .v-split-side { flex: 1 1 46%; min-width: 0; }
+
+  /* Bloc dégustation : l'image passe à gauche, le texte se cale au milieu */
+  .v-split--media { align-items: center; }
+  .v-split--media .v-figure { flex: 0 1 42%; margin-top: 0; }
+  .v-split--media .v-split-main { flex: 1 1 58%; }
+
+  /* Le visuel vertical n'écrase plus la page en grand écran */
+  .v-figure--tall img { max-height: 78vh; }
+
+  /* ── Échelle typographique élargie ── */
+  .v-title--lg { font-size: clamp(2rem, 3vw, 2.7rem); }
+  .v-title--xl { font-size: clamp(2.3rem, 4vw, 3.4rem); max-width: 16ch; }
+  .v-text { font-size: 1.1rem; max-width: 46ch; }
+
+  .v-facts { margin-top: 0; }
+  .v-figure { margin-top: 2.5rem; }
+
+  /* La précommande garde sa place de second rideau, mais ne flotte plus seule */
+  .v-aside { margin-top: 0; position: sticky; top: 6rem; }
+}
+
+@media (min-width: 1400px) {
+  .v-hero-brand { font-size: 10rem; }
+}
