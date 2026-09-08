@@ -62,7 +62,7 @@ function EauMiellee() {
       xmlns="http://www.w3.org/2000/svg"
     >
       <defs>
-        {/* Miel : dégradé chaud avec un reflet clair en haut à gauche */}
+        {/* Miel : dégradé chaud avec un reflet clair */}
         <linearGradient id="hd-honey" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0" stopColor="#F6D384" />
           <stop offset="0.45" stopColor="#E0A52E" />
@@ -70,47 +70,51 @@ function EauMiellee() {
         </linearGradient>
         {/* Eau miellée : la teinte que prend le liquide */}
         <linearGradient id="hd-tinted" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#EFC474" />
-          <stop offset="1" stopColor="#D89A2E" />
+          <stop offset="0" stopColor="#F0C87E" />
+          <stop offset="1" stopColor="#D2921F" />
         </linearGradient>
-        {/* Verre : très léger, pour ne pas faire dessin au trait */}
-        <linearGradient id="hd-glass" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stopColor="#143D2B" stopOpacity="0.16" />
-          <stop offset="0.14" stopColor="#143D2B" stopOpacity="0.04" />
-          <stop offset="0.86" stopColor="#143D2B" stopOpacity="0.04" />
-          <stop offset="1" stopColor="#143D2B" stopOpacity="0.16" />
+        {/* Paroi du verre : clair aux bords, transparent au centre */}
+        <linearGradient id="hd-wall" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stopColor="#143D2B" stopOpacity="0.2" />
+          <stop offset="0.1" stopColor="#FFFFFF" stopOpacity="0.5" />
+          <stop offset="0.4" stopColor="#FFFFFF" stopOpacity="0.06" />
+          <stop offset="0.72" stopColor="#FFFFFF" stopOpacity="0.14" />
+          <stop offset="0.92" stopColor="#FFFFFF" stopOpacity="0.42" />
+          <stop offset="1" stopColor="#143D2B" stopOpacity="0.2" />
         </linearGradient>
-        {/* Le liquide ne déborde jamais du verre */}
+        {/* Le liquide ne déborde jamais de l'intérieur du verre */}
         <clipPath id="hd-inside">
-          <path d="M63 74 L70 250 Q70.5 258 79 258 L121 258 Q129.5 258 130 250 L137 74 Z" />
+          <path d="M62.5 78 L73.5 245 Q74.5 250 81 250 L119 250 Q125.5 250 126.5 245 L137.5 78 Z" />
         </clipPath>
       </defs>
 
-      {/* Ombre portée sous le verre */}
-      <ellipse className="hd-shadow" cx="100" cy="266" rx="42" ry="6" />
+      {/* Ombre posée sous le verre */}
+      <ellipse className="hd-shadow" cx="100" cy="256" rx="40" ry="5.5" />
 
-      {/* Corps du verre */}
-      <path
-        className="hd-glass-body"
-        d="M62 70 L69.5 250 Q70 259 79 259 L121 259 Q130 259 130.5 250 L138 70 Z"
-      />
+      {/* Paroi */}
+      <path className="hd-wall" d="M60 76 L71 246 Q72 253 80 253 L120 253 Q128 253 129 246 L140 76 Z" />
 
       <g clipPath="url(#hd-inside)">
         {/* Eau claire */}
-        <rect className="hd-water" x="60" y="140" width="80" height="130" />
-        {/* Teinte miel qui monte par paliers */}
-        <rect className="hd-tint" x="60" y="140" width="80" height="130" />
-        {/* Ondes à la surface, une par impact */}
-        <ellipse className="hd-ripple hd-r1" cx="100" cy="141" rx="9" ry="2.4" />
-        <ellipse className="hd-ripple hd-r2" cx="100" cy="141" rx="9" ry="2.4" />
-        <ellipse className="hd-ripple hd-r3" cx="100" cy="141" rx="9" ry="2.4" />
+        <rect className="hd-water" x="55" y="140" width="90" height="120" />
+        {/* Teinte miel, qui monte par paliers à chaque goutte */}
+        <rect className="hd-tint" x="55" y="140" width="90" height="120" />
+        {/* Ondes à la surface */}
+        <ellipse className="hd-ripple hd-r1" cx="100" cy="141" rx="10" ry="2.6" />
+        <ellipse className="hd-ripple hd-r2" cx="100" cy="141" rx="10" ry="2.6" />
+        <ellipse className="hd-ripple hd-r3" cx="100" cy="141" rx="10" ry="2.6" />
       </g>
 
       {/* Surface du liquide */}
-      <ellipse className="hd-surface" cx="100" cy="140" rx="38.5" ry="4.5" />
+      <ellipse className="hd-surface" cx="100" cy="140" rx="35.8" ry="5.4" />
 
-      {/* Reflet vertical sur le verre */}
-      <rect className="hd-shine" x="75" y="96" width="5" height="132" rx="2.5" />
+      {/* Rebord du verre — c'est lui qui fait lire « verrerie » et non « pictogramme » */}
+      <ellipse className="hd-rim" cx="100" cy="76" rx="40" ry="8.5" />
+      <path className="hd-rim-front" d="M60 76 A40 8.5 0 0 0 140 76" />
+
+      {/* Reflets sur les deux bords */}
+      <path className="hd-shine" d="M69 92 L77.5 232" />
+      <path className="hd-shine hd-shine-2" d="M131 92 L122.5 232" />
 
       {/* Les gouttes — même forme, trois départs décalés */}
       <g className="hd-drop hd-d1">
@@ -254,12 +258,13 @@ export default function App() {
 
         {/* ══ 1 bis · CE QUE C'EST — le concret, factuel, rassurant ══ */}
         <section className="v-section" id="produit" aria-labelledby="produit-title">
-          <div className="container container--wide reveal">
+          <div className="container container--wide reveal reveal--left">
             <div className="v-split">
               <div className="v-split-main">
                 <p className="v-eyebrow">Le produit</p>
                 <h2 id="produit-title" className="v-title v-title--xl">
-                  De l’eau de source.<br />Du miel français.
+                  <span className="v-line"><span className="v-line-in v-line-1">De l’eau de source.</span></span>
+                  <span className="v-line"><span className="v-line-in v-line-2">Du miel français.</span></span>
                 </h2>
                 {/* Les faits remplacent le paragraphe : ils se lisent d'un coup
                     d'œil et donnent la clarté sans imposer de lecture. */}
@@ -297,10 +302,12 @@ export default function App() {
               decoding="async"
             />
           </div>
-          <div className="v-band-content container container--wide reveal">
+          <div className="v-band-content container container--wide reveal reveal--up">
             <p className="v-eyebrow">À la dégustation</p>
             <h2 id="gout-title" className="v-title v-title--huge">
-              Frais.<br />Doux.<br />Léger.
+              <span className="v-line"><span className="v-line-in v-line-1">Frais.</span></span>
+              <span className="v-line"><span className="v-line-in v-line-2">Doux.</span></span>
+              <span className="v-line"><span className="v-line-in v-line-3">Léger.</span></span>
             </h2>
             <p className="v-text v-text--lead">
               On la boit glacée, à la sortie du frigo.
@@ -310,12 +317,13 @@ export default function App() {
 
         {/* ══ 3 · LA MARQUE — pourquoi lédjé existe. Court. ══ */}
         <section className="v-section v-section--soft" id="marque" aria-labelledby="marque-title">
-          <div className="container container--wide reveal">
+          <div className="container container--wide reveal reveal--right">
             <div className="v-split v-split--marque">
               <div className="v-split-main">
                 <p className="v-eyebrow">Pourquoi lédjé</p>
                 <h2 id="marque-title" className="v-title v-title--huge">
-                  Une tradition,<br />remise au goût du jour.
+                  <span className="v-line"><span className="v-line-in v-line-1">Une tradition,</span></span>
+                  <span className="v-line"><span className="v-line-in v-line-2">remise au goût du jour.</span></span>
                 </h2>
                 <p className="v-text v-text--lead">
                   L’eau miellée se boit depuis longtemps. Elle n’avait jamais été
@@ -329,7 +337,7 @@ export default function App() {
 
         {/* ══ RESTER EN CONTACT — la précommande en second rideau ══ */}
         <section className="v-section" id="contact" aria-labelledby="contact-title">
-          <div className="container container--wide reveal">
+          <div className="container container--wide reveal reveal--left">
             <div className="v-split">
             <div className="v-split-main">
             <p className="v-eyebrow">Rester au courant</p>

@@ -825,16 +825,45 @@ img, svg, video { display: block; max-width: 100%; }
   overflow: visible;
 }
 
-.hd-shadow { fill: rgba(20, 61, 43, 0.1); }
-.hd-glass-body {
-  fill: url(#hd-glass);
-  stroke: rgba(20, 61, 43, 0.3);
-  stroke-width: 1.6;
+.hd-shadow { fill: rgba(20, 61, 43, 0.09); }
+
+/* Paroi : pas de contour uniforme — un dégradé qui s'éclaire aux bords,
+   c'est ce qui donne l'épaisseur du verre au lieu d'un pictogramme. */
+.hd-wall {
+  fill: url(#hd-wall);
+  stroke: rgba(20, 61, 43, 0.26);
+  stroke-width: 1.1;
   stroke-linejoin: round;
 }
-.hd-water   { fill: rgba(120, 170, 190, 0.2); }
-.hd-surface { fill: rgba(255, 255, 255, 0.4); stroke: rgba(20, 61, 43, 0.22); stroke-width: 1.2; }
-.hd-shine   { fill: #FFFFFF; opacity: 0.4; }
+
+/* Rebord ouvert : l'ellipse complète en arrière, l'arc avant plus marqué */
+.hd-rim {
+  fill: rgba(255, 255, 255, 0.3);
+  stroke: rgba(20, 61, 43, 0.24);
+  stroke-width: 1.1;
+}
+.hd-rim-front {
+  stroke: rgba(20, 61, 43, 0.42);
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.hd-water   { fill: rgba(150, 190, 205, 0.22); }
+.hd-surface {
+  fill: rgba(255, 255, 255, 0.32);
+  stroke: rgba(20, 61, 43, 0.2);
+  stroke-width: 1;
+}
+
+/* Reflets : deux filés lumineux sur les bords, pas un bloc blanc */
+.hd-shine {
+  stroke: #FFFFFF;
+  stroke-width: 3.4;
+  stroke-linecap: round;
+  opacity: 0.55;
+}
+.hd-shine-2 { stroke-width: 1.8; opacity: 0.3; }
 
 /* ── La teinte : c'est le cœur de l'animation ── */
 .hd-tint {
@@ -916,7 +945,7 @@ img, svg, video { display: block; max-width: 100%; }
    ⚠️ À JUGER — le grain se règle d'une seule valeur (--grain-force).
    ════════════════════════════════════════════ */
 :root {
-  --grain-force: 0.055;   /* 0 = aucun grain · 0.03 discret · 0.09 marqué */
+  --grain-force: 0.19;    /* 0 = aucun · 0.10 discret · 0.19 visible · 0.30 marqué */
 }
 
 .v-grain {
@@ -926,8 +955,8 @@ img, svg, video { display: block; max-width: 100%; }
   pointer-events: none;
   opacity: var(--grain-force);
   mix-blend-mode: multiply;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
-  background-size: 180px 180px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.62' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 150px 150px;
 }
 
 /* ── Parallaxe : la vidéo défile moins vite que le texte ── */
@@ -957,4 +986,62 @@ img, svg, video { display: block; max-width: 100%; }
 @media (prefers-reduced-motion: reduce) {
   .v-line-in { transform: none; animation: none; }
   .v-hero-media, .v-hero-content { transform: none !important; opacity: 1 !important; }
+}
+
+/* ════════════════════════════════════════════
+   ANIMATIONS PAR SECTION
+   Un fondu unique pour toute la page donnait une impression de gabarit.
+   Chaque section entre désormais avec son propre mouvement, et les grands
+   titres se dévoilent ligne par ligne comme l'accroche du hero.
+   ════════════════════════════════════════════ */
+
+/* Directions d'entrée — le décalage latéral rompt la monotonie verticale */
+.reveal--left  { transform: translate3d(-34px, 14px, 0); }
+.reveal--right { transform: translate3d(34px, 14px, 0); }
+.reveal--up    { transform: translate3d(0, 40px, 0); }
+.reveal--left.is-visible,
+.reveal--right.is-visible,
+.reveal--up.is-visible { transform: none; }
+
+/* Les titres de section attendent d'être à l'écran pour se dévoiler */
+.reveal .v-line-in { animation-play-state: paused; }
+.reveal.is-visible .v-line-in { animation-play-state: running; }
+.v-line-3 { animation-delay: 0.54s; }
+
+/* Le visuel produit arrive avec un léger rapprochement, pas un simple fondu */
+.reveal .v-figure {
+  opacity: 0;
+  transform: scale(0.94);
+  transition: opacity 0.8s ease 0.25s, transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.25s;
+}
+.reveal.is-visible .v-figure { opacity: 1; transform: none; }
+
+/* La scène du verre se pose en montant, après le titre */
+.reveal .hd {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.9s ease 0.3s, transform 1s cubic-bezier(0.16, 1, 0.3, 1) 0.3s;
+}
+.reveal.is-visible .hd { opacity: 1; transform: none; }
+
+/* Les champs du formulaire se posent l'un après l'autre */
+.reveal .v-contact-form > *,
+.reveal .v-aside {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.is-visible .v-contact-form > *,
+.reveal.is-visible .v-aside { opacity: 1; transform: none; }
+.reveal.is-visible .v-contact-form > *:nth-child(1) { transition-delay: 0.22s; }
+.reveal.is-visible .v-contact-form > *:nth-child(2) { transition-delay: 0.30s; }
+.reveal.is-visible .v-contact-form > *:nth-child(3) { transition-delay: 0.38s; }
+.reveal.is-visible .v-aside { transition-delay: 0.34s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal--left, .reveal--right, .reveal--up { transform: none !important; }
+  .reveal .v-figure, .reveal .hd,
+  .reveal .v-contact-form > *, .reveal .v-aside {
+    opacity: 1 !important; transform: none !important; transition: none !important;
+  }
 }
