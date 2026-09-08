@@ -46,13 +46,13 @@ s'applique pas.
 ### 1. Créer un compte Resend et une clé API
 
 Sur [resend.com](https://resend.com) : inscription, puis **API Keys → Create
-API Key**. La clé (`re_...`) ne s'affiche qu'une fois.
+API Key** (permission *Full access*). La clé (`re_...`) ne s'affiche qu'une
+fois.
 
-Tant qu'aucun domaine n'est vérifié sur Resend, l'envoi ne peut se faire que
-depuis `onboarding@resend.dev` et **uniquement vers l'adresse email du compte
-Resend**. Pour envoyer vers une autre adresse ou depuis `@ledje.fr`, il faut
-vérifier le domaine `ledje.fr` dans Resend (ajout d'enregistrements DNS) puis
-régler `RESEND_FROM` en conséquence (voir étape 3).
+⚠️ **Le compte Resend doit être créé avec l'adresse qui recevra les alertes.**
+Tant qu'aucun domaine n'est vérifié, Resend n'autorise l'envoi que depuis
+`onboarding@resend.dev` et **uniquement vers l'adresse email du compte**
+(sinon : `403 "You can only send testing emails to your own email address"`).
 
 ### 2. Récupérer le secret partagé
 
@@ -97,3 +97,37 @@ select id, created_at, alerte_envoyee_at, reclamation
 Si le statut n'est pas 200, les logs détaillés (`resend_failed` avec le
 message renvoyé par l'API) sont visibles dans Supabase → Edge Functions →
 alerte-reclamation → Logs.
+
+## État actuel (validé le 2026-09-08)
+
+La chaîne est **en production et testée de bout en bout** : réponse `200
+{"sent":true}`, email en statut `delivered` côté Resend.
+
+- **Domaine `ledje.fr` vérifié** sur Resend, région `eu-west-1`.
+  Zone DNS hébergée chez **OVH** (`ns106.ovh.net` / `dns106.ovh.net`).
+- **Expéditeur** : `Lédjé <alertes@ledje.fr>` (`RESEND_FROM`).
+  L'adresse n'a pas besoin d'exister comme boîte mail — le domaine vérifié
+  suffit pour l'expédition.
+- **Destinataire** : `basekou@ledje.fr` (`ALERTE_DESTINATAIRE`).
+
+Enregistrements DNS posés chez OVH pour la vérification :
+
+| Type | Nom | Valeur |
+|---|---|---|
+| TXT | `resend._domainkey` | clé DKIM fournie par Resend |
+| CNAME | `rsend` | `rsend-euw1.forge.rmta.net` |
+| CNAME | `send` | `send.forge.rmta.net` |
+
+⚠️ Piège rencontré : les deux CNAME `rsend` et `send` se ressemblent, il faut
+bien les **deux**. Par ailleurs le tableau de bord Resend peut afficher un
+enregistrement en `not_started` alors qu'il est correctement publié — vérifier
+la réalité avec une résolution DNS directe plutôt que se fier à cet affichage.
+
+### Diagnostic rapide en cas de panne
+
+| Réponse | Cause |
+|---|---|
+| `401` (de la fonction) | `ALERTE_SECRET` absent ou différent de celui du Vault |
+| `500 resend_not_configured` | `RESEND_API_KEY` ou `ALERTE_DESTINATAIRE` manquant |
+| `500 resend_failed` + `401 API key is invalid` | clé révoquée, tronquée au collage, ou d'un autre compte |
+| `500 resend_failed` + `403 You can only send testing emails…` | domaine non vérifié et destinataire ≠ adresse du compte Resend |
