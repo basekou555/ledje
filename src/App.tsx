@@ -47,6 +47,40 @@ function isValidEmail(e: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)
 }
 
+/* Scène animée : des gouttes de miel tombent et se fondent dans le verre.
+   Trait fin, or, purement décoratif — c'est la matière du produit qui bouge,
+   pas un effet. Entièrement figée sous prefers-reduced-motion (cf. index.css). */
+function GouttesDeMiel() {
+  return (
+    <svg
+      className="v-drops"
+      viewBox="0 0 120 230"
+      fill="none"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      {/* Le verre */}
+      <path
+        className="v-glass"
+        d="M33 84 L38 205 Q38 214 47 214 L73 214 Q82 214 82 205 L87 84 Z"
+      />
+      {/* Le miel déjà dans le verre */}
+      <path className="v-glass-fill" d="M40 128 L43 205 Q43 209 47 209 L73 209 Q77 209 77 205 L80 128 Z" />
+      {/* Surface du liquide */}
+      <ellipse className="v-surface" cx="60" cy="128" rx="20" ry="4.5" />
+
+      {/* Ondes à l'impact */}
+      <ellipse className="v-ripple v-ripple-1" cx="60" cy="128" rx="6" ry="1.6" />
+      <ellipse className="v-ripple v-ripple-2" cx="60" cy="128" rx="6" ry="1.6" />
+
+      {/* Les gouttes */}
+      <path className="v-drop v-drop-1" d="M60 8 c3.4 6.6 6 10.4 6 13.6 a6 6 0 0 1 -12 0 C54 18.4 56.6 14.6 60 8 Z" />
+      <path className="v-drop v-drop-2" d="M60 8 c3.4 6.6 6 10.4 6 13.6 a6 6 0 0 1 -12 0 C54 18.4 56.6 14.6 60 8 Z" />
+      <path className="v-drop v-drop-3" d="M60 8 c3.4 6.6 6 10.4 6 13.6 a6 6 0 0 1 -12 0 C54 18.4 56.6 14.6 60 8 Z" />
+    </svg>
+  )
+}
+
 export default function App() {
   const [email, setEmail] = useState('')
   const [formState, setFormState] = useState<FormState>('idle')
@@ -137,25 +171,22 @@ export default function App() {
             <div className="v-split">
               <div className="v-split-main">
                 <p className="v-eyebrow">Le produit</p>
-                <h2 id="produit-title" className="v-title v-title--lg">
-                  De l’eau de source et du miel français. C’est tout.
+                <h2 id="produit-title" className="v-title v-title--xl">
+                  De l’eau de source.<br />Du miel français.
                 </h2>
-                <p className="v-text">
-                  lédjé, c’est une eau miellée prête à boire. Deux ingrédients,
-                  aucun additif, rien d’autre à comprendre.
-                </p>
+                {/* Les faits remplacent le paragraphe : ils se lisent d'un coup
+                    d'œil et donnent la clarté sans imposer de lecture. */}
+                <ul className="v-strip">
+                  <li>Deux ingrédients</li>
+                  <li>Miel pur, jamais chauffé</li>
+                  <li>33 cl</li>
+                </ul>
                 <p className="v-legal">
-                  Le miel est déconseillé aux enfants de moins d’un an.
+                  Miel déconseillé aux enfants de moins d’un an.
                 </p>
               </div>
 
               <div className="v-split-side">
-                <ul className="v-facts">
-                  <li><span className="v-fact-key">Composition</span><span className="v-fact-val">Eau de source, miel</span></li>
-                  <li><span className="v-fact-key">Le miel</span><span className="v-fact-val">Français, pur, origine tracée, jamais chauffé</span></li>
-                  <li><span className="v-fact-key">Format</span><span className="v-fact-val">Bouteille de 33 cl</span></li>
-                  <li><span className="v-fact-key">Le nom</span><span className="v-fact-val">Lé, le miel · djé, l’eau — du diakanké</span></li>
-                </ul>
                 <figure className="v-figure">
                   <div className="v-placeholder">
                     <strong>Photo du produit à venir</strong>
@@ -181,33 +212,26 @@ export default function App() {
           </div>
           <div className="v-band-content container container--wide reveal">
             <p className="v-eyebrow">À la dégustation</p>
-            <h2 id="gout-title" className="v-title v-title--lg">
-              Frais, doux, léger.
+            <h2 id="gout-title" className="v-title v-title--huge">
+              Frais.<br />Doux.<br />Léger.
             </h2>
-            <p className="v-text">
-              Le miel se laisse reconnaître sans s’imposer. On la boit glacée,
-              à la sortie du frigo, quand il fait chaud ou quand on a simplement soif.
-            </p>
-            <p className="v-text">
-              C’est le genre de boisson qu’on finit sans y penser, et qu’on ressert.
+            <p className="v-text v-text--lead">
+              On la boit glacée, à la sortie du frigo.
             </p>
           </div>
+          <GouttesDeMiel />
         </section>
 
         {/* ══ 3 · LA MARQUE — pourquoi lédjé existe. Court. ══ */}
         <section className="v-section v-section--soft" id="marque" aria-labelledby="marque-title">
           <div className="container container--prose reveal">
             <p className="v-eyebrow">Pourquoi lédjé</p>
-            <h2 id="marque-title" className="v-title v-title--xl">
-              Une tradition, remise au goût du jour.
+            <h2 id="marque-title" className="v-title v-title--huge">
+              Une tradition,<br />remise au goût du jour.
             </h2>
-            <p className="v-text">
-              L’eau miellée se boit depuis longtemps. Elle n’avait simplement jamais été
-              faite proprement, en bouteille, avec du bon miel et sans compromis.
-            </p>
-            <p className="v-text">
-              C’est ce qu’on construit : une boisson qu’on est fier de poser sur une table,
-              et une marque transparente sur ce qu’elle met dedans.
+            <p className="v-text v-text--lead">
+              L’eau miellée se boit depuis longtemps. Elle n’avait jamais été
+              faite proprement.
             </p>
           </div>
         </section>
@@ -218,12 +242,11 @@ export default function App() {
             <div className="v-split">
             <div className="v-split-main">
             <p className="v-eyebrow">Rester au courant</p>
-            <h2 id="contact-title" className="v-title v-title--lg">
-              On te préviendra au lancement.
+            <h2 id="contact-title" className="v-title v-title--xl">
+              On te préviendra.
             </h2>
             <p className="v-text">
-              Laisse ton email, on t’écrit quand les premières bouteilles sont prêtes.
-              Pas plus souvent que nécessaire.
+              Ton email, et rien d’autre. On écrit quand les bouteilles sont prêtes.
             </p>
 
             {formState === 'success' ? (
@@ -263,9 +286,8 @@ export default function App() {
             <aside className="v-aside v-split-side">
               <p className="v-aside-title">Réserver des cristaux de miel</p>
               <p>
-                Un cristal de miel à dissoudre dans un verre d’eau fraîche.
+                À dissoudre dans un verre d’eau fraîche.
                 1 cristal = {CRISTAL_UNIT_PRICE} €, {MIN_CRISTAUX} minimum.
-                Tu réserves ta place dans la première production.
               </p>
               <div className="v-qty">
                 <button

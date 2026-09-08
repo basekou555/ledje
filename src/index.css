@@ -278,19 +278,6 @@ img, svg, video { display: block; max-width: 100%; }
 .v-text:last-child { margin-bottom: 0; }
 .v-section--green .v-text { color: #E8DCC0; }
 
-/* ── Composition : la liste de faits ── */
-.v-facts { list-style: none; display: flex; flex-direction: column; gap: 0.1rem; margin-top: 1.8rem; }
-.v-facts li {
-  display: flex;
-  align-items: baseline;
-  gap: 0.9rem;
-  padding: 0.95rem 0;
-  border-top: 1px solid rgba(20, 61, 43, 0.12);
-  font-size: 1rem;
-}
-.v-facts li:last-child { border-bottom: 1px solid rgba(20, 61, 43, 0.12); }
-.v-fact-key { font-weight: 600; color: var(--ink); min-width: 7.5rem; flex-shrink: 0; }
-.v-fact-val { color: var(--ink-soft); }
 
 /* ── Visuel produit ── */
 .v-figure { margin-top: 2rem; }
@@ -637,7 +624,6 @@ img, svg, video { display: block; max-width: 100%; }
   .v-title--xl { font-size: clamp(2.3rem, 4vw, 3.4rem); max-width: 16ch; }
   .v-text { font-size: 1.1rem; max-width: 46ch; }
 
-  .v-facts { margin-top: 0; }
   .v-figure { margin-top: 2.5rem; }
 
   /* La précommande garde sa place de second rideau, mais ne flotte plus seule */
@@ -727,14 +713,6 @@ img, svg, video { display: block; max-width: 100%; }
 .v-hero-media video { animation: v-drift 26s ease-in-out infinite alternate; }
 @keyframes v-drift { from { transform: scale(1); } to { transform: scale(1.07); } }
 
-/* ── Les lignes de faits se révèlent une à une ── */
-.reveal.is-visible .v-facts li {
-  animation: v-rise 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
-}
-.reveal.is-visible .v-facts li:nth-child(1) { animation-delay: 0.05s; }
-.reveal.is-visible .v-facts li:nth-child(2) { animation-delay: 0.13s; }
-.reveal.is-visible .v-facts li:nth-child(3) { animation-delay: 0.21s; }
-.reveal.is-visible .v-facts li:nth-child(4) { animation-delay: 0.29s; }
 @keyframes v-rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
 
 /* ── Soulignement animé sur les liens du pied de page ── */
@@ -758,9 +736,161 @@ img, svg, video { display: block; max-width: 100%; }
 /* ── Neutralisation complète du mouvement si l'utilisateur le demande ── */
 @media (prefers-reduced-motion: reduce) {
   .v-hero-media video,
-  .v-band-media,
-  .reveal.is-visible .v-facts li { animation: none !important; }
+  .v-band-media { animation: none !important; }
   .v-figure img, .v-band-media img { transition: none !important; }
   .v-figure:hover img,
   .v-band:hover .v-band-media img { transform: none !important; }
+}
+
+/* ════════════════════════════════════════════
+   ÉCHELLE — moins de texte, plus de présence
+   La prose a été coupée ; ce qui reste doit porter. Les titres montent
+   franchement, les faits deviennent un bandeau qui se lit d'un coup d'œil.
+   ════════════════════════════════════════════ */
+
+/* Titre monumental — réservé aux moments forts (dégustation, marque) */
+.v-title--huge {
+  font-size: clamp(2.6rem, 13vw, 4rem);
+  line-height: 1.02;
+  letter-spacing: -0.015em;
+  margin-bottom: 1.2rem;
+}
+.v-title--xl {
+  font-size: clamp(2.1rem, 9vw, 3rem);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+}
+
+/* Phrase unique qui suit un grand titre : plus grande que du texte courant */
+.v-text--lead {
+  font-size: clamp(1.05rem, 4vw, 1.25rem);
+  color: var(--ink-soft);
+  max-width: 34ch;
+}
+.v-band .v-text--lead { color: #E8DCC0; }
+
+/* Bandeau de faits — remplace le paragraphe explicatif */
+.v-strip {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.1rem;
+  margin: 1.6rem 0 0;
+}
+.v-strip li {
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  padding: 0.45rem 0.95rem;
+  border: 1px solid rgba(20, 61, 43, 0.2);
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+  animation: v-rise 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.reveal .v-strip li { animation-play-state: paused; }
+.reveal.is-visible .v-strip li { animation-play-state: running; }
+.v-strip li:nth-child(1) { animation-delay: 0.06s; }
+.v-strip li:nth-child(2) { animation-delay: 0.16s; }
+.v-strip li:nth-child(3) { animation-delay: 0.26s; }
+
+@media (min-width: 900px) {
+  .v-title--huge { font-size: clamp(3.4rem, 5.6vw, 5.4rem); }
+  .v-title--xl   { font-size: clamp(2.6rem, 4.2vw, 3.8rem); max-width: 14ch; }
+  .v-text--lead  { font-size: 1.3rem; max-width: 32ch; }
+  .v-strip { margin-top: 2.2rem; gap: 0.6rem 1.2rem; }
+  .v-strip li { font-size: 0.95rem; padding: 0.55rem 1.15rem; }
+  /* La bande gagne encore en présence */
+  .v-band { min-height: 100svh; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .v-strip li { animation: none !important; }
+}
+
+/* ════════════════════════════════════════════
+   GOUTTES DE MIEL — scène animée de la bande dégustation
+   Trois gouttes tombent en décalé, se fondent dans la surface, une onde part
+   à l'impact. Cycle de 3,6 s. Trait fin, or : c'est la matière du produit
+   qui bouge, pas un effet décoratif de plus.
+   ════════════════════════════════════════════ */
+.v-drops {
+  position: absolute;
+  z-index: 1;
+  right: 6vw;
+  bottom: 8vh;
+  width: clamp(96px, 22vw, 150px);
+  height: auto;
+  pointer-events: none;
+  opacity: 0.92;
+}
+
+.v-glass {
+  stroke: var(--gold-on-green);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  fill: rgba(232, 182, 92, 0.05);
+}
+.v-glass-fill { fill: rgba(232, 182, 92, 0.22); }
+.v-surface {
+  fill: rgba(232, 182, 92, 0.55);
+  stroke: var(--gold-on-green);
+  stroke-width: 1.2;
+}
+
+.v-drop {
+  fill: var(--gold-on-green);
+  transform-origin: 60px 14px;
+  animation: v-drop-fall 3.6s cubic-bezier(0.55, 0, 0.85, 0.4) infinite;
+  opacity: 0;
+}
+.v-drop-1 { animation-delay: 0s; }
+.v-drop-2 { animation-delay: 1.2s; }
+.v-drop-3 { animation-delay: 2.4s; }
+
+/* La goutte apparaît, s'étire en tombant, puis s'écrase à la surface */
+@keyframes v-drop-fall {
+  0%   { opacity: 0; transform: translateY(0) scaleY(0.7); }
+  8%   { opacity: 1; transform: translateY(6px) scaleY(0.9); }
+  55%  { opacity: 1; transform: translateY(84px) scaleY(1.25); }
+  70%  { opacity: 1; transform: translateY(106px) scaleY(1.05); }
+  76%  { opacity: 0; transform: translateY(112px) scaleY(0.4); }
+  100% { opacity: 0; transform: translateY(112px) scaleY(0.4); }
+}
+
+.v-ripple {
+  fill: none;
+  stroke: var(--gold-on-green);
+  stroke-width: 1.2;
+  transform-origin: 60px 128px;
+  opacity: 0;
+  animation: v-ripple-out 3.6s ease-out infinite;
+}
+.v-ripple-1 { animation-delay: 0.76s; }
+.v-ripple-2 { animation-delay: 1.96s; }
+
+@keyframes v-ripple-out {
+  0%   { opacity: 0.75; transform: scale(0.4); }
+  22%  { opacity: 0; transform: scale(2.2); }
+  100% { opacity: 0; transform: scale(2.2); }
+}
+
+/* Sur petit écran : la bande est cadrée en bas, donc la scène se cale en haut
+   à droite, là où il reste de la place. Elle reste hors du flux pour ne pas
+   devenir un frère de rangée du bloc de texte. */
+@media (max-width: 899px) {
+  .v-drops {
+    right: 7vw;
+    bottom: auto;
+    top: 14vh;
+    width: clamp(80px, 24vw, 110px);
+    opacity: 0.8;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .v-drop, .v-ripple { animation: none !important; }
+  /* Une goutte reste visible, immobile, juste au-dessus de la surface */
+  .v-drop-1 { opacity: 1; transform: translateY(84px); }
 }
