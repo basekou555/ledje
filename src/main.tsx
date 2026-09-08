@@ -4,18 +4,24 @@ import { Analytics } from '@vercel/analytics/react'
 import './index.css'
 import Construction from './Construction.tsx'
 import Avis from './Avis.tsx'
-// La landing complète reste dans le repo, prête à être réactivée :
-// remplacer <Construction /> par <App /> (et importer App depuis './App.tsx').
-// import App from './App.tsx'
+import App from './App.tsx'
 
-// Routage minimal par pathname (SPA — Vercel réécrit déjà tout vers index.html).
-// /avis reste OUVERTE même site en construction : elle sert au recueil d'avis
-// pendant les dégustations en cours. Toutes les autres routes → page construction.
-const isAvis = window.location.pathname.replace(/\/+$/, '') === '/avis'
+/* Routage minimal par pathname (SPA — Vercel réécrit déjà tout vers index.html).
+   — /avis    : recueil d'avis, ouverte pendant les dégustations ;
+   — /apercu  : aperçu de la vitrine refondue, le temps de la valider.
+                À supprimer quand la vitrine passera en page d'accueil ;
+   — le reste : page « en construction ». */
+const path = window.location.pathname.replace(/\/+$/, '')
+
+function Page() {
+  if (path === '/avis') return <Avis />
+  if (path === '/apercu') return <App />
+  return <Construction />
+}
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    {isAvis ? <Avis /> : <Construction />}
+    <Page />
     <Analytics />
   </StrictMode>,
 )
