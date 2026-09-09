@@ -769,40 +769,63 @@ img, svg, video { display: block; max-width: 100%; }
 }
 .v-band .v-text--lead { color: #E8DCC0; }
 
-/* Bandeau de faits — remplace le paragraphe explicatif */
-.v-strip {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem 1.1rem;
-  margin: 1.6rem 0 0;
+/* Plaque de faits — remplace le paragraphe explicatif.
+   Volontairement PAS de pastilles : la pastille arrondie est le motif par
+   défaut de tout site généré, c'est elle qui donnait l'impression de gabarit.
+   Ici, rien qu'une hiérarchie typographique et des filets fins — les faits
+   restent en évidence, sans forme, sans fond, sans contour. */
+.v-specs {
+  margin: 2rem 0 0;
+  border-top: 1px solid rgba(20, 61, 43, 0.16);
 }
-.v-strip li {
-  font-size: 0.9rem;
+.v-spec {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(20, 61, 43, 0.16);
+}
+.v-spec dt {
+  font-size: 0.68rem;
   font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--ink);
-  padding: 0.45rem 0.95rem;
-  border: 1px solid rgba(20, 61, 43, 0.2);
-  border-radius: var(--radius-pill);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-ink);
   white-space: nowrap;
-  animation: v-rise 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.v-spec dd {
+  margin: 0;
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  line-height: 1.25;
+  color: var(--ink);
+  text-align: right;
 }
 
 @media (min-width: 900px) {
   .v-title--huge { font-size: clamp(3.4rem, 5.6vw, 5.4rem); }
   .v-title--xl   { font-size: clamp(2.6rem, 4.2vw, 3.8rem); max-width: 14ch; }
   .v-text--lead  { font-size: 1.3rem; max-width: 32ch; }
-  .v-strip { margin-top: 2.2rem; gap: 0.6rem 1.2rem; }
-  .v-strip li { font-size: 0.95rem; padding: 0.55rem 1.15rem; }
+  /* En colonnes : la plaque se lit d'un seul regard, filets à la verticale */
+  .v-specs {
+    display: flex;
+    margin-top: 2.6rem;
+    border-top: none;
+    border-left: 1px solid rgba(20, 61, 43, 0.16);
+  }
+  .v-spec {
+    flex: 1 1 0;
+    display: block;
+    padding: 0.2rem 1.5rem;
+    border-bottom: none;
+  }
+  .v-spec dd { font-size: 1.32rem; text-align: left; margin-top: 0.45rem; }
   /* La bande gagne encore en présence */
   .v-band { min-height: 100svh; }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .v-strip li { animation: none !important; }
-}
+
 
 
 /* La scène animée « gouttes de miel » a été retirée le 2026-09-09 (décision
@@ -833,7 +856,6 @@ img, svg, video { display: block; max-width: 100%; }
     0 8px 24px -12px rgba(90, 62, 20, 0.16);
 }
 .v-figure { box-shadow: 0 10px 32px -16px rgba(90, 62, 20, 0.22); }
-.v-strip li { box-shadow: 0 1px 2px rgba(90, 62, 20, 0.04); }
 
 @media (prefers-reduced-motion: reduce) {
   .v-line-in { transform: none; animation: none; }
@@ -862,7 +884,7 @@ img, svg, video { display: block; max-width: 100%; }
 .reveal .v-text,
 .reveal .v-legal,
 .reveal .v-success,
-.reveal .v-strip li,
+.reveal .v-spec,
 .reveal .v-contact-form > *,
 .reveal .v-aside,
 .reveal .v-figure {
@@ -879,7 +901,7 @@ img, svg, video { display: block; max-width: 100%; }
 }
 
 .reveal .is-visible          { opacity: 1; transform: none; }
-.reveal .v-strip li.is-visible { opacity: 1; transform: none; }
+.reveal .v-spec.is-visible { opacity: 1; transform: none; }
 
 /* Les grands titres se dévoilent ligne par ligne, derrière leur masque */
 .reveal .v-line-in {
@@ -894,8 +916,8 @@ img, svg, video { display: block; max-width: 100%; }
 /* Décalages : l'ordre de lecture, pas un effet de cascade appuyé */
 .reveal .v-line.is-visible .v-line-2 { transition-delay: 0.09s; }
 .reveal .v-line.is-visible .v-line-3 { transition-delay: 0.18s; }
-.reveal .v-strip li:nth-child(2).is-visible { transition-delay: 0.08s; }
-.reveal .v-strip li:nth-child(3).is-visible { transition-delay: 0.16s; }
+.reveal .v-spec:nth-child(2).is-visible { transition-delay: 0.08s; }
+.reveal .v-spec:nth-child(3).is-visible { transition-delay: 0.16s; }
 .reveal .v-contact-form > *:nth-child(2).is-visible { transition-delay: 0.08s; }
 .reveal .v-contact-form > *:nth-child(3).is-visible { transition-delay: 0.16s; }
 
@@ -904,7 +926,7 @@ img, svg, video { display: block; max-width: 100%; }
   .reveal .v-text,
   .reveal .v-legal,
   .reveal .v-success,
-  .reveal .v-strip li,
+  .reveal .v-spec,
   .reveal .v-contact-form > *,
   .reveal .v-aside,
   .reveal .v-figure,

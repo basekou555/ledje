@@ -120,7 +120,7 @@ export default function App() {
         '.reveal .v-text',
         '.reveal .v-legal',
         '.reveal .v-success',
-        '.reveal .v-strip li',
+        '.reveal .v-spec',
         '.reveal .v-figure',
         '.reveal .v-contact-form > *',
         '.reveal .v-aside',
@@ -198,12 +198,25 @@ export default function App() {
                   <span className="v-line"><span className="v-line-in v-line-2">Du miel français.</span></span>
                 </h2>
                 {/* Les faits remplacent le paragraphe : ils se lisent d'un coup
-                    d'œil et donnent la clarté sans imposer de lecture. */}
-                <ul className="v-strip">
-                  <li>Deux ingrédients</li>
-                  <li>Miel pur, jamais chauffé</li>
-                  <li>33 cl</li>
-                </ul>
+                    d'œil et donnent la clarté sans imposer de lecture.
+                    Traités en plaque de spécimen — intitulé discret, valeur en
+                    serif, filets fins — et non en pastilles : la pastille
+                    arrondie est le motif par défaut de tous les sites générés,
+                    c'est ce qui donnait l'impression de gabarit. */}
+                <dl className="v-specs">
+                  <div className="v-spec">
+                    <dt>Composition</dt>
+                    <dd>Deux ingrédients</dd>
+                  </div>
+                  <div className="v-spec">
+                    <dt>Miel</dt>
+                    <dd>Pur, jamais chauffé</dd>
+                  </div>
+                  <div className="v-spec">
+                    <dt>Contenance</dt>
+                    <dd>33 cl</dd>
+                  </div>
+                </dl>
                 <p className="v-legal">
                   Miel déconseillé aux enfants de moins d’un an.
                 </p>
