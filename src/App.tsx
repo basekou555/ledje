@@ -47,66 +47,6 @@ function isValidEmail(e: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)
 }
 
-/* Scène animée « eau + miel ».
-   Trois gouttes de miel tombent dans un verre d'eau claire ; à chaque impact
-   l'eau se teinte d'un palier, jusqu'à devenir de l'eau miellée — puis le
-   cycle repart. C'est le produit lui-même qui se fabrique sous les yeux.
-   Purement décorative (aria-hidden), figée sous prefers-reduced-motion. */
-function EauMiellee() {
-  return (
-    <svg
-      className="hd"
-      viewBox="0 0 220 260"
-      fill="none"
-      aria-hidden="true"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <defs>
-        <linearGradient id="hd-honey" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#F8DA97" />
-          <stop offset="0.42" stopColor="#E2A733" />
-          <stop offset="1" stopColor="#B0731A" />
-        </linearGradient>
-        {/* La nappe une fois miellée */}
-        <radialGradient id="hd-tinted" cx="0.5" cy="0.35" r="0.75">
-          <stop offset="0" stopColor="#F2CE86" />
-          <stop offset="0.6" stopColor="#DCA23A" />
-          <stop offset="1" stopColor="#C1861F" />
-        </radialGradient>
-        {/* La nappe d'eau claire */}
-        <radialGradient id="hd-clear" cx="0.5" cy="0.35" r="0.75">
-          <stop offset="0" stopColor="#FFFFFF" stopOpacity="0.75" />
-          <stop offset="1" stopColor="#BFD4D8" stopOpacity="0.5" />
-        </radialGradient>
-      </defs>
-
-      {/* La nappe : eau claire, puis la teinte miel par-dessus */}
-      <ellipse className="hd-pool-clear" cx="110" cy="196" rx="86" ry="26" />
-      <ellipse className="hd-pool-tint"  cx="110" cy="196" rx="86" ry="26" />
-      <ellipse className="hd-pool-edge"  cx="110" cy="196" rx="86" ry="26" />
-
-      {/* Ondes concentriques à chaque impact */}
-      <ellipse className="hd-ripple hd-r1" cx="110" cy="196" rx="20" ry="6" />
-      <ellipse className="hd-ripple hd-r2" cx="110" cy="196" rx="20" ry="6" />
-      <ellipse className="hd-ripple hd-r3" cx="110" cy="196" rx="20" ry="6" />
-
-      {/* Les gouttes */}
-      <g className="hd-drop hd-d1">
-        <path d="M110 8 c5.5 11.5 9.5 18 9.5 23.5 a9.5 9.5 0 0 1 -19 0 C100.5 26 104.5 19.5 110 8 Z" fill="url(#hd-honey)" />
-        <ellipse cx="106" cy="27" rx="2.4" ry="3.8" fill="#FDF1CE" opacity="0.8" />
-      </g>
-      <g className="hd-drop hd-d2">
-        <path d="M110 8 c5.5 11.5 9.5 18 9.5 23.5 a9.5 9.5 0 0 1 -19 0 C100.5 26 104.5 19.5 110 8 Z" fill="url(#hd-honey)" />
-        <ellipse cx="106" cy="27" rx="2.4" ry="3.8" fill="#FDF1CE" opacity="0.8" />
-      </g>
-      <g className="hd-drop hd-d3">
-        <path d="M110 8 c5.5 11.5 9.5 18 9.5 23.5 a9.5 9.5 0 0 1 -19 0 C100.5 26 104.5 19.5 110 8 Z" fill="url(#hd-honey)" />
-        <ellipse cx="106" cy="27" rx="2.4" ry="3.8" fill="#FDF1CE" opacity="0.8" />
-      </g>
-    </svg>
-  )
-}
-
 export default function App() {
   const [email, setEmail] = useState('')
   const [formState, setFormState] = useState<FormState>('idle')
@@ -161,25 +101,40 @@ export default function App() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  // Révélation au scroll, désactivée si l'utilisateur préfère moins d'animation.
+  /* Révélation au scroll.
+     Chaque élément animé est observé pour lui-même, et non le bloc `.reveal`
+     qui le contient : ces blocs font la hauteur d'une section entière, si bien
+     que leur seuil d'entrée était franchi — et l'animation jouée — bien avant
+     que le texte soit à l'écran. Seul le premier texte semblait donc s'animer.
+     On n'arrête pas d'observer : la classe se retire quand l'élément ressort,
+     et le mouvement se rejoue à l'envers quand on remonte la page. */
   useEffect(() => {
-    const targets = document.querySelectorAll('.reveal')
+    const targets = document.querySelectorAll<HTMLElement>(
+      [
+        '.reveal .v-eyebrow',
+        '.reveal .v-line-in',
+        '.reveal .v-text',
+        '.reveal .v-legal',
+        '.reveal .v-success',
+        '.reveal .v-strip li',
+        '.reveal .v-figure',
+        '.reveal .v-contact-form > *',
+        '.reveal .v-aside',
+      ].join(','),
+    )
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       targets.forEach(el => el.classList.add('is-visible'))
       return
     }
-    // Réversible : on n'arrête pas d'observer après la première apparition,
-    // et la classe se retire quand la section ressort — l'animation se rejoue
-    // donc à l'envers quand on remonte la page.
     const obs = new IntersectionObserver(
       entries => entries.forEach(e => {
         e.target.classList.toggle('is-visible', e.isIntersecting)
       }),
-      { threshold: 0.12, rootMargin: '0px 0px -60px 0px' },
+      { threshold: 0, rootMargin: '0px 0px -12% 0px' },
     )
     targets.forEach(el => obs.observe(el))
     return () => obs.disconnect()
-  }, [])
+  }, [formState])
 
   async function handleEmailSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -202,11 +157,6 @@ export default function App() {
         <a className="v-wordmark" href="#top">lédjé</a>
         <a className="v-header-cta" href="#contact">Être prévenu</a>
       </header>
-
-      {/* Grain : une trame très fine posée sur toute la page. Sans elle, le crème
-          reste un aplat numérique ; avec, il prend la matière d'un papier teinté.
-          Purement décoratif, ne capte jamais le pointeur. */}
-      <div className="v-grain" aria-hidden="true" />
 
       <main id="top">
         {/* ══ 1 · LE PRODUIT — ce que c'est, tout de suite ══ */}
@@ -295,7 +245,7 @@ export default function App() {
         {/* ══ 3 · LA MARQUE — pourquoi lédjé existe. Court. ══ */}
         <section className="v-section v-section--soft" id="marque" aria-labelledby="marque-title">
           <div className="container container--wide reveal reveal--right">
-            <div className="v-split v-split--marque">
+            <div className="v-split">
               <div className="v-split-main">
                 <p className="v-eyebrow">Pourquoi lédjé</p>
                 <h2 id="marque-title" className="v-title v-title--huge">
@@ -307,7 +257,6 @@ export default function App() {
                   faite proprement.
                 </p>
               </div>
-              <EauMiellee />
             </div>
           </div>
         </section>

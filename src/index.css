@@ -380,9 +380,9 @@ img, svg, video { display: block; max-width: 100%; }
 .v-footer-mail a { color: var(--surface); font-size: 0.98rem; }
 .v-footer-legal { font-size: 0.8rem; color: rgba(244,235,218,0.7); line-height: 1.6; }
 
-/* ── Révélation au scroll ── */
-.reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.16,1,0.3,1); }
-.reveal.is-visible { opacity: 1; transform: none; }
+/* Révélation au scroll : le système complet est en bas de fichier, en un seul
+   bloc. Le conteneur .reveal ne porte plus aucun style visuel ici — il n'est
+   qu'un marqueur, ce sont ses enfants qui s'animent. */
 
 @media (prefers-reduced-motion: reduce) {
   * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
@@ -789,16 +789,6 @@ img, svg, video { display: block; max-width: 100%; }
   white-space: nowrap;
   animation: v-rise 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
-.reveal .v-strip li {
-  animation: none;
-  opacity: 0;
-  transform: translateY(12px);
-  transition: opacity 0.55s ease, transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.reveal.is-visible .v-strip li { opacity: 1; transform: none; }
-.reveal.is-visible .v-strip li:nth-child(1) { transition-delay: 0.30s; }
-.reveal.is-visible .v-strip li:nth-child(2) { transition-delay: 0.38s; }
-.reveal.is-visible .v-strip li:nth-child(3) { transition-delay: 0.46s; }
 
 @media (min-width: 900px) {
   .v-title--huge { font-size: clamp(3.4rem, 5.6vw, 5.4rem); }
@@ -815,125 +805,11 @@ img, svg, video { display: block; max-width: 100%; }
 }
 
 
-/* ════════════════════════════════════════════
-   SCÈNE « EAU + MIEL » — section Pourquoi lédjé
-   Trois gouttes tombent dans un verre d'eau claire ; à chaque impact l'eau
-   gagne un palier de teinte, jusqu'à devenir de l'eau miellée, puis le cycle
-   repart. Cycle de 10 s : impacts à 1,6 s / 4,8 s / 8 s.
-   Le miel est en dégradé avec un reflet — pas un aplat, sinon ça fait clipart.
-   ════════════════════════════════════════════ */
-.hd {
-  width: clamp(180px, 52vw, 300px);
-  height: auto;
-  flex-shrink: 0;
-  margin-inline: auto;
-  overflow: visible;
-}
+/* La scène animée « gouttes de miel » a été retirée le 2026-09-09 (décision
+   Basekou) : rendu trop « cheap » pour la promesse du produit. Le grain fixe
+   posé sur toute la page a été retiré au même moment, pour la même raison.
+   Les deux ont vécu ici ; ne pas les réintroduire sans nouvelle décision. */
 
-/* La nappe de liquide — plus de verre dessiné : un verre au trait lit toujours
-   « illustration », alors que la nappe seule reste abstraite et élégante. */
-.hd-pool-clear { fill: url(#hd-clear); }
-.hd-pool-tint {
-  fill: url(#hd-tinted);
-  opacity: 0;
-  animation: hd-tint 10s linear infinite;
-}
-.hd-pool-edge {
-  fill: none;
-  stroke: rgba(20, 61, 43, 0.16);
-  stroke-width: 1.2;
-}
-
-@keyframes hd-tint {
-  0%,  15%  { opacity: 0; }
-  17%, 46%  { opacity: 0.34; }
-  49%, 77%  { opacity: 0.66; }
-  80%, 92%  { opacity: 0.95; }
-  100%      { opacity: 0; }
-}
-
-/* ── Les gouttes ── */
-.hd-drop {
-  opacity: 0;
-  transform-origin: 110px 24px;
-  animation: hd-fall 10s cubic-bezier(0.45, 0, 0.75, 0.35) infinite;
-}
-.hd-d1 { animation-delay: 0s; }
-.hd-d2 { animation-delay: 3.2s; }
-.hd-d3 { animation-delay: 6.4s; }
-
-/* La goutte se forme, pend, s'étire en tombant (le miel est visqueux),
-   puis s'écrase à la surface. */
-@keyframes hd-fall {
-  0%    { opacity: 0; transform: translateY(0) scale(0.5, 0.45); }
-  2%    { opacity: 1; transform: translateY(3px) scale(0.85, 0.8); }
-  5%    { opacity: 1; transform: translateY(9px) scale(0.92, 1.05); }
-  8%    { opacity: 1; transform: translateY(26px) scale(0.82, 1.36); }
-  13%   { opacity: 1; transform: translateY(108px) scale(0.74, 1.55); }
-  15.2% { opacity: 1; transform: translateY(156px) scale(0.9, 1.18); }
-  16.4% { opacity: 0.55; transform: translateY(166px) scale(1.8, 0.28); }
-  18%   { opacity: 0; transform: translateY(168px) scale(2.2, 0.14); }
-  100%  { opacity: 0; transform: translateY(168px) scale(2.2, 0.14); }
-}
-
-/* ── Les ondes, une par impact ── */
-.hd-ripple {
-  fill: none;
-  stroke: rgba(255, 255, 255, 0.9);
-  stroke-width: 1.6;
-  transform-origin: 110px 196px;
-  opacity: 0;
-  animation: hd-ripple 10s ease-out infinite;
-}
-.hd-r1 { animation-delay: 1.62s; }
-.hd-r2 { animation-delay: 4.82s; }
-.hd-r3 { animation-delay: 8.02s; }
-@keyframes hd-ripple {
-  0%   { opacity: 0.85; transform: scale(0.35); }
-  14%  { opacity: 0; transform: scale(2.6); }
-  100% { opacity: 0; transform: scale(2.6); }
-}
-
-/* ── Mise en page du bloc marque ── */
-.v-split--marque { align-items: center; }
-
-@media (min-width: 900px) {
-  .v-split--marque .v-split-main { flex: 1 1 58%; }
-  .v-split--marque .hd { flex: 0 1 42%; width: clamp(240px, 26vw, 340px); margin-inline: 0 auto; }
-}
-
-/* ── Sans animation : le verre reste plein d'eau miellée, une goutte suspendue.
-      La scène garde son sens même immobile. ── */
-@media (prefers-reduced-motion: reduce) {
-  .hd-pool-tint, .hd-drop, .hd-ripple { animation: none !important; }
-  .hd-pool-tint { opacity: 0.9; }
-  .hd-d1 { opacity: 1; transform: translateY(108px) scale(0.78, 1.5); }
-}
-
-/* ════════════════════════════════════════════
-   MATIÈRE & PROFONDEUR
-   Diagnostic : tout était en aplats plats. Un crème uni reste « propre »
-   sans devenir désirable. Le grain lui donne la matière d'un papier teinté,
-   la parallaxe donne de la profondeur au hero.
-   ⚠️ À JUGER — le grain se règle d'une seule valeur (--grain-force).
-   ════════════════════════════════════════════ */
-:root {
-  --grain-force: 0.30;    /* 0 = aucun · 0.18 discret · 0.30 visible · 0.45 marqué */
-}
-
-.v-grain {
-  position: fixed;
-  inset: 0;
-  z-index: 999;
-  pointer-events: none;
-  opacity: var(--grain-force);
-  /* Pas de mix-blend-mode : il ne composite pas de façon fiable sur un élément
-     fixe au-dessus de plusieurs contextes d'empilement — le grain restait
-     invisible. Ici la trame est du noir dont l'alpha vient de la turbulence,
-     posé en alpha simple : ça se voit toujours. */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
-  background-size: 160px 160px;
-}
 
 /* ── Parallaxe : la vidéo défile moins vite que le texte ── */
 .v-hero-media { will-change: transform; }
@@ -965,67 +841,74 @@ img, svg, video { display: block; max-width: 100%; }
 }
 
 /* ════════════════════════════════════════════
-   ANIMATIONS PAR SECTION
-   Un fondu unique pour toute la page donnait une impression de gabarit.
-   Chaque section entre désormais avec son propre mouvement, et les grands
-   titres se dévoilent ligne par ligne comme l'accroche du hero.
+   RÉVÉLATION AU SCROLL — système unique
+   Diagnostic du 2026-09-09 : seul le premier texte s'animait. Les blocs
+   `.reveal` font la hauteur d'une section entière ; leur seuil d'entrée était
+   donc franchi — et l'animation jouée jusqu'au bout — bien avant que le texte
+   qu'ils contiennent soit à l'écran. On ne voyait que le résultat.
+   Correctif : chaque élément animé est observé pour lui-même et porte sa
+   propre classe `.is-visible`. Le conteneur `.reveal` n'est plus qu'un
+   marqueur : il ne bouge pas, il transmet seulement la direction d'entrée
+   (--rx / --ry) que ses enfants héritent.
+   Tout passe par des transitions (jamais des keyframes) : c'est ce qui permet
+   au mouvement de se rejouer à l'envers quand on remonte la page.
    ════════════════════════════════════════════ */
+.reveal         { --rx:   0px; --ry: 26px; }
+.reveal--left   { --rx: -30px; --ry: 14px; }
+.reveal--right  { --rx:  30px; --ry: 14px; }
+.reveal--up     { --rx:   0px; --ry: 34px; }
 
-/* Directions d'entrée — le décalage latéral rompt la monotonie verticale */
-.reveal--left  { transform: translate3d(-34px, 14px, 0); }
-.reveal--right { transform: translate3d(34px, 14px, 0); }
-.reveal--up    { transform: translate3d(0, 40px, 0); }
-.reveal--left.is-visible,
-.reveal--right.is-visible,
-.reveal--up.is-visible { transform: none; }
+.reveal .v-eyebrow,
+.reveal .v-text,
+.reveal .v-legal,
+.reveal .v-success,
+.reveal .v-strip li,
+.reveal .v-contact-form > *,
+.reveal .v-aside,
+.reveal .v-figure {
+  opacity: 0;
+  transform: translate3d(var(--rx), var(--ry), 0);
+  /* neutralise les entrées en keyframes définies plus haut (v-rise, v-fade) */
+  animation: none;
+  transition: opacity 0.7s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+/* Le visuel produit se rapproche en plus de monter */
+.reveal .v-figure {
+  transform: translate3d(var(--rx), var(--ry), 0) scale(0.96);
+  transition: opacity 0.8s ease, transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
 
-/* Les titres de section : transition et non animation, pour que le
-   dévoilement se rejoue à l'envers quand la section ressort de l'écran.
-   (Le hero, lui, garde son animation : il ne joue qu'au chargement.) */
+.reveal .is-visible          { opacity: 1; transform: none; }
+.reveal .v-strip li.is-visible { opacity: 1; transform: none; }
+
+/* Les grands titres se dévoilent ligne par ligne, derrière leur masque */
 .reveal .v-line-in {
   animation: none;
   transform: translateY(105%);
-  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.reveal.is-visible .v-line-in { transform: none; }
-.reveal .v-line-1 { transition-delay: 0.06s; }
-.reveal .v-line-2 { transition-delay: 0.16s; }
-.reveal .v-line-3 { transition-delay: 0.26s; }
+.reveal .v-line-in.is-visible { transform: none; }
 
-/* Le visuel produit arrive avec un léger rapprochement, pas un simple fondu */
-.reveal .v-figure {
-  opacity: 0;
-  transform: scale(0.94);
-  transition: opacity 0.8s ease 0.25s, transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.25s;
-}
-.reveal.is-visible .v-figure { opacity: 1; transform: none; }
-
-/* La scène du verre se pose en montant, après le titre */
-.reveal .hd {
-  opacity: 0;
-  transform: translateY(28px);
-  transition: opacity 0.9s ease 0.3s, transform 1s cubic-bezier(0.16, 1, 0.3, 1) 0.3s;
-}
-.reveal.is-visible .hd { opacity: 1; transform: none; }
-
-/* Les champs du formulaire se posent l'un après l'autre */
-.reveal .v-contact-form > *,
-.reveal .v-aside {
-  opacity: 0;
-  transform: translateY(16px);
-  transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.reveal.is-visible .v-contact-form > *,
-.reveal.is-visible .v-aside { opacity: 1; transform: none; }
-.reveal.is-visible .v-contact-form > *:nth-child(1) { transition-delay: 0.22s; }
-.reveal.is-visible .v-contact-form > *:nth-child(2) { transition-delay: 0.30s; }
-.reveal.is-visible .v-contact-form > *:nth-child(3) { transition-delay: 0.38s; }
-.reveal.is-visible .v-aside { transition-delay: 0.34s; }
+/* Décalages : l'ordre de lecture, pas un effet de cascade appuyé */
+.reveal .v-line-2.is-visible { transition-delay: 0.09s; }
+.reveal .v-line-3.is-visible { transition-delay: 0.18s; }
+.reveal .v-strip li:nth-child(2).is-visible { transition-delay: 0.08s; }
+.reveal .v-strip li:nth-child(3).is-visible { transition-delay: 0.16s; }
+.reveal .v-contact-form > *:nth-child(2).is-visible { transition-delay: 0.08s; }
+.reveal .v-contact-form > *:nth-child(3).is-visible { transition-delay: 0.16s; }
 
 @media (prefers-reduced-motion: reduce) {
-  .reveal--left, .reveal--right, .reveal--up { transform: none !important; }
-  .reveal .v-figure, .reveal .hd,
-  .reveal .v-contact-form > *, .reveal .v-aside {
-    opacity: 1 !important; transform: none !important; transition: none !important;
+  .reveal .v-eyebrow,
+  .reveal .v-text,
+  .reveal .v-legal,
+  .reveal .v-success,
+  .reveal .v-strip li,
+  .reveal .v-contact-form > *,
+  .reveal .v-aside,
+  .reveal .v-figure,
+  .reveal .v-line-in {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
   }
 }
