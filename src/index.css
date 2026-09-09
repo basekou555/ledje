@@ -887,11 +887,13 @@ img, svg, video { display: block; max-width: 100%; }
   transform: translateY(105%);
   transition: transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.reveal .v-line-in.is-visible { transform: none; }
+/* C'est le masque qui porte l'état : la ligne, translatée de 105 %, est
+   entièrement découpée par lui — l'observateur ne pourrait jamais la voir. */
+.reveal .v-line.is-visible .v-line-in { transform: none; }
 
 /* Décalages : l'ordre de lecture, pas un effet de cascade appuyé */
-.reveal .v-line-2.is-visible { transition-delay: 0.09s; }
-.reveal .v-line-3.is-visible { transition-delay: 0.18s; }
+.reveal .v-line.is-visible .v-line-2 { transition-delay: 0.09s; }
+.reveal .v-line.is-visible .v-line-3 { transition-delay: 0.18s; }
 .reveal .v-strip li:nth-child(2).is-visible { transition-delay: 0.08s; }
 .reveal .v-strip li:nth-child(3).is-visible { transition-delay: 0.16s; }
 .reveal .v-contact-form > *:nth-child(2).is-visible { transition-delay: 0.08s; }
@@ -906,7 +908,8 @@ img, svg, video { display: block; max-width: 100%; }
   .reveal .v-contact-form > *,
   .reveal .v-aside,
   .reveal .v-figure,
-  .reveal .v-line-in {
+  .reveal .v-line-in,
+  .reveal .v-line {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;

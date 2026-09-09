@@ -112,7 +112,11 @@ export default function App() {
     const targets = document.querySelectorAll<HTMLElement>(
       [
         '.reveal .v-eyebrow',
-        '.reveal .v-line-in',
+        /* On observe le MASQUE, pas la ligne : la ligne est translatée de 105 %
+           vers le bas, donc entièrement découpée par l'overflow du masque —
+           l'observateur la voyait comme jamais visible et ne la révélait
+           jamais. Le masque, lui, est bien à sa place dans la page. */
+        '.reveal .v-line',
         '.reveal .v-text',
         '.reveal .v-legal',
         '.reveal .v-success',
