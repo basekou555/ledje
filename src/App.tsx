@@ -217,9 +217,9 @@ export default function App() {
                     <dd>33 cl</dd>
                   </div>
                 </dl>
-                <p className="v-legal">
-                  Miel déconseillé aux enfants de moins d’un an.
-                </p>
+                {/* La mention « miel déconseillé aux enfants de moins d'un an »
+                    n'est pas répétée ici : elle figure en pied de page, et une
+                    seule fois suffit. */}
               </div>
 
               <div className="v-split-side">
