@@ -159,7 +159,7 @@ export default function App() {
     <>
       <header className="v-header">
         <a className="v-wordmark" href="#top">lédjé</a>
-        <a className="v-header-cta" href="#contact">Être prévenu</a>
+        <a className="v-header-cta" href="/avis">Donner ton avis</a>
       </header>
 
       <main id="top">
@@ -180,7 +180,13 @@ export default function App() {
               <span className="v-line"><span className="v-line-in v-line-2">Rien de plus.</span></span>
             </h1>
             <div className="v-hero-actions v-fade v-fade-4">
-              <a className="btn-ghost" href="#produit">Découvrir</a>
+              <a
+                className="btn-ghost"
+                href="/avis"
+                onClick={() => trackEvent('avis_click')}
+              >
+                Donner ton avis
+              </a>
               <span className="v-hero-meta">Miel français · 33 cl</span>
             </div>
           </div>
@@ -366,6 +372,12 @@ export default function App() {
         <div className="container reveal">
           <p className="v-footer-brand">lédjé</p>
           <p className="v-footer-tagline">{SIGNATURE}</p>
+          {/* Troisième et dernier accès à la page d'avis — hero, en-tête, ici. */}
+          <p className="v-footer-avis">
+            <a href="/avis" onClick={() => trackEvent('avis_click')}>
+              Tu l’as goûtée ? Donne ton avis
+            </a>
+          </p>
           <p className="v-footer-mail">
             <a href="mailto:basekou@ledje.fr">basekou@ledje.fr</a>
           </p>
