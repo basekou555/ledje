@@ -29,13 +29,11 @@ const ACCROCHE = 'De l’eau et du miel. Rien de plus.'
 // ⚠️ Signature PROVISOIRE elle aussi (identite-verbale.md §7.1).
 const SIGNATURE = 'Parmi les bienfaits de ce bas monde'
 
-// Précommande cristal — présente, jamais dominante.
-const CRISTAL_UNIT_PRICE = 1
-const MIN_CRISTAUX = 5
-const MAX_CRISTAUX = 50
-const STRIPE_PRECOMMANDE_URL =
-  (import.meta.env.VITE_STRIPE_PRECOMMANDE_URL as string | undefined) ??
-  'https://buy.stripe.com/9B66oG0I3dZx10ddaggQE04'
+/* La précommande de cristaux (compteur + lien de paiement Stripe) a été
+   retirée de la vitrine le 2026-09-09, remplacée par l'appel à donner son
+   avis. Le lien de paiement lui-même n'est pas supprimé côté Stripe : il
+   reste valide et repartageable à la main. Pour le remettre dans la page,
+   voir l'historique du fichier. */
 
 // Vidéo d'ouverture. ⚠️ Asset provisoire (génération Higgsfield) — à remplacer
 // dès qu'on a une captation du produit réel.
@@ -50,7 +48,6 @@ function isValidEmail(e: string) {
 export default function App() {
   const [email, setEmail] = useState('')
   const [formState, setFormState] = useState<FormState>('idle')
-  const [cristaux, setCristaux] = useState(MIN_CRISTAUX)
 
   const pageStart = useRef(Date.now())
   const scroll50 = useRef(false)
@@ -151,7 +148,6 @@ export default function App() {
     setFormState('success')
   }
 
-  const precommandeHref = `${STRIPE_PRECOMMANDE_URL}?quantity=${cristaux}`
   const reduced = typeof window !== 'undefined'
     && window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
@@ -284,7 +280,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* ══ RESTER EN CONTACT — la précommande en second rideau ══ */}
+        {/* ══ RESTER EN CONTACT — l'avis en second rideau ══ */}
         <section className="v-section" id="contact" aria-labelledby="contact-title">
           <div className="container container--wide reveal reveal--left">
             <div className="v-split">
@@ -330,36 +326,22 @@ export default function App() {
             )}
             </div>
 
-            {/* Précommande — disponible, volontairement en retrait */}
+            {/* Avis — prend la place de la précommande cristaux, retirée le
+                2026-09-09 (décision Basekou). Ce qu'on attend d'un visiteur
+                aujourd'hui, ce n'est pas qu'il achète : c'est qu'il dise ce
+                qu'il a goûté. */}
             <aside className="v-aside v-split-side">
-              <p className="v-aside-title">Réserver des cristaux de miel</p>
+              <p className="v-aside-title">Tu l’as goûtée ?</p>
               <p>
-                À dissoudre dans un verre d’eau fraîche.
-                1 cristal = {CRISTAL_UNIT_PRICE} €, {MIN_CRISTAUX} minimum.
+                Dis-nous ce que tu en as pensé. Quelques questions, deux
+                minutes. C’est ce qui fait avancer la recette.
               </p>
-              <div className="v-qty">
-                <button
-                  type="button"
-                  onClick={() => setCristaux(c => Math.max(MIN_CRISTAUX, c - 1))}
-                  disabled={cristaux <= MIN_CRISTAUX}
-                  aria-label="Retirer un cristal"
-                >−</button>
-                <span className="v-qty-val">{cristaux} × {CRISTAL_UNIT_PRICE} €</span>
-                <button
-                  type="button"
-                  onClick={() => setCristaux(c => Math.min(MAX_CRISTAUX, c + 1))}
-                  disabled={cristaux >= MAX_CRISTAUX}
-                  aria-label="Ajouter un cristal"
-                >+</button>
-              </div>
               <a
                 className="btn-ghost"
-                href={precommandeHref}
-                onClick={() => trackEvent('precommande_click')}
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/avis"
+                onClick={() => trackEvent('avis_click')}
               >
-                Réserver {cristaux} cristaux — {cristaux * CRISTAL_UNIT_PRICE} €
+                Donner ton avis
               </a>
             </aside>
             </div>
@@ -372,12 +354,6 @@ export default function App() {
         <div className="container reveal">
           <p className="v-footer-brand">lédjé</p>
           <p className="v-footer-tagline">{SIGNATURE}</p>
-          {/* Troisième et dernier accès à la page d'avis — hero, en-tête, ici. */}
-          <p className="v-footer-avis">
-            <a href="/avis" onClick={() => trackEvent('avis_click')}>
-              Tu l’as goûtée ? Donne ton avis
-            </a>
-          </p>
           <p className="v-footer-mail">
             <a href="mailto:basekou@ledje.fr">basekou@ledje.fr</a>
           </p>

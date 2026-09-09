@@ -347,19 +347,6 @@ img, svg, video { display: block; max-width: 100%; }
 }
 .v-aside-title { font-family: var(--font-title); font-size: 1.15rem; color: var(--ink); margin-bottom: 0.5rem; }
 .v-aside p { font-size: 0.95rem; color: var(--ink-soft); margin-bottom: 1rem; }
-.v-qty { display: flex; align-items: center; gap: 0.9rem; margin-bottom: 1rem; }
-.v-qty button {
-  width: 42px; height: 42px;
-  border-radius: 50%;
-  border: 1.5px solid rgba(20, 61, 43, 0.28);
-  background: var(--surface);
-  color: var(--ink);
-  font-size: 1.25rem;
-  cursor: pointer;
-  line-height: 1;
-}
-.v-qty button:disabled { opacity: 0.4; cursor: not-allowed; }
-.v-qty-val { font-family: var(--font-title); font-size: 1.3rem; color: var(--ink); min-width: 5.5rem; text-align: center; }
 
 /* ── Pied de page ── */
 .v-footer {
@@ -376,20 +363,6 @@ img, svg, video { display: block; max-width: 100%; }
   color: var(--gold-on-green);
   margin-bottom: 1.8rem;
 }
-/* Dernier accès à la page d'avis. Traité en lien souligné et non en bouton :
-   au pied de page, un bouton plein referait de la vitrine un tunnel. */
-.v-footer-avis { margin-bottom: 1.4rem; }
-.v-footer-avis a {
-  color: var(--gold-on-green);
-  font-size: 1rem;
-  text-decoration: underline;
-  text-underline-offset: 0.28em;
-  text-decoration-thickness: 1px;
-  text-decoration-color: rgba(232, 182, 92, 0.45);
-  transition: text-decoration-color 0.3s ease;
-}
-.v-footer-avis a:hover { text-decoration-color: var(--gold-on-green); }
-
 .v-footer-mail { margin-bottom: 1.5rem; }
 .v-footer-mail a { color: var(--surface); font-size: 0.98rem; }
 .v-footer-legal { font-size: 0.8rem; color: rgba(244,235,218,0.7); line-height: 1.6; }
