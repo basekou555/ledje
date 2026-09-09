@@ -183,7 +183,6 @@ export default function App() {
               >
                 Donner ton avis
               </a>
-              <span className="v-hero-meta">Miel français · 33 cl</span>
             </div>
           </div>
           <div className="v-hero-cue v-fade v-fade-4" aria-hidden="true" />

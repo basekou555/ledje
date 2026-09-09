@@ -539,7 +539,6 @@ img, svg, video { display: block; max-width: 100%; }
 .v-hero-cue { display: none; }
 
 /* Métadonnée à côté du bouton (desktop seulement) */
-.v-hero-meta { display: none; }
 
 .v-split { display: flex; flex-direction: column; gap: 2rem; }
 
@@ -575,14 +574,6 @@ img, svg, video { display: block; max-width: 100%; }
     margin-bottom: 1.8rem;
   }
   .v-hero-actions { justify-content: flex-start; align-items: center; gap: 1.4rem; }
-  .v-hero-meta {
-    display: inline-block;
-    font-size: 0.8rem;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    font-weight: 500;
-  }
   .v-hero-cue {
     display: block;
     position: absolute;
