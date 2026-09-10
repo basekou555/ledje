@@ -1,9 +1,9 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-07-24
-source: "Validé par Basekou en session 2026-07-24 (+ compléments même jour : garde-fous métier, council-context protégé) — remplace la Partie 9 (@update) du SOT archivé"
-resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, rituels de session (page relais Notion, resynchro Project Knowledge), tri de l'inbox."
+maj: 2026-09-10
+source: "Validé par Basekou en session 2026-07-24 (+ compléments même jour : garde-fous métier, council-context protégé) — remplace la Partie 9 (@update) du SOT archivé ; section 6 ajoutée le 2026-09-10 sur demande explicite de Basekou (captation, tri, péremption, relance des attentes dormantes)"
+resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, rituels de session (page relais Notion, resynchro Project Knowledge), tri de l'inbox. ➕ Section 6 (10/09) — les 4 règles de vie de l'information : R1 tout fait déclaré entre le jour même · R2 critère de ce qui entre (est-ce que ça change l'état ?) + garde-fou de clôture · R3 péremption, le relais porte l'ÉTAT et non son histoire, purge à chaque revue de semaine · R4 la session INTERROGE les attentes dormantes (114 marqueurs au 10/09) pour qu'un oubli ne se referme pas en silence."
 ---
 
 # Workflow de mise à jour du cerveau
@@ -51,3 +51,57 @@ resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, ritu
 ## 5. Tri de l'inbox
 
 Sur demande (« trie l'inbox ») ou quand une session touche un domaine ayant des captures en attente : chaque capture est dispatchée vers ses fiches (mise à jour chirurgicale), puis supprimée. Une capture non triable reste, avec la raison notée dedans.
+
+## 6. Ce qui entre, ce qui sort, ce qui se demande *(posé le 2026-09-10, sur demande explicite de Basekou)*
+
+Ces quatre règles répondent à un constat de séance : **le SOT peut être rigoureux et faux en même temps**, parce que l'information ne l'atteint pas, ou qu'elle y stagne. Deux cas vécus en trois jours — la commande à Joan (08/09) et son taux d'humidité (10/09) — ont été portés par Basekou pendant que les fiches écrivaient le contraire.
+
+### R1 — Tout FAIT déclaré en séance entre au SOT le jour même
+
+**Un fait, un chiffre, une action réalisée : dès que Basekou l'énonce, il est consigné.** La règle ne se limite pas aux données fournisseur : elle couvre tout ce qui change l'état — un prix, une date, un contact, un envoi, un retrait, un refus, une mesure.
+
+**Le test** : *une fois la séance finie, est-ce que cette information se retrouve sans Basekou ?* Si non, elle n'est pas consignée.
+
+⚠️ **Une donnée qui transite par une surface non reliée** (boîte `basekou@ledje.fr`, appel, conversation) **n'atteint le SOT que si quelqu'un l'y dépose.** Une session qui reçoit une telle donnée et ne la dépose pas la fait disparaître.
+
+### R2 — Le critère de ce qui entre : *est-ce que ça change l'état ?*
+
+| Entre | N'entre pas |
+|---|---|
+| Un fait nouveau, un chiffre, une décision | Le **trajet** vers une décision *(règle du 31/08)* |
+| Un blocage qui apparaît ou se lève | Une intention déjà consignée, re-énoncée |
+| Une valeur qui en remplace une autre | Une reformulation de ce que la fiche dit déjà |
+| Une contradiction repérée | Un rappel d'un sujet explicitement mis en sommeil |
+
+**Les deux fautes symétriques, à surveiller également** : ① **réécrire ce qui est déjà écrit** — un sujet reposé pour la dixième fois encombre et fait perdre confiance ; ② **laisser passer un fait important** parce qu'il est arrivé au détour d'une phrase. La seconde coûte plus cher que la première.
+
+**Garde-fou de clôture** : avant de clore, **relire les réponses terrain une par une** et vérifier que chacune a produit soit une ligne au journal, soit une décision explicite de ne rien écrire. Aucune réponse ne se perd en route.
+
+### R3 — Péremption : une ligne de relais porte l'ÉTAT COURANT, pas son histoire
+
+**Constat du 10/09 : les cellules de la page relais Notion accumulent depuis juillet** — certaines portent vingt entrées datées à la suite. Elles deviennent illisibles, et **une information périmée y côtoie l'information vraie sans qu'on puisse les distinguer.**
+
+**La règle** : la page relais est un **état**, pas un journal. L'historique a déjà son lieu — `decisions-log.md`, append-only, qui est fait pour ça.
+
+Donc, à chaque passage sur une ligne de relais :
+1. **Dire ce qui remplace quoi.** Une valeur nouvelle ne s'ajoute pas à côté de l'ancienne : elle la remplace, et la mention « remplace X du {date} » suffit à garder la trace.
+2. **Ne garder que l'état courant + les 2 ou 3 derniers mouvements.** Le reste est déjà au journal des décisions ; il en sort.
+3. **Un sujet clos passe en ✅ avec sa décision, et sa ligne se raccourcit** — elle n'a plus à porter son instruction.
+4. **Purge de la page relais : à chaque revue de semaine.** C'est le moment où l'on sait ce qui a bougé.
+
+⚠️ **Le journal des décisions ne se purge JAMAIS** — il est append-only. C'est précisément parce qu'il garde tout que le relais peut se permettre d'oublier.
+
+### R4 — La session INTERROGE les attentes dormantes
+
+**Le problème** : si Basekou oublie une information et que le SOT ne l'a pas, **personne ne la tient à jour** — et ce qu'elle ouvrait se referme sans que quiconque le décide. Ce sont des opportunités perdues par silence, pas par arbitrage.
+
+**La règle** : une session ne se contente pas d'enregistrer ce qu'on lui donne, **elle va chercher ce qui n'est pas revenu.**
+
+Concrètement, à l'ouverture :
+- Le SOT porte des **marqueurs d'attente** — `à confirmer`, `en attente`, `à compléter`, `à trancher`, `non déterminé`, `à vérifier`. **Ils étaient 114 au 2026-09-10.**
+- La session en **relève ceux qui n'ont pas bougé depuis longtemps** et en pose **un ou deux** dans la question terrain — pas la liste, **les plus vieux et les plus coûteux**.
+- La question se formule **en fait, pas en reproche** : « la fiche dit *X en attente depuis le {date}* — est-ce que ça a bougé, ou est-ce qu'on le ferme ? »
+
+**Trois issues, toutes acceptables** : l'information arrive et s'écrit · le sujet se ferme explicitement et sort du stock · il reste ouvert et on note qu'il a été revu.
+
+⚠️ **Ce qui n'est pas acceptable, c'est qu'il reste là sans que personne ne le regarde.** Un marqueur d'attente jamais rouvert n'est pas une attente : c'est un oubli qui a l'air d'un suivi.
