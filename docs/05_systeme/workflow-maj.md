@@ -1,9 +1,9 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-07-24
-source: "Validé par Basekou en session 2026-07-24 (+ compléments même jour : garde-fous métier, council-context protégé) — remplace la Partie 9 (@update) du SOT archivé"
-resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, rituels de session (page relais Notion, resynchro Project Knowledge), tri de l'inbox."
+maj: 2026-09-10
+source: "Validé par Basekou en session 2026-07-24 (+ compléments même jour : garde-fous métier, council-context protégé) — remplace la Partie 9 (@update) du SOT archivé ; section 6 ajoutée le 2026-09-10 sur demande explicite de Basekou (captation, tri, péremption, relance des attentes dormantes)"
+resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, rituels de session (page relais Notion, resynchro Project Knowledge), tri de l'inbox. ➕ Section 6 (10/09) — les règles de vie de l'information. R0 LE DIGEST lit TOUT le relais, ligne par ligne, jusqu'au bout des cellules longues — c'est sa charge (règle de Basekou, 10/09) ; R1 tout fait déclaré entre le jour même · R2 critère de ce qui entre (est-ce que ça change l'état ?) + garde-fou de clôture · R3 péremption, le relais porte l'ÉTAT et non son histoire, purge à chaque revue de semaine · R4 la session INTERROGE les attentes dormantes (114 marqueurs au 10/09) pour qu'un oubli ne se referme pas en silence. ⚠️ Diagnostic corrigé en séance : les sessions déposaient bien, c'est LE DIGEST qui n'a pas lu le relais — devenu illisible (une cellule de 21 261 caractères)."
 ---
 
 # Workflow de mise à jour du cerveau
@@ -32,6 +32,7 @@ resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, ritu
 2. **Consulter la page relais Notion** — l'état chaud de la semaine, qui peut être en avance sur les fiches : https://app.notion.com/p/39e4bc5926a88163b425c0607514a3b6
 3. Ouvrir uniquement les fiches du domaine concerné, choisies via les `resume` des index. Ne jamais charger tout le cerveau.
 4. Sync check git : repartir d'`origin/main` à jour avant toute écriture.
+5. ⚠️ **Angles morts de vérification, à connaître avant d'affirmer « aucune trace »** *(consignés le 2026-09-10)* : la boîte **`basekou@ledje.fr` (Zoho)** n'est reliée à aucun outil — tout échange fournisseur qui y passe est **déclaré**, jamais constaté. Et depuis le **08/09**, le connecteur **Google Drive pointe sur `basekou.diaby.pro@gmail.com`** : **l'ancien dossier « Lédjé » (Fournisseur, Admin, Com, dossier litige, devis) reste sur `basekou555` et n'est visible que s'il a été partagé.** Une absence de trace dans l'un de ces deux endroits ne prouve rien.
 
 ### Clôture
 1. Toute info nouvelle apprise en session → mise à jour **chirurgicale** de la fiche concernée (`maj` + `statut` ajustés) ; si pas triable à chaud → capture datée dans `00_inbox/`.
@@ -51,3 +52,72 @@ resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, ritu
 ## 5. Tri de l'inbox
 
 Sur demande (« trie l'inbox ») ou quand une session touche un domaine ayant des captures en attente : chaque capture est dispatchée vers ses fiches (mise à jour chirurgicale), puis supprimée. Une capture non triable reste, avec la raison notée dedans.
+
+## 6. Ce qui entre, ce qui sort, ce qui se demande *(posé le 2026-09-10, sur demande explicite de Basekou)*
+
+Ces règles répondent à un constat de séance : **le SOT peut être rigoureux et faux en même temps**, parce que l'information ne l'atteint pas, ou qu'elle y stagne.
+
+⚠️ **DIAGNOSTIC CORRIGÉ EN SÉANCE LE 2026-09-10, par Basekou — et il déplace la faute.** La première version de cette section mettait en cause la **transmission** par les sessions. **C'est faux : les sessions avaient fait leur travail.** Vérifié en séance : la page relais portait, daté et sourcé, ce que les fiches ignoraient — la conversion en g/100 mL **déjà faite le 07/09 par une session COO** sur la densité de Joan, la composition exacte de la commande de miel, et une question ouverte sur le QUID. **Rien de tout cela n'a été inventé ni perdu par elles.**
+
+**Le maillon qui a cédé est en aval, et Basekou le situe précisément : LE DIGEST.** Il n'a pas relayé ce que le relais portait. *(La session du 10/09 ne l'avait pas lu non plus — mais elle travaille sur le digest, c'est le circuit prévu.)*
+
+🔗 **Cause mécanique : le relais est devenu illisible.** Au 10/09, une seule cellule portait **21 261 caractères** et cinq lignes concentraient **37 % de la page**. **Une cellule que personne ne peut parcourir n'est pas relayée.** **La règle R3 n'est donc pas du ménage : c'est ce qui rend le digest capable de faire son travail.**
+
+➡️ **R0 — LE DIGEST LIT TOUT LE RELAIS, ligne par ligne, cellules longues comprises.** *(Règle posée par Basekou le 2026-09-10.)* C'est **sa** charge, pas celle de la séance : le digest est le point où le relais devient exploitable.
+
+**Ce que « lire tout » veut dire, concrètement** :
+- **Descendre jusqu'au bout de chaque cellule.** L'information fraîche est **à la fin**, pas au début — les entrées s'ajoutent chronologiquement. Un digest qui ne lit que le haut d'une cellule lit son historique et rate son état.
+- **Repérer ce qui n'est pas encore descendu en fiche.** Une donnée présente au relais et absente de `docs/` est **un sujet**, pas un détail — c'est exactement ce qui s'est produit avec la conversion du 07/09.
+- **Relever les questions posées et restées sans réponse.** Le QUID 8 % / 8,5 % était ouvert depuis le 07/09 au relais, et n'a jamais été posé à Basekou.
+
+⚠️ **Et le corollaire pour la séance** : quand le digest et le terrain divergent, **le relais fait foi** — il est la source chaude, le digest en est un dérivé daté. L'écart se signale au lieu d'être absorbé en silence.
+
+### R1 — Tout FAIT déclaré en séance entre au SOT le jour même
+
+**Un fait, un chiffre, une action réalisée : dès que Basekou l'énonce, il est consigné** — au relais ET dans la fiche concernée. La règle ne se limite pas aux données fournisseur : elle couvre tout ce qui change l'état — un prix, une date, un contact, un envoi, un retrait, un refus, une mesure. *(⚠️ Déposer au relais NE SUFFIT PAS : le cas du 07/09 montre qu'une donnée peut y vivre trois jours sans jamais descendre en fiche. **Le relais est un point de passage, pas une destination.**)*
+
+**Le test** : *une fois la séance finie, est-ce que cette information se retrouve sans Basekou ?* Si non, elle n'est pas consignée.
+
+⚠️ **Une donnée qui transite par une surface non reliée** (boîte `basekou@ledje.fr`, appel, conversation) **n'atteint le SOT que si quelqu'un l'y dépose.** Une session qui reçoit une telle donnée et ne la dépose pas la fait disparaître.
+
+### R2 — Le critère de ce qui entre : *est-ce que ça change l'état ?*
+
+| Entre | N'entre pas |
+|---|---|
+| Un fait nouveau, un chiffre, une décision | Le **trajet** vers une décision *(règle du 31/08)* |
+| Un blocage qui apparaît ou se lève | Une intention déjà consignée, re-énoncée |
+| Une valeur qui en remplace une autre | Une reformulation de ce que la fiche dit déjà |
+| Une contradiction repérée | Un rappel d'un sujet explicitement mis en sommeil |
+
+**Les deux fautes symétriques, à surveiller également** : ① **réécrire ce qui est déjà écrit** — un sujet reposé pour la dixième fois encombre et fait perdre confiance ; ② **laisser passer un fait important** parce qu'il est arrivé au détour d'une phrase. La seconde coûte plus cher que la première.
+
+**Garde-fou de clôture** : avant de clore, **relire les réponses terrain une par une** et vérifier que chacune a produit soit une ligne au journal, soit une décision explicite de ne rien écrire. Aucune réponse ne se perd en route.
+
+### R3 — Péremption : une ligne de relais porte l'ÉTAT COURANT, pas son histoire
+
+**Constat du 10/09 : les cellules de la page relais Notion accumulent depuis juillet** — certaines portent vingt entrées datées à la suite. Elles deviennent illisibles, et **une information périmée y côtoie l'information vraie sans qu'on puisse les distinguer.**
+
+**La règle** : la page relais est un **état**, pas un journal. L'historique a déjà son lieu — `decisions-log.md`, append-only, qui est fait pour ça.
+
+Donc, à chaque passage sur une ligne de relais :
+1. **Dire ce qui remplace quoi.** Une valeur nouvelle ne s'ajoute pas à côté de l'ancienne : elle la remplace, et la mention « remplace X du {date} » suffit à garder la trace.
+2. **Ne garder que l'état courant + les 2 ou 3 derniers mouvements.** Le reste est déjà au journal des décisions ; il en sort.
+3. **Un sujet clos passe en ✅ avec sa décision, et sa ligne se raccourcit** — elle n'a plus à porter son instruction.
+4. **Purge de la page relais : à chaque revue de semaine.** C'est le moment où l'on sait ce qui a bougé.
+
+⚠️ **Le journal des décisions ne se purge JAMAIS** — il est append-only. C'est précisément parce qu'il garde tout que le relais peut se permettre d'oublier.
+
+### R4 — La session INTERROGE les attentes dormantes
+
+**Le problème** : si Basekou oublie une information et que le SOT ne l'a pas, **personne ne la tient à jour** — et ce qu'elle ouvrait se referme sans que quiconque le décide. Ce sont des opportunités perdues par silence, pas par arbitrage.
+
+**La règle** : une session ne se contente pas d'enregistrer ce qu'on lui donne, **elle va chercher ce qui n'est pas revenu.**
+
+Concrètement, à l'ouverture :
+- Le SOT porte des **marqueurs d'attente** — `à confirmer`, `en attente`, `à compléter`, `à trancher`, `non déterminé`, `à vérifier`. **Ils étaient 114 au 2026-09-10.**
+- La session en **relève ceux qui n'ont pas bougé depuis longtemps** et en pose **un ou deux** dans la question terrain — pas la liste, **les plus vieux et les plus coûteux**.
+- La question se formule **en fait, pas en reproche** : « la fiche dit *X en attente depuis le {date}* — est-ce que ça a bougé, ou est-ce qu'on le ferme ? »
+
+**Trois issues, toutes acceptables** : l'information arrive et s'écrit · le sujet se ferme explicitement et sort du stock · il reste ouvert et on note qu'il a été revu.
+
+⚠️ **Ce qui n'est pas acceptable, c'est qu'il reste là sans que personne ne le regarde.** Un marqueur d'attente jamais rouvert n'est pas une attente : c'est un oubli qui a l'air d'un suivi.
