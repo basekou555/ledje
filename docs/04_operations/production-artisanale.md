@@ -14,7 +14,7 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 
 1. **Tester la recette** en conditions réelles (goût, dosage, critère « jamais la gorge sèche »).
 2. **Collecter des retours réels de testeurs** — principe Francesco : *chaque contact produit laisse une trace* (QR code, email, papier — peu importe le support, l'essentiel est la trace).
-3. **Vendre en LOTS aux mosquées** (B2B2C, jamais du détail individuel sur stand) — détail : `../03_marche/canal-mosquee.md` ; canal restaurant en test : `../03_marche/canal-restaurant.md`.
+3. **Vendre en LOTS aux mosquées** — ⚠️ **modèle corrigé le 2026-09-10 : C2B2C, pas B2B2C** *(cette fiche portait « B2B2C » alors que la bascule en C2B2C est datée du 21/07 dans `../03_marche/canal-mosquee.md` — les mosquées n'achètent pas, c'est un fidèle qui offre un lot à la sienne ; écart signalé au relais par une session Cowork le 08/09, jamais corrigé jusqu'ici)*. **Jamais du détail individuel sur stand** — détail : `../03_marche/canal-mosquee.md` ; canal restaurant en test : `../03_marche/canal-restaurant.md`.
 4. **Identifier les volumes de consommation par mosquée** → construire la courbe jusqu'aux volumes justifiant l'usine.
 5. **Autofinancer la première production industrielle** si la phase est rentable.
 6. **Travailler le branding** sur le terrain (option légère : carafe + verres logotés en événement si bouteilles personnalisées trop chères).

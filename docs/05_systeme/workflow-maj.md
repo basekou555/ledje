@@ -32,6 +32,7 @@ resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, ritu
 2. **Consulter la page relais Notion** — l'état chaud de la semaine, qui peut être en avance sur les fiches : https://app.notion.com/p/39e4bc5926a88163b425c0607514a3b6
 3. Ouvrir uniquement les fiches du domaine concerné, choisies via les `resume` des index. Ne jamais charger tout le cerveau.
 4. Sync check git : repartir d'`origin/main` à jour avant toute écriture.
+5. ⚠️ **Angles morts de vérification, à connaître avant d'affirmer « aucune trace »** *(consignés le 2026-09-10)* : la boîte **`basekou@ledje.fr` (Zoho)** n'est reliée à aucun outil — tout échange fournisseur qui y passe est **déclaré**, jamais constaté. Et depuis le **08/09**, le connecteur **Google Drive pointe sur `basekou.diaby.pro@gmail.com`** : **l'ancien dossier « Lédjé » (Fournisseur, Admin, Com, dossier litige, devis) reste sur `basekou555` et n'est visible que s'il a été partagé.** Une absence de trace dans l'un de ces deux endroits ne prouve rien.
 
 ### Clôture
 1. Toute info nouvelle apprise en session → mise à jour **chirurgicale** de la fiche concernée (`maj` + `statut` ajustés) ; si pas triable à chaud → capture datée dans `00_inbox/`.
