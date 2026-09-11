@@ -18,15 +18,53 @@ Non-negotiable (jamais d'exception)
 
 ```
 Bottle — l'eau miellée 33 cl (LE PRODUIT DE LANCEMENT, fabriqué et vendu aujourd'hui)
-  Material: PET transparent
+  Material: rPET transparent (PET RECYCLÉ) — modèle « Melka », fabricant Firplast
   Capacity: 33 cl
-  Shape: Slim, straight cylinder, short neck
-  Cap: Brushed gold
+  Shape: ⚠️ CORRIGÉ le 2026-09-11 (@update Basekou) — l'ancienne spec disait
+         « slim, straight cylinder », soit une bouteille LISSE. **La bouteille
+         réelle est STRIÉE** : cannelures verticales régulières sur le corps,
+         qui accrochent la lumière rasante. Col court, épaulement doux.
+         📐 Dimensions réelles (fiche technique Firplast) : HAUTEUR 146 mm,
+         Ø 65 mm, tour ≈ 204 mm. ⛔ Ne plus utiliser les 183 mm / Ø 60 mm : ils
+         viennent d'un « blueprint » GÉNÉRÉ PAR IA, donc inventés.
+         ➡️ En prompt : dire les cannelures explicitement. Un générateur laissé
+         libre rend un flacon lisse — ce n'est pas notre bouteille.
+         💡 Les stries ne sont pas un détail à subir : sous `LIGHT-02`
+         (rasante), elles créent des verticales brillantes régulières que la
+         bouteille lisse n'a pas. C'est une matière à exploiter.
+  Cap: BLACK, matte, screw cap — ⚠️ CORRIGÉ le 2026-09-11 (@update Basekou).
+       L'ancienne spec « brushed gold » décrivait une bouteille qui n'a jamais
+       existé. Source : devis Firplast DEV019286 du 04/09 (Melka rPET striée,
+       BOUCHON NOIR) — bouteilles EN MAIN depuis le 07/09. Confirmé par les
+       10 générations validées du 11/09, qui portent toutes un bouchon noir.
+       ⛔ Ne plus jamais écrire « or » / « gold » pour le bouchon.
   Label: ⚠️ NOT SETTLED — l'identité visuelle est rouverte. NE JAMAIS spécifier de
-         police dans un prompt. Le texte de l'étiquette reste SUGGÉRÉ, jamais rendu
-         lisible (l'IA le rend en lettres aléatoires — constat de production).
-         Seul élément acquis : le fond émeraude.
-  Liquid: Pale golden amber, near-transparent — reads as fresh water first, never a thick juice
+         police dans un prompt (le wordmark est un logotype sur-mesure : aucune
+         police nommable ne le reproduit).
+         ✅ RÈGLE DU FLOU RETIRÉE (Basekou, 2026-09-11) — « le texte de l'étiquette
+         reste suggéré, jamais rendu lisible » ne s'applique plus. Ses deux motifs
+         sont tombés : l'identité est tranchée (v1.2 au tirage, 240 exemplaires) et
+         les modèles rendent désormais l'étiquette lisiblement et correctement (le
+         constat du 14/08 « lettres aléatoires » est caduc). Le flou produisait en
+         outre l'effet inverse de celui recherché : étiquette floue sur bouteille
+         nette = lecture « maquette », pas « photo ».
+         ➡️ Méthode recommandée : fournir la bouteille détourée en IMAGE DE
+         RÉFÉRENCE plutôt que de décrire l'étiquette.
+         ⚠️ CORRIGÉ le 2026-09-11 (@update Basekou) — l'ancienne ligne disait
+         « seul élément acquis : le fond émeraude ». C'est FAUX : l'étiquette
+         réelle (v1.2, 210 × 50 mm, au tirage chez Printoclock) est sur FOND
+         CRÈME, wordmark vert Lédjé, point orange sur le « j ». ⛔ Ne plus
+         jamais décrire un fond émeraude sur l'étiquette. L'émeraude reste la
+         couleur de marque, mais elle vit dans le wordmark, pas dans le fond.
+         📏 La bande fait 50 mm de haut sur une bouteille de 146 mm, soit un
+         peu plus du TIERS de sa hauteur, dans sa moitié basse.
+  Liquid: Ambre doré pâle, lumineux et translucide, que la lumière traverse
+          facilement — plus proche d'une EAU LÉGÈREMENT MIELLÉE que d'un thé
+          glacé. Jamais un jus épais, jamais un ambre foncé.
+          ⚠️ REFORMULÉ le 2026-09-11 (@update Basekou) : l'ancienne rédaction
+          « reads as fresh water first » était plus faible et se faisait
+          ignorer. Celle-ci est la formulation VALIDÉE À LA PRODUCTION —
+          vérifiée hors bouteille (dans le verre) sur le plan A du 11/09.
   Status: produit RÉEL de la phase artisanale (canal restaurant). ⚠️ La réserve
           « phase 2 » porte sur la VENTE EN LIGNE uniquement — le site la met en
           scène mais ne la vend pas (contrainte logistique). Ce n'est pas une

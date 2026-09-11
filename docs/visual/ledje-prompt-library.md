@@ -28,7 +28,7 @@ Quand Basekou demande de compiler un shot :
 | SUJ-01 | Le cristal de miel | Le cristal de miel comme héros : forme géométrique simple, ambre chaud. | cristal | CAM-02 macro, MAT-03 |
 | SUJ-02 | L'eau / le verre | Le verre d'eau, le rituel prêt ou en cours — l'eau comme héros (pureté, transparence, quotidien). | cristal | selon décor lifestyle |
 | SUJ-03 | La rencontre | Miel + eau ensemble, le cœur du récit : le moment de la dissolution. | cristal | CAM-02 macro, ACT-02, MAT-03 |
-| SUJ-04 | La bouteille | La bouteille prête-à-boire, **rendue comme un vrai produit fini** (photographie produit crédible, jamais un mockup / render 3D / concept). Spec verrouillée dans master-prompt. Note d’usage (pas une contrainte visuelle) : la bouteille n’est pas vendue en ligne (contrainte logistique) — c’est l’usage/copy qui l’encadre, pas l’apparence de l’image. Elle est le produit de lancement réel. | bottle | — |
+| SUJ-04 | La bouteille | La bouteille prête-à-boire, **rendue comme un vrai produit fini** (photographie produit crédible, jamais un mockup / render 3D / concept). ⚠️ **À DIRE DANS CHAQUE PROMPT, sinon le modèle l'ignore** : corps **STRIÉ** (cannelures verticales), **bouchon NOIR mat**, **étiquette fond CRÈME** faisant **un tiers de la hauteur**, dans sa moitié basse. Laissé libre, un générateur rend un flacon lisse à bouchon clair — ce n'est pas notre bouteille. 💡 Sous `LIGHT-02` rasante, les stries donnent des verticales brillantes régulières : c'est une matière à exploiter, pas un défaut. Spec complète dans master-prompt. Note d’usage (pas une contrainte visuelle) : la bouteille n’est pas vendue en ligne (contrainte logistique) — c’est l’usage/copy qui l’encadre, pas l’apparence de l’image. Elle est le produit de lancement réel. | bottle | — |
 | SUJ-05 | Le packaging | L'objet commercial (packaging/coffret/étiquette). | pack | DEC-00, COMP-03, pas d'ACT/EMO |
 
 Notation dans une Recette : en tête, ex. `SUJ-03 / DEC-00 / CAM-02 / ...`.
@@ -47,6 +47,7 @@ Chaque décor est un "set" fixe — les mêmes objets, le même monde, à chaque
 | DEC-02 | Bureau | Bureau en bois clair ou pierre. Ordinateur portable fermé ou entrouvert, un carnet en papier texturé, un verre d'eau, éventuellement des lunettes. Jamais de désordre, jamais une scène de productivité extrême. |
 | DEC-03 | Extérieur urbain | Parc urbain, terrasse ou quai. Béton visible en fond, discret. Verdure minimale, jamais une nature idéalisée. Un banc ou une table basse en pierre. |
 | DEC-04 | Lieu de vie | Salon ou balcon. Table basse en bois ou pierre, fauteuil en lin/coton, éventuellement une bibliothèque discrète et floutée en fond. |
+| DEC-05 | Travertin & fenêtre | Plan de travertin clair devant un mur d'enduit blanc cassé et chaud. La lumière de fin d'après-midi entre en rasant par un côté et projette l'**ombre nette et graphique d'un cadre de fenêtre** sur le mur et sur le sujet : un côté du cadre tombe dans l'ombre profonde, l'autre est lumineux. Aucun mobilier, aucun prop. ✅ **Décor validé à la production le 2026-09-11** (plan A « la main qui verse », cf. `ledje-asset-log.md`) — c'est la lumière directionnelle qui fait tout le travail. |
 
 ---
 
