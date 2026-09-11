@@ -58,9 +58,11 @@ La sortie est un prompt autonome, structuré
 
 **Langue (règle Basekou, 2026-09-11)** : **français par défaut** — c'est la langue des tests et des outils
 réellement utilisés au quotidien (**ChatGPT Image, Gemini**, essais gratuits). **L'anglais est réservé à
-Higgsfield.** Sur ChatGPT/Gemini, **pas de bloc NEGATIVE** : ces modèles n'ont pas de champ dédié, la liste
-part dans le texte et nommer un objet à exclure risque de le convoquer — on formule en **positif**, et au
-besoin une seule ligne courte.
+Higgsfield.**
+
+⚠️ **Le bloc NEGATIVE se met toujours**, quels que soient la langue et l'outil. C'est lui qui porte les
+interdits non négociables — yeux visibles, symbole religieux, allégation santé, matières interdites. Il ne
+s'abrège pas et ne s'omet pas.
 
 *(Le schéma technique réel de l'outil — paramètres, modèles, variantes, références produit, préchiffrage
 des crédits — et la formule vidéo sont dans [`ledje-generateur.md`](ledje-generateur.md).)*

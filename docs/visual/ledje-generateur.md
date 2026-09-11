@@ -71,7 +71,7 @@ Source : `ledje-master-prompt.md` (invariants) + `contenu-et-pubs.md` (paramètr
 - **Texte** : jamais généré par l'IA — ajouté en CapCut / Canva. Le payoff (signature + lédjé)
   s'ajoute au montage.
 - **Langue** *(règle Basekou, 2026-09-11)* : **français par défaut** — pour les tests et pour **ChatGPT Image / Gemini**, les outils réellement utilisés au quotidien (essais gratuits). **Anglais réservé à Higgsfield.**
-- **Bloc NEGATIVE : Higgsfield uniquement.** ChatGPT et Gemini n'ont pas de champ de negative prompt — la liste part dans le texte et nommer un objet à exclure a autant de chances de le **convoquer**. Sur ces modèles : formuler en positif, et au besoin une seule ligne courte.
+- **Bloc NEGATIVE : toujours, partout.** Quelle que soit la langue, quel que soit l'outil. C'est lui qui porte les interdits non négociables (yeux visibles, symbole religieux, allégation santé, matières interdites) — il ne s'abrège pas et ne s'omet pas. *(Hypothèse écartée le 2026-09-11 : « les négatifs seraient contre-productifs sur ChatGPT/Gemini » — c'est vrai des anciens modèles de diffusion, pas des modèles actuels qui suivent correctement les instructions négatives.)*
 - **Étiquette : la règle du flou est retirée** (2026-09-11). Les modèles rendent désormais l'étiquette lisiblement et correctement ; le flou faisait lire « maquette » au lieu de « photo ». ➡️ Méthode recommandée : **fournir la bouteille détourée en image de référence** plutôt que de décrire l'étiquette — c'est le seul moyen d'obtenir la même étiquette sur toute une série.
 - **Negative prompt standard** : symbole religieux, yeux visibles, texte santé, marque concurrente,
   luxe ostentatoire, matières interdites.
