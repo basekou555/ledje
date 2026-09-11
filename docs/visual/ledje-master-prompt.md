@@ -18,9 +18,20 @@ Non-negotiable (jamais d'exception)
 
 ```
 Bottle — l'eau miellée 33 cl (LE PRODUIT DE LANCEMENT, fabriqué et vendu aujourd'hui)
-  Material: PET transparent
+  Material: rPET transparent (PET RECYCLÉ) — modèle « Melka », fabricant Firplast
   Capacity: 33 cl
-  Shape: Slim, straight cylinder, short neck
+  Shape: ⚠️ CORRIGÉ le 2026-09-11 (@update Basekou) — l'ancienne spec disait
+         « slim, straight cylinder », soit une bouteille LISSE. **La bouteille
+         réelle est STRIÉE** : cannelures verticales régulières sur le corps,
+         qui accrochent la lumière rasante. Col court, épaulement doux.
+         📐 Dimensions réelles (fiche technique Firplast) : HAUTEUR 146 mm,
+         Ø 65 mm, tour ≈ 204 mm. ⛔ Ne plus utiliser les 183 mm / Ø 60 mm : ils
+         viennent d'un « blueprint » GÉNÉRÉ PAR IA, donc inventés.
+         ➡️ En prompt : dire les cannelures explicitement. Un générateur laissé
+         libre rend un flacon lisse — ce n'est pas notre bouteille.
+         💡 Les stries ne sont pas un détail à subir : sous `LIGHT-02`
+         (rasante), elles créent des verticales brillantes régulières que la
+         bouteille lisse n'a pas. C'est une matière à exploiter.
   Cap: BLACK, matte, screw cap — ⚠️ CORRIGÉ le 2026-09-11 (@update Basekou).
        L'ancienne spec « brushed gold » décrivait une bouteille qui n'a jamais
        existé. Source : devis Firplast DEV019286 du 04/09 (Melka rPET striée,
