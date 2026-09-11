@@ -47,6 +47,7 @@ Chaque décor est un "set" fixe — les mêmes objets, le même monde, à chaque
 | DEC-02 | Bureau | Bureau en bois clair ou pierre. Ordinateur portable fermé ou entrouvert, un carnet en papier texturé, un verre d'eau, éventuellement des lunettes. Jamais de désordre, jamais une scène de productivité extrême. |
 | DEC-03 | Extérieur urbain | Parc urbain, terrasse ou quai. Béton visible en fond, discret. Verdure minimale, jamais une nature idéalisée. Un banc ou une table basse en pierre. |
 | DEC-04 | Lieu de vie | Salon ou balcon. Table basse en bois ou pierre, fauteuil en lin/coton, éventuellement une bibliothèque discrète et floutée en fond. |
+| DEC-05 | Travertin & fenêtre | Plan de travertin clair devant un mur d'enduit blanc cassé et chaud. La lumière de fin d'après-midi entre en rasant par un côté et projette l'**ombre nette et graphique d'un cadre de fenêtre** sur le mur et sur le sujet : un côté du cadre tombe dans l'ombre profonde, l'autre est lumineux. Aucun mobilier, aucun prop. ✅ **Décor validé à la production le 2026-09-11** (plan A « la main qui verse », cf. `ledje-asset-log.md`) — c'est la lumière directionnelle qui fait tout le travail. |
 
 ---
 

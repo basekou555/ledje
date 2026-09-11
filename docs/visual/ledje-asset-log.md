@@ -7,6 +7,7 @@
 | Shot ID | Date | Recette (IDs) | Asset ID (Higgsfield) | Verdict | Ce qui a marché | Ce qui n'a pas marché | À réutiliser / éviter la prochaine fois |
 |---|---|---|---|---|---|---|---|
 | *(exemple)* H01 | — | — | — | — | — | — | — |
+| **Plan A — « la main qui verse »** *(nouveau, à ficher au shot-book)* | 2026-09-11 | `SUJ-04 / DEC-05 / CAM-01 / LIGHT-02 / MAT-01 / COMP-01 / ACT-01 / EMO-01` | — *(hors Higgsfield : ChatGPT Image, essai gratuit)* | ✅ **VALIDÉ** — « le visuel est cool » | **Le mouvement règle l'ennui** : filet en plein vol, main sans visage, verre qui se remplit. **Le liquide éclairci est confirmé** — vu hors de la bouteille dans le verre, il se lit *eau légèrement miellée* et non *thé glacé*. **Le monde DEC-05 tient** (travertin + enduit + ombre de fenêtre rasante). **Un seul bouchon** cette fois : la consigne « goulot nu, un seul bouchon dans l'image » a corrigé le doublon de ChatGPT. | **Le texte de l'étiquette est réinventé** (« van miellée », « 33d », « PET » parasite) — la bouteille détourée n'était pas fournie en référence. **Pas de condensation**, malgré la consigne renforcée. | ✅ **Réutiliser** : le trio mouvement + main sans visage + preuve du liquide hors bouteille ; le monde DEC-05 ; la formule « goulot nu, UN SEUL bouchon ». ⛔ **Éviter** : générer l'étiquette sans fournir le détourage en image de référence. ➡️ **Prochain essai** : même plan avec le détourage attaché. |
 
 ---
 
