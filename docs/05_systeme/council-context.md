@@ -50,9 +50,18 @@ actif dans sa pratique**. Fondateur solo. Jalon visé : **Ramadan 2027**.
 
 ## 2. Où on en est — le fait dominant
 
-🔴 **RIEN N'A JAMAIS ÉTÉ VENDU. Zéro euro encaissé sur le produit**, quatorze
-mois après le début. Aucune bouteille n'a été livrée à un client. Le test
-restaurant, accordé le 18/07, **n'a jamais commencé**.
+🔴 **RIEN N'A JAMAIS ÉTÉ VENDU. Zéro euro encaissé sur le produit.** Aucune
+bouteille n'a été livrée à un client. Le test restaurant, accordé le 18/07,
+**n'a jamais commencé**.
+
+⏱️ **L'ÂGE DU PROJET, vérifié le 2026-09-11** : première décision consignée le
+**28/06/2026**, premier commit le **05/07/2026** — soit **~2,5 mois de trace
+écrite**, et **4 mois au maximum** en comptant ce qui précède le dépôt.
+⚠️ **Une version antérieure de ce socle écrivait « quatorze mois ». C'était
+FAUX, et jamais vérifié.** Le chiffre a coloré deux consultations du conseil :
+« quatorze mois sans vente » se lit comme un échec chronique, **« deux mois et
+demi sans vente » se lit comme un début normal.** Tout jugement porté sur la
+lenteur du projet doit être relu à cette échelle.
 
 Ce qui existe : une recette dont l'assemblage est arrêté mais **pas la dose**,
 240 étiquettes imprimées, des bouteilles en main, une déclaration d'activité
