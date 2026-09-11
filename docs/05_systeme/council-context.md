@@ -1,13 +1,43 @@
-# Dossier d'instruction du conseil — socle permanent Lédjé
+# Dossier d'instruction du conseil — socle Lédjé
 
+> **⚙️ CE FICHIER EST GÉNÉRÉ, PAS ENTRETENU.** *(Décision de Basekou, 2026-09-11.)*
+> Il se **recompile depuis les fiches `docs/` avant chaque consultation**.
+> **S'il porte une date antérieure à aujourd'hui, il est périmé : on le
+> RÉGÉNÈRE, on ne le corrige pas.** Motif : la version précédente a été
+> maintenue à la main, consultée rarement, et s'est retrouvée **fausse sur neuf
+> points pendant 54 jours** — un instantané d'un projet qui bouge vieillit par
+> construction. Le dépôt reste la source ; ceci n'en est qu'une sortie datée.
+>
+> **Généré le : 2026-09-11.**
+>
 > Faits uniquement — c'est-à-dire **des faits, pas des opinions**, et non « tous
 > les faits ». Ce dossier porte ce qui **décide** : ce qui bloque, ce qui n'est
-> pas prouvé, ce qui ne se négocie pas. Le détail vit dans les fiches `docs/`.
-> Fichier protégé : toute mise à jour passe par Basekou.
-> Version : **2026-09-11 (v2)** — *remplace le socle du 19/07, resté 54 jours et
-> faux sur neuf points, puis une v1 du 11/09 jugée exhaustive plutôt
-> qu'essentielle.*
-> ⚠️ **L'artefact « Salle du conseil » doit être régénéré sur cette version.**
+> pas prouvé, ce qui ne se négocie pas.
+
+## ⚖️ Procédure de consultation du conseil
+
+**1. Droit de fouille TOTAL** *(tranché par Basekou le 2026-09-11)*. Un
+conseiller peut lire tout ce dont il a besoin : les fiches `docs/`, le journal
+des décisions, l'historique git, la page relais Notion, le Drive. **Ce socle
+est un point de départ, jamais une limite.**
+
+**2. ⚠️ RAPPEL À INSÉRER DANS LE PROMPT DE CHAQUE CONSEILLER — non
+négociable.** À recopier tel quel :
+
+> *« Tu vas lire des notes écrites par l'équipe, pour l'équipe. Elles portent
+> ses justifications, et ses décisions y sont présentées comme acquises. **Ton
+> travail n'est pas de les reprendre à ton compte : c'est de les regarder du
+> dehors.** Un raisonnement écrit dans ces notes n'est pas une preuve, c'est une
+> position — traite-le comme tel. Ce qu'on attend de toi est précisément ce que
+> ces notes ne peuvent pas contenir. »*
+
+**3. Ce qui se lit mais ne se recopie JAMAIS** : le **plancher de prix**, les
+**marges**, les **coûts fournisseurs**. Un conseiller peut les lire pour
+raisonner ; **aucun avis, aucune synthèse et aucun rapport ne les reproduit**
+— ces documents peuvent être partagés, pas eux.
+
+**4. L'artefact « Salle du conseil »** se régénère sur la sortie du jour, pas
+sur une version stockée.
 
 ## 1. Ce que c'est
 
