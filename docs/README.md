@@ -38,7 +38,8 @@ d'une session (ou la copie Project Knowledge Claude) et ces fiches, **les fiches
 - **`CLAUDE.md`** (racine du repo) — le routeur des sessions Claude Code (site / visuel / cerveau).
 - **Notion** — le suivi opérationnel vivant (pipelines sourcing, Mom Test). Les fiches portent
   l'état durable et les décisions ; Notion porte le quotidien.
-  Page relais : https://app.notion.com/p/39e4bc5926a88163b425c0607514a3b6
+  **Page ÉTAT** (l'état courant, 20 lignes, 4 000 caractères plafond) : https://app.notion.com/p/3d84bc5926a8811cb601d33c71e39a42
+  ⛔ *L'ancienne page relais est GELÉE depuis le 2026-09-11 — on la lit, on n'y écrit plus : https://app.notion.com/p/39e4bc5926a88163b425c0607514a3b6*
 
 ## Règles qui s'appliquent partout
 

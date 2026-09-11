@@ -16,7 +16,7 @@ resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, No
 | **Higgsfield** | Génération images/vidéos (recraft-v4-1, seedance) |
 | **CapCut** | Montage vidéo, assemblage clips, texte |
 | **Canva** | Texte/typo sur visuels, déclinaisons |
-| **Notion** | Suivi opérationnel structuré façon Wouli (dashboard + bases de données, pas de tableaux plats) : sourcing fournisseurs, entretiens Mom Test. Page relais : https://app.notion.com/p/39e4bc5926a88163b425c0607514a3b6 |
+| **Notion** | Suivi opérationnel structuré façon Wouli (dashboard + bases de données, pas de tableaux plats) : sourcing fournisseurs, entretiens Mom Test. **Page ÉTAT** : https://app.notion.com/p/3d84bc5926a8811cb601d33c71e39a42 — ⛔ ancienne page relais GELÉE le 2026-09-11 : https://app.notion.com/p/39e4bc5926a88163b425c0607514a3b6 |
 | **Supabase / Vercel / OVH** | Back, hosting, domaine |
 
 Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se compile, se déploie ou tourne en tâche planifiée ; Notion pour le suivi opérationnel vivant (statuts, pipelines).**
