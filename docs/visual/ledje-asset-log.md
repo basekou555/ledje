@@ -4,7 +4,9 @@
 
 **Comment l'utiliser** : après chaque génération jugée, ajoute une ligne. La colonne **Recette** reprend les IDs choisis dans `ledje-prompt-library.md` (`DEC-.. / CAM-.. / LIGHT-.. / MAT-.. / COMP-.. / ACT-.. / EMO-..`) — c'est ce qui permet d'identifier vite une combinaison sans avoir à rouvrir le prompt complet. Sois bref — l'objectif est la réutilisation rapide, pas la documentation exhaustive.
 
-| Shot ID | Date | Recette (IDs) | Asset ID (Higgsfield) | Verdict | Ce qui a marché | Ce qui n'a pas marché | À réutiliser / éviter la prochaine fois |
+📎 **La colonne Asset ID prend un ID Drive, jamais un chemin.** Les dossiers du Drive contenu sont des **étapes** (`03_generes` → `04_montages` → `05_publies`) : un fichier y change de dossier au cours de sa vie, donc un chemin casse. L'ID Drive, lui, survit au renommage comme au déplacement. Sans cette colonne remplie, ce fichier enregistre des verdicts mais perd les images. Rangement et nommage : `../04_operations/contenu-drive.md`.
+
+| Shot ID | Date | Recette (IDs) | Asset ID (Drive / Higgsfield) | Verdict | Ce qui a marché | Ce qui n'a pas marché | À réutiliser / éviter la prochaine fois |
 |---|---|---|---|---|---|---|---|
 | *(exemple)* H01 | — | — | — | — | — | — | — |
 | **Plan J — « le plan de situation »** *(proche INV-07)* | 2026-09-11 | `SUJ-04 / DEC-05 / CAM-04 / LIGHT-02 / MAT-01 / COMP-02 / ACT-01 / EMO-03` | — *(ChatGPT/Gemini)* | ✅ **VALIDÉ avec réserve** — « cool, mais l'étiquette est trop grande » | La scène habitée fonctionne (table, chaise, linge, livre, porte de lumière) et **la bouteille n'est pas déformée** cette fois, malgré le plan large. | ⚠️ **DÉFAUT NOUVEAU, distinct de la déformation : l'étiquette est hors proportion.** Le modèle la rend à ≈ la moitié de la hauteur du flacon ; la vraie fait **50 mm sur 183 mm, soit ≈ un quart**. | ✅ **Correctif trouvé, chiffré** : préciser *« la bande d'étiquette fait environ un quart de la hauteur de la bouteille, dans sa moitié basse »*. Contrairement à la déformation, **ce défaut-là se corrige par le prompt**. |
