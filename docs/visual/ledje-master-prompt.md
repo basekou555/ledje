@@ -21,7 +21,12 @@ Bottle — l'eau miellée 33 cl (LE PRODUIT DE LANCEMENT, fabriqué et vendu auj
   Material: PET transparent
   Capacity: 33 cl
   Shape: Slim, straight cylinder, short neck
-  Cap: Brushed gold
+  Cap: BLACK, matte, screw cap — ⚠️ CORRIGÉ le 2026-09-11 (@update Basekou).
+       L'ancienne spec « brushed gold » décrivait une bouteille qui n'a jamais
+       existé. Source : devis Firplast DEV019286 du 04/09 (Melka rPET striée,
+       BOUCHON NOIR) — bouteilles EN MAIN depuis le 07/09. Confirmé par les
+       10 générations validées du 11/09, qui portent toutes un bouchon noir.
+       ⛔ Ne plus jamais écrire « or » / « gold » pour le bouchon.
   Label: ⚠️ NOT SETTLED — l'identité visuelle est rouverte. NE JAMAIS spécifier de
          police dans un prompt (le wordmark est un logotype sur-mesure : aucune
          police nommable ne le reproduit).
@@ -34,8 +39,21 @@ Bottle — l'eau miellée 33 cl (LE PRODUIT DE LANCEMENT, fabriqué et vendu auj
          nette = lecture « maquette », pas « photo ».
          ➡️ Méthode recommandée : fournir la bouteille détourée en IMAGE DE
          RÉFÉRENCE plutôt que de décrire l'étiquette.
-         Seul élément acquis : le fond émeraude.
-  Liquid: Pale golden amber, near-transparent — reads as fresh water first, never a thick juice
+         ⚠️ CORRIGÉ le 2026-09-11 (@update Basekou) — l'ancienne ligne disait
+         « seul élément acquis : le fond émeraude ». C'est FAUX : l'étiquette
+         réelle (v1.2, 210 × 50 mm, au tirage chez Printoclock) est sur FOND
+         CRÈME, wordmark vert Lédjé, point orange sur le « j ». ⛔ Ne plus
+         jamais décrire un fond émeraude sur l'étiquette. L'émeraude reste la
+         couleur de marque, mais elle vit dans le wordmark, pas dans le fond.
+         📏 La bande fait 50 mm de haut sur une bouteille de 146 mm, soit un
+         peu plus du TIERS de sa hauteur, dans sa moitié basse.
+  Liquid: Ambre doré pâle, lumineux et translucide, que la lumière traverse
+          facilement — plus proche d'une EAU LÉGÈREMENT MIELLÉE que d'un thé
+          glacé. Jamais un jus épais, jamais un ambre foncé.
+          ⚠️ REFORMULÉ le 2026-09-11 (@update Basekou) : l'ancienne rédaction
+          « reads as fresh water first » était plus faible et se faisait
+          ignorer. Celle-ci est la formulation VALIDÉE À LA PRODUCTION —
+          vérifiée hors bouteille (dans le verre) sur le plan A du 11/09.
   Status: produit RÉEL de la phase artisanale (canal restaurant). ⚠️ La réserve
           « phase 2 » porte sur la VENTE EN LIGNE uniquement — le site la met en
           scène mais ne la vend pas (contrainte logistique). Ce n'est pas une
