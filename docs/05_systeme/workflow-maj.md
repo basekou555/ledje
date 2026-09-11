@@ -1,9 +1,9 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-09-10
+maj: 2026-09-11
 source: "Validé par Basekou en session 2026-07-24 (+ compléments même jour : garde-fous métier, council-context protégé) — remplace la Partie 9 (@update) du SOT archivé ; section 6 ajoutée le 2026-09-10 sur demande explicite de Basekou (captation, tri, péremption, relance des attentes dormantes)"
-resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, rituels de session (page relais Notion, resynchro Project Knowledge), tri de l'inbox. ➕ Section 6 (10/09) — les règles de vie de l'information. R0 LE DIGEST lit TOUT le relais, ligne par ligne, jusqu'au bout des cellules longues — c'est sa charge (règle de Basekou, 10/09) ; R1 tout fait déclaré entre le jour même · R2 critère de ce qui entre (est-ce que ça change l'état ?) + garde-fou de clôture · R3 péremption, le relais porte l'ÉTAT et non son histoire, purge à chaque revue de semaine · R4 la session INTERROGE les attentes dormantes (114 marqueurs au 10/09) pour qu'un oubli ne se referme pas en silence. ⚠️ Diagnostic corrigé en séance : les sessions déposaient bien, c'est LE DIGEST qui n'a pas lu le relais — devenu illisible (une cellule de 21 261 caractères)."
+resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, rituels de session (page relais Notion, resynchro Project Knowledge), tri de l'inbox. ➕ Section 6 (10/09) — les règles de vie de l'information. R0 LE DIGEST lit TOUT le relais, ligne par ligne, jusqu'au bout des cellules longues — c'est sa charge (règle de Basekou, 10/09) ; R1 tout fait déclaré entre le jour même · R2 critère de ce qui entre (est-ce que ça change l'état ?) + garde-fou de clôture · R3 péremption, le relais porte l'ÉTAT et non son histoire, purge à chaque revue de semaine · R4 la session INTERROGE les attentes dormantes (114 marqueurs au 10/09) pour qu'un oubli ne se referme pas en silence. ➕ R5 (11/09) — LE TEST D'ENTRÉE DU RELAIS : une phrase y entre si elle répond à « où ça en est MAINTENANT » et à rien d'autre (présent → relais · passé → journal · impératif général → ce fichier) ; aucun bloc de clôture de séance au relais, état courant ~800 caractères max. ⚠️ Motif mesuré : le relais a repris +10 977 caractères le lendemain de sa purge, dont 73 % écrits par la session qui venait d'écrire R3 elle-même. ⚠️ Diagnostic corrigé en séance : les sessions déposaient bien, c'est LE DIGEST qui n'a pas lu le relais — devenu illisible (une cellule de 21 261 caractères)."
 ---
 
 # Workflow de mise à jour du cerveau
@@ -121,3 +121,32 @@ Concrètement, à l'ouverture :
 **Trois issues, toutes acceptables** : l'information arrive et s'écrit · le sujet se ferme explicitement et sort du stock · il reste ouvert et on note qu'il a été revu.
 
 ⚠️ **Ce qui n'est pas acceptable, c'est qu'il reste là sans que personne ne le regarde.** Un marqueur d'attente jamais rouvert n'est pas une attente : c'est un oubli qui a l'air d'un suivi.
+
+### R5 — Le test d'entrée du relais : « où ça en est MAINTENANT »
+
+**Le constat, mesuré le 2026-09-11.** La page relais avait été purgée la veille de 214 100 à 171 431 caractères. **Le lendemain elle était à 183 571 — +10 977 en un jour, sur 8 lignes, et aucune ligne n'avait maigri.**
+
+**L'attribution, faite ligne par ligne** : **+2 961 pour une ligne NEUVE** créée par une autre session *(un sujet nouveau occupe légitimement de la place)* — et **+8 000, soit 73 %, écrits par la session de clôture elle-même**, c'est-à-dire par celle qui venait d'écrire la règle R3.
+
+⚠️ **Le pire item, isolé : 2 699 caractères de blocs « CLÔTURE DE SÉANCE »**, empilés l'un sous l'autre. Un compte rendu de séance **existe déjà à deux endroits** — `decisions-log.md` et le relevé Notion. **Il était écrit une troisième fois, dans le seul endroit qui n'est pas fait pour ça.**
+
+**Le diagnostic** : R3 disait « l'état, pas son histoire » — **elle ne nommait qu'un interdit sur deux.** Une cellule de relais se met à gonfler parce qu'on y mélange **trois registres qui ont chacun leur maison** :
+
+| Registre | Exemple | Sa maison |
+|---|---|---|
+| **L'ÉTAT** | « le retrait a lieu le 13/09 » · « l'étiquette au tirage est la v1.2 » | ✅ **le relais** |
+| **L'HISTOIRE** | « la même date fausse est revenue vingt-deux jours plus tard » | `decisions-log.md` |
+| **LA LEÇON / LA RÈGLE** | « une relecture de conformité se fait fiche en main » | **ce fichier** |
+
+**LA RÈGLE — le test tient en une question.** *Une phrase entre au relais si elle répond à **« où ça en est maintenant »**, et à rien d'autre.*
+- Écrite **au présent**, avec sa date.
+- **Au passé** → journal des décisions.
+- **À l'impératif général** → `workflow-maj.md`.
+
+**Deux garde-fous chiffrés**, parce qu'une règle sans budget ne tient pas :
+1. ⛔ **Aucun bloc de clôture de séance dans le relais.** Jamais. Il a déjà deux maisons.
+2. 📏 **L'état courant d'une cellule tient en ~800 caractères.** Au-delà, c'est qu'il contient autre chose que de l'état — relire et trier avant d'écrire.
+
+*(Appliquée à la journée du 11/09, cette règle donnait **≈ +1 500 caractères au lieu de +8 000**.)*
+
+⚠️ **Ce que cet épisode apprend sur les règles elles-mêmes** : R3 a été écrite le 10/09 et enfreinte le 11/09 **par la session qui l'avait écrite**. Une règle qui énonce un principe sans donner de **test applicable phrase par phrase** ne se tient pas au moment d'écrire — parce qu'au moment d'écrire, **tout paraît utile à la prochaine session.** C'est le test, pas le principe, qui fait le travail.
