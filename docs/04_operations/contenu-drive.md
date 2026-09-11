@@ -30,7 +30,7 @@ les types de fichiers.
 | `00_regles/` | **Uniquement des renvois, jamais de décision** (règle de Basekou, inscrite dans le dossier). La décision vit dans ce cerveau. |
 | `01_plans-reels/` | Les rushes tournés / photographiés pour de vrai |
 | `02_voix/` | Les prises son, voix off |
-| `03_generes/` | Ce qui sort d'un générateur (ChatGPT Image, Gemini, Higgsfield…) |
+| `03_generes/` | Ce qui sort d'un générateur (ChatGPT Image, Gemini, Higgsfield…) — contient `shot book/`, voir ci-dessous |
 | `04_montages/` | Les assemblages en cours |
 | `05_publies/` | Ce qui est effectivement sorti |
 
@@ -48,6 +48,46 @@ exactement sur deux dossiers :
 
 C'est ce qui empêche un dossier d'étape de devenir un simple entonnoir : deux de ses portes ne
 s'ouvrent que sur décision de Basekou.
+
+## `03_generes/shot book/` — le territoire de la production visuelle
+
+**Décision de Basekou, 2026-09-11** : *« je ne suis pas convaincu du mélange des deux processus, donc par sécurité on va séparer. »* La production visuelle (ce cerveau, le shot-book, les recettes) reçoit **son propre dossier**, où elle s'organise comme elle veut. **L'autre processus — la chaîne de contenu — vient y piocher ce qui l'intéresse ; il n'y dépose rien.** Le flux est à sens unique.
+
+➡️ **Ce que ça protège** : deux logiques de rangement incompatibles cohabitaient sans le dire. Celle de la chaîne suit **l'avancement** (généré → monté → publié) ; celle du shot-book suit **l'intention de communication**, qui ne bouge jamais. Les mélanger aurait forcé l'une à adopter le vocabulaire de l'autre.
+
+### L'arborescence interne
+
+Elle **copie le shot-book** — six intentions, mêmes noms, même ordre — pour qu'on retrouve une image en pensant comme on pense en le lisant.
+
+| Dossier | Contenu |
+|---|---|
+| `00_matiere/` | La matière première : détourages, éléments à réemployer |
+| `01_attirer/` · `02_expliquer/` · `03_prouver/` · `04_projeter/` · `05_inviter/` · `06_conclure/` | Les plans, **classés par intention** |
+| `09_explorations/` | Ce qui n'est pas un plan du book : essais de décor, planches de marque, pistes écartées |
+| `zz_doublons-a-supprimer/` | Sas de suppression — jamais un lieu de stockage |
+
+### Le nommage ici : **l'ID d'abord**
+
+```
+ATT-05_reposee-sechement_v2-chatgpt_2026-09-11.png
+└─ID─┘ └──── nom du plan ────┘ └─variante─┘ └─date─┘
+```
+
+- **L'ID de shot en tête** : il trie tout seul, et il relie le fichier à sa fiche du shot-book **et** à sa ligne d'asset-log sans aucun index intermédiaire.
+- **La variante** quand un plan a plusieurs versions — `v1-gemini`, `v2-chatgpt` : l'outil est une donnée utile ici, deux outils ne rendent pas le même plan pareil.
+- **Un plan sans ID** prend l'ID **le plus proche** du book, jamais un ID inventé.
+
+### Les mentions en capitales
+
+Elles sont **factuelles, pas des verdicts** — elles décrivent le fichier, elles ne le jugent pas :
+
+| Mention | Ce qu'elle dit |
+|---|---|
+| `_COPIE-BASSE-DEF` | C'est une copie recompressée ; **l'original n'est pas au Drive**. À remplacer dès qu'il est déposé. |
+| `_DONNEES-INVENTEES-NE-PAS-DIFFUSER` | L'image affiche des données que l'IA a fabriquées (valeurs nutritionnelles, dimensions, code-barres). |
+| `_NE-PAS-PUBLIER` | L'image porte un problème de conformité identifié. |
+
+⚠️ **À ne pas confondre avec `_VALIDE` / `_ECARTE`**, qui restent réservés à un verdict de Basekou.
 
 ### Le trajet Higgsfield → Drive est manuel
 
