@@ -1,65 +1,148 @@
-# Dossier d'instruction du conseil — socle permanent Lédjé
+# Dossier d'instruction du conseil — socle Lédjé
 
-> Faits uniquement. Aucune analyse, aucun verdict passé, aucune préférence.
-> Version canonique du socle intégré à l'artefact « Salle du conseil ».
-> Fichier protégé : toute mise à jour passe par Basekou (diff proposé,
-> validation, puis commit + régénération de l'artefact).
-> Version : 2026-07-19.
+> **⚙️ CE FICHIER EST GÉNÉRÉ, PAS ENTRETENU.** *(Décision de Basekou, 2026-09-11.)*
+> Il se **recompile depuis les fiches `docs/` avant chaque consultation**.
+> **S'il porte une date antérieure à aujourd'hui, il est périmé : on le
+> RÉGÉNÈRE, on ne le corrige pas.** Motif : la version précédente a été
+> maintenue à la main, consultée rarement, et s'est retrouvée **fausse sur neuf
+> points pendant 54 jours** — un instantané d'un projet qui bouge vieillit par
+> construction. Le dépôt reste la source ; ceci n'en est qu'une sortie datée.
+>
+> **Généré le : 2026-09-11.**
+>
+> Faits uniquement — c'est-à-dire **des faits, pas des opinions**, et non « tous
+> les faits ». Ce dossier porte ce qui **décide** : ce qui bloque, ce qui n'est
+> pas prouvé, ce qui ne se négocie pas.
 
-**Le produit.** Lédjé est une marque française d'eau miellée : eau + miel,
-aucun autre ingrédient, non chauffé. Deux formes : la bouteille 33cl (PET
-recyclé, bouchon intégré) et le cristal de miel, un miel cristallisé qui se
-dissout dans l'eau froide. Nom commercial de la boisson : « eau miellée » ;
-dénomination légale probable : « boisson au miel » (à confirmer). La dose de
-miel n'est pas figée (tests entre 4 et 6 cuillères à café pour 50cl). Le pH
-et la durée de conservation réelle ne sont pas encore mesurés. Pas de
-fermentation maîtrisée envisagée sans analyse.
+## ⚖️ Procédure de consultation du conseil
 
-**La cible et l'objectif.** Cible principale : la communauté musulmane
-francophone. Jalon visé : Ramadan 2027. 8 entretiens découverte ont été
-menés ; les intentions d'achat exprimées provenaient exclusivement de
-personnes ayant déjà du miel dans leur quotidien. L'eau miellée est une
-boisson de tradition musulmane ; environ 95% de la cible interrogée ne la
-connaissait pas.
+**1. Droit de fouille TOTAL** *(tranché par Basekou le 2026-09-11)*. Un
+conseiller peut lire tout ce dont il a besoin : les fiches `docs/`, le journal
+des décisions, l'historique git, la page relais Notion, le Drive. **Ce socle
+est un point de départ, jamais une limite.**
 
-**La phase actuelle [CONTRAINTE FERME].** Production artisanale dans la
-cuisine du fondateur, statut auto-entrepreneur. Vente en lots B2B2C
-uniquement : pas de vente au détail individuel à ce stade. Cette phase doit
-autofinancer le premier run industriel. Le cristal est réservé à la phase
-industrielle ; la bouteille n'est pas vendue en ligne.
+**2. ⚠️ RAPPEL À INSÉRER DANS LE PROMPT DE CHAQUE CONSEILLER — non
+négociable.** À recopier tel quel :
 
-**Les canaux.** (1) Mosquées : elles achètent des lots et offrent les
-bouteilles aux fidèles, comme elles le font avec l'eau ; elles ne revendent
-pas. Des fidèles donateurs peuvent sponsoriser un lot. (2) Restaurant : un
-test est en cours dans un restaurant (20-30 premières bouteilles offertes,
-réapprovisionnement payé ensuite avec les ventes réelles ; durée du test 1 à
-2 mois ; l'indicateur suivi est le réachat). Ce restaurant vend du bissap à
-3,50€ et des sodas à 2€. (3) Prévente en ligne : cristaux à 1€ l'unité,
-minimum 5€, remboursés si le lancement n'a pas lieu.
+> *« Tu vas lire des notes écrites par l'équipe, pour l'équipe. Elles portent
+> ses justifications, et ses décisions y sont présentées comme acquises. **Ton
+> travail n'est pas de les reprendre à ton compte : c'est de les regarder du
+> dehors.** Un raisonnement écrit dans ces notes n'est pas une preuve, c'est une
+> position — traite-le comme tel. Ce qu'on attend de toi est précisément ce que
+> ces notes ne peuvent pas contenir. »*
 
-**Les chiffres.** Coût matière : 0,79-0,89€ par bouteille 33cl (bouteille
-0,14€, étiquette 0,46€, miel 0,19-0,29€ selon dose). L'étiquette retenue
-mesure 67×185mm. Prix de vente : B2C 2,50-3€ ; B2B restaurateurs 1,50-2€ ;
-grille mosquées 2,50€ l'unité puis 2€ à partir de 50 bouteilles. Plancher
-absolu toutes négociations : 1,50€. Budget global serré, fondateur solo.
+**3. Ce qui se lit mais ne se recopie JAMAIS** : le **plancher de prix**, les
+**marges**, les **coûts fournisseurs**. Un conseiller peut les lire pour
+raisonner ; **aucun avis, aucune synthèse et aucun rapport ne les reproduit**
+— ces documents peuvent être partagés, pas eux.
 
-**Le réglementaire [CONTRAINTES FERMES].** Déclaration d'activité suffisante
-(pas d'agrément requis, confirmé par la DDPP). Maîtrise HACCP obligatoire,
-deux voies possibles (formation hygiène 14h ou application documentée du
-guide de bonnes pratiques apicole). Dès vente à un professionnel : tableau
-nutritionnel obligatoire sur l'étiquette, pourcentage de miel obligatoire
-dans la liste d'ingrédients, logo Triman. Aucune allégation santé autorisée
-pour le miel (registre UE) ; les images comptent comme allégations ; toute
-mention du sucre type « moins sucré » doit suivre le format légal « jusqu'à
-X fois moins ». Interdiction de communiquer sur la perte de poids.
+**4. L'artefact « Salle du conseil »** se régénère sur la sortie du jour, pas
+sur une version stockée.
 
-**La marque.** Valeurs : la transmission, la cohérence, le vrai. Thèse : « la
-tradition, servie contemporaine ». Palette émeraude + or. Le logo et la
-typographie sont en cours de refonte avec une designeuse ; aucune étiquette
-définitive n'existe tant que ce chantier n'est pas livré. Lexique imposé :
-« cristal de miel », « eau miellée » ; les mots « portion », « perle »,
-« pastille », « bonbon » et « ancestral » sont bannis des supports.
+## 1. Ce que c'est
 
-**L'écosystème de travail.** Fondateur solo épaulé par un mentor startup, un
-startup manager et une designeuse. Outils : Notion, Google Drive, un repo Git
-comme source de vérité, Stripe pour la prévente.
+Marque française d'**eau miellée** : eau de source + miel, **aucun autre
+ingrédient**, miel jamais chauffé. Deux formes : la **bouteille 33 cl**, seul
+produit existant aujourd'hui, et le **cristal de miel** (miel cristallisé à
+dissoudre), qui n'est pas produit et n'a **aucun conditionneur identifié**.
+Cible : la communauté musulmane francophone, cœur de cible **le pratiquant
+actif dans sa pratique**. Fondateur solo. Jalon visé : **Ramadan 2027**.
+
+## 2. Où on en est — le fait dominant
+
+🔴 **RIEN N'A JAMAIS ÉTÉ VENDU. Zéro euro encaissé sur le produit.** Aucune
+bouteille n'a été livrée à un client. Le test restaurant, accordé le 18/07,
+**n'a jamais commencé**.
+
+⏱️ **L'ÂGE DU PROJET, vérifié le 2026-09-11** : première décision consignée le
+**28/06/2026**, premier commit le **05/07/2026** — soit **~2,5 mois de trace
+écrite**, et **4 mois au maximum** en comptant ce qui précède le dépôt.
+⚠️ **Une version antérieure de ce socle écrivait « quatorze mois ». C'était
+FAUX, et jamais vérifié.** Le chiffre a coloré deux consultations du conseil :
+« quatorze mois sans vente » se lit comme un échec chronique, **« deux mois et
+demi sans vente » se lit comme un début normal.** Tout jugement porté sur la
+lenteur du projet doit être relu à cette échelle.
+
+Ce qui existe : une recette dont l'assemblage est arrêté mais **pas la dose**,
+240 étiquettes imprimées, des bouteilles en main, une déclaration d'activité
+enregistrée, un carnet de 60 restaurants lyonnais, un site en mode
+« construction ».
+
+## 3. Ce qui bloque — un seul chemin critique
+
+🔴 **La durée de conservation n'est pas mesurée, donc il n'y a pas de DLC à
+apposer, donc on ne peut pas vendre.** Le protocole pH qui la produirait
+n'a **jamais été lancé** ; il attend la dose, qui attend le miel, qui attend
+un retrait chez le fournisseur.
+
+**Tout le reste est en aval ou secondaire.** L'étiquette est imprimée,
+l'administratif est déposé, le produit est défini. **Un seul verrou tient la
+vente.**
+
+⚠️ Deuxième blocage, de nature différente : **l'agrément sanitaire n'est pas
+tranché.** Deux lectures opposées coexistent — une DDPP a répondu « ni
+agrément ni dérogation », une autre est saisie depuis le 08/09 et n'a pas
+répondu. **Rien ne se décide avant sa réponse.**
+
+## 4. Ce qui n'est pas prouvé — les paris sur lesquels tout repose
+
+- ⚠️ **Le goût du miel filtre.** Sur la dégustation décisive, **2 des 3
+  décideurs n'aimaient pas le miel** — ils ont acheté le potentiel et
+  l'argumentaire, pas la boisson. Le troisième, consommateur de miel régulier,
+  a aimé. Signal cohérent avec les entretiens.
+- ⚠️ **Le produit n'est pas connu** : ~95 % de la cible interrogée ne
+  connaissait pas l'eau miellée. Le marché nomme spontanément le produit
+  « eau aromatisée », pas « boisson ».
+- ⚠️ **Le canal restaurant n'a rien produit** : 10 appels, 8 répondeurs,
+  2 contacts, **0 rendez-vous**. Aucun réachat n'a pu être observé puisque
+  aucune livraison n'a eu lieu.
+- ⚠️ **Le canal en ligne ne capte rien** : ~10 vues sur un week-end,
+  **0 inscription, 0 avis**, et aucune source identifiable.
+- ⚠️ **Les intentions d'achat exprimées venaient exclusivement de personnes
+  ayant déjà du miel dans leur quotidien.**
+
+## 5. Ce qui ne se négocie pas
+
+- **Aucune allégation santé**, explicite ou implicite — les images comptent
+  comme allégations. Aucun symbole religieux explicite. **Jamais d'yeux
+  visibles** dans les visuels.
+- **Eau + miel, rien d'autre.** Aucune stabilisation qui ajoute un ingrédient
+  ou chauffe le produit.
+- **Vente en lots uniquement**, jamais de détail individuel sur stand.
+- **Plancher de prix 1,50 €**, toutes négociations — *donnée interne, jamais
+  diffusée, ni à un client ni dans un document partageable.*
+- **Le modèle mosquée est C2B2C** : les mosquées n'achètent pas leurs
+  consommables. Le client est un **fidèle donateur** qui offre un lot.
+
+## 6. Les moyens réels
+
+**Un seul homme.** Pas d'associé, pas de salarié, **aucun designer mandaté**
+— l'identité visuelle est à trancher par le fondateur lui-même. Budget serré :
+le dépôt de marque INPI est différé pour cette raison. Conseils extérieurs
+non mandatés et sans livrable : Francesco, Valentin, Inès ; point mensuel avec
+un fondateur pair (Simon, Bissapétit). **Quatre sessions d'IA** assistent le
+travail et se transmettent l'information ; le dépôt Git fait foi.
+
+## 7. Repères chiffrés *(internes)*
+
+| | |
+|---|---|
+| Coût matière / bouteille 33 cl | ordre de 0,79-0,89 € |
+| Prix B2C | **plafond 2,50 €** |
+| Prix B2B restaurateurs | négociable au-dessus de **1,50 €** |
+| Prix C2B2C mosquée | 2,50 € l'unité, 2 € dès 50 bouteilles, sans négociation |
+| Précommande cristaux | 1 €/unité, minimum 5 € |
+| Déclencheur « aller voir les usines » | **300 bouteilles/semaine** |
+| Ancres du marché entendues sur le terrain | canette 1,50 € · bissap 3,50 € · soda 2 € |
+
+## 8. Questions ouvertes qui pèsent sur une décision
+
+- **La durée de conservation** — non mesurée, bloque la vente.
+- **L'agrément sanitaire** — deux lectures opposées, arbitrage attendu.
+- **Une contradiction de droit sur l'étiquetage** (dénomination et quantité
+  nette dans le même champ visuel) : **non tranchée, et 240 étiquettes sont
+  déjà imprimées.**
+- **L'identité visuelle** — typographie et accroche non tranchées, sans
+  designer.
+- **Le cristal** — aucun conditionneur, et fabriquer un bonbon implique
+  généralement de chauffer le miel, ce qui contredirait la promesse.
