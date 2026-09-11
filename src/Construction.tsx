@@ -6,7 +6,9 @@ export default function Construction() {
   return (
     <main className="construction">
       <div className="construction-inner">
-        <p className="construction-brand">lédjé</p>
+        <p className="construction-brand">
+          <img src="/brand/wordmark.png" alt="lédjé" width={552} height={260} />
+        </p>
         <p className="construction-kicker">Eau miellée</p>
         <div className="construction-rule" aria-hidden="true" />
         <h1 className="construction-title">Le site est en construction.</h1>
