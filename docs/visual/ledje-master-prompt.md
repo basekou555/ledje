@@ -23,8 +23,17 @@ Bottle — l'eau miellée 33 cl (LE PRODUIT DE LANCEMENT, fabriqué et vendu auj
   Shape: Slim, straight cylinder, short neck
   Cap: Brushed gold
   Label: ⚠️ NOT SETTLED — l'identité visuelle est rouverte. NE JAMAIS spécifier de
-         police dans un prompt. Le texte de l'étiquette reste SUGGÉRÉ, jamais rendu
-         lisible (l'IA le rend en lettres aléatoires — constat de production).
+         police dans un prompt (le wordmark est un logotype sur-mesure : aucune
+         police nommable ne le reproduit).
+         ✅ RÈGLE DU FLOU RETIRÉE (Basekou, 2026-09-11) — « le texte de l'étiquette
+         reste suggéré, jamais rendu lisible » ne s'applique plus. Ses deux motifs
+         sont tombés : l'identité est tranchée (v1.2 au tirage, 240 exemplaires) et
+         les modèles rendent désormais l'étiquette lisiblement et correctement (le
+         constat du 14/08 « lettres aléatoires » est caduc). Le flou produisait en
+         outre l'effet inverse de celui recherché : étiquette floue sur bouteille
+         nette = lecture « maquette », pas « photo ».
+         ➡️ Méthode recommandée : fournir la bouteille détourée en IMAGE DE
+         RÉFÉRENCE plutôt que de décrire l'étiquette.
          Seul élément acquis : le fond émeraude.
   Liquid: Pale golden amber, near-transparent — reads as fresh water first, never a thick juice
   Status: produit RÉEL de la phase artisanale (canal restaurant). ⚠️ La réserve

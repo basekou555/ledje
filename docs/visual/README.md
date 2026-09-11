@@ -53,8 +53,14 @@ La recette s'écrit `SUJ-.. / DEC-.. / CAM-.. / LIGHT-.. / MAT-.. / COMP-.. / AC
 Le **SUJET** vient toujours en tête : c'est le héros physique, et c'est lui qui pilote le bloc `PRODUCT`.
 À ne pas confondre avec **ACT**, qui est le geste.
 
-La sortie est un prompt **en anglais**, autonome, structuré
+La sortie est un prompt autonome, structuré
 `SCENE → PRODUCT → COMPOSITION → CAMERA → LIGHT → MATERIALS → ÉMOTION`.
+
+**Langue (règle Basekou, 2026-09-11)** : **français par défaut** — c'est la langue des tests et des outils
+réellement utilisés au quotidien (**ChatGPT Image, Gemini**, essais gratuits). **L'anglais est réservé à
+Higgsfield.** Sur ChatGPT/Gemini, **pas de bloc NEGATIVE** : ces modèles n'ont pas de champ dédié, la liste
+part dans le texte et nommer un objet à exclure risque de le convoquer — on formule en **positif**, et au
+besoin une seule ligne courte.
 
 *(Le schéma technique réel de l'outil — paramètres, modèles, variantes, références produit, préchiffrage
 des crédits — et la formule vidéo sont dans [`ledje-generateur.md`](ledje-generateur.md).)*
