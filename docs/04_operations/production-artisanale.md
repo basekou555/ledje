@@ -1,8 +1,8 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-09-10
-source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco ; mention légale DLC (pas DDM) tranchée le 2026-09-03 d'après le rapport produit du 01/09 (Drive) ; taux d'humidité de Joan (16-18 %) et DLC non pré-imprimée consignés le 2026-09-10"
+maj: 2026-09-11
+source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco ; mention légale DLC (pas DDM) tranchée le 2026-09-03 d'après le rapport produit du 01/09 (Drive) ; taux d'humidité de Joan (16-18 %) et DLC non pré-imprimée consignés le 2026-09-10 ; stock de miel épuisé et ancre « protocole lancé le 19/08 » corrigée le 2026-09-11"
 resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : J0 SANS DATE, il attend que la recette soit figée — décision du 24/08 ; ⚠️ mention légale TRANCHÉE le 03/09 : DLC, pas DDM — et ⛔ DÉCIDÉ le 10/09 qu'elle ne sera PAS pré-imprimée mais apposée au conditionnement lot par lot, ce qui débloque l'étiquette mais PAS la vente : la DURÉE reste non déterminée, donc le protocole pH devient le chemin critique ; ✅ taux d'humidité du miel connu depuis le 10/09 — 16-18 %, sous le seuil de vigilance ; risque de gonflement en PET signalé par le rapport produit, non traité ailleurs)."
 ---
 
@@ -61,6 +61,10 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 **⛔ PROTOCOLE NON LANCÉ au 2026-08-24 — en attente de la recette, par décision.** *(Correction historique : cette fiche a affirmé du 19 au 20/08 un « J0 le 19/08 » qui n'a jamais eu lieu — une intention énoncée en séance avait été écrite comme un fait accompli. Erreur de consignation, corrigée le 20/08.)*
 
 Les papiers pH sont en main depuis le **17/08** ; le protocole prend environ un quart d'heure.
+
+🔴 **2026-09-11 — IL N'Y A PLUS DE MIEL DU TOUT.** Déclaré par Basekou en séance : *« j'ai plus de miel, donc le protocole est en attente. »* **Ce n'est plus seulement que le miel de production n'est pas en main — le stock de test est épuisé.** ⚠️ **Conséquence : le protocole pH n'est plus seulement bloqué par la recette, il l'est aussi par la MATIÈRE.** Les deux verrous sont maintenant empilés, et le second se lève au retrait chez Joan.
+
+⛔ **ET IL N'A TOUJOURS JAMAIS ÉTÉ LANCÉ — rappel nécessaire au 2026-09-11.** Le digest du jour l'annonçait *« lancé le 19/08 »* : **c'est faux, et c'est exactement l'erreur que cette fiche avait déjà corrigée le 20/08** *(un J0 annoncé pour le 19-20/08 qui n'a jamais eu lieu, une intention écrite comme un fait)*. **La même date fausse est revenue vingt-deux jours plus tard par un autre chemin.** ➡️ **Ce que ça dit : une correction inscrite au SOT ne protège pas contre sa propre réapparition en amont** — les papiers pH sont *reçus* depuis le 17/08, le protocole est *lançable*, il n'est pas *lancé*.
 
 **📅 J0 SANS DATE — le protocole attend la recette** *(arbitré en session le 2026-08-24)*. Le J0 annoncé pour le 20/08 n'a pas eu lieu, et **ce n'est pas un oubli** : Basekou tranche que **mesurer avant d'avoir figé la recette revient à mesurer un autre produit**. Le protocole ne se lance pas tant que les proportions ne sont pas arrêtées (`fournisseurs.md`).
 
