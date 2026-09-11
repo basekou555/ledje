@@ -155,7 +155,7 @@ export default function App() {
     <>
       <header className="v-header">
         <a className="v-wordmark" href="#top">
-          <img src="/brand/wordmark.png" alt="lédjé" width={552} height={260} />
+          <img src="/brand/wordmark-green.svg" alt="lédjé" width={2208} height={1040} />
         </a>
         <a className="v-header-cta" href="/avis">Donner ton avis</a>
       </header>
@@ -171,7 +171,7 @@ export default function App() {
           <div className="v-hero-content">
             <p className="v-hero-kicker v-fade v-fade-1">Eau miellée</p>
             <p className="v-hero-brand v-fade v-fade-2">
-              <img src="/brand/wordmark.png" alt="lédjé" width={552} height={260} fetchPriority="high" />
+              <img src="/brand/wordmark-green.svg" alt="lédjé" width={2208} height={1040} fetchPriority="high" />
             </p>
             {/* L'accroche se dévoile ligne par ligne, chaque ligne montant
                 de derrière un masque — plus habité qu'un simple fondu. */}
@@ -356,7 +356,7 @@ export default function App() {
       <footer className="v-footer" role="contentinfo">
         <div className="container reveal">
           <p className="v-footer-brand">
-            <img src="/brand/wordmark-light.png" alt="lédjé" width={552} height={260} loading="lazy" />
+            <img src="/brand/wordmark-cream.svg" alt="lédjé" width={2208} height={1040} loading="lazy" />
           </p>
           <p className="v-footer-tagline">{SIGNATURE}</p>
           <p className="v-footer-mail">

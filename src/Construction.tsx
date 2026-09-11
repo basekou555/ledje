@@ -7,7 +7,7 @@ export default function Construction() {
     <main className="construction">
       <div className="construction-inner">
         <p className="construction-brand">
-          <img src="/brand/wordmark.png" alt="lédjé" width={552} height={260} />
+          <img src="/brand/wordmark-green.svg" alt="lédjé" width={2208} height={1040} />
         </p>
         <p className="construction-kicker">Eau miellée</p>
         <div className="construction-rule" aria-hidden="true" />

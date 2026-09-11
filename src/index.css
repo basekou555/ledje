@@ -159,11 +159,9 @@ img, svg, video { display: block; max-width: 100%; }
   border-bottom: 1px solid rgba(20, 61, 43, 0.1);
 }
 /* Le wordmark est une IMAGE, pas du texte composé : c'est le tracé réel de
-   la marque, extrait du fichier d'impression de l'étiquette v1.2. Alice
-   n'est qu'un essai de typo système — elle ne remplace pas le logo.
-   ⚠️ Résolution native 552 px de large : ne pas l'afficher au-delà de
-   ~280 px sans un export de meilleure qualité, sinon ça pique sur écran
-   à haute densité. */
+   la marque. Alice n'est qu'un essai de typo système — elle ne remplace
+   pas le logo. Vectorisé depuis le fichier d'impression de l'étiquette
+   v1.2, il est donc net à n'importe quelle taille. */
 .v-wordmark {
   display: inline-flex;
   text-decoration: none;
@@ -217,7 +215,7 @@ img, svg, video { display: block; max-width: 100%; }
   line-height: 0;
   margin-bottom: 1.1rem;
 }
-.v-hero-brand img { width: clamp(190px, 52vw, 260px); height: auto; margin-inline: auto; }
+.v-hero-brand img { width: clamp(230px, 66vw, 330px); height: auto; margin-inline: auto; }
 .v-hero-title {
   font-family: var(--font-title);
   font-size: clamp(1.5rem, 6vw, 2.1rem);
@@ -570,7 +568,7 @@ img, svg, video { display: block; max-width: 100%; }
   }
   .v-hero-content { max-width: 1120px; margin-inline: auto; width: 100%; }
   .v-hero-brand { margin-bottom: 0.8rem; }
-  .v-hero-brand img { width: clamp(240px, 22vw, 280px); margin-inline: 0; }
+  .v-hero-brand img { width: clamp(320px, 30vw, 420px); margin-inline: 0; }
   .v-hero-kicker { margin-bottom: 0.9rem; }
   .v-hero-title {
     font-size: clamp(2rem, 3.4vw, 3rem);
