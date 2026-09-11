@@ -20,4 +20,5 @@ production artisanale, démarches administratives et réglementaires, technique 
 | [`fournisseur-melli-ouest.md`](fournisseur-melli-ouest.md) | Appel 20/07 : plan B post-Ramadan (conditionnement S2 2027), échantillons à commander | en_cours |
 | [`demarches-admin.md`](demarches-admin.md) | DDPP/HACCP, déclaration d'activité, domaine OVH, INPI différé | en_cours |
 | [`site-technique.md`](site-technique.md) | Stack, Supabase (pièges voulus), piège Vercel, accessibilité, workflow git | figé |
+| [`chaine-contenu.md`](chaine-contenu.md) | La machine à contenu : les 7 maillons, les 2 points de validation, où vit quoi, ce que le pilote a prouvé et ses 3 limites | en_cours |
 | [`contenu-drive.md`](contenu-drive.md) | Le Drive contenu : la chaîne de dossiers, la convention de nommage, et la règle « l'ID, pas le chemin » | en_cours |

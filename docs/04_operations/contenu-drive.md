@@ -8,13 +8,20 @@ resume: "Où vivent les fichiers de contenu (photo, vidéo, IA ou tourné) : la 
 
 # Le Drive contenu — rangement et nommage
 
-**Ici : où vit un fichier et comment il s'appelle.** Ce qu'on a appris d'une génération vit
-ailleurs, dans [`../visual/ledje-asset-log.md`](../visual/ledje-asset-log.md) ; les recettes de
-plans dans [`../visual/ledje-shot-book.md`](../visual/ledje-shot-book.md).
+**Ici : où vit un fichier et comment il s'appelle.** Comment le travail circule — les 7 maillons,
+les 2 points de validation, l'outillage : [`chaine-contenu.md`](chaine-contenu.md). Ce qu'on a
+appris d'une génération : [`../visual/ledje-asset-log.md`](../visual/ledje-asset-log.md). Les
+recettes de plans : [`../visual/ledje-shot-book.md`](../visual/ledje-shot-book.md).
 
 Le Drive **« Lédjé contenu »** couvre **tout le contenu de marque** — photo et vidéo, généré par
 IA comme tourné au téléphone. Ce n'est pas un dossier de production visuelle IA : la production
-visuelle n'en est qu'un affluent.
+visuelle n'en est qu'un affluent. Il vit sur le **compte pro**, basculé le 2026-09-08 pour que les
+vidéos aient de la place.
+
+📌 **Ces dossiers ne sont pas un rangement, ce sont des points de passage de relais.** La chaîne a
+été dessinée en entier avant d'être outillée, pour savoir **où les agents se passeraient la main** ;
+l'arborescence en est la trace. C'est ce qui explique qu'elle épouse les étapes du travail et non
+les types de fichiers.
 
 ## La chaîne (arborescence posée le 2026-09-08)
 
@@ -30,6 +37,24 @@ visuelle n'en est qu'un affluent.
 **Ce sont des étapes, pas des bibliothèques.** Un fichier **se déplace** en avançant dans la
 chaîne. C'est la propriété la plus importante de cette structure, et celle qui a une conséquence
 directe (voir « L'ID, pas le chemin »).
+
+### 🔒 Deux entrées sont gardées
+
+Les deux points de validation de Basekou (cf. [`chaine-contenu.md`](chaine-contenu.md)) tombent
+exactement sur deux dossiers :
+
+- **Rien n'entre dans `03_generes/` sans la validation « avant qu'on produise ».**
+- **Rien n'entre dans `05_publies/` sans la validation « avant qu'on publie ».**
+
+C'est ce qui empêche un dossier d'étape de devenir un simple entonnoir : deux de ses portes ne
+s'ouvrent que sur décision de Basekou.
+
+### Le trajet Higgsfield → Drive est manuel
+
+L'environnement de Claude Code **ne peut pas télécharger les médias Higgsfield** (le CDN est bloqué)
+ni voir les images qu'il génère. **C'est Basekou qui dépose les fichiers au Drive**, et lui seul qui
+juge les plans. ➡️ Un fichier absent du Drive n'est pas un fichier perdu : il n'a simplement pas
+encore été déposé.
 
 ## La convention de nommage
 
@@ -54,6 +79,23 @@ Modèle d'origine : `00_regles/pilote-contenu-3-pieces-2026-09-08_TEST.md`.
 ⚠️ **Un suffixe de verdict ne s'écrit que sur un verdict de Basekou.** Une opinion de l'IA n'en
 est pas un : écrire `_ECARTE` de sa propre initiative, c'est transformer un avis en décision. Sans
 verdict, le fichier reste `_TEST`.
+
+📌 **`_TEST` est aujourd'hui le régime de TOUTE la chaîne**, pas seulement l'étiquette d'un fichier
+isolé : **rien n'est publié**. Ce qui en fera sortir, ce sont les vrais plans de la bouteille
+(miel retiré le 13/09, étiquettes imprimées). Cf. [`chaine-contenu.md`](chaine-contenu.md).
+
+### Où s'arrête ce suffixe — la frontière avec Notion
+
+**Notion porte les statuts et les validations**, le Drive porte les fichiers. Les deux ne se
+marchent pas dessus parce qu'ils ne parlent pas de la même chose :
+
+- **Notion suit une PIÈCE** — un post, une vidéo — le long de la chaîne : brief → écrit → produit →
+  monté → validé → publié.
+- **Le suffixe juge un FICHIER** — un plan parmi quatorze, une variante parmi six.
+
+➡️ Un verdict de plan (« celle-ci est déformée ») **ne remonte jamais dans Notion** ; un statut de
+pièce **ne descend jamais dans un nom de fichier**. En cas de doute : si l'information intéresse
+quelqu'un qui ne regarde pas les fichiers, elle est dans Notion.
 
 **Pourquoi l'écarté reste dans son dossier** : un raté n'a de valeur que **comparé à ses voisins
 réussis du même lot**. Le sortir du dossier fait perdre la leçon — et évite un `99_ecartes/` de

@@ -6,6 +6,8 @@
 
 **Priorités conservées :** `P1` = à produire maintenant (valider une première direction, lancer un test) · `P2` = rédigé pour s'entraîner et préparer la production en volume — rien ne s'y génère avant validation des P1.
 
+**⏳ Les 8 shots validés le 2026-09-11 ont une date de péremption, et elle est proche.** Ils reposent tous sur une **bouteille générée par IA**, admise par la **suspension transitoire du 09/09** — laquelle porte une **condition de sortie explicite : remplacée dès que le lot étiqueté existe**. Miel retiré le **13/09**, étiquettes imprimées : la condition est sur le point d'être remplie. ➡️ **Ce qui reste acquis après la sortie : la RECETTE** (décor, lumière, composition, geste). **Ce qui doit être refait : l'IMAGE.** ⚠️ La suspension couvre **le site** ; la tolérance du 08/09 couvrait **le pilote**. **Les réseaux ne sont couverts par aucune des deux** — à trancher (cf. `../04_operations/chaine-contenu.md`).
+
 **⚠️ Produit :** tant que le format de lancement n'est pas confirmé par les fournisseurs (cristal simple vs bonbon transformé, cf. visual-language.md), les shots produit restent génériques ("un cristal de miel qui se dissout"), sans détail de texture ou de mécanisme non vérifié. Le packaging n'ayant pas de spec définitive, les fiches packshot le décrivent de façon générique.
 
 ---
