@@ -8,7 +8,7 @@
 > points pendant 54 jours** — un instantané d'un projet qui bouge vieillit par
 > construction. Le dépôt reste la source ; ceci n'en est qu'une sortie datée.
 >
-> **Généré le : 2026-09-11.**
+> **Généré le : 2026-09-13.**
 >
 > Faits uniquement — c'est-à-dire **des faits, pas des opinions**, et non « tous
 > les faits ». Ce dossier porte ce qui **décide** : ce qui bloque, ce qui n'est
@@ -18,7 +18,7 @@
 
 **1. Droit de fouille TOTAL** *(tranché par Basekou le 2026-09-11)*. Un
 conseiller peut lire tout ce dont il a besoin : les fiches `docs/`, le journal
-des décisions, l'historique git, la page relais Notion, le Drive. **Ce socle
+des décisions, l'historique git, la page ÉTAT Notion, le Drive. **Ce socle
 est un point de départ, jamais une limite.**
 
 **2. ⚠️ RAPPEL À INSÉRER DANS LE PROMPT DE CHAQUE CONSEILLER — non
@@ -63,26 +63,36 @@ FAUX, et jamais vérifié.** Le chiffre a coloré deux consultations du conseil 
 demi sans vente » se lit comme un début normal.** Tout jugement porté sur la
 lenteur du projet doit être relu à cette échelle.
 
-Ce qui existe : une recette dont l'assemblage est arrêté mais **pas la dose**,
-240 étiquettes imprimées, des bouteilles en main, une déclaration d'activité
-enregistrée, un carnet de 60 restaurants lyonnais, un site en mode
-« construction ».
+Ce qui existe : une recette dont l'assemblage est arrêté, **le miel en main
+depuis le 13/09**, 240 étiquettes imprimées, des bouteilles en main, une
+déclaration d'activité enregistrée, un carnet de 60 restaurants lyonnais, un
+site en mode « construction ».
 
-## 3. Ce qui bloque — un seul chemin critique
+## 3. Ce qui bloque — un seul chemin critique, et il vient de changer de nature
 
 🔴 **La durée de conservation n'est pas mesurée, donc il n'y a pas de DLC à
 apposer, donc on ne peut pas vendre.** Le protocole pH qui la produirait
-n'a **jamais été lancé** ; il attend la dose, qui attend le miel, qui attend
-un retrait chez le fournisseur.
+n'a **jamais été lancé** — papiers en main depuis le **17/08**.
 
-**Tout le reste est en aval ou secondaire.** L'étiquette est imprimée,
-l'administratif est déposé, le produit est défini. **Un seul verrou tient la
-vente.**
+⚠️ **CE QUI A CHANGÉ LE 13/09, ET C'EST LE POINT LE PLUS IMPORTANT DE CE
+DOSSIER : ce blocage n'est plus une DÉPENDANCE, c'est une EXÉCUTION.**
+Jusqu'au 12/09, le protocole attendait la dose, qui attendait le miel, qui
+attendait un retrait. **Le miel est arrivé.** Et la dose n'attend plus rien
+non plus : elle est **calculée à ≈ 8,7 g/100 mL** *(depuis le taux d'humidité
+de 16-18 % donné par le producteur)* et surtout **fixée de fait par le tableau
+nutritionnel imprimé sur les 240 étiquettes**. **Plus aucune dépendance
+matérielle ne tient le J0.** Ce qui reste entre le projet et sa première DLC
+est **un geste que personne n'a encore fait**.
 
 ⚠️ Deuxième blocage, de nature différente : **l'agrément sanitaire n'est pas
 tranché.** Deux lectures opposées coexistent — une DDPP a répondu « ni
-agrément ni dérogation », une autre est saisie depuis le 08/09 et n'a pas
-répondu. **Rien ne se décide avant sa réponse.**
+agrément ni dérogation », une autre (celle du Rhône, la seule compétente) est
+saisie depuis le 08/09 et n'a pas répondu. **Rien ne se décide avant sa
+réponse.** Relance téléphonique prévue le 18/09.
+
+⚠️ Troisième blocage, jamais commencé : **le plan de maîtrise sanitaire
+n'existe pas par écrit**, ouvert depuis le 18/07. Tant qu'il n'est pas écrit,
+faire venir la DDPP est un risque pris pour rien.
 
 ## 4. Ce qui n'est pas prouvé — les paris sur lesquels tout repose
 
@@ -95,11 +105,14 @@ répondu. **Rien ne se décide avant sa réponse.**
   « eau aromatisée », pas « boisson ».
 - ⚠️ **Le canal restaurant n'a rien produit** : 10 appels, 8 répondeurs,
   2 contacts, **0 rendez-vous**. Aucun réachat n'a pu être observé puisque
-  aucune livraison n'a eu lieu.
+  aucune livraison n'a eu lieu. *(60 restaurants au carnet ; 10 appels sur 60
+  ne prouvent statistiquement rien, ni dans un sens ni dans l'autre.)*
 - ⚠️ **Le canal en ligne ne capte rien** : ~10 vues sur un week-end,
   **0 inscription, 0 avis**, et aucune source identifiable.
 - ⚠️ **Les intentions d'achat exprimées venaient exclusivement de personnes
   ayant déjà du miel dans leur quotidien.**
+- ⚠️ **La capacité de production n'a jamais été mesurée** : personne ne sait
+  combien de bouteilles peuvent sortir d'une semaine de travail.
 
 ## 5. Ce qui ne se négocie pas
 
@@ -123,6 +136,13 @@ non mandatés et sans livrable : Francesco, Valentin, Inès ; point mensuel avec
 un fondateur pair (Simon, Bissapétit). **Quatre sessions d'IA** assistent le
 travail et se transmettent l'information ; le dépôt Git fait foi.
 
+⚠️ **Donnée manquante et elle décide : le nombre d'heures réellement
+disponibles par semaine n'est écrit nulle part.** Le projet est mené en
+parallèle d'une autre activité *(une dégustation est prévue « sur le lieu de
+travail »)*. **Tout avis sur l'allocation du temps doit raisonner en
+priorités et en proportions, jamais en heures absolues** — et dire ce qu'il
+faudrait savoir pour trancher mieux.
+
 ## 7. Repères chiffrés *(internes)*
 
 | | |
@@ -137,12 +157,22 @@ travail et se transmettent l'information ; le dépôt Git fait foi.
 
 ## 8. Questions ouvertes qui pèsent sur une décision
 
-- **La durée de conservation** — non mesurée, bloque la vente.
-- **L'agrément sanitaire** — deux lectures opposées, arbitrage attendu.
+- **La durée de conservation** — non mesurée, bloque la vente. **Plus aucune
+  dépendance matérielle depuis le 13/09 : c'est le geste qui manque.**
+- **L'agrément sanitaire** — deux lectures opposées, arbitrage DDPP attendu.
 - **Une contradiction de droit sur l'étiquetage** (dénomination et quantité
   nette dans le même champ visuel) : **non tranchée, et 240 étiquettes sont
-  déjà imprimées.**
+  déjà imprimées.** *(3 des 6 points de la relecture de conformité du 09/09
+  sont réglés ; les 3 autres sont imprimés.)*
+- **« Eau de source » dans la dénomination d'une boisson transformée** — la
+  moitié factuelle est réglée (l'eau utilisée est bien une eau de source) ;
+  la question de droit n'a jamais été posée à une source compétente.
 - **L'identité visuelle** — typographie et accroche non tranchées, sans
-  designer.
+  designer. Le contenu réseaux est gelé derrière : **pipeline entièrement
+  construite, zéro image générée, comptes inexistants.**
 - **Le cristal** — aucun conditionneur, et fabriquer un bonbon implique
   généralement de chauffer le miel, ce qui contredirait la promesse.
+  **La précommande promet Ramadan 2027 et rembourse sinon.**
+- **La contestation bancaire** — pièces complètes depuis le 07/09, il ne reste
+  que le dépôt. Deux échéances dures : la pièce à charge principale disparaît
+  le **20/10**, le recours se ferme le **20/11**.
