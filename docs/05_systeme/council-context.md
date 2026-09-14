@@ -39,6 +39,19 @@ raisonner ; **aucun avis, aucune synthèse et aucun rapport ne les reproduit**
 **4. L'artefact « Salle du conseil »** se régénère sur la sortie du jour, pas
 sur une version stockée.
 
+**5. ⛔ RÈGLE DE COMPILATION, ajoutée le 2026-09-14 après un deuxième socle
+faux : LES PR OUVERTES SE LISENT, ET LES DÉCISIONS DÉJÀ PRISES AUSSI.**
+Un socle compilé depuis `main` seul est **aveugle au travail en cours** —
+c'est ainsi que la consultation du 13/09 a reçu « zéro image générée » alors
+que 10 générations étaient consignées dans une PR ouverte depuis deux jours,
+et qu'elle a présenté l'étude labo comme un angle mort alors que Basekou
+l'avait **tranchée le 17/08**. **Une PR ouverte est du travail EXISTANT ; une
+décision au journal est un arbitrage rendu, pas une question en suspens.**
+➡️ Avant de régénérer : lister les PR `open` et lire leur diff, et relire le
+journal des décisions sur chaque sujet qu'on s'apprête à présenter comme
+ouvert. **Un conseil ne peut pas corriger une erreur qu'on lui a donnée pour
+prémisse — il la rend avec autorité.**
+
 ## 1. Ce que c'est
 
 Marque française d'**eau miellée** : eau de source + miel, **aucun autre
@@ -168,8 +181,16 @@ faudrait savoir pour trancher mieux.
   moitié factuelle est réglée (l'eau utilisée est bien une eau de source) ;
   la question de droit n'a jamais été posée à une source compétente.
 - **L'identité visuelle** — typographie et accroche non tranchées, sans
-  designer. Le contenu réseaux est gelé derrière : **pipeline entièrement
-  construite, zéro image générée, comptes inexistants.**
+  designer. ⚠️ **CORRIGÉ LE 2026-09-14 : « zéro image générée » était FAUX.**
+  **10 générations sur 8 shots ont été produites et jugées par Basekou le
+  11/09**, toutes validées ou validées avec réserve, avec leurs IDs Drive
+  *(asset-log, PR #76, non mergée)*. Trois réglages sont même passés en
+  acquis. **Ce qui manque n'est pas la matière, ce sont les comptes — ils
+  n'existent pas.** ⛔ Deux obstacles réels et documentés : le **détourage
+  de la bouteille n'existe pas** *(les quatre fichiers présentés comme tels
+  ont un damier peint dans les pixels, opacité 255 partout)*, donc **tout
+  plan large reste sans solution** ; et la bouteille se déforme dès qu'elle
+  occupe moins de la mi-hauteur du cadre.
 - **Le cristal** — aucun conditionneur, et fabriquer un bonbon implique
   généralement de chauffer le miel, ce qui contredirait la promesse.
   **La précommande promet Ramadan 2027 et rembourse sinon.**
