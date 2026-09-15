@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-08-24
+maj: 2026-09-11
 source: "SOT §1.4bis (archive 2026-07-24) — accord 2026-07-18 ; intel MMD 2026-07-24, corrigée en session 2026-07-26"
 resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV)."
 ---
@@ -31,12 +31,14 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 
 ## Contraintes
 
-- **Livraison conditionnée au bouclage réglementaire** (cf. `../04_operations/demarches-admin.md`). Tableau nutritionnel obligatoire dès vente en restaurant (`../02_produit/reglementaire-etiquetage.md`).
+- ~~**Livraison conditionnée au bouclage réglementaire**~~ — ⛔ **CADUC depuis le 18/08, corrigé ici le 2026-09-11** : la déclaration d'activité est bouclée (`../04_operations/demarches-admin.md`). **Cette contrainte portait le même motif périmé que la ligne « Où on en est » — il figurait donc DEUX FOIS dans la fiche.** ➡️ **La contrainte réelle est de production : étiquettes et miel.** Tableau nutritionnel obligatoire dès vente en restaurant (`../02_produit/reglementaire-etiquetage.md`) — ✅ **il est calculé et imprimé depuis le 09/09.**
 - **Kit de vente remis au restaurateur : sans aucune allégation santé** (grille `../01_adn/conformite.md`).
 
 ## Statut & prochaine étape
 
-- **Où on en est** : accord de test acté (18/07), livraison en attente du bouclage réglementaire.
+- **Où on en est** : accord de test acté (18/07). ✅ **MOTIF DE BLOCAGE CORRIGÉ LE 2026-09-11, sur réponse de Basekou** — cette ligne portait *« livraison en attente du bouclage réglementaire »* **depuis 49 jours, et c'était faux depuis le 18/08** : la déclaration d'activité est bouclée *(la ligne suivante le disait déjà — la fiche se contredisait elle-même)*. 🔴 **CE QUI BLOQUE RÉELLEMENT LA LIVRAISON O'DABA, ce sont LES ÉLÉMENTS DE PRODUCTION : les étiquettes et le miel.** Rien d'administratif.
+  - ⚠️ **ET LA DLC N'EST PAS LE BLOCAGE QU'ON CROYAIT — recadré par Basekou le 2026-09-11.** Le SOT écrivait que sans durée mesurée il n'y avait *« rien à apposer, donc pas de vente »*. **Côté restaurant, le besoin est autre et plus simple** : *« ils savent que le miel fermente, ils ont juste besoin de savoir combien de temps ils peuvent garder les bouteilles au frigo. »* **C'est une information d'exploitation, pas un verrou commercial.**
+  - 📌 **Ce que ça change et ce que ça ne change pas** : ça change le **statut** de l'information — d'obstacle bloquant à donnée à communiquer ; ça ne change **pas son existence**, car **c'est exactement la même mesure** qui la produit, le protocole pH (`../04_operations/production-artisanale.md`). ⚠️ **Une ligne d'alerte, puis on exécute** : la **mention de durabilité reste obligatoire sur l'emballage** d'une denrée préemballée (INCO, art. 24), et le restaurant revend au consommateur final. **Le besoin opérationnel du restaurant et l'obligation d'étiquetage sont deux choses distinctes — la première est satisfaite par une parole, la seconde pas.**
 - **Prochaine action (mise à jour 2026-08-18)** : la **déclaration d'activité est bouclée** (accusé DDPP reçu le 18/08, cf. `../04_operations/demarches-admin.md`). Restent l'**étiquette** (V1.6 en test) et le **miel** (10 kg à commander) → livrer le lot O'Daba ; brief staff (faire poser la question à chaque client à l'encaissement) ; le vrai indicateur reste le RÉACHAT.
 
 ## Prospection ouverte (2026-08-18)
