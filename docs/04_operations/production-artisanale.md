@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-09-11
+maj: 2026-09-15
 source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco ; mention légale DLC (pas DDM) tranchée le 2026-09-03 d'après le rapport produit du 01/09 (Drive) ; taux d'humidité de Joan (16-18 %) et DLC non pré-imprimée consignés le 2026-09-10 ; stock de miel épuisé et ancre « protocole lancé le 19/08 » corrigée le 2026-09-11"
-resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : J0 SANS DATE, il attend que la recette soit figée — décision du 24/08 ; ⚠️ mention légale TRANCHÉE le 03/09 : DLC, pas DDM — et ⛔ DÉCIDÉ le 10/09 qu'elle ne sera PAS pré-imprimée mais apposée au conditionnement lot par lot, ce qui débloque l'étiquette mais PAS la vente : la DURÉE reste non déterminée, donc le protocole pH devient le chemin critique ; ✅ taux d'humidité du miel connu depuis le 10/09 — 16-18 %, sous le seuil de vigilance ; risque de gonflement en PET signalé par le rapport produit, non traité ailleurs)."
+resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : ✅ **J0 RÉALISÉ le 2026-09-14** — déclaré en séance le 15/09, valeurs de pH et heure non encore transmises ; chaîne J+2 le 16/09, J+4 le 18/09, J+6 le 20/09, et **seule la dernière donnera une durée** ; la décision du 24/08 « le protocole attend la recette » est devenue SANS OBJET, la dose ayant été fixée DE FAIT par le tableau des 240 étiquettes imprimées ; ⚠️ mention légale TRANCHÉE le 03/09 : DLC, pas DDM — et ⛔ DÉCIDÉ le 10/09 qu'elle ne sera PAS pré-imprimée mais apposée au conditionnement lot par lot, ce qui débloque l'étiquette mais PAS la vente : la DURÉE reste non déterminée, donc le protocole pH devient le chemin critique ; ✅ taux d'humidité du miel connu depuis le 10/09 — 16-18 %, sous le seuil de vigilance ; risque de gonflement en PET signalé par le rapport produit, non traité ailleurs)."
 ---
 
 # Production artisanale
@@ -68,9 +68,24 @@ Les papiers pH sont en main depuis le **17/08** ; le protocole prend environ un 
 
 ⛔ **ET IL N'A TOUJOURS JAMAIS ÉTÉ LANCÉ — rappel nécessaire au 2026-09-11.** Le digest du jour l'annonçait *« lancé le 19/08 »* : **c'est faux, et c'est exactement l'erreur que cette fiche avait déjà corrigée le 20/08** *(un J0 annoncé pour le 19-20/08 qui n'a jamais eu lieu, une intention écrite comme un fait)*. **La même date fausse est revenue vingt-deux jours plus tard par un autre chemin.** ➡️ **Ce que ça dit : une correction inscrite au SOT ne protège pas contre sa propre réapparition en amont** — les papiers pH sont *reçus* depuis le 17/08, le protocole est *lançable*, il n'est pas *lancé*.
 
-**📅 J0 SANS DATE — le protocole attend la recette** *(arbitré en session le 2026-08-24)*. Le J0 annoncé pour le 20/08 n'a pas eu lieu, et **ce n'est pas un oubli** : Basekou tranche que **mesurer avant d'avoir figé la recette revient à mesurer un autre produit**. Le protocole ne se lance pas tant que les proportions ne sont pas arrêtées (`fournisseurs.md`).
+## ✅ **J0 RÉALISÉ — 2026-09-14** *(déclaré par Basekou en séance le 15/09 : « J0 oui »)*
 
-**Le déclencheur est donc la recette, pas une date.** Le jour où elle est figée, le J0 se fait dans la foulée — la mesure prend une vingtaine de minutes — et la chaîne J+2 / J+4 / J+6 se calcule à partir de là.
+🎉 **C'est le premier relevé de cette chaîne depuis que les papiers pH sont en main, le 17/08 — 28 jours.** Et c'est la première fois que la fiche écrit un J0 au passé.
+
+⚠️ **NIVEAU DE PREUVE, à ne pas surévaluer : fait DÉCLARÉ, pas encore documenté.** Basekou l'énonce en séance ; **les valeurs de pH des deux lots (frais / ambiant) et l'heure exacte ne sont pas transmises à cette date.** C'est une mesure qui a eu lieu, pas encore une mesure consignée. *(La distinction n'est pas formelle : la règle de la série impose le relevé **à la même heure** à chaque échéance — sans l'heure du J0, les suivantes n'ont pas de repère.)*
+
+📌 **CE QUI A DÉBLOQUÉ CE J0, et il faut le noter parce que ça contredit ce que la fiche affirmait juste au-dessus** : la décision du 24/08 — *« le protocole attend la recette »* — **est devenue sans objet le 13/09**. Non pas parce que la dose a été « figée » par une séance de travail, mais parce qu'elle l'a été **DE FAIT par l'impression** : le tableau nutritionnel des **240 étiquettes** fixe la dose à **≈ 8,7 g / 100 mL**, et elle n'est plus corrigible sans réimprimer. **Le déclencheur n'a jamais été atteint ; il a été rendu caduc.**
+
+| Échéance | Date attendue | Statut |
+|---|---|---|
+| **J0** | **2026-09-14** | ✅ réalisé *(valeurs non transmises)* |
+| J+2 | 2026-09-16 | à venir |
+| J+4 | 2026-09-18 | à venir |
+| J+6 | 2026-09-20 | à venir |
+
+⛔ **CE QUE CE J0 NE FAIT PAS** : il ne produit pas une DLC. Il ouvre une série de quatre mesures dont **seule la dernière (J+6) donnera une durée**. Une bouteille ne peut toujours pas être vendue.
+
+➡️ **Rappel de la règle qui a coûté deux fausses annonces** *(« lancé le 19/08 », puis le 11/09)* : **on n'écrit un J0 que lorsqu'il a eu lieu.** Celui-ci est écrit sur déclaration — **les valeurs le confirmeront, ou le corrigeront.**
 
 *(Historique de la chaîne abandonnée : un J0 avait été annoncé le 19/08 puis le 20/08, chacun consigné comme « prévu » et jamais réalisé. Les blocs agenda des 21 et 23/08 étiquetés « J+2 » et « J+4 » suivaient la première chaîne, déjà invalidée à ce moment-là. Tout cela est caduc.)*
 
