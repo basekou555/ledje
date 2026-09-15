@@ -100,7 +100,12 @@ Jamais plus de trois éléments principaux par image. Les matières secondaires 
 
 ---
 
-## Spécifications produit — ⚠️ EN ATTENTE DE VÉRIFICATION FOURNISSEUR
+## Spécifications produit — ✅ LA BOUTEILLE EST CONFIRMÉE · ⚠️ LE CRISTAL NE L'EST PAS
+
+> ✅ **ATTENTE LEVÉE LE 2026-09-11, sur demande explicite de Basekou** *(fiche protégée — modifiée uniquement pour cela)*. **L'en-tête portait « EN ATTENTE DE VÉRIFICATION FOURNISSEUR » depuis le 2026-07-05, soit 68 jours — le marqueur le plus ancien du dépôt.** ⚠️ **Et il était devenu FAUX** : la bouteille a été mesurée, son format d'étiquette figé à **210 × 50 mm** le 09/09, et **240 étiquettes sont imprimées** depuis. **La spec n'attendait plus la confirmation de personne.**
+> ➡️ **L'attente ne portait plus que sur UN des deux formats.** Elle est donc **levée pour la bouteille** et **maintenue pour le cristal**, qui n'a toujours aucun conditionneur identifié.
+> 📌 **À SAVOIR AVANT D'ÉCRIRE UN PROMPT** : le héros physique de la gamme aujourd'hui, c'est **une bouteille PET 33 cl réelle, étiquetée en 210 × 50 mm**. On peut la décrire comme existante, **parce qu'elle existe**.
+> ⚠️ **DEMANDE OUVERTE, non exécutée ici : « le langage visuel doit évoluer, on doit amender le propos »** *(Basekou, 11/09)*. **Lever une attente n'est pas amender un propos** — la première opération est factuelle, la seconde est une direction artistique, et **elle n'est pas écrite**. Ce document reste donc **inchangé sur le fond**, et l'amendement est un chantier à part, à ouvrir quand la direction sera dictée.
 
 **Ne pas verrouiller de spec produit définitive avant confirmation.** État actuel des deux formats :
 
