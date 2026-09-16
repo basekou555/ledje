@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-09-15
+maj: 2026-09-16
 source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco ; mention légale DLC (pas DDM) tranchée le 2026-09-03 d'après le rapport produit du 01/09 (Drive) ; taux d'humidité de Joan (16-18 %) et DLC non pré-imprimée consignés le 2026-09-10 ; stock de miel épuisé et ancre « protocole lancé le 19/08 » corrigée le 2026-09-11"
-resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : ✅ **J0 RÉALISÉ le 2026-09-14** — déclaré en séance le 15/09, valeurs de pH et heure non encore transmises ; chaîne J+2 le 16/09, J+4 le 18/09, J+6 le 20/09, et **seule la dernière donnera une durée** ; la décision du 24/08 « le protocole attend la recette » est devenue SANS OBJET, la dose ayant été fixée DE FAIT par le tableau des 240 étiquettes imprimées ; ⚠️ mention légale TRANCHÉE le 03/09 : DLC, pas DDM — et ⛔ DÉCIDÉ le 10/09 qu'elle ne sera PAS pré-imprimée mais apposée au conditionnement lot par lot, ce qui débloque l'étiquette mais PAS la vente : la DURÉE reste non déterminée, donc le protocole pH devient le chemin critique ; ✅ taux d'humidité du miel connu depuis le 10/09 — 16-18 %, sous le seuil de vigilance ; risque de gonflement en PET signalé par le rapport produit, non traité ailleurs)."
+resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : ✅ **J0 RÉALISÉ dans la NUIT DU 14 AU 15/09 à 01h30** — 6 bouteilles Firplast, 5 au frigo / 1 à l'ambiante, dose conforme (≈ 8,7 g/100 mL). 🔴 **RÉSULTATS : les trois lectures sont HORS PLAGE PAR LE HAUT (> 5,5), y compris l'eau seule** — les bandelettes 3,8-5,5 ne peuvent pas chiffrer le J0, la série reste lisible en tendance mais sans référence de départ ; ⚠️ et le seuil de protection posé par le rapport du 01/09 est **4,6** : au-dessus, **la maîtrise repose entièrement sur le froid et l'hygiène**. Chaîne réelle **J+2 le 17/09, J+4 le 19/09, J+6 le 21/09** — ⚠️ **décalée d'un jour par rapport aux blocs Calendar**, et **seule la dernière donnera une durée** ; la décision du 24/08 « le protocole attend la recette » est devenue SANS OBJET, la dose ayant été fixée DE FAIT par le tableau des 240 étiquettes imprimées ; ⚠️ mention légale TRANCHÉE le 03/09 : DLC, pas DDM — et ⛔ DÉCIDÉ le 10/09 qu'elle ne sera PAS pré-imprimée mais apposée au conditionnement lot par lot, ce qui débloque l'étiquette mais PAS la vente : la DURÉE reste non déterminée, donc le protocole pH devient le chemin critique ; ✅ taux d'humidité du miel connu depuis le 10/09 — 16-18 %, sous le seuil de vigilance ; risque de gonflement en PET signalé par le rapport produit, non traité ailleurs)."
 ---
 
 # Production artisanale
@@ -68,24 +68,51 @@ Les papiers pH sont en main depuis le **17/08** ; le protocole prend environ un 
 
 ⛔ **ET IL N'A TOUJOURS JAMAIS ÉTÉ LANCÉ — rappel nécessaire au 2026-09-11.** Le digest du jour l'annonçait *« lancé le 19/08 »* : **c'est faux, et c'est exactement l'erreur que cette fiche avait déjà corrigée le 20/08** *(un J0 annoncé pour le 19-20/08 qui n'a jamais eu lieu, une intention écrite comme un fait)*. **La même date fausse est revenue vingt-deux jours plus tard par un autre chemin.** ➡️ **Ce que ça dit : une correction inscrite au SOT ne protège pas contre sa propre réapparition en amont** — les papiers pH sont *reçus* depuis le 17/08, le protocole est *lançable*, il n'est pas *lancé*.
 
-## ✅ **J0 RÉALISÉ — 2026-09-14** *(déclaré par Basekou en séance le 15/09 : « J0 oui »)*
+## ✅ **J0 RÉALISÉ — NUIT DU 14 AU 15/09/2026, 01h30** *(source : page Notion « Tests de formulation — journal brut », session Produit)*
 
-🎉 **C'est le premier relevé de cette chaîne depuis que les papiers pH sont en main, le 17/08 — 28 jours.** Et c'est la première fois que la fiche écrit un J0 au passé.
+🎉 **Premier relevé de cette chaîne depuis que les papiers pH sont en main le 17/08 — 28 jours.** Et c'est la première fois que la fiche écrit un J0 **avec son heure et ses valeurs**.
 
-⚠️ **NIVEAU DE PREUVE, à ne pas surévaluer : fait DÉCLARÉ, pas encore documenté.** Basekou l'énonce en séance ; **les valeurs de pH des deux lots (frais / ambiant) et l'heure exacte ne sont pas transmises à cette date.** C'est une mesure qui a eu lieu, pas encore une mesure consignée. *(La distinction n'est pas formelle : la règle de la série impose le relevé **à la même heure** à chaque échéance — sans l'heure du J0, les suivantes n'ont pas de repère.)*
+### Le procédé employé, déclaré par Basekou
+**6 bouteilles Firplast.** Miel de **montagne dosé en premier** dans chacune, puis le **châtaignier**, puis l'eau, **puis agitation** — sans agitation le miel reste au fond. **Répartition : 5 au frigo, 1 à température ambiante** *(ambiante estimée ~25 °C, **non mesurée**)*.
+✅ **Dose conforme au calcul du dépôt** : ≈ 20,2 mL de miel par bouteille de 33 cl, soit ≈ 28,7 g → **≈ 8,7 g/100 mL**.
+⚠️ **Un point resté à confirmer, noté tel quel sans corriger la série en cours** : le partage décrit en séance *(2 seringues de montagne + ½ de châtaignier)* donnerait **80/20**, là où la recette est **25/75** — soit ≈ 1,86 et ≈ 0,62 seringue. Basekou a indiqué avoir respecté les mesures calculées, *« 2 et demie »* étant un raccourci de langage.
 
-📌 **CE QUI A DÉBLOQUÉ CE J0, et il faut le noter parce que ça contredit ce que la fiche affirmait juste au-dessus** : la décision du 24/08 — *« le protocole attend la recette »* — **est devenue sans objet le 13/09**. Non pas parce que la dose a été « figée » par une séance de travail, mais parce qu'elle l'a été **DE FAIT par l'impression** : le tableau nutritionnel des **240 étiquettes** fixe la dose à **≈ 8,7 g / 100 mL**, et elle n'est plus corrigible sans réimprimer. **Le déclencheur n'a jamais été atteint ; il a été rendu caduc.**
+### 🔴 LES RÉSULTATS — et ils posent un problème que la série ne résout pas
 
-| Échéance | Date attendue | Statut |
+| Échantillon | Lecture | Observations |
 |---|---|---|
-| **J0** | **2026-09-14** | ✅ réalisé *(valeurs non transmises)* |
-| J+2 | 2026-09-16 | à venir |
-| J+4 | 2026-09-18 | à venir |
-| J+6 | 2026-09-20 | à venir |
+| **Eau Cristaline seule** | **hors plage par le haut, > 5,5** | *(bleu le plus foncé de l'échelle)* |
+| **Boisson, lot FRAIS** | **hors plage par le haut, > 5,5** | aspect normal · pas de gaz · pas d'odeur · **goût identique à d'habitude** |
+| **Boisson, lot AMBIANT** | **hors plage par le haut, > 5,5** | aspect normal · pas de gaz · pas d'odeur |
 
-⛔ **CE QUE CE J0 NE FAIT PAS** : il ne produit pas une DLC. Il ouvre une série de quatre mesures dont **seule la dernière (J+6) donnera une durée**. Une bouteille ne peut toujours pas être vendue.
+⛔ **LES BANDELETTES 3,8-5,5 NE PEUVENT PAS CHIFFRER CE J0.** La valeur de départ n'est connue que comme *« supérieure à 5,5 »*. **La série reste lisible en TENDANCE** — une baisse fera entrer la valeur dans la plage — **mais elle n'a aucune référence chiffrée de départ.**
 
-➡️ **Rappel de la règle qui a coûté deux fausses annonces** *(« lancé le 19/08 », puis le 11/09)* : **on n'écrit un J0 que lorsqu'il a eu lieu.** Celui-ci est écrit sur déclaration — **les valeurs le confirmeront, ou le corrigeront.**
+⚠️ **ET UN POINT DE FOND, qui dépasse l'instrument.** Le rapport produit du 01/09 pose **4,6 comme seuil**. **Un produit au-dessus n'est pas protégé par son acidité : la maîtrise repose alors entièrement sur le FROID et l'HYGIÈNE.** Ce n'est pas un détail de méthode, c'est ce qui portera la DLC.
+
+🔍 **Deux hypothèses à départager, aucune tranchée** : ① l'eau utilisée **tamponne** l'acidité du miel à cette dilution ; ② **les bandelettes ne réagissent pas comme attendu**. 📌 **Et une observation qui vaut par elle-même : l'eau seule et la boisson donnent la MÊME lecture.** À cette dilution, soit le miel ne déplace pas le pH, soit l'instrument ne le voit pas — **les deux se règlent autrement qu'en attendant J+6.**
+
+### La chaîne réelle des échéances
+
+⚠️ **Elle n'est PAS celle des blocs Calendar.** Le J0 ayant eu lieu **à 01h30 dans la nuit du 14 au 15**, la chaîne court à partir de là :
+
+✅ **ARBITRÉ PAR BASEKOU LE 16/09 : on tient 01h30 et on décale les blocs d'un jour** *(option a des trois proposées)*. **La série est donc exacte à l'heure près, et l'horaire n'a pas à être rattrapé plus tard par une correction.**
+
+| Échéance | Date et heure tenues | Bloc Calendar posé le 11/09 | Correction faite le 16/09 |
+|---|---|---|---|
+| **J0** | **15/09, 01h30** | — | — |
+| J+2 | **17/09, 01h30** | 16/09 18h30 | **+1 jour, heure alignée** |
+| J+4 | **19/09, 01h30** | 18/09 18h30 | **+1 jour, heure alignée** |
+| J+6 | **21/09, 01h30** | 20/09 18h30 | **+1 jour, heure alignée** |
+
+*(Prolongation éventuelle, si le pH n'a pas bougé sur le lot frais : **J+10 le 25/09** et **J+14 le 29/09**, toujours à 01h30.)*
+
+➡️ **La règle de la série impose le relevé à la MÊME HEURE qu'au J0 — soit 01h30, et c'est le choix retenu.** Un relevé à 18h30 le 16/09 aurait été un **J+1,7**, pas un J+2.
+
+⚠️ **Ce qui n'est pas négociable, et que cet arbitrage respecte : l'écart doit être ÉCRIT.** Une série dont les intervalles sont inégaux sans qu'on sache lesquels **ne mesure plus une durée** — c'est exactement ce qui a invalidé la chaîne abandonnée d'août.
+
+🔮 **Conséquence en aval, corrigée le même jour** : le bloc de vérification de la prédiction du conseil du 13/09, posé au **20/09 19h**, tombait **avant** le J+6. Il est déplacé au **21/09 19h**, après le relevé de la nuit. **Sans ce déplacement, la prédiction devenait mécaniquement invérifiable sur une date impossible à tenir.**
+
+⛔ **CE QUE CE J0 NE FAIT PAS** : il ne produit aucune DLC. Il ouvre une série dont **seule la dernière mesure donnera une durée** — et, en l'état de l'instrument, **une tendance plutôt qu'un chiffre.**
 
 *(Historique de la chaîne abandonnée : un J0 avait été annoncé le 19/08 puis le 20/08, chacun consigné comme « prévu » et jamais réalisé. Les blocs agenda des 21 et 23/08 étiquetés « J+2 » et « J+4 » suivaient la première chaîne, déjà invalidée à ce moment-là. Tout cela est caduc.)*
 
