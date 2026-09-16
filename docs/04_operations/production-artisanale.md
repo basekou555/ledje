@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-09-15
+maj: 2026-09-16
 source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco ; mention légale DLC (pas DDM) tranchée le 2026-09-03 d'après le rapport produit du 01/09 (Drive) ; taux d'humidité de Joan (16-18 %) et DLC non pré-imprimée consignés le 2026-09-10 ; stock de miel épuisé et ancre « protocole lancé le 19/08 » corrigée le 2026-09-11"
 resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : ✅ **J0 RÉALISÉ dans la NUIT DU 14 AU 15/09 à 01h30** — 6 bouteilles Firplast, 5 au frigo / 1 à l'ambiante, dose conforme (≈ 8,7 g/100 mL). 🔴 **RÉSULTATS : les trois lectures sont HORS PLAGE PAR LE HAUT (> 5,5), y compris l'eau seule** — les bandelettes 3,8-5,5 ne peuvent pas chiffrer le J0, la série reste lisible en tendance mais sans référence de départ ; ⚠️ et le seuil de protection posé par le rapport du 01/09 est **4,6** : au-dessus, **la maîtrise repose entièrement sur le froid et l'hygiène**. Chaîne réelle **J+2 le 17/09, J+4 le 19/09, J+6 le 21/09** — ⚠️ **décalée d'un jour par rapport aux blocs Calendar**, et **seule la dernière donnera une durée** ; la décision du 24/08 « le protocole attend la recette » est devenue SANS OBJET, la dose ayant été fixée DE FAIT par le tableau des 240 étiquettes imprimées ; ⚠️ mention légale TRANCHÉE le 03/09 : DLC, pas DDM — et ⛔ DÉCIDÉ le 10/09 qu'elle ne sera PAS pré-imprimée mais apposée au conditionnement lot par lot, ce qui débloque l'étiquette mais PAS la vente : la DURÉE reste non déterminée, donc le protocole pH devient le chemin critique ; ✅ taux d'humidité du miel connu depuis le 10/09 — 16-18 %, sous le seuil de vigilance ; risque de gonflement en PET signalé par le rapport produit, non traité ailleurs)."
 ---
@@ -95,16 +95,22 @@ Les papiers pH sont en main depuis le **17/08** ; le protocole prend environ un 
 
 ⚠️ **Elle n'est PAS celle des blocs Calendar.** Le J0 ayant eu lieu **à 01h30 dans la nuit du 14 au 15**, la chaîne court à partir de là :
 
-| Échéance | Date réelle | Bloc Calendar posé le 11/09 | Écart |
+✅ **ARBITRÉ PAR BASEKOU LE 16/09 : on tient 01h30 et on décale les blocs d'un jour** *(option a des trois proposées)*. **La série est donc exacte à l'heure près, et l'horaire n'a pas à être rattrapé plus tard par une correction.**
+
+| Échéance | Date et heure tenues | Bloc Calendar posé le 11/09 | Correction faite le 16/09 |
 |---|---|---|---|
 | **J0** | **15/09, 01h30** | — | — |
-| J+2 | **17/09** | 16/09 18h30 | **1 jour** |
-| J+4 | **19/09** | 18/09 18h30 | **1 jour** |
-| J+6 | **21/09** | 20/09 18h30 | **1 jour** |
+| J+2 | **17/09, 01h30** | 16/09 18h30 | **+1 jour, heure alignée** |
+| J+4 | **19/09, 01h30** | 18/09 18h30 | **+1 jour, heure alignée** |
+| J+6 | **21/09, 01h30** | 20/09 18h30 | **+1 jour, heure alignée** |
 
-*(Prolongation éventuelle : 23/09 et 25/09, si le pH n'a pas bougé sur le lot frais.)*
+*(Prolongation éventuelle, si le pH n'a pas bougé sur le lot frais : **J+10 le 25/09** et **J+14 le 29/09**, toujours à 01h30.)*
 
-➡️ **La règle de la série impose le relevé à la MÊME HEURE qu'au J0 — soit 01h30.** C'est peu praticable : **l'écart d'horaire est à arbitrer et à consigner, pas à ignorer.** Un relevé à 18h30 le 16/09 serait un **J+1,7**, pas un J+2.
+➡️ **La règle de la série impose le relevé à la MÊME HEURE qu'au J0 — soit 01h30, et c'est le choix retenu.** Un relevé à 18h30 le 16/09 aurait été un **J+1,7**, pas un J+2.
+
+⚠️ **Ce qui n'est pas négociable, et que cet arbitrage respecte : l'écart doit être ÉCRIT.** Une série dont les intervalles sont inégaux sans qu'on sache lesquels **ne mesure plus une durée** — c'est exactement ce qui a invalidé la chaîne abandonnée d'août.
+
+🔮 **Conséquence en aval, corrigée le même jour** : le bloc de vérification de la prédiction du conseil du 13/09, posé au **20/09 19h**, tombait **avant** le J+6. Il est déplacé au **21/09 19h**, après le relevé de la nuit. **Sans ce déplacement, la prédiction devenait mécaniquement invérifiable sur une date impossible à tenir.**
 
 ⛔ **CE QUE CE J0 NE FAIT PAS** : il ne produit aucune DLC. Il ouvre une série dont **seule la dernière mesure donnera une durée** — et, en l'état de l'instrument, **une tendance plutôt qu'un chiffre.**
 
