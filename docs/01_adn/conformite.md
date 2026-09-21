@@ -27,7 +27,9 @@ resume: "La grille autorisé/interdit (jamais d'effet sur le corps), l'allégati
 
 **« Moins de sucre qu'une boisson gazeuse classique » n'est PAS une allégation de SANTÉ — c'est une allégation NUTRITIONNELLE** : elle porte sur un fait de composition mesurable, pas sur un effet corporel promis. ⚠️ **Correction de rédaction du 21/09 : cette fiche écrivait « régime distinct du CE 1924/2006 », ce qui est faux.** Les allégations nutritionnelles **comparatives relèvent précisément de ce règlement** *(art. 9 et annexe)*. **La distinction qui tient est santé / nutritionnelle, pas dedans / hors du 1924/2006.** Seuil légal : **réduction ≥ 30 %** par rapport à **une gamme de produits similaires** pour employer « réduit en sucres ».
 
-### 🔴 Le chiffre réel, mesuré sur la recette imprimée (2026-09-21)
+### 🔴 Le chiffre réel, CALCULÉ sur la recette imprimée (2026-09-21)
+
+*(« Calculé », pas « mesuré » — la distinction est reprise en bas de section et elle compte : aucune analyse de laboratoire n'a été faite sur la boisson.)*
 
 | | |
 |---|---|
