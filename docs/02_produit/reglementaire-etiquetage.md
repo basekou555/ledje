@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-08-27
+maj: 2026-09-21
 source: "SOT §4.4 partie étiquetage (archive 2026-07-24) + contenu légal 33cl figé 2026-07-24 (page relais) ; deux mentions résiduelles nettoyées en session le 2026-08-27 (QUID « de France », règle logo v2 caduque)"
 resume: "Étiquetage INCO de la boisson pré-mélangée, mentions obligatoires, allègements possibles ; contenu légal 33cl figé — dénomination, QUID, « sans arôme artificiel » (détail : eau-miellee-33cl.md)."
 ---
@@ -24,4 +24,4 @@ Le contenu légal de l'étiquette de la bouteille 33cl est figé — **dénomina
 ## Renvois
 
 - Démarches (déclaration d'activité, HACCP, DDPP) : `../04_operations/demarches-admin.md`
-- Allégation nutritionnelle comparative (« jusqu'à 4 fois moins de sucre ») : `../01_adn/conformite.md`
+- Allégation nutritionnelle comparative — ⚠️ **formulation CORRIGÉE le 2026-09-21** : *« jusqu'à un tiers de sucres en moins qu'un soda classique »* (≈ 33 %). ⛔ **L'ancienne — « jusqu'à 4 fois moins de sucre » — ne s'emploie plus** : elle reposait sur une dose ≈ 2,5 fois plus faible que la recette imprimée. **Jamais imprimée sur les étiquettes** *(vérifié le 21/09)*. Détail et seuil légal : `../01_adn/conformite.md`
