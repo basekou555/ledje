@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-09-17
+maj: 2026-09-20
 source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco ; mention légale DLC (pas DDM) tranchée le 2026-09-03 d'après le rapport produit du 01/09 (Drive) ; taux d'humidité de Joan (16-18 %) et DLC non pré-imprimée consignés le 2026-09-10 ; stock de miel épuisé et ancre « protocole lancé le 19/08 » corrigée le 2026-09-11"
-resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : ✅ **J0 RÉALISÉ dans la NUIT DU 14 AU 15/09 à 01h30** — 6 bouteilles Firplast, 5 au frigo / 1 à l'ambiante, dose conforme (≈ 8,7 g/100 mL). 🔴 **RÉSULTATS : les trois lectures sont HORS PLAGE PAR LE HAUT (> 5,5), y compris l'eau seule** — les bandelettes 3,8-5,5 ne peuvent pas chiffrer le J0, la série reste lisible en tendance mais sans référence de départ ; ⚠️ et le seuil de protection posé par le rapport du 01/09 est **4,6** : au-dessus, **la maîtrise repose entièrement sur le froid et l'hygiène**. ✅ **J+2 RÉALISÉ le 17/09 vers 01h30 : le LOT FRAIS ne bouge pas (aucun signe, bandelette inchangée) ; le LOT AMBIANT donne les TROIS signes concordants — petit pschitt, odeur de fermentation, bandelette 5,2-5,5, première lecture DANS la plage.** Un contrôle intermédiaire au 16/09 après-midi (≈ J+1,5) ne montrait RIEN : **les signes sont apparus entre ≈ 36 h et ≈ 48 h à 25 °C** — ⚠️ sur une bouteille ouverte **3 fois**, donc plancher prudent, pas tenue d'une bouteille scellée. ➡️ **La bandelette est validée comme ALARME : la seule bouteille altérée est la seule dont la teinte a bougé.** ⛔ **Et la chaîne du froid devient le plan de maîtrise : la livraison O'Daba doit être réfrigérée.** Chaîne réelle **J+4 le 19/09, J+6 le 21/09 à 01h30** — ⚠️ **décalée d'un jour par rapport aux blocs Calendar posés le 11/09**, et **seule la dernière donnera une durée** ; la décision du 24/08 « le protocole attend la recette » est devenue SANS OBJET, la dose ayant été fixée DE FAIT par le tableau des 240 étiquettes imprimées ; ⚠️ mention légale TRANCHÉE le 03/09 : DLC, pas DDM — et ⛔ DÉCIDÉ le 10/09 qu'elle ne sera PAS pré-imprimée mais apposée au conditionnement lot par lot, ce qui débloque l'étiquette mais PAS la vente : la DURÉE reste non déterminée, donc le protocole pH devient le chemin critique ; ✅ taux d'humidité du miel connu depuis le 10/09 — 16-18 %, sous le seuil de vigilance ; risque de gonflement en PET signalé par le rapport produit, non traité ailleurs)."
+resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : ✅ **J0 RÉALISÉ dans la NUIT DU 14 AU 15/09 à 01h30** — 6 bouteilles Firplast, 5 au frigo / 1 à l'ambiante, dose conforme (≈ 8,7 g/100 mL). 🔴 **RÉSULTATS : les trois lectures sont HORS PLAGE PAR LE HAUT (> 5,5), y compris l'eau seule** — les bandelettes 3,8-5,5 ne peuvent pas chiffrer le J0, la série reste lisible en tendance mais sans référence de départ ; ⚠️ et le seuil de protection posé par le rapport du 01/09 est **4,6** : au-dessus, **la maîtrise repose entièrement sur le froid et l'hygiène**. ✅ **J+2 RÉALISÉ le 17/09 vers 01h30 : le LOT FRAIS ne bouge pas (aucun signe, bandelette inchangée) ; le LOT AMBIANT donne les TROIS signes concordants — petit pschitt, odeur de fermentation, bandelette 5,2-5,5, première lecture DANS la plage.** Un contrôle intermédiaire au 16/09 après-midi (≈ J+1,5) ne montrait RIEN : **les signes sont apparus entre ≈ 36 h et ≈ 48 h à 25 °C** — ⚠️ sur une bouteille ouverte **3 fois**, donc plancher prudent, pas tenue d'une bouteille scellée. ➡️ **La bandelette est validée comme ALARME : la seule bouteille altérée est la seule dont la teinte a bougé.** ⛔ **Et la chaîne du froid devient le plan de maîtrise : la livraison O'Daba doit être réfrigérée.** ✅ **J+4 RÉALISÉ le 19/09 à ≈ 11h05** *(et non 01h30 — soit J+4,39 ; l'écart est écrit)* : 🟢 **LOT FRAIS TOUJOURS AUCUN SIGNE à 4 jours** — bandelette inchangée, goût inchangé, et la sensation de tanin de J+2 n'est PAS revenue *(elle venait bien de l'agitation, pas de l'âge)*. 🔴 **LOT AMBIANT : fermentation INSTALLÉE — pschitt, FORTE odeur, bandelette à 4**, soit ≈ 1,5 point perdu en deux jours *(> 5,5 → 5,2-5,5 → 4)*. ⚠️ **Le pH 4 du lot ambiant n'est PAS une protection : l'acidité y est le PRODUIT de la fermentation, pas une formulation.** ➡️ **Le contraste entre les deux lots est massif à 4 jours : le froid n'est pas un facteur parmi d'autres, c'est LE facteur.** Chaîne réelle **J+6 le 21/09 à 01h40** — ⚠️ **décalée d'un jour par rapport aux blocs Calendar posés le 11/09**, et **seule la dernière donnera une durée** ; la décision du 24/08 « le protocole attend la recette » est devenue SANS OBJET, la dose ayant été fixée DE FAIT par le tableau des 240 étiquettes imprimées ; ⚠️ mention légale TRANCHÉE le 03/09 : DLC, pas DDM — et ⛔ DÉCIDÉ le 10/09 qu'elle ne sera PAS pré-imprimée mais apposée au conditionnement lot par lot, ce qui débloque l'étiquette mais PAS la vente : la DURÉE reste non déterminée, donc le protocole pH devient le chemin critique ; ✅ taux d'humidité du miel connu depuis le 10/09 — 16-18 %, sous le seuil de vigilance ; risque de gonflement en PET signalé par le rapport produit, non traité ailleurs)."
 ---
 
 # Production artisanale
@@ -164,6 +164,53 @@ Les papiers pH sont en main depuis le **17/08** ; le protocole prend environ un 
 - ⛔ **Ça n'identifie rien microbiologiquement.** « Odeur de fermentation » est une observation sensorielle, pas une analyse. **Les deux hypothèses du J0 restent ouvertes** *(l'eau tamponne · les bandelettes réagissent mal)* — mais la descente observée sur le seul lot altéré **affaiblit nettement la seconde.**
 
 **Prochain point : J+4 le 19/09 à 01h30.** Consigne notée par la session Produit : **lire le lot ambiant FERMÉ d'abord, puis l'ouvrir au-dessus de l'évier.**
+
+---
+
+## ✅ **J+4 RÉALISÉ — 19/09/2026, ≈ 11h05** *(source : page Notion « Tests de formulation », session Produit)*
+
+⚠️ **LE POINT N'A PAS ÉTÉ PRIS À 01h30 MAIS ≈ 9 h 30 PLUS TARD — soit J+4,39 et non J+4,0.** **L'écart est écrit, comme la règle l'impose** : une série dont les intervalles sont inégaux sans qu'on sache lesquels ne mesure plus une durée.
+
+| Point | Date et heure réelles | Écart depuis le J0 | Intervalle |
+|---|---|---|---|
+| **J0** | 15/09, 01h40 | — | — |
+| **J+2** | 17/09, ≈ 01h30 | J+1,99 | — |
+| **J+4** | **19/09, ≈ 11h05** | **J+4,39** | **57,6 h** |
+| **J+6** *(prévu)* | 21/09, 01h40 | J+6,00 | **38,6 h** |
+
+➡️ **Conséquence à ne pas perdre : l'intervalle J+2 → J+4 fait 57,6 h, celui de J+4 → J+6 en fera 38,6.** **Les deux derniers points ne sont pas également espacés.** Ça ne casse pas la série — **les écarts se comptent depuis le J0, et ils sont connus** — mais ça interdit de lire une pente entre deux points consécutifs.
+
+### 🟢 LOT FRAIS *(bouteille n°3, ouverture unique)* — TOUJOURS AUCUN SIGNE
+
+Paroi souple, non déformée · aucun dépôt · **pas de pschitt** · même odeur · même couleur · **bandelette ≥ 5,5, inchangée depuis le J0** · **goût inchangé**.
+
+🎯 **ET UN POINT SE RÉSOUT DE LUI-MÊME : la légère sensation de tanin notée à J+2 N'EST PAS REVENUE.** Elle était donc bien liée **à l'agitation ou au mélange des miels, pas à l'âge du produit** — l'hypothèse que Basekou avait avancée à J+2 est confirmée par son absence. **Un doute levé par la série elle-même.**
+
+➡️ **LE LOT FRAIS TIENT 4 JOURS SANS AUCUN SIGNE. C'est la première borne réelle de la durée.**
+
+### 🔴 LOT AMBIANT *(≈ 25 °C, 4ᵉ ouverture)* — FERMENTATION INSTALLÉE
+
+**Pschitt à l'ouverture · FORTE odeur de fermentation · bandelette à 4** · paroi souple et non gonflée · non goûté.
+
+| Point | Bandelette, lot ambiant |
+|---|---|
+| J0 | **> 5,5** *(hors plage par le haut)* |
+| J+2 | **5,2 - 5,5** *(première lecture dans la plage)* |
+| J+4 | **4** |
+
+➡️ **Chute d'environ 1,5 point en deux jours.** **La descente est nette, régulière et cohérente avec le gaz et l'odeur.**
+
+📌 **Pourquoi la paroi reste souple malgré la fermentation** : la bouteille a été **ouverte 4 fois**, ce qui a libéré le gaz à chaque fois. **L'absence de gonflement n'est donc pas un signe de bonne tenue ici — c'est un artefact du protocole.**
+
+⚠️ **ET UN POINT À NE PAS LIRE À L'ENVERS, parce qu'il est contre-intuitif : le lot ambiant est maintenant à pH 4, donc SOUS le seuil de 4,6.** **Ce n'est pas une bonne nouvelle et ça ne le protège de rien.** Le seuil de 4,6 vaut pour un produit **formulé** acide dès le départ ; ici **l'acidité est le PRODUIT de la fermentation**, c'est-à-dire de l'altération elle-même. **Un produit qui s'acidifie en fermentant n'est pas devenu sûr, il est devenu autre chose.**
+
+### ✅ CE QUE LE J+4 ÉTABLIT
+
+- **La bandelette est définitivement validée comme instrument de suivi** : elle a lu `> 5,5` → `5,2-5,5` → `4` sur la bouteille qui fermente, et **rien du tout** sur celle qui ne fermente pas. **Elle ne chiffre pas le départ, mais elle suit la descente sans ambiguïté.**
+- **Le contraste entre les deux lots est maintenant massif** : à 4 jours, l'un est intact, l'autre porte gaz, odeur forte et 1,5 point de pH en moins. ➡️ **Le froid n'est pas un facteur parmi d'autres. C'est LE facteur.**
+- ⛔ **Ça ne donne toujours pas de DLC.** Le lot frais n'a pas bougé : **la durée reste inconnue par le haut.** Si le J+6 ne montre rien non plus, **la série se PROLONGE** *(J+10 le 25/09, J+14 le 29/09)* au lieu de conclure.
+
+**Prochain point : J+6 le 21/09, heure de référence 01h40 — noter l'heure RÉELLE.** Il reste au frigo la bouteille du J+6 et la réserve.
 
 *(Historique de la chaîne abandonnée : un J0 avait été annoncé le 19/08 puis le 20/08, chacun consigné comme « prévu » et jamais réalisé. Les blocs agenda des 21 et 23/08 étiquetés « J+2 » et « J+4 » suivaient la première chaîne, déjà invalidée à ce moment-là. Tout cela est caduc.)*
 
