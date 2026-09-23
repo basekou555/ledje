@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-09-03
-source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco ; mention légale DLC (pas DDM) tranchée le 2026-09-03 d'après le rapport produit du 01/09 (Drive)"
-resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : J0 SANS DATE, il attend que la recette soit figée — décision du 24/08 ; ⚠️ mention légale TRANCHÉE le 03/09 : DLC, pas DDM, non déterminée à ce jour, étiquette bloquée ; risque de gonflement en PET signalé par le rapport produit, non traité ailleurs)."
+maj: 2026-09-20
+source: "SOT §1.4bis (archive 2026-07-24) — pivot décidé 2026-07-07 avec Francesco ; mention légale DLC (pas DDM) tranchée le 2026-09-03 d'après le rapport produit du 01/09 (Drive) ; taux d'humidité de Joan (16-18 %) et DLC non pré-imprimée consignés le 2026-09-10 ; stock de miel épuisé et ancre « protocole lancé le 19/08 » corrigée le 2026-09-11"
+resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco, vigilances avant première vente, plafond de capacité, et le point dur stabilité/fermentation (protocole pH : ✅ **J0 RÉALISÉ dans la NUIT DU 14 AU 15/09 à 01h30** — 6 bouteilles Firplast, 5 au frigo / 1 à l'ambiante, dose conforme (≈ 8,7 g/100 mL). 🔴 **RÉSULTATS : les trois lectures sont HORS PLAGE PAR LE HAUT (> 5,5), y compris l'eau seule** — les bandelettes 3,8-5,5 ne peuvent pas chiffrer le J0, la série reste lisible en tendance mais sans référence de départ ; ⚠️ et le seuil de protection posé par le rapport du 01/09 est **4,6** : au-dessus, **la maîtrise repose entièrement sur le froid et l'hygiène**. ✅ **J+2 RÉALISÉ le 17/09 vers 01h30 : le LOT FRAIS ne bouge pas (aucun signe, bandelette inchangée) ; le LOT AMBIANT donne les TROIS signes concordants — petit pschitt, odeur de fermentation, bandelette 5,2-5,5, première lecture DANS la plage.** Un contrôle intermédiaire au 16/09 après-midi (≈ J+1,5) ne montrait RIEN : **les signes sont apparus entre ≈ 36 h et ≈ 48 h à 25 °C** — ⚠️ sur une bouteille ouverte **3 fois**, donc plancher prudent, pas tenue d'une bouteille scellée. ➡️ **La bandelette est validée comme ALARME : la seule bouteille altérée est la seule dont la teinte a bougé.** ⛔ **Et la chaîne du froid devient le plan de maîtrise : la livraison O'Daba doit être réfrigérée.** ✅ **J+4 RÉALISÉ le 19/09 à ≈ 11h05** *(et non 01h30 — soit J+4,39 ; l'écart est écrit)* : 🟢 **LOT FRAIS TOUJOURS AUCUN SIGNE à 4 jours** — bandelette inchangée, goût inchangé, et la sensation de tanin de J+2 n'est PAS revenue *(elle venait bien de l'agitation, pas de l'âge)*. 🔴 **LOT AMBIANT : fermentation INSTALLÉE — pschitt, FORTE odeur, bandelette à 4**, soit ≈ 1,5 point perdu en deux jours *(> 5,5 → 5,2-5,5 → 4)*. ⚠️ **Le pH 4 du lot ambiant n'est PAS une protection : l'acidité y est le PRODUIT de la fermentation, pas une formulation.** ➡️ **Le contraste entre les deux lots est massif à 4 jours : le froid n'est pas un facteur parmi d'autres, c'est LE facteur.** Chaîne réelle **J+6 le 21/09 à 01h40** — ⚠️ **décalée d'un jour par rapport aux blocs Calendar posés le 11/09**, et **seule la dernière donnera une durée** ; la décision du 24/08 « le protocole attend la recette » est devenue SANS OBJET, la dose ayant été fixée DE FAIT par le tableau des 240 étiquettes imprimées ; ⚠️ mention légale TRANCHÉE le 03/09 : DLC, pas DDM — et ⛔ DÉCIDÉ le 10/09 qu'elle ne sera PAS pré-imprimée mais apposée au conditionnement lot par lot, ce qui débloque l'étiquette mais PAS la vente : la DURÉE reste non déterminée, donc le protocole pH devient le chemin critique ; ✅ taux d'humidité du miel connu depuis le 10/09 — 16-18 %, sous le seuil de vigilance ; risque de gonflement en PET signalé par le rapport produit, non traité ailleurs)."
 ---
 
 # Production artisanale
@@ -14,7 +14,7 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 
 1. **Tester la recette** en conditions réelles (goût, dosage, critère « jamais la gorge sèche »).
 2. **Collecter des retours réels de testeurs** — principe Francesco : *chaque contact produit laisse une trace* (QR code, email, papier — peu importe le support, l'essentiel est la trace).
-3. **Vendre en LOTS aux mosquées** (B2B2C, jamais du détail individuel sur stand) — détail : `../03_marche/canal-mosquee.md` ; canal restaurant en test : `../03_marche/canal-restaurant.md`.
+3. **Vendre en LOTS aux mosquées** — ⚠️ **modèle corrigé le 2026-09-10 : C2B2C, pas B2B2C** *(cette fiche portait « B2B2C » alors que la bascule en C2B2C est datée du 21/07 dans `../03_marche/canal-mosquee.md` — les mosquées n'achètent pas, c'est un fidèle qui offre un lot à la sienne ; écart signalé au relais par une session Cowork le 08/09, jamais corrigé jusqu'ici)*. **Jamais du détail individuel sur stand** — détail : `../03_marche/canal-mosquee.md` ; canal restaurant en test : `../03_marche/canal-restaurant.md`.
 4. **Identifier les volumes de consommation par mosquée** → construire la courbe jusqu'aux volumes justifiant l'usine.
 5. **Autofinancer la première production industrielle** si la phase est rentable.
 6. **Travailler le branding** sur le terrain (option légère : carafe + verres logotés en événement si bouteilles personnalisées trop chères).
@@ -62,21 +62,169 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 
 Les papiers pH sont en main depuis le **17/08** ; le protocole prend environ un quart d'heure.
 
-**📅 J0 SANS DATE — le protocole attend la recette** *(arbitré en session le 2026-08-24)*. Le J0 annoncé pour le 20/08 n'a pas eu lieu, et **ce n'est pas un oubli** : Basekou tranche que **mesurer avant d'avoir figé la recette revient à mesurer un autre produit**. Le protocole ne se lance pas tant que les proportions ne sont pas arrêtées (`fournisseurs.md`).
+⚠️ **2026-09-11 — LE POIDS DU PROTOCOLE EST RECADRÉ PAR BASEKOU, et il faut le lire correctement.** Cette fiche écrivait que sans durée mesurée il n'y a *« rien à apposer, donc pas de vente »*. **Vrai pour l'étiquetage, trop large pour le terrain.** Côté restaurant : *« ils savent que le miel fermente, ils ont juste besoin de savoir combien de temps ils peuvent garder les bouteilles au frigo. »* ➡️ **La durée change de STATUT — d'obstacle bloquant à information d'exploitation à transmettre — mais pas d'EXISTENCE : c'est le même protocole pH qui la produit.** ⚠️ **Et la mention de durabilité reste obligatoire sur l'emballage** (INCO, art. 24) : le besoin du restaurant se satisfait d'une parole, **l'obligation d'étiquetage non**. 📌 **Conséquence pratique : le protocole pH ne cesse pas d'être le chemin critique, il cesse d'être un mur** — une première mesure grossière suffit à servir O'Daba, là où l'étiquetage demandera une durée défendable.
 
-**Le déclencheur est donc la recette, pas une date.** Le jour où elle est figée, le J0 se fait dans la foulée — la mesure prend une vingtaine de minutes — et la chaîne J+2 / J+4 / J+6 se calcule à partir de là.
+🔴 **2026-09-11 — IL N'Y A PLUS DE MIEL DU TOUT.** Déclaré par Basekou en séance : *« j'ai plus de miel, donc le protocole est en attente. »* **Ce n'est plus seulement que le miel de production n'est pas en main — le stock de test est épuisé.** ⚠️ **Conséquence : le protocole pH n'est plus seulement bloqué par la recette, il l'est aussi par la MATIÈRE.** Les deux verrous sont maintenant empilés, et le second se lève au retrait chez Joan. ✅ **ET CE RETRAIT A UNE DATE, arrêtée le même jour : DIMANCHE 13 SEPTEMBRE 2026** (`fournisseurs.md`). ➡️ **Donc à partir du 13/09, le verrou « matière » tombe et il ne reste que celui de la recette.** ⛔ **Ce qui ne fait toujours PAS une date de J0** : la dose n'est pas arrêtée, et la décision du 24/08 tient — *mesurer avant d'avoir figé revient à mesurer un autre produit*. **Le 13/09 est une date de RETRAIT, jamais un J0.**
+
+⛔ **ET IL N'A TOUJOURS JAMAIS ÉTÉ LANCÉ — rappel nécessaire au 2026-09-11.** Le digest du jour l'annonçait *« lancé le 19/08 »* : **c'est faux, et c'est exactement l'erreur que cette fiche avait déjà corrigée le 20/08** *(un J0 annoncé pour le 19-20/08 qui n'a jamais eu lieu, une intention écrite comme un fait)*. **La même date fausse est revenue vingt-deux jours plus tard par un autre chemin.** ➡️ **Ce que ça dit : une correction inscrite au SOT ne protège pas contre sa propre réapparition en amont** — les papiers pH sont *reçus* depuis le 17/08, le protocole est *lançable*, il n'est pas *lancé*.
+
+## ✅ **J0 RÉALISÉ — NUIT DU 14 AU 15/09/2026, 01h30** *(source : page Notion « Tests de formulation — journal brut », session Produit)*
+
+🎉 **Premier relevé de cette chaîne depuis que les papiers pH sont en main le 17/08 — 28 jours.** Et c'est la première fois que la fiche écrit un J0 **avec son heure et ses valeurs**.
+
+### Le procédé employé, déclaré par Basekou
+**6 bouteilles Firplast.** Miel de **montagne dosé en premier** dans chacune, puis le **châtaignier**, puis l'eau, **puis agitation** — sans agitation le miel reste au fond. **Répartition : 5 au frigo, 1 à température ambiante** *(ambiante estimée ~25 °C, **non mesurée**)*.
+✅ **Dose conforme au calcul du dépôt** : ≈ 20,2 mL de miel par bouteille de 33 cl, soit ≈ 28,7 g → **≈ 8,7 g/100 mL**.
+⚠️ **Un point resté à confirmer, noté tel quel sans corriger la série en cours** : le partage décrit en séance *(2 seringues de montagne + ½ de châtaignier)* donnerait **80/20**, là où la recette est **25/75** — soit ≈ 1,86 et ≈ 0,62 seringue. Basekou a indiqué avoir respecté les mesures calculées, *« 2 et demie »* étant un raccourci de langage.
+
+### 🔴 LES RÉSULTATS — et ils posent un problème que la série ne résout pas
+
+| Échantillon | Lecture | Observations |
+|---|---|---|
+| **Eau Cristaline seule** | **hors plage par le haut, > 5,5** | *(bleu le plus foncé de l'échelle)* |
+| **Boisson, lot FRAIS** | **hors plage par le haut, > 5,5** | aspect normal · pas de gaz · pas d'odeur · **goût identique à d'habitude** |
+| **Boisson, lot AMBIANT** | **hors plage par le haut, > 5,5** | aspect normal · pas de gaz · pas d'odeur |
+
+⛔ **LES BANDELETTES 3,8-5,5 NE PEUVENT PAS CHIFFRER CE J0.** La valeur de départ n'est connue que comme *« supérieure à 5,5 »*. **La série reste lisible en TENDANCE** — une baisse fera entrer la valeur dans la plage — **mais elle n'a aucune référence chiffrée de départ.**
+
+⚠️ **ET UN POINT DE FOND, qui dépasse l'instrument.** Le rapport produit du 01/09 pose **4,6 comme seuil**. **Un produit au-dessus n'est pas protégé par son acidité : la maîtrise repose alors entièrement sur le FROID et l'HYGIÈNE.** Ce n'est pas un détail de méthode, c'est ce qui portera la DLC.
+
+🔍 **Deux hypothèses à départager, aucune tranchée** : ① l'eau utilisée **tamponne** l'acidité du miel à cette dilution ; ② **les bandelettes ne réagissent pas comme attendu**. 📌 **Et une observation qui vaut par elle-même : l'eau seule et la boisson donnent la MÊME lecture.** À cette dilution, soit le miel ne déplace pas le pH, soit l'instrument ne le voit pas — **les deux se règlent autrement qu'en attendant J+6.**
+
+### La chaîne réelle des échéances
+
+⚠️ **Elle n'est PAS celle des blocs Calendar.** Le J0 ayant eu lieu **à 01h30 dans la nuit du 14 au 15**, la chaîne court à partir de là :
+
+✅ **ARBITRÉ PAR BASEKOU LE 16/09 : on tient 01h30 et on décale les blocs d'un jour** *(option a des trois proposées)*. **La série est donc exacte à l'heure près, et l'horaire n'a pas à être rattrapé plus tard par une correction.**
+
+| Échéance | Date et heure tenues | Bloc Calendar posé le 11/09 | Correction faite le 16/09 |
+|---|---|---|---|
+| **J0** | **15/09, 01h30** | — | — |
+| J+2 | **17/09, 01h30** | 16/09 18h30 | **+1 jour, heure alignée** |
+| J+4 | **19/09, 01h30** | 18/09 18h30 | **+1 jour, heure alignée** |
+| J+6 | **21/09, 01h30** | 20/09 18h30 | **+1 jour, heure alignée** |
+
+*(Prolongation éventuelle, si le pH n'a pas bougé sur le lot frais : **J+10 le 25/09** et **J+14 le 29/09**, toujours à 01h30.)*
+
+➡️ **La règle de la série impose le relevé à la MÊME HEURE qu'au J0 — soit 01h30, et c'est le choix retenu.** Un relevé à 18h30 le 16/09 aurait été un **J+1,7**, pas un J+2.
+
+⚠️ **Ce qui n'est pas négociable, et que cet arbitrage respecte : l'écart doit être ÉCRIT.** Une série dont les intervalles sont inégaux sans qu'on sache lesquels **ne mesure plus une durée** — c'est exactement ce qui a invalidé la chaîne abandonnée d'août.
+
+🔮 **Conséquence en aval, corrigée le même jour** : le bloc de vérification de la prédiction du conseil du 13/09, posé au **20/09 19h**, tombait **avant** le J+6. Il est déplacé au **21/09 19h**, après le relevé de la nuit. **Sans ce déplacement, la prédiction devenait mécaniquement invérifiable sur une date impossible à tenir.**
+
+⛔ **CE QUE CE J0 NE FAIT PAS** : il ne produit aucune DLC. Il ouvre une série dont **seule la dernière mesure donnera une durée** — et, en l'état de l'instrument, **une tendance plutôt qu'un chiffre.**
+
+---
+
+## ✅ **J+2 RÉALISÉ — 17/09/2026, vers 01h30** *(source : page Notion « Tests de formulation — journal brut », session Produit, écrit le 16/09 à 23h23 puis complété)*
+
+**Opérateur : Basekou.** *(Heure réelle exacte à préciser — l'écart de quelques minutes est sans effet, la règle du dépôt étant de noter l'heure du geste.)*
+
+### 🟢 LOT FRAIS *(bouteille n°2, ouverture unique)* — AUCUN SIGNE
+
+| Observation | Résultat |
+|---|---|
+| Paroi | **souple**, non gonflée · aucun dépôt |
+| À l'ouverture | **pas de pschitt** *(un bruit de plastique, pas de gaz)* |
+| Odeur | **aucune** |
+| Couleur | **identique au J0** |
+| Bandelette | **même teinte qu'au J0 → ≥ 5,5, toujours hors plage par le haut** |
+| Goût | le même que d'habitude · légère sensation de tanin en plus, **attribuée par Basekou au mélange des miels ou à une agitation insuffisante, pas à l'âge** — non concluant |
+
+➡️ **C'est le lot qui porte la DLC, et à J+2 il ne bouge pas.**
+
+### 🔴 LOT AMBIANT *(≈ 25 °C estimés, 3ᵉ ouverture)* — PREMIERS SIGNES DE FERMENTATION
+
+| Observation | Résultat |
+|---|---|
+| Paroi | souple, **non gonflée** · aucun dépôt |
+| À l'ouverture | **petit pschitt** |
+| Odeur | **petite odeur de fermentation** |
+| Couleur | peut-être un peu plus foncée que le lot frais |
+| Bandelette | **teinte plus CLAIRE que le J0 et que le lot frais, estimée entre 5,2 et 5,5** — **première lecture DANS la plage** |
+| Goût | non goûté, **conforme au protocole** |
+
+*(Photos des deux bandelettes prises.)*
+
+🎯 **LES TROIS SIGNES CONCORDENT : gaz, odeur, et baisse de pH.** Ce n'est pas une lecture isolée qu'on pourrait mettre sur le dos de l'instrument — **c'est le seul cas de la série où les trois indicateurs disent la même chose.**
+
+### ⏱️ UN POINT INTERMÉDIAIRE HORS PROTOCOLE, ET IL CHANGE LA LECTURE
+
+**Déclaré par Basekou le 17/09** : la bouteille ambiante avait été ouverte **une fois de plus le 16/09 dans l'après-midi (≈ J+1,5)** pour un contrôle gaz/odeur — **rien à signaler à ce moment-là** *(pas de gaz, pas d'odeur ; pas de bandelette)*.
+
+➡️ **Donc les signes sont apparus entre le 16/09 après-midi et le 17/09 01h30, soit entre ≈ 36 h et ≈ 48 h à l'ambiante — pas dès les premières heures.** **La tenue du lot ambiant sans aucun signe est d'au moins ≈ 36 h.**
+
+⚠️ **Réserve à garder attachée au chiffre** : cette ouverture supplémentaire fait de la mesure du J+2 la **3ᵉ ouverture** de cette bouteille. **Chaque ouverture introduit de l'air et des mains** — le biais joue *dans le sens* de la fermentation observée. **Le ≈ 36 h est donc un plancher prudent sur une bouteille ouverte trois fois, pas la tenue d'une bouteille scellée.** Température de la pièce non mesurée.
+
+### 📌 CE QUE CE RELEVÉ ÉTABLIT, ET CE QU'IL N'ÉTABLIT PAS
+
+- ✅ **La bandelette fonctionne comme ALARME, et c'est démontré, plus supposé.** Elle ne peut pas chiffrer le point de départ *(> 5,5)*, **mais elle a vu la descente** : la seule bouteille qui a fermenté est la seule dont la teinte a bougé. **L'instrument critiqué au J0 vient de faire exactement le travail qu'on lui demandait.**
+- ✅ **La chaîne du froid n'est pas une précaution de confort, c'est le plan de maîtrise.** Un produit qui donne des signes en ≈ 36-48 h à 25 °C **ne supporte aucune rupture de froid** — ni en stockage, ni en transport, ni en vitrine. ➡️ **Conséquence directe pour la livraison O'Daba : le transport doit être réfrigéré.** Point à écrire dans le plan de maîtrise sanitaire, qui n'existe toujours pas.
+- ⛔ **Ça ne donne aucune DLC.** Le lot frais n'a pas bougé : **la durée reste inconnue par le haut.** Seuls les J+4, J+6 *(et la prolongation J+10 / J+14 si rien ne bouge)* la borneront.
+- ⛔ **Ça n'identifie rien microbiologiquement.** « Odeur de fermentation » est une observation sensorielle, pas une analyse. **Les deux hypothèses du J0 restent ouvertes** *(l'eau tamponne · les bandelettes réagissent mal)* — mais la descente observée sur le seul lot altéré **affaiblit nettement la seconde.**
+
+**Prochain point : J+4 le 19/09 à 01h30.** Consigne notée par la session Produit : **lire le lot ambiant FERMÉ d'abord, puis l'ouvrir au-dessus de l'évier.**
+
+---
+
+## ✅ **J+4 RÉALISÉ — 19/09/2026, ≈ 11h05** *(source : page Notion « Tests de formulation », session Produit)*
+
+⚠️ **LE POINT N'A PAS ÉTÉ PRIS À 01h30 MAIS ≈ 9 h 30 PLUS TARD — soit J+4,39 et non J+4,0.** **L'écart est écrit, comme la règle l'impose** : une série dont les intervalles sont inégaux sans qu'on sache lesquels ne mesure plus une durée.
+
+| Point | Date et heure réelles | Écart depuis le J0 | Intervalle |
+|---|---|---|---|
+| **J0** | 15/09, 01h40 | — | — |
+| **J+2** | 17/09, ≈ 01h30 | J+1,99 | — |
+| **J+4** | **19/09, ≈ 11h05** | **J+4,39** | **57,6 h** |
+| **J+6** *(prévu)* | 21/09, 01h40 | J+6,00 | **38,6 h** |
+
+➡️ **Conséquence à ne pas perdre : l'intervalle J+2 → J+4 fait 57,6 h, celui de J+4 → J+6 en fera 38,6.** **Les deux derniers points ne sont pas également espacés.** Ça ne casse pas la série — **les écarts se comptent depuis le J0, et ils sont connus** — mais ça interdit de lire une pente entre deux points consécutifs.
+
+### 🟢 LOT FRAIS *(bouteille n°3, ouverture unique)* — TOUJOURS AUCUN SIGNE
+
+Paroi souple, non déformée · aucun dépôt · **pas de pschitt** · même odeur · même couleur · **bandelette ≥ 5,5, inchangée depuis le J0** · **goût inchangé**.
+
+🎯 **ET UN POINT SE RÉSOUT DE LUI-MÊME : la légère sensation de tanin notée à J+2 N'EST PAS REVENUE.** Elle était donc bien liée **à l'agitation ou au mélange des miels, pas à l'âge du produit** — l'hypothèse que Basekou avait avancée à J+2 est confirmée par son absence. **Un doute levé par la série elle-même.**
+
+➡️ **LE LOT FRAIS TIENT 4 JOURS SANS AUCUN SIGNE. C'est la première borne réelle de la durée.**
+
+### 🔴 LOT AMBIANT *(≈ 25 °C, 4ᵉ ouverture)* — FERMENTATION INSTALLÉE
+
+**Pschitt à l'ouverture · FORTE odeur de fermentation · bandelette à 4** · paroi souple et non gonflée · non goûté.
+
+| Point | Bandelette, lot ambiant |
+|---|---|
+| J0 | **> 5,5** *(hors plage par le haut)* |
+| J+2 | **5,2 - 5,5** *(première lecture dans la plage)* |
+| J+4 | **4** |
+
+➡️ **Chute d'environ 1,5 point en deux jours.** **La descente est nette, régulière et cohérente avec le gaz et l'odeur.**
+
+📌 **Pourquoi la paroi reste souple malgré la fermentation** : la bouteille a été **ouverte 4 fois**, ce qui a libéré le gaz à chaque fois. **L'absence de gonflement n'est donc pas un signe de bonne tenue ici — c'est un artefact du protocole.**
+
+⚠️ **ET UN POINT À NE PAS LIRE À L'ENVERS, parce qu'il est contre-intuitif : le lot ambiant est maintenant à pH 4, donc SOUS le seuil de 4,6.** **Ce n'est pas une bonne nouvelle et ça ne le protège de rien.** Le seuil de 4,6 vaut pour un produit **formulé** acide dès le départ ; ici **l'acidité est le PRODUIT de la fermentation**, c'est-à-dire de l'altération elle-même. **Un produit qui s'acidifie en fermentant n'est pas devenu sûr, il est devenu autre chose.**
+
+### ✅ CE QUE LE J+4 ÉTABLIT
+
+- **La bandelette est définitivement validée comme instrument de suivi** : elle a lu `> 5,5` → `5,2-5,5` → `4` sur la bouteille qui fermente, et **rien du tout** sur celle qui ne fermente pas. **Elle ne chiffre pas le départ, mais elle suit la descente sans ambiguïté.**
+- **Le contraste entre les deux lots est maintenant massif** : à 4 jours, l'un est intact, l'autre porte gaz, odeur forte et 1,5 point de pH en moins. ➡️ **Le froid n'est pas un facteur parmi d'autres. C'est LE facteur.**
+- ⛔ **Ça ne donne toujours pas de DLC.** Le lot frais n'a pas bougé : **la durée reste inconnue par le haut.** Si le J+6 ne montre rien non plus, **la série se PROLONGE** *(J+10 le 25/09, J+14 le 29/09)* au lieu de conclure.
+
+**Prochain point : J+6 le 21/09, heure de référence 01h40 — noter l'heure RÉELLE.** Il reste au frigo la bouteille du J+6 et la réserve.
 
 *(Historique de la chaîne abandonnée : un J0 avait été annoncé le 19/08 puis le 20/08, chacun consigné comme « prévu » et jamais réalisé. Les blocs agenda des 21 et 23/08 étiquetés « J+2 » et « J+4 » suivaient la première chaîne, déjà invalidée à ce moment-là. Tout cela est caduc.)*
 
 ⚠️ **Portée du résultat.** La session du 20/08 envisageait un premier passage « à blanc » sur une recette non figée, qui n'aurait mesuré **que la méthode et l'ordre de grandeur**. Le 24/08, Basekou écarte cette option : on ne lance qu'une fois les proportions arrêtées, pour que la série porte directement sur le produit réel. **Une seule série, sur la bonne recette**, au lieu de deux dont la première n'aurait rien dit de la durée de conservation.
 
+✅ **RÉPONSE OBTENUE LE 2026-09-10 — TAUX D'HUMIDITÉ DU MIEL DE JOAN : 16 à 18 %.** **En dessous ou à la limite du seuil de vigilance** posé ci-dessous : le miel n'est pas dans la zone où il fermente spontanément. ⚠️ **Cela ne dit rien de la boisson diluée** — c'est le miel qui est peu humide, pas le produit fini, dont la stabilité reste entièrement à mesurer (protocole pH non lancé). *(Cette même donnée a servi à convertir la dose en g/100 mL, cf. `../02_produit/eau-miellee-33cl.md`.)*
+
 **Questions à poser aux apiculteurs (actées 11/08)** : miel filtré ou non (finesse), **taux d'humidité** (> 18 % = sujet à fermenter — c'est aussi la donnée qui convertit la dose à la seringue en g/100 mL, cf. `../02_produit/eau-miellee-33cl.md`), pH / HMF / indice diastasique si mesurés, analyse par lot, clients qui diluent, transformateurs boisson connus, et **attestation écrite du process thermique** (sans document, « jamais chauffé » repose sur une parole).
 
-⚠️ **MENTION LÉGALE TRANCHÉE LE 2026-09-03 : DLC, pas DDM.** *(Corrige les mentions « DDM » ci-dessus et ci-dessous, portées de manière erronée depuis le 17/08 — la réponse DDPP du 18/07 ne mentionne ni l'une ni l'autre, c'était notre propre formulation.)* Un rapport produit sourcé (session Produit, 01/09, Drive) établit qu'une boisson réfrigérée non pasteurisée relève d'une **DLC** — la DDM étant réservée aux produits stables. **Décision de Basekou : on part sur la DLC**, aucun mail de vérification à la DDPP n'étant prévu. ⚠️ **PRÉMISSE CORRIGÉE LE 2026-09-08** : **un mail est parti à la DDPP du Rhône** (texte lu en séance, cf. `demarches-admin.md`) — donc l'argument accessoire « aucun mail n'étant prévu » tombe. ✅ **Mais le mail NE porte PAS sur la mention de durabilité** : ni DLC ni DDM n'y figurent, il pose les 3 questions du 21/07 (catégorie, dérogation 13982, GBPH apicole). **La décision DLC est donc intacte et n'attend rien de cette réponse** — elle repose sur le rapport produit sourcé et sur l'article 24 de l'INCO. *(Si la DLC devait un jour être confirmée par l'administration, ce serait une démarche à part, encore jamais engagée.)* Mention d'étiquetage **obligatoire, toujours non déterminée** — bloque l'impression de l'étiquette. Voie de sortie : le protocole pH maison, complété par une **étude de durée de vie microbiologique** (norme NF V01-003, laboratoires type CTCPA/Eurofins — méthode de référence citée par le rapport, plus exigeante qu'une simple analyse de pH).
+⚠️ **MENTION LÉGALE TRANCHÉE LE 2026-09-03 : DLC, pas DDM.** *(Corrige les mentions « DDM » ci-dessus et ci-dessous, portées de manière erronée depuis le 17/08 — la réponse DDPP du 18/07 ne mentionne ni l'une ni l'autre, c'était notre propre formulation.)* Un rapport produit sourcé (session Produit, 01/09, Drive) établit qu'une boisson réfrigérée non pasteurisée relève d'une **DLC** — la DDM étant réservée aux produits stables. **Décision de Basekou : on part sur la DLC**, aucun mail de vérification à la DDPP n'étant prévu. ⚠️ **PRÉMISSE CORRIGÉE LE 2026-09-08** : **un mail est parti à la DDPP du Rhône** (texte lu en séance, cf. `demarches-admin.md`) — donc l'argument accessoire « aucun mail n'étant prévu » tombe. ✅ **Mais le mail NE porte PAS sur la mention de durabilité** : ni DLC ni DDM n'y figurent, il pose les 3 questions du 21/07 (catégorie, dérogation 13982, GBPH apicole). **La décision DLC est donc intacte et n'attend rien de cette réponse** — elle repose sur le rapport produit sourcé et sur l'article 24 de l'INCO. *(Si la DLC devait un jour être confirmée par l'administration, ce serait une démarche à part, encore jamais engagée.)* Mention d'étiquetage **obligatoire, et sa DURÉE est toujours non déterminée**. ⛔ **DÉCISION DU 2026-09-10 : la DLC n'est PAS pré-imprimée sur l'étiquette** — une date figée à l'impression périmerait les dernières bouteilles d'un lot écoulé sur plusieurs semaines (motif dicté par Basekou). Elle **s'apposera au conditionnement, lot par lot**. ⚠️ **Conséquence : la mention ne bloque plus l'impression de l'étiquette** — les 240 étiquettes sont commandées — **mais elle bloque toujours la VENTE**, car sans durée mesurée il n'y a rien à apposer. **Le protocole pH redevient le chemin critique.** Voie de sortie : le protocole pH maison, complété par une **étude de durée de vie microbiologique** (norme NF V01-003, laboratoires type CTCPA/Eurofins — méthode de référence citée par le rapport, plus exigeante qu'une simple analyse de pH).
 
 **Voie de sortie tranchée le 2026-08-17** : **le protocole pH maison d'abord** — les papiers sont reçus (17/08), le protocole est lançable. **Si le résultat est bon, la DLC imprimée sera celle du test maison** ; pas d'analyse laboratoire préalable (décision Basekou). ⚠️ Réserve consignée, non levée et **renforcée par le rapport du 01/09** : une mention issue d'un test maison **n'est pas opposable** — le rappel du 12/08 (un test maison cadre une durée, il ne la certifie pas) reste vrai, et la méthode de référence administrative est l'étude de durée de vie, pas le seul relevé de pH. Aucun devis de laboratoire n'a été demandé à ce jour. ⚠️ **Risque signalé par le rapport, non traité ailleurs dans le SOT** : le miel dilué se comporte comme un moût d'hydromel non ensemencé — la fermentation est son état par défaut, et en bouteille PET scellée elle peut produire un gonflement (précédents kombucha/kéfir).
 
-**Ce que le protocole peut faire (précisé en session du 2026-08-12)** : il **mesure**, il ne stabilise pas. Il peut néanmoins éviter tout changement de recette — si la tenue mesurée couvre le délai d'écoulement réel du circuit, la durée constatée est écrite sur l'étiquette et le produit reste nu. La stabilisation ne devient nécessaire que pour une durée supérieure à ce que le produit tient seul (expédition, mise en rayon). Rappel : la bouteille n'est **pas** vendue en ligne (cf. `../02_produit/bouteille.md`). Un test maison **cadre** une durée, il ne la **certifie** pas — la mention opposable passe par le laboratoire.
+**Ce que le protocole peut faire (précisé en session du 2026-08-12)** : il **mesure**, il ne stabilise pas. Il peut néanmoins éviter tout changement de recette — si la tenue mesurée couvre le délai d'écoulement réel du circuit, la durée constatée est écrite sur l'étiquette et le produit reste nu. La stabilisation ne devient nécessaire que pour une durée supérieure à ce que le produit tient seul (expédition, mise en rayon). Rappel : la bouteille n'est **pas** vendue en ligne (cf. `../02_produit/bouteille.md`). Un test maison **cadre** une durée, il ne la **certifie** pas. ⚠️ **NUANCE APPORTÉE LE 2026-09-14, sur demande de preuve de Basekou — la formule « la mention opposable passe par le laboratoire » était TROP FORTE et est retirée.** **Aucun article de règlement n'a jamais été produit à l'appui du mot « indispensable »** : l'origine est le rapport produit du 01/09, un document interne, pas un texte de loi. ✅ **Ce qui est établi** : la DLC est obligatoire (INCO art. 24) mais **fixée sous la responsabilité de l'exploitant** (178/2002 art. 17) ; le **2073/2005 (art. 3.2 + annexe II)** exige des études sur la durée de vie et **range le pH et l'activité de l'eau parmi les éléments recevables**, les challenge tests n'arrivant qu'« en tant que de besoin ». 📌 **Le pH n'est donc pas un sous-produit du labo : c'est le paramètre qui décide du régime applicable** — un pH bas classe le produit comme ne permettant pas la croissance de Listeria et allège fortement les exigences. **Faire le pH d'abord est réglementairement cohérent.** ➡️ **Ce qui reste vrai, et c'est tout** : un relevé maison écrit, daté et protocolé **justifie** une DLC sans la **certifier**. Le risque n'est pas « c'est interdit », c'est **« en cas d'incident ou de contrôle, la charge de la preuve est entièrement sur toi »**. **L'étude labo est une option de réduction de risque, jamais une condition de vente.** *(Ces références sont citées de mémoire et n'ont pas été vérifiées en ligne — à confirmer avant tout usage opposable.)*
 
 ## Renvois (décisions de la semaine, consignées dans leurs fiches)
 

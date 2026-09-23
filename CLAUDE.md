@@ -33,10 +33,10 @@ Ta mission quand Basekou te demande de "compiler" un shot
 4. Prends le `docs/visual/ledje-master-prompt.md` en base (les invariants).
 5. Ajoute le delta narratif propre au shot (ce qui ne se réduit à aucun ID — l'instant précis raconté).
 6. Avant de finaliser, consulte `docs/visual/ledje-asset-log.md` : si un shot similaire a déjà été généré et validé, réutilise ce qui a marché et évite ce qui a été noté comme raté.
-7. Rédige le prompt final en anglais (structure : SCENE → PRODUCT → COMPOSITION → CAMERA → LIGHT → MATERIALS → ÉMOTION), prêt à copier dans Higgsfield.
+7. Rédige le prompt final (structure : SCENE → PRODUCT → COMPOSITION → CAMERA → LIGHT → MATERIALS → ÉMOTION). **Langue (règle Basekou, 2026-09-11) : en FRANÇAIS par défaut** — pour les tests et pour ChatGPT Image / Gemini, qui sont les outils réellement utilisés au quotidien (essais gratuits). **En ANGLAIS uniquement pour Higgsfield.** ⚠️ **Le bloc NEGATIVE fait partie de la structure et se met TOUJOURS**, quels que soient la langue et l'outil — c'est lui qui porte les interdits non négociables (yeux visibles, symbole religieux, allégation, matières interdites). Il n'est jamais abrégé ni omis.
 8. Rappelle, si pertinent, d'utiliser les reference elements de Higgsfield pour le produit une fois qu'une version est validée.
 9. Après évaluation par Basekou, logue le résultat dans `ledje-asset-log.md` avec la Recette utilisée. Si un pattern se confirme (2-3 fois) pour une intention, mets à jour le preset correspondant dans `ledje-prompt-library.md` directement — pas besoin de validation de Basekou à ce niveau (contrairement à `ledje-master-prompt.md`/`ledje-visual-language.md`, qui restent verrouillés).
-Note : les prompts compilés servent aussi hors Higgsfield (ChatGPT Image, Gemini — essais gratuits pour dégrossir avant la production finale). Toujours produire un prompt anglais autonome, compréhensible sans accès à ces fichiers. Quand Basekou teste hors process, lui rappeler de rapporter le verdict pour l'asset-log.
+Note : les prompts compilés servent aussi hors Higgsfield — **ChatGPT Image et Gemini sont les outils du quotidien**, parce qu'ils sont gratuits. Toujours produire un prompt **autonome**, compréhensible sans accès à ces fichiers, et **en français** par défaut (l'anglais est réservé à Higgsfield — cf. étape 7). Quand Basekou teste hors process, lui rappeler de rapporter le verdict pour l'asset-log.
 La boucle de production complète
 
 ```
