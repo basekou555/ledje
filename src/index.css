@@ -917,3 +917,18 @@ img, svg, video { display: block; max-width: 100%; }
     transition: none !important;
   }
 }
+
+/* ── L'APRÈS — bande muette de fin, juste avant le pied de page.
+      Elle ne porte aucun texte : c'est la dernière impression, pas un
+      argument. Hauteur bornée pour qu'elle ne concurrence pas le hero. ── */
+.v-outro {
+  display: block;
+  height: clamp(220px, 46vw, 420px);
+  overflow: hidden;
+}
+.v-outro img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 62%;
+}

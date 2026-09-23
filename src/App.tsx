@@ -35,11 +35,11 @@ const SIGNATURE = 'Parmi les bienfaits de ce bas monde'
    reste valide et repartageable à la main. Pour le remettre dans la page,
    voir l'historique du fichier. */
 
-// Vidéo d'ouverture. ⚠️ Asset provisoire (génération Higgsfield) — à remplacer
-// dès qu'on a une captation du produit réel.
-const VIDEO_URL =
-  (import.meta.env.VITE_HERO_VIDEO_URL as string | undefined) ??
-  'https://d8j0ntlcm91z4.cloudfront.net/user_3F7O8wGWXNEbyg1pRrys5kwKg5V/hf_20260629_045823_8c34005b-a94a-44ce-b1ba-7eae3bfcd8e8.mp4'
+/* Vidéo d'ouverture — DÉSACTIVÉE par défaut depuis le 2026-09-23. L'ancien
+   asset Higgsfield n'a jamais été vérifié (on ne savait pas s'il montrait une
+   bouteille inventée) et le hero porte désormais une vraie image validée.
+   Pour la remettre : définir VITE_HERO_VIDEO_URL. */
+const VIDEO_URL = import.meta.env.VITE_HERO_VIDEO_URL as string | undefined
 
 function isValidEmail(e: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)
@@ -164,8 +164,10 @@ export default function App() {
         {/* ══ 1 · LE PRODUIT — ce que c'est, tout de suite ══ */}
         <section className="v-hero" aria-labelledby="hero-title">
           <div className="v-hero-media" aria-hidden="true">
-            {VIDEO_URL && !reduced && (
+            {VIDEO_URL && !reduced ? (
               <video src={VIDEO_URL} autoPlay muted loop playsInline preload="metadata" />
+            ) : (
+              <img src="/visuals/hero.jpg" alt="" fetchPriority="high" decoding="async" />
             )}
           </div>
           <div className="v-hero-content">
@@ -229,10 +231,12 @@ export default function App() {
 
               <div className="v-split-side">
                 <figure className="v-figure">
-                  <div className="v-placeholder">
-                    <strong>Photo du produit à venir</strong>
-                    <span>Le premier lot n’est pas encore étiqueté.</span>
-                  </div>
+                  <img
+                    src="/visuals/produit.jpg"
+                    alt="Une bouteille d’eau miellée lédjé posée sur une pierre, au soleil."
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </figure>
               </div>
             </div>
@@ -245,7 +249,7 @@ export default function App() {
         <section className="v-band" aria-labelledby="gout-title">
           <div className="v-band-media">
             <img
-              src="/visuals/origine.jpg"
+              src="/visuals/degustation.jpg"
               alt=""
               loading="lazy"
               decoding="async"
@@ -278,6 +282,21 @@ export default function App() {
                   L’eau miellée se boit depuis longtemps. Elle n’avait jamais été
                   faite proprement.
                 </p>
+              </div>
+
+              {/* « Le partage » : deux mains qui se passent la bouteille. C'est
+                  la transmission — une des valeurs refondées — dite sans un mot.
+                  Reprend la colonne laissée vide par le retrait de la scène
+                  animée le 2026-09-09. */}
+              <div className="v-split-side">
+                <figure className="v-figure">
+                  <img
+                    src="/visuals/partage.jpg"
+                    alt="Une bouteille d’eau miellée passée d’une main à une autre."
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </figure>
               </div>
             </div>
           </div>
@@ -349,6 +368,16 @@ export default function App() {
             </aside>
             </div>
           </div>
+        </section>
+        {/* ══ L'APRÈS — la table qu'on vient de quitter. Aucun texte :
+            c'est la dernière image, pas un argument de plus. ══ */}
+        <section className="v-outro" aria-hidden="true">
+          <img
+            src="/visuals/apres.jpg"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
         </section>
       </main>
 
