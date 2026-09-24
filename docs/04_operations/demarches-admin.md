@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-09-08
+maj: 2026-09-24
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
 resume: "Le réglementaire à boucler avant la première vente (déclaration ENREGISTRÉE — accusé reçu le 18/08, DDPP du Rhône compétente ; ✅ MAIL DES 3 QUESTIONS PARTI le 08/09 — catégorie, dérogation 13982, recevabilité du GBPH apicole pour une BOISSON — en attente de réponse ; ⚠️ le point 2 contredit la réponse DDPP 56 du 18/07, qui disait ni agrément ni dérogation : deux lectures coexistent jusqu'à l'arbitrage du 69 ; la DLC n'est PAS dans ce mail et n'en dépend pas) + l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
@@ -51,6 +51,16 @@ resume: "Le réglementaire à boucler avant la première vente (déclaration ENR
 ## Dépôt INPI
 
 **Dépôt INPI (~190-230 € selon classes) : différé pour raison budgétaire** (décision assumée, pas un oubli). **Déclencheur de réexamen : au premier contenu TikTok public** (le risque de dépôt par un tiers grandit avec la visibilité, pas avec le chiffre d'affaires) — à revisiter à ce moment, selon le budget disponible alors. Classes pertinentes identifiées : **30** (miel) impérative, **32** (boissons, pour la bouteille phase 2 — à inclure au même dépôt si possible, car impossible d'ajouter une classe après coup sans nouveau dépôt complet).
+
+## 🧾 Déclarations sociales — URSSAF T2 2026 (ouvert le 2026-09-21, ✅ CLOS le 2026-09-24)
+
+**Un mail URSSAF du 21/09 signalait une déclaration de chiffre d'affaires manquante et annonçait une pénalité.** *(⚠️ À ne pas confondre avec le mail du 23/09, qui était une invitation à un webinaire.)*
+
+✅ **Basekou a fait ses déclarations le 2026-09-24.** ➡️ **Le point est clos, la pénalité annoncée n'a plus d'objet.**
+
+📌 **Ce que l'épisode a duré, et pourquoi c'est écrit** : le sujet est resté **quatre séances sans date** *(21, 22, 23, 24/09)*, dont deux où la non-réponse elle-même a été consignée. **C'est cette consignation qui l'a empêché de retomber une troisième fois** — un sujet dont on écrit qu'il n'a pas de réponse ne disparaît pas ; un sujet qu'on ne mentionne plus, si.
+
+⚠️ **Un point n'a jamais été explicité et ne l'est toujours pas : le rattachement de ce statut à Lédjé.** ➡️ **Il cesse d'être bloquant** *(la déclaration est faite)* **mais il reste ouvert pour la suite** : c'est ce même statut qui portera **la facture de la première vente du 29/09** *(cf. `production-artisanale.md`)*. ⛔ **Aucun montant, aucun numéro, aucune donnée de ce statut ne s'écrit dans ce dépôt.**
 
 ## Renvois
 

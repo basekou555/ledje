@@ -122,7 +122,15 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 | 💉 **Seringue de dosage** | Doser le miel **au volume** *(réf. 8,13 mL / 12,5 cL)* | ✅ Commandée le 23/09 · 📦 **colis attendu le 24/09** | ⚠️ **Aucun des 5 candidats du comparatif du 15/09 ne déclarait cette aptitude** — ce sont des dispositifs médicaux stériles. **Si celle-ci ne la déclare pas non plus, l'écart est connu et assumé, pas ignoré.** |
 | 🌡️ **Thermomètre de frigo** | Lire la température que le PMS **exige** | ✅ Commandé le 23/09 · 📦 **colis attendu le 24/09** | — |
 
-📦 **LIVRAISON ANNONCÉE LE 24/09, ET LES TROIS COLIS ARRIVENT ENSEMBLE** *(précisé par Basekou le 24/09 — l'ambiguïté « un seul colis pour trois objets », relevée le matin même, est levée)*. ➡️ **Les trois objets arrivent donc dans le même mouvement : le tampon, la seringue et le thermomètre.** ⚠️ **Restent les deux vérifications d'aptitude au contact alimentaire à la réception** *(encre du tampon, seringue)*.
+✅ **LES COLIS SONT REÇUS — 2026-09-24.** *(Commandés la veille, annoncés le matin, reçus le jour même.)* ➡️ **Le chemin critique de l'événement du 29/09 est levé côté LIVRAISON : le tampon dateur est en main, avec la seringue et le thermomètre.**
+
+🎯 **Ce que ça referme, et il aura fallu huit jours** : le trou de conformité ouvert le **16/09** — *« rien n'existe pour marquer le bouchon »* — avait traversé quatre séances sans achat, puis une commande le 23/09. **Il est refermé matériellement le 24/09.**
+
+🔴 **MAIS IL N'EST PAS REFERMÉ RÉGLEMENTAIREMENT TANT QUE DEUX VÉRIFICATIONS NE SONT PAS FAITES, ET ELLES SONT DUES MAINTENANT** *(elles étaient écrites « à la réception » — la réception a eu lieu)* :
+1. 🏷️ **L'ENCRE DU TAMPON est-elle déclarée apte au contact alimentaire ?** *(règl. 1935/2004 — le bouchon touche la boisson.)* ⛔ **Si elle ne l'est pas, l'objet ne referme pas le trou : il le déplace.** Un tampon de bureau ordinaire ne porte pas cette déclaration ; ce qui existe pour cet usage s'appelle **encre de marquage alimentaire**.
+2. 💉 **LA SERINGUE la déclare-t-elle ?** **Aucun des 5 candidats du comparatif du 15/09 ne le faisait** — ce sont des dispositifs médicaux stériles à usage unique. **Si celle reçue ne la déclare pas davantage, l'écart est connu et assumé, pas ignoré.**
+
+📌 **Les modèles restent à écrire** : ils n'ont jamais été précisés en séance et ne sont pas inventés ici. **Ils sont désormais lisibles sur les objets.**
 
 🔴 **ET UN POINT QUI N'EST ÉCRIT NULLE PART : IL N'Y A AUCUN PLAN B SI LE TAMPON N'ARRIVE PAS** *(risque réduit depuis que les trois colis sont annoncés ensemble le 24/09, mais non levé tant que rien n'est en main)*. L'événement du 29/09 est désormais **acquis sur le principe**, donc l'engagement est pris ; le marquage du bouchon, lui, reste une **obligation** *(art. 24 INCO)*. **Si le colis n'arrive pas — ou s'il n'y a pas le tampon dedans — le 29/09 pose un arbitrage à trancher, pas à contourner** : trouver un autre moyen de marquer, ou ne pas remettre les bouteilles. **Ce n'est pas encore décidé.**
 
