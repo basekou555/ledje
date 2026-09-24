@@ -137,28 +137,6 @@ export default function App() {
     return () => obs.disconnect()
   }, [formState])
 
-  /* La bande dégustation : le versement se joue UNE FOIS à l'arrivée, puis
-     reste sur sa dernière image. Le clip ne boucle pas — il ouvre sur un verre
-     vide et finit sur un verre plein, donc le rejouer ferait un saut brutal.
-     Joué une seule fois, c'est un événement : on arrive, ça se verse, ça se
-     pose. À repasser en boucle le jour où un clip qui se referme existe. */
-  useEffect(() => {
-    const v = document.querySelector<HTMLVideoElement>('.v-band-media video')
-    if (!v) return
-    let started = false
-    const obs = new IntersectionObserver(
-      entries => entries.forEach(e => {
-        if (e.isIntersecting && !started) {
-          started = true
-          v.play().catch(() => {})
-        }
-      }),
-      { threshold: 0.35 },
-    )
-    obs.observe(v)
-    return () => obs.disconnect()
-  }, [])
-
   async function handleEmailSubmit(e: React.FormEvent) {
     e.preventDefault()
     if (!isValidEmail(email)) { setFormState('invalid'); return }
@@ -268,19 +246,14 @@ export default function App() {
         {/* ══ 2 · L'EXPÉRIENCE — la sensation, pas l'argument ══ */}
         {/* Bande en plein cadre : même traitement que le hero — l'image porte
             le texte au lieu de le côtoyer. */}
-        <section className={`v-band${reduced ? '' : ' v-band--video'}`} aria-labelledby="gout-title">
+        <section className="v-band" aria-labelledby="gout-title">
           <div className="v-band-media">
-            {reduced ? (
-              <img src="/visuals/degustation.jpg" alt="" loading="lazy" decoding="async" />
-            ) : (
-              <video
-                src="/visuals/degustation.mp4"
-                poster="/visuals/degustation-poster.jpg"
-                muted
-                playsInline
-                preload="metadata"
-              />
-            )}
+            <img
+              src="/visuals/degustation.jpg"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            />
           </div>
           <div className="v-band-content container container--wide reveal reveal--up">
             <p className="v-eyebrow">À la dégustation</p>
