@@ -66,6 +66,20 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 
 🎯 **Ce qui rend le plan solide, et c'est UN seul geste : produire avec de l'EAU DÉJÀ FROIDE.** **Les bouteilles partent alors froides et le frigo de H7 n'a plus qu'à MAINTENIR, au lieu d'abaisser.** ➡️ **La différence entre « maintenir » et « refroidir » est exactement celle qui décide si les bouteilles sont à bonne température à 18h.**
 
+### 🧮 Ce qu'il faut préparer pour 30 bouteilles (calculé le 2026-09-24)
+
+**Calcul refaisable, depuis la référence de production** *(`../02_produit/eau-miellee-33cl.md`)* : **8,13 mL de miel pour 12,5 cL d'eau**, volume fini ≈ 133 mL. **Une bouteille de 33 cl vaut donc 2,5 fois la référence** — ≈ **312 mL d'eau** et ≈ **20,3 mL de miel**.
+
+| Pour 30 bouteilles | Quantité | À préparer |
+|---|---|---|
+| 💧 **Eau** | **≈ 9,4 L** | 🧊 **7 bouteilles de 1,5 L à mettre au frais** *(6,25 exactement — donc 7, avec ≈ 1,1 L de reste)* |
+| 🍯 **Miel** | **≈ 0,86 kg** *(30 × ≈ 28,7 g)* | ≈ **0,65 kg de montagne** et ≈ **0,22 kg de châtaignier**, au ratio 75/25 de la recette |
+| 💉 **Seringuées** | **75** *(2,5 par bouteille)* | ⏱️ **probablement la contrainte limitante du chrono — pas le remplissage** |
+
+⚠️ **Chiffres CALCULÉS, jamais pesés** — comme toute la recette depuis le 10/09 ; la dose est établie au volume, pas à la balance. *(Corroboré par l'autre chemin de calcul du 07/09 : ≈ 6,6 kg pour 231 bouteilles, soit ≈ 28,6 g par bouteille.)*
+
+🔴 **ET UN PIÈGE PRATIQUE QUE LA DÉCISION D'EAU FROIDE FAIT APPARAÎTRE : NE PAS METTRE LE MIEL AU FRAIS.** **Froid, le miel devient nettement plus visqueux, et 75 seringuées dans du miel froid changent la nature de la journée.** ➡️ **Eau froide, miel à température ambiante.**
+
 📌 **Deux points annexes, signalés sans être bloquants** : ① **le trajet du matin à l'après-midi se fait hors froid** — couvert par la règle des ≤ 24 h du PMS, donc conforme, mais il compte dans le temps total ; ② **le froid dépend désormais d'un équipement qui n'est pas le nôtre et qu'aucun thermomètre ne surveille** *(le thermomètre commandé est destiné au frigo de production)*.
 
 ### 🧾 La facture
