@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-09-23
+maj: 2026-09-25
 source: "SOT §1.4bis (archive 2026-07-24) — accord 2026-07-18 ; intel MMD 2026-07-24, corrigée en session 2026-07-26"
 resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV)."
 ---
@@ -45,7 +45,13 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 
 - **20/09 — 3 bouteilles de test déposées, les patrons n'étaient pas là.** Elles ont été **mises au frigo du restaurant** *(confirmé par Basekou le 22/09 — le point comptait : un échantillon sorti du froid ne dit rien du produit)*. ⚠️ **Elles sont parties SANS marquage de bouchon** — l'instrument n'existait pas encore. **C'est un écart connu, pas un oubli, et il ne doit pas se reproduire à la première livraison payante.**
 - **Ni commande, ni refus, aucun retour depuis.**
-- **23/09 — la relance prévue à 14h n'a pas eu lieu ; Basekou l'a reportée au soir même.** *(Écrit comme une intention. Une ligne partira au journal quel que soit le résultat, y compris « pas de réponse ».)*
+- **23/09 — la relance prévue à 14h n'a pas eu lieu ; Basekou l'a reportée au soir même**, et **elle a bien été faite le soir**.
+- 🔴 **25/09 — LE RETOUR EST TOMBÉ, ET IL EST NÉGATIF : « ils n'ont pas aimé la nouvelle recette. »** *(Relevé sur la page ÉTAT, écrit par la session Produit.)* ⚠️ **Aucun verbatim, aucune condition de dégustation, on ne sait ni qui a goûté ni quand.**
+  - 🔴 **CE QUE CE RETOUR NE PERMET PAS DE CONCLURE, et il faut l'écrire avant d'en tirer quoi que ce soit sur la recette** : les 3 bouteilles sont parties le 20/09 **sans transport réfrigéré** et **sans marquage**, elles ont attendu dans un frigo qui n'est pas le nôtre, et **personne n'a relevé les conditions**. ➡️ **Un avis négatif sur un échantillon dont on ignore la conservation ne dit rien du produit** — c'est exactement la distinction que le protocole demandait de pouvoir faire, et elle n'a pas pu être faite.
+  - 📌 **Ce qu'il permet de conclure en revanche, et c'est réel : le premier retour du premier client est négatif.** **Ça ne s'efface pas au motif que le protocole était imparfait.** ✅ **Cohérent avec un signal déjà consigné le 24/07 : 2 des 3 décideurs d'O'Daba n'aiment pas le miel de base.** **Le goût du miel est un sujet chez eux depuis le début.**
+  - ✅ **Un questionnaire en 6 questions a été préparé le 25/09** *(session Produit)* pour aller chercher ce que le retour ne dit pas.
+- ✅ **25/09 — RENDEZ-VOUS PRIS DIMANCHE pour organiser une dégustation sur place.** ➡️ **Et l'approche change : Basekou n'y va plus avec UNE recette à défendre, mais avec DEUX OU TROIS MIELS à faire choisir** *(tilleul, montagne, la recette actuelle, éventuellement acacia)*. 🎯 **Le motif est dit clairement, et c'est un renversement de méthode** : *« nous, on a choisi la recette à partir de ce qui nous parle, mais finalement c'est peut-être pas suffisant. »* **On passe d'une recette arbitrée au bureau à une recette choisie par celui qui la revend.**
+- 🔴 **24/09 — AUCUNE RÉPONSE À CETTE RELANCE.** *« J'ai relancé, j'ai pas eu de réponse pour l'instant. »* ➡️ **Consigné comme la règle l'impose : une non-réponse est une information, et elle vaut une ligne au même titre qu'un verdict.** ⚠️ **Quatre jours après le dépôt, on ne sait toujours ni si les bouteilles ont été goûtées, ni par qui, ni si elles sont restées au froid.** 📌 **Aucune nouvelle tentative n'a de date à ce stade** — et le silence d'un restaurateur relancé une fois n'est pas encore un refus, mais il cesse d'être neutre.
 - 🎯 **Les quatre choses que la relance doit rapporter** : ① goûtées, et par qui ② le verdict, même tiède ③ **une suite OU un refus — un refus motivé vaut autant qu'une commande** ④ les bouteilles sont-elles restées au froid.
 - ✅ **Formule autorisée sur la conservation, à l'oral** : *« au frais, aucun signe à 7 jours ; hors du froid, ça tourne en deux jours. »* ⛔ **Jamais « le produit tient X jours »** — la série pH donne un **plancher observé**, pas une durée.
 - 🔗 **Et O'Daba n'est plus le seul chemin vers la première vente** : l'événement **H7 du 29/09** *(≈ 30 bouteilles payées, cf. `../04_operations/production-artisanale.md`)* peut la précéder. **Ça ne retire rien au test O'Daba — le réachat d'un restaurateur reste l'indicateur du canal, une dégustation d'entreprise ne le remplace pas.**
@@ -77,4 +83,13 @@ Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimente
 
 | Nom | Rôle | Dernier échange | Suivi |
 |---|---|---|---|
-| Ahmed Diaby | Restaurateur (O'Daba) | Entretien 12/07 · accord test 18/07 | à compléter |
+| Ahmed Diaby | Restaurateur (O'Daba) | Entretien 12/07 · accord test 18/07 · **relancé le 23/09 au soir, sans réponse** | à compléter |
+| **Nabil** | **Manager d'un fast-food** | **Contact récupéré le 24/09** | 🟠 **Dégustation Lédjé PRÉVUE, sans date** — à organiser avec lui |
+
+### 🍔 Nabil — deuxième piste restaurant (ouverte le 2026-09-24)
+
+**Fait brut, tel qu'énoncé** : Basekou a **récupéré le contact de Nabil, manager d'un fast-food**, avec qui **une dégustation de Lédjé est à organiser**. ⚠️ **Écrit comme une intention : le contact est un fait, la dégustation n'a ni date ni accord.**
+
+📌 **Pourquoi cette ligne compte malgré sa maigreur** : depuis le 18/08, le carnet a produit **10 appels, 2 contacts et 0 rendez-vous** — et O'Daba, le seul test en cours, **ne répond plus depuis quatre jours**. **Une piste obtenue par le contact direct plutôt que par le téléphone froid est donc un signal de méthode, pas seulement un nom de plus.**
+
+⚠️ **Rappel avant toute dégustation** : aucune allégation santé, même à l'oral ; *« jusqu'à un tiers de sucres en moins qu'un soda classique »* avec son « jusqu'à » ; sur la conservation, *« au frais, aucun signe à 7 jours ; hors du froid, ça tourne en deux jours »* — **jamais « le produit tient X jours »**. Et **aucune bouteille remise sans marquage du bouchon**.

@@ -1,7 +1,7 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-08-20
+maj: 2026-09-25
 source: "SOT Partie 8 + §8.1 (archive 2026-07-24) + outillage conseil 2026-07-21 (page relais) ; générateur de prompts visuels rendu visible le 2026-08-20 (il n'était référencé que par CLAUDE.md)"
 resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo."
 ---
@@ -20,6 +20,14 @@ resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, No
 | **Supabase / Vercel / OVH** | Back, hosting, domaine |
 
 Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se compile, se déploie ou tourne en tâche planifiée ; Notion pour le suivi opérationnel vivant (statuts, pipelines).**
+
+### 🔒 Pourquoi Cowork ne peut pas écrire au dépôt — le motif exact, vérifié le 2026-09-24
+
+**Cette contrainte était écrite depuis le 10/09 comme « le connecteur GitHub est en lecture seule par conception ».** ⚠️ **C'est inexact, et la formulation a duré quinze jours.** ✅ **Motif réel, obtenu en testant** *(routine Cowork, 24/09)* : la session **CLONE et LIT sans problème** ; c'est le **`push` qui est refusé par le proxy**, avec le message *« basekou555/ledje is not in this session's authorized repository set »*.
+
+🔴 **ET UN SECOND BLOCAGE, DISTINCT, A ÉTÉ TESTÉ LE 25/09 : l'écriture par le CONNECTEUR GitHub renvoie `403 Resource not accessible by integration`** *(constaté sur une création de branche)*. ➡️ **Il y a donc DEUX verrous, de natures différentes : l'un au proxy sur le `push`, l'autre sur les droits du connecteur.** ⛔ **LEVER L'UN NE LÈVERAIT PAS L'AUTRE** — et c'est ce qui change le geste : ajouter le dépôt aux sources d'une session ne donnera rien tant que le connecteur reste en 403, et inversement.
+
+➡️ **Ce n'est donc PAS un droit GitHub manquant, ni une propriété du connecteur : c'est que le dépôt n'est pas déclaré dans les sources autorisées de CETTE session-là.** 📌 **La différence compte, parce qu'elle change ce qu'il faudrait faire pour la lever** : on ne cherche pas un jeton ou une permission GitHub, on ajoute le dépôt aux sources de la session. ⛔ **Rien n'est décidé là-dessus** — la file 📥 de la page ÉTAT reste le chemin des sessions qui ne peuvent pas écrire, et elle fonctionne.
 
 ## Salle du conseil (2026-07-21)
 
