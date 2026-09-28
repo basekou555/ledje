@@ -1,4 +1,4 @@
-# Visuels de la landing page Lédjé
+# Visuels de la landing page lédjé
 
 Dépose ici tes images (générées sur ChatGPT Image / Gemini / Higgsfield), avec ces noms
 EXACTS. Le site les affiche automatiquement. Tant qu'un fichier manque, la zone reste un
@@ -17,7 +17,7 @@ Format conseillé : JPG optimisé (< 300 Ko chacune), assez large (~1400 px).
 | geste-02.jpg     | Le Geste — étape 2  | Le cristal au-dessus du verre d'eau                    |
 | geste-03.jpg     | Le Geste — étape 3  | Le cristal qui se dissout, volutes dorées              |
 | origine.jpg      | L'Origine           | Le filet de miel doré                                  |
-| bouteille.jpg    | Teaser bouteille    | La bouteille Lédjé (packshot)                          |
+| bouteille.jpg    | Teaser bouteille    | La bouteille lédjé (packshot)                          |
 
 Optionnel (pas encore branché) : `cloture.jpg` (le verre sur la table, salon) — demande-le
 si tu veux l'ajouter en fin de page.

@@ -113,14 +113,14 @@ export default function Avis() {
       <section className="section section-survey bg-velvet">
         <div className="container">
           <header className="avis-header">
-            <h1 className="avis-title serif">Tu viens de goûter Lédjé.</h1>
+            <h1 className="avis-title serif">Tu viens de goûter lédjé.</h1>
             <p className="avis-lede">Dis-nous ce que tu en penses !</p>
           </header>
 
           <form onSubmit={handleSubmit} className="avis-form">
             {/* Q1 — le fait (depuis quand) */}
             <fieldset>
-              <legend>1. Tu bois du Lédjé depuis quand&nbsp;?</legend>
+              <legend>1. Tu bois du lédjé depuis quand&nbsp;?</legend>
               <div className="radio-group">
                 {Q1_OPTIONS.map(opt => (
                   <label key={opt} className="radio-option">
@@ -226,14 +226,14 @@ export default function Avis() {
 
             {/* Q4 — la raison (libre, volontairement SANS exemple ni placeholder suggestif) */}
             <fieldset>
-              <legend>4. Pourquoi tu choisirais Lédjé plutôt qu&rsquo;une autre boisson&nbsp;?</legend>
+              <legend>4. Pourquoi tu choisirais lédjé plutôt qu&rsquo;une autre boisson&nbsp;?</legend>
               <textarea
                 className="avis-textarea"
                 rows={3}
                 value={chooseReason}
                 maxLength={600}
                 onChange={e => setChooseReason(e.target.value)}
-                aria-label="Pourquoi tu choisirais Lédjé"
+                aria-label="Pourquoi tu choisirais lédjé"
               />
             </fieldset>
 
@@ -284,7 +284,7 @@ export default function Avis() {
                 aria-label="Ton email (facultatif)"
               />
               <p className="avis-consent">
-                On s&rsquo;en sert uniquement pour te donner des nouvelles de Lédjé.
+                On s&rsquo;en sert uniquement pour te donner des nouvelles de lédjé.
                 Tu peux te désinscrire quand tu veux.
               </p>
             </fieldset>
