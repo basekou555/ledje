@@ -1,7 +1,7 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-09-25
+maj: 2026-09-28
 source: "SOT Partie 8 + §8.1 (archive 2026-07-24) + outillage conseil 2026-07-21 (page relais) ; générateur de prompts visuels rendu visible le 2026-08-20 (il n'était référencé que par CLAUDE.md)"
 resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo."
 ---
@@ -24,6 +24,14 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 ### 🔒 Pourquoi Cowork ne peut pas écrire au dépôt — le motif exact, vérifié le 2026-09-24
 
 **Cette contrainte était écrite depuis le 10/09 comme « le connecteur GitHub est en lecture seule par conception ».** ⚠️ **C'est inexact, et la formulation a duré quinze jours.** ✅ **Motif réel, obtenu en testant** *(routine Cowork, 24/09)* : la session **CLONE et LIT sans problème** ; c'est le **`push` qui est refusé par le proxy**, avec le message *« basekou555/ledje is not in this session's authorized repository set »*.
+
+### 📎 Une pièce jointe dans Notion n'est PAS lisible par la routine — établi le 2026-09-28
+
+**Cas réel** : les notes du RDV O'Daba du 27/09 existent bien dans Notion, sur une page *« Discussions avec odaba »*. ⛔ **Mais la page ne contient qu'un FICHIER JOINT** — la transcription d'un mémo vocal *(`Voix_260927_215141`, enregistré le 27/09 à 21h51)*. ➡️ **La routine lit la page, voit le fichier, et ne peut pas l'ouvrir** : l'outil de téléchargement ne sait lire que les pièces jointes créées par l'intégration elle-même, et renvoie `object_not_found` sur celles déposées par Basekou.
+
+🎯 **Ce que ça établit, et c'est une règle d'usage plus qu'une limite technique : « je l'ai mis dans Notion » ne suffit pas.** ➡️ **Un fait doit être dans le TEXTE d'une page pour être lisible ; dans un fichier joint, il est présent et inaccessible.**
+
+📌 **Forme nouvelle du mécanisme des sept faits perdus de septembre : le fait n'est ni oublié ni absent — il est ILLISIBLE par ceux qui en ont besoin.** ✅ **Sortie simple : coller le texte dans le corps de la page**, le fichier pouvant rester en pièce jointe comme original.
 
 🔴 **ET UN SECOND BLOCAGE, DISTINCT, A ÉTÉ TESTÉ LE 25/09 : l'écriture par le CONNECTEUR GitHub renvoie `403 Resource not accessible by integration`** *(constaté sur une création de branche)*. ➡️ **Il y a donc DEUX verrous, de natures différentes : l'un au proxy sur le `push`, l'autre sur les droits du connecteur.** ⛔ **LEVER L'UN NE LÈVERAIT PAS L'AUTRE** — et c'est ce qui change le geste : ajouter le dépôt aux sources d'une session ne donnera rien tant que le connecteur reste en 403, et inversement.
 
