@@ -73,6 +73,10 @@ export default function App() {
   // de la profondeur. Calculé en rAF et seulement tant que le hero est visible.
   useEffect(() => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    /* Pas de parallaxe sous 900 px : depuis le 2026-09-28 l'image du hero y
+       est DANS LE FLUX (et non plus en fond absolu), donc la déplacer
+       laisserait un trou sous elle. */
+    if (!window.matchMedia('(min-width: 900px)').matches) return
     const media = document.querySelector<HTMLElement>('.v-hero-media')
     const content = document.querySelector<HTMLElement>('.v-hero-content')
     if (!media) return
