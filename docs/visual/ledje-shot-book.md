@@ -26,7 +26,7 @@
 ## Blocs réutilisables (DA — Direction Artistique)
 
 - **DA-01** = lumière naturelle douce (matin diffus ou fin d'après-midi), jamais de flash/studio visible.
-- **DA-02** = **yeux jamais visibles** (non négociable) ; on privilégie le moins de visage possible, hors champ si possible — un visage ou une partie de visage reste admis au cas par cas depuis le 2026-07-30.
+- **DA-02** = **yeux jamais visibles** (non négociable) — ⚠️ **sur les plans FABRIQUÉS** ; ✅ **hors périmètre pour Basekou filmé** *(2026-09-28)* ; on privilégie le moins de visage possible, hors champ si possible — un visage ou une partie de visage reste admis au cas par cas depuis le 2026-07-30.
 - **DA-03** = sobriété vivante — pas de minimalisme froid, pas de vocabulaire luxe ; une trace de mouvement/imperfection dans le cadre.
 - **DA-04** = règle des 3 éléments maximum, espace négatif généreux (pour intégrer du texte plus tard).
 
