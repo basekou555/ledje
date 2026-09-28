@@ -70,7 +70,7 @@ export type AvisPayload = {
   tasteRating: number | null // Q3 — note 1..5
   tasteWords: string[]       // Q3 — mots (max 3, « Autre » inclus)
   tasteWordOther: string     // Q3 — texte libre si « Autre »
-  chooseReason: string       // Q4 — pourquoi Lédjé (libre, sans exemple)
+  chooseReason: string       // Q4 — pourquoi lédjé (libre, sans exemple)
   improvement: string        // Q5 — remarque / idée (libre)
   reclamation: string        // Réclamation produit (section dédiée, dépliable) — distincte de Q5
   email: string              // facultatif

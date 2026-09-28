@@ -1,5 +1,5 @@
 /* ════════════════════════════════════════════
-   LÉDJÉ — design system
+   lédjé — design system
    Direction validée le 2026-09-08 : on s'aligne sur l'étiquette V1.8.
    Fond crème chaud dominant · vert profond pour le texte et les aplats ·
    doré en accent ponctuel, jamais en texte courant.
@@ -198,6 +198,10 @@ img, svg, video { display: block; max-width: 100%; }
 .v-hero-media { position: absolute; inset: 0; z-index: 0; }
 .v-hero-media video,
 .v-hero-media img { width: 100%; height: 100%; object-fit: cover; }
+/* (Un décalage à 82 % a vécu ici du 24 au 28/09 : il rattrapait le recadrage
+   du hero sur téléphone, qui coupait la silhouette en deux. Devenu sans objet
+   le 28/09 — sous 900 px l'image n'est plus recadrée du tout, voir le bloc
+   « TÉLÉPHONE » en fin de fichier.) */
 /* Voile : la vidéo respire en haut, le bas devient crème pour porter le texte
    et enchaîner sans couture sur la section suivante. */
 .v-hero-media::after {
@@ -544,6 +548,9 @@ img, svg, video { display: block; max-width: 100%; }
 .v-split { display: flex; flex-direction: column; gap: 2rem; }
 
 @media (min-width: 900px) {
+  /* Le cadre redevient large : le recadrage s'annule, on revient au centre. */
+  .v-hero-media img { object-position: 50% 50%; }
+
   /* ── Hero : plein cadre, texte à gauche, grande échelle ── */
   .v-hero {
     align-items: flex-start;
@@ -931,4 +938,68 @@ img, svg, video { display: block; max-width: 100%; }
   height: 100%;
   object-fit: cover;
   object-position: center 62%;
+}
+
+/* ════════════════════════════════════════════
+   TÉLÉPHONE — LE HERO ET LA BANDE SE DÉSEMPILENT
+   Constat mesuré le 2026-09-28 : les deux visuels sont en 3:2 (paysage) et
+   étaient posés en fond d'un cadre PORTRAIT plein écran. Deux conséquences,
+   une seule cause.
+   ① Le recadrage y est HORIZONTAL uniquement : le hero n'affichait que
+      392 px de large sur 1264, étirés sur les 1170 px réels d'un téléphone
+      — soit un agrandissement de 3×. D'où la pixellisation.
+   ② Le cadrage vertical n'ayant aucun effet, impossible de faire monter la
+      bouteille : le texte, posé en bas, tombait dessus. Vérifié : raccourcir
+      la bande n'y changeait rien.
+   Correctif : sur téléphone l'image reprend sa forme, en pleine largeur et
+   sans recadrage, et le texte passe DESSOUS. Toute la largeur de la source
+   est alors utilisée — l'image redevient nette — et plus rien ne se
+   superpose. Au-delà de 900 px le cadre est large, le recadrage disparaît
+   de lui-même : la superposition d'origine est conservée.
+   ════════════════════════════════════════════ */
+@media (max-width: 899px) {
+  .v-hero {
+    min-height: 0;
+    justify-content: flex-start;
+    padding: 0 0 clamp(2.5rem, 7vh, 3.5rem);
+    background: var(--surface);
+  }
+  .v-hero-media {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    aspect-ratio: 1264 / 848;   /* la forme native : aucun recadrage */
+  }
+  .v-hero-media img { object-position: 50% 50%; }
+  /* Le voile ne sert plus à porter le texte : il fond seulement le bas de
+     l'image dans le crème, pour que la jointure ne soit pas une arête. */
+  .v-hero-media::after {
+    background: linear-gradient(to bottom,
+      rgba(20, 61, 43, 0.10) 0%,
+      rgba(244, 235, 218, 0) 55%,
+      rgba(244, 235, 218, 0.9) 92%,
+      var(--surface) 100%);
+  }
+  .v-hero-content { padding: 1.8rem 1.4rem 0; }
+
+  .v-band {
+    min-height: 0;
+    display: block;
+    padding: 0 0 clamp(2.5rem, 7vh, 3.5rem);
+  }
+  .v-band-media {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    aspect-ratio: 1536 / 1024;
+  }
+  .v-band-media img { object-position: 50% 50%; }
+  .v-band-media::after {
+    background: linear-gradient(to bottom,
+      rgba(20, 61, 43, 0.12) 0%,
+      rgba(20, 61, 43, 0) 50%,
+      rgba(20, 61, 43, 0.75) 90%,
+      var(--green-deep) 100%);
+  }
+  .v-band-content { padding: 1.6rem 1.4rem 0; }
 }
