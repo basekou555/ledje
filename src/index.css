@@ -198,13 +198,10 @@ img, svg, video { display: block; max-width: 100%; }
 .v-hero-media { position: absolute; inset: 0; z-index: 0; }
 .v-hero-media video,
 .v-hero-media img { width: 100%; height: 100%; object-fit: cover; }
-/* Sur téléphone, le hero est un cadre PORTRAIT alors que l'image est en 3:2 :
-   seuls ~31 % de sa largeur restent visibles. Centré, le recadrage coupait la
-   silhouette en deux — il ne restait qu'une main et la bouteille au bord.
-   Calé à 82 %, le sujet entier rentre et la fenêtre reste derrière lui.
-   Vérifié sur 360, 390 et 430 px de large. Sur grand écran le cadre
-   redevient large, le recadrage disparaît, on retourne au centre. */
-.v-hero-media img { object-position: 82% 50%; }
+/* (Un décalage à 82 % a vécu ici du 24 au 28/09 : il rattrapait le recadrage
+   du hero sur téléphone, qui coupait la silhouette en deux. Devenu sans objet
+   le 28/09 — sous 900 px l'image n'est plus recadrée du tout, voir le bloc
+   « TÉLÉPHONE » en fin de fichier.) */
 /* Voile : la vidéo respire en haut, le bas devient crème pour porter le texte
    et enchaîner sans couture sur la section suivante. */
 .v-hero-media::after {
