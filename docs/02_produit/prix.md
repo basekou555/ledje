@@ -1,12 +1,26 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-07-24
+maj: 2026-09-29
 source: "SOT §1.7 + §5.0 (archive 2026-07-24) ; plafond B2C 2026-07-20 et grilles par canal 2026-07-24 (page relais + arbitrage Basekou)"
 resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix bouteille 33cl par canal (B2C 2,50 € / C2B2C / B2B), et le piège : ne jamais communiquer sur le coût de revient."
 ---
 
 # Prix
+
+## 🔴 2026-09-29 — UN PRIX EST PRATIQUÉ, ET IL EST SOUS LE COÛT MATIÈRE
+
+⛔ **AUCUN MONTANT N'EST ÉCRIT DANS CETTE SECTION, ni ailleurs dans le dépôt : on consigne la RELATION, pas le chiffre.**
+
+**Un prix a été appliqué aux 10 bouteilles commandées par O'Daba le 27/09.** ➡️ **Il est inférieur au coût de la matière première — donc avant même de compter une minute de travail.** ⚠️ **Il n'a fait l'objet d'aucune décision : il a été énoncé en négociation, et il est devenu le prix.**
+
+🎯 **C'EST EXACTEMENT LE RISQUE QUE L'AUDIT DU 23/09 AVAIT POINTÉ, ET IL S'EST RÉALISÉ EN SIX JOURS.** L'audit relevait que **cette fiche n'avait pas bougé depuis le 24/07**, soit **avant que la dose de miel soit multipliée par ≈ 2,5**, et que les items **11** et **16** du backlog — *calculer le prix de revient*, *calculer le coût de revient artisanal* — **n'avaient jamais été faits**. ➡️ **On a donc vendu sans savoir ce que ça coûte, et c'était annoncé.**
+
+✅ **Deux éléments nouveaux du 29/09, utiles pour la suite** : le restaurateur applique un **coefficient 4** sur son prix d'achat *(ce qui situe le produit à la carte, et permet de vérifier qu'il n'est pas hors marché pour un soft en restaurant)* ; et **un objectif de baisse des coûts est posé par Basekou** `[en discussion]`.
+
+⚠️ **Non tranché, et à trancher avant la prochaine commande** : ① **le prix est-il HT ou TTC** ② **le prix des 30 bouteilles de H7 n'est écrit nulle part** ③ **aucun devis de série n'a été demandé à ce jour** — ni bouteilles, ni étiquettes, ni miel en volume.
+
+📌 **Ce que cette section ne fait pas : reprocher le prix.** **Une première commande à perte peut être un investissement délibéré** — c'est même défendable pour ouvrir un canal. **Ce qui n'est pas défendable, c'est de ne pas savoir que c'en est un.**
 
 ## Contrainte prix (cible business, PAS un argument marketing)
 
