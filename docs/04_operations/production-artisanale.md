@@ -172,7 +172,7 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 - **Aucune bouteille remise sans marquage du bouchon** — **DLC + n° de lot (date AAMMJJ)**, l'étiquette v1.2 y renvoyant explicitement *(art. 24 INCO — cf. `../02_produit/eau-miellee-33cl.md`)*. **Le tampon a été commandé le 23/09 ; son arrivée avant le 29 est le chemin critique de l'événement.**
 - **Froid maintenu jusqu'au service.** Le froid est la SEULE barrière : le pH du produit reste au-dessus de 4,6, donc l'acidité ne protège de rien *(cf. la série pH ci-dessous)*.
 - **Facture à la main**, comme pour toute première commande.
-- **À l'oral pendant la dégustation** : *« au frais, aucun signe à 7 jours ; hors du froid, ça tourne en deux jours »* — ⛔ **jamais « le produit tient X jours »**. Sur le sucre : *« jusqu'à un tiers de sucres en moins qu'un soda classique »*, le « jusqu'à » compris *(`../01_adn/conformite.md`)*.
+- **À l'oral pendant la dégustation** : *« au frais, aucun signe à 14 jours ; hors du froid, ça tourne en deux jours »* — ⛔ **jamais « le produit tient X jours »**. Sur le sucre : *« jusqu'à un tiers de sucres en moins qu'un soda classique »*, le « jusqu'à » compris *(`../01_adn/conformite.md`)*.
 
 ### 📌 Arbitrage assumé par Basekou le 23/09 : on produit sous la v1 du PMS
 

@@ -74,10 +74,16 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 
 🎯 **S'il fallait un point de mesure, c'est celui-là** : une bouteille du même lot, soumise au même aller-retour, gardée en réserve et relevée. **Rien n'est décidé ici — la décision appartient à Basekou.**
 
+🕕 **HEURE DE LIVRAISON PRÉCISÉE PAR BASEKOU : 18h, CE SOIR** *(et non dans la journée)*. ➡️ **Production le matin, remise à 18h : les bouteilles passent ≈ 8 à 9 heures entre la sortie du frigo de production et l'entrée dans celui du restaurant** — toujours très en dessous des 24 h du PMS v1, **mais c'est la durée réelle du scénario non testé, et elle mérite d'être écrite en heures plutôt qu'en « transport court ».**
+
+⚠️ **DEUX POINTS RESTENT SANS RÉPONSE AU 30/09 EN FIN D'APRÈS-MIDI, et ils sont consignés comme tels** — une non-réponse est une information :
+- ⛔ **Le MARQUAGE DLC + lot AAMMJJ au tampon sur l'étiquette est-il fait ?** **Non répondu.** ➡️ **C'est le seul point non négociable de la remise** *(art. 24 INCO : la DLC doit être indiquée ET lisible)*, et **ce sont 10 bouteilles VENDUES, pas des échantillons.**
+- ⛔ **La FACTURE de la vente du 29/09 est-elle faite ?** **Non répondu.** **Elle était déjà reportée du 29 au 30.**
+
 - ✅ **25/09 — RENDEZ-VOUS PRIS DIMANCHE pour organiser une dégustation sur place.** ➡️ **Et l'approche change : Basekou n'y va plus avec UNE recette à défendre, mais avec DEUX OU TROIS MIELS à faire choisir** *(tilleul, montagne, la recette actuelle, éventuellement acacia)*. 🎯 **Le motif est dit clairement, et c'est un renversement de méthode** : *« nous, on a choisi la recette à partir de ce qui nous parle, mais finalement c'est peut-être pas suffisant. »* **On passe d'une recette arbitrée au bureau à une recette choisie par celui qui la revend.**
 - 🔴 **24/09 — AUCUNE RÉPONSE À CETTE RELANCE.** *« J'ai relancé, j'ai pas eu de réponse pour l'instant. »* ➡️ **Consigné comme la règle l'impose : une non-réponse est une information, et elle vaut une ligne au même titre qu'un verdict.** ⚠️ **Quatre jours après le dépôt, on ne sait toujours ni si les bouteilles ont été goûtées, ni par qui, ni si elles sont restées au froid.** 📌 **Aucune nouvelle tentative n'a de date à ce stade** — et le silence d'un restaurateur relancé une fois n'est pas encore un refus, mais il cesse d'être neutre.
 - 🎯 **Les quatre choses que la relance doit rapporter** : ① goûtées, et par qui ② le verdict, même tiède ③ **une suite OU un refus — un refus motivé vaut autant qu'une commande** ④ les bouteilles sont-elles restées au froid.
-- ✅ **Formule autorisée sur la conservation, à l'oral** : *« au frais, aucun signe à 7 jours ; hors du froid, ça tourne en deux jours. »* ⛔ **Jamais « le produit tient X jours »** — la série pH donne un **plancher observé**, pas une durée.
+- ✅ **Formule autorisée sur la conservation, à l'oral** : *« au frais, aucun signe à 14 jours ; hors du froid, ça tourne en deux jours. »* ⛔ **Jamais « le produit tient X jours »** — la série pH donne un **plancher observé**, pas une durée.
 - 🔗 **Et O'Daba n'est plus le seul chemin vers la première vente** : l'événement **H7 du 29/09** *(≈ 30 bouteilles payées, cf. `../04_operations/production-artisanale.md`)* peut la précéder. **Ça ne retire rien au test O'Daba — le réachat d'un restaurateur reste l'indicateur du canal, une dégustation d'entreprise ne le remplace pas.**
 
 ## Prospection ouverte (2026-08-18)
@@ -98,7 +104,19 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 
 🔴 **Deux autres écarts, même source, même appel** :
 - *« chez les Westaf… au Daba, tu peux en trouver »* — **au PRÉSENT, pour UN SEUL client**, dont la première commande n'est pas encore livrée. ⚠️ **C'est une présence commerciale énoncée comme acquise.**
-- **Un SECOND VOLET est promis au prospect — *« un outil événementiel »*.** ⛔ **Il n'existe ni au dépôt, ni sur le site.** ➡️ **Il ne figure dans aucune fiche d'offre** *(`../01_adn/architecture-offre.md`)* : **soit c'est une offre à écrire, soit c'est une promesse à retirer du script.**
+- **Un SECOND VOLET est promis au prospect — *« un outil événementiel »*.** ⛔ **Il n'existe ni au dépôt, ni sur le site.** ➡️ **Il ne figure dans aucune fiche d'offre** *(`../01_adn/architecture-offre.md`)* : **soit c'est une offre à écrire, soit c'est une promesse à retirer du script.** ✅ **TRANCHÉ PAR BASEKOU LE 30/09 : c'est une promesse à RETIRER.** *« C'est du bullshit, j'ai pipoté, on en fera rien. La vérité c'est que j'ai paniqué, du coup j'ai inventé. »* ➡️ **Rien à écrire dans `architecture-offre.md` : il n'y a pas d'offre.**
+
+#### 🎯 ET CETTE RÉPONSE REQUALIFIE TOUTE L'ALERTE — ce n'est pas un problème de vocabulaire, c'est un trou de script
+
+**Basekou donne lui-même le mécanisme, et il vaut plus que les trois formules relevées** : *« j'ai paniqué, du coup j'ai inventé. »*
+
+➡️ **Les deux écarts ont alors la MÊME cause, et ce n'est pas celle qu'on corrigeait** : sous la question « c'est quoi votre produit, qu'est-ce que vous proposez », **il n'y a rien d'écrit à réciter** — alors ça se comble en direct, avec ce qui vient : un superlatif *(« ultra sain »)*, une présence commerciale *(« au Daba, tu peux en trouver »)*, une offre inventée *(« un outil événementiel »)*.
+
+⛔ **CONSÉQUENCE DE MÉTHODE, ET ELLE INVERSE LE REMÈDE : interdire des mots ne referme pas un trou.** **Tant qu'il n'y a pas de réponse ÉCRITE et apprise à « c'est quoi », le même vide produira les mêmes comblements devant le sixième interlocuteur.**
+
+✅ **Ce qui est déjà validé au dépôt et suffit à répondre, sans aucun interdit** : **« de l'eau de source et du miel, rien d'autre »** · **« miel pur, jamais chauffé »** · **« jusqu'à un tiers de sucres en moins qu'un soda classique »** · **« au frais, aucun signe à 14 jours ; hors du froid, ça tourne en deux jours »**. ➡️ **Quatre phrases, toutes conformes, toutes déjà vraies. Il n'en manque aucune — elles ne sont simplement écrites nulle part ENSEMBLE, comme une réponse.**
+
+⚠️ **Rien n'est décidé ici : écrire ce script est une décision de Basekou.** **Le prochain passage est CE SOIR** *(Baca Bamba, reporté)*.
 
 ⚠️ **ALERTE POSÉE, PUIS ON EXÉCUTE : rien n'est retiré, rien n'est réécrit, et la décision appartient à Basekou. NON TRANCHÉ.**
 
@@ -114,7 +132,7 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 | Établissement | Date | Heure |
 |---|---|---|
-| **Baca Bamba** *(L7)* | **30/09** | 15h30 |
+| **Baca Bamba** *(L7)* | **30/09** — ⚠️ **REPORTÉ AU SOIR MÊME** : l'interlocuteur n'était pas là, aucun échange n'a eu lieu | ~~15h30~~ → **ce soir** |
 | **Sisters Bakery** | **02/10** | 11h30 |
 | **Le Goût de Ça** *(L3)* | **06/10** | 15h |
 | **Mauya** *(L3)* — Mme Seri | **07/10** | 15h30 |
@@ -125,6 +143,18 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 📌 **Toutes en cuisine africaine.** ⚠️ **Le carnet compte 60 établissements : cinq rendez-vous ne disent rien du taux sur l'ensemble.**
 
 🔴 **CINQ DÉGUSTATIONS À FOURNIR, ET AUCUNE PRODUCTION N'EST PRÉVUE POUR ELLES** — ni volume, ni date, ni recette. **À la différence du lot de 30 et des 10 d'O'Daba, celles-ci n'ont pas de matière affectée.**
+
+#### ✅ 30/09 — LA RECETTE DES DÉGUSTATIONS EST TRANCHÉE : ACACIA **ET** 25/75
+
+**Décision de Basekou** : *« on va faire du acacia et du 25/75. »* ➡️ **Deux recettes, présentées côte à côte** — la méthode du 27/09 chez O'Daba *(faire choisir plutôt que défendre)* devient la méthode par défaut du canal.
+
+🎯 **Et le choix est cohérent avec ce que le 29/09 a appris** : l'**acacia** est le miel neutre qui a emporté la première commande ; le **25/75** est l'assemblage dont le tanin **coupe le sucre** — le défaut constaté sur le 100 % montagne. **Ce sont les deux extrêmes utiles, pas deux variantes voisines.**
+
+🔴 **LE GOULOT EST L'ACACIA, ET IL EST ÉTROIT.** Le stock déclaré au 28/09 était **≈ 500 g** ; **les 10 bouteilles de ce matin en ont consommé ≈ 287 g** *(≈ 28,7 g par bouteille)*. ➡️ **Il resterait ≈ 210 g, soit ≈ 7 BOUTEILLES D'ACACIA AU MAXIMUM.** ⚠️ **Cinq dégustations en demandent au moins cinq.** ✅ **Le 25/75 n'a aucun problème** : ≈ 5 kg de montagne et ≈ 2 kg de châtaignier couvrent très largement. ⛔ **Le stock d'acacia n'a jamais été pesé — il est déclaré. Une réappro auprès de Joan n'a pas de date.**
+
+⚠️ **NI DATE NI QUANTITÉ DONNÉES** — la recette est tranchée, la production ne l'est pas. **Consigné comme tel.**
+
+📌 **Conséquence de traçabilité, déjà écrite au dépôt et qui s'applique ici** : **deux recettes produites le même jour porteraient le même numéro de lot** *(AAMMJJ)*. ✅ **Sortie connue : un suffixe par variante — `AAMMJJ-A` / `-B` — et la correspondance écrite le jour même** *(`../02_produit/eau-miellee-33cl.md`)*.
 
 ⚠️ **LE GOÛT DE ÇA PORTE TROIS NOMS DE GÉRANT** — *Arnaud*, *Chouabe*, *Krambé*. **Aucun n'est figeable : le nom du décideur n'est pas établi, et la fiche ne choisit pas.** ➡️ **À lever au rendez-vous du 06/10, pas avant.**
 
@@ -158,4 +188,4 @@ Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimente
 
 📌 **Pourquoi cette ligne compte malgré sa maigreur** : depuis le 18/08, le carnet a produit **10 appels, 2 contacts et 0 rendez-vous** — et O'Daba, le seul test en cours, **ne répond plus depuis quatre jours**. **Une piste obtenue par le contact direct plutôt que par le téléphone froid est donc un signal de méthode, pas seulement un nom de plus.**
 
-⚠️ **Rappel avant toute dégustation** : aucune allégation santé, même à l'oral ; *« jusqu'à un tiers de sucres en moins qu'un soda classique »* avec son « jusqu'à » ; sur la conservation, *« au frais, aucun signe à 7 jours ; hors du froid, ça tourne en deux jours »* — **jamais « le produit tient X jours »**. Et **aucune bouteille remise sans marquage du bouchon**.
+⚠️ **Rappel avant toute dégustation** : aucune allégation santé, même à l'oral ; *« jusqu'à un tiers de sucres en moins qu'un soda classique »* avec son « jusqu'à » ; sur la conservation, *« au frais, aucun signe à 14 jours ; hors du froid, ça tourne en deux jours »* — **jamais « le produit tient X jours »**. Et **aucune bouteille remise sans marquage du bouchon**.

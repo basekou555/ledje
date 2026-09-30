@@ -75,6 +75,10 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 
 ⚠️ **Ce que ça ouvre, et qui n'est pas dans la question de recette** : une deuxième **liste d'ingrédients**, donc une deuxième **étiquette** ; un deuxième **suffixe de lot** ; et une **acidité qui n'a rien à voir** — le citron ferait passer le produit sous le seuil de 4,6, ce que quatre mois de protocole n'ont jamais obtenu. ⛔ **Aucun de ces points n'est étudié. Rien n'est proposé ici : le fait est consigné, pas instruit.**
 
+✅ **30/09 — CE N'EST PAS UNE REMARQUE DE SOIRÉE : C'EST UNE INTENTION DE BASEKOU.** *« Je pense vraiment à créer une gamme le plus tôt possible. »* ➡️ **La ligne change de statut sans changer de niveau** : elle reste `[en discussion]` parce que **rien n'est arbitré** — ni la recette, ni l'étiquette, ni l'acidité — **mais elle cesse d'être un signal de terrain pour devenir une direction voulue, avec une urgence énoncée.**
+
+⚠️ **Ce que « le plus tôt possible » heurte, et qu'il faut poser sans trancher** : **une gamme suppose une deuxième étiquette, donc une IMPRESSION** — or **la réduction de dose, elle, ne se décide qu'avant une réimpression.** ➡️ **Les deux calendriers se croisent : la gamme ACCÉLÈRE la réimpression que la dose ATTEND.** 🎯 **C'est le seul point qui rend l'arbitrage urgent plutôt que confortable.**
+
 🔴 **LES DEUX SUJETS — la dose et la gamme — TOUCHENT L'ÉTIQUETTE.** ➡️ **Ils se tranchent ENSEMBLE, et avant toute réimpression.** **Les ≈ 200 étiquettes restantes sont le compte à rebours.**
 
 ### ✅ Ce que l'étiquette autorise — vérifié le 25/09, et c'est l'inverse de ce qu'on pouvait craindre
