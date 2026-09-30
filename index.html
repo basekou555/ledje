@@ -6,7 +6,16 @@
     <meta name="description" content="lédjé — eau miellée. De l'eau et du miel. Rien de plus. Miel français pur, origine tracée, jamais chauffé." />
     <meta name="theme-color" content="#EDE0C8" />
     <title>lédjé — eau miellée</title>
+    <!-- Favicon : le SVG seul ne suffisait pas. iOS Safari ignore purement et
+         simplement les favicons SVG (il ne regarde que l'apple-touch-icon), et
+         tout navigateur qui ne sait pas lire un SVG se rabat sur /favicon.ico
+         à la racine — absent, donc aucune icône. D'où les quatre déclarations :
+         le SVG pour ceux qui savent, le PNG et l'ICO en repli, l'apple-touch-icon
+         pour l'iPhone (carré plein : iOS applique son propre masque arrondi). -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Alice : typo à l'essai, alignée sur l'étiquette V1.8 (décision Basekou 2026-09-08).
