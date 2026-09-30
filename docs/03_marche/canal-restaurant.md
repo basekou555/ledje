@@ -76,9 +76,9 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 
 🕕 **HEURE DE LIVRAISON PRÉCISÉE PAR BASEKOU : 18h, CE SOIR** *(et non dans la journée)*. ➡️ **Production le matin, remise à 18h : les bouteilles passent ≈ 8 à 9 heures entre la sortie du frigo de production et l'entrée dans celui du restaurant** — toujours très en dessous des 24 h du PMS v1, **mais c'est la durée réelle du scénario non testé, et elle mérite d'être écrite en heures plutôt qu'en « transport court ».**
 
-⚠️ **DEUX POINTS RESTENT SANS RÉPONSE AU 30/09 EN FIN D'APRÈS-MIDI, et ils sont consignés comme tels** — une non-réponse est une information :
-- ⛔ **Le MARQUAGE DLC + lot AAMMJJ au tampon sur l'étiquette est-il fait ?** **Non répondu.** ➡️ **C'est le seul point non négociable de la remise** *(art. 24 INCO : la DLC doit être indiquée ET lisible)*, et **ce sont 10 bouteilles VENDUES, pas des échantillons.**
-- ⛔ **La FACTURE de la vente du 29/09 est-elle faite ?** **Non répondu.** **Elle était déjà reportée du 29 au 30.**
+**LES DEUX POINTS SONT TRANCHÉS EN FIN D'APRÈS-MIDI — un fait, un report :**
+- ✅ **LE MARQUAGE EST FAIT : la DLC est posée AU TAMPON.** *« J'ai mis la DLC (au tampon). »* ➡️ **C'est le premier lot de l'histoire du projet à partir marqué** — le geste signalé et repoussé depuis quatre séances est exécuté, et il l'est sur l'**étiquette**, conformément à l'arbitrage du 25/09 *(la face externe d'une étiquette n'est pas une surface de contact alimentaire)*. ⚠️ **Le LOT AAMMJJ n'a pas été mentionné** — seule la DLC l'a été. **Consigné tel quel, sans supposer qu'il y est ni qu'il n'y est pas.**
+- ⛔ **LA FACTURE N'EST TOUJOURS PAS FAITE.** *« J'ai pas encore fait la facture. »* ➡️ **Troisième report : annoncée le 29, reportée au 30, non faite le 30 au soir.** 📌 **Écrit sans commentaire : c'est une charge qui se déplace, et le dépôt en tient le compte.**
 
 - ✅ **25/09 — RENDEZ-VOUS PRIS DIMANCHE pour organiser une dégustation sur place.** ➡️ **Et l'approche change : Basekou n'y va plus avec UNE recette à défendre, mais avec DEUX OU TROIS MIELS à faire choisir** *(tilleul, montagne, la recette actuelle, éventuellement acacia)*. 🎯 **Le motif est dit clairement, et c'est un renversement de méthode** : *« nous, on a choisi la recette à partir de ce qui nous parle, mais finalement c'est peut-être pas suffisant. »* **On passe d'une recette arbitrée au bureau à une recette choisie par celui qui la revend.**
 - 🔴 **24/09 — AUCUNE RÉPONSE À CETTE RELANCE.** *« J'ai relancé, j'ai pas eu de réponse pour l'instant. »* ➡️ **Consigné comme la règle l'impose : une non-réponse est une information, et elle vaut une ligne au même titre qu'un verdict.** ⚠️ **Quatre jours après le dépôt, on ne sait toujours ni si les bouteilles ont été goûtées, ni par qui, ni si elles sont restées au froid.** 📌 **Aucune nouvelle tentative n'a de date à ce stade** — et le silence d'un restaurateur relancé une fois n'est pas encore un refus, mais il cesse d'être neutre.
@@ -118,6 +118,18 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 
 ⚠️ **Rien n'est décidé ici : écrire ce script est une décision de Basekou.** **Le prochain passage est CE SOIR** *(Baca Bamba, reporté)*.
 
+#### ⚖️ 30/09 — BASEKOU TRANCHE : LES ARGUMENTS SANTÉ SERONT DITS À L'ORAL
+
+**Décision, dans ses mots** : *« Sur les arguments santé, je les trouve trop importants pour pas les citer. Je vais les dire à l'oral lors des échanges. »*
+
+➡️ **L'alerte ouverte le 28/09 et rouverte le 30/09 cesse d'être « non tranchée » : elle est TRANCHÉE, et dans le sens de l'emploi.** **La décision appartient à Basekou et elle est exécutée.**
+
+⚠️ **L'ALERTE A ÉTÉ POSÉE UNE FOIS, ELLE EST CONSIGNÉE, ET ELLE N'EST PAS REJOUÉE** — conformément à la règle du dispositif *(une ligne d'alerte, puis on exécute)*. **Sa teneur, pour mémoire et sans y revenir** : le règlement **CE 1924/2006** n'autorise aucune allégation santé sur ce produit ; **l'oral n'est pas un régime distinct de l'écrit** pour la DGCCRF ; et les échanges concernés sont sur **sources enregistrées** *(Grain, live TikTok)*.
+
+🔴 **CE QUE CETTE DÉCISION LAISSE EN L'ÉTAT, ET QUI DOIT ÊTRE VISIBLE POUR TOUTE SESSION FUTURE** : **`../01_adn/conformite.md` continue d'interdire ces termes, et cette fiche n'y change rien** — le fichier est **protégé**, sa modification appartient à Basekou seul. ➡️ **Le dépôt porte donc une contradiction assumée : une règle ADN qui interdit, et une décision opérationnelle qui emploie.** ⛔ **Elle n'est pas résolue ici, et aucune session ne doit la « nettoyer » d'un côté ou de l'autre.**
+
+📌 **Ce qui reste vrai et n'est pas concerné par cette décision** : ① **rien ne change à l'ÉCRIT** — ni étiquette, ni site, ni réseaux, où l'allégation engage un support durable ; ② **« miel pur, jamais chauffé » reste l'argument autorisé qui porte le plus près de ce qui est visé**, et il n'a besoin d'aucune dérogation ; ③ **l'allégation sucre garde son « jusqu'à »** — elle relève d'un régime *nutritionnel*, distinct, et celui-là est conforme.
+
 ⚠️ **ALERTE POSÉE, PUIS ON EXÉCUTE : rien n'est retiré, rien n'est réécrit, et la décision appartient à Basekou. NON TRANCHÉ.**
 
 ✅ **Ce qui reste dicible et porte le même argument sans l'interdit** : *« miel pur, jamais chauffé »* *(autorisé par `../01_adn/conformite.md`)* et *« jusqu'à un tiers de sucres en moins qu'un soda classique »*, le « jusqu'à » compris.
@@ -152,7 +164,11 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 🔴 **LE GOULOT EST L'ACACIA, ET IL EST ÉTROIT.** Le stock déclaré au 28/09 était **≈ 500 g** ; **les 10 bouteilles de ce matin en ont consommé ≈ 287 g** *(≈ 28,7 g par bouteille)*. ➡️ **Il resterait ≈ 210 g, soit ≈ 7 BOUTEILLES D'ACACIA AU MAXIMUM.** ⚠️ **Cinq dégustations en demandent au moins cinq.** ✅ **Le 25/75 n'a aucun problème** : ≈ 5 kg de montagne et ≈ 2 kg de châtaignier couvrent très largement. ⛔ **Le stock d'acacia n'a jamais été pesé — il est déclaré. Une réappro auprès de Joan n'a pas de date.**
 
-⚠️ **NI DATE NI QUANTITÉ DONNÉES** — la recette est tranchée, la production ne l'est pas. **Consigné comme tel.**
+✅ **QUANTITÉ DONNÉE LE 30/09 : UNE BOUTEILLE DE CHAQUE RECETTE PAR RENDEZ-VOUS.** *« Les RDV sont bookés, et c'est un de chaque boisson par RDV. »* ➡️ **Soit 10 bouteilles au total : 5 en ACACIA et 5 en 25/75.**
+
+✅ **ET ÇA PASSE, DE JUSTESSE : 5 bouteilles d'acacia demandent ≈ 143 g, sur les ≈ 210 g restants.** ➡️ **Il resterait ≈ 66 g, soit ≈ 2 bouteilles de marge.** ⚠️ **Marge calculée sur un stock DÉCLARÉ, jamais pesé** — et le 27/09, ce même stock a été annoncé au client comme *« 4 kg, soit 180 bouteilles »*, écart d'un facteur 8 déjà relevé et non tranché. **Si le stock réel est inférieur au déclaré, l'acacia manque avant le cinquième rendez-vous.**
+
+⚠️ **LA DATE DE PRODUCTION RESTE NON DONNÉE.** 📌 **Premier rendez-vous concerné : Sisters Bakery, le 02/10 à 11h30** — la production doit donc tenir dans les deux jours, et le froid jusqu'à la remise s'applique comme pour toute bouteille sortie.
 
 📌 **Conséquence de traçabilité, déjà écrite au dépôt et qui s'applique ici** : **deux recettes produites le même jour porteraient le même numéro de lot** *(AAMMJJ)*. ✅ **Sortie connue : un suffixe par variante — `AAMMJJ-A` / `-B` — et la correspondance écrite le jour même** *(`../02_produit/eau-miellee-33cl.md`)*.
 
