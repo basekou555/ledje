@@ -61,7 +61,20 @@ Plus c'est subtil, plus c'est universel — et plus ça respecte la ligne « év
 
 ## Personnages
 
-Mains, silhouettes, profils, gestes — **jamais les yeux visibles** (règle stricte, non négociable, applicable à toute image avec présence humaine). Idéalement, visage totalement hors champ : on privilégie le moins de visage possible. Depuis le 2026-07-30, un visage ou une partie de visage est admis au cas par cas quand le cadrage le justifie, les yeux restant floutés, cachés ou hors champ.
+Mains, silhouettes, profils, gestes — **jamais les yeux visibles** (règle stricte, non négociable, applicable à **toute image FABRIQUÉE : générée par IA, mise en scène, ou tout visuel de marque produit pour représenter quelqu'un**). Idéalement, visage totalement hors champ : on privilégie le moins de visage possible. Depuis le 2026-07-30, un visage ou une partie de visage est admis au cas par cas quand le cadrage le justifie, les yeux restant floutés, cachés ou hors champ.
+
+### ✅ Périmètre précisé le 2026-09-28 — BASEKOU FILMÉ EST HORS RÈGLE
+
+Arbitrage de Basekou, en réponse à la question posée en séance : *« les yeux peuvent être visibles sur les vidéos de moi, pas celles de l'IA. »*
+
+| Ce qu'on montre | Yeux visibles ? |
+|---|---|
+| **Une image générée par IA** | ⛔ **JAMAIS** — la règle est entière, elle ne bouge pas d'un pouce |
+| **Basekou lui-même, filmé** | ✅ **Oui**, sans restriction |
+
+➡️ **Ce que le périmètre distingue** : la règle n'a jamais visé le regard humain en soi, elle visait **le regard fabriqué**. Un personnage généré qui vous fixe est une personne qui n'existe pas ; Basekou face caméra, c'est lui. ⚠️ **La rédaction antérieure — « toute image avec présence humaine » — couvrait les deux sans le vouloir**, parce qu'elle a été écrite avant qu'il soit question de contenu de fondateur.
+
+⚠️ **CE QUE CET ARBITRAGE NE TRANCHE PAS** : le cas d'une **personne réelle qui n'est pas Basekou** — un client filmé, un témoignage, un passant. Ce n'est ni une image fabriquée ni Basekou. **Point ouvert**, et il touche la réserve « faux témoignage » consignée dans `../03_marche/grille-contenu.md`.
 
 ## Règle des 3 éléments
 

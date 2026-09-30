@@ -142,7 +142,9 @@ Comment on écrit les prompts, ce que le cahier des charges impose déjà et ce 
 
 ## Les comptes *(arrêté le 2026-08-20)*
 
-**Aucun compte n'existe à ce jour.** On part de zéro. *(Le TikTok documenté dans `acquisition-tiktok.md` est un chantier, pas un compte actif.)*
+✅ **LES COMPTES EXISTENT — TikTok et Instagram sont créés** *(déclaré par Basekou le 2026-09-28)*. L'état « aucun compte n'existe », arrêté le 20/08, est **caduc**. *(Le TikTok documenté dans `acquisition-tiktok.md` reste un chantier de stratégie, distinct du compte.)*
+
+⚠️ **Ce que ça débloque, et ce que ça ne débloque pas.** La création des comptes lève l'obstacle matériel ; elle **ne lève pas** le gel du contenu, qui tenait à l'identité visuelle non tranchée. **Avoir un compte n'est pas avoir quelque chose à y publier.**
 
 - Création de **TikTok + Instagram**, **cross-post au démarrage**.
 - Plus un **compte « style UGC » généré** (pas de vrais créateurs).

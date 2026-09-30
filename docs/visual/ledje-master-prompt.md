@@ -117,7 +117,7 @@ Palette — ⚠️ **ROUVERTE depuis le 2026-07-28** (cf. `../01_adn/identite-vi
 Nuance par médium : packshot produit = l'émeraude peut dominer (fond) ; lifestyle = émeraude en touche signature, les neutres dominent.
 *(L'ancien renvoi « cf. SOT §3.2 » est caduc — le SOT monolithique est archivé depuis le 2026-07-24.)*
 Human Presence
-Mains, silhouettes, profils, gestes en priorité — privilégier le moins de visage possible. Depuis le 2026-07-30, un visage (ou une partie de visage) est possible quand le cadrage le justifie, au cas par cas. Non-negotiable : **jamais les yeux visibles** (floutés, cachés, détournés, hors champ). Codes subtils bienvenus (main droite, vêtement, gestes).
+Mains, silhouettes, profils, gestes en priorité — privilégier le moins de visage possible. Depuis le 2026-07-30, un visage (ou une partie de visage) est possible quand le cadrage le justifie, au cas par cas. Non-negotiable : **jamais les yeux visibles** (floutés, cachés, détournés, hors champ). *(Ce fichier ne régit que l'image GÉNÉRÉE : la règle y est donc entière. L'exception du 2026-09-28 ne couvre que Basekou filmé — cf. `ledje-visual-language.md`.)* Codes subtils bienvenus (main droite, vêtement, gestes).
 Actions
 Chaque image capture une transition, jamais un objet statique.
 Exemples : placing · pouring · shaking · dissolving · reaching · lifting · opening · leaving · returning.
