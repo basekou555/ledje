@@ -16,7 +16,7 @@ choisit des identifiants, le prompt se rédige à partir d'eux.
   Master Prompt » (Evolution Policy).
 - Tout prompt compilé passe la grille de `../01_adn/conformite.md` — **aucune allégation santé, même
   implicite, image comprise**.
-- **Yeux jamais visibles** (non négociable). **Aucun symbole religieux explicite.**
+- **Yeux jamais visibles** (non négociable) — ⚠️ **sur toute image FABRIQUÉE** : générée par IA ou mise en scène. ✅ **Basekou filmé en est HORS** *(tranché le 2026-09-28)* : sur ses propres vidéos, les yeux peuvent être visibles. **Aucun symbole religieux explicite.**
 - **Terminologie** : on dit **cristal de miel**. *portion · perle · pastille · monodose* sont des interdits
   de lexique (`../01_adn/identite-verbale.md` §4.3).
 
