@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-09-29
+maj: 2026-09-30
 source: "SOT §1.4bis (archive 2026-07-24) — accord 2026-07-18 ; intel MMD 2026-07-24, corrigée en session 2026-07-26"
-resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV)."
+resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV). ✅ **27/09 : la dégustation débouche sur la PREMIÈRE COMMANDE — 10 bouteilles d'acacia, produites le 30/09 en ≈ 50 min, livraison prévue le jour même.** 🔴 **Elles inaugurent un scénario jamais testé : sortir du froid puis y RETOURNER.** ✅ **CINQ RDV posés (30/09 → 08/10) : le blocage du premier tour était le RÉPONDEUR, pas le refus.** ⚠️ Cinq dégustations à fournir, aucune production prévue ; Le Goût de Ça porte trois noms de gérant ; 🆕 Doriane (food truck, via Jules) — 1ʳᵉ recommandation entrante."
 ---
 
 # Canal — Restaurant (TEST)
@@ -62,6 +62,18 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 
 🔴 **La livraison de mercredi porte les mêmes obligations que celle du 29 : marquage DLC + lot, froid jusqu'à la remise, facture.** **Ce sont 10 bouteilles VENDUES, pas des échantillons.**
 
+### ✅ 30/09 — LES 10 BOUTEILLES SONT PRODUITES, ET ELLES INAUGURENT UN SCÉNARIO JAMAIS TESTÉ
+
+*(Consigné le 30/09 depuis la page ÉTAT. **La production est un fait ; la LIVRAISON est prévue ce jour et ne s'écrit pas comme faite.**)*
+
+✅ **Les 10 bouteilles ont été produites le matin du 30/09, en ≈ 50 minutes** *(chrono et lecture de capacité : `../04_operations/production-artisanale.md`)*. ⚠️ **Aucune production n'avait été PRÉVUE pour elles** — elles ne faisaient pas partie du lot de 30 du 29/09, et le besoin n'était couvert par rien.
+
+🔴 **CE QUE CETTE LIVRAISON FAIT SUBIR AU PRODUIT, ET QUE LA SÉRIE pH N'A JAMAIS TESTÉ : sortir du froid, puis y RETOURNER.** ➡️ **Les quatorze jours propres ont été obtenus sur un lot resté au froid EN CONTINU** ; le lot ambiant, lui, n'y est jamais revenu. ⛔ **L'aller-retour — production au froid, transport à l'ambiante, remise, puis frigo du restaurant — n'a aucun point de mesure.**
+
+📌 **Ce n'est pas une alerte sanitaire, c'est un trou de protocole** : le PMS plafonne le hors-froid à **24 h** *(v1)*, et un transport court reste très en dessous. **Mais rien au dépôt ne dit ce que ce cycle fait au produit, et c'est le scénario RÉEL de tous les clients à venir** — pas un cas limite.
+
+🎯 **S'il fallait un point de mesure, c'est celui-là** : une bouteille du même lot, soumise au même aller-retour, gardée en réserve et relevée. **Rien n'est décidé ici — la décision appartient à Basekou.**
+
 - ✅ **25/09 — RENDEZ-VOUS PRIS DIMANCHE pour organiser une dégustation sur place.** ➡️ **Et l'approche change : Basekou n'y va plus avec UNE recette à défendre, mais avec DEUX OU TROIS MIELS à faire choisir** *(tilleul, montagne, la recette actuelle, éventuellement acacia)*. 🎯 **Le motif est dit clairement, et c'est un renversement de méthode** : *« nous, on a choisi la recette à partir de ce qui nous parle, mais finalement c'est peut-être pas suffisant. »* **On passe d'une recette arbitrée au bureau à une recette choisie par celui qui la revend.**
 - 🔴 **24/09 — AUCUNE RÉPONSE À CETTE RELANCE.** *« J'ai relancé, j'ai pas eu de réponse pour l'instant. »* ➡️ **Consigné comme la règle l'impose : une non-réponse est une information, et elle vaut une ligne au même titre qu'un verdict.** ⚠️ **Quatre jours après le dépôt, on ne sait toujours ni si les bouteilles ont été goûtées, ni par qui, ni si elles sont restées au froid.** 📌 **Aucune nouvelle tentative n'a de date à ce stade** — et le silence d'un restaurateur relancé une fois n'est pas encore un refus, mais il cesse d'être neutre.
 - 🎯 **Les quatre choses que la relance doit rapporter** : ① goûtées, et par qui ② le verdict, même tiède ③ **une suite OU un refus — un refus motivé vaut autant qu'une commande** ④ les bouteilles sont-elles restées au froid.
@@ -74,9 +86,49 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 
 **Règles d'appel (doctrine commerciale)** : jamais le prix au téléphone, **jamais le plancher** (cf. `../02_produit/prix.md`), aucune promesse de bienfait (grille `../01_adn/conformite.md`).
 
+#### 🔴 ALERTE DISCOURS — LE REGISTRE INTERDIT EST REPARTI LE 29/09, ET CETTE FOIS DANS UN SCRIPT REJOUÉ
+
+*(Relevé sur source enregistrée — prospection, Grain. Consigné au dépôt le 30/09. **2ᵉ occurrence après celle du 27/09** chez O'Daba, cf. journal des décisions.)*
+
+**Mots employés, cités tels quels** : *« ultra sain »* · *« boissons relativement saines »* · *« beaucoup moins sucré qu'un Coca »* — **ce dernier SANS le « jusqu'à »**.
+
+⛔ **`../01_adn/conformite.md` et `../01_adn/identite-verbale.md` interdisent exactement ces termes** : « sain » et tout effet sur le corps sont des allégations santé ; **toute mention du sucre porte le « jusqu'à »** ; et **la comparaison au prix ou au produit d'un soda est un interdit stratégique séparé**. **La DGCCRF ne distingue pas l'écrit de l'oral.**
+
+🎯 **CE QUI REND CETTE OCCURRENCE DIFFÉRENTE DE CELLE DU 27/09, et c'est le seul point qui compte ici : la première était une conversation unique avec un client connu. Celle-ci est un SCRIPT, et il est REJOUÉ.** ➡️ **Cinq rendez-vous sont posés, le carnet en compte ≈ 60, et l'ambition énoncée porte sur ≈ 100 établissements.** **Une formule qui vit dans un script se répète à chaque appel — ce n'est plus un dérapage, c'est un défaut de gabarit.**
+
+🔴 **Deux autres écarts, même source, même appel** :
+- *« chez les Westaf… au Daba, tu peux en trouver »* — **au PRÉSENT, pour UN SEUL client**, dont la première commande n'est pas encore livrée. ⚠️ **C'est une présence commerciale énoncée comme acquise.**
+- **Un SECOND VOLET est promis au prospect — *« un outil événementiel »*.** ⛔ **Il n'existe ni au dépôt, ni sur le site.** ➡️ **Il ne figure dans aucune fiche d'offre** *(`../01_adn/architecture-offre.md`)* : **soit c'est une offre à écrire, soit c'est une promesse à retirer du script.**
+
+⚠️ **ALERTE POSÉE, PUIS ON EXÉCUTE : rien n'est retiré, rien n'est réécrit, et la décision appartient à Basekou. NON TRANCHÉ.**
+
+✅ **Ce qui reste dicible et porte le même argument sans l'interdit** : *« miel pur, jamais chauffé »* *(autorisé par `../01_adn/conformite.md`)* et *« jusqu'à un tiers de sucres en moins qu'un soda classique »*, le « jusqu'à » compris.
+
 Le **carnet de prospection**, le **script d'appel** complet et le suivi des appels vivent dans **Notion** — trop mouvants pour une fiche. Ici, seulement ce qui dure.
 
 **⚠️ Désaccord non tranché (MMD 5, 13/08)** : Valentin estime qu'un site soigné et de belles photos ne font pas closer un restaurateur — ce qui compte serait le volume déjà vendu et la notoriété qui fait choisir la bouteille dans le frigo. Basekou estime que cela rassure et crédibilise. **Consigné sans arbitrage.**
+
+### 🔴 LE BLOCAGE ÉTAIT LE RÉPONDEUR, PAS LE REFUS — cinq rendez-vous posés (29-30/09)
+
+*(Quatre rendez-vous descendus au dépôt le 29/09 ; **le cinquième et le reste de cette section le 30/09**, depuis la page ÉTAT.)*
+
+| Établissement | Date | Heure |
+|---|---|---|
+| **Baca Bamba** *(L7)* | **30/09** | 15h30 |
+| **Sisters Bakery** | **02/10** | 11h30 |
+| **Le Goût de Ça** *(L3)* | **06/10** | 15h |
+| **Mauya** *(L3)* — Mme Seri | **07/10** | 15h30 |
+| **Chez Magie** *(L7)* | **08/10** | 15h30 |
+
+🎯 **CE QUE ÇA CORRIGE, ET C'EST UNE LECTURE FAUSSE PORTÉE SIX SEMAINES** : le premier tour du 18-24/08 a donné *« 10 appels, 8 répondeurs, 2 contacts, 0 rendez-vous »*, et le dépôt en a conclu que **le téléphone froid ne convertit quasiment pas sur cette cible** *(cf. « Leçons du marché » ci-dessous)*. ➡️ **Les cinq rendez-vous viennent du MÊME carnet et du MÊME canal.** ⛔ **Ce que le premier tour mesurait n'était donc pas un refus, c'était un TAUX DE DÉCROCHÉ** — 8 répondeurs sur 10. **La conclusion de méthode du 24/08 reste vraie sur les chiffres, et fausse sur la cause.**
+
+📌 **Toutes en cuisine africaine.** ⚠️ **Le carnet compte 60 établissements : cinq rendez-vous ne disent rien du taux sur l'ensemble.**
+
+🔴 **CINQ DÉGUSTATIONS À FOURNIR, ET AUCUNE PRODUCTION N'EST PRÉVUE POUR ELLES** — ni volume, ni date, ni recette. **À la différence du lot de 30 et des 10 d'O'Daba, celles-ci n'ont pas de matière affectée.**
+
+⚠️ **LE GOÛT DE ÇA PORTE TROIS NOMS DE GÉRANT** — *Arnaud*, *Chouabe*, *Krambé*. **Aucun n'est figeable : le nom du décideur n'est pas établi, et la fiche ne choisit pas.** ➡️ **À lever au rendez-vous du 06/10, pas avant.**
+
+🆕 **DORIANE — food truck, recommandée par Jules (H7).** ✅ **C'est la PREMIÈRE recommandation ENTRANTE du projet** : ni carnet, ni appel, ni passage en direct — **une piste venue d'un tiers, après la dégustation du 29/09.** 📌 **Un canal de plus, et le moins coûteux de tous** *(après Nabil, obtenu en direct le 24/09 — c'est le deuxième signal que le contact humain produit ce que le téléphone n'a pas produit)*. ⚠️ **Aucun contact pris, aucune date.**
 
 ## Leçons du marché
 
@@ -97,6 +149,8 @@ Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimente
 |---|---|---|---|
 | Ahmed Diaby | Restaurateur (O'Daba) | Entretien 12/07 · accord test 18/07 · **relancé le 23/09 au soir, sans réponse** | à compléter |
 | **Nabil** | **Manager d'un fast-food** | **Contact récupéré le 24/09** | 🟠 **Dégustation Lédjé PRÉVUE, sans date** — à organiser avec lui |
+| **Doriane** | **Food truck** | **Recommandée le 29/09 par Jules (H7)** | 🟠 **1ʳᵉ recommandation ENTRANTE** — aucun contact pris, aucune date |
+| **Le Goût de Ça** *(L3)* | Restaurant | **RDV posé pour le 06/10 à 15h** | ⚠️ **Trois noms de gérant en circulation** *(Arnaud / Chouabe / Krambé)* — à lever sur place |
 
 ### 🍔 Nabil — deuxième piste restaurant (ouverte le 2026-09-24)
 
