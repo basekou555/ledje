@@ -1,9 +1,9 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-09-28
+maj: 2026-09-30
 source: "SOT Partie 8 + §8.1 (archive 2026-07-24) + outillage conseil 2026-07-21 (page relais) ; générateur de prompts visuels rendu visible le 2026-08-20 (il n'était référencé que par CLAUDE.md)"
-resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo."
+resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo. 🆕 `[idée]` **Agent Reach** (MIT) : couche de LECTURE des réseaux sociaux pour agents — ⛔ ne prospecte pas, ne contacte personne. 🎯 L'accès internet générique est DÉJÀ couvert ; le vrai trou est la lecture du contenu social (TikTok, Instagram, X, Reddit, sous-titres YouTube), non couverte à ce jour. ⚠️ Deux réserves : les canaux sociaux passent par les COOKIES de Basekou (comptes récents = les plus faciles à suspendre), et l'installation documentée fait exécuter à un agent un fichier distant. Rien n'est installé."
 ---
 
 # Outils & répartition
@@ -20,6 +20,32 @@ resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, No
 | **Supabase / Vercel / OVH** | Back, hosting, domaine |
 
 Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se compile, se déploie ou tourne en tâche planifiée ; Notion pour le suivi opérationnel vivant (statuts, pipelines).**
+
+## `[idée]` Agent Reach — lire les réseaux sociaux depuis une session agent (ouvert le 2026-09-30)
+
+**Ce que c'est** : une couche d'accès internet pour agents IA, en licence **MIT** — `https://github.com/Panniantong/Agent-Reach`. Une CLI unique (`agent-reach`) donne à un agent la capacité de **LIRE** une douzaine de plateformes sans les configurer une par une : **Twitter/X, Reddit, Instagram, Facebook, TikTok**, YouTube *(extraction de sous-titres)*, GitHub, flux RSS, recherche sémantique Exa, lecture de pages via Jina. Plus des plateformes chinoises sans usage ici *(Bilibili, XiaoHongShu, Boss直聘)*. Architecture par « canal » avec basculement : si un outil échoue, il tente le suivant.
+
+⛔ **Ce que le nom fait croire et qui est faux : « Reach » ne veut pas dire prospection.** **L'outil ne contacte personne, ne construit aucun fichier de prospects, n'envoie rien.** ➡️ **Il lit. C'est tout, et c'est déjà beaucoup.**
+
+**Intention de Basekou, le 30/09** : *« il m'intéresse pour la lecture des réseaux sociaux et pour l'accès à internet pour "agent". »*
+
+### 🎯 Les deux usages n'ont PAS le même intérêt, et la différence est vérifiable
+
+| Usage | État réel | Verdict |
+|---|---|---|
+| **② Accès internet générique** *(lire une page, chercher sur le web)* | ✅ **DÉJÀ COUVERT** par les sessions Claude Code *(lecture d'URL, recherche web)* et par les connecteurs *(GitHub, Notion, Grain, Google, Higgsfield, Canva, Supabase, Vercel…)* | ⚠️ **Apport quasi nul** |
+| **① Lecture des RÉSEAUX SOCIAUX** *(TikTok, Instagram, X, Reddit, sous-titres YouTube)* | 🔴 **PAS COUVERT DU TOUT à ce jour** — aucun outil de la session ne sait lire le contenu social. *(Les outils TikTok d'Higgsfield servent à PUBLIER, pas à lire ; OpusClip découpe une vidéo qu'on lui donne.)* | ✅ **C'est le vrai trou, et c'est exactement sa zone** |
+
+📌 **Donc l'intuition est juste sur le point qui compte** : le manque n'est pas l'accès à internet, c'est **l'accès au contenu social**. ➡️ **Et ce manque touche directement deux fiches** : `../03_marche/acquisition-tiktok.md` et `../03_marche/grille-contenu.md` — **la cadence sociale a été dimensionnée sans jamais pouvoir observer ce qui marche dans la catégorie.** ✅ **L'extraction de sous-titres YouTube est le canal le plus immédiatement utile** : elle rend lisible du contenu long *(interviews de fondateurs de boissons, retours de restaurateurs)* sans le regarder.
+
+### ⚠️ Deux réserves, factuelles, à lever avant tout usage
+
+1. 🔴 **Twitter, Instagram et TikTok passent par les COOKIES du navigateur de Basekou** — donc ses sessions réelles, stockées dans `~/.agent-reach/config.yaml`. ⛔ **Un accès automatisé est contraire aux conditions de ces plateformes, et un compte RÉCENT est le plus facile à suspendre.** 📌 **Les comptes TikTok et Instagram de Lédjé ont été créés fin septembre et n'ont rien publié : les perdre avant la première publication coûterait plus que l'outil n'apporte.** ✅ **Sortie possible, à vérifier : n'activer que les canaux SANS cookie** *(YouTube, RSS, web, Exa)* **— ce sont justement les plus utiles ici.**
+2. ⚠️ **La méthode d'installation documentée consiste à donner une URL à un agent et à le laisser suivre les instructions qu'il y trouve.** ➡️ **Un agent télécharge un fichier distant et exécute son contenu — dans une session qui a accès au dépôt, à Supabase et à Vercel.** 📌 **Ce n'est pas une accusation : c'est une propriété de l'outil, et elle se connaît AVANT.** ✅ **Le code est MIT et auditable ; l'installation peut se faire en lisant le script d'abord.**
+
+⚠️ **Popularité non vérifiée** : l'API GitHub répond **403** depuis les sessions de ce projet. Les chiffres affichés sur la page rendue ne sont pas recopiés ici faute de confirmation. **Ne pas argumenter « c'est très populaire » sur cette base.**
+
+⛔ **RIEN N'EST INSTALLÉ, RIEN N'EST DÉCIDÉ.** **Ce qui manque pour trancher : ce qu'on veut LIRE exactement, et sur quelle fiche ça débouche.**
 
 ### 🔒 Pourquoi Cowork ne peut pas écrire au dépôt — le motif exact, vérifié le 2026-09-24
 
