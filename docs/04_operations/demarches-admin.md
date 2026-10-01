@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-09-24
+maj: 2026-10-01
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
 resume: "Le réglementaire à boucler avant la première vente (déclaration ENREGISTRÉE — accusé reçu le 18/08, DDPP du Rhône compétente ; ✅ MAIL DES 3 QUESTIONS PARTI le 08/09 — catégorie, dérogation 13982, recevabilité du GBPH apicole pour une BOISSON — en attente de réponse ; ⚠️ le point 2 contredit la réponse DDPP 56 du 18/07, qui disait ni agrément ni dérogation : deux lectures coexistent jusqu'à l'arbitrage du 69 ; la DLC n'est PAS dans ce mail et n'en dépend pas) + l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
@@ -35,6 +35,32 @@ resume: "Le réglementaire à boucler avant la première vente (déclaration ENR
   ⚠️ **CONTRADICTION À TRANCHER PAR LA RÉPONSE — le point 2 va contre la seule réponse écrite dont nous disposons.** La **DDPP 56 (18/07)** a répondu **« ni agrément ni dérogation requis — déclaration d'activité seule »** ; le mail propose la lecture inverse (remise directe + dérogation 13982). Ce n'est pas une erreur de sa part — la DDPP 56 n'était pas la DDPP compétente, et faire confirmer par le 69 est légitime. **Mais tant que la réponse n'est pas là, deux lectures opposées coexistent au dossier** : ne rien déposer, et ne rien réécrire ici, avant l'arbitrage de la DDPP 69.
   ⚠️ **Ce que le mail NE demande PAS : la DLC.** Ni DLC ni DDM n'y figurent. La décision du 03/09 (DLC) **n'est donc pas suspendue à cette réponse** et **aucune réponse n'est à attendre sur ce point**.
   ⚠️ **Réserve consignée, non bloquante** : le mail propose de **recevoir la DDPP sur le lieu de production**. Or « production en cuisine domicile : conformité à sécuriser » est un point **ouvert depuis le 18/07 et jamais traité** (aucun plan de maîtrise sanitaire écrit à ce jour). L'invitation est bonne sur le principe ; elle avance seulement une échéance sur un chantier qui n'est pas prêt.
+
+## 📍 Les TROIS adresses du dossier — lesquelles, et à quoi chacune sert (consigné le 2026-10-01)
+
+*(Posé dans la file 📥 par la session COO le 30/09, descendu ici le 01/10.)*
+
+| Adresse | Rôle | Où elle apparaît |
+|---|---|---|
+| **51 rue de Kerguillette, 56100 Lorient** | **Siège de l'entreprise** *(avis INSEE du 16/04)* | L'**établissement** au sens de la déclaration d'activité · l'adresse portée par les **factures** |
+| **70 quai Perrache, 69002 Lyon** *(H7)* | **Lieu de travail** | Adresse de **livraison des commandes fournisseurs** |
+| **13 rue Dugas Montbel, 69002 Lyon** | **LIEU DE PRODUCTION** | L'adresse imprimée sur l'**étiquette**, v1.0 à v1.2 *(choix assumé le 17/08 : le lieu de fabrication plutôt que le siège, cf. `../02_produit/eau-miellee-33cl.md`)* |
+
+✅ **AUCUNE ERREUR : les trois sont cohérentes, et chacune a sa fonction.** ➡️ **Ce n'est pas un désordre à corriger, c'est une cartographie qui n'avait jamais été écrite en un seul endroit.**
+
+✅ **Et une CORRECTION de la session COO elle-même, consignée telle quelle** : elle avait d'abord signalé un trou — « la séparation siège / lieu d'activité n'est pas déclarée » — **puis l'a retiré.** ⛔ **C'est faux : la déclaration enregistrée du 14/08 distingue déjà l'établissement *(Lorient)* du lieu d'activité *(Lyon)* et déclare les locaux à usage mixte privé/professionnel** *(ci-dessus, entrée du 18/08)*. ➡️ **Il n'y a RIEN à déclarer de plus sur ce point.** 📌 **La correction est consignée plutôt que l'erreur effacée : c'est ce qui empêche une session future de « redécouvrir » le même faux trou.**
+
+🔴 **CE QUI RESTE OUVERT EST AILLEURS, et n'est pas réglé par ce qui précède** : *« production en cuisine domicile : conformité à sécuriser »*, **point du 18/07 jamais traité** — et le **PMS v1 est toujours hors dépôt**.
+
+### ⚠️ Le code APE de l'entreprise est 53.20Z — « autres activités de poste et de courrier » (relevé le 2026-09-30)
+
+*(Posé dans la file 📥 par la session COO, descendu le 01/10.)*
+
+**Ce code n'a aucun lien avec la production ou la vente d'une boisson.** ➡️ **L'INSEE lui attribue une valeur STATISTIQUE : un code APE inexact n'interdit pas l'activité et ne vaut pas défaut de déclaration** — la déclaration d'activité alimentaire du 14/08, elle, est enregistrée et porte la bonne catégorie.
+
+⚠️ **MAIS il reste DEUX endroits où un code APE produit des effets réels, et ils ne sont pas vérifiés** : ① **le TAUX DE COTISATION** appliqué par l'URSSAF ② **la lecture que fait la DDPP** du dossier à l'ouverture.
+
+⛔ **RIEN N'EST TRANCHÉ ICI, et surtout rien n'est à corriger d'office** : une demande de changement de code APE est une démarche en soi, et personne n'a établi qu'elle est nécessaire. **Ce qui est consigné, c'est l'écart et les deux points à vérifier.**
 
 ## HACCP — voie choisie : GBPH apicole (2026-07-21)
 
