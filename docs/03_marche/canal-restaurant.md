@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-09-30
+maj: 2026-10-01
 source: "SOT §1.4bis (archive 2026-07-24) — accord 2026-07-18 ; intel MMD 2026-07-24, corrigée en session 2026-07-26"
 resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV). ✅ **27/09 : la dégustation débouche sur la PREMIÈRE COMMANDE — 10 bouteilles d'acacia, produites le 30/09 en ≈ 50 min, livraison prévue le jour même.** 🔴 **Elles inaugurent un scénario jamais testé : sortir du froid puis y RETOURNER.** ✅ **CINQ RDV posés (30/09 → 08/10) : le blocage du premier tour était le RÉPONDEUR, pas le refus.** ⚠️ Cinq dégustations à fournir, aucune production prévue ; Le Goût de Ça porte trois noms de gérant ; 🆕 Doriane (food truck, via Jules) — 1ʳᵉ recommandation entrante."
 ---
@@ -118,6 +118,18 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 
 ⚠️ **Rien n'est décidé ici : écrire ce script est une décision de Basekou.** **Le prochain passage est CE SOIR** *(Baca Bamba, reporté)*.
 
+#### ✅ 2026-10-01 — LE DIAGNOSTIC EST CONFIRMÉ PAR BASEKOU LUI-MÊME : il n'y a pas de script
+
+**Question posée** : qu'est-ce que tu dis, mot pour mot, quand on te demande ce que c'est ? **Réponse** : *« c'est dur à dire, c'est très au feeling. »*
+
+➡️ **Ce n'est pas une non-réponse, c'est LA réponse, et elle ferme le diagnostic du 30/09 : le discours n'est pas mal écrit, il n'est pas écrit.** 📌 **Le mécanisme énoncé la veille — *« j'ai paniqué, du coup j'ai inventé »* — n'était donc pas un accident de fatigue : c'est le mode de fonctionnement normal, et il est assumé.**
+
+⛔ **CE QUE ÇA IMPLIQUE, FACTUELLEMENT, SANS REJOUER AUCUNE ALERTE : un discours qui ne peut pas être énoncé ne peut être ni relu, ni corrigé, ni transmis.** ➡️ **Ni à un associé, ni à un commercial, ni à Basekou lui-même d'un rendez-vous au suivant.** ⚠️ **Et il n'existe aucune version de référence à laquelle comparer ce qui a été dit** *(trois écarts relevés sur l'enregistrement du 29/09, et aucun texte en face)*.
+
+✅ **Ce qui joue POUR l'improvisation, et mérite d'être écrit aussi : c'est elle qui a produit cinq rendez-vous en une journée là où six semaines d'appels n'en avaient donné aucun.** ⛔ **Le feeling n'est donc pas le problème — il marche.** 🎯 **Ce qui manque n'est pas un texte à réciter à sa place : c'est un SOCLE, les trois ou quatre phrases qui ne bougent pas, autour desquelles le feeling reste libre.**
+
+📌 **Les phrases existent déjà, validées et vraies** *(liste ci-dessus)*. ⚠️ **Elles ne sont réunies nulle part, et les réunir reste une décision de Basekou. Le sujet demeure OUVERT au dépôt.**
+
 #### ⚖️ 30/09 — BASEKOU TRANCHE : LES ARGUMENTS SANTÉ SERONT DITS À L'ORAL
 
 **Décision, dans ses mots** : *« Sur les arguments santé, je les trouve trop importants pour pas les citer. Je vais les dire à l'oral lors des échanges. »*
@@ -168,11 +180,29 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 ✅ **ET ÇA PASSE, DE JUSTESSE : 5 bouteilles d'acacia demandent ≈ 143 g, sur les ≈ 210 g restants.** ➡️ **Il resterait ≈ 66 g, soit ≈ 2 bouteilles de marge.** ⚠️ **Marge calculée sur un stock DÉCLARÉ, jamais pesé** — et le 27/09, ce même stock a été annoncé au client comme *« 4 kg, soit 180 bouteilles »*, écart d'un facteur 8 déjà relevé et non tranché. **Si le stock réel est inférieur au déclaré, l'acacia manque avant le cinquième rendez-vous.**
 
-⚠️ **LA DATE DE PRODUCTION RESTE NON DONNÉE.** 📌 **Premier rendez-vous concerné : Sisters Bakery, le 02/10 à 11h30** — la production doit donc tenir dans les deux jours, et le froid jusqu'à la remise s'applique comme pour toute bouteille sortie.
+✅ **01/10 — LA RÈGLE DE PRODUCTION EST DONNÉE, et c'est une règle, pas une date** : *« la veille ou le jour même. »* ➡️ **Cohérent avec le point critique n° 1 du PMS** *(≤ 24 h hors froid)* **: une production J-1 ou J ne peut pas le dépasser.**
+
+⚠️ **MAIS POUR SISTERS BAKERY, LE 02/10 À 11h30, LES DEUX BRANCHES NE SE VALENT PAS — et c'est le seul point à voir** : **une production « le jour même » laisse ≈ 2 heures entre le remplissage et la remise.** ➡️ **Le froid est la seule barrière du produit** *(pH au-dessus de 4,6)*, **et deux heures ne refroidissent pas une bouteille de 33 cl depuis l'ambiante.** 🎯 **Pour un rendez-vous du matin, la veille au soir est la seule des deux branches qui donne du froid** — ou, à défaut, **produire à l'eau déjà froide**, le geste déjà identifié le 24/09. ⚠️ **Rien n'est décidé ici : la branche appartient à Basekou.**
+
+⚠️ **CORRECTION DE L'ARITHMÉTIQUE D'ACACIA CI-DESSUS, rendue nécessaire par la dose réelle du 30/09.** Le calcul « ≈ 287 g consommés, ≈ 210 g restants » reposait sur la dose de RÉFÉRENCE *(≈ 28,7 g/bouteille)*. ➡️ **À 15-20 mL réels, les 10 bouteilles d'O'Daba ont consommé ≈ 213 à 284 g — donc il resterait ≈ 216 à 287 g, soit ≈ 8 à 10 bouteilles plutôt que ≈ 7.** ✅ **Le goulot est un peu moins serré qu'écrit hier.** ⛔ **Mais il reste un goulot calculé sur un stock JAMAIS PESÉ, et maintenant aussi sur une dose INCONNUE : deux inconnues au lieu d'une.** 📌 **Une pesée du pot d'acacia ferme les deux d'un coup.**
 
 📌 **Conséquence de traçabilité, déjà écrite au dépôt et qui s'applique ici** : **deux recettes produites le même jour porteraient le même numéro de lot** *(AAMMJJ)*. ✅ **Sortie connue : un suffixe par variante — `AAMMJJ-A` / `-B` — et la correspondance écrite le jour même** *(`../02_produit/eau-miellee-33cl.md`)*.
 
 ⚠️ **LE GOÛT DE ÇA PORTE TROIS NOMS DE GÉRANT** — *Arnaud*, *Chouabe*, *Krambé*. **Aucun n'est figeable : le nom du décideur n'est pas établi, et la fiche ne choisit pas.** ➡️ **À lever au rendez-vous du 06/10, pas avant.**
+
+### 🔴 BACA BAMBA — DEUXIÈME CLIENT RESTAURATEUR, et il achète SANS avoir été convaincu
+
+*(Accord pris le 30/09 au soir, après un rendez-vous d'abord reporté. Faits relevés sur la page ÉTAT, descendus au dépôt le 01/10 avec les précisions données le jour même.)*
+
+✅ **10 BOUTEILLES, EN ASSEMBLAGE 25/75** *(« pour Baca j'ai envoyé la recette de l'assemblage 25/75 »)* — **produites, dose non précisée** *(cf. `../02_produit/eau-miellee-33cl.md` : la dose n'est plus une valeur connue)*.
+
+💶 **LES 10 PREMIÈRES SONT OFFERTES.** *« Les 10 premières bouteilles sont offertes, on doit les vendre à 1 €, mais on doit en reparler. »* ➡️ **Donc : geste commercial d'entrée pour ce lot, et un prix de 1 € ÉNONCÉ pour la suite mais EXPLICITEMENT remis en discussion par Basekou lui-même.** ⛔ **Ce n'est pas un prix arbitré, et il ne s'écrit pas comme tel** *(cf. `../02_produit/prix.md` — le prix d'O'Daba, lui, est passé de « énoncé en négociation » à « prix pratiqué » sans décision, et c'est exactement le mécanisme à ne pas répéter)*.
+
+🎯 **CE QUI REND CE CLIENT DIFFÉRENT DU PREMIER, ET C'EST LE FAIT LE PLUS UTILE DU LOT : il prend le produit SANS en être convaincu.** **Objection, dans ses mots : *« ça manque de profondeur. »*** ➡️ **Et il annonce quand même une revente à 2,50 €.** 📌 **Deux lectures coexistent et aucune n'est tranchée : soit il achète la relation et le potentiel plutôt que le goût** *(déjà observé chez O'Daba le 24/07 : 2 décideurs sur 3 n'aimaient pas le miel de base et ont acheté l'argumentaire)*, **soit « profondeur » nomme un vrai défaut produit** — et dans ce cas c'est le **troisième** retour en six jours à porter sur le profil gustatif, après l'arrière-goût du châtaignier et la sensation de sucre du montagne.
+
+📊 **REPÈRE DE MARCHÉ OBTENU SUR PLACE, et il est précieux parce qu'il est RÉEL et pas estimé : le bissap 25 cl est acheté 1 € et revendu 3 à 3,50 €** par ce restaurateur. ➡️ **Coefficient de 3 à 3,5 sur un format PLUS PETIT que le nôtre**, à comparer au coefficient 4 d'O'Daba. ✅ **C'est la deuxième donnée de revente réelle du canal, et les deux concordent sur un ordre de grandeur.** 📌 **Ça situe ce qu'un restaurateur accepte de payer pour un soft de tradition — information de négociation, qui ne s'écrit nulle part ailleurs qu'en interne.**
+
+🆕 `[idée]` **ÉLARGISSEMENT DE CIBLE — la clientèle de Baca Bamba n'est pas musulmane.** ⚠️ **NON TRANCHÉ, et à ne pas confondre avec une décision de positionnement.** 📌 **Ce n'est pas nouveau dans le dépôt** : `../01_adn/cibles-et-contenu.md` prévoit déjà, **« à terme »**, des cercles d'élargissement vers des personnes non musulmanes cherchant un produit simple et une alternative aux boissons conventionnelles. ➡️ **Ce que le 30/09 ajoute, c'est que ce cercle arrive par le TERRAIN et plus tôt que prévu, par un canal B2B — pas qu'il faille déplacer la cible.** ⛔ **Aucune fiche ADN n'est modifiée.**
 
 🆕 **DORIANE — food truck, recommandée par Jules (H7).** ✅ **C'est la PREMIÈRE recommandation ENTRANTE du projet** : ni carnet, ni appel, ni passage en direct — **une piste venue d'un tiers, après la dégustation du 29/09.** 📌 **Un canal de plus, et le moins coûteux de tous** *(après Nabil, obtenu en direct le 24/09 — c'est le deuxième signal que le contact humain produit ce que le téléphone n'a pas produit)*. ⚠️ **Aucun contact pris, aucune date.**
 
