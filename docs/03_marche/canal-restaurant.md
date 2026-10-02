@@ -284,6 +284,20 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 📌 **Ce que cette piste a de différent des cinq rendez-vous : elle ne passe par aucun professionnel, donc elle ne dépend pas de la dérogation** *(vente au consommateur final = déclaration seule)*. **C'est le seul canal ouvert aujourd'hui qui ne bute sur rien de réglementaire.**
 
+### 📌 2026-10-02 au soir — l'état réel de chaque piste
+
+| Piste | Où ça en est, déclaré le 02/10 |
+|---|---|
+| **Baca Bamba** | ✅ **Les 5 bouteilles restantes sont LAISSÉES sur place, volontairement** — Basekou repassera **lundi ou mardi** pour un dernier avis, **peut-être une fois de plus en fin de semaine**. ⚠️ **Répartition vendues/offertes toujours inconnue**, estimée « à peu près moitié-moitié » *(estimation, pas une donnée du gérant)*. |
+| **Le Goût de Ça** *(06/10 15h)* | **Basekou a le nom du gérant dans ses notes** — ⚠️ **il n'a pas été redit en séance, donc les trois versions restent non départagées au dépôt.** |
+| **Nabil** *(fast-food)* | 🔴 **Pas recontacté** — Basekou devait passer au restaurant, pas eu le temps. 🎯 **Et un fait utile sort de la réponse : Nabil VEUT GOÛTER. L'action n'est donc pas un appel, c'est un DÉPÔT de produit** — c'est ce qui conditionne tout retour. |
+| **Doriane** *(food truck)* | 🔴 **Pas contactée.** |
+| **Le contact venu du live TikTok** | 🔴 **Pas de reprise de contact.** 🆕 **Elle devait venir à l'événement du 29/09 et N'EST PAS VENUE.** ⚠️ **Le premier prospect entrant par un canal social n'a donc produit aucune rencontre — à écrire, parce que ça nuance ce qui avait été consigné comme un succès du live.** |
+| **O'Daba** | ⚠️ **NON RÉPONDU** : aucune nouvelle depuis la livraison du 30/09, ni sur le réachat, ni sur l'écoulement. **Le premier client reste sans suivi depuis trois jours.** |
+| **Sisters Bakery** | ⚠️ **NON RÉPONDU** : aucune nouvelle depuis le dépôt du flyer le 02/10 — *(normal à cette échéance, consigné pour mémoire)*. |
+
+📌 **Ce que ce tableau montre d'un coup d'œil, et qu'aucune ligne ne montrait seule : SIX pistes sont ouvertes et CINQ attendent un geste de Basekou, pas une réponse du client.**
+
 ## Leçons du marché
 
 Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimenter au fil des rencontres.

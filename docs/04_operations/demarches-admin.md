@@ -104,6 +104,24 @@ resume: "Le réglementaire à boucler avant la première vente (déclaration ENR
 
 *(⚠️ Cette section et la correction ci-dessous empiètent sur une fiche dont la session COO est propriétaire. L'empiètement est déclaré dans la PR.)*
 
+### ⚠️ 2026-10-02 — LA RÉSERVE DE BASEKOU SUR LE DÉPÔT DE LA DÉROGATION, consignée telle qu'énoncée
+
+**Il va s'en occuper — et il pose en même temps une objection de fond qui n'est pas un report :**
+
+> *« Ce qui m'embêterait, c'est qu'on fasse la déclaration alors qu'on n'est pas concerné. Même si la dame l'a dit, j'ai l'impression que dans les infos officielles, on n'est pas vraiment répertorié. Avec la réglementation, je trouve qu'on risque d'être trop visible là où il n'y a pas lieu d'être. »*
+
+📌 **Consigné sans jugement : c'est une position, pas une hésitation.** ➡️ **Et elle s'appuie sur un fait vérifié, pas sur une impression : aucune ligne de l'annexe III ne correspond au miel** *(constaté le 01/10)*. **L'absence de répertoriage est réelle.**
+
+⚠️ **Ce que le dépôt peut poser à côté de cette réserve, sans la contredire** : la DDPP 69 est l'autorité **compétente**, elle a répondu **par écrit**, et sa réponse vise explicitement la cession à des professionnels. ➡️ **Ce qui est engagé n'est donc pas une lecture de texte, c'est une instruction nominative.**
+
+⛔ **Rien n'est tranché, et la décision appartient entièrement à Basekou.** **La réserve est écrite ici pour qu'elle pèse dans l'arbitrage au lieu de rester implicite** — et pour qu'une session future ne la prenne pas pour un oubli.
+
+### 📌 État des autres chantiers réglementaires au 2026-10-02
+
+- 🧼 **PMS** : pas retravaillé *(« il suffit d'une session, mais cette semaine il y avait trop de travail »)*. **Prévu dans la semaine.**
+- 🔬 **pH-mètre** : ✅ **Basekou veut en prendre un** — et 🆕 **il veut aussi un appareil de mesure de l'a_w**, ce qui couvre **deux** des cinq écarts relevés le 01/10, pas un.
+- 📋 **Code APE** : *« je ne sais pas si c'est celui sur lequel je suis, il faudra qu'on vérifie »* ⇒ **la vérification reste à faire, et le code réellement attribué n'est pas confirmé.**
+
 ## HACCP — ⚠️ voie du GBPH apicole ÉCARTÉE par la DDPP le 2026-10-01 *(décision initiale du 2026-07-21)*
 
 🔴 **CETTE VOIE N'EST PLUS VALIDE.** Voir la réponse DDPP ci-dessus : le GBPH apicole vaut pour la production de miel, pas pour la transformation, et **il n'a jamais été « reconnu DDPP »**. ➡️ **Le référentiel à reprendre est le GBPH JUS DE FRUITS, pour son analyse des dangers.**

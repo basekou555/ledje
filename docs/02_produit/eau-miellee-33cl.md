@@ -25,6 +25,29 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 | Méthode de production | **Dosage à la SERINGUE**, pas à la balance *(tranché le 2026-09-02 : il n'y a pas de balance, et la seringue est jugée plus fiable)*. Référence des tests : **8,13 mL de miel pour 12,5 cL d'eau**. ✅ **La conversion est FAITE depuis le 2026-09-10** : Joan donne un taux d'humidité de **16-18 %**, d'où **≈ 8,7 g de miel/100 mL** — voir le tableau nutritionnel. ✅ **Une seringue est COMMANDÉE le 23/09** *(modèle non précisé en séance)*, après signalement les 16, 18, 21 et 22/09 sans arbitrage. ⚠️ **Réserve à lever à la réception : l'outil qui dose touche le produit, donc il relève de l'aptitude au contact alimentaire (1935/2004)** — **aucun des 5 candidats du comparatif du 15/09 ne la déclarait**, ce sont des dispositifs médicaux stériles à usage unique. **Si celle-ci ne la déclare pas davantage, c'est un écart connu et assumé, pas un oubli.** | décidé 02/09, converti 10/09, seringue commandée 23/09 |
 | Miel (assemblage) | ✅ **ARRÊTÉ le 2026-09-07 : montagne + CHÂTAIGNIER, ratio 25/75** — 25 % châtaignier, 75 % montagne. Le **40/60 est écarté**. Miels du **Cueilleur de Miels**. ⚠️ **Acacia + lavande est PÉRIMÉ** (2026-08-20). **Le tilleul n'est pas abandonné** : il devient l'**option de repli** si le châtaignier montre ses limites en production ; si le châtaignier convainc, la piste sera d'**en augmenter la part**. Doses non figées (`../04_operations/fournisseurs.md`) | **assemblage figé** *(la dose ne l'est pas)* |
 
+## 🍯 2026-10-02 — STOCK CORRIGÉ, et il y a un QUATRIÈME miel que personne ne comptait
+
+**Déclaré par Basekou le 02/10** *(« je ne peux pas peser les pots » — donc toujours DÉCLARÉ, jamais pesé)* :
+
+| Miel | Stock déclaré au 02/10 | Ce que portait le dépôt |
+|---|---|---|
+| **Montagne** | ≈ **3 kg** *(« on a bien entamé le seau »)* | ≈ 4,1 kg |
+| **Tilleul** | 🆕 **≈ 2 kg** | **ABSENT DE TOUT COMPTAGE** |
+| **Châtaignier** | ≈ **1,7 kg** | ≈ 2 kg |
+| **Acacia** | ≈ **500 g** | ≈ 210 g |
+
+🆕 **LE TILLEUL N'ÉTAIT COMPTÉ NULLE PART.** 📌 **Il n'est pourtant pas inconnu du dossier : c'est la « porte de sortie » posée le 07/09, le miel de caractère mis en regard si le châtaignier atteint ses limites.** ➡️ **Il est en stock, en quantité comparable au châtaignier, et aucun test n'en porte trace.**
+
+✅ **ET LE GOULOT ACACIA SE DESSERRE NETTEMENT — la ligne écrite le 30/09 et reprise depuis était trop pessimiste.** Elle partait de ≈ 210 g, soit ≈ 7 bouteilles. ➡️ **Avec ≈ 500 g déclarés, on est plutôt autour de ≈ 17 bouteilles.** ⛔ **Le goulot n'est donc PAS le sujet qu'il paraissait être** — et il ne l'était déjà plus depuis que les bouteilles de dégustation sont réutilisées *(voir `../04_operations/production-artisanale.md`)*.
+
+⚠️ **Mais l'écart entre le déclaré du 28/09 et celui du 02/10 va dans les DEUX sens** *(l'acacia monte, le montagne descend)*, **ce qui n'est pas un simple effet de consommation.** 📌 **C'est la quatrième fois qu'un stock déclaré de mémoire sert de base à un calcul. Une pesée reste le seul moyen de fermer le sujet.**
+
+### ⚖️ Les doses réellement pratiquées, déclarées le 02/10
+
+- **Assemblage 25/75** : *« la recette classique, celle qu'on a notée »* ⇒ la dose de référence.
+- **Acacia** : **20 mL** *(« ou 15, parce que je ne me souviens plus combien j'ai mis chez O'Daba, mais il me semble que c'est 20 »)*.
+- 🆕 `[idée]` **Basekou envisage de descendre à 15 mL** : *« si on peut passer à 15, on essaiera de passer à 15, mais il faudra que j'essaye. »* ⚠️ **À 15 mL le QUID imprimé devient faux** *(≈ 6,4 % contre 8 %)* — **donc ce test ne peut pas partir chez un client sous l'étiquette actuelle.**
+
 ## 🍯 État du stock de miel au 2026-09-28, et ce qu'il contraint vraiment
 
 **Déclaré par Basekou, J-1 de la première vente** : **il reste ≈ 500 g d'acacia, peut-être un peu plus.** ⛔ **Aucune réappro n'a été demandée à Joan, et c'est délibéré** : *« je trouve que c'est encore un peu tôt, on n'a pas encore pris assez de décisions par rapport à ça. »* ➡️ **Motif écrit, donc ce n'est pas une dette — c'est un report assumé.**

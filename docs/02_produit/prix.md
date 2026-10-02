@@ -8,7 +8,33 @@ resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix
 
 # Prix
 
-## 🔴 2026-10-02 — DEUX LECTURES OPPOSÉES DU MÊME PRIX, ET LE CHIFFRE QUI TRANCHE N'EXISTE PAS
+## ✅ 2026-10-02 au soir — LA CONTRADICTION EST FERMÉE : c'est bien SOUS le coût matière
+
+⛔ **Aucun montant ici, conformément à la règle. Ce qui suit est la RELATION, et elle est désormais établie par un calcul, plus par une impression.**
+
+**Basekou a donné le 02/10 les postes de coût et le total par bouteille. Le calcul a été refait avec lui.** ➡️ ✅ **LE COÛT MATIÈRE EST SUPÉRIEUR AU PRIX PRATIQUÉ CHEZ LES PROFESSIONNELS.** **L'écart est faible, mais il est réel et il est dans le mauvais sens.**
+
+🎯 **DONC : le `[figé]` du 29/09 — « le prix d'O'Daba est sous le coût matière » — est CONFIRMÉ, et le « je suis à l'équilibre » de la visio du 01/10 est ÉCARTÉ.** 📌 **La contradiction ouverte pendant deux jours est close, et elle l'est par le calcul que les items 11 et 16 du backlog réclamaient depuis juillet.**
+
+⚠️ **Et c'est le coût MATIÈRE seul : le temps de production n'y est pas.** **À ≈ 5 min/bouteille, le coût complet est nettement au-dessus.** ➡️ **Chaque bouteille cédée au prix actuel coûte de l'argent AVANT même de compter une minute de travail.**
+
+### 🔴 Le fait que le calcul révèle, et que personne ne pouvait voir avant : ce n'est pas le miel qui coûte
+
+**Le CONTENANT et l'EAU représentent à eux seuls la majorité du prix de cession pratiqué** — davantage que le miel et l'étiquette réunis.
+
+⛔ **CONSÉQUENCE DIRECTE, ET ELLE FERME UN CHANTIER : la cible de coût évoquée le 30/09 est ARITHMÉTIQUEMENT HORS D'ATTEINTE sur les intrants actuels.** **Le contenant et l'eau la dépassent déjà à eux deux, avant le miel et avant l'étiquette.** ➡️ **Aucune négociation sur le miel ne peut y amener.**
+
+🎯 **Si ce coût doit baisser, les deux seuls leviers réels sont LA BOUTEILLE et L'EAU** *(volume d'achat, fournisseur, ou format)*. ⚠️ **Et l'eau est contrainte par une décision de marque : l'eau de source Cristaline, tranchée le 26/08 et reconfirmée le 11/09.** ⛔ **Rien n'est proposé ici : ce sont des arbitrages de Basekou.**
+
+📊 **Devis : il en existe pour les BOUTEILLES ; aucun pour le miel, aucun pour les étiquettes** *(factures seulement)*, **et aucun devis par volume.** ➡️ **Le seul poste sur lequel une négociation est déjà outillée est précisément l'un des deux qui comptent.**
+
+### 💶 Les trois prix en circulation, et ce qu'ils disent
+
+- **O'Daba : prix TTC.** ⚠️ **La question HT/TTC n'a JAMAIS été abordée avec le client** — donc rien n'est convenu sur ce point, et ça se reposera à la facture.
+- **H7 : vendu PLUS CHER qu'O'Daba** *(« je crois », non confirmé par un écrit)*. 📌 **C'est le seul des trois à être au-dessus du coût matière.**
+- **Sisters Bakery et Baca Bamba : alignés sur le prix d'O'Daba** — l'un accepté sans objection, l'autre conditionné à une recette travaillée.
+
+## ⚠️ *(écrit le 2026-10-02 dans la journée, CLOS par le calcul ci-dessus)* — DEUX LECTURES OPPOSÉES DU MÊME PRIX
 
 ⛔ **Aucun montant ici, comme partout : on consigne la RELATION.**
 

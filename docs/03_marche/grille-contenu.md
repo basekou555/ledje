@@ -160,7 +160,9 @@ Comment on écrit les prompts, ce que le cahier des charges impose déjà et ce 
 
 🆕 **2026-10-02 au soir — ET IL Y A AUSSI DES POSTS, pas seulement des stories** : *« j'ai commencé à poster des story et des post sur insta ».* ➡️ **La différence n'est pas cosmétique : une story dure 24 h, un POST reste.** **Du contenu DURABLE existe donc publiquement.**
 
-⚠️ **SUR QUEL COMPTE : NON PRÉCISÉ, et on ne le suppose pas.** 📌 **Le live TikTok, lui, a été confirmé le 02/10 comme ayant eu lieu sur le compte PERSONNEL de Basekou** — donc la question se pose pour Instagram aussi. ➡️ **Tant qu'elle n'est pas répondue, « rien publié » reste indéterminé POUR LES COMPTES DE LA MARQUE, et faux pour « rien n'est sorti publiquement ».**
+✅ **RÉPONDU LE 02/10 AU SOIR : LES STORIES SONT FAITES SUR LE COMPTE DE LA MARQUE**, puis repartagées sur le compte personnel. ➡️ ⛔ **« RIEN PUBLIÉ » EST DONC DÉFINITIVEMENT FAUX POUR LES COMPTES DE LA MARQUE.** 🔗 **Et la réserve posée le matin même sur la PR #101 — « un visiteur qui clique arrive sur un profil vide » — TOMBE : le compte a du contenu.** ⚠️ **Le LIVE TikTok, lui, reste sur le compte personnel : les deux canaux ne sont pas dans le même état.**
+
+⚠️ *(mention antérieure, conservée pour l'historique)* **SUR QUEL COMPTE : NON PRÉCISÉ, et on ne le suppose pas.** 📌 **Le live TikTok, lui, a été confirmé le 02/10 comme ayant eu lieu sur le compte PERSONNEL de Basekou** — donc la question se pose pour Instagram aussi. ➡️ **Tant qu'elle n'est pas répondue, « rien publié » reste indéterminé POUR LES COMPTES DE LA MARQUE, et faux pour « rien n'est sorti publiquement ».**
 
 🔗 **Et ça touche le SITE** : la PR #101 pose une rangée de liens vers Instagram et TikTok, laissée inactive faute de handles. **La réserve écrite ce matin — « un visiteur qui clique arrive sur un profil vide » — tombe SI les posts sont sur le compte de la marque.** ⇒ **La réponse à « quel compte » décide à la fois de ce que décrit cette fiche et de l'activation des liens.**
 
