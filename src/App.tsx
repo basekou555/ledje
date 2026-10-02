@@ -29,6 +29,49 @@ const ACCROCHE = 'De l’eau et du miel. Rien de plus.'
 // ⚠️ Signature PROVISOIRE elle aussi (identite-verbale.md §7.1).
 const SIGNATURE = 'Parmi les bienfaits de ce bas monde'
 
+/* ── Réseaux sociaux (ajoutés le 2026-10-02, activés le soir même) ────────
+   Handle donné par Basekou le 2026-10-02 : `its.ledje`, le même sur les deux
+   plateformes. (La première transcription orale donnait « It's Legit » — c'était
+   une erreur de transcription, corrigée par Basekou.)
+
+   ⚠️ NON VÉRIFIÉ DEPUIS CETTE SESSION : instagram.com et tiktok.com sont
+   bloqués par le proxy réseau, les deux URL n'ont donc pas pu être testées.
+   Elles reposent sur la parole de Basekou, à qui la vérification d'un clic
+   revient.
+
+   Garde-fou conservé : une entrée dont `url` est vide n'est pas rendue, et la
+   rangée entière disparaît si les deux le sont. Vider une URL suffit à retirer
+   une icône, sans toucher au reste. */
+const SOCIALS = [
+  { name: 'Instagram', url: 'https://www.instagram.com/its.ledje/', icon: 'instagram' },
+  { name: 'TikTok', url: 'https://www.tiktok.com/@its.ledje', icon: 'tiktok' },
+] as const
+
+function SocialIcon({ name }: { name: string }) {
+  // Icônes inline : aucune dépendance, aucun appel réseau, teinte héritée
+  // du texte via currentColor.
+  if (name === 'instagram') {
+    return (
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <rect x="2.5" y="2.5" width="19" height="19" rx="5.4" fill="none" stroke="currentColor" strokeWidth="1.6" />
+        <circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" strokeWidth="1.6" />
+        <circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" />
+      </svg>
+    )
+  }
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path
+        d="M14.3 3h2.5c.2 1.6 1.1 3 2.4 3.7.7.4 1.5.6 2.3.6v2.6a8 8 0 0 1-4.3-1.3v5.9a6 6 0 1 1-6-6c.3 0 .6 0 .9.1v2.7a3.3 3.3 0 1 0 2.4 3.2V3Z"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
 /* La précommande de cristaux (compteur + lien de paiement Stripe) a été
    retirée de la vitrine le 2026-09-09, remplacée par l'appel à donner son
    avis. Le lien de paiement lui-même n'est pas supprimé côté Stripe : il
@@ -392,6 +435,22 @@ export default function App() {
             <img src="/brand/wordmark-cream.svg" alt="lédjé" width={2208} height={1040} loading="lazy" />
           </p>
           <p className="v-footer-tagline">{SIGNATURE}</p>
+          {SOCIALS.some((s) => s.url) && (
+            <nav className="v-footer-social" aria-label="Nos réseaux">
+              {SOCIALS.filter((s) => s.url).map((s) => (
+                <a
+                  key={s.name}
+                  href={s.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={s.name}
+                  onClick={() => trackEvent(`social_click_${s.icon}`)}
+                >
+                  <SocialIcon name={s.icon} />
+                </a>
+              ))}
+            </nav>
+          )}
           <p className="v-footer-mail">
             <a href="mailto:basekou@ledje.fr">basekou@ledje.fr</a>
           </p>

@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-01
+maj: 2026-10-02
 source: "SOT §1.4bis (archive 2026-07-24) — accord 2026-07-18 ; intel MMD 2026-07-24, corrigée en session 2026-07-26"
 resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV). ✅ **27/09 : la dégustation débouche sur la PREMIÈRE COMMANDE — 10 bouteilles d'acacia, produites le 30/09 en ≈ 50 min, livraison prévue le jour même.** 🔴 **Elles inaugurent un scénario jamais testé : sortir du froid puis y RETOURNER.** ✅ **CINQ RDV posés (30/09 → 08/10) : le blocage du premier tour était le RÉPONDEUR, pas le refus.** ⚠️ Cinq dégustations à fournir, aucune production prévue ; Le Goût de Ça porte trois noms de gérant ; 🆕 Doriane (food truck, via Jules) — 1ʳᵉ recommandation entrante."
 ---
@@ -204,7 +204,99 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 🆕 `[idée]` **ÉLARGISSEMENT DE CIBLE — la clientèle de Baca Bamba n'est pas musulmane.** ⚠️ **NON TRANCHÉ, et à ne pas confondre avec une décision de positionnement.** 📌 **Ce n'est pas nouveau dans le dépôt** : `../01_adn/cibles-et-contenu.md` prévoit déjà, **« à terme »**, des cercles d'élargissement vers des personnes non musulmanes cherchant un produit simple et une alternative aux boissons conventionnelles. ➡️ **Ce que le 30/09 ajoute, c'est que ce cercle arrive par le TERRAIN et plus tôt que prévu, par un canal B2B — pas qu'il faille déplacer la cible.** ⛔ **Aucune fiche ADN n'est modifiée.**
 
+#### 🔴 2026-10-02 — LE DÉBRIEF COMPLET, ET IL EST DUR : zéro signal de réachat sur dix bouteilles
+
+*(Livraison le 01/10 vers 13h ; deuxième passage le 02/10, 1 h 30 sur place. Faits relevés sur la page ÉTAT, descendus au dépôt le 02/10.)*
+
+⚠️ **CORRECTION DE CE QUI A ÉTÉ ÉCRIT HIER : ce n'est PAS 10 bouteilles en 25/75.** ➡️ **C'est 5 bouteilles 100 % MONTAGNE + 5 bouteilles 25/75.** 📌 **Les 5 montagne sont les RESTES de l'événement H7, produites le 29/09 et livrées le 01/10 — soit J+2 à la livraison** ; les 5 de 25/75 ont été produites le 30/09. ✅ **Tamponnées, DLC portée.**
+
+✅ **ALERTE FROID LEVÉE.** Les bouteilles avaient été déposées sur un carton le 01/10, le gérant étant en coup de feu ; **la mise au frigo est confirmée sur place par le gérant le 02/10.** 📌 **Leçon à garder, et elle vaut pour toutes les remises à venir : le point critique « ≤ 24 h hors froid » SORT DES MAINS DE BASEKOU au moment de la remise.** ⛔ **Une consigne écrite de mise au froid immédiate, remise avec les bouteilles, reste à poser.**
+
+**Ce que les dix sont devenues** : **le gérant en a vendu une partie et offert l'autre** à des habitués choisis pour la fiabilité de leur avis — ⚠️ **répartition chiffrée non communiquée**. **6 restantes à l'arrivée de Basekou, 1 offerte devant lui ⇒ 5 encore au restaurant, 4 consommées.** ⛔ **Elles n'ont jamais été mises à la carte.**
+
+🔴 **LES RETOURS CONSOMMATEURS SONT TIÈDES À NÉGATIFS, ET ILS PORTENT SUR LE GOÛT.** Verbatims : *« j'aime pas »* · *« c'est bon mais sans plus »* · *« c'est pas mon truc »* · *« c'est trop sucré »* · *« j'aimerais avoir quelque chose en plus »*. ⚠️ **Le sucre est partagé** — une partie des goûteurs le trouve correct.
+
+🔴🔴 **ET LE FAIT LE PLUS DUR DU DÉBRIEF : ZÉRO SIGNAL DE RÉACHAT SUR DIX BOUTEILLES.** **Personne n'a demandé où en acheter, personne n'en a redemandé.** ➡️ **C'est l'indicateur que le canal restaurant s'est donné depuis le 18/07** *(« succès = réachat observé »)*, **et il est à zéro sur le deuxième client.** 📌 **Consigné comme une mesure, pas comme un verdict : dix bouteilles, un seul établissement, quatre consommées.**
+
+🎯🎯 **L'OBJECTION PRIX N'ÉTAIT PAS LE PRIX — C'EST LA VALEUR.** **Le gérant** *(prénom entendu « Loïc », orthographe à confirmer — non figé)* **accepterait 1 € SI LA RECETTE EST TRAVAILLÉE**, et revendrait **3 €**, comme son bissap. ⛔ **CE QUE ÇA RENVERSE : le chantier « descendre les coûts à 50 centimes », ouvert le 30/09, repose sur un diagnostic que ce débrief contredit.** ➡️ **À ROUVRIR — non tranché.** 📌 **On ne baisse pas un prix que le client accepterait si le produit tenait.**
+
+🔴 **DEUXIÈME FREIN, DISTINCT DU PRODUIT ET DU PRIX : la trésorerie du restaurant est serrée.** **Il ne peut pas acheter aujourd'hui, quel que soit le produit.** ⚠️ **À ne pas confondre avec un refus commercial.**
+
+✅ **Et un signal positif qui ne porte pas sur le produit** : *« c'est un grand oui »* — **sur le PROJET.** Il veut **une saveur**, un produit **cohérent avec sa clientèle**, et *« qui fait briller les yeux »*. 📌 **Le storytelling n'est pas son sujet.**
+
+🆕 **SAVEURS PROPOSÉES PAR LUI, mot pour mot : MENTHE, PIMENT, HIBISCUS** — et il se dit aussi intéressé par le **gingembre** et le **citron**. 🆕 **LA MENTHE EST NOUVELLE : elle ne figurait dans aucune liste antérieure.** 🎯 **Mais son conseil principal n'est pas une saveur, c'est « AJOUTE UNE SAVEUR »** ⇒ **l'arbitrage porte d'abord sur le PRINCIPE ; le choix de la saveur vient après.**
+
+🆕 **Son EMPLOYÉ de cuisine était présent et AIME le produit** — **seule personne du rendez-vous à l'avoir dit**, et **non décisionnaire**. Il propose une **boisson isotonique au sel** ; Basekou a répondu non pour l'instant ⇒ `[idée]`.
+
+📌 **AUCUN ENGAGEMENT APRÈS CES DIX.** **Accord mutuel de reparler du prix selon les ventes** ⇒ **le prix n'est pas rouvert, il est DIFFÉRÉ.**
+
+⚠️ **Et une attente a été créée chez un tiers** : *« le produit va évoluer »* a été dit devant le gérant. **Rien d'autre n'a été promis — ni saveur, ni date, ni prix, ni livraison.**
+
+#### 🌿 Le détour par la voisine naturopathe — et pourquoi il compte malgré le canal
+
+**Basekou et le gérant sont allés ensemble faire goûter chez une VOISINE, naturopathe et chamane, en présence d'une amie diététicienne-naturopathe.** **Les deux ont bien aimé** — mais *« un peu sucré »*, *« un peu fade »*, *« ça manque de quelque chose »*, *« quelque chose d'un peu plus relevé »*. **La responsable propose le GINGEMBRE.**
+
+✅ **Aucune promesse de santé n'a été faite et les bienfaits n'ont pas été abordés.** ⚠️ **L'expression « produit sain » a circulé** ⇒ ⛔ **elle ne monte dans aucun écrit** *(`../01_adn/conformite.md`)*.
+
+⚠️ **Canal peu adapté commercialement** *(pas de frigo ; l'autre participante en visio)*, et rien de commercial n'en sort. `[idée]` *« bien pour les sportifs »* — **non confirmé : les sportifs de Baca Bamba ont dit « aimé sans plus »**.
+
+🎯🎯 **CE QUI REND CE DÉTOUR UTILE MALGRÉ TOUT : le signal « il manque une saveur » traverse DEUX RÉFÉRENTIELS OPPOSÉS — un restaurant ouest-africain ET une boutique de naturopathie.** ➡️ **Il ne peut donc pas être mis au compte d'un seul type de palais ou d'un seul canal.**
+
+### 🫖 SISTERS BAKERY — rendez-vous tenu le 2026-10-02 : NI OUI NI NON
+
+*(Premier des cinq rendez-vous. Salon de thé franco-algérien — pas un restaurant : la boisson entrerait dans une FORMULE (tea time, brunch), pas à l'unité avec un coefficient.)*
+
+🆕 **OBJECTION INÉDITE, et elle n'était dans aucune fiche de préparation : elle réclame un FLYER à montrer à ses clientes avant de décider.** Retour annoncé *« dans les prochains jours »*.
+
+🔴 **ELLE N'A PAS GOÛTÉ LE PRODUIT — les échantillons n'ont pas été ouverts.** ➡️ **Son avis ne porte donc pas sur la boisson.**
+
+**Ce qui bloque, dans ses mots** : ses clientes préfèrent **le fait maison, sans marque** ; elle a **déjà testé des boissons prêtes à consommer** sans succès ⚠️ *(noms non identifiés — à faire préciser)*.
+
+**Quatre faits du débrief, et trois vont dans le bon sens :**
+1. ✅ **ELLE EST D'ACCORD SUR 1 €** *(prix proposé par Basekou, accepté sans objection)* — **premier prospect à ne pas contester le 1 €**, à l'exact opposé de Baca Bamba. ⚠️ **Accord VERBAL, pas une commande.**
+2. 🆕 **AUCUNE BOISSON DE MARQUE à sa carte** — rien hors thés et cafés. ➡️ **Aucun sortant à déloger.**
+3. ✅ **Étiquette longuement regardée, très bonne réception.** ➡️ **L'étiquette n'est PAS le frein.**
+4. 🔴 **Elle a posé la question du SUCRE** : ses clientes n'aiment pas les boissons trop sucrées. ⇒ **SIXIÈME signal convergent, et le premier qui vienne d'un professionnel rapportant SA clientèle plutôt que son propre palais.**
+
+🆕 **ELLE UTILISE DÉJÀ DU MIEL dans certains de ses produits, notamment les thés** ⇒ **elle est déjà ACHETEUSE DE MIEL**, ce qui n'était pas su, et `[idée]` **un angle de conseil sur le miel s'ouvre**. ⚠️ **À DÉPARTAGER, non tranché** : la note de carnet du 29/09 disait *elles ont remplacé le miel par un sirop maison allégé*. **Les deux peuvent coexister** *(miel dans les thés, sirop ailleurs)* — **à confirmer auprès d'elle.**
+
+📌 `[idée]` **Lecture neuve de Basekou, et elle recadre tout le sujet sucre** : *le problème n'est pas la QUANTITÉ de sucre, c'est le GOÛT du sucre.* ➡️ **Le citron ne réduirait pas le sucre : il empêcherait le sucré d'être le seul goût.**
+
+⚠️ **CORRECTION CONSIGNÉE** : un rapprochement avait été posé entre Baca Bamba et Sisters *(« le produit se lit comme un prêt-à-boire industriel »)*. ⛔ **Le débrief le contredit** — étiquette appréciée, 1 € accepté. **Son objection n'est pas son jugement : c'est la préférence qu'elle PRÊTE à ses clientes. Rapprochement retiré.**
+
+⚠️ **AUCUN CHIFFRE D'ACTIVITÉ OBTENU** *(couverts, volume)* : Basekou l'a lue comme méfiante et n'a pas insisté — **choix assumé** ⇒ **le client n'est pas dimensionné.**
+
+🔴 **ET LE FLYER EST UN SUPPORT DE MARQUE PUBLIC** : **l'accroche n'est pas tranchée** *(`../01_adn/identite-verbale.md` §7.2)*, **le prix n'est pas arbitré**, et **la photo de bouteille générée par IA est à remplacer**. ✅ **La condition de sortie de la suspension du 09/09 est remplie depuis le lot étiqueté du 30/09 : une vraie bouteille existe et peut être photographiée.**
+
 🆕 **DORIANE — food truck, recommandée par Jules (H7).** ✅ **C'est la PREMIÈRE recommandation ENTRANTE du projet** : ni carnet, ni appel, ni passage en direct — **une piste venue d'un tiers, après la dégustation du 29/09.** 📌 **Un canal de plus, et le moins coûteux de tous** *(après Nabil, obtenu en direct le 24/09 — c'est le deuxième signal que le contact humain produit ce que le téléphone n'a pas produit)*. ⚠️ **Aucun contact pris, aucune date.**
+
+### 🏢 `[en discussion]` H7 — les frigos, et ce que ça déclenche
+
+*(Évoqué en visio le 01/10 — à confirmer : « on est en train de négocier pour que je puisse mettre mes boissons dans leur frigo ».)*
+
+➡️ **Ce serait une TROISIÈME remise à un professionnel**, après O'Daba et Baca Bamba. ⚠️ **Et donc, comme les deux autres, sans la dérogation 13982 que la DDPP 69 dit obligatoire** *(`../04_operations/demarches-admin.md`)* **— sauf si elle est déposée d'ici là.** 📌 **Écrit comme une conséquence de calendrier, pas comme une objection : la négociation n'est pas en cause, la séquence l'est.**
+
+📌 **H7 concentre désormais beaucoup de choses** : le lieu de travail, l'événement du 29/09 et ses 30 bouteilles, Jules et donc Doriane, la piste de prêt de lunettes filmantes, et un créateur UGC. ⚠️ **Un seul lieu porte une part importante du réseau — à savoir, sans en tirer de conclusion.**
+
+### 🧺 `[idée]` Les marchés, pour le B2C
+
+*(Évoqué en visio le 01/10 — à confirmer.)* **Piste identifiée pour vendre en direct au consommateur.** ⚠️ **Basekou se déclare « pas à l'aise avec l'idée ».** ⚠️ **Coût des places inconnu**, et **une personne est à contacter pour se renseigner — nom non consigné ici, à confirmer par Basekou avant d'entrer en fiche.**
+
+📌 **Ce que cette piste a de différent des cinq rendez-vous : elle ne passe par aucun professionnel, donc elle ne dépend pas de la dérogation** *(vente au consommateur final = déclaration seule)*. **C'est le seul canal ouvert aujourd'hui qui ne bute sur rien de réglementaire.**
+
+### 📌 2026-10-02 au soir — l'état réel de chaque piste
+
+| Piste | Où ça en est, déclaré le 02/10 |
+|---|---|
+| **Baca Bamba** | ✅ **Les 5 bouteilles restantes sont LAISSÉES sur place, volontairement** — Basekou repassera **lundi ou mardi** pour un dernier avis, **peut-être une fois de plus en fin de semaine**. ⚠️ **Répartition vendues/offertes toujours inconnue**, estimée « à peu près moitié-moitié » *(estimation, pas une donnée du gérant)*. |
+| **Le Goût de Ça** *(06/10 15h)* | **Basekou a le nom du gérant dans ses notes** — ⚠️ **il n'a pas été redit en séance, donc les trois versions restent non départagées au dépôt.** |
+| **Nabil** *(fast-food)* | 🔴 **Pas recontacté** — Basekou devait passer au restaurant, pas eu le temps. 🎯 **Et un fait utile sort de la réponse : Nabil VEUT GOÛTER. L'action n'est donc pas un appel, c'est un DÉPÔT de produit** — c'est ce qui conditionne tout retour. |
+| **Doriane** *(food truck)* | 🔴 **Pas contactée.** |
+| **Le contact venu du live TikTok** | 🔴 **Pas de reprise de contact.** 🆕 **Elle devait venir à l'événement du 29/09 et N'EST PAS VENUE.** ⚠️ **Le premier prospect entrant par un canal social n'a donc produit aucune rencontre — à écrire, parce que ça nuance ce qui avait été consigné comme un succès du live.** |
+| **O'Daba** | ⚠️ **NON RÉPONDU** : aucune nouvelle depuis la livraison du 30/09, ni sur le réachat, ni sur l'écoulement. **Le premier client reste sans suivi depuis trois jours.** |
+| **Sisters Bakery** | ⚠️ **NON RÉPONDU** : aucune nouvelle depuis le dépôt du flyer le 02/10 — *(normal à cette échéance, consigné pour mémoire)*. |
+
+📌 **Ce que ce tableau montre d'un coup d'œil, et qu'aucune ligne ne montrait seule : SIX pistes sont ouvertes et CINQ attendent un geste de Basekou, pas une réponse du client.**
 
 ## Leçons du marché
 
