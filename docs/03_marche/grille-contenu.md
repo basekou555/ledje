@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-08-24
+maj: 2026-10-02
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
 resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication."
 ---
@@ -145,6 +145,20 @@ Comment on écrit les prompts, ce que le cahier des charges impose déjà et ce 
 ✅ **LES COMPTES EXISTENT — TikTok et Instagram sont créés** *(déclaré par Basekou le 2026-09-28)*. L'état « aucun compte n'existe », arrêté le 20/08, est **caduc**. *(Le TikTok documenté dans `acquisition-tiktok.md` reste un chantier de stratégie, distinct du compte.)*
 
 ⚠️ **Ce que ça débloque, et ce que ça ne débloque pas.** La création des comptes lève l'obstacle matériel ; elle **ne lève pas** le gel du contenu, qui tenait à l'identité visuelle non tranchée. **Avoir un compte n'est pas avoir quelque chose à y publier.**
+
+### 🔴 `[en discussion]` 2026-10-01 — « RIEN PUBLIÉ » N'EST PLUS VRAI, et ça change deux choses
+
+*(Évoqué en visio le 01/10 — **à confirmer par Basekou en séance**. Rien de cette section n'est `[figé]`.)*
+
+**Ce qui a été dit** : **un LIVE TIKTOK a eu lieu** — *« j'ai fait un live TikTok »*, **« lundi soir »** *(dit avec hésitation)*, **≈ 2 h**, **≈ 200 viewers au pic**, **40 min de rétention**, **≈ 15 000 likes**, ⚠️ **NON ANNONCÉ** *(« j'ai pas communiqué »)*. ⚠️ **Compte non précisé.** **Et des STORIES sont postées** — *« on a commencé à poster des stories »*, dont une sur la première livraison.
+
+✅ **UN FAIT SOLIDE EN EST SORTI : un contact lyonnais est venu du live et veut tester le produit.** ➡️ **C'est le PREMIER prospect entrant par un canal social du projet.** 📌 *(Après Nabil par le contact direct et Doriane par recommandation — c'est le troisième canal entrant en dix jours, et le seul qui ne demande aucune présence physique.)*
+
+**⚠️ CE QUE ÇA CHANGE № 1 — cette grille n'est plus un plan.** **Du contenu public existe déjà**, donc ce document décrit partiellement **ce qui est sorti**, et non plus seulement ce qui est prévu. ✅ **La règle des yeux ne fait pas obstacle** *(PR #94)* : elle vise **l'image fabriquée**, pas Basekou filmé — **un live face caméra est couvert.**
+
+**⚠️⚠️ CE QUE ÇA CHANGE № 2 — et c'est une réserve de PÉRIMÈTRE, posée une fois, pas un retour sur une décision prise.** ✅ **Le 30/09, Basekou a tranché que les arguments santé seraient dits À L'ORAL. Cette décision est consignée et ne se rejoue pas.** ⚠️ **Mais elle a été prise pour des échanges EN FACE À FACE avec des restaurateurs, et elle disait explicitement que rien ne change à l'ÉCRIT.** ➡️ **Un live public de deux heures, ses rediffusions et les clips qui en sortiront sont des COMMUNICATIONS PUBLIQUES et durables — même régime qu'une étiquette, pas celui d'une conversation.** 🔴 **Personne n'a relu ce qui a été dit du produit pendant ces deux heures.**
+
+📌 **Les rediffusions sont disponibles et clippables, et Basekou dit vouloir en faire son axe de communication principal.** ⇒ **C'est maintenant que la question se pose, pas après le premier clip.** ⚠️ **Rien n'est décidé ici : relire ou non, et poser ou non une règle de relecture avant publication, appartient à Basekou.**
 
 - Création de **TikTok + Instagram**, **cross-post au démarrage**.
 - Plus un **compte « style UGC » généré** (pas de vrais créateurs).

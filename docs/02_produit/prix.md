@@ -1,12 +1,43 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-09-29
+maj: 2026-10-02
 source: "SOT §1.7 + §5.0 (archive 2026-07-24) ; plafond B2C 2026-07-20 et grilles par canal 2026-07-24 (page relais + arbitrage Basekou)"
 resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix bouteille 33cl par canal (B2C 2,50 € / C2B2C / B2B), et le piège : ne jamais communiquer sur le coût de revient."
 ---
 
 # Prix
+
+## 🔴 2026-10-02 — DEUX LECTURES OPPOSÉES DU MÊME PRIX, ET LE CHIFFRE QUI TRANCHE N'EXISTE PAS
+
+⛔ **Aucun montant ici, comme partout : on consigne la RELATION.**
+
+| Source | Ce qu'elle dit |
+|---|---|
+| **Dépôt, `[figé]` du 29/09** | Le prix d'O'Daba est **SOUS le coût matière** |
+| **Visio du 01/10** *(à confirmer)* | *« Je suis à l'équilibre »* — **le coût de production égale le prix de vente** |
+
+⛔ **Les deux ne peuvent pas être vraies, et ce n'est pas un détail de comptage : l'une dit que chaque bouteille vendue coûte de l'argent, l'autre dit que non.** ➡️ **Tout le reste en dépend — devis de série, prix pour H7, décision d'augmenter ou non.**
+
+🔴 **ET LA RAISON POUR LAQUELLE ON NE PEUT PAS DÉPARTAGER EST ÉCRITE DEPUIS LONGTEMPS : les items 11 et 16 du backlog — *calculer le prix de revient*, *calculer le coût de revient artisanal* — n'ont JAMAIS été faits.** **Le chiffre qui trancherait n'existe pas.**
+
+📌 **Et cette fiche n'avait pas bougé du 24/07 au 29/09**, soit **avant que la dose de miel soit multipliée par ≈ 2,5, puis réduite d'un facteur inconnu.** ➡️ **Le coût dépend mécaniquement de la dose** — c'est exactement le mécanisme qui fait aussi bouger l'allégation sucre et le QUID. **Tant que la dose n'est pas mesurée** *(`eau-miellee-33cl.md`)*, **le coût de revient ne peut pas être calculé.**
+
+✅ **UNE APPARENTE CONTRADICTION QUI N'EN EST PAS UNE, levée ici pour qu'elle ne revienne pas** : Basekou dit *« plus j'ai de volume, moins ça me coûtera cher »*, et le dépôt écrit *« AUCUNE économie d'échelle »*. ➡️ **Les deux tiennent ensemble : le dépôt parle du TEMPS de production** *(purement proportionnel, mesuré deux fois)*, **Basekou parle des ACHATS** *(où le volume fait baisser le prix unitaire)*. **On groupe les achats, pas les productions.**
+
+### 🎯 2026-10-02 — L'objection prix n'est pas le montant : c'est le NOM, puis la VALEUR
+
+**Deux faits de terrain, deux jours de suite, et ils se complètent au lieu de se contredire :**
+
+**① Le NOM conduit à l'objection** *(visio du 01/10, à confirmer)* : *« quand ils entendent eau miellée, ils se disent il y a que 2 ingrédients, ça peut pas coûter ce prix-là. »* ➡️ **Le client ne compare pas à un marché : il décompose la recette et en déduit un coût.** 📌 **C'est un mécanisme, pas une impression — et il explique pourquoi le prix se discute avant même d'être annoncé.**
+
+**② La VALEUR décide, pas le prix** *(Baca Bamba, 02/10)* : **le gérant accepterait 1 € SI LA RECETTE ÉTAIT TRAVAILLÉE**, et revendrait **3 €** comme son bissap. ➡️ **Le montant n'est pas le point de blocage : le produit l'est.**
+
+⛔ **CE QUE ÇA RENVERSE, ET C'EST LA CONSÉQUENCE OPÉRATIONNELLE LA PLUS DIRECTE : le chantier « descendre les coûts à 50 centimes », ouvert le 30/09, repose sur un diagnostic que le terrain contredit.** **À ROUVRIR — non tranché.** 📌 **On ne baisse pas un prix que le client accepterait si le produit tenait.**
+
+✅ **Et un contre-exemple le même jour, qui empêche de généraliser : Sisters Bakery a accepté 1 € sans objection** — **premier prospect à ne pas le contester.** *(Accord verbal, pas une commande.)*
+
+📊 **Repères de revente RÉELS, pas estimés** *(interne, jamais diffusés)* : **O'Daba au coefficient 4** · **Baca Bamba : bissap 25 cl acheté 1 €, revendu 3 à 3,50 €**, et il revendrait Lédjé **3 €** · **Sisters Bakery : la boisson entrerait dans une FORMULE**, pas à l'unité avec un coefficient.
 
 ## 🔴 2026-09-29 — UN PRIX EST PRATIQUÉ, ET IL EST SOUS LE COÛT MATIÈRE
 
