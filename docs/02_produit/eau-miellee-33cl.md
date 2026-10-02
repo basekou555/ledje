@@ -67,7 +67,20 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 - ✅ **Elle AMÉLIORE l'allégation sucre**, aujourd'hui tenue de justesse *(≈ 33 % contre un seuil légal de 30 %)*.
 - 🔬 **Elle INVALIDE la série pH**, menée à la dose actuelle — quatorze jours d'observation ne portent que sur la recette observée.
 
-### 🔴 2026-10-01 — LA DOSE N'EST PAS SEULEMENT RÉDUITE : ELLE N'EST PAS CONNUE. Et elle est déjà partie chez deux clients.
+### ✅ 2026-10-02 — PRÉCISION DE BASEKOU : « je pense que c'était 20 mL ». L'alerte de la veille tombe en grande partie.
+
+*« Je pense que c'était 20 mL, mais ça n'a pas d'importance. »*
+
+➡️ **La fourchette « 20 mL voire 15 mL » se resserre sur sa BORNE HAUTE.** ✅ **Et à 20 mL, les trois décrochages signalés le 01/10 ne se produisent PAS :**
+- 🏷️ **Le QUID réel est ≈ 8,3 % contre 8 % imprimé ⇒ l'étiquette N'EST PAS surdéclarée.** ⛔ **Le point le plus lourd de l'alerte — un produit déjà vendu dont l'étiquette annonce plus de miel qu'il n'y en a — TOMBE.**
+- 📊 **Le tableau nutritionnel de la v1.2 tient** pour ce lot.
+- 🔬 **La série pH couvre le lot** : les 14 jours ont été observés à une dose voisine.
+
+📌 **Ce qui reste vrai, et qui n'est plus une alerte mais une simple tâche** : **la valeur est DÉCLARÉE, pas mesurée** *(« je pense »)*. ➡️ **Et elle ne sert plus la conformité — elle sert le CALCUL DU COÛT, que Basekou a lui-même posé le 02/10 (« faut faire le calcul »).** **Le coût par bouteille se calcule sur la dose : sans elle, les items 11 et 16 du backlog restent bloqués.**
+
+⚠️ **La section ci-dessous est conservée telle qu'elle a été écrite le 01/10, parce qu'elle était juste à ce moment-là et que le raisonnement sert si la dose rebouge. Son titre et ses conclusions sont corrigés par ce qui précède.**
+
+### ⚠️ *(écrit le 2026-10-01, CORRIGÉ le 02/10 par la précision ci-dessus)* — LA DOSE N'EST PAS SEULEMENT RÉDUITE : ELLE N'EST PAS CONNUE. Et elle est déjà partie chez deux clients.
 
 **Déclaré par Basekou le 01/10, pour les 10 bouteilles livrées à O'Daba le 30/09** : *« j'ai envoyé 20 mL voire 15 mL d'acacia dans les bouteilles. »*
 
