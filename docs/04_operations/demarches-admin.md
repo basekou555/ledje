@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-01
+maj: 2026-10-02
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
 resume: "Le réglementaire à boucler avant la première vente (déclaration ENREGISTRÉE — accusé reçu le 18/08, DDPP du Rhône compétente ; ✅ MAIL DES 3 QUESTIONS PARTI le 08/09 — catégorie, dérogation 13982, recevabilité du GBPH apicole pour une BOISSON — en attente de réponse ; ⚠️ le point 2 contredit la réponse DDPP 56 du 18/07, qui disait ni agrément ni dérogation : deux lectures coexistent jusqu'à l'arbitrage du 69 ; la DLC n'est PAS dans ce mail et n'en dépend pas) + l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
@@ -62,9 +62,55 @@ resume: "Le réglementaire à boucler avant la première vente (déclaration ENR
 
 ⛔ **RIEN N'EST TRANCHÉ ICI, et surtout rien n'est à corriger d'office** : une demande de changement de code APE est une démarche en soi, et personne n'a établi qu'elle est nécessaire. **Ce qui est consigné, c'est l'écart et les deux points à vérifier.**
 
-## HACCP — voie choisie : GBPH apicole (2026-07-21)
+## 🔴 RÉPONSE DE LA DDPP 69 — 2026-10-01, courrier départ 2026-8172 (Marie-Claire Monin)
 
-**DÉCIDÉ : suivre le GBPH apicole ITSAP documenté pour l'instant** (gratuit, taillé miel, reconnu DDPP) ; la formation hygiène 14 h se fera plus tard, quand le projet sera plus avancé.
+**Les trois questions posées le 08/09 sont répondues.** *(Réponse reçue le 01/10, consignée au dépôt le 02/10 — elle n'existait jusque-là qu'en Notion.)*
+
+### ① ✅ La catégorie déclarée est CONFIRMÉE
+
+**« Préparation de produits composés » est la bonne catégorie.** ➡️ **La déclaration du 14/08 n'est pas à refaire.** *(Réserve ouverte depuis le 21/07 : close.)*
+
+### ② 🔴 LA DÉROGATION À L'AGRÉMENT EST OBLIGATOIRE POUR VENDRE À DES PROFESSIONNELS — et la contradiction est tranchée
+
+⛔ **Pour céder des denrées à d'autres professionnels, il faut la dérogation à l'agrément sanitaire — CERFA 13982 — dans la limite de quantités et de distance.**
+
+🎯 **CE QUE ÇA TRANCHE, ET C'EST LE POINT : la contradiction ouverte le 08/09 est réglée CONTRE la DDPP 56.** La DDPP 56 avait répondu le 18/07 *« ni agrément ni dérogation requis — déclaration d'activité seule »* ; **la DDPP 69, qui est l'autorité compétente, dit l'inverse.** ➡️ **La consigne « ne rien déposer avant l'arbitrage », posée le 08/09, TOMBE : l'arbitrage est arrivé.**
+
+🔴 **ET IL ARRIVE APRÈS LES PREMIÈRES LIVRAISONS, pas avant.** **O'Daba a reçu 10 bouteilles VENDUES le 30/09 ; Baca Bamba 10 bouteilles OFFERTES le 01/10 ; les frigos de H7 sont en négociation ; quatre dégustations suivent.** ⚠️ **Écrit comme un fait de calendrier, pas comme un jugement : ces remises ont eu lieu sans la dérogation que l'autorité compétente dit obligatoire.**
+
+**Les trois états, et il y en a bien TROIS, pas deux :**
+
+| Situation | Ce qu'il faut |
+|---|---|
+| **Particuliers seuls** | Rien à demander de plus que la déclaration |
+| **Professionnels, petites quantités, local** | **Dérogation — CERFA 13982** |
+| **Au-delà des seuils ou hors zone** | **AGRÉMENT**, qui exige un **local d'atelier** ⛔ *(une cuisine d'appartement à usage mixte n'en obtient pas — c'est là que le financement devient une condition, pas un confort)* |
+
+**Les critères de la dérogation** *(notice officielle 51738)* :
+- ✅ **Distance : moins de 80 km** depuis le lieu de production. **Les cinq prospects sont à Lyon — le critère passe largement.**
+- ✅ **Destinataires : commerces de détail et consommateurs finaux.** **Un restaurant en relève** — ce n'est donc pas là que ça bloque.
+- 🔴 **Quantités « marginales et restreintes », seuils renvoyés à l'arrêté du 8 juin 2006, annexe III.** ⛔ **AUCUN SEUIL N'EST IDENTIFIABLE POUR CE PRODUIT : vérification faite le 01/10, aucune mention du miel ni d'une boisson au miel ne figure à l'annexe III.** 📌 **C'est une absence CONSTATÉE, pas une recherche inaboutie.**
+- 🔴 **L'expédition hors région sort de la dérogation.** ➡️ **L'idée du 25/09 d'envoyer des doses dans toute la France est fermée par ce texte** *(sauf à passer à l'agrément)*.
+
+🎯 **ET LES DEUX LECTURES DE L'ABSENCE DE SEUIL MÈNENT À LA MÊME ACTION, ce qui rend l'arbitrage simple** : que l'absence signifie « pas de plafond opposable » ou « produit non prévu par le texte », **déposer le 13982 ne coûte rien et couvre ; ne pas le déposer expose.** 📌 **La question à poser à Mᵐᵉ Monin n'est donc pas « quel est mon seuil » mais « mon produit n'a aucune ligne à l'annexe III ».**
+
+### ③ 🔴 LE GBPH APICOLE EST ÉCARTÉ — et une mention de cette fiche était FAUSSE
+
+⛔ **Le GBPH apicole vaut pour la PRODUCTION de miel, pas pour sa TRANSFORMATION.** **Aucun GBPH validé n'existe pour les produits de miellerie.** *(Un guide miellerie non validé est joint au courrier : insuffisant pour bâtir le PMS.)*
+
+✅ **Voie indiquée par la DDPP : les GBPH du ministère, et notamment celui des JUS DE FRUITS** — le plus proche en matière de dangers *(chimiques, micro-organismes végétatifs et **spores**)*. **Guide identifié : « Industrie française des jus de fruits, nectars et produits dérivés », UNPJF, validé en décembre 2000** — guide d'INDUSTRIE, brochure payante, non téléchargeable. 📌 **On en reprend l'ANALYSE DES DANGERS, pas les mesures de maîtrise** *(qui supposent un outil industriel)*.
+
+🔴 **CORRECTION D'UNE MENTION PORTÉE DEPUIS LE 21/07, ET ELLE ÉTAIT FAUSSE : la section ci-dessous écrivait que le GBPH apicole ITSAP était « reconnu DDPP ».** ⛔ **Il ne l'est pas, et il ne l'a jamais été** : la liste ministérielle ne comporte **aucun** GBPH validé pour l'apiculture ni pour le miel *(vérifié le 01/10 sur agriculture.gouv.fr)*. 📌 **La mention est corrigée ci-dessous plutôt que supprimée — c'est ce qui empêche une session future de la réintroduire.**
+
+*(⚠️ Cette section et la correction ci-dessous empiètent sur une fiche dont la session COO est propriétaire. L'empiètement est déclaré dans la PR.)*
+
+## HACCP — ⚠️ voie du GBPH apicole ÉCARTÉE par la DDPP le 2026-10-01 *(décision initiale du 2026-07-21)*
+
+🔴 **CETTE VOIE N'EST PLUS VALIDE.** Voir la réponse DDPP ci-dessus : le GBPH apicole vaut pour la production de miel, pas pour la transformation, et **il n'a jamais été « reconnu DDPP »**. ➡️ **Le référentiel à reprendre est le GBPH JUS DE FRUITS, pour son analyse des dangers.**
+
+*(Texte d'origine conservé, barré de fait par ce qui précède :)*
+
+~~**DÉCIDÉ : suivre le GBPH apicole ITSAP documenté pour l'instant** (gratuit, taillé miel, **reconnu DDPP** ← ⛔ **FAUX, corrigé le 02/10**)~~ ; la formation hygiène 14 h se fera plus tard, quand le projet sera plus avancé.
 **⚠️ Réserve à lever : confirmer que le GBPH suffit pour une BOISSON au miel** (pas seulement du miel en pot). ✅ **LA QUESTION EST POSÉE À LA DDPP 69 le 2026-09-08** (3e point du mail, cf. suivi daté ci-dessus) — la réserve n'est pas levée, mais elle est enfin **instruite** : après sept semaines, elle cesse d'être une note interne pour devenir une question adressée à l'autorité compétente.
 À faire : récupérer + lire le GBPH apicole ITSAP ; construire le plan de maîtrise sanitaire documenté (traçabilité, températures, nettoyage) ; ~~faire confirmer sa recevabilité par la DDPP compétente~~ *(fait le 08/09 — en attente de réponse)* ; rapprochement ADA Bretagne / Chambre d'agriculture. ⚠️ **Le plan de maîtrise sanitaire n'existe toujours pas par écrit** — et le mail du 08/09 propose de recevoir la DDPP sur le lieu de production.
 

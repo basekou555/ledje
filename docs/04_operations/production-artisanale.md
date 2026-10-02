@@ -186,6 +186,26 @@ resume: "La phase artisanale : 6 objectifs, principe de la trace, KPIs Francesco
 
 *« Même si on n'a pas tout bouclé, on a assez d'infos pour organiser une première production avec la première version du PMS qu'on a. »* ➡️ **La section 8 du PMS n'est pas un préalable à cette production.** Le coût est écrit : le document qui portera la DLC n'est pas encore au dépôt. **Ce que l'arbitrage NE fait pas sauter** : le marquage du bouchon et la DLC, qui restent des obligations et non des points de plan.
 
+### 🔴 2026-10-01 — LE RÉFÉRENTIEL DU PMS CHANGE : le GBPH apicole est écarté, le GBPH jus de fruits le remplace
+
+*(Réponse DDPP 69 du 01/10 — détail et correction dans `demarches-admin.md`. Descendu au dépôt le 02/10.)*
+
+✅ **PREMIÈRE BONNE NOUVELLE, et elle était loin d'être acquise : LA v1 DU PMS N'EST PAS À REFAIRE.** **Elle est construite sur le règlement 852/2004 et sur la pratique observée, pas sur le guide apicole** — elle écrit elle-même que *« le PMS est dû quelle que soit cette réponse »*. ➡️ **Aucun de ses 7 volets ne dépend du guide écarté.**
+
+🔴 **MAIS CINQ ÉCARTS PRÉCIS RESTENT, et ils viennent de ce que le nouveau guide regarde des dangers que l'ancien ne regardait pas :**
+
+| # | L'écart | Pourquoi il compte |
+|---|---|---|
+| ① | **Aucune ligne SPORES au tableau des dangers** | Le volet 4.1 nomme déjà le seuil de **4,6** — qui est précisément le seuil des spores. **Le seuil est écrit, le danger qu'il vise ne l'est pas.** |
+| ② | **a_w jamais mesurée, absente partout** | C'est l'un des deux paramètres qui décident si un micro-organisme peut se développer. **Non mesurée = non maîtrisée.** |
+| ③ | **pH jamais mesuré, hors gamme des bandelettes** | ⛔ **Le pH-mètre cesse d'être une option et devient nécessaire.** Les bandelettes 3,8-5,5 n'ont jamais pu chiffrer le produit. |
+| ④ | **La mesure centrale du guide est un traitement THERMIQUE** | ⛔ **Et Lédjé l'exclut par construction** *(« miel jamais chauffé »)*. **L'outil de maîtrise principal du référentiel est hors de portée — c'est le point dur.** |
+| ⑤ | **Le volet chimique repose sur deux documents de Joan jamais reçus** | Attestation miellat et process ≤ 35 °C. **Ouvert depuis le 13/09.** |
+
+🎯 **ET LE GUIDE LAISSE TROIS VOIES POUR UN PRODUIT NON ACIDE — c'est la lecture la plus utile de tout ce qui précède** : **acidifier**, **chauffer**, ou **tenir une DLC courte validée**. ➡️ **Basekou est aujourd'hui sur la troisième, par défaut. ⛔ La deuxième est exclue par la marque.** 🆕 **Et la première est exactement ce que ferait le CITRON** *(`../02_produit/eau-miellee-33cl.md`)*.
+
+📌 **Conséquence qui dépasse le goût, et qu'il faut écrire une fois : la saveur citron n'est pas seulement une réponse au cinquième signal du marché — c'est aussi une des trois voies de conservation reconnues par le référentiel que la DDPP vient de désigner.** ⚠️ **Écrit comme un rapprochement, pas comme une décision : rien n'est tranché, et acidifier change le produit, l'étiquette et la série pH.**
+
 ## ✅ Matériel — trois objets commandés le 2026-09-23, après quatre séances de signalement
 
 | Objet | À quoi il sert | Statut au 23/09 | Ce qui reste à vérifier |
