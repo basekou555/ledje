@@ -29,21 +29,22 @@ const ACCROCHE = 'De l’eau et du miel. Rien de plus.'
 // ⚠️ Signature PROVISOIRE elle aussi (identite-verbale.md §7.1).
 const SIGNATURE = 'Parmi les bienfaits de ce bas monde'
 
-/* ── Réseaux sociaux (ajoutés le 2026-10-02) ──────────────────────────────
-   ⚠️ LES URL NE SONT PAS RENSEIGNÉES, ET C'EST VOULU. Les comptes TikTok et
-   Instagram existent (déclaré le 2026-09-28) mais aucun handle n'est écrit
-   nulle part dans le dépôt, et on n'invente pas une adresse : un lien faux
-   sur un site en ligne est pire que pas de lien.
+/* ── Réseaux sociaux (ajoutés le 2026-10-02, activés le soir même) ────────
+   Handle donné par Basekou le 2026-10-02 : `its.ledje`, le même sur les deux
+   plateformes. (La première transcription orale donnait « It's Legit » — c'était
+   une erreur de transcription, corrigée par Basekou.)
 
-   Garde-fou : une entrée dont `url` est vide n'est PAS rendue. Si ce fichier
-   part en production tel quel, la rangée disparaît simplement — le site ne
-   peut donc jamais envoyer un visiteur vers une URL inventée.
+   ⚠️ NON VÉRIFIÉ DEPUIS CETTE SESSION : instagram.com et tiktok.com sont
+   bloqués par le proxy réseau, les deux URL n'ont donc pas pu être testées.
+   Elles reposent sur la parole de Basekou, à qui la vérification d'un clic
+   revient.
 
-   Pour l'activer : coller l'URL complète du profil (https://…). Rien d'autre
-   à toucher. */
+   Garde-fou conservé : une entrée dont `url` est vide n'est pas rendue, et la
+   rangée entière disparaît si les deux le sont. Vider une URL suffit à retirer
+   une icône, sans toucher au reste. */
 const SOCIALS = [
-  { name: 'Instagram', url: '', icon: 'instagram' },
-  { name: 'TikTok', url: '', icon: 'tiktok' },
+  { name: 'Instagram', url: 'https://www.instagram.com/its.ledje/', icon: 'instagram' },
+  { name: 'TikTok', url: 'https://www.tiktok.com/@its.ledje', icon: 'tiktok' },
 ] as const
 
 function SocialIcon({ name }: { name: string }) {
