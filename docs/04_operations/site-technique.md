@@ -1,7 +1,7 @@
 ---
 statut: figé
 domaine: operations
-maj: 2026-07-13
+maj: 2026-10-02
 source: "SOT §5.1-5.4, 5.6, 5.7, 5.8 (archive 2026-07-24) — état vérifié en prod"
 resume: "La technique du site : stack, fichiers clés, Supabase (pièges voulus), piège majeur Vercel, analytics, accessibilité, workflow git."
 ---
@@ -57,6 +57,18 @@ Câblage vidéo hero : `VITE_HERO_VIDEO_URL` (video autoplay muette en fond de h
 ## Analytics
 
 UTM depuis le lien bio TikTok, stockés avec l'email et les événements. Événements passifs : page_view, cta_click, scroll_50, scroll_100, page_exit (+ time_on_page_sec). Pas d'outil tiers, pas de cookies invasifs. (Stratégie d'acquisition : `../03_marche/acquisition-tiktok.md`.)
+
+## 📱 Réseaux sociaux dans le pied de page (ajouté le 2026-10-02)
+
+**Une rangée d'icônes Instagram et TikTok est posée dans le `<footer>` de `App.tsx`**, entre la signature et l'adresse mail. **Icônes SVG inline** — aucune dépendance, aucun appel réseau, teinte héritée par `currentColor`. Cibles de **44 × 44 px** conformément à la règle d'accessibilité ci-dessous, pour une icône de 20 px. Liens en `target="_blank"` + `rel="noopener noreferrer"`, `aria-label` par réseau, et un événement `social_click_<réseau>` dans `page_events`.
+
+🔴 **LES URL NE SONT PAS RENSEIGNÉES, ET C'EST VOULU.** **Les comptes TikTok et Instagram existent** *(déclaré le 28/09)* **mais aucun handle n'est écrit nulle part dans le dépôt.** ⛔ **On n'invente pas une adresse de profil : un lien faux sur un site en ligne est pire que pas de lien.**
+
+✅ **GARDE-FOU CODÉ, PAS SEULEMENT DOCUMENTÉ : une entrée dont `url` est vide n'est pas rendue, et la rangée entière disparaît si les deux le sont.** ➡️ **Si ce fichier part en production tel quel, le pied de page est exactement celui d'avant.** **Vérifié au navigateur sur le build : 0 icône à vide, 2 icônes dès qu'une URL est posée.**
+
+📌 **Pour activer : coller l'URL complète du profil dans `SOCIALS`, en haut de `App.tsx`. Rien d'autre à toucher.**
+
+⚠️ **Réserve de fond, consignée et non tranchée : les deux comptes n'ont RIEN publié à ce jour** *(`../03_marche/grille-contenu.md`)*. **Un visiteur qui clique arrive sur un profil vide** — et c'est le visiteur qui vient « vérifier que c'est sérieux », ce que la vitrine existe précisément pour faire. 🎯 **La question n'est donc pas technique : elle est de savoir si on ouvre la porte avant ou après la première publication.**
 
 ## Accessibilité
 
