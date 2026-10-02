@@ -158,6 +158,12 @@ Comment on écrit les prompts, ce que le cahier des charges impose déjà et ce 
 
 **⚠️⚠️ CE QUE ÇA CHANGE № 2 — et c'est une réserve de PÉRIMÈTRE, posée une fois, pas un retour sur une décision prise.** ✅ **Le 30/09, Basekou a tranché que les arguments santé seraient dits À L'ORAL. Cette décision est consignée et ne se rejoue pas.** ⚠️ **Mais elle a été prise pour des échanges EN FACE À FACE avec des restaurateurs, et elle disait explicitement que rien ne change à l'ÉCRIT.** ➡️ **Un live public de deux heures, ses rediffusions et les clips qui en sortiront sont des COMMUNICATIONS PUBLIQUES et durables — même régime qu'une étiquette, pas celui d'une conversation.** 🔴 **Personne n'a relu ce qui a été dit du produit pendant ces deux heures.**
 
+🆕 **2026-10-02 au soir — ET IL Y A AUSSI DES POSTS, pas seulement des stories** : *« j'ai commencé à poster des story et des post sur insta ».* ➡️ **La différence n'est pas cosmétique : une story dure 24 h, un POST reste.** **Du contenu DURABLE existe donc publiquement.**
+
+⚠️ **SUR QUEL COMPTE : NON PRÉCISÉ, et on ne le suppose pas.** 📌 **Le live TikTok, lui, a été confirmé le 02/10 comme ayant eu lieu sur le compte PERSONNEL de Basekou** — donc la question se pose pour Instagram aussi. ➡️ **Tant qu'elle n'est pas répondue, « rien publié » reste indéterminé POUR LES COMPTES DE LA MARQUE, et faux pour « rien n'est sorti publiquement ».**
+
+🔗 **Et ça touche le SITE** : la PR #101 pose une rangée de liens vers Instagram et TikTok, laissée inactive faute de handles. **La réserve écrite ce matin — « un visiteur qui clique arrive sur un profil vide » — tombe SI les posts sont sur le compte de la marque.** ⇒ **La réponse à « quel compte » décide à la fois de ce que décrit cette fiche et de l'activation des liens.**
+
 📌 **Les rediffusions sont disponibles et clippables, et Basekou dit vouloir en faire son axe de communication principal.** ⇒ **C'est maintenant que la question se pose, pas après le premier clip.** ⚠️ **Rien n'est décidé ici : relire ou non, et poser ou non une règle de relecture avant publication, appartient à Basekou.**
 
 - Création de **TikTok + Instagram**, **cross-post au démarrage**.
