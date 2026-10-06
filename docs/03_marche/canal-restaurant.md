@@ -3,7 +3,7 @@ statut: en_cours
 domaine: marche
 maj: 2026-10-06
 source: "SOT §1.4bis (archive 2026-07-24) — accord 2026-07-18 ; intel MMD 2026-07-24, corrigée en session 2026-07-26"
-resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV). ✅ **27/09 : la dégustation débouche sur la PREMIÈRE COMMANDE — 10 bouteilles d'acacia, produites le 30/09 en ≈ 50 min, livraison prévue le jour même.** 🔴 **Elles inaugurent un scénario jamais testé : sortir du froid puis y RETOURNER** — ✅ **premier point d'observation obtenu le 06/10 sur les bouteilles reprises chez Sisters : à ≈ J+4, aucune dérive de goût ni d'odeur, mais observation ORGANOLEPTIQUE seule.** ✅ **CINQ RDV posés (30/09 → 08/10) : le blocage du premier tour était le RÉPONDEUR, pas le refus.** ⚠️ Cinq dégustations à fournir, aucune production prévue ; Le Goût de Ça porte trois noms de gérant ; 🆕 Doriane (food truck, via Jules) — 1ʳᵉ recommandation entrante. 🎯🎯 **02/10 : PREMIÈRES VENTES AU CONSOMMATEUR chez O'Daba — 5/10 à 3,50 €, ≈ 2/jour, quatre clientes acheteuses interrogées. LE SUCRE NE LES GÊNE PAS ⇒ le signal sucre n'est pas universel.** ⚠️ **CORRECTION DU 06/10 : la sunna a été dite PAR BASEKOU, pas reconnue d'elles-mêmes** — ✅ **mais les questions de SAVEUR étaient PRÉ-PITCH, donc ces retours sont honnêtes et le contre-signal garde son poids ; et « saveur : POUR QUEL CANAL » est confirmé comme principe par Basekou.** 🆕 **Objection de FORMAT inédite : le 33 cl jugé trop grand, un SHOT de ≈ 25 mL imaginé.** ✅ **06/10 : Basekou PASSE SUR PLACE chez O'Daba, aujourd'hui ou demain** *(contact en déplacement, donc passage plutôt qu'appel)* — **au rythme constaté les 5 dernières bouteilles sont écoulées, et c'est la fenêtre où le réachat s'observe.** 🔴🔴 **MAIS LE RÉASSORT N'EST PAS COUVERT EN MATIÈRE : 10 bouteilles d'acacia demandent ≈ 287 g pour un stock corrigé à ≈ 200-300 g, et O'Daba n'a jamais reçu que de l'acacia** ⇒ **appeler Joan devient la condition du réassort.** 🔴 **Et la DLC tamponnée de ces bouteilles s'efface** *(`../04_operations/production-artisanale.md`)* — **à regarder sur place.**
+resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV). ✅ **27/09 : la dégustation débouche sur la PREMIÈRE COMMANDE — 10 bouteilles d'acacia, produites le 30/09 en ≈ 50 min, livraison prévue le jour même.** 🔴 **Elles inaugurent un scénario jamais testé : sortir du froid puis y RETOURNER** — ✅ **premier point d'observation obtenu le 06/10 sur les bouteilles reprises chez Sisters : à ≈ J+4, aucune dérive de goût ni d'odeur, mais observation ORGANOLEPTIQUE seule.** ✅ **CINQ RDV posés (30/09 → 08/10) : le blocage du premier tour était le RÉPONDEUR, pas le refus.** ⚠️ Cinq dégustations à fournir, aucune production prévue. 🔴 **06/10 — LE GOÛT DE ÇA : RDV TENU, NON ABOUTI, et c'est le PREMIER refus qui ne dit rien du produit** *(il n'a pas goûté, pas de prix, pas de frigo — « on n'a même pas parlé business, on n'a pas les mêmes visions »)* ⇒ **à ne PAS additionner aux six signaux saveur.** ✅ **Et l'énigme des trois noms est levée : *Arnaud* = prénom, *Chouab(e)* = nom de famille, DEUX DES TROIS N'EN FAISAIENT QU'UN** *(orthographe à confirmer ; *Krambé* reste inexpliqué)*. 🔴 **DEUXIÈME REFUS DE GOÛTER EN QUATRE JOURS : 2 RDV sur 3 cette semaine sans aucune dégustation — le cas « non anticipé » du 02/10 devient un patron à surveiller.** 🆕 Doriane (food truck, via Jules) — 1ʳᵉ recommandation entrante. 🎯🎯 **02/10 : PREMIÈRES VENTES AU CONSOMMATEUR chez O'Daba — 5/10 à 3,50 €, ≈ 2/jour, quatre clientes acheteuses interrogées. LE SUCRE NE LES GÊNE PAS ⇒ le signal sucre n'est pas universel.** ⚠️ **CORRECTION DU 06/10 : la sunna a été dite PAR BASEKOU, pas reconnue d'elles-mêmes** — ✅ **mais les questions de SAVEUR étaient PRÉ-PITCH, donc ces retours sont honnêtes et le contre-signal garde son poids ; et « saveur : POUR QUEL CANAL » est confirmé comme principe par Basekou.** 🆕 **Objection de FORMAT inédite : le 33 cl jugé trop grand, un SHOT de ≈ 25 mL imaginé.** ✅ **06/10 : Basekou PASSE SUR PLACE chez O'Daba, aujourd'hui ou demain** *(contact en déplacement, donc passage plutôt qu'appel)* — **au rythme constaté les 5 dernières bouteilles sont écoulées, et c'est la fenêtre où le réachat s'observe.** 🔴🔴 **MAIS LE RÉASSORT N'EST PAS COUVERT EN MATIÈRE : 10 bouteilles d'acacia demandent ≈ 287 g pour un stock corrigé à ≈ 200-300 g, et O'Daba n'a jamais reçu que de l'acacia** ⇒ **appeler Joan devient la condition du réassort.** 🔴 **Et la DLC tamponnée de ces bouteilles s'efface** *(`../04_operations/production-artisanale.md`)* — **à regarder sur place.**
 ---
 
 # Canal — Restaurant (TEST)
@@ -225,7 +225,15 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 📌 **Conséquence de traçabilité, déjà écrite au dépôt et qui s'applique ici** : **deux recettes produites le même jour porteraient le même numéro de lot** *(AAMMJJ)*. ✅ **Sortie connue : un suffixe par variante — `AAMMJJ-A` / `-B` — et la correspondance écrite le jour même** *(`../02_produit/eau-miellee-33cl.md`)*.
 
-⚠️ **LE GOÛT DE ÇA PORTE TROIS NOMS DE GÉRANT** — *Arnaud*, *Chouabe*, *Krambé*. **Aucun n'est figeable : le nom du décideur n'est pas établi, et la fiche ne choisit pas.** ➡️ **À lever au rendez-vous du 06/10, pas avant.**
+✅✅ **2026-10-06 — L'ÉNIGME DES TROIS NOMS EST LEVÉE AU RENDEZ-VOUS, ET ELLE N'EN ÉTAIT PAS UNE : *Arnaud* ET *Chouabe* SONT LA MÊME PERSONNE.**
+
+**Déclaré par Basekou au retour du RDV :** *« j'ai eu un rendez-vous avec le chef Arnaud. Arnaud c'est son prénom, et Chouab c'est son nom de famille. »*
+
+🎯 **CE QUE ÇA CORRIGE : le dépôt a traité pendant une semaine comme une incertitude d'identité ce qui n'était qu'un PRÉNOM et un NOM DE FAMILLE notés séparément.** **Le 29/09 l'écart était écrit ainsi : « au carnet sous *chef Arnaud* quand Basekou dit *chef Chouabe* ».** ➡️ **Les deux étaient justes.**
+
+⚠️ **ORTHOGRAPHE À CONFIRMER : *Chouab* (06/10) ou *Chouabe* (29/09) — les deux viennent d'une transcription orale.** *(Même précaution que pour « Loïc » chez Baca Bamba et pour le « Jérôme/Joan » du fournisseur, où l'erreur avait tenu trois semaines.)*
+
+⛔ **ET *KRAMBÉ* RESTE INEXPLIQUÉ** — **il n'est ni le prénom ni le nom de ce chef. Il ne se range pas, et il ne s'efface pas : il peut être une autre personne de l'établissement, ou une erreur de carnet.**
 
 ### 🔴 BACA BAMBA — DEUXIÈME CLIENT RESTAURATEUR, et il achète SANS avoir été convaincu
 
@@ -326,7 +334,7 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 | Piste | Où ça en est, déclaré le 02/10 |
 |---|---|
 | **Baca Bamba** | ✅ **Les 5 bouteilles restantes sont LAISSÉES sur place, volontairement** — Basekou repassera **lundi ou mardi** pour un dernier avis, **peut-être une fois de plus en fin de semaine**. ⚠️ **Répartition vendues/offertes toujours inconnue**, estimée « à peu près moitié-moitié » *(estimation, pas une donnée du gérant)*. |
-| **Le Goût de Ça** *(06/10 15h)* | **Basekou a le nom du gérant dans ses notes** — ⚠️ **il n'a pas été redit en séance, donc les trois versions restent non départagées au dépôt.** |
+| **Le Goût de Ça** *(06/10 15h)* | ~~**Basekou a le nom du gérant dans ses notes** — il n'a pas été redit en séance, donc les trois versions restent non départagées.~~ ✅ **LEVÉ LE 06/10 : chef ARNAUD CHOUAB(E), prénom + nom de famille.** 🔴 **Et le RDV est tenu et NON ABOUTI** — voir le débrief daté du 06/10. |
 | **Nabil** *(fast-food)* | 🔴 **Pas recontacté** — Basekou devait passer au restaurant, pas eu le temps. 🎯 **Et un fait utile sort de la réponse : Nabil VEUT GOÛTER. L'action n'est donc pas un appel, c'est un DÉPÔT de produit** — c'est ce qui conditionne tout retour. |
 | **Doriane** *(food truck)* | 🔴 **Pas contactée.** |
 | **Le contact venu du live TikTok** | 🔴 **Pas de reprise de contact.** 🆕 **Elle devait venir à l'événement du 29/09 et N'EST PAS VENUE.** ⚠️ **Le premier prospect entrant par un canal social n'a donc produit aucune rencontre — à écrire, parce que ça nuance ce qui avait été consigné comme un succès du live.** |
@@ -361,6 +369,40 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 🔴🔴 **ET CE PASSAGE RENCONTRE UN MUR DE MATIÈRE, À VOIR AVANT D'Y ALLER : un réassort de 10 bouteilles d'ACACIA demande ≈ 287 g, et le stock d'acacia est CORRIGÉ À ≈ 200 g, ≈ 300 g au maximum** *(correction de Basekou le 06/10 ; cf. `../04_operations/production-artisanale.md`)*. ⛔ **À 200 g le réassort est IMPOSSIBLE ; à 300 g il passe et ne laisse rien.** 🎯 **Et O'Daba n'a jamais reçu que de l'acacia — proposer l'assemblage à la place serait un changement de produit chez le SEUL client payant.** ➡️ **La réappro chez Joan n'a pas de date : l'appeler cesse d'être une tâche de fond, c'est la CONDITION du réassort.**
 
+⚠️ **06/10 au soir — DÉCISION DE BASEKOU : IL N'APPELLE PAS JOAN MAINTENANT.** *« J'ai pas appelé Joan pour l'acacia. Je vais attendre encore un peu. »* ➡️ **Report assumé et consigné ; la contrainte de matière est écrite une fois ci-dessus et ne se rejoue pas.** 📌 **Ce que ça implique mécaniquement, sans commentaire : si O'Daba recommande demain, le réassort en acacia n'est pas produisible dans l'immédiat.**
+
+✅ **ET LE PASSAGE EST FIXÉ À DEMAIN** — `[en discussion]` sur la date : *« je vais passer chez O'Daba demain, je pense »*. **Le « je pense » fait descendre la date d'un niveau ; le geste, lui, est pris.**
+
+### 🔴 2026-10-06 — LE GOÛT DE ÇA : LE RDV EST TENU ET N'ABOUTIT PAS, ET C'EST LE PREMIER REFUS QUI NE DIT RIEN DU PRODUIT
+
+*(Débrief obtenu en posant les questions, selon la méthode arrêtée le 02/10.)*
+
+**Interlocuteur : chef ARNAUD CHOUAB(E)** *(identité levée, voir ci-dessus)*.
+
+🔴 **AUCUN SUJET COMMERCIAL N'A ÉTÉ ABORDÉ.** **Mot pour mot : *« on n'a même pas parlé business. On n'a pas réussi à s'entendre intellectuellement parlant, on n'a pas les mêmes visions. »***
+
+| Ce qui n'a pas eu lieu | |
+|---|---|
+| ⛔ **La dégustation** | **Il n'a pas goûté** |
+| ⛔ **Le prix** | **Jamais évoqué** |
+| ⛔ **Le frigo** | **Pas de frigo, sujet non abordé** |
+
+🎯🎯 **CE QUE ÇA VAUT, ET C'EST LA LECTURE QUI COMPTE : CE REFUS NE DIT RIEN DU PRODUIT, ET IL NE DOIT PAS ÊTRE COMPTÉ COMME UN SIGNAL.** ➡️ **C'est le premier de la série dans ce cas.** **Baca Bamba a refusé sur le GOÛT et la trésorerie ; Sisters hésite sur la préférence qu'elle PRÊTE à ses clientes ; ici c'est un désaccord de VISION entre deux personnes, et le produit n'est jamais entré dans la conversation.** ⛔ **Ne pas l'additionner aux six signaux saveur : il n'en est pas un.**
+
+#### 🔴 DEUXIÈME REFUS DE GOÛTER EN QUATRE JOURS — le cas « non anticipé » du 02/10 devient un PATRON
+
+**Le 02/10, Sisters Bakery n'avait pas ouvert les échantillons, et la leçon était écrite comme une surprise :** *« un prospect peut REFUSER DE GOÛTER. La règle 1 bouteille de chaque par RDV suppose une dégustation ; elle ne dit rien du cas où les échantillons repartent. »*
+
+🎯 **SUR LES TROIS RENDEZ-VOUS DE LA SEMAINE, DEUX N'ONT PRODUIT AUCUNE DÉGUSTATION** *(Sisters 02/10, Le Goût de Ça 06/10 ; seul Baca Bamba a goûté, et c'était le 30/09-02/10)*. ➡️ **Ce n'est plus un cas limite : c'est le résultat majoritaire.** ⚠️ **Trois rendez-vous est un échantillon minuscule — écrit comme un patron à surveiller, pas comme une loi.**
+
+✅ **CONSÉQUENCE MATÉRIELLE FAVORABLE, et elle est la même qu'au 02/10 : les deux bouteilles reviennent, l'acacia n'est pas consommé.** 📌 **Et ça compte double aujourd'hui, le stock étant corrigé à ≈ 200-300 g.**
+
+📌 **CE QUE ÇA OUVRE pour les deux RDV restants** *(Mauya 07/10, Chez Magie 08/10)* **: si le prospect ne goûte pas, le rendez-vous ne produit ni signal produit ni décision — seulement du temps passé. ⛔ Rien n'est tranché ici : faire goûter d'emblée plutôt que de présenter d'abord est un changement de méthode, et il appartient à Basekou.**
+
+#### 📹 Des vidéos existent
+
+**Basekou a filmé : *« j'ai des vidéos avec le chef Arnaud »*.** ⚠️ **Rien n'est décidé de leur usage, et la réserve de périmètre sur les clips publics reste entière** *(`grille-contenu.md`)*. 📌 **Un rendez-vous qui n'aboutit pas, filmé, demande un arbitrage avant toute diffusion — il y a une personne identifiable dedans.**
+
 ## Leçons du marché
 
 Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimenter au fil des rencontres.
@@ -381,7 +423,7 @@ Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimente
 | Ahmed Diaby | Restaurateur (O'Daba) | Entretien 12/07 · accord test 18/07 · **relancé le 23/09 au soir, sans réponse** | à compléter |
 | **Nabil** | **Manager d'un fast-food** | **Contact récupéré le 24/09** | 🟠 **Dégustation Lédjé PRÉVUE, sans date** — à organiser avec lui |
 | **Doriane** | **Food truck** | **Recommandée le 29/09 par Jules (H7)** | 🟠 **1ʳᵉ recommandation ENTRANTE** — aucun contact pris, aucune date |
-| **Le Goût de Ça** *(L3)* | Restaurant | **RDV posé pour le 06/10 à 15h** | ⚠️ **Trois noms de gérant en circulation** *(Arnaud / Chouabe / Krambé)* — à lever sur place |
+| **Le Goût de Ça** *(L3)* | Restaurant | 🔴 **RDV TENU le 06/10 à 15h — NON ABOUTI, et pour une raison qui ne touche pas le produit** *(voir le débrief ci-dessus)* | ✅ **DÉCIDEUR IDENTIFIÉ : chef ARNAUD CHOUAB(E)** — *Arnaud* = prénom, *Chouab(e)* = nom de famille, **donc deux des trois « noms » n'en faisaient qu'un**. ⚠️ Orthographe du nom à confirmer. ⛔ ***Krambé* reste inexpliqué** |
 
 ### 🍔 Nabil — deuxième piste restaurant (ouverte le 2026-09-24)
 
