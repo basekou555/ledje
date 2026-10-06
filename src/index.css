@@ -376,6 +376,32 @@ img, svg, video { display: block; max-width: 100%; }
   color: var(--gold-on-green);
   margin-bottom: 1.8rem;
 }
+/* Réseaux sociaux — rangée d'icônes, ajoutée le 2026-10-02.
+   Discrète par construction : même rang visuel que le mail, pas un CTA.
+   Cibles de 44px minimum (accessibilité tactile) alors que l'icône fait 20px. */
+.v-footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 0.35rem;
+  margin-bottom: 1.1rem;
+}
+.v-footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: rgba(244, 235, 218, 0.72);
+  border-radius: 50%;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+.v-footer-social a:hover,
+.v-footer-social a:focus-visible {
+  color: var(--gold-on-green);
+  background-color: rgba(244, 235, 218, 0.08);
+}
+.v-footer-social svg { width: 20px; height: 20px; display: block; }
+
 .v-footer-mail { margin-bottom: 1.5rem; }
 .v-footer-mail a { color: var(--surface); font-size: 0.98rem; }
 .v-footer-legal { font-size: 0.8rem; color: rgba(244,235,218,0.7); line-height: 1.6; }

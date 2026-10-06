@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-10-01
+maj: 2026-10-02
 source: "Page relais Notion — dose quasi figée 2026-07-21, contenu légal figé côté COO 2026-07-24 ; principe produit repris de la base de connaissance V1 (§1.1) ; corrections du 2026-08-17 (DDM débloquée, règle logo v2 caduque, lieu de fabrication, format et matériau) ; QUID aligné sur l'étiquette V1.6 et assemblage corrigé en session le 2026-08-20 ; recette non figée et bascule imprimeur actées le 2026-08-24 ; tilleul différé le 2026-08-25 ; eau de production tranchée (Cristaline), dénomination légale versée en fiche et commande d'étiquettes conditionnée à la recette le 2026-08-26 ; dénomination VÉRIFIÉE ABSENTE du PDF V1.6 et « sans arôme artificiel » confirmée le 2026-08-27 ; correction CONFIRMÉE au fichier le 2026-08-28 (V1.7) et date de ce test consignée le 2026-08-28 ; devis ETIQ'LYON DE14275, structure du duo et objectif 7/09 consignés le 2026-08-28 ; V1.8 promue fichier de référence et devis non validé (erreurs) le 2026-08-31 ; terme « test de confirmation » corrigé en « test », dosage à la seringue et ordre miel-avant-étiquettes tranchés le 2026-09-02 ; mention légale DLC (pas DDM) tranchée le 2026-09-03 d'après le rapport produit du 01/09 (Drive) ; compatibilité du format 185×67 avec la bande lisse de la bouteille Firplast ouverte le 2026-09-04, règle « mesurer avant de commander » ; assemblage ARRÊTÉ le 2026-09-07 (montagne + châtaignier 25/75), dose toujours à travailler ; commande de miel déclarée passée, mesure de la bande lisse tentée sans instrument et dépendance « analyses » consignées le 2026-09-08 ; bande lisse MESURÉE à 51-52 mm et format d'étiquette porté à 210 × 50 le 2026-09-09 ; taux d'humidité de Joan (16-18 %), tableau nutritionnel corroboré par calcul, étiquettes commandées chez Printoclock et DLC non pré-imprimée le 2026-09-10 ; relecture de conformité du 09/09 et état réel de la maquette imprimée (v1.1, DDM) descendus du relais le 2026-09-10 ; v1.2 confirmée au tirage et vérifiée au Drive, eau Cristaline confirmée et article 7 explicité le 2026-09-11"
 resume: "La bouteille artisanale 33cl : principe produit, recette/dose (✅ ASSEMBLAGE ARRÊTÉ le 07/09 : montagne + châtaignier 25/75, le 40/60 écarté, le tilleul en repli — ⚠️ mais la DOSE reste à travailler, donc la recette n'est PAS figée et ne débloque encore ni le miel, ni le pH, ni les étiquettes ; les avancées intermédiaires ne se consignent pas, règle du 31/08), eau de production (Cristaline, eau de source), dénomination légale (⚠️ vérifiée ABSENTE de la V1.6 le 27/08, corrigée et confirmée au fichier le 28/08 — la V1.8 du 28/08 est le fichier de référence depuis le 31/08 ; réserve ouverte sur la revendication « eau de source »), QUID, « sans arôme artificiel » confirmée, ✅ tableau nutritionnel CORROBORÉ le 10/09 (28 kcal · 7 g glucides dont 7 g sucres · 0 le reste, pour 100 mL) : Joan a répondu — **taux d'humidité 16-18 %** — et le calcul depuis ce chiffre retombe sur les valeurs de juillet ; l'INCO art. 31.4 admet la déclaration par calcul, donc la réserve du 21/07 est LEVÉE ⚠️ mais c'est un calcul sur la dose de référence : si la dose bouge au figeage, le tableau bouge, fabricant, habillage provisoire O'Daba, format d'étiquette **210 × 50 mm** (tranché le 09/09 par la mesure ; le 185×67 est caduc). ✅ **ÉTIQUETTES REÇUES le 2026-09-16** *(déclaré par Basekou en séance)* — commandées le 09/09 chez **PRINTOCLOCK**, 240 ex en rouleau, v1.2. 🎯 **Avec le miel retiré le 13/09 et les bouteilles en main, TOUS les composants matériels du premier lot sont réunis : il ne manque plus aucune matière, il ne manque qu'une DURÉE MESURÉE.** ⚠️ **Et les 3 points de conformité non réglés ne sont plus seulement imprimés : ils sont reçus, donc définitivement non corrigeables sur ce lot.** **ETIQ'LYON écarté sur le PRIX**, bien qu'il ait envoyé un nouveau devis au bon format. ⛔ **PAS DE DLC PRÉ-IMPRIMÉE** (décision du 10/09) : une date figée à l'impression périmerait les dernières bouteilles — la mention reste obligatoire mais s'appose au conditionnement, lot par lot ; ⚠️ la durée elle-même n'est toujours pas déterminée. ⚠️ Mention de durabilité TRANCHÉE le 03/09 : DLC (pas DDM) — la maquette v1.1 portait une DDM, corrigée le 10/09 — ✅ **c'est la `v1.2` QUI PART AU TIRAGE, tranché et VÉRIFIÉ AU DRIVE le 11/09** : la DDM a disparu (« DLC et n° de lot : voir bouchon ») et la coquille « saturées » est corrigée, soit 2 des 6 points de conformité réglés ; ⚠️ les 4 autres sont imprimés, et l'envoi effectif à Printoclock reste déclaré. ✅ **EAU DE PRODUCTION = CRISTALINE, confirmé le 11/09 — c'est bien une *eau de source***, donc la moitié FACTUELLE du point « eau de source » tombe ; la moitié JURIDIQUE (une boisson transformée peut-elle reprendre ce terme dans sa dénomination ?) reste ouverte. ⚠️ RELECTURE DE CONFORMITÉ DU 09/09, 6 points descendus en fiche le 10/09 (« eau de source » réglementée et présente 2 fois, coquille « acides gras saturées », DDM, « sans arôme artificiel » vs art. 7, hauteur de x 1,2 mm, « miel de fleurs » vs miellat du châtaignier) + 1 NON-CONFORMITÉ ASSUMÉE par Basekou : dénomination légale et quantité nette hors du même champ visuel (1169/2011). Étude de durée de vie microbiologique à engager, protocole pH en attente du figeage. 🔴 **2026-09-29/30 — L'événement est parti avec UNE recette, le 100 % MONTAGNE : moins d'arrière-goût, mais trop de sensation de sucre.** 🎯 **Le tanin du châtaignier COUPAIT le sucre — les deux options ont des défauts symétriques, et l'assemblage 25/75 corrigeait les deux.** 🍯 `[en discussion]` **RÉDUIRE LA DOSE** *(rend faux le tableau des 240 étiquettes, améliore l'allégation sucre, invalide la série pH)* et 🆕 `[en discussion]` **UNE GAMME — miel + citron** *(demande répétée le 29/09 ; l'actuelle deviendrait « l'original »)*. ⚠️ **Les deux touchent l'étiquette : à trancher ENSEMBLE, avant réimpression.**"
 ---
@@ -24,6 +24,29 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 | Dose de miel | ✅ **≈ 8,7 g de miel/100 mL** (~29 g/bouteille 33 cl), **calculé le 2026-09-10** depuis le taux d'humidité de Joan — cohérent avec les ~8,5 g estimés en juillet. ⚠️ **Toujours pas PESÉE** : c'est un calcul depuis la dose au volume, pas une mesure à la balance | calculé 10/09 |
 | Méthode de production | **Dosage à la SERINGUE**, pas à la balance *(tranché le 2026-09-02 : il n'y a pas de balance, et la seringue est jugée plus fiable)*. Référence des tests : **8,13 mL de miel pour 12,5 cL d'eau**. ✅ **La conversion est FAITE depuis le 2026-09-10** : Joan donne un taux d'humidité de **16-18 %**, d'où **≈ 8,7 g de miel/100 mL** — voir le tableau nutritionnel. ✅ **Une seringue est COMMANDÉE le 23/09** *(modèle non précisé en séance)*, après signalement les 16, 18, 21 et 22/09 sans arbitrage. ⚠️ **Réserve à lever à la réception : l'outil qui dose touche le produit, donc il relève de l'aptitude au contact alimentaire (1935/2004)** — **aucun des 5 candidats du comparatif du 15/09 ne la déclarait**, ce sont des dispositifs médicaux stériles à usage unique. **Si celle-ci ne la déclare pas davantage, c'est un écart connu et assumé, pas un oubli.** | décidé 02/09, converti 10/09, seringue commandée 23/09 |
 | Miel (assemblage) | ✅ **ARRÊTÉ le 2026-09-07 : montagne + CHÂTAIGNIER, ratio 25/75** — 25 % châtaignier, 75 % montagne. Le **40/60 est écarté**. Miels du **Cueilleur de Miels**. ⚠️ **Acacia + lavande est PÉRIMÉ** (2026-08-20). **Le tilleul n'est pas abandonné** : il devient l'**option de repli** si le châtaignier montre ses limites en production ; si le châtaignier convainc, la piste sera d'**en augmenter la part**. Doses non figées (`../04_operations/fournisseurs.md`) | **assemblage figé** *(la dose ne l'est pas)* |
+
+## 🍯 2026-10-02 — STOCK CORRIGÉ, et il y a un QUATRIÈME miel que personne ne comptait
+
+**Déclaré par Basekou le 02/10** *(« je ne peux pas peser les pots » — donc toujours DÉCLARÉ, jamais pesé)* :
+
+| Miel | Stock déclaré au 02/10 | Ce que portait le dépôt |
+|---|---|---|
+| **Montagne** | ≈ **3 kg** *(« on a bien entamé le seau »)* | ≈ 4,1 kg |
+| **Tilleul** | 🆕 **≈ 2 kg** | **ABSENT DE TOUT COMPTAGE** |
+| **Châtaignier** | ≈ **1,7 kg** | ≈ 2 kg |
+| **Acacia** | ≈ **500 g** | ≈ 210 g |
+
+🆕 **LE TILLEUL N'ÉTAIT COMPTÉ NULLE PART.** 📌 **Il n'est pourtant pas inconnu du dossier : c'est la « porte de sortie » posée le 07/09, le miel de caractère mis en regard si le châtaignier atteint ses limites.** ➡️ **Il est en stock, en quantité comparable au châtaignier, et aucun test n'en porte trace.**
+
+✅ **ET LE GOULOT ACACIA SE DESSERRE NETTEMENT — la ligne écrite le 30/09 et reprise depuis était trop pessimiste.** Elle partait de ≈ 210 g, soit ≈ 7 bouteilles. ➡️ **Avec ≈ 500 g déclarés, on est plutôt autour de ≈ 17 bouteilles.** ⛔ **Le goulot n'est donc PAS le sujet qu'il paraissait être** — et il ne l'était déjà plus depuis que les bouteilles de dégustation sont réutilisées *(voir `../04_operations/production-artisanale.md`)*.
+
+⚠️ **Mais l'écart entre le déclaré du 28/09 et celui du 02/10 va dans les DEUX sens** *(l'acacia monte, le montagne descend)*, **ce qui n'est pas un simple effet de consommation.** 📌 **C'est la quatrième fois qu'un stock déclaré de mémoire sert de base à un calcul. Une pesée reste le seul moyen de fermer le sujet.**
+
+### ⚖️ Les doses réellement pratiquées, déclarées le 02/10
+
+- **Assemblage 25/75** : *« la recette classique, celle qu'on a notée »* ⇒ la dose de référence.
+- **Acacia** : **20 mL** *(« ou 15, parce que je ne me souviens plus combien j'ai mis chez O'Daba, mais il me semble que c'est 20 »)*.
+- 🆕 `[idée]` **Basekou envisage de descendre à 15 mL** : *« si on peut passer à 15, on essaiera de passer à 15, mais il faudra que j'essaye. »* ⚠️ **À 15 mL le QUID imprimé devient faux** *(≈ 6,4 % contre 8 %)* — **donc ce test ne peut pas partir chez un client sous l'étiquette actuelle.**
 
 ## 🍯 État du stock de miel au 2026-09-28, et ce qu'il contraint vraiment
 
@@ -67,7 +90,20 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 - ✅ **Elle AMÉLIORE l'allégation sucre**, aujourd'hui tenue de justesse *(≈ 33 % contre un seuil légal de 30 %)*.
 - 🔬 **Elle INVALIDE la série pH**, menée à la dose actuelle — quatorze jours d'observation ne portent que sur la recette observée.
 
-### 🔴 2026-10-01 — LA DOSE N'EST PAS SEULEMENT RÉDUITE : ELLE N'EST PAS CONNUE. Et elle est déjà partie chez deux clients.
+### ✅ 2026-10-02 — PRÉCISION DE BASEKOU : « je pense que c'était 20 mL ». L'alerte de la veille tombe en grande partie.
+
+*« Je pense que c'était 20 mL, mais ça n'a pas d'importance. »*
+
+➡️ **La fourchette « 20 mL voire 15 mL » se resserre sur sa BORNE HAUTE.** ✅ **Et à 20 mL, les trois décrochages signalés le 01/10 ne se produisent PAS :**
+- 🏷️ **Le QUID réel est ≈ 8,3 % contre 8 % imprimé ⇒ l'étiquette N'EST PAS surdéclarée.** ⛔ **Le point le plus lourd de l'alerte — un produit déjà vendu dont l'étiquette annonce plus de miel qu'il n'y en a — TOMBE.**
+- 📊 **Le tableau nutritionnel de la v1.2 tient** pour ce lot.
+- 🔬 **La série pH couvre le lot** : les 14 jours ont été observés à une dose voisine.
+
+📌 **Ce qui reste vrai, et qui n'est plus une alerte mais une simple tâche** : **la valeur est DÉCLARÉE, pas mesurée** *(« je pense »)*. ➡️ **Et elle ne sert plus la conformité — elle sert le CALCUL DU COÛT, que Basekou a lui-même posé le 02/10 (« faut faire le calcul »).** **Le coût par bouteille se calcule sur la dose : sans elle, les items 11 et 16 du backlog restent bloqués.**
+
+⚠️ **La section ci-dessous est conservée telle qu'elle a été écrite le 01/10, parce qu'elle était juste à ce moment-là et que le raisonnement sert si la dose rebouge. Son titre et ses conclusions sont corrigés par ce qui précède.**
+
+### ⚠️ *(écrit le 2026-10-01, CORRIGÉ le 02/10 par la précision ci-dessus)* — LA DOSE N'EST PAS SEULEMENT RÉDUITE : ELLE N'EST PAS CONNUE. Et elle est déjà partie chez deux clients.
 
 **Déclaré par Basekou le 01/10, pour les 10 bouteilles livrées à O'Daba le 30/09** : *« j'ai envoyé 20 mL voire 15 mL d'acacia dans les bouteilles. »*
 
@@ -107,6 +143,43 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 ⚠️ **Ce que « le plus tôt possible » heurte, et qu'il faut poser sans trancher** : **une gamme suppose une deuxième étiquette, donc une IMPRESSION** — or **la réduction de dose, elle, ne se décide qu'avant une réimpression.** ➡️ **Les deux calendriers se croisent : la gamme ACCÉLÈRE la réimpression que la dose ATTEND.** 🎯 **C'est le seul point qui rend l'arbitrage urgent plutôt que confortable.**
 
 🔴 **LES DEUX SUJETS — la dose et la gamme — TOUCHENT L'ÉTIQUETTE.** ➡️ **Ils se tranchent ENSEMBLE, et avant toute réimpression.** **Les ≈ 200 étiquettes restantes sont le compte à rebours.**
+
+### 🔴 2026-10-01/02 — CINQUIÈME ET SIXIÈME SIGNAUX SUR LA SAVEUR, et ils ne viennent plus du même monde
+
+**Le compte, parce qu'il est devenu le fait principal du produit :**
+
+| # | Quand | Qui | Ce qui est dit |
+|---|---|---|---|
+| 1 | 24/07 | O'Daba | **2 décideurs sur 3 n'aiment pas le miel de base** |
+| 2 | 29/09 | La salle de H7 | *« c'est sucré et c'est tout »*, *« ça prend trop de place »* |
+| 3 | 30/09 | L'acheteur O'Daba | *(rejet de l'assemblage au châtaignier)* |
+| 4 | 30/09 | Baca Bamba | *« ça manque de profondeur »* |
+| 5 | 01/10 | Visio — **unanime** | *« tout le monde m'a fait ce retour, on veut des saveurs »* |
+| 6 | 02/10 | **Sisters Bakery** | **la question du SUCRE**, au nom de **sa clientèle** |
+
+🎯 **CE QUE LE SIXIÈME AJOUTE AUX CINQ AUTRES : c'est le premier qui vienne d'un professionnel rapportant SA CLIENTÈLE, et non son propre palais.** ➡️ **Les cinq premiers pouvaient se lire comme des goûts individuels. Le sixième ne le peut pas.**
+
+🎯 **ET LE SIGNAL TRAVERSE DEUX RÉFÉRENTIELS OPPOSÉS** — un restaurant ouest-africain **et** une boutique de naturopathie *(`../03_marche/canal-restaurant.md`)*. **Il ne peut donc pas être mis au compte d'un canal.**
+
+**Saveurs citées, par qui :** citron · gingembre · hibiscus · piment *(visio du 01/10)* — **et par Baca Bamba, mot pour mot : MENTHE, PIMENT, HIBISCUS**, plus un intérêt pour le gingembre et le citron. 🆕 **LA MENTHE EST NOUVELLE — elle ne figurait dans aucune liste antérieure.** **La naturopathe, elle, propose le gingembre.** Et une remarque revient : *« tu es africain, il n'y a pas d'épices dans ta boisson ? »*
+
+🎯 **MAIS LE CONSEIL PRINCIPAL DE BACA BAMBA N'EST PAS UNE SAVEUR, C'EST « AJOUTE UNE SAVEUR »** ⇒ **l'arbitrage porte d'abord sur le PRINCIPE. Le choix de laquelle vient après, et il ne se tranche pas en même temps.**
+
+#### 📌 Ce que ces signaux disent du sucre, et c'est une lecture neuve
+
+`[idée]` **Formulée par Basekou le 02/10** : **le problème n'est pas la QUANTITÉ de sucre, c'est le GOÛT du sucre.** ➡️ **Le citron ne réduirait pas le sucre — il empêcherait le sucré d'être le SEUL goût.**
+
+✅ **Et ça réconcilie deux choses qui semblaient s'opposer** : **le sucre est envahissant parce qu'il est seul, et insuffisant parce qu'il n'y a que lui** *(« c'est trop sucré » et « c'est fade » viennent des mêmes dégustations)*. **Baisser la dose ET ajouter une note ne s'opposent donc pas : elles se complètent.**
+
+#### 🔴 Ce qu'une saveur coûte réellement — et une chose qu'elle rapporte en plus du goût
+
+- 🏷️ **Un citron ajoute un INGRÉDIENT** : la liste d'ingrédients et le QUID changent ⇒ **c'est une deuxième étiquette**, donc **un deuxième suffixe de lot**.
+- 🔬 **Il change le pH** — et c'est là que ça dépasse le goût : 🆕 **le GBPH jus de fruits, que la DDPP vient de désigner le 01/10, identifie l'ACIDIFICATION comme l'une des TROIS voies de maîtrise d'un produit non acide** *(`../04_operations/production-artisanale.md`)*. **Les deux autres sont chauffer — exclu par la marque — et tenir une DLC courte validée, où Basekou se trouve aujourd'hui par défaut.** ➡️ **Le citron n'est donc pas qu'un goût : c'est une piste de CONSERVATION reconnue par le référentiel applicable.**
+- ⏱️ **Une réimpression est déjà nécessaire** *(renvoi « voir bouchon » faux, QUID à corriger)*, **≈ 200 étiquettes restantes.** ⛔ **Décider la dose puis la saveur, c'est DEUX réimpressions.**
+
+🆕 `[idée]` **ET L'ORDRE DE LANCEMENT EST REMIS EN CAUSE** *(visio du 01/10, à confirmer)* : **sortir d'abord une version AVEC saveur et mettre l'originale derrière** — *« un Coca Cherry avant le Coca original »*. ⚠️ **L'objection de Basekou tient toujours, et elle est de fond** : *« la boisson OG, c'est l'eau miellée ; si je trafique avec d'autres trucs, ça perd le côté deux ingrédients. »*
+
+📌 **CINQ PISTES VALENT ZÉRO PRODUIT. Une seule saveur est à choisir.** ⚠️ **Et si une recette change, LA SÉRIE pH EST À REFAIRE — ce n'est pas implicite, c'est écrit ici.** ⛔ **Rien n'est tranché : ni le principe, ni la saveur, ni l'ordre.**
 
 ### ✅ Ce que l'étiquette autorise — vérifié le 25/09, et c'est l'inverse de ce qu'on pouvait craindre
 

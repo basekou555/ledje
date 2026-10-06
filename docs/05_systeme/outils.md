@@ -1,7 +1,7 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-09-30
+maj: 2026-10-02
 source: "SOT Partie 8 + §8.1 (archive 2026-07-24) + outillage conseil 2026-07-21 (page relais) ; générateur de prompts visuels rendu visible le 2026-08-20 (il n'était référencé que par CLAUDE.md)"
 resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo. 🆕 `[idée]` **Agent Reach** (MIT) : couche de LECTURE des réseaux sociaux pour agents — ⛔ ne prospecte pas, ne contacte personne. 🎯 L'accès internet générique est DÉJÀ couvert ; le vrai trou est la lecture du contenu social (TikTok, Instagram, X, Reddit, sous-titres YouTube), non couverte à ce jour. ⚠️ Deux réserves : les canaux sociaux passent par les COOKIES de Basekou (comptes récents = les plus faciles à suspendre), et l'installation documentée fait exécuter à un agent un fichier distant. Rien n'est installé."
 ---
@@ -44,6 +44,29 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 2. ⚠️ **La méthode d'installation documentée consiste à donner une URL à un agent et à le laisser suivre les instructions qu'il y trouve.** ➡️ **Un agent télécharge un fichier distant et exécute son contenu — dans une session qui a accès au dépôt, à Supabase et à Vercel.** 📌 **Ce n'est pas une accusation : c'est une propriété de l'outil, et elle se connaît AVANT.** ✅ **Le code est MIT et auditable ; l'installation peut se faire en lisant le script d'abord.**
 
 ⚠️ **Popularité non vérifiée** : l'API GitHub répond **403** depuis les sessions de ce projet. Les chiffres affichés sur la page rendue ne sont pas recopiés ici faute de confirmation. **Ne pas argumenter « c'est très populaire » sur cette base.**
+
+### 🔴 2026-10-02 — TESTÉ : l'outil ne lèverait PAS le blocage, parce que le blocage n'est pas là où on croyait
+
+**Occasion concrète : le 02/10, la session a voulu vérifier l'existence des deux profils de la marque avant de poser les liens sur le site. `instagram.com` et `tiktok.com` ont été REFUSÉS.** ➡️ **Exactement le trou décrit le 30/09 — il a cessé d'être une hypothèse.**
+
+✅ **MAIS LE TEST DE LA CAUSE DONNE L'INVERSE DE LA CONCLUSION ATTENDUE.** **Le refus vient de la POLITIQUE RÉSEAU de l'environnement cloud, qui fonctionne en LISTE BLANCHE** *(vérifié hôte par hôte)* :
+
+| Hôte | Résultat |
+|---|---|
+| `raw.githubusercontent.com` | ✅ passe |
+| **`r.jina.ai`** *(le lecteur de pages d'Agent Reach)* | ⛔ **refusé** |
+| **`api.exa.ai`** *(sa recherche sémantique)* | ⛔ **refusé** |
+| `instagram.com`, `tiktok.com` | ⛔ refusés |
+
+*(Le journal du proxy montre aussi `google.com` et `supabase.co` refusés en 403 sur le CONNECT.)*
+
+⛔ **CONCLUSION, ET ELLE FERME LA QUESTION POUR CET ENVIRONNEMENT : Agent Reach installé ICI ne servirait à rien.** **Chacun de ses canaux — direct, lecteur de pages, recherche — a besoin d'une connexion sortante que la passerelle refuse.** ➡️ **C'est une couche de ROUTAGE, pas un tunnel : il ne peut pas ouvrir un port que le réseau ferme.**
+
+📌 **ET UNE RAISON DE FOND VA DANS LE MÊME SENS : ses canaux Instagram, TikTok et X fonctionnent avec les COOKIES DU NAVIGATEUR DE BASEKOU.** **Ils n'ont jamais été conçus pour tourner sur un serveur où personne n'est connecté.** 🎯 **La place de cet outil est la MACHINE DE BASEKOU, pas ce conteneur.**
+
+✅ **Les deux chemins réels, s'il reste voulu :** ① **élargir l'accès réseau de l'environnement cloud** *(réglage de l'environnement, côté Basekou — il faut alors y ajouter les domaines voulus)* ; ② **l'installer en local**, là où les sessions de navigateur existent — **le seul des deux qui donne accès aux canaux à cookies.**
+
+⚠️ **Les deux réserves du 30/09 tiennent dans les deux cas** : les comptes de la marque sont récents et les plus faciles à suspendre, et l'installation documentée fait exécuter à un agent un fichier distant.
 
 ⛔ **RIEN N'EST INSTALLÉ, RIEN N'EST DÉCIDÉ.** **Ce qui manque pour trancher : ce qu'on veut LIRE exactement, et sur quelle fiche ça débouche.**
 
