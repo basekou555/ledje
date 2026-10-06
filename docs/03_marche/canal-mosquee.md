@@ -3,7 +3,7 @@ statut: en_cours
 domaine: marche
 maj: 2026-10-06
 source: "SOT §1.4bis pt 3 (archive 2026-07-24) — bascule C2B2C 2026-07-21, volet com 2026-07-24 (page relais + arbitrage Basekou)"
-resume: "Canal mosquée basculé en C2B2C (don sponsorisé : un fidèle offre un lot à sa mosquée) ; barème sans négociation ; volet com après étiquette + branding."
+resume: "Canal basculé en C2B2C le 21/07 (don sponsorisé : un fidèle offre un lot à sa mosquée) ; barème sans négociation ; volet com après étiquette + branding. 🆕 **LE CANAL SE RÉVEILLE LE 02/10, EN SOMMEIL DEPUIS LE 03/08, ET PAR UN AUTRE MODÈLE** : une cliente acheteuse d'O'Daba est responsable com d'une mosquée et demande une **BOUTEILLE PERSONNALISÉE en PRESTATION PAYÉE à 1 €** — ici la mosquée est le CLIENT, pas le bénéficiaire d'un don. ⚠️ **Correction du 06/10 : le cadre religieux a été posé par Basekou, pas reconnu spontanément** — la demande naît APRÈS l'argument, ce qui met la règle « Lédjé ne prêche pas » sous tension dès l'oral. ⛔ Rien n'est tranché : ni le modèle, ni le support, ni le prix. Question de marque à trancher avant toute affiche : **un support en mosquée doit dire LE PRODUIT, pas LA VERTU**. Point matériel : une bouteille personnalisée = une étiquette de plus par client."
 ---
 
 # Canal — Mosquée
@@ -22,7 +22,11 @@ resume: "Canal mosquée basculé en C2B2C (don sponsorisé : un fidèle offre un
 
 ### ⚠️ La question de marque, posée une fois et à trancher AVANT toute affiche
 
-✅ **Le canal est légitime, et il l'est d'une façon qu'on n'avait pas prévue : la demande vient des clientèles, pas de Lédjé.** ➡️ **Personne n'est allé chercher le religieux comme argument ; il a été reconnu spontanément.**
+✅ **Le canal est légitime, et il l'est d'une façon qu'on n'avait pas prévue : la DEMANDE DE BOUTEILLE PERSONNALISÉE vient de la cliente, pas de Lédjé.** **Ça, elle l'a formulé elle-même, et ça tient.**
+
+🔴 **MAIS LE CADRE RELIGIEUX, LUI, A ÉTÉ POSÉ PAR LÉDJÉ — corrigé par Basekou le 06/10.** **La première écriture de cette section disait « personne n'est allé chercher le religieux comme argument ; il a été reconnu spontanément ».** ⛔ **C'est faux : c'est BASEKOU qui a dit aux clientes que c'était une sunna.** ➡️ **Donc la demande mosquée naît APRÈS que l'argument religieux a été avancé par le vendeur, pas avant.**
+
+🎯 **ET ÇA RETOURNE LE SENS DE LA QUESTION DE MARQUE CI-DESSOUS, au lieu de l'adoucir : si le canal mosquée s'ouvre parce qu'on a prononcé l'argument religieux, alors la règle « Lédjé ne prêche pas » est déjà sous tension à L'ORAL, avant toute affiche.** ⚠️ **Posé une fois, non tranché, et à ne pas rejouer : la contradiction assumée du 30/09 couvre déjà l'écart entre ce que le dépôt interdit d'écrire et ce que Basekou choisit de dire de vive voix.**
 
 ⛔ **MAIS UN SUPPORT EN MOSQUÉE DOIT DIRE LE PRODUIT, PAS LA VERTU.** **Une affiche qui ferait de la recommandation religieuse son argument franchirait le principe tenu depuis le début** *(`../01_adn/identite-verbale.md` : « Lédjé ne prêche pas », et le registre communautaire est réservé aux contenus internes, jamais à la façade)*. 📌 **Et c'est aussi par là que passerait une promesse de santé** *(`../01_adn/conformite.md`)*.
 

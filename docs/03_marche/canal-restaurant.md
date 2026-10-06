@@ -3,7 +3,7 @@ statut: en_cours
 domaine: marche
 maj: 2026-10-06
 source: "SOT §1.4bis (archive 2026-07-24) — accord 2026-07-18 ; intel MMD 2026-07-24, corrigée en session 2026-07-26"
-resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV). ✅ **27/09 : la dégustation débouche sur la PREMIÈRE COMMANDE — 10 bouteilles d'acacia, produites le 30/09 en ≈ 50 min, livraison prévue le jour même.** 🔴 **Elles inaugurent un scénario jamais testé : sortir du froid puis y RETOURNER.** ✅ **CINQ RDV posés (30/09 → 08/10) : le blocage du premier tour était le RÉPONDEUR, pas le refus.** ⚠️ Cinq dégustations à fournir, aucune production prévue ; Le Goût de Ça porte trois noms de gérant ; 🆕 Doriane (food truck, via Jules) — 1ʳᵉ recommandation entrante."
+resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV). ✅ **27/09 : la dégustation débouche sur la PREMIÈRE COMMANDE — 10 bouteilles d'acacia, produites le 30/09 en ≈ 50 min, livraison prévue le jour même.** 🔴 **Elles inaugurent un scénario jamais testé : sortir du froid puis y RETOURNER** — ✅ **premier point d'observation obtenu le 06/10 sur les bouteilles reprises chez Sisters : à ≈ J+4, aucune dérive de goût ni d'odeur, mais observation ORGANOLEPTIQUE seule.** ✅ **CINQ RDV posés (30/09 → 08/10) : le blocage du premier tour était le RÉPONDEUR, pas le refus.** ⚠️ Cinq dégustations à fournir, aucune production prévue ; Le Goût de Ça porte trois noms de gérant ; 🆕 Doriane (food truck, via Jules) — 1ʳᵉ recommandation entrante. 🎯🎯 **02/10 : PREMIÈRES VENTES AU CONSOMMATEUR chez O'Daba — 5/10 à 3,50 €, ≈ 2/jour, quatre clientes acheteuses interrogées. LE SUCRE NE LES GÊNE PAS ⇒ le signal sucre n'est pas universel.** ⚠️ **CORRECTION DU 06/10 : la sunna a été dite PAR BASEKOU, pas reconnue d'elles-mêmes** — le contre-signal « rester proche de la sunna » est POST-PITCH et descend d'un niveau ; la question « saveur : pour quel canal » reste une hypothèse à tester. 🆕 **Objection de FORMAT inédite : le 33 cl jugé trop grand, un SHOT de ≈ 25 mL imaginé.** 🔴 **06/10 : O'Daba toujours pas appelé (contact en déplacement) — au rythme constaté les 5 dernières bouteilles sont écoulées, et la fenêtre d'observation du réachat se ferme.**
 ---
 
 # Canal — Restaurant (TEST)
@@ -103,13 +103,17 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 - **Choix par CURIOSITÉ + PACKAGING** : *« c'est l'étiquette qui leur a plu »* ⇒ **deuxième confirmation le même jour que l'étiquette fonctionne** *(après Sisters Bakery)*.
 - **Goût** : *« c'est bon, c'est du miel »*. **Les défauts cités portent sur la FORME, pas sur le goût.**
 - 🎯 **LE SUCRE NE GÊNE PAS.** **La question a été posée, et à aucun moment le produit n'a été trouvé trop sucré.** ⇒ 🔴 **LE SIGNAL SUCRE N'EST DONC PAS UNIVERSEL : IL DÉPEND DU PUBLIC.**
-- 🎯🎯 **ELLES ONT IMMÉDIATEMENT IDENTIFIÉ LA SUNNA**, et c'est pour ça qu'aucune n'a dit *« il manque quelque chose »*. **Le produit est apprécié notamment pour son lien avec leur religion.**
+- 🔴 **LA SUNNA — C'EST BASEKOU QUI LE LEUR A DIT.** *(Corrigé par lui le 06/10, le jour même où ce débrief descendait au dépôt. La première écriture disait « elles ont immédiatement identifié la sunna » — c'est faux.)* ⛔ **Elles ne l'ont PAS reconnue d'elles-mêmes : l'information vient du vendeur, qui s'était déjà présenté comme le créateur.** ✅ **CE QUI RESTE VRAI : une fois le lien posé, il a été bien reçu, et aucune n'a dit *« il manque quelque chose »*.** ⛔ **CE QUI TOMBE : la lecture « le marché reconnaît la sunna tout seul ». Ce n'est pas un signal du marché — c'est l'ACCUEIL fait à un argument de vente.**
 
 #### 🔴 LE CONTRE-SIGNAL, et il change la nature de l'arbitrage saveurs
 
 **Elles sont emballées par l'idée d'une gamme — mais elles veulent RESTER LE PLUS PROCHE POSSIBLE DE LA SUNNA.**
 
-⇒ 🎯 **LE PUBLIC QUI PAIE DEMANDE LA RETENUE, là où six signaux professionnels demandaient une saveur.** ➡️ **L'arbitrage cesse d'être « saveur : oui ou non ». Il devient : POUR QUEL CANAL.** 📌 **Les six signaux viennent tous de PROFESSIONNELS qui jugent pour leur clientèle ; celui-ci vient de CONSOMMATRICES qui ont payé.** ⛔ **Rien n'est tranché — mais la question n'est plus la même.**
+🔴 **CE SIGNAL EST POST-PITCH, ET IL EST INDUIT — corrigé par Basekou le 06/10.** **C'est LUI qui leur a dit que c'était une sunna** ; elles répondent donc sur un cadre qu'il a posé, après s'être présenté comme le créateur. ⚠️ **Le dépôt a déjà tranché une fois ce que vaut une donnée post-pitch : l'hypothèse H3 a été basculée en test de comportement PRÉ-pitch exactement pour ce motif** *(`mom-test.md`)*. ➡️ **Ce contre-signal DESCEND donc d'un niveau : il n'équilibre pas les six signaux professionnels, il les NUANCE.**
+
+✅ **CE QUI TIENT MALGRÉ LA CORRECTION, et ce n'est pas rien** : **le sucre ne les a pas gênées** — ça, la question a été posée en ouvert et la réponse ne venait d'aucun cadre fourni. ➡️ **Le signal sucre reste non universel.** ⚠️ **En revanche la retenue demandée par rapport à la sunna n'est plus utilisable comme preuve de marché.**
+
+⇒ 🎯 **LA QUESTION « POUR QUEL CANAL » RESTE POSÉE — mais elle redevient une HYPOTHÈSE à tester, pas un constat.** 📌 **Ce qu'il faudrait pour la trancher : poser la question de la gamme à des consommateurs à QUI PERSONNE N'A PARLÉ DE SUNNA, et sans dire qu'on est le créateur.** ⛔ **Rien n'est tranché.**
 
 #### 🆕 Une objection de FORMAT, inédite et venue de l'extérieur
 
@@ -328,6 +332,30 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 | **Sisters Bakery** | ⚠️ **NON RÉPONDU** : aucune nouvelle depuis le dépôt du flyer le 02/10 — *(normal à cette échéance, consigné pour mémoire)*. |
 
 📌 **Ce que ce tableau montre d'un coup d'œil, et qu'aucune ligne ne montrait seule : SIX pistes sont ouvertes et CINQ attendent un geste de Basekou, pas une réponse du client.**
+
+### 📦 2026-10-06 — LE GOÛT DE ÇA : AUCUNE PRODUCTION, LES BOUTEILLES DE SISTERS SONT RÉUTILISÉES — ET ELLES RÉPONDENT À UNE QUESTION OUVERTE DEPUIS LE 29/09
+
+*(Déclaré par Basekou le 06/10 au matin, pour un rendez-vous à 15h le même jour.)*
+
+✅ **Le dépôt l'avait anticipé le 02/10** *(parc de bouteilles de dégustation, `../04_operations/production-artisanale.md`)* **: ce sont bien les DEUX BOUTEILLES REPRISES CHEZ SISTERS BAKERY qui partent chez Le Goût de Ça.** ➡️ **Aucune production n'a eu lieu aujourd'hui, et aucune dose n'a donc été mesurée.**
+
+✅ **LA QUESTION LAISSÉE OUVERTE LE 02/10 EST TRANCHÉE DANS LES FAITS** — elle était écrite ainsi : *« on ne sait pas si elles peuvent servir au rendez-vous suivant »*. **Réponse de Basekou : oui, et voici sur quoi il s'appuie :**
+
+> *« Elles sont restées au frigo, je viens de goûter les bouteilles. C'est le même goût, il n'y a pas de petit bizarre. Il n'y a pas d'odeur. »*
+
+🎯🎯 **ET C'EST LE PREMIER POINT D'OBSERVATION JAMAIS OBTENU SUR LE SCÉNARIO « SORTIR DU FROID PUIS Y RETOURNER »** — le trou de protocole signalé le 29/09 et répété depuis. **Ces deux bouteilles ont fait exactement cet aller-retour : production au froid, trajet jusqu'à Sisters le 02/10, retour, frigo.** ✅ **Verdict à J+4 environ : aucune dérive perçue.** ⚠️ **C'est une observation ORGANOLEPTIQUE, pas une mesure** — ni pH, ni a_w, et le dépôt tient déjà que le produit n'est pas protégé par son acidité. ➡️ **Ça ne remplit pas le trou ; ça y met le premier point, et il est favorable.**
+
+🔴 **CE QUI MANQUE ENCORE, ET C'EST LE CINQUIÈME JOUR CONSÉCUTIF : LA DATE DE PRODUCTION DE CES BOUTEILLES N'EST TOUJOURS PAS DONNÉE.** 📌 **Et la DLC, elle, est TAMPONNÉE SUR L'ÉTIQUETTE** *(décision du 03/09 : DLC + lot AAMMJJ au tampon)*. ➡️ **Il n'y a donc rien à reconstituer : il suffit de LA LIRE sur la bouteille.** ⚠️ **Aujourd'hui la décision de les réutiliser s'est prise au goût, pas sur la date qui est écrite dessus.** ⛔ **Ce n'est pas une remise de denrée vendue — ces bouteilles restent dans la main de Basekou et servent à faire goûter** *(distinction tenue depuis le 02/10)* — **mais c'est quand même un produit qu'une tierce personne va boire.**
+
+⚠️ **Un point à vérifier et non vérifié : goûter suppose d'OUVRIR. Si les deux bouteilles ont été ouvertes ce matin, ce sont deux bouteilles ouvertes qui seront présentées à 15h.** ➡️ **C'est cohérent avec la pratique déclarée** *(les bouteilles de dégustation sont des bouteilles ouvertes, non commercialisables)* — **et ça donne sa PREMIÈRE OCCURRENCE CONCRÈTE au trou du PMS repéré le 02/10 : aucun des 7 volets ne couvre un contenant réutilisé ou réouvert.** ⛔ **Rien n'est décidé : ajouter cette ligne au PMS appartient à Basekou.**
+
+### 🍽️ 2026-10-06 — O'DABA : TOUJOURS PAS APPELÉ, ET LA FENÊTRE D'OBSERVATION DU RÉACHAT EST EN TRAIN DE SE FERMER
+
+🔴 **Non appelé. Motif donné : le contact de Basekou chez O'Daba est EN DÉPLACEMENT.** **Trois options énoncées, aucune arrêtée : passer sur place ce soir, passer demain, ou appeler le restaurant au lieu du contact.**
+
+🎯 **CE QUE LE CALCUL DIT, ET C'EST LE POINT UTILE : au 02/10 au soir il restait 5 bouteilles, au rythme de ≈ 2 par jour.** ➡️ **À ce rythme, elles sont écoulées depuis le 04 ou le 05/10.** ⛔ **Donc le premier client est probablement À SEC, sans réassort demandé, et personne ne le sait.** 📌 **Le réachat d'un restaurateur est l'indicateur du canal depuis le 18/07 — il ne s'observe que dans les jours qui suivent la rupture, et ces jours sont maintenant.**
+
+⚠️ **Nombre de bouteilles restantes : NON RÉPONDU.** **Sixième jour sans suivi depuis la livraison du 30/09.**
 
 ## Leçons du marché
 

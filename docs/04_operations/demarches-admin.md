@@ -62,6 +62,8 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **LA DDPP 6
 
 ⛔ **RIEN N'EST TRANCHÉ ICI, et surtout rien n'est à corriger d'office** : une demande de changement de code APE est une démarche en soi, et personne n'a établi qu'elle est nécessaire. **Ce qui est consigné, c'est l'écart et les deux points à vérifier.**
 
+📬 **2026-10-06 — UN MESSAGE URSSAF DU 03/10 N'EST PAS OUVERT, ET C'EST L'UN DES DEUX ENDROITS OÙ LE CODE APE PRODUIT DES EFFETS RÉELS.** **Réponse de Basekou : *« j'ai pas encore vu le contenu »*.** ➡️ **Il peut donc contenir précisément la réponse au point ① ci-dessus — le TAUX DE COTISATION — et ça reste inconnu au quatrième jour.** ⚠️ **Report consigné, pas une alerte : rien ne dit que ce message porte sur l'APE, et l'épisode URSSAF T2 de septembre a montré qu'un mail URSSAF peut aussi être une invitation à un webinaire.** ⛔ **Et le rattachement de ce statut à Lédjé n'est toujours pas établi — aucune donnée de ce statut n'entre au dépôt.**
+
 ## 🔴 RÉPONSE DE LA DDPP 69 — 2026-10-01, courrier départ 2026-8172 (Marie-Claire Monin)
 
 **Les trois questions posées le 08/09 sont répondues.** *(Réponse reçue le 01/10, consignée au dépôt le 02/10 — elle n'existait jusque-là qu'en Notion.)*
@@ -91,6 +93,8 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **LA DDPP 6
 - ✅ **Destinataires : commerces de détail et consommateurs finaux.** **Un restaurant en relève** — ce n'est donc pas là que ça bloque.
 - 🔴 **Quantités « marginales et restreintes », seuils renvoyés à l'arrêté du 8 juin 2006, annexe III.** ⛔ **AUCUN SEUIL N'EST IDENTIFIABLE POUR CE PRODUIT : vérification faite le 01/10, aucune mention du miel ni d'une boisson au miel ne figure à l'annexe III.** 📌 **C'est une absence CONSTATÉE, pas une recherche inaboutie.**
 - 🔴 **L'expédition hors région sort de la dérogation.** ➡️ **L'idée du 25/09 d'envoyer des doses dans toute la France est fermée par ce texte** *(sauf à passer à l'agrément)*.
+
+🔴 **ÉTAT AU 2026-10-06 — CINQUIÈME JOUR : LE 13982 N'EST TOUJOURS PAS DÉPOSÉ, ET LE SUJET N'A PAS ÉTÉ RÉPONDU EN SÉANCE.** *(Posé le 06/10, sans réponse — consigné comme non-réponse, parce qu'une non-réponse est une information.)* ⚠️ **Pendant ces cinq jours, le produit a continué de circuler : deux bouteilles partent chez Le Goût de Ça le 06/10 à 15h, cinq restent chez Baca Bamba, et O'Daba a reçu dix bouteilles VENDUES.** 📌 **La réserve de Basekou sur le dépôt — *« on risque d'être trop visible là où il n'y a pas lieu d'être »* — reste consignée telle quelle ci-dessous et n'est pas rejouée ici.**
 
 🎯 **ET LES DEUX LECTURES DE L'ABSENCE DE SEUIL MÈNENT À LA MÊME ACTION, ce qui rend l'arbitrage simple** : que l'absence signifie « pas de plafond opposable » ou « produit non prévu par le texte », **déposer le 13982 ne coûte rien et couvre ; ne pas le déposer expose.** 📌 **La question à poser à Mᵐᵉ Monin n'est donc pas « quel est mon seuil » mais « mon produit n'a aucune ligne à l'annexe III ».**
 
