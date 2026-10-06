@@ -1,12 +1,35 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-07-31
+maj: 2026-10-06
 source: "SOT §1.4bis pt 3 (archive 2026-07-24) — bascule C2B2C 2026-07-21, volet com 2026-07-24 (page relais + arbitrage Basekou)"
 resume: "Canal mosquée basculé en C2B2C (don sponsorisé : un fidèle offre un lot à sa mosquée) ; barème sans négociation ; volet com après étiquette + branding."
 ---
 
 # Canal — Mosquée
+
+## 🆕 2026-10-02 — LE CANAL SE RÉVEILLE, ET IL VIENT DE LA DEMANDE, PAS DE NOUS
+
+*(Relevé sur la page ÉTAT au 02/10, descendu au dépôt le 06/10. Le canal était en sommeil depuis le 03/08, « en attente volontaire, le restaurant passe d'abord ».)*
+
+**Parmi les quatre clientes acheteuses interrogées chez O'Daba, l'une est RESPONSABLE COMMUNICATION D'UNE MOSQUÉE** *(mosquée non nommée, contact non recueilli)*.
+
+🎯 **CE QU'ELLE DEMANDE, ET CE N'EST PAS UN DON : une BOUTEILLE PERSONNALISÉE au nom de la mosquée, pour leurs événements, en PRESTATION PAYÉE, à 1 € la bouteille.** ➡️ **C'est un modèle différent de celui arrêté le 21/07** *(C2B2C, don sponsorisé : un fidèle offre un lot à sa mosquée)*. **Ici la mosquée est le CLIENT, et elle achète un produit à son nom.**
+
+**Le groupe conseille aussi de communiquer sur l'HISTOIRE du produit auprès des mosquées** — certaines ont des épiceries, des restaurants, des repas.
+
+`[idée]` **Piste de Basekou** : affiches en mosquée, livraison sur place, prix public ≈ 2 €.
+
+### ⚠️ La question de marque, posée une fois et à trancher AVANT toute affiche
+
+✅ **Le canal est légitime, et il l'est d'une façon qu'on n'avait pas prévue : la demande vient des clientèles, pas de Lédjé.** ➡️ **Personne n'est allé chercher le religieux comme argument ; il a été reconnu spontanément.**
+
+⛔ **MAIS UN SUPPORT EN MOSQUÉE DOIT DIRE LE PRODUIT, PAS LA VERTU.** **Une affiche qui ferait de la recommandation religieuse son argument franchirait le principe tenu depuis le début** *(`../01_adn/identite-verbale.md` : « Lédjé ne prêche pas », et le registre communautaire est réservé aux contenus internes, jamais à la façade)*. 📌 **Et c'est aussi par là que passerait une promesse de santé** *(`../01_adn/conformite.md`)*.
+
+⚠️ **Deuxième point concret, et il est matériel : une bouteille personnalisée, c'est UNE ÉTIQUETTE DE PLUS PAR CLIENT** — avant même que le QUID faux de la v1.2 soit corrigé *(`../02_produit/eau-miellee-33cl.md`)*.
+
+⛔ **Rien n'est tranché : ni le modèle, ni le support, ni le prix.**
+
 
 ## Modèle : C2B2C — don sponsorisé (bascule du 2026-07-21)
 

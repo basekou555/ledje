@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-02
+maj: 2026-10-06
 source: "SOT §1.4bis (archive 2026-07-24) — accord 2026-07-18 ; intel MMD 2026-07-24, corrigée en session 2026-07-26"
 resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV). ✅ **27/09 : la dégustation débouche sur la PREMIÈRE COMMANDE — 10 bouteilles d'acacia, produites le 30/09 en ≈ 50 min, livraison prévue le jour même.** 🔴 **Elles inaugurent un scénario jamais testé : sortir du froid puis y RETOURNER.** ✅ **CINQ RDV posés (30/09 → 08/10) : le blocage du premier tour était le RÉPONDEUR, pas le refus.** ⚠️ Cinq dégustations à fournir, aucune production prévue ; Le Goût de Ça porte trois noms de gérant ; 🆕 Doriane (food truck, via Jules) — 1ʳᵉ recommandation entrante."
 ---
@@ -85,6 +85,37 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 - 🎯 **Les quatre choses que la relance doit rapporter** : ① goûtées, et par qui ② le verdict, même tiède ③ **une suite OU un refus — un refus motivé vaut autant qu'une commande** ④ les bouteilles sont-elles restées au froid.
 - ✅ **Formule autorisée sur la conservation, à l'oral** : *« au frais, aucun signe à 14 jours ; hors du froid, ça tourne en deux jours. »* ⛔ **Jamais « le produit tient X jours »** — la série pH donne un **plancher observé**, pas une durée.
 - 🔗 **Et O'Daba n'est plus le seul chemin vers la première vente** : l'événement **H7 du 29/09** *(≈ 30 bouteilles payées, cf. `../04_operations/production-artisanale.md`)* peut la précéder. **Ça ne retire rien au test O'Daba — le réachat d'un restaurateur reste l'indicateur du canal, une dégustation d'entreprise ne le remplace pas.**
+
+### 🎯🎯 2026-10-02 — LES PREMIÈRES VENTES AU CONSOMMATEUR, et elles contredisent les six signaux saveur
+
+*(Fait relevé sur la page ÉTAT au 02/10 et descendu au dépôt le 06/10. **Il n'existait nulle part ailleurs.**)*
+
+✅ **5 BOUTEILLES SUR 10 SONT VENDUES au 02/10 au soir, à ≈ 2 par jour.** ➡️ **C'est la PREMIÈRE vente au consommateur final du projet, et le SEUL écoulement payant constaté à ce jour.** 📌 **À comparer à Baca Bamba, où les dix étaient offertes et où personne n'a redemandé : le contraste ne porte pas sur le produit, il porte sur le fait qu'on paie ou non.**
+
+**Prix au consommateur : 3,50 €** *(et non 2,50 € comme annoncé chez Baca Bamba — deux positionnements chez deux clients)*.
+
+🔴 **Aucun réassort demandé par le restaurateur**, et au rythme constaté les 5 restantes partent en deux à trois jours. 🔴 **Le réachat n'a jamais été demandé aux clientes : il reste inconnu.**
+
+#### Quatre clientes acheteuses interrogées — et c'est l'inverse de Baca Bamba
+
+⚠️ **À pondérer : Basekou s'est présenté comme le créateur, donc les retours sont polis.** Quatre femmes, plusieurs musulmanes, **une seule bouteille partagée**.
+
+- **Choix par CURIOSITÉ + PACKAGING** : *« c'est l'étiquette qui leur a plu »* ⇒ **deuxième confirmation le même jour que l'étiquette fonctionne** *(après Sisters Bakery)*.
+- **Goût** : *« c'est bon, c'est du miel »*. **Les défauts cités portent sur la FORME, pas sur le goût.**
+- 🎯 **LE SUCRE NE GÊNE PAS.** **La question a été posée, et à aucun moment le produit n'a été trouvé trop sucré.** ⇒ 🔴 **LE SIGNAL SUCRE N'EST DONC PAS UNIVERSEL : IL DÉPEND DU PUBLIC.**
+- 🎯🎯 **ELLES ONT IMMÉDIATEMENT IDENTIFIÉ LA SUNNA**, et c'est pour ça qu'aucune n'a dit *« il manque quelque chose »*. **Le produit est apprécié notamment pour son lien avec leur religion.**
+
+#### 🔴 LE CONTRE-SIGNAL, et il change la nature de l'arbitrage saveurs
+
+**Elles sont emballées par l'idée d'une gamme — mais elles veulent RESTER LE PLUS PROCHE POSSIBLE DE LA SUNNA.**
+
+⇒ 🎯 **LE PUBLIC QUI PAIE DEMANDE LA RETENUE, là où six signaux professionnels demandaient une saveur.** ➡️ **L'arbitrage cesse d'être « saveur : oui ou non ». Il devient : POUR QUEL CANAL.** 📌 **Les six signaux viennent tous de PROFESSIONNELS qui jugent pour leur clientèle ; celui-ci vient de CONSOMMATRICES qui ont payé.** ⛔ **Rien n'est tranché — mais la question n'est plus la même.**
+
+#### 🆕 Une objection de FORMAT, inédite et venue de l'extérieur
+
+**Le 33 cl est jugé trop grand par l'une d'elles : elle imaginait un SHOT de ≈ 25 mL.** ➡️ **C'est la PREMIÈRE demande externe vers le format concentré** — c'est-à-dire **le territoire du cristal de miel** *(`../02_produit/cristal.md`)*, jusqu'ici porté par la vision et par aucun client.
+
+⚠️ **Retours entendus par le gérant NON RECUEILLIS** *(il est parti vite)* ; l'accueil habituel était absent et **une deuxième personne a été briefée**.
 
 ## Prospection ouverte (2026-08-18)
 
