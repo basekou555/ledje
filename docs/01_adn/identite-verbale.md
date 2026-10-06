@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: adn
-maj: 2026-08-20
+maj: 2026-10-06
 source: "Base de connaissance de marque V1 (sections 10, 11, 12) comme texte de base, complétée par la fiche antérieure (SOT §2.1-2.4) et les décisions Com datées : 2026-07-20 mots du goût, 2026-07-29 tutoiement et langue, 2026-07-30 « accessible », 2026-07-31 casse et accents, 2026-08-17 étymologie diakanké, signature et accroche non tranchées"
-resume: "Comment Lédjé parle : le nom, la personnalité, le ton, le langage et le lexique, l'architecture des messages. ⚠️ La signature ET l'accroche ne sont PAS tranchées."
+resume: "Comment Lédjé parle : le nom, la personnalité, le ton, le langage et le lexique, l'architecture des messages. ⚠️ La signature ET l'accroche ne sont PAS tranchées. ✅ **2026-10-06 — LA RÈGLE RELIGION REÇOIT SON CRITÈRE OPÉRATIONNEL (positionnement arrêté par Basekou) : la sunna se nomme À L'ORAL et SEULEMENT devant un public dont on sait qu'il est musulman ; jamais sur les réseaux, jamais sur un support écrit public — y compris une affiche en mosquée. Deux critères : le CANAL et la CONNAISSANCE DU PUBLIC. Ce n'est pas un assouplissement du 29/07, c'est sa condition d'application.** ⚠️ **Second registre réservé à l'oral après les arguments de santé (30/09) — même forme, donc même limite : une règle orale ne laisse aucune trace.**"
 ---
 
 # Identité verbale
@@ -45,6 +45,24 @@ Par l'**incarnation** (pensée par et pour des personnes qui comprennent cette c
 Deux règles fermes :
 - **Jamais de parole sacrée sur un support commercial.** Le registre s'évoque par le ton, jamais par la citation.
 - Le **registre communautaire** (ummah, sunna) est réservé aux contenus internes ou communautaires, **jamais à la façade** *(acté le 2026-07-29)*.
+
+### ✅ 2026-10-06 — LA RÈGLE DU 29/07 REÇOIT SON CRITÈRE OPÉRATIONNEL : positionnement arrêté par Basekou
+
+**Jusqu'ici la règle disait « contenus internes ou communautaires », sans dire comment on reconnaît l'un de l'autre sur le terrain.** **Basekou tranche :**
+
+> *« Notre positionnement, ça va être à l'avenir de parler de religion qu'aux personnes concernées. Lorsqu'on sait que le public auquel on s'adresse est musulman, on peut se permettre de leur dire que c'est une sunna, de manière orale. Lorsque c'est pas le cas, et sur les réseaux sociaux de manière générale, on ne le dit pas publiquement, on ne le crie pas sur tous les toits. »*
+
+| Situation | Ce qu'on fait |
+|---|---|
+| ✅ **À L'ORAL, devant un public dont on SAIT qu'il est musulman** | **La sunna peut être nommée.** |
+| ⛔ **À l'oral devant un public dont on ne sait pas** | **On ne la nomme pas.** |
+| ⛔ **Sur les réseaux sociaux, et sur tout support PUBLIC** | **Jamais.** |
+
+🎯 **DEUX CRITÈRES, PAS UN : le CANAL (oral vs écrit public) ET LA CONNAISSANCE DU PUBLIC.** ➡️ **Ce n'est pas un assouplissement de la règle du 29/07 : c'est sa condition d'application, et elle la rend exécutable.** ✅ **La façade reste intacte — un support écrit public ne porte pas l'argument religieux, quel que soit son lieu d'affichage.**
+
+⚠️ **CE QUE ÇA RÈGLE AILLEURS : la tension soulevée le 06/10 sur le canal mosquée** *(`../03_marche/canal-mosquee.md`)*. **Une parole orale dans une mosquée est couverte ; une AFFICHE en mosquée reste un support écrit public et ne l'est pas.**
+
+⚠️ **UNE OBSERVATION, pas une objection : c'est le SECOND registre à être réservé à l'oral**, après les arguments de santé *(tranché le 30/09, contradiction assumée avec `conformite.md` qui n'est pas rejouée ici)*. 📌 **Les deux ont la même forme — dit, jamais écrit — et donc la même limite : une règle orale ne laisse aucune trace, donc rien ne vérifie ce qui a été dit. Écrit une fois, non rejoué.**
 
 ## Humour
 Possible : complice, léger, autodérisoire. Jamais : humiliant, dégradant, provocation gratuite, humour forcé pour paraître jeune.

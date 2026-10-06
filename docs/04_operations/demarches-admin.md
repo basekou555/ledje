@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-02
+maj: 2026-10-06
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
-resume: "Le réglementaire à boucler avant la première vente (déclaration ENREGISTRÉE — accusé reçu le 18/08, DDPP du Rhône compétente ; ✅ MAIL DES 3 QUESTIONS PARTI le 08/09 — catégorie, dérogation 13982, recevabilité du GBPH apicole pour une BOISSON — en attente de réponse ; ⚠️ le point 2 contredit la réponse DDPP 56 du 18/07, qui disait ni agrément ni dérogation : deux lectures coexistent jusqu'à l'arbitrage du 69 ; la DLC n'est PAS dans ce mail et n'en dépend pas) + l'administratif marque (domaine, email pro Zoho, INPI différé)."
+resume: "Le réglementaire à boucler avant la première vente. 🔴 **LA DDPP 69 A RÉPONDU LE 01/10** (courrier 2026-8172) : catégorie « préparation de produits composés » CONFIRMÉE · **DÉROGATION À L'AGRÉMENT OBLIGATOIRE pour vendre à des professionnels, CERFA 13982** — tranche CONTRE la DDPP 56 du 18/07, la consigne « ne rien déposer avant l'arbitrage » TOMBE · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS. ⚠️ Aucun seuil identifiable à l'annexe III pour ce produit (absence constatée). ⛔ Le 13982 n'est PAS déposé, et trois professionnels ont déjà reçu du produit ou sont en négociation. + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
 
 # Démarches administratives & réglementaires
@@ -62,6 +62,8 @@ resume: "Le réglementaire à boucler avant la première vente (déclaration ENR
 
 ⛔ **RIEN N'EST TRANCHÉ ICI, et surtout rien n'est à corriger d'office** : une demande de changement de code APE est une démarche en soi, et personne n'a établi qu'elle est nécessaire. **Ce qui est consigné, c'est l'écart et les deux points à vérifier.**
 
+📬 **2026-10-06 — UN MESSAGE URSSAF DU 03/10 N'EST PAS OUVERT, ET C'EST L'UN DES DEUX ENDROITS OÙ LE CODE APE PRODUIT DES EFFETS RÉELS.** **Réponse de Basekou : *« j'ai pas encore vu le contenu »*.** ➡️ **Il peut donc contenir précisément la réponse au point ① ci-dessus — le TAUX DE COTISATION — et ça reste inconnu au quatrième jour.** ⚠️ **Report consigné, pas une alerte : rien ne dit que ce message porte sur l'APE, et l'épisode URSSAF T2 de septembre a montré qu'un mail URSSAF peut aussi être une invitation à un webinaire.** ⛔ **Et le rattachement de ce statut à Lédjé n'est toujours pas établi — aucune donnée de ce statut n'entre au dépôt.**
+
 ## 🔴 RÉPONSE DE LA DDPP 69 — 2026-10-01, courrier départ 2026-8172 (Marie-Claire Monin)
 
 **Les trois questions posées le 08/09 sont répondues.** *(Réponse reçue le 01/10, consignée au dépôt le 02/10 — elle n'existait jusque-là qu'en Notion.)*
@@ -91,6 +93,8 @@ resume: "Le réglementaire à boucler avant la première vente (déclaration ENR
 - ✅ **Destinataires : commerces de détail et consommateurs finaux.** **Un restaurant en relève** — ce n'est donc pas là que ça bloque.
 - 🔴 **Quantités « marginales et restreintes », seuils renvoyés à l'arrêté du 8 juin 2006, annexe III.** ⛔ **AUCUN SEUIL N'EST IDENTIFIABLE POUR CE PRODUIT : vérification faite le 01/10, aucune mention du miel ni d'une boisson au miel ne figure à l'annexe III.** 📌 **C'est une absence CONSTATÉE, pas une recherche inaboutie.**
 - 🔴 **L'expédition hors région sort de la dérogation.** ➡️ **L'idée du 25/09 d'envoyer des doses dans toute la France est fermée par ce texte** *(sauf à passer à l'agrément)*.
+
+🔴 **ÉTAT AU 2026-10-06 — CINQUIÈME JOUR : LE 13982 N'EST TOUJOURS PAS DÉPOSÉ, ET LE SUJET N'A PAS ÉTÉ RÉPONDU EN SÉANCE.** *(Posé le 06/10, sans réponse — consigné comme non-réponse, parce qu'une non-réponse est une information.)* ⚠️ **Pendant ces cinq jours, le produit a continué de circuler : deux bouteilles partent chez Le Goût de Ça le 06/10 à 15h, cinq restent chez Baca Bamba, et O'Daba a reçu dix bouteilles VENDUES.** 📌 **La réserve de Basekou sur le dépôt — *« on risque d'être trop visible là où il n'y a pas lieu d'être »* — reste consignée telle quelle ci-dessous et n'est pas rejouée ici.**
 
 🎯 **ET LES DEUX LECTURES DE L'ABSENCE DE SEUIL MÈNENT À LA MÊME ACTION, ce qui rend l'arbitrage simple** : que l'absence signifie « pas de plafond opposable » ou « produit non prévu par le texte », **déposer le 13982 ne coûte rien et couvre ; ne pas le déposer expose.** 📌 **La question à poser à Mᵐᵉ Monin n'est donc pas « quel est mon seuil » mais « mon produit n'a aucune ligne à l'annexe III ».**
 
@@ -130,7 +134,7 @@ resume: "Le réglementaire à boucler avant la première vente (déclaration ENR
 
 ~~**DÉCIDÉ : suivre le GBPH apicole ITSAP documenté pour l'instant** (gratuit, taillé miel, **reconnu DDPP** ← ⛔ **FAUX, corrigé le 02/10**)~~ ; la formation hygiène 14 h se fera plus tard, quand le projet sera plus avancé.
 **⚠️ Réserve à lever : confirmer que le GBPH suffit pour une BOISSON au miel** (pas seulement du miel en pot). ✅ **LA QUESTION EST POSÉE À LA DDPP 69 le 2026-09-08** (3e point du mail, cf. suivi daté ci-dessus) — la réserve n'est pas levée, mais elle est enfin **instruite** : après sept semaines, elle cesse d'être une note interne pour devenir une question adressée à l'autorité compétente.
-À faire : récupérer + lire le GBPH apicole ITSAP ; construire le plan de maîtrise sanitaire documenté (traçabilité, températures, nettoyage) ; ~~faire confirmer sa recevabilité par la DDPP compétente~~ *(fait le 08/09 — en attente de réponse)* ; rapprochement ADA Bretagne / Chambre d'agriculture. ⚠️ **Le plan de maîtrise sanitaire n'existe toujours pas par écrit** — et le mail du 08/09 propose de recevoir la DDPP sur le lieu de production.
+À faire : ~~récupérer + lire le GBPH apicole ITSAP~~ *(⛔ **CADUC le 01/10** : ce guide est écarté par la DDPP — le référentiel est désormais le **GBPH jus de fruits**, dont on reprend l'analyse des dangers)* ; construire le plan de maîtrise sanitaire documenté (traçabilité, températures, nettoyage) ; ~~faire confirmer sa recevabilité par la DDPP compétente~~ *(fait le 08/09, **RÉPONDU le 01/10**)* ; rapprochement ADA Bretagne / Chambre d'agriculture. ⚠️ **Le plan de maîtrise sanitaire n'existe toujours pas par écrit** — et le mail du 08/09 propose de recevoir la DDPP sur le lieu de production.
 
 ## Domaine & email
 
