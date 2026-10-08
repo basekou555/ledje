@@ -299,6 +299,55 @@ export default function App() {
           </div>
         </section>
 
+        {/* ══ ÉVÉNEMENTS — l'appel vers /prestations ══
+
+            Ajouté le 2026-10-08 : la page prestations existait mais n'était
+            annoncée QUE par l'en-tête, et un prospect qui arrive sur
+            l'accueil ne clique pas forcément dans la barre. Ici c'est un
+            APPEL, pas la page : trois lignes et un lien, le détail vit sur
+            /prestations.
+
+            ⚠️ Volontairement, ce bloc ne parle PAS du canal mosquée. Sa
+            section d'accueil avait été retirée le 06/10 quand il est devenu
+            une page, et la façade est précisément l'endroit le plus sensible
+            au regard de la règle du 06/10 sur le registre religieux
+            (docs/01_adn/identite-verbale.md). Le lien « Offrir » de l'en-tête
+            reste, lui, présent sur toutes les pages — la porte existe déjà. */}
+        <section className="v-section" id="evenements" aria-labelledby="evenements-title">
+          <div className="container container--wide reveal reveal--right">
+            <div className="v-split">
+              <div className="v-split-main">
+                <p className="v-eyebrow">Événements</p>
+                <h2 id="evenements-title" className="v-title v-title--xl">
+                  <span className="v-line"><span className="v-line-in v-line-1">Vous organisez</span></span>
+                  <span className="v-line"><span className="v-line-in v-line-2">quelque chose ?</span></span>
+                </h2>
+                <p className="v-text v-text--lead">
+                  Kermesse, fête d’école, journée portes ouvertes : on apporte
+                  de l’eau miellée fraîche, et on s’adapte à votre
+                  organisation.
+                </p>
+              </div>
+
+              <aside className="v-aside v-split-side">
+                <p className="v-aside-title">Quatre façons de faire</p>
+                <p>
+                  On vient faire goûter, on fournit les bouteilles, on met
+                  votre nom sur l’étiquette, ou on apporte carafes et verres.
+                  Elles se combinent.
+                </p>
+                <a
+                  className="btn-ghost"
+                  href="/prestations"
+                  onClick={() => trackEvent('accueil_prestations_click')}
+                >
+                  Voir les formules
+                </a>
+              </aside>
+            </div>
+          </div>
+        </section>
+
         {/* ══ RESTER EN CONTACT — l'avis en second rideau ══ */}
         <section className="v-section v-section--soft" id="contact" aria-labelledby="contact-title">
           <div className="container container--wide reveal reveal--left">
