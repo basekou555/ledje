@@ -200,7 +200,17 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 
 🔴 **CE QUE CETTE RELECTURE FAIT À L'ARBITRAGE SAVEURS, et c'est son TROISIÈME cadrage** : il était « saveur, oui ou non » *(29/09)*, puis « pour quel canal » *(02/10, confirmé par Basekou le 06/10)*. ➡️ **Il devient : « par quel levier donne-t-on de l'africanité au produit » — et la saveur n'est qu'un des trois.**
 
-⛔ **RIEN N'EST TRANCHÉ, et surtout pas par cette fiche.** ⚠️ **À pondérer : deux occurrences, dont une d'un prospect qui n'a pas goûté — ce n'est pas un comptage de marché.** 📌 **Mais c'est la première fois que deux refus se rejoignent sur un motif qui n'est pas le sucre.**
+##### 🆕🆕 2026-10-08 — ET LA THÈSE CESSE D'ÊTRE UNE HYPOTHÈSE : UN CONCURRENT LA PROUVE
+
+**MAJIYA** *(orthographe à confirmer)* : **boissons produites au BÉNIN**, corossol et goyave, **verre 33 cl**, présent dans **2 à 3 restaurants africains de Lyon déjà visités** — dont **Mauya ET Le Goût de Ça**. **« Ça se vend très bien », 40 à 50 bouteilles par jour** ⚠️ *(déclaratif)*. **Raisons données : saveurs originales, produit qui vient d'Afrique, curiosité.**
+
+🎯🎯 **LES DEUX RAISONS DE SON SUCCÈS SONT EXACTEMENT LES DEUX TERMES DE L'OBJECTION REÇUE LE 06/10 : l'africanité et la saveur.** ➡️ **La demande d'africanité n'est donc plus déduite de deux refus : elle est incarnée par un produit qui se vend, dans les mêmes établissements, sur ces deux arguments.** ⚠️ **Et Le Goût de Ça avait MAJIYA dans sa carte quand il a parlé d'hérésie — son point de comparaison était sur son étagère.**
+
+##### 🔴 CORRECTION DU COMPTAGE : 2 restaurateurs sur 3, pas 3 sur 3
+
+**Basekou compte « les trois unanimes » : O'Daba, Baca Bamba, Mauya.** ⛔ **O'Daba n'y appartient pas — son gérant n'a jamais été débriefé, et c'est le seul endroit où le produit SE VEND en l'état.** ➡️ **2 sur 3 demandent une saveur ; le 3ᵉ le vend tel quel et n'a pas donné son avis.**
+
+⛔ **RIEN N'EST TRANCHÉ, et surtout pas par cette fiche.** ⚠️ **À pondérer : les refus restent deux, dont un d'un prospect qui n'a pas goûté — ce n'est pas un comptage de marché.** 📌 **Mais c'est la première fois que deux refus se rejoignent sur un motif qui n'est pas le sucre, et la première fois qu'un concurrent valide le motif par ses ventes.**
 
 #### 🔴 2026-10-02 — UN CONTRE-SIGNAL, et il vient du seul public qui a PAYÉ
 
