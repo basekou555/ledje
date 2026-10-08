@@ -166,7 +166,7 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 
 ⚠️ **ALERTE POSÉE UNE FOIS, non rejouée : des actions de recouvrement sont annoncées sur le MÊME SIRET que celui qui porte la démarche réglementaire ouverte auprès de la DDPP.**
 
-📌 **AUCUNE DÉCISION N'EST PRISE : le fait est entré après la clôture de la séance du 08/10 et Basekou n'a pas été interrogé dessus. Ouvrir le portail, payer ou demander un délai lui revient — report avec motif, pas oubli.**
+✅✅ **2026-10-08 — BASEKOU TRANCHE : IL PAIE.** *« Je paie bientôt, pas besoin de revenir dessus. »* ➡️ **La dette est prise en charge par lui ; le point sort des relances et le compteur s'arrête.** ⛔ **Aucune date n'est écrite, et aucune ne lui est demandée.** 📌 **Les deux voies ci-dessus** *(délai de paiement, action sociale du CPSTI)* **ne sont donc pas empruntées — elles restent écrites à titre de rappel, pas de relance.** ⚠️ **L'alerte sur le SIRET partagé avec la démarche DDPP a été posée une fois : elle ne se rejoue pas.** ⛔ **Et ce qui reste ouvert ne l'est plus par ce point : le message du 03/10 n'est toujours pas ouvert, et le taux de cotisation lié au code APE 53.20Z reste à lire sur le portail.**
 
 ⚠️ **Un point n'a jamais été explicité et ne l'est toujours pas : le rattachement de ce statut à Lédjé.** ➡️ **Il cesse d'être bloquant** *(la déclaration est faite)* **mais il reste ouvert pour la suite** : c'est ce même statut qui portera **la facture de la première vente du 29/09** *(cf. `production-artisanale.md`)*. ⛔ **Aucun montant, aucun numéro, aucune donnée de ce statut ne s'écrit dans ce dépôt.**
 

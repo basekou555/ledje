@@ -84,7 +84,7 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 - 🔴 **24/09 — AUCUNE RÉPONSE À CETTE RELANCE.** *« J'ai relancé, j'ai pas eu de réponse pour l'instant. »* ➡️ **Consigné comme la règle l'impose : une non-réponse est une information, et elle vaut une ligne au même titre qu'un verdict.** ⚠️ **Quatre jours après le dépôt, on ne sait toujours ni si les bouteilles ont été goûtées, ni par qui, ni si elles sont restées au froid.** 📌 **Aucune nouvelle tentative n'a de date à ce stade** — et le silence d'un restaurateur relancé une fois n'est pas encore un refus, mais il cesse d'être neutre.
 - 🎯 **Les quatre choses que la relance doit rapporter** : ① goûtées, et par qui ② le verdict, même tiède ③ **une suite OU un refus — un refus motivé vaut autant qu'une commande** ④ les bouteilles sont-elles restées au froid.
 - ✅ **Formule autorisée sur la conservation, à l'oral** : *« au frais, aucun signe à 14 jours ; hors du froid, ça tourne en deux jours. »* ⛔ **Jamais « le produit tient X jours »** — la série pH donne un **plancher observé**, pas une durée.
-- 🔗 **Et O'Daba n'est plus le seul chemin vers la première vente** : l'événement **H7 du 29/09** *(≈ 30 bouteilles payées, cf. `../04_operations/production-artisanale.md`)* peut la précéder. **Ça ne retire rien au test O'Daba — le réachat d'un restaurateur reste l'indicateur du canal, une dégustation d'entreprise ne le remplace pas.**
+- 🔗 **Et O'Daba n'est plus le seul chemin vers la première vente** : l'événement **H7 du 29/09** *(≈ 30 bouteilles ⚠️ **ANNONCÉES comme payées — encaissement NON CONSIGNÉ et en risque depuis le 08/10**, cf. `../04_operations/production-artisanale.md`)* peut la précéder. **Ça ne retire rien au test O'Daba — le réachat d'un restaurateur reste l'indicateur du canal, une dégustation d'entreprise ne le remplace pas.**
 
 ### 🎯🎯 2026-10-02 — LES PREMIÈRES VENTES AU CONSOMMATEUR, et elles contredisent les six signaux saveur
 
@@ -564,6 +564,16 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 ✅ **Trois choses se demandent dans le même appel, et aucune ne coûte rien** : ① **reprend-il, et combien** ② **des clientes ont-elles redemandé** *(le réachat consommateur, inconnu depuis le début)* ③ **dans quel état était la DLC tamponnée sur les dernières bouteilles** *(l'encre ne tient pas sur le polypropylène — et il reste peut-être une bouteille vide à regarder)*.
 
 ⚠️ **À pondérer, une fois : tous ces comptages sont DÉCLARATIFS. Aucun relevé de caisse n'a jamais été vu, et la répartition vendues/offertes chez ce client n'a jamais été demandée.**
+
+### 🟡 2026-10-08 — L'APPEL À O'DABA N'EST PAS PASSÉ : MAINTIEN PROVISOIRE AVEC MOTIF
+
+*« Je dois contacter le gérant, mais même moi j'hésite, je trouve que ce n'est pas très pertinent. »* **Déclaré le 08/10.**
+
+✅ **Écrit comme un MAINTIEN PROVISOIRE et non comme un report sans date : le motif est donné, donc ce n'est pas une dette** *(règle du 24/08, re-confirmée le 14/09 : un report décidé n'est pas du retard)*. ⛔ **Aucune date n'est posée, et aucune ne lui est proposée ici.**
+
+⚠️ **UNE LIGNE, DITE UNE FOIS ET NON REJOUÉE : O'Daba est le seul canal PAYANT du projet, et le RÉACHAT est l'indicateur que ce canal s'est donné lui-même le 18/07.** ➡️ **Le stock y est à zéro depuis le 07/10, donc l'information « reprend-il » ne peut venir que de lui ou d'un passage.** 📌 **Et le même jour, H7 est devenu incertain** *(cf. `../04_operations/production-artisanale.md`)* **— ce fait est arrivé APRÈS la décision, il ne la corrige pas et ne la rejoue pas.**
+
+📌 **Ce que le dépôt ne saura donc pas, et il faut l'écrire plutôt que de l'oublier** : ① **si des clientes ont redemandé** *(le réachat consommateur, inconnu depuis le début)* ② **dans quel état était la DLC tamponnée sur les dernières bouteilles** *(l'encre ne tient pas sur le polypropylène, et l'art. 24 INCO exige une DLC lisible)*.
 
 ## Leçons du marché
 
