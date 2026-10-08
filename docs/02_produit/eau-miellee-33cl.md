@@ -206,6 +206,10 @@ La bouteille d'eau miellée de la phase artisanale : **eau + miel, rien d'autre*
 
 🎯🎯 **LES DEUX RAISONS DE SON SUCCÈS SONT EXACTEMENT LES DEUX TERMES DE L'OBJECTION REÇUE LE 06/10 : l'africanité et la saveur.** ➡️ **La demande d'africanité n'est donc plus déduite de deux refus : elle est incarnée par un produit qui se vend, dans les mêmes établissements, sur ces deux arguments.** ⚠️ **Et Le Goût de Ça avait MAJIYA dans sa carte quand il a parlé d'hérésie — son point de comparaison était sur son étagère.**
 
+##### ✅✅ 2026-10-08 — ET LA CATÉGORIE EXISTE DÉJÀ : les eaux miellées aromatisées ne sont pas à inventer
+
+**CITRON et GINGEMBRE, les deux saveurs les plus citées par le terrain français, ont DÉJÀ été faites sur une base eau + miel** *(Blume Honey Water · Honeydrop · Mellos)* ⇒ ✅ **l'idée n'est ni à inventer ni absurde : trois acteurs au moins l'ont jugée viable.** 🔴 **Mais la plus proche de Lédjé — Honeydrop, citron + gingembre + miel en bouteille de VERRE — est donnée comme PLUS DISPONIBLE.** ⛔ **Pas une preuve d'échec** *(une marque disparaît pour dix raisons étrangères à son produit)* **— mais c'est le seul précédent proche, et son sort mérite d'être regardé AVANT d'investir une réimpression d'étiquette.** ⚠️ **Aucun équivalent français trouvé, et rien à en conclure : l'outil de recherche est à dominante américaine.** ⛔ `[en discussion]` — résultats de recherche, aucun produit vu en rayon. **Détail : `../03_marche/marche-adressable.md`.**
+
 ##### 🔴 CORRECTION DU COMPTAGE : 2 restaurateurs sur 3, pas 3 sur 3
 
 **Basekou compte « les trois unanimes » : O'Daba, Baca Bamba, Mauya.** ⛔ **O'Daba n'y appartient pas — son gérant n'a jamais été débriefé, et c'est le seul endroit où le produit SE VEND en l'état.** ➡️ **2 sur 3 demandent une saveur ; le 3ᵉ le vend tel quel et n'a pas donné son avis.**
