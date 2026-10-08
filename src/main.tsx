@@ -5,6 +5,7 @@ import './index.css'
 import Construction from './Construction.tsx'
 import Avis from './Avis.tsx'
 import Offrir from './Offrir.tsx'
+import Prestations from './Prestations.tsx'
 import App from './App.tsx'
 
 /* Routage minimal par pathname (SPA — Vercel réécrit déjà tout vers index.html).
@@ -15,6 +16,9 @@ import App from './App.tsx'
    retombe sur la vitrine.
 
    — /avis         : recueil d'avis, ouverte pendant les dégustations ;
+   — /prestations  : les formules événement (kermesse, fête d'école…).
+                     Créée le 2026-10-08 pour une visite précise : un
+                     établissement scolaire qui organise une kermesse ;
    — /offrir       : le canal mosquée (un fidèle offre un lot). Page à part
                      depuis le 2026-10-06 : son audience n'est pas celle de
                      l'accueil, on lui envoie le lien directement ;
@@ -31,6 +35,7 @@ const path = window.location.pathname.replace(/\/+$/, '')
 function Page() {
   if (path === '/avis') return <Avis />
   if (path === '/offrir') return <Offrir />
+  if (path === '/prestations') return <Prestations />
   if (path === '/construction') return <Construction />
   return <App />
 }

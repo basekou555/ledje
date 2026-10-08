@@ -193,31 +193,42 @@ img, svg, video { display: block; max-width: 100%; }
   transition: background var(--transition);
 }
 .v-header-cta:hover { background: var(--green); }
+.v-cta-short { display: none; }
+@media (max-width: 560px) {
+  .v-cta-long { display: none; }
+  .v-cta-short { display: inline; }
+}
 
-/* ── Le lien « Offrir » de l'en-tête ──────────────────────────────────────
-   Ajouté le 2026-10-06 avec la page du même nom. Traité en LIEN CERCLÉ D'OR
-   et non en second bouton plein : deux pastilles vertes côte à côte se
-   disputent l'attention, on ne sait plus laquelle est l'action principale.
-   L'or le distingue du texte courant sans le hisser au rang du bouton. */
+/* ── Les entrées de navigation de l'en-tête ───────────────────────────────
+   Première version (06/10) : des liens cerclés d'or. Ça tenait à un lien ;
+   à deux, le 08/10, la barre affichait TROIS pastilles d'affilée et devenait
+   un alignement de boutons où plus rien ne ressortait.
+
+   Donc : les entrées redeviennent du TEXTE, et le bouton reste seul en
+   pastille. Un seul objet plein dans la barre = une seule action principale,
+   ce qui était déjà l'argument contre un second bouton vert. Le filet d'or
+   n'apparaît qu'au survol : il signale sans encombrer. */
 .v-header-nav {
   display: flex;
   align-items: center;
-  gap: clamp(0.5rem, 2.5vw, 0.9rem);
+  gap: clamp(0.85rem, 3vw, 1.5rem);
   min-width: 0;
 }
 .v-header-link {
   font-family: var(--font-sans);
   font-size: 0.85rem;
   font-weight: 600;
-  color: var(--gold-deep, #A9740F);
+  color: var(--ink);
   text-decoration: none;
-  padding: 0.5rem 0.95rem;
-  border: 1px solid var(--gold);
-  border-radius: var(--radius-pill);
   white-space: nowrap;
-  transition: background var(--transition), color var(--transition);
+  padding-bottom: 2px;
+  background-image: linear-gradient(var(--gold), var(--gold));
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.35s cubic-bezier(0.16, 1, 0.3, 1), color var(--transition);
 }
-.v-header-link:hover { background: var(--gold); color: var(--surface); }
+.v-header-link:hover { background-size: 100% 1px; color: var(--green-deep); }
 
 /* ── HERO ── */
 .v-hero {
@@ -1129,4 +1140,16 @@ img, svg, video { display: block; max-width: 100%; }
 @media (min-width: 900px) {
   .v-steps { grid-template-columns: repeat(3, 1fr); gap: 2.4rem; }
   .v-step { flex-direction: column; gap: 0.7rem; max-width: none; }
+}
+
+/* Trois entrées dans la barre, c'est une de trop sous 360 px : mesuré le
+   2026-10-08, l'en-tête débordait à 320 px (iPhone SE 1re gén., Galaxy Fold
+   replié). On resserre plutôt que de cacher une entrée — un lien absent est
+   un lien qu'on ne clique jamais. */
+@media (max-width: 380px) {
+  .v-header { padding-inline: 0.7rem; gap: 0.5rem; }
+  .v-header-nav { gap: 0.7rem; }
+  .v-header-link { font-size: 0.76rem; }
+  .v-header-cta { font-size: 0.74rem; padding: 0.5rem 0.75rem; }
+  .v-wordmark img { height: 1.35rem; }
 }

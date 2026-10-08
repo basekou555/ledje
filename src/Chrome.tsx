@@ -78,6 +78,17 @@ export function SiteHeader({ home = false }: { home?: boolean }) {
         <img src="/brand/wordmark-green.svg" alt="lédjé" width={2208} height={1040} />
       </a>
       <nav className="v-header-nav" aria-label="Principal">
+        {/* Deux liens cerclés d'or, pas trois boutons : « Événements » est
+            ajouté le 2026-10-08, et c'est la DERNIÈRE entrée que la barre
+            peut porter — mesuré à 390 px, au-delà elle déborde. Une
+            troisième demanderait un vrai menu. */}
+        <a
+          className="v-header-link"
+          href="/prestations"
+          onClick={() => trackEvent('header_prestations_click')}
+        >
+          Événements
+        </a>
         <a
           className="v-header-link"
           href="/offrir"
@@ -85,7 +96,14 @@ export function SiteHeader({ home = false }: { home?: boolean }) {
         >
           Offrir
         </a>
-        <a className="v-header-cta" href="/avis">Donner ton avis</a>
+        {/* Le libellé se raccourcit sur petit écran : avec deux entrées de
+            navigation à sa gauche, « Donner ton avis » passait sur deux
+            lignes à 390 px et la barre doublait de hauteur. On coupe le mot
+            porteur de politesse, pas le sens. */}
+        <a className="v-header-cta" href="/avis">
+          <span className="v-cta-long">Donner t</span>
+          <span className="v-cta-short">T</span>on avis
+        </a>
       </nav>
     </header>
   )
