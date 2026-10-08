@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/react'
 import './index.css'
 import Construction from './Construction.tsx'
 import Avis from './Avis.tsx'
+import Offrir from './Offrir.tsx'
 import App from './App.tsx'
 
 /* Routage minimal par pathname (SPA — Vercel réécrit déjà tout vers index.html).
@@ -14,6 +15,9 @@ import App from './App.tsx'
    retombe sur la vitrine.
 
    — /avis         : recueil d'avis, ouverte pendant les dégustations ;
+   — /offrir       : le canal mosquée (un fidèle offre un lot). Page à part
+                     depuis le 2026-10-06 : son audience n'est pas celle de
+                     l'accueil, on lui envoie le lien directement ;
    — /construction : l'ancienne page « en construction », gardée joignable.
                      C'est le filet de sécurité : si la vitrine devait être
                      retirée en urgence, il suffit d'en refaire le retour par
@@ -26,6 +30,7 @@ const path = window.location.pathname.replace(/\/+$/, '')
 
 function Page() {
   if (path === '/avis') return <Avis />
+  if (path === '/offrir') return <Offrir />
   if (path === '/construction') return <Construction />
   return <App />
 }

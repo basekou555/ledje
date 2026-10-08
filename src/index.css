@@ -107,6 +107,9 @@ img, svg, video { display: block; max-width: 100%; }
   min-height: 52px;
   transition: transform var(--transition), background var(--transition);
 }
+/* Le bouton sert aussi de LIEN (page /offrir) : sans ça le navigateur
+   souligne le libellé à l'intérieur de la pastille. */
+.btn-primary { text-decoration: none; }
 .btn-primary:hover:not(:disabled) { transform: translateY(-1px); background: var(--green); }
 .btn-primary:disabled { opacity: 0.55; cursor: not-allowed; }
 
@@ -190,6 +193,31 @@ img, svg, video { display: block; max-width: 100%; }
   transition: background var(--transition);
 }
 .v-header-cta:hover { background: var(--green); }
+
+/* ── Le lien « Offrir » de l'en-tête ──────────────────────────────────────
+   Ajouté le 2026-10-06 avec la page du même nom. Traité en LIEN CERCLÉ D'OR
+   et non en second bouton plein : deux pastilles vertes côte à côte se
+   disputent l'attention, on ne sait plus laquelle est l'action principale.
+   L'or le distingue du texte courant sans le hisser au rang du bouton. */
+.v-header-nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.5rem, 2.5vw, 0.9rem);
+  min-width: 0;
+}
+.v-header-link {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--gold-deep, #A9740F);
+  text-decoration: none;
+  padding: 0.5rem 0.95rem;
+  border: 1px solid var(--gold);
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+  transition: background var(--transition), color var(--transition);
+}
+.v-header-link:hover { background: var(--gold); color: var(--surface); }
 
 /* ── HERO ── */
 .v-hero {
@@ -346,6 +374,22 @@ img, svg, video { display: block; max-width: 100%; }
 .v-input:focus { border-color: var(--green); outline: none; box-shadow: 0 0 0 3px rgba(46,107,79,0.15); }
 .v-input[aria-invalid="true"] { border-color: #A02D24; }
 .v-note { font-size: 0.8rem; color: var(--ink-soft); }
+/* Un lien dans une note garde le ton du texte : le bleu souligné du
+   navigateur jurait dans la carte crème. Le filet est ici VISIBLE AU REPOS,
+   contrairement au mail du pied de page qui ne se souligne qu'au survol :
+   « Instagram » au milieu d'une phrase n'a aucune autre marque de lien, et
+   au doigt il n'y a pas de survol pour la révéler. */
+.v-note a {
+  color: var(--ink);
+  text-decoration: none;
+  background-image: linear-gradient(var(--gold), var(--gold));
+  background-size: 100% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-image 0.3s var(--transition-ease, ease);
+  padding-bottom: 2px;
+}
+.v-note a:hover { background-image: linear-gradient(var(--ink), var(--ink)); }
 .v-error { font-size: 0.88rem; color: #8c1d18; }
 .v-success { font-size: 0.98rem; color: var(--green); font-weight: 500; }
 
@@ -359,6 +403,11 @@ img, svg, video { display: block; max-width: 100%; }
 }
 .v-aside-title { font-family: var(--font-title); font-size: 1.15rem; color: var(--ink); margin-bottom: 0.5rem; }
 .v-aside p { font-size: 0.95rem; color: var(--ink-soft); margin-bottom: 1rem; }
+/* La note qui suit un bouton (« ou en message sur Instagram ») : elle le
+   touchait, les boutons n'ayant pas de marge basse. Vaut dans la carte de
+   l'accueil comme sur la page /offrir. */
+.btn-ghost + .v-note,
+.v-page-actions + .v-note { margin-top: 0.9rem; margin-bottom: 0; }
 
 /* ── Pied de page ── */
 .v-footer {
@@ -1047,4 +1096,37 @@ img, svg, video { display: block; max-width: 100%; }
       var(--green-deep) 100%);
   }
   .v-band-content { padding: 1.6rem 1.4rem 0; }
+}
+
+
+/* ════════════════════════════════════════════
+   PAGES SECONDAIRES (/offrir) — même cadre que l'accueil, sans ses images.
+   Le contenu démarre sous l'en-tête fixe, d'où le retrait en tête de page :
+   sur l'accueil c'est le hero plein cadre qui s'en chargeait.
+   ════════════════════════════════════════════ */
+.v-page { background: var(--surface); }
+.v-page-head { padding-top: clamp(6rem, 16vh, 9rem); }
+.v-page .v-title { max-width: 18ch; }
+.v-page .v-text { max-width: 54ch; }
+.v-page .v-text--lead { max-width: 46ch; }
+.v-page-actions { margin-top: 1.6rem; }
+
+/* Les étapes : une liste ordonnée, le numéro en chiffre d'or. Pas de
+   pastille ronde — c'est le motif par défaut de tous les sites générés,
+   et c'est précisément ce qu'on a retiré de l'accueil le 2026-09-09. */
+.v-steps { list-style: none; margin-top: clamp(1.8rem, 4vw, 2.6rem); display: grid; gap: clamp(1.4rem, 3vw, 2rem); }
+.v-step { display: flex; gap: clamp(0.9rem, 2.5vw, 1.4rem); align-items: baseline; max-width: 54ch; }
+.v-step-num {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  color: var(--gold);
+  line-height: 1;
+  flex: 0 0 auto;
+  min-width: 1.2em;
+}
+.v-step-title { font-family: var(--font-title); font-size: 1.25rem; color: var(--ink); margin-bottom: 0.35rem; }
+
+@media (min-width: 900px) {
+  .v-steps { grid-template-columns: repeat(3, 1fr); gap: 2.4rem; }
+  .v-step { flex-direction: column; gap: 0.7rem; max-width: none; }
 }

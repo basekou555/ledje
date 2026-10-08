@@ -51,6 +51,17 @@ Le cadre reste : vente en LOTS (jamais du détail individuel sur stand), pendant
 
 **⚠️ Volet com (dispositif de sollicitation en mosquée : flyer, affiche permettant à un fidèle d'offrir un lot) : NE S'OUVRE QU'APRÈS l'étiquette et le branding** — décision explicite Basekou 2026-07-24 (cf. `../01_adn/identite-visuelle.md`, chemin critique logo v2).
 
+**✅ [2026-10-06] Condition remplie, et premier support ouvert : le SITE.** L'étiquette v1.2 est imprimée (240 ex.) et le wordmark est en ligne depuis le 28/09 — le verrou du 24/07 est levé. Le modèle C2B2C a désormais **sa propre page, `/offrir`** (`../04_operations/site-technique.md`), accessible par un lien dédié dans l'en-tête du site. Elle a d'abord été une section de l'accueil le même jour, avant que Basekou ne demande une page : **l'audience du canal n'est pas celle de l'accueil** — c'est un fidèle à qui on envoie le lien directement. Deux réserves y sont tenues, à rouvrir quand le canal sera repris :
+
+- **aucun prix affiché** — le barème existe mais le canal est en attente volontaire (31/07) et le site n'a pas de commerce ; un tarif public engagerait sur un canal non servi ;
+- **aucune image, aucun symbole** — conformité (`../01_adn/conformite.md`) et refus d'utiliser la religion comme argument (`../01_adn/combats.md`). Le texte décrit un geste logistique, jamais un acte de piété.
+
+Le CTA n'est **pas un paiement** : la mécanique Stripe listée plus bas en « prochaines actions » n'est pas construite, et la section le dit au visiteur.
+
+**[2026-10-06, même jour] Le canal de contact a bougé trois fois, et il se fixe sur MAIL + INSTAGRAM.** Mail → WhatsApp → mail + Instagram, sur arbitrage de Basekou dans la même soirée. ✅ **Le numéro personnel est retiré du site** : il n'est plus moissonnable, ce qui répond au risque signalé au moment de sa mise en ligne. Le bouton principal ouvre un mail (`basekou@ledje.fr`, objet prérempli) ; une seconde porte renvoie vers le **profil Instagram**, en réutilisant l'entrée de `SOCIALS` pour qu'il n'y ait qu'une source du handle.
+
+**Le flyer/affiche en mosquée, lui, reste à faire.**
+
 ### Historique du modèle
 
 - **[2026-07-18] Modèle B2B initial (remplacé)** : « la mosquée achète et offre aux fidèles » — invalidé le 21/07 par l'échange Lyon 2.
