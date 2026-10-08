@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-02
+maj: 2026-10-08
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
 resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication."
 ---
@@ -186,6 +186,38 @@ Conséquence assumée : **le volume viendra des formats IA** (l'évidence, le d�
 ⚠️ **Recommandation non tranchée** : construire les prompts **par variantes comparables** (même script, deux hooks ; même hook, deux traitements). Sans cela on produit beaucoup sans rien apprendre — et la cadence devient du volume, pas un test.
 
 ---
+
+## 🔍 2026-10-08 — LE FLYER EST RELU CONTRE LA GRILLE, recto-verso
+
+*(Support envoyé en image par Basekou le 08/10, après deux séances de demande. ⚠️ **Le lien Canva n'était PAS lisible** — le connecteur répond `permission_denied` — **donc cette relecture porte sur l'IMAGE reçue, pas sur le fichier source.** Une version ultérieure du design ne serait pas couverte.)*
+
+### ✅ CONFORMITÉ : le support est propre, et c'est le point principal
+
+| Ce que le flyer dit | Verdict | Règle |
+|---|---|---|
+| **« Jusqu'à ⅓ moins de sucre qu'un soda »** | ✅ **CONFORME** | **Le « jusqu'à » est présent et AUCUNE marque n'est nommée** — les deux conditions de la règle. C'est une allégation NUTRITIONNELLE, pas de santé |
+| **« miel de France »** | ✅ **CONFORME** | Explicitement à la colonne autorisée : « miel pur, français, origine tracée, jamais chauffé » |
+| **Aucun effet sur le corps, aucun symbole religieux, aucune citation** | ✅ **CONFORME** | Règle unique : tradition, geste, qualité produit — jamais un effet sur le corps |
+| **Aucun prix affiché** | ✅ **COHÉRENT** | Le prix de cession n'est pas arbitré — ne rien afficher était le seul choix tenable |
+
+⚠️ **UN SEUL POINT À SURVEILLER, et je le pose une fois sans en faire une alerte : « une boisson plus LÉGÈRE », placé juste sous « ⅓ moins de sucre ».** **La grille autorise le goût « léger et frais » (sensoriel) et interdit « allégé / light / minceur » (réglementé).** ➡️ **« Plus légère » n'est littéralement aucun des termes interdits, mais son voisinage avec le chiffre de sucre l'ancre du côté de la COMPOSITION plutôt que du sensoriel.** 📌 **Jugement de limite, pas une infraction : signalé pour que Basekou le voie, pas pour bloquer.**
+
+⚠️ **« 100 % naturelle » n'est ni autorisé ni interdit par la grille — il n'y figure tout simplement pas, et n'a jamais été arbitré.** 📌 **Ce n'est pas une allégation de santé ; c'est une affirmation ABSOLUE sur un terme qui n'a pas de définition réglementaire pour une boisson. À trancher une fois pour toutes, parce qu'il reviendra sur chaque support.**
+
+### 🔴 CE QUI NE VA PAS N'EST PAS LA CONFORMITÉ — c'est l'exactitude
+
+| # | Ce qui est écrit | Le problème |
+|---|---|---|
+| ① | **« sans arômes artificiel »** | 🔴 **FAUTE D'ACCORD sur un support public.** La forme confirmée au dépôt est **« sans arôme artificiel »** *(au singulier)* ; à défaut, « sans arômes artificiels ». **En l'état, ni l'un ni l'autre.** |
+| ② | **« remplie à la main par notre ÉQUIPE lyonnaise »** | 🔴 **Il n'y a pas d'équipe.** **Toutes les mesures de capacité du dépôt sont faites par une seule personne** *(≈ 5 min/bouteille, deux mesures concordantes)*. ⚠️ **Ce n'est pas une infraction, c'est une affirmation qu'un prospect peut tester — et le « fait main » perd sa force si le reste est enjolivé.** |
+| ③ | **« un apiculteur situé à 40 min de Lyon »** | ⚠️ **NON VÉRIFIÉ au dépôt** : le fournisseur est identifié *(Le Cueilleur de Miels, contact Joan)* **mais AUCUNE distance n'y est consignée.** 📌 **Ce n'est pas dit faux — c'est dit invérifiable d'ici, et ça devient une donnée publique.** |
+| ④ | **« miel de France » (recto) ET « du miel local » (verso)** | ⚠️ **Deux formulations pour la même chose sur le même support**, dont une seule est au lexique validé. **« Local » est plus fort et plus vague.** |
+
+### ⚠️ ET UN ARBITRAGE OUVERT PART AVEC LE FLYER
+
+🔴 **L'ACCROCHE « De l'eau et du miel. Rien de plus. » N'A JAMAIS ÉTÉ TRANCHÉE.** **L'item 1 du backlog est SUSPENDU depuis le 19/08 — *« l'accroche n'est pas tranchée, la décision du 24/07 a été annulée »* — et son rouvreur est Basekou.** ➡️ **Le flyer tranche donc DE FAIT ce que le backlog tient pour ouvert.** 📌 **Ce n'est pas un reproche : un support doit bien dire quelque chose. Mais si cette accroche part en public, elle cesse d'être une option.**
+
+⛔ **DEUX CHOSES QUE JE NE PEUX PAS JUGER SUR UNE IMAGE, et que je ne juge donc pas** : ① **si la photo de bouteille est la PHOTO IA à remplacer** *(règle du 02/09, suspendue le 09/09 avec condition de sortie — remplie depuis le lot étiqueté du 30/09)* ; ② **vers quoi pointe le QR code.** 📌 **Les deux se répondent en une phrase de Basekou.**
 
 ## Le filtre avant publication
 
