@@ -1,12 +1,29 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-10-02
+maj: 2026-10-08
 source: "SOT §1.7 + §5.0 (archive 2026-07-24) ; plafond B2C 2026-07-20 et grilles par canal 2026-07-24 (page relais + arbitrage Basekou)"
 resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix bouteille 33cl par canal (B2C 2,50 € / C2B2C / B2B), et le piège : ne jamais communiquer sur le coût de revient."
 ---
 
 # Prix
+
+## 🔴🔴 2026-10-08 — LE DOSSIER PRIX S'INVERSE : la question n'est plus « 1 € est-il trop cher » mais « 1 € ne nous classe-t-il pas dans la mauvaise catégorie »
+
+*(Relevé au débrief Mauya du 07/10, descendu de la file 📥 le 08/10. `../03_marche/canal-restaurant.md`.)*
+
+🎯🎯 **DEUX ÉTAGES DE PRIX COEXISTENT DANS LA CARTE D'UN MÊME RESTAURATEUR, et c'est le fait le plus utile du débrief :**
+
+| Ce qu'elle achète | Elle paie | Elle revend |
+|---|---|---|
+| **MAJIYA** *(boîte béninoise, verre 33 cl, corossol/goyave)* | **3 €** | **5 €** — et ≈ **6 €** dans un autre restaurant |
+| **Son bissap** *(qu'elle ne fait plus elle-même)* | **1 €** | **3 €** |
+
+⛔ **À 1 €, LÉDJÉ EST RANGÉ DANS L'ÉTAGE DU BISSAP, PAS DANS CELUI DE MAJIYA.** ➡️ **Le prix ne dit pas seulement combien ça coûte : il dit à quelle catégorie le produit appartient, et le restaurateur le lit comme tel.**
+
+🔴 **ET C'EST CONTRE-INTUITIF PAR RAPPORT À TOUT CE QUI PRÉCÈDE : le dossier poussait à BAISSER** *(cible « descendre à 50 centimes » du 30/09, objection prix de Baca Bamba)*. **Ce fait pousse dans l'autre sens.** 📌 **Et il rencontre le calcul du 02/10, qui a établi que le coût matière est DÉJÀ supérieur au prix pratiqué** ⇒ **les deux lectures convergent vers le haut, pour des raisons entièrement différentes.**
+
+⚠️ **À pondérer : MAJIYA ferait 40 à 50 bouteilles/jour, mais c'est DÉCLARATIF et non vérifié.** ⛔ **RIEN N'EST TRANCHÉ, et surtout pas par cette fiche : monter le prix de cession est une décision de Basekou, et elle rouvrirait l'objection prix de Baca Bamba.**
 
 ## ✅ 2026-10-02 au soir — LA CONTRADICTION EST FERMÉE : c'est bien SOUS le coût matière
 

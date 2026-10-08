@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-06
+maj: 2026-10-08
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
-resume: "Le réglementaire à boucler avant la première vente. 🔴 **LA DDPP 69 A RÉPONDU LE 01/10** (courrier 2026-8172) : catégorie « préparation de produits composés » CONFIRMÉE · **DÉROGATION À L'AGRÉMENT OBLIGATOIRE pour vendre à des professionnels, CERFA 13982** — tranche CONTRE la DDPP 56 du 18/07, la consigne « ne rien déposer avant l'arbitrage » TOMBE · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS. ⚠️ Aucun seuil identifiable à l'annexe III pour ce produit (absence constatée). ⛔ Le 13982 n'est PAS déposé, et trois professionnels ont déjà reçu du produit ou sont en négociation. + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
+resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF — LE POINT DÉCLARÉ CLOS LE 24/09 EST ROUVERT : relance du 07/10 sur une dette de cotisations, avec mention d'actions de recouvrement ; déclarer n'est pas payer.** Aucune décision prise, aucun montant au dépôt. 🔴 **LA DDPP 69 A RÉPONDU LE 01/10** (courrier 2026-8172) : catégorie « préparation de produits composés » CONFIRMÉE · **DÉROGATION À L'AGRÉMENT OBLIGATOIRE pour vendre à des professionnels, CERFA 13982** — tranche CONTRE la DDPP 56 du 18/07, la consigne « ne rien déposer avant l'arbitrage » TOMBE · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS. ⚠️ Aucun seuil identifiable à l'annexe III pour ce produit (absence constatée). ⛔ Le 13982 n'est PAS déposé, et trois professionnels ont déjà reçu du produit ou sont en négociation. + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
 
 # Démarches administratives & réglementaires
@@ -146,13 +146,27 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **LA DDPP 6
 
 **Dépôt INPI (~190-230 € selon classes) : différé pour raison budgétaire** (décision assumée, pas un oubli). **Déclencheur de réexamen : au premier contenu TikTok public** (le risque de dépôt par un tiers grandit avec la visibilité, pas avec le chiffre d'affaires) — à revisiter à ce moment, selon le budget disponible alors. Classes pertinentes identifiées : **30** (miel) impérative, **32** (boissons, pour la bouteille phase 2 — à inclure au même dépôt si possible, car impossible d'ajouter une classe après coup sans nouveau dépôt complet).
 
-## 🧾 Déclarations sociales — URSSAF T2 2026 (ouvert le 2026-09-21, ✅ CLOS le 2026-09-24)
+## 🧾 Déclarations sociales — URSSAF (ouvert le 2026-09-21, déclaré clos le 2026-09-24, 🔴 ROUVERT le 2026-10-07)
 
 **Un mail URSSAF du 21/09 signalait une déclaration de chiffre d'affaires manquante et annonçait une pénalité.** *(⚠️ À ne pas confondre avec le mail du 23/09, qui était une invitation à un webinaire.)*
 
 ✅ **Basekou a fait ses déclarations le 2026-09-24.** ➡️ **Le point est clos, la pénalité annoncée n'a plus d'objet.**
 
 📌 **Ce que l'épisode a duré, et pourquoi c'est écrit** : le sujet est resté **quatre séances sans date** *(21, 22, 23, 24/09)*, dont deux où la non-réponse elle-même a été consignée. **C'est cette consignation qui l'a empêché de retomber une troisième fois** — un sujet dont on écrit qu'il n'a pas de réponse ne disparaît pas ; un sujet qu'on ne mentionne plus, si.
+
+🔴🔴 **2026-10-07 — LE POINT SE ROUVRE, ET « CLOS » ÉTAIT FAUX : DÉCLARER N'EST PAS PAYER.** *(Session propriétaire : séance du 2026-10-08, suite ; fait vérifié dans la boîte le 08/10, pas sur la foi du prompt qui le signalait.)*
+
+**Un mail du 07/10 à 13h18, objet *« relance - paiement de vos dettes »*, annonce une dette de cotisations sur le SIRET qui porte le dossier, et prévient que l'Urssaf *« pourra engager des actions pour le paiement des sommes dues »*.** ⛔ **Aucun montant, aucun numéro de compte, aucune donnée de ce statut n'entre dans cette fiche** *(le détail vit dans le mail et sur la page ÉTAT, qui est interne)*.
+
+🎯 **CE QUE ÇA APPREND, au-delà du cas : la section ci-dessus a été fermée le 24/09 sur une DÉCLARATION, et une déclaration faite ne vaut pas un paiement.** ➡️ **Le point s'est donc rouvert tout seul treize jours plus tard — ce n'est pas un oubli de suivi, c'est un critère de clôture trop large.**
+
+📌 **Deux voies offertes par le courrier lui-même, aucune choisie à ce stade** : une **DEMANDE DE DÉLAI DE PAIEMENT** depuis la messagerie du portail *(un échelonnement accordé suspend les actions de recouvrement)* et une **DEMANDE D'ACTION SOCIALE du CPSTI** *(Conseil de la protection sociale des travailleurs indépendants, qui peut accorder une aide au paiement des cotisations)*.
+
+🎯 **PROBABLE, et écrit comme tel : le message URSSAF du 03/10 — toujours NON OUVERT au 08/10, sixième jour — renvoyait à la même messagerie du portail et porte probablement le même objet.** ⛔ **Rien ne le démontre : les deux restent deux faits distincts.** 📌 **Et le portail reste l'endroit où se lit le TAUX DE COTISATION, premier des deux effets réels du code APE 53.20Z** *(cf. plus haut)*.
+
+⚠️ **ALERTE POSÉE UNE FOIS, non rejouée : des actions de recouvrement sont annoncées sur le MÊME SIRET que celui qui porte la démarche réglementaire ouverte auprès de la DDPP.**
+
+✅✅ **2026-10-08 — BASEKOU TRANCHE : IL PAIE.** *« Je paie bientôt, pas besoin de revenir dessus. »* ➡️ **La dette est prise en charge par lui ; le point sort des relances et le compteur s'arrête.** ⛔ **Aucune date n'est écrite, et aucune ne lui est demandée.** 📌 **Les deux voies ci-dessus** *(délai de paiement, action sociale du CPSTI)* **ne sont donc pas empruntées — elles restent écrites à titre de rappel, pas de relance.** ⚠️ **L'alerte sur le SIRET partagé avec la démarche DDPP a été posée une fois : elle ne se rejoue pas.** ⛔ **Et ce qui reste ouvert ne l'est plus par ce point : le message du 03/10 n'est toujours pas ouvert, et le taux de cotisation lié au code APE 53.20Z reste à lire sur le portail.**
 
 ⚠️ **Un point n'a jamais été explicité et ne l'est toujours pas : le rattachement de ce statut à Lédjé.** ➡️ **Il cesse d'être bloquant** *(la déclaration est faite)* **mais il reste ouvert pour la suite** : c'est ce même statut qui portera **la facture de la première vente du 29/09** *(cf. `production-artisanale.md`)*. ⛔ **Aucun montant, aucun numéro, aucune donnée de ce statut ne s'écrit dans ce dépôt.**
 
