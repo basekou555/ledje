@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-06
+maj: 2026-10-09
 source: "SOT §1.4bis pt 3 (archive 2026-07-24) — bascule C2B2C 2026-07-21, volet com 2026-07-24 (page relais + arbitrage Basekou)"
-resume: "Canal basculé en C2B2C le 21/07 (don sponsorisé : un fidèle offre un lot à sa mosquée) ; barème sans négociation ; volet com après étiquette + branding. 🆕 **LE CANAL SE RÉVEILLE LE 02/10, EN SOMMEIL DEPUIS LE 03/08, ET PAR UN AUTRE MODÈLE** : une cliente acheteuse d'O'Daba est responsable com d'une mosquée et demande une **BOUTEILLE PERSONNALISÉE en PRESTATION PAYÉE à 1 €** — ici la mosquée est le CLIENT, pas le bénéficiaire d'un don. ⚠️ **Correction du 06/10 : le cadre religieux a été posé par Basekou, pas reconnu spontanément** — la demande naît APRÈS l'argument. ✅ **ET LA TENSION EST TRANCHÉE LE MÊME JOUR : la religion se nomme À L'ORAL et seulement devant un public dont on sait qu'il est musulman, jamais publiquement** *(`../01_adn/identite-verbale.md`)* ⇒ **une parole orale en mosquée est COUVERTE, une AFFICHE ne l'est pas.** ⛔ Rien n'est tranché : ni le modèle, ni le support, ni le prix. Question de marque à trancher avant toute affiche : **un support en mosquée doit dire LE PRODUIT, pas LA VERTU**. Point matériel : une bouteille personnalisée = une étiquette de plus par client."
+resume: "✅✅ **2026-10-09 — LE CANAL SORT DE SON ATTENTE VOLONTAIRE : ≈ 10 MOSQUÉES CONTACTÉES PAR DM INSTAGRAM le 08/10, et le contact de la responsable com est OBTENU (message parti, sans réponse) — la fiche écrivait qu'il n'avait jamais été recueilli.** 📄 **La page `/offrir` est en production depuis le 08/10 ; la RÈGLE qu'elle supposerait reste `[en discussion]`.** ⛔ **Et la mécanique de paiement n'existe toujours pas.** Canal basculé en C2B2C le 21/07 (don sponsorisé : un fidèle offre un lot à sa mosquée) ; barème sans négociation ; volet com après étiquette + branding. 🆕 **LE CANAL SE RÉVEILLE LE 02/10, EN SOMMEIL DEPUIS LE 03/08, ET PAR UN AUTRE MODÈLE** : une cliente acheteuse d'O'Daba est responsable com d'une mosquée et demande une **BOUTEILLE PERSONNALISÉE en PRESTATION PAYÉE à 1 €** — ici la mosquée est le CLIENT, pas le bénéficiaire d'un don. ⚠️ **Correction du 06/10 : le cadre religieux a été posé par Basekou, pas reconnu spontanément** — la demande naît APRÈS l'argument. ✅ **ET LA TENSION EST TRANCHÉE LE MÊME JOUR : la religion se nomme À L'ORAL et seulement devant un public dont on sait qu'il est musulman, jamais publiquement** *(`../01_adn/identite-verbale.md`)* ⇒ **une parole orale en mosquée est COUVERTE, une AFFICHE ne l'est pas.** ⛔ Rien n'est tranché : ni le modèle, ni le support, ni le prix. Question de marque à trancher avant toute affiche : **un support en mosquée doit dire LE PRODUIT, pas LA VERTU**. Point matériel : une bouteille personnalisée = une étiquette de plus par client."
 ---
 
 # Canal — Mosquée
@@ -85,14 +85,35 @@ Identifier les volumes de consommation par mosquée → construire la courbe jus
 ## Statut & prochaine étape
 
 - **Où on en est** : modèle C2B2C validé (21/07), à re-tester auprès d'autres mosquées. Premiers contacts à identifier (piste de l'entretien Mom Test 4 : fête d'école islamique, Cheikh Zakaria Ivry, président culturel).
-- **⚠️ Priorité (2026-07-31) : canal en attente volontaire.** Basekou concentre l'effort sur **le canal restaurant d'abord** ; la mosquée sera reprise une fois que les restaurants auront avancé. Ce n'est pas un abandon, c'est un ordre de passage.
+### 🕌🕌 2026-10-09 — LE CANAL SORT DE SON ATTENTE VOLONTAIRE, ET PAR UN GESTE DATÉ
+
+*(Déclaré par Basekou le 09/10. Session propriétaire : séance du 2026-10-09.)*
+
+✅✅ **UNE DIZAINE DE MOSQUÉES ONT ÉTÉ CONTACTÉES PAR MESSAGE INSTAGRAM LE 08/10** — *« pour leur proposer une discussion, un message de prospection »*. ➡️ **Le canal était en ATTENTE VOLONTAIRE depuis le 31/07** *(un ordre de passage, pas un abandon)*, **réveillé le 02/10 par une demande ENTRANTE ; il est désormais PROSPECTÉ activement, et le canal de prospection est identifié : le DM Instagram.** ⛔ **Aucune réponse reçue à ce stade.**
+
+✅ **ET LE CONTACT DE LA RESPONSABLE COM EST OBTENU — un message est parti, sans réponse encore.** ⛔ **Cette fiche écrivait que ce contact n'avait JAMAIS été recueilli : c'est corrigé ici.** 📌 **Pourquoi il comptait : c'est une recommandation CHAUDE** *(une cliente acheteuse d'O'Daba, responsable com d'une mosquée, demandeuse d'une bouteille personnalisée en prestation payée)*, **et cette fiche notait qu'elle vaut mieux qu'une série de messages froids.**
+
+⚠️ **PÉRIMÈTRE STRICT DE CE QUI EST ÉCRIT ICI : « une dizaine de mosquées contactées le 08/10 », rien de plus.** ⛔ **Un relevé de ≈ 30 comptes et un carnet Notion ont été évoqués par ailleurs — NON vérifiés, ils n'entrent pas en fiche.**
+
+⛔ **CE QUI NE BOUGE PAS, et il faut le lire à côté de la prospection : la mécanique de commande et de paiement n'existe toujours pas.** **La page `/offrir`, en ligne depuis le 08/10, le dit au visiteur en toutes lettres plutôt que de promettre une commande.** ⚠️ **Donc une mosquée qui répondrait oui aujourd'hui n'a aucun chemin de paiement : c'est la prochaine contrainte du canal, et elle est écrite plutôt que déduite.**
+
+### 📄 2026-10-08 — LA PAGE `/offrir` EST EN PRODUCTION, ET LA RÈGLE QU'ELLE SUPPOSE N'EST PAS TRANCHÉE
+
+✅ **`[figé]` : la page est en ligne depuis le 08/10 à 12h46** *(PR #103, mergée par Basekou lui-même)*, **avec un lien dédié dans l'en-tête du site. Elle nomme une DESTINATION et un BÉNÉFICIAIRE, sans aucun argument religieux — ni mérite, ni récompense, ni sunna — et le site n'écrit pas « sadaka ».**
+
+⚠️ **`[en discussion]` : la RÈGLE GÉNÉRALE que la PR en tirait** *(« nommer une destination sur un support écrit public est couvert, et ça devient la règle »)* **N'EST PAS tranchée.** **Basekou, le 09/10 : *« pour l'instant on peut laisser comme ça, mais j'ai pas réfléchi plus que ça, j'en avais besoin, donc on l'a fait »*.** ➡️ **Un besoin opérationnel satisfait n'est pas un arbitrage de principe ; le doute descend d'un niveau.**
+
+✅ **ET LA PHRASE DE CETTE FICHE SUR L'AFFICHE RESTE VRAIE — vérifiée, pas supposée.** Elle dit qu'une affiche *« ne porte pas l'argument religieux »* : or la page ne porte aucun argument, elle nomme une destination. ⚠️ **L'avertissement du 07/10, qui annonçait cette phrase « devenue fausse » si l'option (a) était retenue, était trop large.** ✅ **`identite-verbale.md` (PROTÉGÉE) reste intacte.**
+
+- **⚠️ Priorité (2026-07-31) : canal en attente volontaire** — ⛔ **LEVÉE le 2026-10-09, cf. ci-dessus.** Basekou concentre l'effort sur **le canal restaurant d'abord** ; la mosquée sera reprise une fois que les restaurants auront avancé. Ce n'est pas un abandon, c'est un ordre de passage.
 - **Prochaines actions (quand le canal sera repris)** : construire le modèle C2B2C opérationnel — argumentaire fidèle donateur, mécanique de commande/paiement (Stripe), « oui d'autorisation » mosquée ; re-tester auprès d'autres mosquées. Volet com : après étiquette + branding.
 
 ## Contacts
 
 | Nom | Rôle | Dernier échange | Suivi |
 |---|---|---|---|
-| à compléter | | | |
+| *(nom non recueilli)* | **Responsable com d'une mosquée**, rencontrée comme cliente acheteuse chez O'Daba le 02/10 | **Message envoyé — déclaré le 09/10** | ⚠️ **sans réponse ; recommandation chaude, demandeuse d'une bouteille personnalisée en prestation payée** |
+| **≈ 10 mosquées** *(non nommées au dépôt)* | prospection sortante | **DM Instagram, 08/10** | ⛔ **aucune réponse à ce stade** |
 
 ## Apprentissages
 

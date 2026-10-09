@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-08
+maj: 2026-10-09
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
 resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF — LE POINT DÉCLARÉ CLOS LE 24/09 EST ROUVERT : relance du 07/10 sur une dette de cotisations, avec mention d'actions de recouvrement ; déclarer n'est pas payer.** Aucune décision prise, aucun montant au dépôt. 🔴 **LA DDPP 69 A RÉPONDU LE 01/10** (courrier 2026-8172) : catégorie « préparation de produits composés » CONFIRMÉE · **DÉROGATION À L'AGRÉMENT OBLIGATOIRE pour vendre à des professionnels, CERFA 13982** — tranche CONTRE la DDPP 56 du 18/07, la consigne « ne rien déposer avant l'arbitrage » TOMBE · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS. ⚠️ Aucun seuil identifiable à l'annexe III pour ce produit (absence constatée). ⛔ Le 13982 n'est PAS déposé, et trois professionnels ont déjà reçu du produit ou sont en négociation. + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
@@ -75,6 +75,16 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 ### ② 🔴 LA DÉROGATION À L'AGRÉMENT EST OBLIGATOIRE POUR VENDRE À DES PROFESSIONNELS — et la contradiction est tranchée
 
 ⛔ **Pour céder des denrées à d'autres professionnels, il faut la dérogation à l'agrément sanitaire — CERFA 13982 — dans la limite de quantités et de distance.**
+
+⛔⛔ **2026-10-09 — LE FORMULAIRE NE PEUT PAS ÊTRE REMPLI : NOTRE CATÉGORIE DE PRODUITS N'Y FIGURE PAS.** *(Déclaré par Basekou le 09/10 : « on a découvert qu'il n'y avait pas notre catégorie de produits dans le CERFA, donc on peut pas le faire ; faut renvoyer un mail à la DDPP ». Session propriétaire : séance du 2026-10-09.)*
+
+🎯🎯 **C'EST LA PREMIÈRE VRAIE DÉPENDANCE DU SUJET, ET ELLE ARRÊTE LE COMPTEUR.** **Les reports des 02, 06, 07 et 08/10 portaient des motifs d'emploi du temps ou de visibilité ; celui-ci est MATÉRIEL et vérifiable.**
+
+✅ **ET ÇA CONVERGE AVEC CE QUE CETTE FICHE PORTAIT DÉJÀ : aucun seuil n'est identifiable à l'annexe III de l'arrêté du 8 juin 2006 pour le miel — absence CONSTATÉE, pas déduite.** ➡️ **La même absence se retrouve maintenant sur le FORMULAIRE lui-même : deux niveaux de texte, un seul trou — ce produit n'est pas prévu.**
+
+📌 **LE SUJET CHANGE DONC D'OBJET : ce n'est plus « déposer le 13982 », c'est « relancer la DDPP 69 par mail pour savoir sous quelle catégorie déposer »** — et l'interlocutrice est identifiée *(courrier départ 2026-8172 du 01/10)*. ⚠️ **Appréciation de Basekou, consignée telle quelle : *« c'est pas vraiment un sujet, mais il faudra trouver »*.**
+
+⛔ **CE QUI NE CHANGE PAS : la dérogation reste OBLIGATOIRE pour céder à des professionnels, et le produit a continué de circuler** *(O'Daba, Baca Bamba, Mauya, H7)*. ⚠️ **Et depuis le 08/10, la page publique `/prestations` propose des formules à des organisateurs d'événements — l'offre aux professionnels est donc écrite, publique et datée. Fait vérifiable sur le site, consigné une fois.**
 
 🎯 **CE QUE ÇA TRANCHE, ET C'EST LE POINT : la contradiction ouverte le 08/09 est réglée CONTRE la DDPP 56.** La DDPP 56 avait répondu le 18/07 *« ni agrément ni dérogation requis — déclaration d'activité seule »* ; **la DDPP 69, qui est l'autorité compétente, dit l'inverse.** ➡️ **La consigne « ne rien déposer avant l'arbitrage », posée le 08/09, TOMBE : l'arbitrage est arrivé.**
 
