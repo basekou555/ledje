@@ -1153,3 +1153,73 @@ img, svg, video { display: block; max-width: 100%; }
   .v-header-cta { font-size: 0.74rem; padding: 0.5rem 0.75rem; }
   .v-wordmark img { height: 1.35rem; }
 }
+
+/* ════════════════════════════════════════════
+   LES RÉSEAUX — hors pied de page (2026-10-11)
+   Les liens n'existaient qu'en bas de page, en icônes muettes : invisibles
+   pour qui arrive sur le site. Deux emplacements de plus, chacun avec son
+   traitement.
+   ════════════════════════════════════════════ */
+
+/* Variante « icônes » — l'en-tête. Discrète : même poids visuel que les
+   liens texte voisins, surtout pas un bouton de plus. */
+.v-social { display: flex; align-items: center; gap: 0.15rem; }
+.v-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; height: 40px;
+  color: var(--ink);
+  border-radius: 50%;
+  transition: color var(--transition), background-color var(--transition);
+}
+.v-social a:hover, .v-social a:focus-visible {
+  color: var(--gold-deep);
+  background-color: rgba(20, 61, 43, 0.06);
+}
+.v-social svg { width: 19px; height: 19px; display: block; }
+
+/* L'en-tête tient tout juste à 320 px avec trois entrées : les icônes
+   n'apparaissent qu'au-dessus de 900 px, là où la place ne manque pas. */
+.v-header-social { display: none; }
+@media (min-width: 900px) { .v-header-social { display: inline-flex; } }
+
+/* Variante « nommée » — la bande de l'accueil. Le nom du réseau est écrit
+   à côté de l'icône : c'est ce qui rend la cible lisible de loin. */
+.v-social--named { justify-content: center; gap: 0.6rem; flex-wrap: wrap; }
+.v-social--named a {
+  width: auto; height: auto;
+  gap: 0.5rem;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid rgba(20, 61, 43, 0.18);
+  border-radius: var(--radius-pill);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.v-social--named a:hover, .v-social--named a:focus-visible {
+  color: var(--surface);
+  background-color: var(--green-deep);
+  border-color: var(--green-deep);
+}
+
+/* La bande elle-même : courte, centrée, en fond doux. Elle sépare le bloc
+   de contact de la dernière image sans prétendre au rang d'une section. */
+.v-social-band {
+  background: var(--surface-soft);
+  padding: clamp(2.4rem, 6vw, 3.4rem) 0;
+  text-align: center;
+}
+.v-social-band-title {
+  font-family: var(--font-title);
+  font-size: clamp(1.15rem, 3vw, 1.5rem);
+  color: var(--ink);
+  margin-bottom: 0.3rem;
+}
+.v-social-band-handle {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--gold-deep);
+  margin-bottom: 1.2rem;
+}

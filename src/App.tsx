@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { submitEmail, trackEvent } from './lib/supabase'
-import { SiteHeader, SiteFooter } from './Chrome'
+import { SiteHeader, SiteFooter, SocialLinks, HANDLE } from './Chrome'
 
 /* ════════════════════════════════════════════════════════════════
    lédjé — vitrine
@@ -415,6 +415,25 @@ export default function App() {
             </div>
           </div>
         </section>
+        {/* ══ LES RÉSEAUX — une bande, avant la dernière image ══
+
+            Ajoutée le 2026-10-11. Les liens n'existaient qu'en pied de page,
+            où personne ne descend. Ici le handle est ÉCRIT : une icône ne se
+            retient pas, « @its.ledje » se recherche dans l'application plus
+            tard, sans le site sous les yeux.
+
+            Une BANDE et pas une section : une ligne, deux liens, aucune
+            image. Elle ne doit pas peser autant qu'un argument produit. */}
+        <section className="v-social-band" aria-labelledby="reseaux-title">
+          <div className="container reveal">
+            <p id="reseaux-title" className="v-social-band-title">
+              On montre ce qu’on fabrique, au fur et à mesure.
+            </p>
+            <p className="v-social-band-handle">@{HANDLE}</p>
+            <SocialLinks variant="named" where="accueil" />
+          </div>
+        </section>
+
         {/* ══ L'APRÈS — la table qu'on vient de quitter. Aucun texte :
             c'est la dernière image, pas un argument de plus. ══ */}
         <section className="v-outro" aria-hidden="true">
