@@ -59,6 +59,41 @@ export function SocialIcon({ name }: { name: string }) {
   )
 }
 
+/* ── Les réseaux, hors pied de page ──────────────────────────────────────
+   Ajouté le 2026-10-11 : les liens existaient, mais UNIQUEMENT en pied de
+   page, en icônes muettes et à 72 % d'opacité. Quelqu'un qui arrive sur le
+   site ne les voit jamais.
+
+   Deux variantes, et la différence n'est pas cosmétique :
+   — `icons` (en-tête) : deux icônes, pour ne pas alourdir une barre qui
+     porte déjà trois entrées ;
+   — `named` (accueil) : le handle est ÉCRIT. Une icône ne se retient pas ;
+     « @its.ledje » se recherche dans l'application, même plus tard, même
+     sans le site sous les yeux. */
+export const HANDLE = 'its.ledje'
+
+export function SocialLinks({ variant = 'icons', where = 'inconnu' }: { variant?: 'icons' | 'named'; where?: string }) {
+  const liens = SOCIALS.filter(s => s.url)
+  if (liens.length === 0) return null
+  return (
+    <nav className={variant === 'named' ? 'v-social v-social--named' : 'v-social'} aria-label="Nos réseaux">
+      {liens.map(s => (
+        <a
+          key={s.name}
+          href={s.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`${s.name} — @${HANDLE}`}
+          onClick={() => trackEvent(`social_click_${s.icon}_${where}`)}
+        >
+          <SocialIcon name={s.icon} />
+          {variant === 'named' && <span>{s.name}</span>}
+        </a>
+      ))}
+    </nav>
+  )
+}
+
 /* ── L'en-tête ────────────────────────────────────────────────────────────
    Trois éléments là où il y en avait deux : le wordmark, le lien « Offrir »
    et le bouton d'avis.
@@ -100,6 +135,11 @@ export function SiteHeader({ home = false }: { home?: boolean }) {
             navigation à sa gauche, « Donner ton avis » passait sur deux
             lignes à 390 px et la barre doublait de hauteur. On coupe le mot
             porteur de politesse, pas le sens. */}
+        {/* Masqué sous 900 px : la barre tient tout juste à 320 px avec
+            trois entrées, deux icônes de plus la casseraient. Sur petit
+            écran, le bloc de l'accueil et le pied de page prennent le
+            relais. */}
+        <span className="v-header-social"><SocialLinks where="header" /></span>
         <a className="v-header-cta" href="/avis">
           <span className="v-cta-long">Donner t</span>
           <span className="v-cta-short">T</span>on avis
