@@ -192,6 +192,31 @@ export default function App() {
         </section>
 
         {/* ══ 1 bis · CE QUE C'EST — le concret, factuel, rassurant ══ */}
+        {/* ══ LES RÉSEAUX — une bande, juste après le hero ══
+
+            Ajoutée le 2026-10-11, d'abord en bas de page, REMONTÉE ICI le
+            même jour sur demande de Basekou : « sous la première section ».
+            Les liens n'existaient qu'en pied de page, où personne ne descend
+            — les remettre en bas d'une page longue n'aurait réglé le problème
+            qu'à moitié. Ici, le visiteur les croise avant même d'avoir lu le
+            produit.
+
+            Le handle est ÉCRIT : une icône ne se retient pas, « @its.ledje »
+            se recherche dans l'application plus tard, sans le site sous les
+            yeux.
+
+            Une BANDE et pas une section : une ligne, deux liens, aucune
+            image. Elle ne doit pas peser autant qu'un argument produit. */}
+        <section className="v-social-band" aria-labelledby="reseaux-title">
+          <div className="container reveal">
+            <p id="reseaux-title" className="v-social-band-title">
+              On montre ce qu’on fabrique, au fur et à mesure.
+            </p>
+            <p className="v-social-band-handle">@{HANDLE}</p>
+            <SocialLinks variant="named" where="accueil" />
+          </div>
+        </section>
+
         <section className="v-section" id="produit" aria-labelledby="produit-title">
           <div className="container container--wide reveal reveal--left">
             <div className="v-split">
@@ -415,25 +440,6 @@ export default function App() {
             </div>
           </div>
         </section>
-        {/* ══ LES RÉSEAUX — une bande, avant la dernière image ══
-
-            Ajoutée le 2026-10-11. Les liens n'existaient qu'en pied de page,
-            où personne ne descend. Ici le handle est ÉCRIT : une icône ne se
-            retient pas, « @its.ledje » se recherche dans l'application plus
-            tard, sans le site sous les yeux.
-
-            Une BANDE et pas une section : une ligne, deux liens, aucune
-            image. Elle ne doit pas peser autant qu'un argument produit. */}
-        <section className="v-social-band" aria-labelledby="reseaux-title">
-          <div className="container reveal">
-            <p id="reseaux-title" className="v-social-band-title">
-              On montre ce qu’on fabrique, au fur et à mesure.
-            </p>
-            <p className="v-social-band-handle">@{HANDLE}</p>
-            <SocialLinks variant="named" where="accueil" />
-          </div>
-        </section>
-
         {/* ══ L'APRÈS — la table qu'on vient de quitter. Aucun texte :
             c'est la dernière image, pas un argument de plus. ══ */}
         <section className="v-outro" aria-hidden="true">
