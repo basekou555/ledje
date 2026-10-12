@@ -643,6 +643,34 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 ⛔ **Le nom de l'événement n'entre pas en fiche : entendu « Better Call C… », non confirmé** *(même précaution que Jérôme/Joan et MAJIYA)*. 📌 **ET DEUX PISTES SORTENT DE LA PAGE ÉTAT sur sa décision, sans sortir du carnet : DORIANE** *(food truck, via Jules)* **et un restaurant asiatique ou vietnamien évoqué par Damien — ni l'une ni l'autre contactée, et *« ça c'est pas pertinent dans la page état »*.**
 
+### 🧒🧒 2026-10-11 — LES ENFANTS SONT LE FAIT LE PLUS NEUF DU PROJET
+
+*(Débrief de la kermesse, donné le 12/10. Session propriétaire : séance du 2026-10-12.)*
+
+**Première fois que des enfants goûtent le produit. Tranche observée : ≈ 3 ans à 12-13 ans, et jusqu'à 16.** *« Les enfants ont beaucoup aimé. Les retours sur cette cible sont particulièrement positifs. »*
+
+🎯🎯 **DEUX PREUVES COMPORTEMENTALES, et ce ne sont pas des déclarations** : **des ENFANTS ont commandé 5 bouteilles au cours de la journée** *(les voisins de stand — exposés au produit, mais « s'ils ont commandé 5, c'est qu'ils ont aimé »)* **et des ADULTES en ont pris 3, une le matin, une à midi, une le soir.** ➡️ **C'est le PREMIER RÉACHAT INTRA-JOURNÉE du projet — et le réachat est l'indicateur que ce canal s'est donné le 18/07, jamais observé nulle part jusqu'ici.**
+
+📌 **Son hypothèse sur le pourquoi, écrite comme telle** : un palais encore en construction, donc le produit est reçu comme une NOUVELLE SAVEUR et non comparé à un référentiel établi.
+
+💡 **SA THÈSE, en `[idée]` parce qu'elle n'est pas testée** : la valeur vie client de ce profil serait « stratosphérique » — *« des enfants de 3 ans qui grandissent avec de l'eau miellée en boiront toute leur vie »*, par analogie avec une cliente qui ne boit que de l'eau depuis l'enfance. ⚠️ **Plausible, non démontrée.** 🎯 **Ce qu'il en dit et qui vaut d'être gardé : *« c'est un profil auquel on pense peu quand on monte un business, parce que quand on est adulte on pense à des problèmes d'adulte »*.**
+
+✅ **ET « ALTERNATIVE SAINE AU SODA » EST L'ARGUMENT QUI A PORTÉ SUR CE PUBLIC** — surtout employé par sa sœur : **les adultes pensent immédiatement à leurs enfants qui boivent des sodas.** ⚠️ *(Conformité : à l'oral c'est couvert par la décision du 30/09 ; à l'écrit « saine » est l'allégation la plus exposée — cf. journal du 12/10, non rejoué ici.)*
+
+### 🎯🎯 2026-10-12 — LA FORMULATION QUI EXPLIQUE TOUT LE CANAL : DEUX CATÉGORIES MENTALES, PAS DEUX PRODUITS
+
+*« Quand on est musulman et qu'on boit cette boisson, on se demande si elle peut rentrer dans mon quotidien, pas si c'est la meilleure boisson que j'ai bue. Quand on est non-musulman, on la compare à tout le reste des boissons. »*
+
+✅✅ **ÇA RÉCONCILIE DEUX CHIFFRES QUI SEMBLAIENT SE CONTREDIRE : moins de 10 % de demandes de saveur à la kermesse, contre TROIS restaurateurs sur trois dans le canal pro.** ➡️ **Ce n'est pas le même produit qu'on juge : c'est le même produit dans deux catégories mentales différentes.**
+
+🔴🔴 **ET LE FLOU SUR L'ORIGINE A JOUÉ CONTRE LE PRODUIT — c'est la CAUSE du sujet des saveurs, trouvée trois semaines après l'objection.** **Devant les non-musulmans il disait *« une boisson issue de ma culture »*, et comme il est d'origine guinéenne *« les gens pensaient que ça venait de Guinée, alors que pas du tout. J'ai laissé ce flou-là. »*** ➡️ **Résultat : *« ça a joué contre moi — les gens ne retrouvaient pas ce qu'ils imaginaient de la Guinée »*, et ça a CONNOTÉ NÉGATIVEMENT le produit. *« C'est encore plus marqué chez les restaurateurs. »*** ✅ **SA RÈGLE, dictée telle quelle : *« quand on est flou, c'est flou pour tout le monde. Quand on essaie de cacher, ça nous retombe dessus — et là c'est retombé vite et bien. »*** **Tir corrigé sur place.**
+
+📌 **ET SES VRAIS CONCURRENTS SONT NOMMÉS POUR LA PREMIÈRE FOIS : le BISSAP, le JUS DE GINGEMBRE, les jus de corossol/goyave, les infusions** — *« les boissons où on ne voit pas les effets négatifs »*. ⛔ **ET L'OBJECTION QU'IL N'ARRIVE PAS À LEVER : *« les restaurants africains me disaient : nos jus sont sains aussi. Donc on n'a pas d'argument pour dire que notre boisson est meilleure. »*** 💡 **Sa piste — le miel utilisé dans sa GLOBALITÉ contre une EXTRACTION — reste en `[idée]` : non démontrée, et telle quelle ce serait une allégation de santé.** ✅ **CE QUI RÉPOND À LA MÊME OBJECTION SANS RISQUE : le NOMBRE D'INGRÉDIENTS et l'absence de transformation — deux, connus, non chauffés, dosables. Vérifiable, et sans promesse d'effet.**
+
+### ✅✅ 2026-10-11 — CE QUI PART DE L'ÉVÉNEMENT
+
+🆕 **CONTACT PRIS AVEC L'ÉPICERIE DE LA MOSQUÉE** — **canal neuf, au croisement du canal mosquée et d'un canal épicerie** *(les deux étaient cités le 02/10)*. ✅ Contacts aussi avec des CLIENTS séduits par le projet et des PRESTATAIRES présents. 📊 **15 à 20 % DES PERSONNES ONT DEMANDÉ OÙ RETROUVER LA BOISSON** — **une demande de distribution spontanée, jamais mesurée avant.** 🆕 **Des ORGANISATEURS D'ÉVÉNEMENTS veulent Lédjé chez eux.** ✅ **Réachat : < 10 %, « mais c'est notable »** ; des gens sont partis avec 5 bouteilles **pour partager**. 📄 **FLYERS : 8 récupérés chez Sisters Bakery, 7 distribués, 1 gardé — et sur le dernier les gens le PRENAIENT EN PHOTO. Le support est demandé, et le stock a manqué.** 🆕🆕 **UN AUTRE ÉVÉNEMENT A LIEU DIMANCHE : il faut écrire à l'organisation pour prendre un stand** *(une caution rendue + un pourcentage des bénéfices à l'association ; aucun montant au dépôt)*. ⚠️ **C'est la seule ACTION DATÉE qui sort de ce débrief, et son échéance est courte.**
+
 ## Leçons du marché
 
 Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimenter au fil des rencontres.

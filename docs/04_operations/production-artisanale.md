@@ -97,8 +97,44 @@ resume: "✅✅ **2026-10-11 — LA KERMESSE : 80 BOUTEILLES VENDUES, 99 produit
 
 | | |
 |---|---|
-| **Produites** | **99** |
-| **Finies, scellées, vendables** | **80** |
+🔴 **CHIFFRES CORRIGÉS PAR LE DÉBRIEF DU 12/10 — ils remplacent ceux écrits le matin même.**
+
+| | |
+|---|---|
+| **Étiquetées** | **99** |
+| **Avec du miel** | **98** — ⚠️ **une bouteille a été SCELLÉE SANS MIEL**, découverte à la mise en présentation |
+| **Pré-remplies inexploitables** | **≈ 20 à 24** *(le 19 du matin était provisoire ; Basekou recomptera)* |
+| **VENDUES** | **77** |
+| **Offertes** | **2** *(à sa sœur)* |
+| **Dégustation** | **2 à 3** |
+| **Clients uniques** | **40 à 50** |
+
+#### ⏱️ LE COÛT RÉEL EN TEMPS : TOUT LE WEEK-END, et l'étiquetage est le goulot
+
+**Vendredi 18h** : récupération des flyers et d'une affiche A1 · **vendredi soir** : 50 bouteilles étiquetées en ≈ 2 h *(≈ 1 min/bouteille)* · **samedi de 14h à 3h DU MATIN**, dont **≈ 1h30 perdues en nettoyage** après l'accident · **dimanche matin** : finition · **après l'événement** : nettoyage jusque ≈ 20h.
+
+🔴 **ET UNE OBSERVATION QUI VA PLUS LOIN QUE CE QUE CETTE FICHE ÉCRIVAIT : *« plus il y a de bouteilles, MOINS je suis rapide »*** — **pause nécessaire à 50 bouteilles.** ➡️ **La fiche disait « aucune économie d'échelle, le temps est purement proportionnel » : au-delà de ≈ 50, c'est PIRE que proportionnel, la fatigue s'ajoute.**
+
+✅ **LA SERINGUE FONCTIONNE** — *« j'arrive mieux à mesurer le dosage, ça m'a fait gagner beaucoup de temps »*. ⚠️ **Son défaut est nommé : trop LARGE, elle frotte le goulot et y laisse du miel** — *« ça n'est pas très professionnel »*.
+
+💡 **Deux intentions énoncées, aucune faite** : **acheter une ÉTIQUETEUSE** et **étiqueter À L'AVANCE par lots**, pour qu'il ne reste que le miel et l'eau le jour J.
+
+✅✅ **ET UNE VALIDATION INATTENDUE DU CHOIX DU 17/08 : l'étiquette en POLYPROPYLÈNE résiste à l'eau, donc les bouteilles pré-remplies ont pu être LAVÉES et SÉCHÉES sans perdre leur étiquette** — *« c'est un confort, parce que l'étiquetage est ce qui me prend le plus de temps »*. 📌 **Le matériau avait été choisi POUR LE FROID ; il sert aussi au lavage et au RÉEMPLOI — et c'est le même matériau qui empêche l'encre du tampon de sécher. Un seul choix, deux conséquences opposées.**
+
+#### ⛔⛔ LA DLC N'A PAS ÉTÉ TAMPONNÉE — le test du correctif du 06/10 n'a pas eu lieu
+
+*« Je n'ai pas mis de tampon, volontairement — je savais que l'encre n'allait pas avoir le temps de tenir, et la plupart des bouteilles allaient être consommées sur l'événement. »*
+
+🔴 **CONSÉQUENCE ÉCRITE UNE FOIS, sans rejouer l'alerte art. 24 déjà posée le 06/10 : 77 bouteilles ont été VENDUES SANS DLC APPOSÉE.** ⛔ **Et l'observation qui était la SEULE prévue pour le 10/10 n'a pas été faite : le correctif reste NON TESTÉ, et son critère d'échec attend un lot tamponné.** 📌 **Son raisonnement était cohérent avec ce que cette fiche sait déjà — il a préféré ne pas tamponner plutôt que tamponner pour rien. Le point reste ouvert pour le prochain lot destiné à un professionnel, où la DLC n'est pas optionnelle.**
+
+#### ❄️ LA CHAÎNE DU FROID TELLE QU'ELLE S'EST FAITE
+
+≈ **40 bouteilles au frigo la nuit** *(≈ 1-2 °C, mais 3-4 h réelles seulement)* → **transport HORS FROID ≈ 1h30 à 2 h** par ≈ 15 °C → sur place, frigo branché : **≈ 40 au froid, ≈ 20 en sacs isothermes 1 à 1h30**, puis toutes au frigo **sauf ≈ 15 d'EXPOSITION**. ✅ **Les bouteilles dites « à l'ambiante » étaient à ≈ 5-10 °C** *(appréciation au toucher)*. ✅ **La règle des ≤ 24 h hors froid du PMS est tenue dans tous les cas.** 🎯 **Et une idée de sa sœur qui a marché : PROPOSER AU CLIENT DE CHOISIR — la boire fraîche sur place, ou l'emporter.**
+
+⚠️ **ET IL LE DIT LUI-MÊME, donc c'est consigné sans commentaire : *« je sais, je n'ai pas respecté le PMS »*** — production au salon, devant la télé, sur une table qui a basculé. **C'est la cause directe de l'accident.**
+
+| **Étiquetées au total** | **99** |
+| **Finies, scellées, vendables** | **≈ 77** |
 | **Pré-remplies de miel, refermées mais NON SCELLÉES** | **19** — préparées pour anticiper des ventes supplémentaires |
 | **Vendues** | **80** |
 
