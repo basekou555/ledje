@@ -621,17 +621,21 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 ✅✅ **80 bouteilles vendues en une journée, encaissées par Stripe** *(détail de production et accidents : `../04_operations/production-artisanale.md`)*. 🎯 **CE QUE ÇA DIT À CE CANAL, et c'est le fait le plus lourd de la semaine : la VENTE DIRECTE AU CONSOMMATEUR produit du volume, là où cinq rendez-vous restaurateurs avec pitch et dégustation ont donné zéro.** ⚠️ **Écrit comme un constat et non comme une stratégie : une kermesse n'est pas un canal récurrent, et rien n'est tranché ici sur l'arbitrage restaurateurs / événements.**
 
-### 🌍🌍 2026-10-12 — HYPOTHÈSE VÉRIFIÉE : LA COMMUNAUTÉ AFRICAINE N'EST PAS LA CIBLE
+### 🌍🌍 2026-10-12 — HYPOTHÈSE VÉRIFIÉE : LES RESTAURANTS AFRICAINS NE SONT PAS LA CIBLE DU PRODUIT **EN L'ÉTAT**
 
 *(Déclaré par Basekou le 12/10. Session propriétaire : séance du 2026-10-12.)*
 
-⛔ **« Ce qu'on a appris, c'est que la communauté africaine, au sens propre, c'est pas notre cible. Le produit ne répond pas au mieux à cette cible. »**
+✅✅ **FORMULATION CORRIGÉE PAR BASEKOU LE 12/10, ET LA NUANCE EST TOUT LE SUJET** : *« Pour moi elle n'est pas la cible de ce produit. La communauté africaine, ou en tout cas LES RESTAURANTS AFRICAINS, ne sont pas la cible de ce produit **EN L'ÉTAT** — donc de l'eau miellée SANS SAVEUR AJOUTÉE. C'est plus comme ça que je le formulerais, parce que dès lors qu'on aura une boisson avec d'autres saveurs, ce sera super intéressant de les contacter. »*
+
+🎯🎯 **CE N'EST DONC PAS UNE EXCLUSION, C'EST UN REPORT CONDITIONNEL — et la condition est nommée : LES SAVEURS.** ⛔ **La formulation « la communauté africaine n'est pas la cible », écrite ici plus tôt le 12/10, était TROP LARGE sur deux points : elle visait une communauté au lieu d'un CANAL, et elle était définitive au lieu d'être conditionnelle.** ✅ **Corrigée ici sans être effacée.**
+
+📌 **ET ÇA S'ARTICULE AVEC LES TROIS DEMANDES DE SAVEUR** *(Mauya, Le Goût de Ça, Sisters Bakery)* **: le canal ne dit pas non au produit, il dit non à CE produit. Le carnet de restaurants africains n'est donc pas à jeter — il est à ROUVRIR le jour où une saveur existe.**
 
 🎯 **LA BASE DE LA VÉRIFICATION, et elle est large — quatre établissements, un même sens** : **Le Goût de Ça** *(« une hérésie », il veut un produit AFRICAIN)* · **Mauya** *(« juste de l'eau et du miel, c'est un peu juste »)* · **Sisters Bakery** *(ses clients ne sont pas intéressés)* · **Baca Bamba** *(zéro réachat sur 10 offertes)*. ➡️ **Basekou : *« on a une idée du marché assez large »*.**
 
 ✅✅ **ET ÇA S'ARTICULE AVEC LE FAIT DU WEEK-END, ce qui en fait LE SIGNAL LE PLUS NET DU PROJET : 80 bouteilles vendues en une journée à un public MUSULMAN, avec un pitch d'origine religieuse — contre ZÉRO vente sur cinq rendez-vous de restauration africaine.**
 
-📌 **CE QUE ÇA DÉPLACE DANS L'HISTOIRE DE CETTE FICHE : l'africanité a été traitée comme une objection de RECETTE le 01/10, requalifiée en objection d'IDENTITÉ le 06/10. Elle devient ici une question de CIBLE — et la réponse est non.** ✅ **Le critère du 08/10 n'est pas remplacé, il est PRÉCISÉ : la clientèle visée est MUSULMANE, et l'africanité n'en est ni un critère ni un argument.**
+📌 **CE QUE ÇA DÉPLACE DANS L'HISTOIRE DE CETTE FICHE : l'africanité a été traitée comme une objection de RECETTE le 01/10, requalifiée en objection d'IDENTITÉ le 06/10. Elle devient ici une question de CIBLE — et la réponse est non.** ✅ **Le critère du 08/10 n'est pas remplacé, il est PRÉCISÉ : la clientèle visée est MUSULMANE, et l'africanité n'en est ni un critère ni un argument.** ⚠️ **Et les deux ne se contredisent pas : un restaurant africain à clientèle musulmane reste dans la cible ; ce qui est hors cible, c'est le produit SANS SAVEUR dans ce canal.**
 
 ### ✅ 2026-10-12 — LA SÉRIE DE PROSPECTION EST CLOSE : TOUS LES RDV TENUS, CHAQUE DOSSIER MENÉ AU BOUT
 
