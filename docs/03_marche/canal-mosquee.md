@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-09
+maj: 2026-10-12
 source: "SOT §1.4bis pt 3 (archive 2026-07-24) — bascule C2B2C 2026-07-21, volet com 2026-07-24 (page relais + arbitrage Basekou)"
 resume: "✅✅ **2026-10-09 — LE CANAL SORT DE SON ATTENTE VOLONTAIRE : ≈ 10 MOSQUÉES CONTACTÉES PAR DM INSTAGRAM le 08/10, et le contact de la responsable com est OBTENU (message parti, sans réponse) — la fiche écrivait qu'il n'avait jamais été recueilli.** 📄 **La page `/offrir` est en production depuis le 08/10 ; la RÈGLE qu'elle supposerait reste `[en discussion]`.** ⛔ **Et la mécanique de paiement n'existe toujours pas.** Canal basculé en C2B2C le 21/07 (don sponsorisé : un fidèle offre un lot à sa mosquée) ; barème sans négociation ; volet com après étiquette + branding. 🆕 **LE CANAL SE RÉVEILLE LE 02/10, EN SOMMEIL DEPUIS LE 03/08, ET PAR UN AUTRE MODÈLE** : une cliente acheteuse d'O'Daba est responsable com d'une mosquée et demande une **BOUTEILLE PERSONNALISÉE en PRESTATION PAYÉE à 1 €** — ici la mosquée est le CLIENT, pas le bénéficiaire d'un don. ⚠️ **Correction du 06/10 : le cadre religieux a été posé par Basekou, pas reconnu spontanément** — la demande naît APRÈS l'argument. ✅ **ET LA TENSION EST TRANCHÉE LE MÊME JOUR : la religion se nomme À L'ORAL et seulement devant un public dont on sait qu'il est musulman, jamais publiquement** *(`../01_adn/identite-verbale.md`)* ⇒ **une parole orale en mosquée est COUVERTE, une AFFICHE ne l'est pas.** ⛔ Rien n'est tranché : ni le modèle, ni le support, ni le prix. Question de marque à trancher avant toute affiche : **un support en mosquée doit dire LE PRODUIT, pas LA VERTU**. Point matériel : une bouteille personnalisée = une étiquette de plus par client."
 ---
@@ -95,7 +95,9 @@ Identifier les volumes de consommation par mosquée → construire la courbe jus
 
 ⚠️ **PÉRIMÈTRE STRICT DE CE QUI EST ÉCRIT ICI : « une dizaine de mosquées contactées le 08/10 », rien de plus.** ⛔ **Un relevé de ≈ 30 comptes et un carnet Notion ont été évoqués par ailleurs — NON vérifiés, ils n'entrent pas en fiche.**
 
-⛔ **CE QUI NE BOUGE PAS, et il faut le lire à côté de la prospection : la mécanique de commande et de paiement n'existe toujours pas.** **La page `/offrir`, en ligne depuis le 08/10, le dit au visiteur en toutes lettres plutôt que de promettre une commande.** ⚠️ **Donc une mosquée qui répondrait oui aujourd'hui n'a aucun chemin de paiement : c'est la prochaine contrainte du canal, et elle est écrite plutôt que déduite.**
+✅ **PRÉCISION DU 2026-10-12, et elle évite un contresens : UN ENCAISSEMENT STRIPE EXISTE DÉSORMAIS et il a fonctionné** *(80 bouteilles vendues à la kermesse du 11/10, cf. `../04_operations/production-artisanale.md`)*. ⛔ **Mais ce n'est PAS la mécanique de ce canal : un encaissement direct au consommateur n'est pas le DON SPONSORISÉ C2B2C, où un fidèle paie pour une mosquée qui reçoit. Les deux ne se confondent pas, et seule la première existe.**
+
+⛔ **CE QUI NE BOUGE PAS, et il faut le lire à côté de la prospection : la mécanique de commande et de paiement de CE canal n'existe toujours pas.** **La page `/offrir`, en ligne depuis le 08/10, le dit au visiteur en toutes lettres plutôt que de promettre une commande.** ⚠️ **Donc une mosquée qui répondrait oui aujourd'hui n'a aucun chemin de paiement : c'est la prochaine contrainte du canal, et elle est écrite plutôt que déduite.**
 
 ### 📄 2026-10-08 — LA PAGE `/offrir` EST EN PRODUCTION, ET LA RÈGLE QU'ELLE SUPPOSE N'EST PAS TRANCHÉE
 

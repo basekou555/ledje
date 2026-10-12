@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-09
+maj: 2026-10-12
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
 resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF — LE POINT DÉCLARÉ CLOS LE 24/09 EST ROUVERT : relance du 07/10 sur une dette de cotisations, avec mention d'actions de recouvrement ; déclarer n'est pas payer.** Aucune décision prise, aucun montant au dépôt. 🔴 **LA DDPP 69 A RÉPONDU LE 01/10** (courrier 2026-8172) : catégorie « préparation de produits composés » CONFIRMÉE · **DÉROGATION À L'AGRÉMENT OBLIGATOIRE pour vendre à des professionnels, CERFA 13982** — tranche CONTRE la DDPP 56 du 18/07, la consigne « ne rien déposer avant l'arbitrage » TOMBE · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS. ⚠️ Aucun seuil identifiable à l'annexe III pour ce produit (absence constatée). ⛔ Le 13982 n'est PAS déposé, et trois professionnels ont déjà reçu du produit ou sont en négociation. + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
@@ -81,6 +81,12 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 🎯🎯 **C'EST LA PREMIÈRE VRAIE DÉPENDANCE DU SUJET, ET ELLE ARRÊTE LE COMPTEUR.** **Les reports des 02, 06, 07 et 08/10 portaient des motifs d'emploi du temps ou de visibilité ; celui-ci est MATÉRIEL et vérifiable.**
 
 ✅ **ET ÇA CONVERGE AVEC CE QUE CETTE FICHE PORTAIT DÉJÀ : aucun seuil n'est identifiable à l'annexe III de l'arrêté du 8 juin 2006 pour le miel — absence CONSTATÉE, pas déduite.** ➡️ **La même absence se retrouve maintenant sur le FORMULAIRE lui-même : deux niveaux de texte, un seul trou — ce produit n'est pas prévu.**
+
+⛔⛔ **2026-10-12 — LE MAIL N'EST PAS PARTI, ET LE MOTIF EST UNE DÉPENDANCE NEUVE : LE GUIDE DE BONNES PRATIQUES A ÉTÉ TROUVÉ.** *« Il faut modifier certains aspects, notamment parce qu'on a trouvé le guide de bonnes pratiques ; il faut qu'on lise et qu'on regarde comment ça modifie le PMS d'abord, avant de l'envoyer. »* ➡️ **Le mail attend la LECTURE du guide et la mesure de son impact sur le PMS. Le compteur ne redémarre pas.**
+
+🎯 **ET ÇA CHANGE L'ORDRE DES CHOSES : la question RÉGLEMENTAIRE passe avant la question de FORMULAIRE.** **Le sujet n'est plus seulement « sous quelle catégorie déposer » — c'est « que dit le guide, et qu'est-ce qu'il change au PMS ».**
+
+⛔ **UNE PRÉCISION DE FAIT MANQUE, et elle compte parce que cette fiche dit le contraire : le GBPH désigné par la DDPP** *(« Industrie française des jus de fruits, nectars et produits dérivés », UNPJF, validé décembre 2000)* **y est consigné comme brochure PAYANTE et NON TÉLÉCHARGEABLE. Lequel a été trouvé, et par quel accès ? Demandé le 12/10, non répondu — aucun guide n'est donc nommé ici.** 📌 **Et la règle du 02/10 ne bouge pas : on en reprend l'ANALYSE DES DANGERS, pas les mesures de maîtrise.**
 
 📌 **LE SUJET CHANGE DONC D'OBJET : ce n'est plus « déposer le 13982 », c'est « relancer la DDPP 69 par mail pour savoir sous quelle catégorie déposer »** — et l'interlocutrice est identifiée *(courrier départ 2026-8172 du 01/10)*. ⚠️ **Appréciation de Basekou, consignée telle quelle : *« c'est pas vraiment un sujet, mais il faudra trouver »*.**
 
