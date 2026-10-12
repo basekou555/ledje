@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-10-08
+maj: 2026-10-12
 source: "SOT §1.7 + §5.0 (archive 2026-07-24) ; plafond B2C 2026-07-20 et grilles par canal 2026-07-24 (page relais + arbitrage Basekou)"
 resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix bouteille 33cl par canal (B2C 2,50 € / C2B2C / B2B), et le piège : ne jamais communiquer sur le coût de revient."
 ---
@@ -95,6 +95,29 @@ resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix
 ⚠️ **Non tranché, et à trancher avant la prochaine commande** : ① **le prix est-il HT ou TTC** ② **le prix des 30 bouteilles de H7 n'est écrit nulle part** ③ **aucun devis de série n'a été demandé à ce jour** — ni bouteilles, ni étiquettes, ni miel en volume.
 
 📌 **Ce que cette section ne fait pas : reprocher le prix.** **Une première commande à perte peut être un investissement délibéré** — c'est même défendable pour ouvrir un canal. **Ce qui n'est pas défendable, c'est de ne pas savoir que c'en est un.**
+
+## 💶 2026-10-12 — COMMENT L'ARGENT S'ÉCRIT AU DÉPÔT : le RAPPORT, jamais la VALEUR
+
+**Règle arrêtée par Basekou le 12/10, et elle corrige un effet de bord de l'interdiction des montants.** Son motif, dans ses mots : *« si on note jamais le prix qu'on a payé pour les étiquettes, comment on peut savoir si sur les prochaines ça sera plus cher ou moins cher, si on est gagnant ou perdant »* — **il faut arriver à les exprimer sans être précis au point que ce soit préjudiciable.**
+
+⚠️ **D'ABORD UNE CONTRADICTION À TRANCHER, et elle n'est pas tranchée ici** : la page ÉTAT écrit *« plancher de prix, marges, coûts fournisseurs : jamais dans un document partageable »*, **tandis que la consigne de séance dit « aucun montant ne s'écrit au dépôt », ce qui est plus large.** ⛔ **La seconde n'a jamais été appliquée : cette fiche porte des prix publics depuis le 24/07** *(plafond B2C, grilles par canal, précommande)*. 📌 **La version retenue ici est la première, la seule qui soit cohérente avec le contenu existant — à confirmer par Basekou.**
+
+⛔ **Ce qui reste PRIVÉ, parce que ça dévoile sa structure de coût ou son plancher** : **coûts fournisseurs · coût de revient · marges · recettes · plancher de prix.**
+
+✅ **Ce qui reste ÉCRIVABLE, et l'est déjà** : **les prix PUBLICS pratiqués** — ce que le client paie n'est pas un secret, il est affiché sur un stand ou une carte.
+
+✅ **Ce qui s'écrit** : la **RELATION**, sous l'une de ces quatre formes, parce qu'aucune ne révèle un montant.
+
+| Forme | Exemple réel du dossier |
+|---|---|
+| **Un RANG** | *l'étiquette est le premier poste de coût, devant le miel* |
+| **Un RAPPORT** | *le coût matière est SUPÉRIEUR au prix pratiqué en B2B* · *à 1 €, Lédjé est rangé dans l'étage du bissap et non dans celui de MAJIYA* |
+| **Un SENS DE VARIATION** | *les prochaines étiquettes coûtent plus cher qu'en août, à quantité égale* |
+| **Un SEUIL FRANCHI** | *le B2C événementiel est le premier canal où le prix pratiqué couvre le coût matière* |
+
+📌 **Les valeurs vivent dans une page Notion PRIVÉE, non partagée.** Le dépôt renvoie à elle, il ne la recopie pas.
+
+⚡ **Pourquoi la règle existait et pourquoi elle ne suffisait pas** : « aucun montant au dépôt » protégeait le plancher de prix et les coûts fournisseurs, **mais elle a fait disparaître l'APPRENTISSAGE avec les chiffres** — et une décision de prix sans série historique se reprend à zéro chaque fois. ⚠️ **Deuxième effet de bord, nommé par Basekou le 12/10 et à garder comme leçon de méthode : la règle interdisait d'ÉCRIRE les montants, elle n'a jamais interdit de les DEMANDER — et le débrief de l'événement du 11/10 n'a posé aucune question d'argent.**
 
 ## Contrainte prix (cible business, PAS un argument marketing)
 

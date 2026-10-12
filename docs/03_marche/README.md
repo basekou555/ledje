@@ -17,6 +17,7 @@ le dossier qui bouge le plus vite avec le terrain.
 | Fiche | Résumé | Statut |
 |---|---|---|
 | [`canal-mosquee.md`](canal-mosquee.md) | Canal mosquée en C2B2C : un fidèle donateur offre un lot, barème sans négociation | en_cours |
+| [`canal-evenementiel.md`](canal-evenementiel.md) | 🎯 **Le canal qui VEND** : 77 bouteilles en un événement communautaire contre zéro sur cinq RDV restaurateurs. Lédjé exposant, pas fournisseur. Ce qui marche, ce qui doit s'améliorer, et la liste pour le prochain | en_cours |
 | [`canal-restaurant.md`](canal-restaurant.md) | Canal en test (O'Daba) : accord, critère = réachat 1-2 mois ; prospection ouverte (18/08) ; leçons du marché | en_cours |
 | [`acquisition-tiktok.md`](acquisition-tiktok.md) | Canal digital (inactif à ce jour) : UTM, canal B créateurs, trigger fin octobre | bloquant |
 | [`site-precommande.md`](site-precommande.md) | La refonte du site côté conversion : structure, hero, copy, précommande cristal | en_cours |
