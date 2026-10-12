@@ -96,9 +96,15 @@ resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix
 
 📌 **Ce que cette section ne fait pas : reprocher le prix.** **Une première commande à perte peut être un investissement délibéré** — c'est même défendable pour ouvrir un canal. **Ce qui n'est pas défendable, c'est de ne pas savoir que c'en est un.**
 
-## 💶 2026-10-12 — COMMENT L'ARGENT S'ÉCRIT AU DÉPÔT : le RAPPORT, jamais la VALEUR
+## 💶 2026-10-12 — OÙ VIT L'ARGENT : LES CHIFFRES DANS LA PAGE COMPTABILITÉ, LES FAITS ET LES LEÇONS AU DÉPÔT
 
-**Règle arrêtée par Basekou le 12/10, et elle corrige un effet de bord de l'interdiction des montants.** Son motif, dans ses mots : *« si on note jamais le prix qu'on a payé pour les étiquettes, comment on peut savoir si sur les prochaines ça sera plus cher ou moins cher, si on est gagnant ou perdant »* — **il faut arriver à les exprimer sans être précis au point que ce soit préjudiciable.**
+**Règle arrêtée par Basekou le 12/10, et formulée par lui dans sa version finale :** *« Pour le dépôt, on met pas les chiffres, on met les faits, on met les leçons. Mais les chiffres, on les garde pour le Notion et la page comptabilité. »*
+
+✅ **UN SEUL ENDROIT POUR LES CHIFFRES : la page Notion privée « 💰 COMPTABILITÉ — Lédjé »**, créée le 12/10 sous la page projet. **Ce n'est pas un classeur d'événements : c'est la comptabilité du projet** — recettes, dépenses, prix de chaque matière, coût d'une bouteille, volumes, et ce qui manque pour que les calculs tiennent.
+
+🎯 **CE QUI RESTE ÉCRIVABLE AU DÉPÔT : un FAIT ou une LEÇON, même quand il porte sur l'argent** — *« les frais fixes du stand ont dépassé le chiffre d'affaires »*, *« l'étiquette est le premier poste de coût, devant le miel »*, *« le prix pratiqué en B2B est sous le coût matière »*. **Un rang, un rapport, un sens de variation, un seuil franchi : aucun ne révèle un montant, et tous apprennent quelque chose.** ⛔ **Ce qui ne s'écrit pas, c'est la VALEUR.**
+
+*Ce qui suit est le motif d'origine de la règle, conservé parce qu'il explique pourquoi elle existe.* Son motif, dans ses mots : *« si on note jamais le prix qu'on a payé pour les étiquettes, comment on peut savoir si sur les prochaines ça sera plus cher ou moins cher, si on est gagnant ou perdant »* — **il faut arriver à les exprimer sans être précis au point que ce soit préjudiciable.**
 
 ⚠️ **D'ABORD UNE CONTRADICTION À TRANCHER, et elle n'est pas tranchée ici** : la page ÉTAT écrit *« plancher de prix, marges, coûts fournisseurs : jamais dans un document partageable »*, **tandis que la consigne de séance dit « aucun montant ne s'écrit au dépôt », ce qui est plus large.** ⛔ **La seconde n'a jamais été appliquée : cette fiche porte des prix publics depuis le 24/07** *(plafond B2C, grilles par canal, précommande)*. 📌 **La version retenue ici est la première, la seule qui soit cohérente avec le contenu existant — à confirmer par Basekou.**
 

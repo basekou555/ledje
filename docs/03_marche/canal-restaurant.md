@@ -619,7 +619,7 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 ### 🎪 2026-10-11 — LA KERMESSE A VENDU 80 BOUTEILLES, ET C'EST LE MODÈLE O'DABA QUI GAGNE
 
-✅✅ **80 bouteilles vendues en une journée, encaissées par Stripe** *(détail de production et accidents : `../04_operations/production-artisanale.md`)*. 🎯 **CE QUE ÇA DIT À CE CANAL, et c'est le fait le plus lourd de la semaine : la VENTE DIRECTE AU CONSOMMATEUR produit du volume, là où cinq rendez-vous restaurateurs avec pitch et dégustation ont donné zéro.** ⚠️ **Écrit comme un constat et non comme une stratégie : une kermesse n'est pas un canal récurrent, et rien n'est tranché ici sur l'arbitrage restaurateurs / événements.**
+✅✅ **77 bouteilles vendues en une journée, encaissées par Stripe** ⚠️ *(corrigé le 12/10 au débrief : le premier compte annonçait 80 ; le détail exact est 99 étiquetées, 98 remplies, 77 VENDUES, 2 offertes, 2-3 en dégustation)* *(détail de production et accidents : `../04_operations/production-artisanale.md`)*. 🎯 **CE QUE ÇA DIT À CE CANAL, et c'est le fait le plus lourd de la semaine : la VENTE DIRECTE AU CONSOMMATEUR produit du volume, là où cinq rendez-vous restaurateurs avec pitch et dégustation ont donné zéro.** ⚠️ **Écrit comme un constat et non comme une stratégie : une kermesse n'est pas un canal récurrent, et rien n'est tranché ici sur l'arbitrage restaurateurs / événements.**
 
 ### 🌍🌍 2026-10-12 — HYPOTHÈSE VÉRIFIÉE : LES RESTAURANTS AFRICAINS NE SONT PAS LA CIBLE DU PRODUIT **EN L'ÉTAT**
 
@@ -633,7 +633,7 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 🎯 **LA BASE DE LA VÉRIFICATION, et elle est large — quatre établissements, un même sens** : **Le Goût de Ça** *(« une hérésie », il veut un produit AFRICAIN)* · **Mauya** *(« juste de l'eau et du miel, c'est un peu juste »)* · **Sisters Bakery** *(ses clients ne sont pas intéressés)* · **Baca Bamba** *(zéro réachat sur 10 offertes)*. ➡️ **Basekou : *« on a une idée du marché assez large »*.**
 
-✅✅ **ET ÇA S'ARTICULE AVEC LE FAIT DU WEEK-END, ce qui en fait LE SIGNAL LE PLUS NET DU PROJET : 80 bouteilles vendues en une journée à un public MUSULMAN, avec un pitch d'origine religieuse — contre ZÉRO vente sur cinq rendez-vous de restauration africaine.**
+✅✅ **ET ÇA S'ARTICULE AVEC LE FAIT DU WEEK-END, ce qui en fait LE SIGNAL LE PLUS NET DU PROJET : 77 bouteilles vendues en une journée à un public MUSULMAN, avec un pitch d'origine religieuse — contre ZÉRO vente sur cinq rendez-vous de restauration africaine.**
 
 📌 **CE QUE ÇA DÉPLACE DANS L'HISTOIRE DE CETTE FICHE : l'africanité a été traitée comme une objection de RECETTE le 01/10, requalifiée en objection d'IDENTITÉ le 06/10. Elle devient ici une question de CIBLE — et la réponse est non.** ✅ **Le critère du 08/10 n'est pas remplacé, il est PRÉCISÉ : la clientèle visée est MUSULMANE, et l'africanité n'en est ni un critère ni un argument.** ⚠️ **Et les deux ne se contredisent pas : un restaurant africain à clientèle musulmane reste dans la cible ; ce qui est hors cible, c'est le produit SANS SAVEUR dans ce canal.**
 

@@ -93,7 +93,7 @@ resume: "✅✅ **2026-10-11 — LA KERMESSE : 80 BOUTEILLES VENDUES, 99 produit
 
 *(Déclaré par Basekou le 12/10. Session propriétaire : séance du 2026-10-12.)*
 
-🎯🎯 **C'EST LA PLUS GROSSE VENTE DU PROJET, ET LE PREMIER ENCAISSEMENT STRIPE.** **80 bouteilles vendues le dimanche 11/10**, contre 10 chez O'Daba et 30 chez H7 dont le paiement reste incertain. ✅ **La lecture du 09/10 est confirmée : Lédjé y était EXPOSANT, donc c'est une vente directe au consommateur — et c'est ce modèle qui produit du volume.** ⛔ **Aucun montant ici : le chemin d'encaissement est consigné, pas la recette.**
+🎯🎯 **C'EST LA PLUS GROSSE VENTE DU PROJET, ET LE PREMIER ENCAISSEMENT STRIPE.** **77 bouteilles vendues le dimanche 11/10** ⚠️ *(corrigé le 12/10 : le premier compte disait 80 — 99 étiquetées, 98 remplies, 77 vendues)*, contre 10 chez O'Daba et 30 chez H7 dont le paiement reste incertain. ✅ **La lecture du 09/10 est confirmée : Lédjé y était EXPOSANT, donc c'est une vente directe au consommateur — et c'est ce modèle qui produit du volume.** ⛔ **Aucun montant ici : le chemin d'encaissement est consigné, pas la recette.**
 
 | | |
 |---|---|
