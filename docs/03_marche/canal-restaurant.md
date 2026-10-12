@@ -617,9 +617,11 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 ⛔ **L'objectif ① de la semaine** *(« rappeler Sisters Bakery, c'est la vente la plus proche »)* **est donc soldé en NON.** ✅ **Et les quatre autres objectifs de la semaine sont traités ailleurs : O'Daba et Joan au journal du 12/10, la kermesse dans `../04_operations/production-artisanale.md`, la prospection mosquées dans `canal-mosquee.md`.**
 
-### 🎪 2026-10-11 — LA KERMESSE A VENDU 80 BOUTEILLES, ET C'EST LE MODÈLE O'DABA QUI GAGNE
+### 🎯 2026-10-11 — CE QUE L'ÉVÉNEMENT DIT À CE CANAL, et rien de plus
 
-✅✅ **77 bouteilles vendues en une journée, encaissées par Stripe** ⚠️ *(corrigé le 12/10 au débrief : le premier compte annonçait 80 ; le détail exact est 99 étiquetées, 98 remplies, 77 VENDUES, 2 offertes, 2-3 en dégustation)* *(détail de production et accidents : `../04_operations/production-artisanale.md`)*. 🎯 **CE QUE ÇA DIT À CE CANAL, et c'est le fait le plus lourd de la semaine : la VENTE DIRECTE AU CONSOMMATEUR produit du volume, là où cinq rendez-vous restaurateurs avec pitch et dégustation ont donné zéro.** ⚠️ **Écrit comme un constat et non comme une stratégie : une kermesse n'est pas un canal récurrent, et rien n'est tranché ici sur l'arbitrage restaurateurs / événements.**
+⚡ **La VENTE DIRECTE AU CONSOMMATEUR a produit du volume en une journée, là où cinq rendez-vous restaurateurs avec pitch et dégustation ont donné ZÉRO.** ⚠️ **Écrit comme un constat, pas comme une stratégie.**
+
+⛔ **LE DÉTAIL DE L'ÉVÉNEMENT N'EST PLUS ICI, et c'est une correction de Basekou du 12/10 : une kermesse n'est pas un restaurant, le récit n'avait rien à faire dans cette fiche.** ➡️ **Il vit dans [`canal-evenementiel.md`](canal-evenementiel.md)** *(production et accidents : `../04_operations/production-artisanale.md`)*.
 
 ### 🌍🌍 2026-10-12 — HYPOTHÈSE VÉRIFIÉE : LES RESTAURANTS AFRICAINS NE SONT PAS LA CIBLE DU PRODUIT **EN L'ÉTAT**
 

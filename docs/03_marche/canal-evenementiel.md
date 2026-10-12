@@ -12,6 +12,10 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 
 🎯 **Le fait qui l'a produit, et il est d'expérience, pas de raisonnement : cinq rendez-vous restaurateurs avec pitch et dégustation ont donné ZÉRO vente ; un seul événement communautaire en a donné 77.**
 
+⚠️ **PRÉCISION DE COMPTAGE, parce que le premier chiffre annoncé était faux : le débrief du 12/10 donne 99 bouteilles ÉTIQUETÉES, 98 REMPLIES de miel, 77 VENDUES, 2 offertes et 2 à 3 en dégustation.** **Le compte initial disait 80 vendues.** ⚡ **Même mécanisme que la DDM imprimée et que les bouteilles « payées » de H7 : un chiffre annoncé avant vérification se recopie dans plusieurs fiches et survit à sa correction partout où on ne pense pas à aller le chercher.**
+
+⛔⛔ **ET CETTE FICHE EXISTE AUSSI POUR UNE RAISON DE RANGEMENT, point soulevé par Basekou le 12/10 : le récit de l'événement était écrit dans `canal-restaurant.md`, alors qu'une kermesse n'est pas un restaurant.** *« Pourquoi ça va dans le canal restaurant ? Je comprends pas, puisque ça n'a pas été vendu à un restaurant. »* ➡️ **Il est déplacé ici ; `canal-restaurant.md` ne garde que la comparaison, qui parle bien de LUI.** ⚠️ **Et il en tire une question plus large — *« je pense qu'il doit y avoir des erreurs d'emplacement d'informations »* — renvoyée au prochain suivi de semaine.**
+
 ## Modèle
 
 **Lédjé est EXPOSANT, pas fournisseur.** On prend un stand, on vend en direct au consommateur sur une journée. ➡️ **Ce n'est pas une fourniture en lots, c'est le modèle d'O'Daba appliqué à une foule.**

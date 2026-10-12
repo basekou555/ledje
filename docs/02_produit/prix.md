@@ -100,7 +100,7 @@ resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix
 
 **Règle arrêtée par Basekou le 12/10, et formulée par lui dans sa version finale :** *« Pour le dépôt, on met pas les chiffres, on met les faits, on met les leçons. Mais les chiffres, on les garde pour le Notion et la page comptabilité. »*
 
-✅ **UN SEUL ENDROIT POUR LES CHIFFRES : la page Notion privée « 💰 COMPTABILITÉ — Lédjé »**, créée le 12/10 sous la page projet. **Ce n'est pas un classeur d'événements : c'est la comptabilité du projet** — recettes, dépenses, prix de chaque matière, coût d'une bouteille, volumes, et ce qui manque pour que les calculs tiennent.
+✅ **UN SEUL ENDROIT POUR LES CHIFFRES : la page Notion « 💸 Comptabilité — Lédjé »**, créée le 12/10 sous la page projet. 📌 **Interne, pas secrète** — précision de Basekou : *« j'aime pas l'emoji cadenas, on dirait que c'est un secret alors que pas du tout »*. **Ce n'est pas un classeur d'événements : c'est la comptabilité du projet** — recettes, dépenses, prix de chaque matière, coût d'une bouteille, volumes, et ce qui manque pour que les calculs tiennent.
 
 🎯 **CE QUI RESTE ÉCRIVABLE AU DÉPÔT : un FAIT ou une LEÇON, même quand il porte sur l'argent** — *« les frais fixes du stand ont dépassé le chiffre d'affaires »*, *« l'étiquette est le premier poste de coût, devant le miel »*, *« le prix pratiqué en B2B est sous le coût matière »*. **Un rang, un rapport, un sens de variation, un seuil franchi : aucun ne révèle un montant, et tous apprennent quelque chose.** ⛔ **Ce qui ne s'écrit pas, c'est la VALEUR.**
 
@@ -121,7 +121,7 @@ resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix
 | **Un SENS DE VARIATION** | *les prochaines étiquettes coûtent plus cher qu'en août, à quantité égale* |
 | **Un SEUIL FRANCHI** | *le B2C événementiel est le premier canal où le prix pratiqué couvre le coût matière* |
 
-📌 **Les valeurs vivent dans une page Notion PRIVÉE, non partagée** — **« 🔒 ARGENT — les valeurs », créée le 12/10 sous la page projet.** Le dépôt renvoie à elle, il ne la recopie pas.
+📌 **Les valeurs vivent dans la page Notion « 💸 Comptabilité — Lédjé ».** Le dépôt renvoie à elle, il ne la recopie pas.
 
 ### 🔴 2026-10-12 — CE QUE LE CHIFFRAGE DE L'ÉVÉNEMENT APPREND SUR LE PRIX, en rapports
 
