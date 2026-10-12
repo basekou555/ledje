@@ -3,7 +3,7 @@ statut: en_cours
 domaine: marche
 maj: 2026-10-12
 source: "Créée le 2026-10-12 après le débrief de l'événement du 11/10, à la demande de Basekou : « ça mérite pas tout un document, mais il y a des leçons à en tirer pour les prochains — qu'est-ce qu'on a utilisé, qu'est-ce qu'on a bien utilisé, qu'est-ce qu'on doit améliorer »."
-resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteilles là où cinq rendez-vous restaurateurs ont donné zéro. 🎯 Vente directe au consommateur, Lédjé exposant et pas fournisseur. ✅ Ce qui marche : un public dont la clientèle est musulmane, le frigo apporté (chaîne du froid ET support d'affiche), la seringue, le paiement sans contact, proposer au client de choisir entre boire frais sur place ou emporter. 🔴 Ce qui doit s'améliorer : le stand est « un peu léger », l'affiche en portrait n'a nulle part où s'accrocher sans frigo, pas de fonds de caisse, l'étiquetage est le goulot et il est PIRE que proportionnel au-delà de ≈ 50 bouteilles, la DLC n'a pas été tamponnée. ⛔ Aucun montant ici : les coûts et recettes vivent dans la page privée Notion, le dépôt n'en garde que les rapports et les enseignements."
+resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteilles là où cinq rendez-vous restaurateurs ont donné zéro. 🎯 Vente directe au consommateur, Lédjé exposant et pas fournisseur. ✅ Ce qui marche : un public dont la clientèle est musulmane, le frigo apporté (chaîne du froid ET support d'affiche), la seringue, le paiement sans contact, proposer au client de choisir entre boire frais sur place ou emporter. 🔴 Ce qui doit s'améliorer : le stand est « un peu léger », l'affiche en portrait n'a nulle part où s'accrocher sans frigo, pas de fonds de caisse, l'étiquetage est le goulot et il est PIRE que proportionnel au-delà de ≈ 50 bouteilles, la DLC n'a pas été tamponnée. 🔴🔴 **2026-10-12 — L'ÉVÉNEMENT EST CHIFFRÉ ET IL EST EN PERTE : les frais fixes du stand ont à eux seuls dépassé le chiffre d'affaires, donc la perte était acquise AVANT la matière.** L'emplacement est le premier poste, à lui seul plus de la moitié du CA ; le seuil d'équilibre était ≈ 2,4 fois le volume produit. ➡️ **Ce n'est ni le produit ni le prix : c'est le coût du stand — et le prochain événement n'en a pas.** ⚡ Et une réserve sur la lecture du succès : certains ont refusé le prix réduit pour payer plein tarif « pour donner de la force », donc une part des ventes est du SOUTIEN et pas une décision d'achat sur le goût. ⛔ Aucun montant ici : les valeurs vivent dans la page Notion privée, le dépôt n'en garde que les rapports."
 ---
 
 # Canal événementiel — vendre là où la communauté se réunit
@@ -70,8 +70,30 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 
 - 📌 **Rapport connu et toujours vrai : le coût matière est SUPÉRIEUR au prix pratiqué en B2B** *(`../02_produit/prix.md`)*. 🆕 **Et le B2C événementiel est le PREMIER canal à inverser ce rapport** — c'est Basekou qui l'établit : *« on vend en B2C, les gens achètent, et je marge beaucoup plus qu'avec des épiceries »*.
 - 📌 **Rang des postes de coût : l'ÉTIQUETTE passe devant le MIEL** *(relevé le 06/10)*.
-- 🔴 **Pertes sèches du week-end du 11/10, en matière et non en argent** : un pot de **miel de tilleul renversé** *(≈ 600-800 g, fourchette déclarée)* et **les doses des 19 bouteilles pré-remplies**.
-- ⛔ **Non renseigné à ce jour : ce que l'événement a rapporté, ce qu'il a coûté, et le net.** ⚠️ **Et c'est une lacune de la méthode, pas de Basekou : la question ne lui a pas été posée pendant le débrief du 12/10** — la règle interdisait d'écrire les montants, elle n'interdisait pas de les demander.
+- 🔴 **Pertes sèches du week-end du 11/10, en matière et non en argent** : du **miel de tilleul renversé** dans l'accident de production *(fourchette déclarée, précisée à la baisse le 12/10)* et **les doses des 19 bouteilles pré-remplies**. 📌 **Stock après l'événement : il reste ≈ un cinquième du miel de montagne, et de l'ordre d'un pot et demi de tilleul.**
+
+### 🔴🔴 2026-10-12 — L'ÉVÉNEMENT A ÉTÉ CHIFFRÉ, ET IL EST EN PERTE : LES FRAIS FIXES DU STAND ONT À EUX SEULS DÉPASSÉ LE CHIFFRE D'AFFAIRES
+
+⛔ **Aucune valeur ici — elles sont dans la page Notion privée "🔒 ARGENT — les valeurs".** Ce qui suit n'est que des RAPPORTS, conformément à la règle du 12/10 *(`../02_produit/prix.md`)*.
+
+🎯🎯 **LE FAIT CENTRAL, et il déplace la lecture de la journée : l'événement était en perte AVANT d'avoir compté une seule bouteille de matière.** ➡️ **Ce n'est donc ni le produit, ni le prix, ni l'exécution — c'est le COÛT DU STAND.**
+
+| Relation | Ce qu'elle dit |
+|---|---|
+| **Les frais fixes ont dépassé le chiffre d'affaires** | ⛔ **La perte était acquise avant la matière.** |
+| **L'EMPLACEMENT est le premier poste, à lui seul plus de la MOITIÉ du chiffre d'affaires** | 🎯 C'est le poste sur lequel tout se joue, et c'est le seul qu'on choisit AVANT de s'engager. |
+| **Rang des postes** : emplacement \> affiche \> flyers \> table \> nourriture sur place \> essence | 📌 L'affiche et les flyers sont des **supports réutilisables** ; les flyers l'étaient déjà, achetés pour un rendez-vous précédent. |
+| **Le coût matière représente environ DEUX TIERS du prix moyen réellement obtenu** *(et un peu plus de la moitié du prix affiché)* | 🔴 **C'est très élevé pour une boisson, et ça laisse une marge unitaire mince.** |
+| ⛔⛔ **Le seuil d'équilibre était ≈ 2,4 FOIS le volume PRODUIT, et ≈ 4,8 fois le seuil de fatigue de ≈ 50 bouteilles** | ⚡ **L'équilibre était HORS D'ATTEINTE PAR CONSTRUCTION.** Avec une marge unitaire mince, amortir un stand cher demande un volume que la capacité de production ne permet pas — et la cadence se dégrade justement au-delà de 50. |
+| **L'offre à prix réduit a coûté environ un huitième du chiffre d'affaires** | ✅ **Basekou la jugeait « une erreur » : elle est PETITE**, et à comparer au volume qu'elle a produit *(des visiteurs prenaient plusieurs bouteilles à cause d'elle)*, pas à zéro. |
+
+⚡⚡ **ET LE FAIT QUI VAUT PLUS QUE TOUT LE CALCUL : certains visiteurs ont REFUSÉ le prix réduit et payé le plein tarif « pour donner de la force ».** ➡️ **Deux conséquences, et la seconde est une réserve sur la lecture du succès : ① le prix n'était pas le frein ② UNE PART DES VENTES EST DU SOUTIEN AU PROJET, pas une décision d'achat sur le goût** — à garder en tête avant de lire ces ventes comme une preuve d'appétence produit.
+
+✅✅ **ET CE QUI CHANGE POUR LE PROCHAIN : il n'a PAS de coût d'emplacement** *(caution rendue, et un pourcentage des bénéfices à l'association)*. 🎯 **À frais fixes quasi nuls, la marge unitaire devient du bénéfice dès la première bouteille, et le seuil d'équilibre s'effondre.** **Même produit, même prix, même travail : seule la structure de coût change.** ⚠️ **Et ça vaut comme critère de sélection : un événement à emplacement payant demande un volume que la production ne suit pas.**
+
+🆕 **Intention énoncée le 12/10, non faite : ACHETER UNE GLACIÈRE** — *« je peux pas transporter mon frigo à chaque fois, il me faut une glacière de bonne qualité et facile à transporter »*. 📌 **Achat unique, amorti sur tous les événements suivants — et il libère le frigo, qui servait aussi de support d'affiche.**
+
+⚠️ **Deux réserves sur ces chiffres, écrites parce qu'elles comptent : ils sont déclarés de mémoire, et le coût unitaire de la bouteille est celui de l'ANCIENNE dose** — **Basekou demande lui-même que le calcul soit refait à la dose actuelle.**
 
 ## Statut & prochaine étape
 

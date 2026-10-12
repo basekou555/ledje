@@ -115,7 +115,15 @@ resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix
 | **Un SENS DE VARIATION** | *les prochaines étiquettes coûtent plus cher qu'en août, à quantité égale* |
 | **Un SEUIL FRANCHI** | *le B2C événementiel est le premier canal où le prix pratiqué couvre le coût matière* |
 
-📌 **Les valeurs vivent dans une page Notion PRIVÉE, non partagée.** Le dépôt renvoie à elle, il ne la recopie pas.
+📌 **Les valeurs vivent dans une page Notion PRIVÉE, non partagée** — **« 🔒 ARGENT — les valeurs », créée le 12/10 sous la page projet.** Le dépôt renvoie à elle, il ne la recopie pas.
+
+### 🔴 2026-10-12 — CE QUE LE CHIFFRAGE DE L'ÉVÉNEMENT APPREND SUR LE PRIX, en rapports
+
+- 🔴 **Le coût matière d'une bouteille représente environ DEUX TIERS du prix moyen réellement obtenu en B2C événementiel** *(un peu plus de la moitié du prix affiché)* ⇒ **la marge unitaire est mince, et c'est elle qui rend un stand payant si difficile à amortir.**
+- ⚠️ **Ce coût unitaire est celui de l'ANCIENNE dose et Basekou demande qu'il soit REFAIT** — la dose est passée de 20 à 15 mL en test, donc il a baissé. ⛔ **Et il n'existait nulle part dans le dépôt avant aujourd'hui** *(zéro occurrence, vérifié le 12/10)* : c'est exactement le trou que la page privée comble.
+- ✅✅ **L'OBJECTION PRIX TOMBE EN B2C, et par un fait et non par un raisonnement : certains visiteurs ont REFUSÉ le prix réduit pour payer le plein tarif « pour donner de la force ».** ➡️ **Le prix n'était pas le frein.** ⚠️ **Mais la contrepartie est une réserve : une part de ces ventes est du SOUTIEN au projet, pas un arbitrage de consommateur — elles ne mesurent donc pas l'élasticité au prix.**
+- 📌 **L'offre à prix réduit a coûté environ un huitième du chiffre d'affaires** ⇒ **Basekou la jugeait « une erreur » : elle est petite, et à comparer au volume qu'elle a produit.**
+- 🎯 **Et le rapport du 29/09 s'inverse bien PAR CANAL : le prix pratiqué reste sous le coût matière en B2B, et il le COUVRE en B2C événementiel.** ⚠️ **Couvrir le coût matière n'est pas faire du bénéfice : sur l'événement du 11/10 les frais de stand ont effacé la marge et davantage.**
 
 ⚡ **Pourquoi la règle existait et pourquoi elle ne suffisait pas** : « aucun montant au dépôt » protégeait le plancher de prix et les coûts fournisseurs, **mais elle a fait disparaître l'APPRENTISSAGE avec les chiffres** — et une décision de prix sans série historique se reprend à zéro chaque fois. ⚠️ **Deuxième effet de bord, nommé par Basekou le 12/10 et à garder comme leçon de méthode : la règle interdisait d'ÉCRIRE les montants, elle n'a jamais interdit de les DEMANDER — et le débrief de l'événement du 11/10 n'a posé aucune question d'argent.**
 
