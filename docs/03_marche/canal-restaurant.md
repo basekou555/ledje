@@ -621,6 +621,24 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 ✅✅ **80 bouteilles vendues en une journée, encaissées par Stripe** *(détail de production et accidents : `../04_operations/production-artisanale.md`)*. 🎯 **CE QUE ÇA DIT À CE CANAL, et c'est le fait le plus lourd de la semaine : la VENTE DIRECTE AU CONSOMMATEUR produit du volume, là où cinq rendez-vous restaurateurs avec pitch et dégustation ont donné zéro.** ⚠️ **Écrit comme un constat et non comme une stratégie : une kermesse n'est pas un canal récurrent, et rien n'est tranché ici sur l'arbitrage restaurateurs / événements.**
 
+### 🌍🌍 2026-10-12 — HYPOTHÈSE VÉRIFIÉE : LA COMMUNAUTÉ AFRICAINE N'EST PAS LA CIBLE
+
+*(Déclaré par Basekou le 12/10. Session propriétaire : séance du 2026-10-12.)*
+
+⛔ **« Ce qu'on a appris, c'est que la communauté africaine, au sens propre, c'est pas notre cible. Le produit ne répond pas au mieux à cette cible. »**
+
+🎯 **LA BASE DE LA VÉRIFICATION, et elle est large — quatre établissements, un même sens** : **Le Goût de Ça** *(« une hérésie », il veut un produit AFRICAIN)* · **Mauya** *(« juste de l'eau et du miel, c'est un peu juste »)* · **Sisters Bakery** *(ses clients ne sont pas intéressés)* · **Baca Bamba** *(zéro réachat sur 10 offertes)*. ➡️ **Basekou : *« on a une idée du marché assez large »*.**
+
+✅✅ **ET ÇA S'ARTICULE AVEC LE FAIT DU WEEK-END, ce qui en fait LE SIGNAL LE PLUS NET DU PROJET : 80 bouteilles vendues en une journée à un public MUSULMAN, avec un pitch d'origine religieuse — contre ZÉRO vente sur cinq rendez-vous de restauration africaine.**
+
+📌 **CE QUE ÇA DÉPLACE DANS L'HISTOIRE DE CETTE FICHE : l'africanité a été traitée comme une objection de RECETTE le 01/10, requalifiée en objection d'IDENTITÉ le 06/10. Elle devient ici une question de CIBLE — et la réponse est non.** ✅ **Le critère du 08/10 n'est pas remplacé, il est PRÉCISÉ : la clientèle visée est MUSULMANE, et l'africanité n'en est ni un critère ni un argument.**
+
+### ✅ 2026-10-12 — LA SÉRIE DE PROSPECTION EST CLOSE : TOUS LES RDV TENUS, CHAQUE DOSSIER MENÉ AU BOUT
+
+🎯 **RECADRAGE DE BASEKOU, et il change la manière d'écrire ce canal** : *« Sisters Bakery ils ont dit non, mais c'est surtout la FIN des rendez-vous liés à l'événement de prospection. On a tenu TOUS nos rendez-vous et on est allé au BOUT DE CHAQUE DOSSIER. »* ➡️ **La session alignait les refus ; lui compte les dossiers MENÉS À LEUR TERME. Les deux sont vrais, mais seul le second est un état d'avancement.** ✅ **État courant : la série est TERMINÉE, et la suite est À ORGANISER.**
+
+⛔ **Le nom de l'événement n'entre pas en fiche : entendu « Better Call C… », non confirmé** *(même précaution que Jérôme/Joan et MAJIYA)*. 📌 **ET DEUX PISTES SORTENT DE LA PAGE ÉTAT sur sa décision, sans sortir du carnet : DORIANE** *(food truck, via Jules)* **et un restaurant asiatique ou vietnamien évoqué par Damien — ni l'une ni l'autre contactée, et *« ça c'est pas pertinent dans la page état »*.**
+
 ## Leçons du marché
 
 Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimenter au fil des rencontres.
