@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-08
+maj: 2026-10-12
 source: "SOT §1.4bis (archive 2026-07-24) — accord 2026-07-18 ; intel MMD 2026-07-24, corrigée en session 2026-07-26"
 resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes puis réappro autofinancé ; succès = réachat observé sur 1-2 mois. Prospection ouverte le 18/08 (carnet et script dans Notion) + leçons du marché, dont le rendement réel du premier tour d'appels (10 appels, 0 RDV). ✅ **27/09 : la dégustation débouche sur la PREMIÈRE COMMANDE — 10 bouteilles d'acacia, produites le 30/09 en ≈ 50 min, livraison prévue le jour même.** 🔴 **Elles inaugurent un scénario jamais testé : sortir du froid puis y RETOURNER** — ✅ **premier point d'observation obtenu le 06/10 sur les bouteilles reprises chez Sisters : à ≈ J+4, aucune dérive de goût ni d'odeur, mais observation ORGANOLEPTIQUE seule.** ✅ **CINQ RDV posés (30/09 → 08/10) : le blocage du premier tour était le RÉPONDEUR, pas le refus.** 🔴🔴 **07/10 — MAUYA : BON ACCUEIL, PAS DE VENTE, et le débrief porte le fait le plus lourd de la semaine.** ✅✅ **08/10 — LE CRITÈRE DE CIBLAGE EST ARRÊTÉ : les restaurants dont la CLIENTÈLE est musulmane** *(« il faut des restau où la cible, ce sont les musulmans »)*. 🎯 **Et ça EXPLIQUE Mauya au lieu de s'y heurter : clientèle ≈ 90 % blanche ⇒ il avait le LABEL et pas la CLIENTÈLE, donc il n'a jamais testé la thèse — c'est le LABEL qui a échoué comme prédicteur.** ⛔ **Remplace la priorité 1 « Africain » et le critère « halal / sans alcool ».** ✅ **Conformité : couvert par la ligne du 06/10 — le CIBLAGE peut être religieux, l'ARGUMENT non.** 🔴 **Difficulté réelle : un label se lit en ligne, une clientèle ne se lit pas — comment trier le carnet reste À DÉFINIR.** ⛔⛔ **08/10 — CHEZ MAGIE ANNULÉ par la gérante : la série des 5 RDV se clôt sur QUATRE tenus, UN annulé, ZÉRO VENTE — le seul écoulement payant reste O'Daba, obtenu AVANT la série.** 🆕🆕 **CONCURRENT IDENTIFIÉ : MAJIYA** *(Bénin, corossol/goyave, verre 33 cl, dans Mauya ET Le Goût de Ça, 40-50 bouteilles/jour déclaratif)* — **ses deux arguments de vente sont exactement les deux termes de l'objection du 06/10 : africanité et saveur.** 💰💰 **Deux étages de prix dans sa carte : MAJIYA acheté 3 € revendu 5 €, son bissap acheté 1 € revendu 3 €** ⇒ **à 1 €, Lédjé est rangé dans l'étage du bissap** *(`../02_produit/prix.md`)*. 🎯 **Basekou amende sa propre thèse : « un bon produit n'a pas besoin d'un gros pitch »** ⇒ la théorie du frein-par-le-pitch est abandonnée par son auteur. 🔴 **Correction de comptage : 2 restaurateurs sur 3 demandent une saveur, pas 3 — O'Daba n'a jamais été débriefé et vend le produit en l'état.** ⚠️ **Mᵐᵉ Seri est repartie AVEC LES DEUX BOUTEILLES pour les faire goûter à son mari ⇒ le parc est amputé et Chez Magie est le 08/10 à 15h30.** ⚠️ Cinq dégustations à fournir, aucune production prévue. 🔴🔴 **06/10 — LE GOÛT DE ÇA : RDV TENU, NON ABOUTI — et ⚠️ **CORRIGÉ LE 08/10** : ce n'est PAS un refus « qui ne dit rien du produit ». **Ce qui l'a emporté : *« la boisson n'a rien d'africain dans la recette »*** — objection de PRODUIT non négociable, sur l'origine de la RECETTE et non sur celle de Basekou. 🆕 `[en discussion]` **thèse de ciblage halal / sans alcool, appuyée sur aucun comptage.** ⛔ **Le refus ne dit rien du GOÛT — il n'a pas goûté. Ancienne lecture** *(il n'a pas goûté, pas de prix, pas de frigo — « on n'a même pas parlé business, on n'a pas les mêmes visions »)* ⇒ **à ne PAS additionner aux six signaux saveur.** ✅ **Et l'énigme des trois noms est levée : *Arnaud* = prénom, *Chouab(e)* = nom de famille, DEUX DES TROIS N'EN FAISAIENT QU'UN** *(orthographe à confirmer ; *Krambé* reste inexpliqué)*. 🔴 **DEUXIÈME REFUS DE GOÛTER EN QUATRE JOURS : 2 RDV sur 3 cette semaine sans aucune dégustation — le cas « non anticipé » du 02/10 devient un patron à surveiller.** 🆕 Doriane (food truck, via Jules) — 1ʳᵉ recommandation entrante. 🎯🎯 **02/10 : PREMIÈRES VENTES AU CONSOMMATEUR chez O'Daba — 5/10 à 3,50 €, ≈ 2/jour, quatre clientes acheteuses interrogées. LE SUCRE NE LES GÊNE PAS ⇒ le signal sucre n'est pas universel.** ⚠️ **CORRECTION DU 06/10 : la sunna a été dite PAR BASEKOU, pas reconnue d'elles-mêmes** — ✅ **mais les questions de SAVEUR étaient PRÉ-PITCH, donc ces retours sont honnêtes et le contre-signal garde son poids ; et « saveur : POUR QUEL CANAL » est confirmé comme principe par Basekou.** 🆕 **Objection de FORMAT inédite : le 33 cl jugé trop grand, un SHOT de ≈ 25 mL imaginé.** ✅✅ **08/10 — LES 10 BOUTEILLES D'O'DABA SONT ENTIÈREMENT ÉCOULÉES (fin de stock le 07/10) : PREMIER LOT DU PROJET VENDU EN ENTIER, ~7 jours, ≈ 1,4/jour — mais le rythme a ÉTÉ DIVISÉ PAR DEUX en cours de route (≈ 2,5/j puis ≈ 1/j).** 🔴 **Le réassort cesse d'être une hypothèse et la matière n'y est pas : ≈ 287 g d'acacia nécessaires pour ≈ 200-300 g estimés, Joan non appelé.** 🎯 **L'appel prévu change d'objet : savoir s'il REPREND, pas combien il reste.** · 🔴 **08/10 : le passage du 07/10 n'a pas eu lieu — Basekou APPELLE au lieu de passer, 8ᵉ jour sans suivi et 2ᵉ report consécutif du geste. L'appel suffit pour demander le stock et le réachat, mais il ne permet PAS de regarder l'état de la DLC tamponnée.** ✅ **07/10 : le passage était confirmé** *(il n'y est pas allé hier soir ; 7ᵉ jour sans suivi, bouteilles restantes toujours inconnues)*. ✅ **07/10 : MAUYA servi DEPUIS LE PARC — la MÊME PAIRE part pour la 3ᵉ fois, et elle survit parce que PERSONNE N'A BU ; elle est OUVERTE depuis le 06/10, soit ≈ 30 h. Il ne reste qu'une dégustation après : Chez Magie 08/10.** ✅ **06/10 : Basekou passait sur place chez O'Daba, aujourd'hui ou demain** *(contact en déplacement, donc passage plutôt qu'appel)* — **au rythme constaté les 5 dernières bouteilles sont écoulées, et c'est la fenêtre où le réachat s'observe.** 🔴🔴 **MAIS LE RÉASSORT N'EST PAS COUVERT EN MATIÈRE : 10 bouteilles d'acacia demandent ≈ 287 g pour un stock corrigé à ≈ 200-300 g, et O'Daba n'a jamais reçu que de l'acacia** ⇒ **appeler Joan devient la condition du réassort.** 🔴 **Et la DLC tamponnée de ces bouteilles s'efface** *(`../04_operations/production-artisanale.md`)* — **à regarder sur place.**
 ---
@@ -574,6 +574,102 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 ⚠️ **UNE LIGNE, DITE UNE FOIS ET NON REJOUÉE : O'Daba est le seul canal PAYANT du projet, et le RÉACHAT est l'indicateur que ce canal s'est donné lui-même le 18/07.** ➡️ **Le stock y est à zéro depuis le 07/10, donc l'information « reprend-il » ne peut venir que de lui ou d'un passage.** 📌 **Et le même jour, H7 est devenu incertain** *(cf. `../04_operations/production-artisanale.md`)* **— ce fait est arrivé APRÈS la décision, il ne la corrige pas et ne la rejoue pas.**
 
 📌 **Ce que le dépôt ne saura donc pas, et il faut l'écrire plutôt que de l'oublier** : ① **si des clientes ont redemandé** *(le réachat consommateur, inconnu depuis le début)* ② **dans quel état était la DLC tamponnée sur les dernières bouteilles** *(l'encre ne tient pas sur le polypropylène, et l'art. 24 INCO exige une DLC lisible)*.
+
+### ✅ 2026-10-09 — LES CINQ OBJECTIFS DE LA SEMAINE SONT DES ACTES DE VENTE, et c'est Basekou qui a écarté la première liste
+
+*(Séance du 09/10, revue de semaine 06 → 09/10. Session propriétaire : séance du 2026-10-09.)*
+
+✅ **Sa critique, consignée telle quelle : *« ils ne font pas vendre non plus, donc il faut se poser les bonnes questions »*.** ➡️ **Les cinq proposés par la session étaient des LEVÉES DE BLOCAGE** *(mesurer la dose, émettre les factures, trancher le CERFA, un écrit pour la kermesse, appeler Joan)* **— pas des actes de vente.**
+
+| # | La liste retenue, qui est la sienne | Où ça en est |
+|---|---|---|
+| ① | **Rappeler Sisters Bakery** | ✅ **aujourd'hui** — elle accepte 1 € sans objection, elle attendait un flyer **qui est parti**, et c'est la vente la plus proche du projet ; ⛔ elle n'a toujours pas goûté |
+| ② | **O'Daba, par message** | ✅ **aujourd'hui** — ⚠️ **ça LÈVE le maintien provisoire posé la veille** *(« j'hésite, je trouve que ce n'est pas très pertinent »)* : **le fait nouveau entre-temps est l'incertitude du paiement de H7** |
+| ③ | **La kermesse, en STAND** | ce week-end — cf. ci-dessous, **ce n'est pas une fourniture** |
+| ④ | **Relancer la responsable com de la mosquée** | message parti, **sans réponse** *(`canal-mosquee.md`)* |
+| ⑤ | **Prospection des mosquées par DM Instagram** | ≈ **10 faites le 08/10**, aucune réponse *(`canal-mosquee.md`)* |
+
+🎯 **CE QUE LA LISTE A EN COMMUN, et que la précédente n'avait pas : chacune met le produit devant un acheteur.** ⚠️ **ET LE FAIT QUE CE CANAL OPPOSE À TOUT ÇA, dit une fois et non rejoué : la seule vente du projet vient d'un passage EN DIRECT le 27/09, chez un commerce dont la clientèle était la cible, sans pitch ni dégustation organisée — et cinq rendez-vous avec pitch et dégustation ont donné zéro.** 📌 **C'est cohérent avec le critère arrêté le 08/10 : viser les établissements dont la CLIENTÈLE est musulmane, pas ceux qui portent le label.**
+
+### 🎪 2026-10-09 — LA KERMESSE : LÉDJÉ Y EST EXPOSANT, PAS FOURNISSEUR
+
+🔴 **CORRECTION D'UNE LECTURE FAITE LE MATIN MÊME.** *« Le formulaire de kermesse, c'est pas pour passer commande ; c'est pour prendre un stand et pour y participer. »*
+
+🎯🎯 **CE QUE ÇA CHANGE, et ce n'est pas un détail : ce week-end n'est pas une livraison en lots à un organisateur, c'est une VENTE DIRECTE AU CONSOMMATEUR concentrée sur une journée** — **le même modèle qu'O'Daba, qui est le seul à avoir vendu.** ➡️ **Donc la question n'est plus « un écrit avec l'organisateur » mais COMBIEN DE BOUTEILLES, QUELLE RECETTE, ET QUAND ELLES SONT PRODUITES** *(cf. `../04_operations/production-artisanale.md` : ≈ 5 min/bouteille, aucune économie d'échelle, et aucun créneau à l'agenda)*.
+
+⚠️ **ET ÇA DÉCALE LA LECTURE DE LA PAGE `/prestations`**, mise en ligne le 08/10 précisément pour cette visite : **elle propose une « fourniture en lots » à des organisateurs, alors que le modèle réel de ce week-end est l'inverse.** 📌 **Ce n'est pas une erreur de la page — c'est que le prospect a pris la porte d'à côté.**
+
+⛔ **Aucun mail de confirmation reçu après le formulaire** — *« je devais recevoir un mail, mais je n'ai rien reçu ; je pense qu'il n'y a pas de sujet »*. 📌 **Consigné tel quel, sans en faire une alerte : l'absence d'écrit est ce qui a rendu le paiement de H7 incertain, et le dépôt le dit déjà une fois.**
+
+⛔ **Date exacte et quantité à produire : demandées, non répondues à ce stade.**
+
+### 🔴🔴 2026-10-10 — SISTERS BAKERY NE PREND PAS, ET C'EST SA CLIENTÈLE QUI A RÉPONDU
+
+*(Déclaré par Basekou le 12/10 ; passage sur place le vendredi 10/10. Session propriétaire : séance du 2026-10-12.)*
+
+⛔ **« Finalement elle a décidé de pas prendre de bouteilles. Elle a demandé à ses clients et ils ont pensé que c'est pas un produit qui allait les intéresser. Sa clientèle, elle est très blanche, donc pas musulmane. »**
+
+🎯🎯 **TROISIÈME CONFIRMATION DU CRITÈRE ARRÊTÉ LE 08/10, et c'est la plus directe des trois.** **Mauya l'avait montré PAR DÉFAUT** *(label halal, ≈ 90 % de clientèle blanche, pas de vente)* ; **ici la cliente a POSÉ LA QUESTION À SES PROPRES CLIENTS et rapporte leur réponse.** ➡️ **Le critère « la CLIENTÈLE, pas le label » ne se déduit plus : il se vérifie.**
+
+⛔⛔ **ET ÇA INVALIDE UNE PHRASE ÉCRITE ICI LE 09/10** : *« elle accepte 1 € sans objection, elle attendait un flyer, son seul préalable était ce support — c'est la vente la plus proche du projet »*. ➡️ **Le flyer est parti, et elle ne prend pas : LE PRÉALABLE N'ÉTAIT PAS LE SUPPORT, c'était la clientèle.** 📌 **Leçon à garder, et elle vaut pour tout le carnet : un « oui sur le prix » n'est pas un « oui ». Elle n'avait jamais goûté, et elle n'a jamais eu à décider pour elle-même — ce qu'on prenait pour un accord était une absence d'objection.**
+
+✅ **ET ELLE REDIT CE QUE LES AUTRES DISENT : *« avec des saveurs, c'est beaucoup plus jouable »*.** ➡️ **Le compte du 08/10 — « 2 restaurateurs sur 3 demandent une saveur » — PASSE À TROIS, et la troisième le dit APRÈS avoir consulté ses clients.**
+
+⛔ **L'objectif ① de la semaine** *(« rappeler Sisters Bakery, c'est la vente la plus proche »)* **est donc soldé en NON.** ✅ **Et les quatre autres objectifs de la semaine sont traités ailleurs : O'Daba et Joan au journal du 12/10, la kermesse dans `../04_operations/production-artisanale.md`, la prospection mosquées dans `canal-mosquee.md`.**
+
+### 🎪 2026-10-11 — LA KERMESSE A VENDU 80 BOUTEILLES, ET C'EST LE MODÈLE O'DABA QUI GAGNE
+
+✅✅ **80 bouteilles vendues en une journée, encaissées par Stripe** *(détail de production et accidents : `../04_operations/production-artisanale.md`)*. 🎯 **CE QUE ÇA DIT À CE CANAL, et c'est le fait le plus lourd de la semaine : la VENTE DIRECTE AU CONSOMMATEUR produit du volume, là où cinq rendez-vous restaurateurs avec pitch et dégustation ont donné zéro.** ⚠️ **Écrit comme un constat et non comme une stratégie : une kermesse n'est pas un canal récurrent, et rien n'est tranché ici sur l'arbitrage restaurateurs / événements.**
+
+### 🌍🌍 2026-10-12 — HYPOTHÈSE VÉRIFIÉE : LES RESTAURANTS AFRICAINS NE SONT PAS LA CIBLE DU PRODUIT **EN L'ÉTAT**
+
+*(Déclaré par Basekou le 12/10. Session propriétaire : séance du 2026-10-12.)*
+
+✅✅ **FORMULATION CORRIGÉE PAR BASEKOU LE 12/10, ET LA NUANCE EST TOUT LE SUJET** : *« Pour moi elle n'est pas la cible de ce produit. La communauté africaine, ou en tout cas LES RESTAURANTS AFRICAINS, ne sont pas la cible de ce produit **EN L'ÉTAT** — donc de l'eau miellée SANS SAVEUR AJOUTÉE. C'est plus comme ça que je le formulerais, parce que dès lors qu'on aura une boisson avec d'autres saveurs, ce sera super intéressant de les contacter. »*
+
+🎯🎯 **CE N'EST DONC PAS UNE EXCLUSION, C'EST UN REPORT CONDITIONNEL — et la condition est nommée : LES SAVEURS.** ⛔ **La formulation « la communauté africaine n'est pas la cible », écrite ici plus tôt le 12/10, était TROP LARGE sur deux points : elle visait une communauté au lieu d'un CANAL, et elle était définitive au lieu d'être conditionnelle.** ✅ **Corrigée ici sans être effacée.**
+
+📌 **ET ÇA S'ARTICULE AVEC LES TROIS DEMANDES DE SAVEUR** *(Mauya, Le Goût de Ça, Sisters Bakery)* **: le canal ne dit pas non au produit, il dit non à CE produit. Le carnet de restaurants africains n'est donc pas à jeter — il est à ROUVRIR le jour où une saveur existe.**
+
+🎯 **LA BASE DE LA VÉRIFICATION, et elle est large — quatre établissements, un même sens** : **Le Goût de Ça** *(« une hérésie », il veut un produit AFRICAIN)* · **Mauya** *(« juste de l'eau et du miel, c'est un peu juste »)* · **Sisters Bakery** *(ses clients ne sont pas intéressés)* · **Baca Bamba** *(zéro réachat sur 10 offertes)*. ➡️ **Basekou : *« on a une idée du marché assez large »*.**
+
+✅✅ **ET ÇA S'ARTICULE AVEC LE FAIT DU WEEK-END, ce qui en fait LE SIGNAL LE PLUS NET DU PROJET : 80 bouteilles vendues en une journée à un public MUSULMAN, avec un pitch d'origine religieuse — contre ZÉRO vente sur cinq rendez-vous de restauration africaine.**
+
+📌 **CE QUE ÇA DÉPLACE DANS L'HISTOIRE DE CETTE FICHE : l'africanité a été traitée comme une objection de RECETTE le 01/10, requalifiée en objection d'IDENTITÉ le 06/10. Elle devient ici une question de CIBLE — et la réponse est non.** ✅ **Le critère du 08/10 n'est pas remplacé, il est PRÉCISÉ : la clientèle visée est MUSULMANE, et l'africanité n'en est ni un critère ni un argument.** ⚠️ **Et les deux ne se contredisent pas : un restaurant africain à clientèle musulmane reste dans la cible ; ce qui est hors cible, c'est le produit SANS SAVEUR dans ce canal.**
+
+### ✅ 2026-10-12 — LA SÉRIE DE PROSPECTION EST CLOSE : TOUS LES RDV TENUS, CHAQUE DOSSIER MENÉ AU BOUT
+
+🎯 **RECADRAGE DE BASEKOU, et il change la manière d'écrire ce canal** : *« Sisters Bakery ils ont dit non, mais c'est surtout la FIN des rendez-vous liés à l'événement de prospection. On a tenu TOUS nos rendez-vous et on est allé au BOUT DE CHAQUE DOSSIER. »* ➡️ **La session alignait les refus ; lui compte les dossiers MENÉS À LEUR TERME. Les deux sont vrais, mais seul le second est un état d'avancement.** ✅ **État courant : la série est TERMINÉE, et la suite est À ORGANISER.**
+
+⛔ **Le nom de l'événement n'entre pas en fiche : entendu « Better Call C… », non confirmé** *(même précaution que Jérôme/Joan et MAJIYA)*. 📌 **ET DEUX PISTES SORTENT DE LA PAGE ÉTAT sur sa décision, sans sortir du carnet : DORIANE** *(food truck, via Jules)* **et un restaurant asiatique ou vietnamien évoqué par Damien — ni l'une ni l'autre contactée, et *« ça c'est pas pertinent dans la page état »*.**
+
+### 🧒🧒 2026-10-11 — LES ENFANTS SONT LE FAIT LE PLUS NEUF DU PROJET
+
+*(Débrief de la kermesse, donné le 12/10. Session propriétaire : séance du 2026-10-12.)*
+
+**Première fois que des enfants goûtent le produit. Tranche observée : ≈ 3 ans à 12-13 ans, et jusqu'à 16.** *« Les enfants ont beaucoup aimé. Les retours sur cette cible sont particulièrement positifs. »*
+
+🎯🎯 **DEUX PREUVES COMPORTEMENTALES, et ce ne sont pas des déclarations** : **des ENFANTS ont commandé 5 bouteilles au cours de la journée** *(les voisins de stand — exposés au produit, mais « s'ils ont commandé 5, c'est qu'ils ont aimé »)* **et des ADULTES en ont pris 3, une le matin, une à midi, une le soir.** ➡️ **C'est le PREMIER RÉACHAT INTRA-JOURNÉE du projet — et le réachat est l'indicateur que ce canal s'est donné le 18/07, jamais observé nulle part jusqu'ici.**
+
+📌 **Son hypothèse sur le pourquoi, écrite comme telle** : un palais encore en construction, donc le produit est reçu comme une NOUVELLE SAVEUR et non comparé à un référentiel établi.
+
+💡 **SA THÈSE, en `[idée]` parce qu'elle n'est pas testée** : la valeur vie client de ce profil serait « stratosphérique » — *« des enfants de 3 ans qui grandissent avec de l'eau miellée en boiront toute leur vie »*, par analogie avec une cliente qui ne boit que de l'eau depuis l'enfance. ⚠️ **Plausible, non démontrée.** 🎯 **Ce qu'il en dit et qui vaut d'être gardé : *« c'est un profil auquel on pense peu quand on monte un business, parce que quand on est adulte on pense à des problèmes d'adulte »*.**
+
+✅ **ET « ALTERNATIVE SAINE AU SODA » EST L'ARGUMENT QUI A PORTÉ SUR CE PUBLIC** — surtout employé par sa sœur : **les adultes pensent immédiatement à leurs enfants qui boivent des sodas.** ⚠️ *(Conformité : à l'oral c'est couvert par la décision du 30/09 ; à l'écrit « saine » est l'allégation la plus exposée — cf. journal du 12/10, non rejoué ici.)*
+
+### 🎯🎯 2026-10-12 — LA FORMULATION QUI EXPLIQUE TOUT LE CANAL : DEUX CATÉGORIES MENTALES, PAS DEUX PRODUITS
+
+*« Quand on est musulman et qu'on boit cette boisson, on se demande si elle peut rentrer dans mon quotidien, pas si c'est la meilleure boisson que j'ai bue. Quand on est non-musulman, on la compare à tout le reste des boissons. »*
+
+✅✅ **ÇA RÉCONCILIE DEUX CHIFFRES QUI SEMBLAIENT SE CONTREDIRE : moins de 10 % de demandes de saveur à la kermesse, contre TROIS restaurateurs sur trois dans le canal pro.** ➡️ **Ce n'est pas le même produit qu'on juge : c'est le même produit dans deux catégories mentales différentes.**
+
+🔴🔴 **ET LE FLOU SUR L'ORIGINE A JOUÉ CONTRE LE PRODUIT — c'est la CAUSE du sujet des saveurs, trouvée trois semaines après l'objection.** **Devant les non-musulmans il disait *« une boisson issue de ma culture »*, et comme il est d'origine guinéenne *« les gens pensaient que ça venait de Guinée, alors que pas du tout. J'ai laissé ce flou-là. »*** ➡️ **Résultat : *« ça a joué contre moi — les gens ne retrouvaient pas ce qu'ils imaginaient de la Guinée »*, et ça a CONNOTÉ NÉGATIVEMENT le produit. *« C'est encore plus marqué chez les restaurateurs. »*** ✅ **SA RÈGLE, dictée telle quelle : *« quand on est flou, c'est flou pour tout le monde. Quand on essaie de cacher, ça nous retombe dessus — et là c'est retombé vite et bien. »*** **Tir corrigé sur place.**
+
+📌 **ET SES VRAIS CONCURRENTS SONT NOMMÉS POUR LA PREMIÈRE FOIS : le BISSAP, le JUS DE GINGEMBRE, les jus de corossol/goyave, les infusions** — *« les boissons où on ne voit pas les effets négatifs »*. ⛔ **ET L'OBJECTION QU'IL N'ARRIVE PAS À LEVER : *« les restaurants africains me disaient : nos jus sont sains aussi. Donc on n'a pas d'argument pour dire que notre boisson est meilleure. »*** 💡 **Sa piste — le miel utilisé dans sa GLOBALITÉ contre une EXTRACTION — reste en `[idée]` : non démontrée, et telle quelle ce serait une allégation de santé.** ✅ **CE QUI RÉPOND À LA MÊME OBJECTION SANS RISQUE : le NOMBRE D'INGRÉDIENTS et l'absence de transformation — deux, connus, non chauffés, dosables. Vérifiable, et sans promesse d'effet.**
+
+### ✅✅ 2026-10-11 — CE QUI PART DE L'ÉVÉNEMENT
+
+🆕 **CONTACT PRIS AVEC L'ÉPICERIE DE LA MOSQUÉE** — **canal neuf, au croisement du canal mosquée et d'un canal épicerie** *(les deux étaient cités le 02/10)*. ✅ Contacts aussi avec des CLIENTS séduits par le projet et des PRESTATAIRES présents. 📊 **15 à 20 % DES PERSONNES ONT DEMANDÉ OÙ RETROUVER LA BOISSON** — **une demande de distribution spontanée, jamais mesurée avant.** 🆕 **Des ORGANISATEURS D'ÉVÉNEMENTS veulent Lédjé chez eux.** ✅ **Réachat : < 10 %, « mais c'est notable »** ; des gens sont partis avec 5 bouteilles **pour partager**. 📄 **FLYERS : 8 récupérés chez Sisters Bakery, 7 distribués, 1 gardé — et sur le dernier les gens le PRENAIENT EN PHOTO. Le support est demandé, et le stock a manqué.** 🆕🆕 **UN AUTRE ÉVÉNEMENT A LIEU DIMANCHE : il faut écrire à l'organisation pour prendre un stand** *(une caution rendue + un pourcentage des bénéfices à l'association ; aucun montant au dépôt)*. ⚠️ **C'est la seule ACTION DATÉE qui sort de ce débrief, et son échéance est courte.**
 
 ## Leçons du marché
 
