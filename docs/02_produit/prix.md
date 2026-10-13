@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-10-08
+maj: 2026-10-12
 source: "SOT §1.7 + §5.0 (archive 2026-07-24) ; plafond B2C 2026-07-20 et grilles par canal 2026-07-24 (page relais + arbitrage Basekou)"
 resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix bouteille 33cl par canal (B2C 2,50 € / C2B2C / B2B), et le piège : ne jamais communiquer sur le coût de revient."
 ---
@@ -95,6 +95,45 @@ resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix
 ⚠️ **Non tranché, et à trancher avant la prochaine commande** : ① **le prix est-il HT ou TTC** ② **le prix des 30 bouteilles de H7 n'est écrit nulle part** ③ **aucun devis de série n'a été demandé à ce jour** — ni bouteilles, ni étiquettes, ni miel en volume.
 
 📌 **Ce que cette section ne fait pas : reprocher le prix.** **Une première commande à perte peut être un investissement délibéré** — c'est même défendable pour ouvrir un canal. **Ce qui n'est pas défendable, c'est de ne pas savoir que c'en est un.**
+
+## 💶 2026-10-12 — OÙ VIT L'ARGENT : LES CHIFFRES DANS LA PAGE COMPTABILITÉ, LES FAITS ET LES LEÇONS AU DÉPÔT
+
+**Règle arrêtée par Basekou le 12/10, et formulée par lui dans sa version finale :** *« Pour le dépôt, on met pas les chiffres, on met les faits, on met les leçons. Mais les chiffres, on les garde pour le Notion et la page comptabilité. »*
+
+✅ **UN SEUL ENDROIT POUR LES CHIFFRES : la page Notion « 💸 Comptabilité — Lédjé »**, créée le 12/10 sous la page projet. 📌 **Interne, pas secrète** — précision de Basekou : *« j'aime pas l'emoji cadenas, on dirait que c'est un secret alors que pas du tout »*. **Ce n'est pas un classeur d'événements : c'est la comptabilité du projet** — recettes, dépenses, prix de chaque matière, coût d'une bouteille, volumes, et ce qui manque pour que les calculs tiennent.
+
+🎯 **CE QUI RESTE ÉCRIVABLE AU DÉPÔT : un FAIT ou une LEÇON, même quand il porte sur l'argent** — *« les frais fixes du stand ont dépassé le chiffre d'affaires »*, *« l'étiquette est le premier poste de coût, devant le miel »*, *« le prix pratiqué en B2B est sous le coût matière »*. **Un rang, un rapport, un sens de variation, un seuil franchi : aucun ne révèle un montant, et tous apprennent quelque chose.** ⛔ **Ce qui ne s'écrit pas, c'est la VALEUR.**
+
+*Ce qui suit est le motif d'origine de la règle, conservé parce qu'il explique pourquoi elle existe.* Son motif, dans ses mots : *« si on note jamais le prix qu'on a payé pour les étiquettes, comment on peut savoir si sur les prochaines ça sera plus cher ou moins cher, si on est gagnant ou perdant »* — **il faut arriver à les exprimer sans être précis au point que ce soit préjudiciable.**
+
+⚠️ **D'ABORD UNE CONTRADICTION À TRANCHER, et elle n'est pas tranchée ici** : la page ÉTAT écrit *« plancher de prix, marges, coûts fournisseurs : jamais dans un document partageable »*, **tandis que la consigne de séance dit « aucun montant ne s'écrit au dépôt », ce qui est plus large.** ⛔ **La seconde n'a jamais été appliquée : cette fiche porte des prix publics depuis le 24/07** *(plafond B2C, grilles par canal, précommande)*. 📌 **La version retenue ici est la première, la seule qui soit cohérente avec le contenu existant — à confirmer par Basekou.**
+
+⛔ **Ce qui reste PRIVÉ, parce que ça dévoile sa structure de coût ou son plancher** : **coûts fournisseurs · coût de revient · marges · recettes · plancher de prix.**
+
+✅ **Ce qui reste ÉCRIVABLE, et l'est déjà** : **les prix PUBLICS pratiqués** — ce que le client paie n'est pas un secret, il est affiché sur un stand ou une carte.
+
+✅ **Ce qui s'écrit** : la **RELATION**, sous l'une de ces quatre formes, parce qu'aucune ne révèle un montant.
+
+| Forme | Exemple réel du dossier |
+|---|---|
+| **Un RANG** | *l'étiquette est le premier poste de coût, devant le miel* |
+| **Un RAPPORT** | *le coût matière est SUPÉRIEUR au prix pratiqué en B2B* · *à 1 €, Lédjé est rangé dans l'étage du bissap et non dans celui de MAJIYA* |
+| **Un SENS DE VARIATION** | *les prochaines étiquettes coûtent plus cher qu'en août, à quantité égale* |
+| **Un SEUIL FRANCHI** | *le B2C événementiel est le premier canal où le prix pratiqué couvre le coût matière* |
+
+📌 **Les valeurs vivent dans la page Notion « 💸 Comptabilité — Lédjé ».** Le dépôt renvoie à elle, il ne la recopie pas.
+
+### 🔴 2026-10-12 — CE QUE LE CHIFFRAGE DE L'ÉVÉNEMENT APPREND SUR LE PRIX, en rapports
+
+- 🔴 **Le coût matière d'une bouteille représente environ LES DEUX TIERS À 70 % du prix moyen réellement obtenu en B2C événementiel** ⇒ **la marge unitaire est mince, et c'est elle qui rend un stand payant si difficile à amortir.**
+- ⚠️⚠️ **CORRECTION DU 12/10 AU SOIR, ET ELLE VA DANS L'AUTRE SENS QUE CE QUE CETTE FICHE DISAIT QUELQUES HEURES PLUS TÔT : avec les factures réelles, LE COÛT D'UNE BOUTEILLE EST PLUS HAUT que le chiffre qu'on portait de mémoire, pas plus bas.** ✅ **Le MIEL, lui, coûte MOINS cher que le critère de sélection du fournisseur** — **mais l'ÉTIQUETTE et la BOUTEILLE pèsent plus lourd que ce que l'ancien chiffre laissait de place.**
+- 🎯🎯 **ET LE LEVIER N'EST PAS LÀ OÙ ON LE CHERCHAIT : à elle seule, l'ÉTIQUETTE fait environ 40 % du coût d'une bouteille finie — devant le miel ET devant la bouteille.** ⛔ **Alors que PASSER DE 20 À 15 mL de miel ne fait gagner que quelques centimes : la DOSE N'EST PAS UN LEVIER DE COÛT.** ➡️ **Si on veut baisser le coût de revient, c'est le poste ÉTIQUETTE qu'il faut travailler, pas la recette.**
+- ⛔ **Et ce coût unitaire n'existait nulle part dans le dépôt avant le 12/10** *(zéro occurrence)* : c'est exactement le trou que la page comptabilité comble.
+- ✅✅ **L'OBJECTION PRIX TOMBE EN B2C, et par un fait et non par un raisonnement : certains visiteurs ont REFUSÉ le prix réduit pour payer le plein tarif « pour donner de la force ».** ➡️ **Le prix n'était pas le frein.** ⚠️ **Mais la contrepartie est une réserve : une part de ces ventes est du SOUTIEN au projet, pas un arbitrage de consommateur — elles ne mesurent donc pas l'élasticité au prix.**
+- 📌 **L'offre à prix réduit a coûté environ un huitième du chiffre d'affaires** ⇒ **Basekou la jugeait « une erreur » : elle est petite, et à comparer au volume qu'elle a produit.**
+- 🎯 **Et le rapport du 29/09 s'inverse bien PAR CANAL : le prix pratiqué reste sous le coût matière en B2B, et il le COUVRE en B2C événementiel.** ⚠️ **Couvrir le coût matière n'est pas faire du bénéfice : sur l'événement du 11/10 les frais de stand ont effacé la marge et davantage.**
+
+⚡ **Pourquoi la règle existait et pourquoi elle ne suffisait pas** : « aucun montant au dépôt » protégeait le plancher de prix et les coûts fournisseurs, **mais elle a fait disparaître l'APPRENTISSAGE avec les chiffres** — et une décision de prix sans série historique se reprend à zéro chaque fois. ⚠️ **Deuxième effet de bord, nommé par Basekou le 12/10 et à garder comme leçon de méthode : la règle interdisait d'ÉCRIRE les montants, elle n'a jamais interdit de les DEMANDER — et le débrief de l'événement du 11/10 n'a posé aucune question d'argent.**
 
 ## Contrainte prix (cible business, PAS un argument marketing)
 

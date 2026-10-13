@@ -1,9 +1,9 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-10-02
+maj: 2026-10-12
 source: "SOT Partie 8 + §8.1 (archive 2026-07-24) + outillage conseil 2026-07-21 (page relais) ; générateur de prompts visuels rendu visible le 2026-08-20 (il n'était référencé que par CLAUDE.md)"
-resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo. 🆕 `[idée]` **Agent Reach** (MIT) : couche de LECTURE des réseaux sociaux pour agents — ⛔ ne prospecte pas, ne contacte personne. 🎯 L'accès internet générique est DÉJÀ couvert ; le vrai trou est la lecture du contenu social (TikTok, Instagram, X, Reddit, sous-titres YouTube), non couverte à ce jour. ⚠️ Deux réserves : les canaux sociaux passent par les COOKIES de Basekou (comptes récents = les plus faciles à suspendre), et l'installation documentée fait exécuter à un agent un fichier distant. Rien n'est installé."
+resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo. 🆕 `[idée]` **Agent Reach** (MIT) : couche de LECTURE des réseaux sociaux pour agents — ⛔ ne prospecte pas, ne contacte personne. 🎯 L'accès internet générique est DÉJÀ couvert ; le vrai trou est la lecture du contenu social (TikTok, Instagram, X, Reddit, sous-titres YouTube), non couverte à ce jour. ⚠️ Deux réserves : les canaux sociaux passent par les COOKIES de Basekou (comptes récents = les plus faciles à suspendre), et l'installation documentée fait exécuter à un agent un fichier distant. Rien n'est installé. 🛠️ **Deux pages Notion INTERNES de travail inventoriées le 12/10** (« Argumentaire de RDV restaurateur — questions, SONCAS, objections » et « Générateur de hooks ») : elles n'étaient référencées que dans la file 📥 de la page ÉTAT, dont la fonction est d'être vidée. ⛔ Elles ne sortent pas."
 ---
 
 # Outils & répartition
@@ -102,6 +102,15 @@ Ces documents sont référencés par le projet mais ne vivent pas dans ce dépô
 | `ledje-lean-canvas.md` | Premier jet (~80 % rempli), carte d'identité business à partager. Case la plus faible et à tester en priorité : la proposition de valeur unique. | à compléter |
 | `ledje-scripts-pubs-v1-v2.md` | Outputs scripts pubs V1/V2 | à compléter |
 | `ledje-brief-video-hero.md` | Brief de la nouvelle vidéo hero (séquence refus en rayon → bouteille → cristal → transmission → partage → signature) | à compléter |
+
+## 🛠️ Pages Notion INTERNES de travail — inventoriées le 2026-10-12, elles ne vivaient nulle part
+
+⚠️ **Deux outils ont été créés à la demande de Basekou et n'étaient référencés que dans la file 📥 de la page ÉTAT** — donc dans un endroit dont la fonction est d'être vidé. **Ils sont inventoriés ici pour cesser de dépendre de cette file.** ⛔ **Les deux sont INTERNES : elles ne sortent pas.**
+
+| Page | Ce qu'elle contient | État |
+|---|---|---|
+| **« Argumentaire de RDV restaurateur — questions, SONCAS, objections »** *(créée le 06/10, sous Sales)* | 8 questions d'ouverture — **les questions passent AVANT la dégustation** · grille de lecture réponse → levier · un argument par levier SONCAS · **les 6 objections déjà entendues avec leur réponse** · le déroulé, les 6 interdits, le geste « secouer le 25/75 ». Entrée : le verbatim du prospect ; sortie : le levier à tirer. | 🔴 **Elle devait être corrigée par le terrain après chaque RDV. La série des 5 RDV est close et ça n'a jamais été fait.** ⚠️ Et ce qu'elle a produit le 07/10 est documenté : la passerelle question → levier n'a pas fonctionné, **parce que ce qui manquait n'était aucun des six leviers, c'était le GOÛT** *(`../03_marche/canal-restaurant.md`)*. |
+| **« 🪝 Générateur de hooks — matrice et 10 templates »** *(créée le 07/10)* | 5 matrices *(ruptures de pattern, déclencheurs, gaps de curiosité, mots autorisés/interdits, structures éprouvées)* · 10 templates à remplir avec exemple, format et objectif · méthode de test *(une variable à la fois, rétention à 3 s)*. | ✅ Son **existence** est le fait, pas sa qualité : contenu non relu, aucun hook validé. 🔴 **Limite écrite dans la page : le registre religieux étant exclu des réseaux, l'argument le plus distinctif du produit n'apparaît dans aucun template.** |
 
 ## Ce qui vit dans le repo
 
