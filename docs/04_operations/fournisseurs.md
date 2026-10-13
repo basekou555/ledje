@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-09-10
+maj: 2026-10-13
 source: "SOT Partie 7 (archive 2026-07-24) ; Apior écarté (Basekou, 24/07) ; critères cartographie 2026-07-21 (page relais) ; aligné le 2026-09-01 sur les décisions déjà consignées le 31/08 ; ordre miel-avant-étiquettes établi le 2026-09-02 ; assemblage arrêté et rupture de miel constatée le 2026-09-07 (montagne + châtaignier 25/75) ; contact corrigé (Joan, pas Jérôme) et commande déclarée passée le 2026-09-08 ; réponse de Joan (taux d'humidité 16-18 %) consignée le 2026-09-10"
 resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — contact : JOAN, nom corrigé le 08/09 ; ✅ assemblage ARRÊTÉ le 07/09 : montagne + châtaignier 25/75, tilleul en repli — ⚠️ mais la DOSE reste à travailler — et il n'y avait PLUS DE MIEL au 07/09, ce qui a fait de l'appel la condition du figeage et non sa conséquence). ✅ COMMANDE DÉCLARÉE PASSÉE le 08/09, et ✅ JOAN A RÉPONDU le 10/09 : **taux d'humidité 16-18 %** — la conversion en grammes est donc FAITE et le tableau nutritionnel corroboré. ⚠️ Mais le miel est à RETIRER et la date de retrait est inconnue : la dose reste bloquée faute de matière. 🔗 La commande du miel passe AVANT celle des étiquettes depuis le 02/09 : le taux d'humidité demandé à Joan conditionne le tableau nutritionnel. Sourcing industriel : apprentissages (dont logique « 2 miels », sujet ouvert), shortlist tracks cristal/RTD, cartographie cristaux à lancer (le conditionneur pour Ramadan 2027 n'existe pas encore)."
 ---
@@ -38,6 +38,47 @@ resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — 
 | 1 | **Antartic** | Saint-Martin-d'Abbat (45) | RTD sans alcool, R&D recette, ligne PET | Email invalide, à rappeler |
 | 2 | **JDLO / Les Jardins de l'Orbrie** | Bressuire (79) | Fabrication/embouteillage à façon (~70 % de l'activité) | Contacté, en attente |
 | 3 | **Agilery** | Zurich (CH) | Intermédiaire matchmaking co-manufacturers Europe | **ÉCARTÉ pour l'instant** (call 2026-07-06, Francisca) : mapping payant ~3 700 € HT **par produit** (≈ 8 000 € pour deux), 6-7 semaines d'attente + 2-3 mois de mapping, aucune garantie. Motifs du refus (mail envoyé) : prix + délais incompatibles Ramadan 2027. Porte laissée ouverte. **Ne pas leur demander la recherche cristallisé** (les conditionneurs français directs la font gratuitement). |
+
+## Track 4 — ÉTIQUETTES : brief de recherche d'un fournisseur moins cher *(ouvert le 2026-10-13)*
+
+🎯 **Mission confiée à une session Cowork par Basekou le 2026-10-13.** ⚡ **Motif arithmétique : l'étiquette est le PREMIER poste de coût d'une bouteille, ≈ 40 %, devant la bouteille et loin devant le miel** — donc ce n'est pas une économie de détail, c'est LE levier du coût de revient, et la dose n'en est pas un.
+
+📌 **Cette section existe parce que le brief ne vivait que dans la description de la PR #113** : une PR fermée l'emporte avec elle, et une session neuve n'aurait aucun moyen de le retrouver. *(Même mécanisme que les deux outils Notion inventoriés le 12/10.)*
+
+### ⛔ La spec — la MATIÈRE n'est pas négociable
+
+| | |
+|---|---|
+| **Format** | **210 × 50 mm**, étiquette **enveloppante** — cohérent avec la bouteille *(Ø 65 mm, tour ≈ 204 mm ⇒ ≈ 6 mm de recouvrement)*. Figé ; la maquette `v1.2` existe. |
+| **Matière** | **Film de POLYPROPYLÈNE blanc 60 µ** — référence actuelle **Avery AL597**. ⛔ **PAS de papier, ni couché, ni « adhésif résistant à l'humidité ».** |
+| **Quantités** | Dernier tirage : **240 unités**. Demander la courbe de prix à **240 / 500 / 1 000**, port compris. |
+
+**Pourquoi le PP ne se négocie pas — trois raisons, toutes vérifiées au terrain :** ① la bouteille **sort du frigo et se couvre de condensation**, un papier gondole et se décolle *(choix délibéré du 17/08)* • ② ✅ **le PP résiste au LAVAGE, ce qui permet de RÉEMPLOYER les bouteilles** *(bénéfice découvert le 11/10)* • ③ la contrepartie est connue et assumée — **l'encre du tampon DLC n'y sèche pas**, et ce n'est pas un motif de changer de matière.
+
+### 🎯🎯 Le critère n° 1 n'est PAS le prix, c'est l'IRRÉVERSIBILITÉ
+
+**Dans les mots de Basekou : *« on peut pas savoir à l'avance le résultat de l'impression, et on peut pas se permettre de se tromper sur ce montant-là »*.**
+
+➡️ **La première question à chaque candidat est donc : proposez-vous un ÉCHANTILLON PHYSIQUE imprimé sur la matière définitive, AVANT le tirage complet, et à quel prix ?**
+
+⚡ **Un imprimeur qui vend une épreuve matière pour quelques euros SUPPRIME le risque, et vaut mieux qu'un imprimeur nettement moins cher qui ne livre que le lot entier.** Classer les candidats sur ce critère d'abord, le prix ensuite.
+
+### À rapporter par candidat
+
+1. Nom, site, pays d'expédition • 2. **fait-il du PP blanc 60 µ en 210 × 50 mm ?** • 3. **prix unitaire à 240 / 500 / 1 000**, port compris • 4. **épreuve physique : oui/non, prix, délai** • 5. délai production + livraison • 6. quantité minimum de commande.
+
+### Candidats et périmètre
+
+| Piste | État |
+|---|---|
+| **VISTAPRINT** | 🟠 **Prix jugé intéressant et test sur fichier CONCLUANT** *(qualité jugée correcte)*. ✅ Candidat déjà repéré, à chiffrer sur la spec ci-dessus. ⚠️ *Une somme déjà payée chez eux reste à se faire rembourser.* |
+| **Imprimeurs en ligne FR et UE** d'étiquettes adhésives, bobine ou planche | ⏳ À chercher. |
+| **Avery en direct** | ⏳ C'est la référence actuelle. |
+| 🎯 **Fabricants pour BRASSEURS et producteurs de boissons** | ⏳ **Même contrainte de condensation et de lavage — c'est leur métier.** |
+
+⛔ **HORS PÉRIMÈTRE, et c'écrit dans le brief** : passer au papier sous un argument de prix · **chercher une imprimante à acheter** — autre piste, **autre base de coût** *(elle suppose du support PP imprimable)*, à arbitrer séparément.
+
+⚠️ **État au 2026-10-13 : brief écrit, recherche NON LANCÉE.** 💰 *Le prix unitaire de référence vit dans la page Notion 💸 Comptabilité — il ne s'écrit pas ici.*
 
 ## Process & statut (2026-07-04)
 
