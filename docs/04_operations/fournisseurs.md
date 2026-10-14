@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-13
+maj: 2026-10-14
 source: "SOT Partie 7 (archive 2026-07-24) ; Apior écarté (Basekou, 24/07) ; critères cartographie 2026-07-21 (page relais) ; aligné le 2026-09-01 sur les décisions déjà consignées le 31/08 ; ordre miel-avant-étiquettes établi le 2026-09-02 ; assemblage arrêté et rupture de miel constatée le 2026-09-07 (montagne + châtaignier 25/75) ; contact corrigé (Joan, pas Jérôme) et commande déclarée passée le 2026-09-08 ; réponse de Joan (taux d'humidité 16-18 %) consignée le 2026-09-10"
 resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — contact : JOAN, nom corrigé le 08/09 ; ✅ assemblage ARRÊTÉ le 07/09 : montagne + châtaignier 25/75, tilleul en repli — ⚠️ mais la DOSE reste à travailler — et il n'y avait PLUS DE MIEL au 07/09, ce qui a fait de l'appel la condition du figeage et non sa conséquence). ✅ COMMANDE DÉCLARÉE PASSÉE le 08/09, et ✅ JOAN A RÉPONDU le 10/09 : **taux d'humidité 16-18 %** — la conversion en grammes est donc FAITE et le tableau nutritionnel corroboré. ⚠️ Mais le miel est à RETIRER et la date de retrait est inconnue : la dose reste bloquée faute de matière. 🔗 La commande du miel passe AVANT celle des étiquettes depuis le 02/09 : le taux d'humidité demandé à Joan conditionne le tableau nutritionnel. Sourcing industriel : apprentissages (dont logique « 2 miels », sujet ouvert), shortlist tracks cristal/RTD, cartographie cristaux à lancer (le conditionneur pour Ramadan 2027 n'existe pas encore)."
 ---
@@ -55,7 +55,15 @@ resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — 
 
 **Pourquoi le PP ne se négocie pas — trois raisons, toutes vérifiées au terrain :** ① la bouteille **sort du frigo et se couvre de condensation**, un papier gondole et se décolle *(choix délibéré du 17/08)* • ② ✅ **le PP résiste au LAVAGE, ce qui permet de RÉEMPLOYER les bouteilles** *(bénéfice découvert le 11/10)* • ③ la contrepartie est connue et assumée — **l'encre du tampon DLC n'y sèche pas**, et ce n'est pas un motif de changer de matière.
 
-### 🎯🎯 Le critère n° 1 n'est PAS le prix, c'est l'IRRÉVERSIBILITÉ
+### ⛔⛔ LE CRITÈRE N° 1 EST ABANDONNÉ LE 2026-10-14 — il n'était pas obtenable
+
+⚠️ **Basekou l'a testé contre la réalité : *« pour un échantillon physique, ça va prendre trop de temps, ça va être très compliqué à obtenir »*.** ⛔ **La règle ci-dessous est donc CONSERVÉE POUR MÉMOIRE et NON APPLIQUÉE.**
+
+✅ **CE QUI LA REMPLACE, décision du 14/10 : LA PREMIÈRE COMMANDE EST ELLE-MÊME LE TEST.** On commande chez le nouvel imprimeur au prix obtenu ; **si le rendu ne convient pas, on demande un remboursement ou on avise ; s'il convient, le fournisseur est validé pour le long terme.** 🎯 **Le risque est donc assumé et borné à un tirage, contre un gain de ≈ 57 % sur le poste.**
+
+⚠️ **Deux garde-fous qui restent obtenables, eux, et qui ne coûtent rien à demander : le BAT NUMÉRIQUE** *(standard et rapide chez tous les imprimeurs en ligne — il couvre le fichier, pas la matière)* **et la POLITIQUE DE RÉIMPRESSION OU DE REMBOURSEMENT, à lire AVANT de valider le panier.** 📌 *C'est le second qui porte le recours annoncé par la décision ci-dessus : sans lui écrit, « on demandera un remboursement » n'est pas une garantie.*
+
+### 🗃️ Pour mémoire — le critère écarté : l'IRRÉVERSIBILITÉ plutôt que le prix
 
 **Dans les mots de Basekou : *« on peut pas savoir à l'avance le résultat de l'impression, et on peut pas se permettre de se tromper sur ce montant-là »*.**
 
