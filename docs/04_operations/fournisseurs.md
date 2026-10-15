@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-14
+maj: 2026-10-15
 source: "SOT Partie 7 (archive 2026-07-24) ; Apior écarté (Basekou, 24/07) ; critères cartographie 2026-07-21 (page relais) ; aligné le 2026-09-01 sur les décisions déjà consignées le 31/08 ; ordre miel-avant-étiquettes établi le 2026-09-02 ; assemblage arrêté et rupture de miel constatée le 2026-09-07 (montagne + châtaignier 25/75) ; contact corrigé (Joan, pas Jérôme) et commande déclarée passée le 2026-09-08 ; réponse de Joan (taux d'humidité 16-18 %) consignée le 2026-09-10"
 resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — contact : JOAN, nom corrigé le 08/09 ; ✅ assemblage ARRÊTÉ le 07/09 : montagne + châtaignier 25/75, tilleul en repli — ⚠️ mais la DOSE reste à travailler — et il n'y avait PLUS DE MIEL au 07/09, ce qui a fait de l'appel la condition du figeage et non sa conséquence). ✅ COMMANDE DÉCLARÉE PASSÉE le 08/09, et ✅ JOAN A RÉPONDU le 10/09 : **taux d'humidité 16-18 %** — la conversion en grammes est donc FAITE et le tableau nutritionnel corroboré. ⚠️ Mais le miel est à RETIRER et la date de retrait est inconnue : la dose reste bloquée faute de matière. 🔗 La commande du miel passe AVANT celle des étiquettes depuis le 02/09 : le taux d'humidité demandé à Joan conditionne le tableau nutritionnel. Sourcing industriel : apprentissages (dont logique « 2 miels », sujet ouvert), shortlist tracks cristal/RTD, cartographie cristaux à lancer (le conditionneur pour Ramadan 2027 n'existe pas encore)."
 ---
@@ -49,7 +49,8 @@ resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — 
 
 | | |
 |---|---|
-| **Format** | **210 × 50 mm**, étiquette **enveloppante** — cohérent avec la bouteille *(Ø 65 mm, tour ≈ 204 mm ⇒ ≈ 6 mm de recouvrement)*. Figé ; la maquette `v1.2` existe. |
+| ⛔⛔ **Format — PIÈGE VÉRIFIÉ LE 15/10** | **210 × 50 mm, ET RIEN D'AUTRE.** ⚠️ **Le dossier porte aussi un `185 × 67 mm` : c'est l'ANCIEN format, celui des maquettes V1.6 et V1.7 d'août, ABANDONNÉ.** ✅ **Ce qui est RÉELLEMENT IMPRIMÉ depuis septembre est `étiquette lédjé 210x50 v1.2.pdf`** *(constaté au Drive le 10/09, confirmé par Basekou le 11/09)*. ⛔ **Commander en 185 × 67 donnerait 500 étiquettes INUTILISABLES : 185 mm ne fait pas le tour d'une bouteille de 204 mm.** 📌 *Un bloc de routine du 15/10 annonçait 185 × 67 comme le format tranché : il citait une décision périmée.* |
+| **Forme** | étiquette **enveloppante** — cohérent avec la bouteille *(Ø 65 mm, tour ≈ 204 mm ⇒ ≈ 6 mm de recouvrement)*. Figé ; la maquette `v1.2` existe. |
 | **Matière** | **Film de POLYPROPYLÈNE blanc 60 µ** — référence actuelle **Avery AL597**. ⛔ **PAS de papier, ni couché, ni « adhésif résistant à l'humidité ».** |
 | **Quantités** | Dernier tirage : **240 unités**. Demander la courbe de prix à **240 / 500 / 1 000**, port compris. |
 
@@ -86,7 +87,7 @@ resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — 
 
 ⛔ **HORS PÉRIMÈTRE, et c'écrit dans le brief** : passer au papier sous un argument de prix · **chercher une imprimante à acheter** — autre piste, **autre base de coût** *(elle suppose du support PP imprimable)*, à arbitrer séparément.
 
-⚠️ **État au 2026-10-13 : brief écrit, recherche NON LANCÉE.** 💰 *Le prix unitaire de référence vit dans la page Notion 💸 Comptabilité — il ne s'écrit pas ici.*
+✅✅ **État au 2026-10-15 : LA RECHERCHE EST FAITE.** Un panel a été relevé le 14/10 au soir *(navigateur piloté, prix réels à 240 / 500 / 1000 port compris)*, et une base unique de **29 candidats** existe après fusion des deux listes. ⚠️ **Le livrable vit en Notion, pas au dépôt** — et la première version a été écrite sur la page 🧵 **GELÉE**, ce qui l'a rendue introuvable pendant une journée. 🔴 **Vistaprint N'A PAS PU ÊTRE CHIFFRÉ** *(configurateur en panne, trois tentatives)* **et Labelprint24 est classé hors course** — or ce sont les deux candidats que Basekou citait le 14/10. ⏳ **Choix de l'imprimeur non tranché au 15/10.** 💰 *Le prix unitaire de référence vit dans la page Notion 💸 Comptabilité — il ne s'écrit pas ici.*
 
 ## Process & statut (2026-07-04)
 
