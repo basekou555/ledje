@@ -182,6 +182,39 @@ export default function Commander() {
           </div>
         </section>
 
+        {/* ══ LA BANDE — ce qu'on achète, entre le prix et le formulaire ══
+
+            Ajoutée le 2026-10-16 au second retour de Basekou : « la page est
+            ennuyeuse ». Elle l'était, et le diagnostic est structurel plutôt
+            que rédactionnel : la page n'avait que DEUX blocs, posés sur deux
+            beiges presque identiques, et elle passait d'un prix à un
+            formulaire sans rien donner envie entre les deux.
+
+            La force de ce site est l'ALTERNANCE — des bandes pleine largeur,
+            sombres, entre les sections claires. Cette page n'en avait aucune.
+            Celle-ci reprend le composant de l'accueil tel quel : même image,
+            même traitement. On ne réinvente pas un motif qui marche. ══ */}
+        <section className="v-band" aria-labelledby="gout-title">
+          <div className="v-band-media">
+            <img
+              src="/visuals/degustation.jpg"
+              alt=""
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <div className="v-band-content container container--wide">
+            <p className="v-eyebrow">Ce que tu commandes</p>
+            <h2 id="gout-title" className="v-title v-title--huge">
+              Glacée, à la sortie du frigo.
+            </h2>
+            <p className="v-text v-text--lead">
+              De l’eau de source et du miel français. C’est tout, et c’est au
+              froid que ça se joue.
+            </p>
+          </div>
+        </section>
+
         <section className="v-section v-section--soft" aria-labelledby="form-title">
           <div className="container container--wide">
             <h2 id="form-title" className="v-title v-title--xl">Ta commande</h2>
