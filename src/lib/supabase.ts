@@ -95,3 +95,47 @@ export async function submitAvis(a: AvisPayload): Promise<{ error: string | null
   if (error) return { error: 'network' }
   return { error: null }
 }
+
+/* ── Demandes entrantes (/offrir et /prestations) ─────────────────────────
+   Ajouté le 2026-10-16. Remplace les `mailto:` qui terminaient les deux
+   pages faites pour générer du business.
+
+   ⚠️ POURQUOI : 91 % des visiteurs sont sur téléphone (Vercel, 30 j au
+   16/10). Un `mailto:` y est une impasse — il jette la personne hors du
+   site dans un écran de rédaction vide, quand une application mail est
+   seulement configurée. C'était la cause mécanique du « rien ne crée la
+   discussion » : 28 visiteurs sur ces deux pages en un mois, et aucun
+   moyen de répondre sans quitter le site.
+
+   Table `demandes` : INSERT-only pour anon, aucune policy SELECT, id
+   généré côté client — même patron que `waitlist` et `avis`, et surtout
+   PAS de `.select()` après l'insert (piège connu du projet). */
+export type DemandeType = 'offrir' | 'prestation'
+
+export type DemandePayload = {
+  type: DemandeType
+  nom: string
+  contact: string        // email OU téléphone : on ne force pas le format
+  structure: string      // la mosquée, l'école, l'association
+  dateSouhaitee: string  // texte libre : « samedi 25 », « fin novembre »
+  quantite: string       // texte libre : on ne demande pas un chiffre exact
+  message: string
+}
+
+export async function submitDemande(d: DemandePayload): Promise<{ error: string | null }> {
+  const { utm_source } = getUtm()
+  const id = crypto.randomUUID()
+  const { error } = await supabase.from('demandes').insert({
+    id,
+    type: d.type,
+    nom: d.nom.trim() || null,
+    contact: d.contact.trim(),
+    structure: d.structure.trim() || null,
+    date_souhaitee: d.dateSouhaitee.trim() || null,
+    quantite: d.quantite.trim() || null,
+    message: d.message.trim() || null,
+    utm_source,
+  })
+  if (error) return { error: 'network' }
+  return { error: null }
+}
