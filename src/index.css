@@ -1223,3 +1223,25 @@ img, svg, video { display: block; max-width: 100%; }
   color: var(--gold-deep);
   margin-bottom: 1.2rem;
 }
+
+/* La bande devient une invitation à s'abonner (2026-10-16). Un seul bouton
+   plein : avec 91 % de visiteurs sur téléphone et 78 % de rebond, on ne fait
+   pas choisir entre deux portes quelqu'un qui s'apprête à partir. */
+.v-social-band-text {
+  font-size: 0.98rem;
+  color: var(--ink-soft);
+  max-width: 42ch;
+  margin: 0 auto 1.4rem;
+  line-height: 1.6;
+}
+.v-social-band-actions { margin-bottom: 1rem; }
+.v-social-band-actions .btn-primary { max-width: 100%; }
+.v-social-band-handle a {
+  color: var(--gold-deep);
+  text-decoration: none;
+  background-image: linear-gradient(var(--gold), var(--gold));
+  background-size: 100% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 2px;
+}
