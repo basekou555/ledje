@@ -6,6 +6,7 @@ import Construction from './Construction.tsx'
 import Avis from './Avis.tsx'
 import Offrir from './Offrir.tsx'
 import Prestations from './Prestations.tsx'
+import Commander from './Commander.tsx'
 import App from './App.tsx'
 
 /* Routage minimal par pathname (SPA — Vercel réécrit déjà tout vers index.html).
@@ -16,6 +17,10 @@ import App from './App.tsx'
    retombe sur la vitrine.
 
    — /avis         : recueil d'avis, ouverte pendant les dégustations ;
+   — /commander    : le pack de 6, livré le lendemain à Lyon. Créée le
+                     2026-10-16 : c'est la première réponse à « où est-ce
+                     que j'en trouve », identifiée le 14/10 comme la fuite
+                     la plus coûteuse du dossier ;
    — /prestations  : les formules événement (kermesse, fête d'école…).
                      Créée le 2026-10-08 pour une visite précise : un
                      établissement scolaire qui organise une kermesse ;
@@ -36,6 +41,7 @@ function Page() {
   if (path === '/avis') return <Avis />
   if (path === '/offrir') return <Offrir />
   if (path === '/prestations') return <Prestations />
+  if (path === '/commander') return <Commander />
   if (path === '/construction') return <Construction />
   return <App />
 }
