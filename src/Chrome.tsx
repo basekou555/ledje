@@ -72,6 +72,11 @@ export function SocialIcon({ name }: { name: string }) {
      sans le site sous les yeux. */
 export const HANDLE = 'its.ledje'
 
+// Résolues depuis SOCIALS, qui reste la seule source du handle depuis le
+// 02/10 : un changement de compte ne touche qu'un endroit.
+export const INSTAGRAM_URL = SOCIALS.find(s => s.icon === 'instagram')?.url ?? ''
+export const TIKTOK_URL = SOCIALS.find(s => s.icon === 'tiktok')?.url ?? ''
+
 export function SocialLinks({ variant = 'icons', where = 'inconnu' }: { variant?: 'icons' | 'named'; where?: string }) {
   const liens = SOCIALS.filter(s => s.url)
   if (liens.length === 0) return null
