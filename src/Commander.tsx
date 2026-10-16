@@ -128,31 +128,57 @@ export default function Commander() {
       <SiteHeader />
 
       <main className="v-page" id="top">
+        {/* ══ LE HAUT DE PAGE — l'image, le prix, et c'est tout ══
+
+            Première version (16/10) : un titre, un paragraphe et une plaque
+            de specs. Basekou, le même jour : « la voix est ennuyeuse, il
+            manque une image, il manque comment le prix est mis en avant,
+            c'est pas joli comme ça ». Il avait raison — c'était une page de
+            formulaire, pas une page de vente.
+
+            Donc : la bouteille à droite, le PRIX en chiffre de titre à
+            gauche, et trois faits courts. Le prix ne se range plus dans une
+            ligne de tableau au même rang que la contenance : c'est
+            l'argument, il a la taille d'un argument. */}
         <section className="v-section v-page-head" aria-labelledby="cmd-title">
           <div className="container container--wide">
-            <p className="v-eyebrow">Commander</p>
-            <h1 id="cmd-title" className="v-title v-title--huge">
-              Un pack, livré demain.
-            </h1>
-            <p className="v-text v-text--lead">
-              Six bouteilles, préparées le soir même et déposées chez toi le
-              lendemain. À Lyon pour l’instant.
-            </p>
+            <div className="v-split">
+              <div className="v-split-main">
+                <p className="v-eyebrow">Commander</p>
+                <h1 id="cmd-title" className="v-title v-title--huge">
+                  Fraîches, chez toi demain.
+                </h1>
 
-            <dl className="v-specs">
-              <div className="v-spec">
-                <dt>Le pack</dt>
-                <dd>{BOUTEILLES_PAR_PACK} bouteilles</dd>
+                <p className="v-prix">
+                  <strong>{PRIX_PACK} €</strong>
+                  <span>le pack de {BOUTEILLES_PAR_PACK} bouteilles</span>
+                </p>
+
+                <p className="v-text v-text--lead">
+                  On prépare ta commande le soir même, tu es livré le
+                  lendemain. À Lyon et dans l’agglomération, pour l’instant.
+                </p>
+
+                <ul className="v-cmd-faits">
+                  <li>Préparée le soir même</li>
+                  <li>Livrée le lendemain</li>
+                  <li>De l’eau et du miel, rien d’autre</li>
+                </ul>
               </div>
-              <div className="v-spec">
-                <dt>Le prix</dt>
-                <dd>{PRIX_PACK} €</dd>
+
+              <div className="v-split-side">
+                <figure className="v-figure">
+                  <img
+                    src="/visuals/produit.jpg"
+                    alt="Une bouteille d’eau miellée lédjé, fraîche, posée au soleil."
+                    width={1100}
+                    height={1375}
+                    fetchPriority="high"
+                    decoding="async"
+                  />
+                </figure>
               </div>
-              <div className="v-spec">
-                <dt>Livraison</dt>
-                <dd>Le lendemain</dd>
-              </div>
-            </dl>
+            </div>
           </div>
         </section>
 

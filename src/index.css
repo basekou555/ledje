@@ -1358,3 +1358,57 @@ fieldset.v-field legend {
   margin-bottom: 0.45rem; padding: 0;
 }
 fieldset.v-field legend em { color: var(--gold-deep); font-style: normal; }
+
+/* Le prix de /commander (2026-10-16, après retour de Basekou : « il manque
+   comment le prix est mis en avant »). Il était dans une plaque de specs,
+   au même rang visuel que la contenance. C'est l'argument de la page : il
+   prend la taille d'un argument, en chiffre de titre. */
+.v-prix {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  margin: 1.4rem 0 1.2rem;
+}
+.v-prix strong {
+  font-family: var(--font-title);
+  font-size: clamp(3.2rem, 11vw, 4.6rem);
+  line-height: 0.9;
+  color: var(--green-deep);
+  font-weight: 400;
+}
+.v-prix span {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  max-width: 11ch;
+  line-height: 1.35;
+}
+
+/* Trois faits, pas un paragraphe : ils se lisent au défilement. */
+.v-cmd-faits { list-style: none; margin-top: 1.4rem; display: grid; gap: 0.55rem; }
+.v-cmd-faits li {
+  position: relative;
+  padding-left: 1.3rem;
+  font-size: 0.97rem;
+  color: var(--ink);
+}
+.v-cmd-faits li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0.55em;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--gold);
+}
+
+/* ⚠️ L'image du haut de /commander était ÉTIRÉE : la colonne de texte est
+   haute (titre + prix + liste), la grille étire la colonne voisine, et
+   l'image suivait — la bouteille sortait allongée. Elle garde donc sa forme
+   native (1100 × 1375) et la colonne ne s'étire plus. */
+.v-page-head .v-split-side { align-self: start; }
+.v-page-head .v-figure img {
+  aspect-ratio: 1100 / 1375;
+  height: auto;
+  object-fit: cover;
+}
