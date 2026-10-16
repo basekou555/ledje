@@ -1245,3 +1245,170 @@ img, svg, video { display: block; max-width: 100%; }
   background-repeat: no-repeat;
   padding-bottom: 2px;
 }
+
+/* ════════════════════════════════════════════
+   LE FORMULAIRE DE DEMANDE (/offrir, /prestations) — 2026-10-16
+   Il remplace deux `mailto:`, impasses pour les 91 % de visiteurs sur
+   téléphone. Donc : une seule colonne sous 700 px, des champs hauts de
+   48 px minimum (saisie au pouce), et aucun format imposé.
+   ════════════════════════════════════════════ */
+.v-demande { margin-top: 1.8rem; max-width: 560px; }
+.v-demande-row { display: grid; gap: 0.9rem; }
+@media (min-width: 700px) { .v-demande-row { grid-template-columns: 1fr 1fr; } }
+
+.v-field { display: block; margin-bottom: 0.9rem; }
+.v-field > span {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-bottom: 0.35rem;
+}
+/* L'astérisque du seul champ obligatoire : discrète, pas alarmante. */
+.v-field > span em { color: var(--gold-deep); font-style: normal; }
+
+.v-field input,
+.v-field textarea {
+  width: 100%;
+  font-family: var(--font-sans);
+  font-size: 1rem;              /* 16 px : en dessous, iOS zoome à la saisie */
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid rgba(20, 61, 43, 0.22);
+  border-radius: 12px;
+  padding: 0.8rem 0.9rem;
+  min-height: 48px;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+.v-field textarea { min-height: 96px; resize: vertical; }
+.v-field input::placeholder,
+.v-field textarea::placeholder { color: rgba(20, 61, 43, 0.38); }
+.v-field input:focus,
+.v-field textarea:focus {
+  outline: none;
+  border-color: var(--green-deep);
+  box-shadow: 0 0 0 3px rgba(20, 61, 43, 0.12);
+}
+.v-field input[aria-invalid='true'] { border-color: #B3402F; }
+
+.v-demande .btn-primary { margin-top: 0.4rem; width: 100%; }
+@media (min-width: 560px) { .v-demande .btn-primary { width: auto; min-width: 200px; } }
+.v-demande .v-note { margin-top: 0.8rem; }
+
+/* ── Page /commander (2026-10-16) ─────────────────────────────────────────
+   Les choix de packs et de canal sont des BOUTONS, pas des listes
+   déroulantes : 91 % des visiteurs sont sur téléphone, et un select natif
+   y ouvre un sélecteur plein écran pour quatre options. */
+.v-packs { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.v-pack {
+  flex: 1 1 0;
+  min-width: 68px;
+  min-height: 64px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 0.1rem;
+  font-family: var(--font-title);
+  font-size: 1.35rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid rgba(20, 61, 43, 0.22);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: border-color var(--transition), background var(--transition), color var(--transition);
+}
+.v-pack span { font-family: var(--font-sans); font-size: 0.72rem; color: var(--ink-soft); }
+.v-pack.is-on { background: var(--green-deep); border-color: var(--green-deep); color: var(--surface); }
+.v-pack.is-on span { color: rgba(244, 235, 218, 0.8); }
+
+.v-total { margin-top: 0.8rem; font-size: 0.98rem; color: var(--ink-soft); }
+.v-total strong { font-family: var(--font-title); font-size: 1.2rem; color: var(--ink); }
+
+.v-canaux { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.7rem; }
+.v-canal {
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid rgba(20, 61, 43, 0.22);
+  border-radius: var(--radius-pill);
+  padding: 0.55rem 1rem;
+  min-height: 44px;
+  cursor: pointer;
+  transition: border-color var(--transition), background var(--transition), color var(--transition);
+}
+.v-canal.is-on { background: var(--green-deep); border-color: var(--green-deep); color: var(--surface); }
+
+/* Hors zone : un avertissement, pas un refus. On continue d'accepter la
+   demande pour prévenir le client quand la ville s'ouvre. */
+.v-horszone {
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: var(--ink);
+  background: rgba(200, 149, 68, 0.12);
+  border-left: 2px solid var(--gold);
+  border-radius: 0 10px 10px 0;
+  padding: 0.85rem 1rem;
+  margin-bottom: 1rem;
+}
+fieldset.v-field { border: none; padding: 0; margin-bottom: 1.3rem; }
+fieldset.v-field legend {
+  font-family: var(--font-sans);
+  font-size: 0.82rem; font-weight: 600; color: var(--ink-soft);
+  margin-bottom: 0.45rem; padding: 0;
+}
+fieldset.v-field legend em { color: var(--gold-deep); font-style: normal; }
+
+/* Le prix de /commander (2026-10-16, après retour de Basekou : « il manque
+   comment le prix est mis en avant »). Il était dans une plaque de specs,
+   au même rang visuel que la contenance. C'est l'argument de la page : il
+   prend la taille d'un argument, en chiffre de titre. */
+.v-prix {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  margin: 1.4rem 0 1.2rem;
+}
+.v-prix strong {
+  font-family: var(--font-title);
+  font-size: clamp(3.2rem, 11vw, 4.6rem);
+  line-height: 0.9;
+  color: var(--green-deep);
+  font-weight: 400;
+}
+.v-prix span {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  max-width: 11ch;
+  line-height: 1.35;
+}
+
+/* Trois faits, pas un paragraphe : ils se lisent au défilement. */
+.v-cmd-faits { list-style: none; margin-top: 1.4rem; display: grid; gap: 0.55rem; }
+.v-cmd-faits li {
+  position: relative;
+  padding-left: 1.3rem;
+  font-size: 0.97rem;
+  color: var(--ink);
+}
+.v-cmd-faits li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0.55em;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--gold);
+}
+
+/* ⚠️ L'image du haut de /commander était ÉTIRÉE : la colonne de texte est
+   haute (titre + prix + liste), la grille étire la colonne voisine, et
+   l'image suivait — la bouteille sortait allongée. Elle garde donc sa forme
+   native (1100 × 1375) et la colonne ne s'étire plus. */
+.v-page-head .v-split-side { align-self: start; }
+.v-page-head .v-figure img {
+  aspect-ratio: 1100 / 1375;
+  height: auto;
+  object-fit: cover;
+}
