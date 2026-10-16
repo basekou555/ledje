@@ -59,6 +59,11 @@ const ETAPES = [
 
 export default function Offrir() {
   useEffect(() => {
+    // Mesure : sans ça, on compte les CLICS qui mènent ici (header, accueil)
+    // mais jamais les ARRIVÉES. Relevé le 2026-10-16 — depuis la mise en
+    // ligne du 08/10, ces deux pages n'émettaient aucun événement de vue :
+    // impossible de savoir si quelqu'un les a lues.
+    trackEvent('offrir_view')
     document.title = 'Offrir un lot — lédjé'
   }, [])
 
