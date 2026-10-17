@@ -123,7 +123,7 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 
 📌 **Volume : les étiquettes ont été PRÉ-COLLÉES avant la production — amélioration de procédé de Basekou qui sort l'étiquetage de la fenêtre de production, là où il était le goulot du 11/10 et pire que proportionnel au-delà de ≈ 50 bouteilles.** ⚠️ **L'eau s'ajoute en dernier : c'est ce geste qui déclenche le compteur des 24 h, pas le remplissage en miel.**
 
-📱 **SUPPORT DE CAPTURE DU 17/10, descendu de la file : un visuel de stand A5 + A4 a été produit, et le décodage du QR est VÉRIFIÉ JUSQU'À 10 % de la taille d'impression.** ✅ **C'est le bon test à avoir fait : un QR trop petit ou trop dense ne se lit pas, et ça ne se découvre pas au stand.** ⚠️ **L'identifiant vers lequel il pointe est en attente de confirmation — le dépôt en porte un autre en cinq endroits** *(`../05_systeme/decisions-log.md`, 17/10)*.
+📱 **SUPPORT DE CAPTURE DU 17/10, descendu de la file : un visuel de stand A5 + A4 a été produit, et le décodage du QR est VÉRIFIÉ JUSQU'À 10 % de la taille d'impression.** ✅ **C'est le bon test à avoir fait : un QR trop petit ou trop dense ne se lit pas, et ça ne se découvre pas au stand.** ✅ **L'identifiant est confirmé par Basekou le 17/10 : `@its.ledje`** *(`grille-contenu.md`)*. ⛔ **Et il n'était écrit NULLE PART au dépôt avant ce jour — l'unique point de contact survivant à un événement était une adresse inconnue du dossier.**
 
 📊 **Volume annoncé pour samedi : 76 bouteilles pré-remplies en miel** *(déclaré par Basekou le 16/10, après récupération de la commande de miel, COMPLÈTE)*. 📌 **Le parc étiqueté est de 89 ; l'écart n'est pas arbitré en fiche et n'a pas besoin de l'être — le miel ne limite plus rien.**
 
