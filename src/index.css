@@ -4,22 +4,34 @@
    Fond crème chaud dominant · vert profond pour le texte et les aplats ·
    doré en accent ponctuel, jamais en texte courant.
    Typo Alice (à l'essai) pour les titres et le wordmark, Inter pour le reste.
-   ⚠️ Essai : ni la palette ni la typo ne sont définitivement arrêtées.
+
+   ✅ PALETTE ARRÊTÉE le 2026-10-17 (décision de Basekou) : la référence est
+   le fichier d'impression `étiquette lédjé 210x50 v1.2.pdf`, MESURÉ. Les
+   trois valeurs ci-dessous en viennent. Le fichier est en CMJN, donc ces
+   hex sont des conversions approchées — les valeurs d'encre font foi en
+   print et sont en `docs/01_adn/identite-visuelle.md`.
+   ℹ️ Ce que la mesure apprend : l'étiquette est à 93 % CLAIRE. Le vert est
+   l'ENCRE (4,5 % de la surface), l'or est un POINT (0,16 %).
+   ⚠️ La typo, elle, reste à l'essai.
    ════════════════════════════════════════════ */
 :root {
   /* ── Surfaces (crème) ── */
-  --surface:        #F4EBDA;   /* fond dominant */
-  --surface-soft:   #FBF6EC;   /* respiration, cartes */
+  --surface:        #F8F1C9;   /* fond dominant — mesuré, 49 % de l'étiquette */
+  --surface-soft:   #FBFBEF;   /* respiration, cartes — mesuré */
   --surface-deep:   #E9DAC0;   /* contraste doux, séparations */
 
   /* ── Encre (vert) ── */
-  --ink:            #143D2B;   /* texte courant — 12:1 sur crème */
+  --ink:            #1A3E16;   /* texte courant — mesuré ; 10,6:1 sur la crème */
   --ink-soft:       #3E6150;   /* texte secondaire — 5.4:1 */
-  --green:          #2E6B4F;   /* aplats de marque */
-  --green-deep:     #143D2B;   /* aplats profonds */
+  --green:          #2E6B4F;   /* aplats de marque — ⚠️ N'EST PAS sur l'étiquette */
+  --green-deep:     #1A3E16;   /* aplats profonds — mesuré */
 
   /* ── Or — accent ponctuel, jamais texte courant ── */
-  --gold:           #C89544;   /* filets, détails décoratifs */
+  --gold:           #E78D0F;   /* ambre de l'étiquette — mesuré
+                                   ⚠️ 2,24:1 sur la crème : DÉCORATIF SEULEMENT.
+                                   Rien qui porte du sens ne se colore avec ;
+                                   pour ça, --gold-ink (4,9:1). À revoir :
+                                   .avis-star.is-on l'utilise en `color`. */
   --gold-ink:       #8A6014;   /* si l'or doit porter un petit texte sur crème — 4.9:1 */
   --gold-on-green:  #E8B65C;   /* accent sur aplat vert */
 

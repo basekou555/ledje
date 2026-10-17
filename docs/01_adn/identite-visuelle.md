@@ -16,14 +16,24 @@ L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« enco
 
 ## Palette (tokens) — ⚠️ ROUVERTE (2026-07-28 : seul l'émeraude tient, le reste est remis en question ; tokens ci-dessous = état de travail)
 
-| Rôle | Nom | Hex |
-|---|---|---|
-| **Fond de marque dominant** | Émeraude moyenne | `#2E6B4F` |
-| Sections premium | Émeraude velours | `#1F4736` |
-| **Texte sur clair / sceau produit** | Émeraude profonde | `#0F3D2A` |
-| **Accent précieux** | Or (dégradé métallique) | `#E8B65C` (de `#FBE9A8` à `#A9740F`) |
-| Produit / appétence | Ambre | `#E0A52E` / `#C8901E` |
-| Respiration / texte sur vert | Crème | `#EDE0C8` |
+✅✅ **PALETTE ARRÊTÉE LE 2026-10-17, sur décision de Basekou — et la référence n'est plus une intention, c'est une MESURE.** 📏 **Source : le fichier d'impression `étiquette lédjé 210x50 v1.2.pdf`, celui qui part au tirage, mesuré au Drive le 17/10.** ⚡ **Il est en CMJN : les valeurs d'ENCRE font foi, les hex sont des conversions approchées sans le profil de l'imprimeur.**
+
+| Rôle | Nom | Encre (CMJN) | Hex approché | Part de l'étiquette |
+|---|---|---|---|---|
+| **Fond dominant** | Crème | C3 M5 J21 N0 | `#F8F1C9` | **49 %** |
+| Respiration, cartes | Crème très claire | C2 M2 J6 N0 | `#FBFBEF` | ≈ 44 % *(avec le blanc)* |
+| **Encre — texte et aplats** | Vert profond | C71 M30 J75 N65 | `#1A3E16` | **4,5 %** |
+| Accent, un point | Ambre | — | `#E78D0F` | **0,16 %** |
+
+🎯🎯 **CE QUE LA RÉPARTITION DIT, ET C'EST LE SENS DE LA CORRECTION : L'ÉTIQUETTE EST À 93 % CLAIRE. Le vert n'est pas un fond, c'est l'ENCRE. L'or n'est pas un accent au sens large, c'est un POINT — un sixième de pourcent de la surface.**
+
+⛔⛔ **CE QUE ÇA CORRIGE DANS CETTE FICHE, et l'erreur était structurelle : la palette précédente donnait l'ÉMÉRAUDE comme « fond de marque dominant » et la crème comme « respiration ». C'ÉTAIT INVERSÉ par rapport au produit.** ➡️ **Et ce n'était pas un écart de nuance mais un renversement du dominant — donc tout document fabriqué depuis cette fiche partait d'un fond vert que le produit n'a jamais eu.** 📌 **Les valeurs écarrées, pour mémoire : émeraude `#2E6B4F`, velours `#1F4736`, émeraude profonde `#0F3D2A`, or `#E8B65C` de `#FBE9A8` à `#A9740F`, ambre `#E0A52E` / `#C8901E`, crème `#EDE0C8`. Elles sont nommées ici pour être enterrées, pas pour être reprises.**
+
+⚠️ **RÉSERVE D'ACCESSIBILITÉ, mesurée et à ne pas perdre : l'ambre `#E78D0F` ne donne que 2,24:1 sur la crème — sous le seuil de 3:1 d'un élément graphique.** ⇒ **Il est DÉCORATIF SEULEMENT. Rien qui porte du sens ne se colore avec.** ✅ **Pour un petit texte ou un élément signifiant : `#8A6014`, qui donne 4,9:1.** 🔴 **Un cas à revoir sur le site : les étoiles d'avis utilisent l'ambre en couleur de texte, donc elles portent du sens sous le seuil.**
+
+✅ **Le vert mesuré est neutre en contraste : 10,6:1 sur la crème, contre 10,6:1 pour l'ancienne valeur du site. Le changement ne dégrade rien.**
+
+📌 **Le `--green` du site (`#2E6B4F`, « aplats de marque ») N'EST PAS sur l'étiquette : c'est un vert moyen sans source produit. À arbitrer s'il survit.**
 
 **Le principe de l'or : c'est un dégradé métallique, jamais un jaune plat.** `#FBE9A8` (lumière) → `#E8B65C` (cœur) → `#A9740F` (profondeur). À l'écran : dégradé vertical. En print : **dorure (gold foil)** sur fond émeraude. Référence visuelle : or liquide sur velours émeraude.
 
