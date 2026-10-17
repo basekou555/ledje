@@ -123,6 +123,14 @@ resume: "Canal en test (O'Daba, via Ahmed Diaby) : 20-30 bouteilles offertes pui
 
 ⚠️ **Retours entendus par le gérant NON RECUEILLIS** *(il est parti vite)* ; l'accueil habituel était absent et **une deuxième personne a été briefée**.
 
+### 🗣️ L'outil d'entretien restaurateur EXISTE — créé le 2026-10-06, descendu de la file le 2026-10-17
+
+✅ **Une page Notion « Argumentaire de RDV restaurateur » a été créée le 06/10 sous *Sales*, à la demande de Basekou : HUIT QUESTIONS D'OUVERTURE, une grille SONCAS, et un traitement des objections.** 📌 **Elle ne vit QU'EN NOTION — c'est pour ça que la ligne de file est restée ONZE JOURS, la plus ancienne de la file.**
+
+🎯🎯 **CE QUE SON EXISTENCE ÉCLAIRE, et c'est plus intéressant que l'outil : il a été produit le 06/10, c'est-à-dire APRÈS les quatre rendez-vous tenus et AVANT le dernier.** ⚡ **Or les deux enseignements les plus coûteux du canal sont tombés précisément dans cette fenêtre : *deux refus de GOÛTER en quatre jours*, et le critère de ciblage arrêté le 08/10 — il faut des établissements dont la CLIENTÈLE est musulmane.** ➡️ **Donc l'outil répond au problème du 06/10 — mieux conduire l'entretien — alors que le dossier a depuis établi que le goulot était EN AMONT : le choix de l'établissement, pas la conduite du rendez-vous.**
+
+⚠️ **À relire avant réemploi, donc, et sans le jeter : un argumentaire ne corrige pas un mauvais ciblage, et c'est le ciblage qui a expliqué Mauya, Le Goût de Ça et Sisters Bakery.** 📌 **Il reste valable là où il a été conçu : une fois dans la bonne échoppe.**
+
 ## Prospection ouverte (2026-08-18)
 
 **Décision (MMD 5 du 13/08, exécution démarrée le 18/08) : la prospection restaurants s'ouvre SANS attendre le réachat d'O'Daba.** Approche assumée : « j'attends encore les retours du premier testeur, mais je viens vous rencontrer ».
