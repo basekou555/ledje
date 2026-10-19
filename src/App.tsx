@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { submitEmail, trackEvent } from './lib/supabase'
-import { SiteHeader, SiteFooter, SocialLinks, HANDLE } from './Chrome'
+import { SiteHeader, SiteFooter, HANDLE, INSTAGRAM_URL, TIKTOK_URL } from './Chrome'
 
 /* ════════════════════════════════════════════════════════════════
    lédjé — vitrine
@@ -192,28 +192,59 @@ export default function App() {
         </section>
 
         {/* ══ 1 bis · CE QUE C'EST — le concret, factuel, rassurant ══ */}
-        {/* ══ LES RÉSEAUX — une bande, juste après le hero ══
+        {/* ══ S'ABONNER — la bande réseaux devient une invitation ══
 
-            Ajoutée le 2026-10-11, d'abord en bas de page, REMONTÉE ICI le
-            même jour sur demande de Basekou : « sous la première section ».
-            Les liens n'existaient qu'en pied de page, où personne ne descend
-            — les remettre en bas d'une page longue n'aurait réglé le problème
-            qu'à moitié. Ici, le visiteur les croise avant même d'avoir lu le
-            produit.
+            Née le 11/10 comme une simple rangée de liens, remontée sous le
+            hero le même jour, RÉÉCRITE EN INVITATION le 16/10 sur demande de
+            Basekou : « les gens arrivent sur mon Insta, ils ne sont pas
+            toujours abonnés ».
 
-            Le handle est ÉCRIT : une icône ne se retient pas, « @its.ledje »
-            se recherche dans l'application plus tard, sans le site sous les
-            yeux.
+            Les chiffres Vercel du 16/10 valident le placement et dictent la
+            forme :
+            — 144 visiteurs sur 30 jours pour un compte qui a moins d'abonnés,
+              donc il y a bien un écart à convertir ;
+            — 78 % de REBOND : la plupart ne dépassent jamais le haut de page,
+              d'où une invitation ICI et pas plus bas ;
+            — 91 % de MOBILE : un bouton, large, cliquable au pouce, et pas
+              deux liens de même poids. Instagram passe en bouton plein,
+              TikTok reste un lien discret — on ne fait pas choisir entre
+              deux portes quelqu'un qui s'apprête à partir.
 
-            Une BANDE et pas une section : une ligne, deux liens, aucune
-            image. Elle ne doit pas peser autant qu'un argument produit. */}
+            ⚠️ Pas de pop-up, et c'est un choix argumenté : avec 78 % de rebond
+            déjà, une interruption modale sur un écran de téléphone pousse à
+            fermer l'onglet. Le jour où Basekou veut la tester quand même,
+            c'est ce bloc qu'on déplacera dans une modale, pas un autre. */}
         <section className="v-social-band" aria-labelledby="reseaux-title">
           <div className="container reveal">
             <p id="reseaux-title" className="v-social-band-title">
-              On montre ce qu’on fabrique, au fur et à mesure.
+              La suite se raconte sur Instagram.
             </p>
-            <p className="v-social-band-handle">@{HANDLE}</p>
-            <SocialLinks variant="named" where="accueil" />
+            <p className="v-social-band-text">
+              Les dégustations, les lots qui partent, ce qu’on change dans la
+              recette. C’est là qu’on le dit, et nulle part ailleurs.
+            </p>
+            <p className="v-social-band-actions">
+              <a
+                className="btn-primary"
+                href={INSTAGRAM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => trackEvent('abonnement_instagram_click')}
+              >
+                S’abonner sur Instagram
+              </a>
+            </p>
+            <p className="v-social-band-handle">
+              @{HANDLE} — aussi sur{' '}
+              <a
+                href={TIKTOK_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => trackEvent('abonnement_tiktok_click')}
+              >
+                TikTok
+              </a>
+            </p>
           </div>
         </section>
 
