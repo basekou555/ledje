@@ -1,7 +1,7 @@
 ---
 statut: bloquant
 domaine: adn
-maj: 2026-08-19
+maj: 2026-10-17
 source: "SOT Partie 3 (archive 2026-07-24) ; retours Inès 2026-07-10 ; réalignement relevé COO 2026-07-28 (MMD 3)"
 resume: "Palette ROUVERTE (seul l'émeraude tient) ; aucun designer mandaté sur l'identité (Inès = conseil, Léa a coproduit l'étiquette du lot O'Daba) ; wordmark Basekou = seul élément d'identité ; identité à trancher par Basekou."
 ---
@@ -16,14 +16,24 @@ L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« enco
 
 ## Palette (tokens) — ⚠️ ROUVERTE (2026-07-28 : seul l'émeraude tient, le reste est remis en question ; tokens ci-dessous = état de travail)
 
-| Rôle | Nom | Hex |
-|---|---|---|
-| **Fond de marque dominant** | Émeraude moyenne | `#2E6B4F` |
-| Sections premium | Émeraude velours | `#1F4736` |
-| **Texte sur clair / sceau produit** | Émeraude profonde | `#0F3D2A` |
-| **Accent précieux** | Or (dégradé métallique) | `#E8B65C` (de `#FBE9A8` à `#A9740F`) |
-| Produit / appétence | Ambre | `#E0A52E` / `#C8901E` |
-| Respiration / texte sur vert | Crème | `#EDE0C8` |
+✅✅ **PALETTE ARRÊTÉE LE 2026-10-17, sur décision de Basekou — et la référence n'est plus une intention, c'est une MESURE.** 📏 **Source : le fichier d'impression `étiquette lédjé 210x50 v1.2.pdf`, celui qui part au tirage, mesuré au Drive le 17/10.** ⚡ **Il est en CMJN : les valeurs d'ENCRE font foi, les hex sont des conversions approchées sans le profil de l'imprimeur.**
+
+| Rôle | Nom | Encre (CMJN) | Hex approché | Part de l'étiquette |
+|---|---|---|---|---|
+| **Fond dominant** | Crème | C3 M5 J21 N0 | `#F8F1C9` | **49 %** |
+| Respiration, cartes | Crème très claire | C2 M2 J6 N0 | `#FBFBEF` | ≈ 44 % *(avec le blanc)* |
+| **Encre — texte et aplats** | Vert profond | C71 M30 J75 N65 | `#1A3E16` | **4,5 %** |
+| Accent, un point | Ambre | — | `#E78D0F` | **0,16 %** |
+
+🎯🎯 **CE QUE LA RÉPARTITION DIT, ET C'EST LE SENS DE LA CORRECTION : L'ÉTIQUETTE EST À 93 % CLAIRE. Le vert n'est pas un fond, c'est l'ENCRE. L'or n'est pas un accent au sens large, c'est un POINT — un sixième de pourcent de la surface.**
+
+⛔⛔ **CE QUE ÇA CORRIGE DANS CETTE FICHE, et l'erreur était structurelle : la palette précédente donnait l'ÉMÉRAUDE comme « fond de marque dominant » et la crème comme « respiration ». C'ÉTAIT INVERSÉ par rapport au produit.** ➡️ **Et ce n'était pas un écart de nuance mais un renversement du dominant — donc tout document fabriqué depuis cette fiche partait d'un fond vert que le produit n'a jamais eu.** 📌 **Les valeurs écarrées, pour mémoire : émeraude `#2E6B4F`, velours `#1F4736`, émeraude profonde `#0F3D2A`, or `#E8B65C` de `#FBE9A8` à `#A9740F`, ambre `#E0A52E` / `#C8901E`, crème `#EDE0C8`. Elles sont nommées ici pour être enterrées, pas pour être reprises.**
+
+⚠️ **RÉSERVE D'ACCESSIBILITÉ, mesurée et à ne pas perdre : l'ambre `#E78D0F` ne donne que 2,24:1 sur la crème — sous le seuil de 3:1 d'un élément graphique.** ⇒ **Il est DÉCORATIF SEULEMENT. Rien qui porte du sens ne se colore avec.** ✅ **Pour un petit texte ou un élément signifiant : `#8A6014`, qui donne 4,9:1.** 🔴 **Un cas à revoir sur le site : les étoiles d'avis utilisent l'ambre en couleur de texte, donc elles portent du sens sous le seuil.**
+
+✅ **Le vert mesuré est neutre en contraste : 10,6:1 sur la crème, contre 10,6:1 pour l'ancienne valeur du site. Le changement ne dégrade rien.**
+
+📌 **Le `--green` du site (`#2E6B4F`, « aplats de marque ») N'EST PAS sur l'étiquette : c'est un vert moyen sans source produit. À arbitrer s'il survit.**
 
 **Le principe de l'or : c'est un dégradé métallique, jamais un jaune plat.** `#FBE9A8` (lumière) → `#E8B65C` (cœur) → `#A9740F` (profondeur). À l'écran : dégradé vertical. En print : **dorure (gold foil)** sur fond émeraude. Référence visuelle : or liquide sur velours émeraude.
 
@@ -36,6 +46,7 @@ L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« enco
 - **Où le vert domine :** landing, cartons, communication (l'écrin de marque). **Où l'ambre domine :** l'étiquette et le cristal de miel (contact alimentaire → préserver l'appétence ; le vert y devient le sceau).
 - Sobre et digne, pas d'effets criards.
 - **Visages (tranché 2026-07-30, précisé 2026-07-31)** : les visages deviennent **possibles**, mais la règle de conduite reste de **privilégier le moins de visage possible**. **Les yeux ne sont JAMAIS visibles** (floutés, cachés, détournés, hors cadre) — non négociable **sur toute image fabriquée (IA ou mise en scène)**. ✅ **Exception tranchée le 2026-09-28 : Basekou filmé lui-même n'est pas concerné** — sur ses vidéos, les yeux peuvent être visibles. *(Cas non tranché : une personne réelle qui n'est pas lui.)* Montrer une **partie** du visage est admis quand le visuel le justifie ; ce n'est pas un encouragement, c'est une permission au cas par cas. Codes subtils bienvenus (main droite, vêtement, gestes — la cible les décode). Remplace la règle antérieure « jamais de visage identifiable ».
+- **Matière source ≠ image publiée (précisé le 2026-10-16, descendu de la file le 2026-10-17)** : ✅ **la règle vise L'IMAGE PUBLIÉE, pas le RUSH.** ⇒ **les 79 rushes du fonds vidéo, dont ceux qui portent le visage de Basekou, sont EXPLOITABLES comme matière** — les dérusher, les monter et les indexer ne pose aucune question. 🎯 **Ce qui est encadré, c'est ce qui SORT.** ⚠️ **Le traitement à la publication reste `[en discussion]` : floutage ou non, cadrage, durée à l'image.** 📌 **Et cette précision ne crée pas d'exception — elle en explicite une qui existait déjà : depuis le 2026-09-28, Basekou filmé lui-même n'est pas concerné par la règle des yeux.** ⛔ **Reste non tranché, et c'est le vrai trou : une personne réelle qui n'est PAS lui, filmée dans un rush.**
 
 ## Typographie — ⚠️ EN REFONTE
 
