@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-09-11
+maj: 2026-10-17
 source: "Drive « Lédjé contenu » (arborescence posée par Basekou le 2026-09-08) + test de rangement du 2026-09-11 (8 images)"
 resume: "Où vivent les fichiers de contenu (photo, vidéo, IA ou tourné) : la chaîne de dossiers Drive, la convention de nommage, et pourquoi l'asset-log logue un ID Drive et jamais un chemin."
 ---
@@ -152,6 +152,18 @@ changé de nom et de dossier, leurs IDs sont inchangés.
 
 C'est ce qui ferme un trou réel de la boucle d'apprentissage : `ledje-asset-log.md` enregistrait
 des verdicts mais **perdait les images**. La colonne *Asset ID* y accueille désormais l'ID Drive.
+
+## 💾 Le disque `D:\LEDJE` — dépouillé le 2026-10-16, descendu de la file le 2026-10-17
+
+✅ **Un inventaire complet existe désormais : 79 RUSHES, ≈ 17 Go, du 19/07 au 22/09, en 4K/60.** ✅ **Un INDEX et une PLANCHE CONTACT sont posés sur le disque lui-même.**
+
+🎯 **CE QUE ÇA CHANGE : la matière vidéo du projet cesse d'être un tas pour devenir un FONDS CONSULTABLE.** ⚡ **Jusqu'ici le dépôt n'en savait qu'une chose, et elle était négative : *« la production du 29/09 a été filmée sans jamais être visionnée »*. On sait maintenant ce qu'il y a.**
+
+🆕 **TROIS GISEMENTS INÉDITS sont nommés : la MIELLERIE de Saint Jérôme, les TESTS DE DOSAGE, et les PACKS D'EAU.** 🎯 **Les deux premiers répondent exactement à la promesse que porte le pitch d'abonnement Instagram depuis le 14/10 — *« on montre comment on produit »*** ⇒ **le contenu que cette promesse annonce existe, filmé, et il dort.**
+
+⚠️ **QUATRE CLIPS LONGS N'ONT JAMAIS ÉTÉ VISIONNÉS.** ⛔ **Et une limite à ne pas oublier : le fonds S'ARRÊTE AU 22/09** ⇒ **il ne contient NI la production du 29/09, NI l'événement du 11/10, NI le salon du 17/10 — c'est-à-dire les trois moments les plus vendeurs du projet.**
+
+🔴 **RÉSERVE DE DISPOSITIF, dite une fois : ce disque est un support LOCAL et UNIQUE. Un index posé « sur le disque » ne protège de rien si le disque tombe, et aucune session ne peut le lire.** 📌 **Arbitrage non posé ici : où vit la copie de sûreté.**
 
 ## Ce que ce Drive n'est pas
 
