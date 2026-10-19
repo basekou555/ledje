@@ -1,12 +1,30 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-10-12
+maj: 2026-10-19
 source: "SOT §1.7 + §5.0 (archive 2026-07-24) ; plafond B2C 2026-07-20 et grilles par canal 2026-07-24 (page relais + arbitrage Basekou)"
-resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix bouteille 33cl par canal (B2C 2,50 € / C2B2C / B2B), et le piège : ne jamais communiquer sur le coût de revient."
+resume: "Cible ≤ 2 €/cristal, précommande (1 €/cristal, min. 5 €), prix bouteille 33cl par canal (B2C en ligne : pack de 6 à 10 € = 2 € la bouteille payée + 1 offerte ; unité 2,50 € / C2B2C / B2B), et le piège : ne jamais communiquer sur le coût de revient."
 ---
 
 # Prix
+
+## 💶💶 2026-10-19 — LE PACK DE 6 N'EST PAS UNE BAISSE DE PRIX : C'EST 5 BOUTEILLES AU TARIF ÉVÉNEMENTIEL ET UNE OFFERTE
+
+**Lecture donnée par Basekou le 19/10, et elle change le sens de l'écart signalé le 16/10 :** *« je le vois comme 5 bouteilles vendues à 10 € et une offerte »*.
+
+🎯🎯 **L'ARITHMÉTIQUE LUI DONNE RAISON, ET C'EST LE FAIT UTILE : 10 € ÷ 5 = 2 € LA BOUTEILLE PAYÉE — exactement le tarif B2C événementiel, et exactement le tarif gros volume du barème mosquée.** ➡️ **Le pack ne crée donc AUCUN étage de prix nouveau : il reprend un prix déjà pratiqué, et y ajoute une CONCESSION EN BOUTEILLE.**
+
+⛔⛔ **CE QUE ÇA CORRIGE DANS LE JOURNAL DU 16/10, et il faut le dire plutôt que de le laisser : la bascule y était consignée comme un prix unitaire de 1,67 € *« moins cher qu'une mosquée qui prend 50 bouteilles »*.** **Le calcul était juste, la lecture était fausse** — **1,67 € est un prix MOYEN après remise, pas un prix de cession.** ✅ **Au tarif, le pack et le gros volume sont au MÊME niveau ; ce qui diffère, c'est le volume auquel chacun y accède.**
+
+📦 **POURQUOI 6 ET PAS 5, et ce n'est pas un détail de présentation** *(motif de Basekou)* : **un pack, dans les habitudes des gens, c'est 6 — comme les canettes.** ➡️ **Un pack de 5 « choquerait » le réflexe d'achat.** ⚠️ **ET LA MÉCANIQUE NE S'ANNONCE PAS : on ne communique pas « 5 + 1 offerte ». Le client achète un pack de 6 à 10 €.** 📌 **La lecture 5 + 1 est INTERNE — elle sert à savoir ce qu'on gagne, pas à vendre.**
+
+✅ **Et le mécanisme était DÉJÀ dans cette fiche, sur un autre canal : en B2B restaurateurs, les concessions se font *« en bouteilles offertes »*, pas en prix.** ➡️ **Le pack applique au B2C la règle de négociation déjà arrêtée pour le B2B : on ne touche pas au prix, on donne du produit.** 🎯 **C'est cohérent avec tout le dossier depuis le 08/10 — le prix dit à quelle CATÉGORIE le produit appartient, donc on le défend ; la bouteille offerte, elle, ne dit rien sur la catégorie.**
+
+⚠️ **CE QUI RESTE VRAI, ET CE QUI RESTE À TRANCHER, parce que la correction ne referme pas tout :**
+
+- 🔴 **LE PLAFOND B2C DE 2,50 € NE CORRESPOND PLUS À CE QUI SE VEND.** **Le site vend à 2 € la bouteille payée** ⇒ **le 2,50 € du 20/07 devient le prix de l'UNITÉ, qui ne se vend nulle part, le pack étant la seule forme en ligne.** ⛔ **Non tranché : le 2,50 € reste-t-il la référence B2C, ou le pack devient-il le prix de référence ?**
+- ⚠️ **LA SIXIÈME BOUTEILLE EST UN COÛT, PAS UNE REMISE.** **Elle se produit, elle se conditionne, elle s'étiquette** — **à ≈ 5 min/bouteille et au coût matière relevé le 12/10, la concession se paie en marge ET en temps de production.** 📌 **Elle est donc à compter dans le volume produit, pas dans la seule marge.**
+- ✅ **Le barème mosquée reste cohérent avec le pack** *(2 € dès 50 bouteilles)*, **et le B2B reste le seul canal sous le coût matière.** **Aucune inversion de canal n'est à corriger.**
 
 ## 🔴🔴 2026-10-08 — LE DOSSIER PRIX S'INVERSE : la question n'est plus « 1 € est-il trop cher » mais « 1 € ne nous classe-t-il pas dans la mauvaise catégorie »
 
@@ -155,7 +173,8 @@ Canette 1,50 € · Monster 3,50 € · Prime 3 €.
 
 ## Prix bouteille 33cl par canal (état 2026-07-24)
 
-- **B2C : plafond 2,50 €** — le prix idéal à ce stade (décision 2026-07-20). Remplace l'ancienne fourchette 3-3,50 €, invalidée. Panier observé en Mom Tests : 1 à 4 bouteilles par semaine — dimensionnement du marché : `../03_marche/marche-adressable.md`.
+- **B2C — PACK DE 6 à 10 €, la seule forme vendue en ligne depuis le 16/10** *(`/commander`)* : **2 € la bouteille payée, la sixième offerte**, aucun dégressif au-delà d'un pack. ⚠️ **La mécanique 5 + 1 ne se communique pas** — cf. la section du 19/10 en tête de fiche.
+- **B2C à l'unité : plafond 2,50 €** — le prix idéal à ce stade (décision 2026-07-20). ⚠️ **Ne correspond plus à une vente réelle : rien ne se vend à l'unité en ligne.** Remplace l'ancienne fourchette 3-3,50 €, invalidée. Panier observé en Mom Tests : 1 à 4 bouteilles par semaine — dimensionnement du marché : `../03_marche/marche-adressable.md`.
 - **C2B2C (don sponsorisé mosquée)** : barème 2,50 € l'unité / 2 € dès 50 bouteilles, **sans négociation** (on ne négocie pas avec un fidèle donateur qui commande en ligne) — cf. `../03_marche/canal-mosquee.md`.
 - **B2B restaurateurs** : seul canal où l'on négocie réellement — prix de cession > 1,50 €, **plancher 1,50 € (⚠️ interne, jamais diffusé)**, concessions en bouteilles offertes — cf. `../03_marche/canal-restaurant.md`.
 
