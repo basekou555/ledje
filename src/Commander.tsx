@@ -20,10 +20,22 @@ import { submitCommande, trackEvent } from './lib/supabase'
    — livraison à LYON seulement, le LENDEMAIN ; produite le soir même ;
    — hors Lyon : on le dit, et on propose de prévenir quand ça s'ouvre.
 
-   ⚠️ LE PRIX EST UNE BASCULE ASSUMÉE, consignée au journal : 10 € le pack
-   fait 1,67 € la bouteille, alors que `02_produit/prix.md` fixe le B2C à
-   2,50 € et le tarif gros volume à 2 €. Décision de Basekou, prise en
-   connaissance de l'écart. Ne pas « corriger » ce prix sans lui.
+   ⚠️⚠️ CE QUE LE PRIX EST, ET SURTOUT CE QU'ON N'ÉCRIT PAS À L'ÉCRAN.
+   Lecture de Basekou, le 19/10 : « je le vois comme 5 bouteilles vendues
+   à 10 € et une offerte ». Soit 2 € la bouteille PAYÉE — le tarif B2C
+   événementiel, et le gros volume du barème mosquée. Le pack ne crée donc
+   aucun étage de prix nouveau : il reprend un prix pratiqué et y ajoute
+   une concession EN BOUTEILLE, comme on le fait déjà en B2B.
+
+   ⛔⛔ ET C'EST UNE LECTURE INTERNE, PAS UN ARGUMENT DE VENTE. Basekou,
+   le 19/10 : « je ne suis pas en train de dire que sur le site il faut
+   mettre 5 achetées une offerte ». ⇒ LA PAGE ANNONCE « 10 € — le pack de
+   6 bouteilles », ET RIEN D'AUTRE. Pas de « 5 + 1 », pas de « une
+   offerte », pas de prix à la bouteille : un pack c'est 6 dans les
+   habitudes des gens (« comme les canettes »), et c'est ce qu'on vend.
+   Le détail du calcul vit en fiche (`02_produit/prix.md`), pas à l'écran.
+
+   ⚠️ Ne pas « corriger » ce prix sans Basekou.
 
    ⚠️ LE PAIEMENT N'EST PAS EN LIGNE. Le connecteur Stripe n'était pas
    autorisé le jour de la création. La commande est donc PRISE ici, et le
