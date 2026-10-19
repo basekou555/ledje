@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-15
+maj: 2026-10-17
 source: "SOT Partie 7 (archive 2026-07-24) ; Apior écarté (Basekou, 24/07) ; critères cartographie 2026-07-21 (page relais) ; aligné le 2026-09-01 sur les décisions déjà consignées le 31/08 ; ordre miel-avant-étiquettes établi le 2026-09-02 ; assemblage arrêté et rupture de miel constatée le 2026-09-07 (montagne + châtaignier 25/75) ; contact corrigé (Joan, pas Jérôme) et commande déclarée passée le 2026-09-08 ; réponse de Joan (taux d'humidité 16-18 %) consignée le 2026-09-10"
 resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — contact : JOAN, nom corrigé le 08/09 ; ✅ assemblage ARRÊTÉ le 07/09 : montagne + châtaignier 25/75, tilleul en repli — ⚠️ mais la DOSE reste à travailler — et il n'y avait PLUS DE MIEL au 07/09, ce qui a fait de l'appel la condition du figeage et non sa conséquence). ✅ COMMANDE DÉCLARÉE PASSÉE le 08/09, et ✅ JOAN A RÉPONDU le 10/09 : **taux d'humidité 16-18 %** — la conversion en grammes est donc FAITE et le tableau nutritionnel corroboré. ⚠️ Mais le miel est à RETIRER et la date de retrait est inconnue : la dose reste bloquée faute de matière. 🔗 La commande du miel passe AVANT celle des étiquettes depuis le 02/09 : le taux d'humidité demandé à Joan conditionne le tableau nutritionnel. Sourcing industriel : apprentissages (dont logique « 2 miels », sujet ouvert), shortlist tracks cristal/RTD, cartographie cristaux à lancer (le conditionneur pour Ramadan 2027 n'existe pas encore)."
 ---
@@ -107,3 +107,11 @@ Critères de recherche (précisés via l'appel Melli Ouest) :
 - **Disponible avant fin 2026** pour les tests.
 
 Prompt Cowork « cartographie large » rédigé (lister tout, filtrer par téléphone ensuite). À suivre : script d'appel de vérification (à demander) ; recherche approfondie miels × caractéristiques.
+
+### 🗂️⛔ Le livrable de la recherche étiquettes EXISTE, et il n'est nulle part — constat du 2026-10-14, descendu de la file le 2026-10-17
+
+✅ **Un xlsx de 18 CANDIDATS classés a été livré en session Cowork le 13/10 à 09h39**, **selon le critère « échantillon physique d'abord ».** ⛔⛔ **IL N'EST NI AU DÉPÔT, NI AU DRIVE, NI EN NOTION.** ⇒ **Un livrable commandé, produit, et perdu : il n'existe que dans l'historique d'une conversation que les autres sessions ne lisent pas.**
+
+⚠️ **ET IL EST DOUBLEMENT PÉRIMÉ À LA DATE OÙ ON LE RETROUVE : son critère de classement — l'échantillon physique — a été ÉCARTÉ par Basekou le 14/10 comme non obtenable, et le choix s'est depuis réduit à DEUX candidats qu'il a nommés le 16/10.** 🎯 **Donc on ne le cherche plus pour décider : on le note pour comprendre pourquoi un travail commandé a dû être refait.**
+
+📌 **TROISIÈME OCCURRENCE DU MÊME MÉCANISME EN CINQ JOURS, et c'est ça qui compte** : le relevé de prix écrit sur une page gelée *(15/10)*, le wordmark vectoriel cru inexistant *(17/10)*, et ce xlsx. ➡️ **À chaque fois : le livrable EXISTE, il est rangé quelque part, et la session suivante le croit absent et recommence.** ⚡ **Le coût n'est pas le fichier perdu, c'est le travail refait.**

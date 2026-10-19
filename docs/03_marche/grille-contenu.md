@@ -1,12 +1,22 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-08
+maj: 2026-10-17
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
 resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication."
 ---
 
 # Grille de contenu
+
+## 📱 Les comptes — où l'on envoie les gens *(écrit le 2026-10-17)*
+
+✅ **INSTAGRAM : `@its.ledje`** — **confirmé par Basekou le 17/10, et c'est la valeur vers laquelle pointe le QR code du stand du salon.**
+
+⛔⛔ **POURQUOI CETTE LIGNE EXISTE, ET C'EST LE FAIT À RETENIR : AVANT CE JOUR, L'IDENTIFIANT N'ÉTAIT ÉCRIT NULLE PART DANS LE DÉPÔT.** 🎯 **Or depuis le 14/10, l'Instagram est le SEUL point de contact qui survive à un événement — aucun chemin d'achat n'existe — et c'est lui que la capture de contacts envoie chercher.** ➡️ **Le dossier organisait donc toute sa prise de contact autour d'une adresse qu'il ne connaissait pas.**
+
+⚠️ **Une session qui écrit un support — affiche, flyer, QR, pied de mail — prend cette valeur ICI et nulle part ailleurs.** 📌 **Et aucune session ne peut LIRE ce compte** *(Instagram et TikTok sont bloqués par le proxy, re-testé le 11/10)* ⇒ **toute mention de son état — nombre de publications, abonnés, stories — est déclarative, se date, et ne devient jamais un fait de référence.**
+
+⛔ **TIKTOK : le compte n'est pas identifié au dépôt.** ⚠️ **Et `acquisition-tiktok.md` le donne encore comme « canal toujours inactif », sur une fiche qui n'a pas bougé depuis le 13/07** — **à recaler, Basekou déclarant publier depuis plus d'une semaine.**
 
 ## À quoi sert le contenu — dans cet ordre
 
