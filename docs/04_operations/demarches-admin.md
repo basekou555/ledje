@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-12
+maj: 2026-10-19
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
 resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF — LE POINT DÉCLARÉ CLOS LE 24/09 EST ROUVERT : relance du 07/10 sur une dette de cotisations, avec mention d'actions de recouvrement ; déclarer n'est pas payer.** Aucune décision prise, aucun montant au dépôt. 🔴 **LA DDPP 69 A RÉPONDU LE 01/10** (courrier 2026-8172) : catégorie « préparation de produits composés » CONFIRMÉE · **DÉROGATION À L'AGRÉMENT OBLIGATOIRE pour vendre à des professionnels, CERFA 13982** — tranche CONTRE la DDPP 56 du 18/07, la consigne « ne rien déposer avant l'arbitrage » TOMBE · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS. ⚠️ Aucun seuil identifiable à l'annexe III pour ce produit (absence constatée). ⛔ Le 13982 n'est PAS déposé, et trois professionnels ont déjà reçu du produit ou sont en négociation. + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
@@ -13,6 +13,16 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 **[2026-08-11] Statut `bloquant` → `en_cours`** : la déclaration d'activité **est partie**. Le point dur n'est plus l'envoi mais **l'attente de l'accusé d'enregistrement**, qui désignera la DDPP compétente et débloquera les 3 questions. Les autres volets (HACCP, étiquetage/DLC, stabilité) restent ouverts — la fiche n'est pas close pour autant.
 
 **[2026-08-18] Mise à jour** : l'accusé est reçu, la DDPP du Rhône est compétente — **cette attente-là est finie**. Le point dur devient l'**étiquetage/DLC** *(mention corrigée le 03/09 : c'était « DDM », erroné — voir `../02_produit/eau-miellee-33cl.md`)* et la **stabilité** (`production-artisanale.md`) ; la réserve HACCP reste ouverte.
+
+## 🏛️ 2026-10-19 — DOCTRINE DDPP : UN MAIL, PUIS LE SILENCE PAR DÉFAUT
+
+✅✅ **`[figé]` VOLET 1 — UN MAIL PART, ET UN SEUL : signaler que notre catégorie ne figure pas dans le CERFA 13982.** **Ce qui le rend légitime, et c'est le motif de Basekou : *« ça nous empêche de faire ce qu'ils ont dit qui était obligatoire »*.** ➡️ **Ce n'est donc PAS une demande de validation — c'est le signalement d'un obstacle matériel à une obligation que la DDPP 69 a elle-même posée dans son courrier 2026-8172.** 📌 **Interlocutrice identifiée, référence connue : c'est le seul échange du dossier qui a un objet fermé.**
+
+⛔⛔ **`[figé]` VOLET 2 — EN DEHORS DE ÇA, LE DIALOGUE SE LIMITE.** **On cesse de contacter la DDPP pour chaque zone floue et d'attendre sa validation.** ✅ **Posture arrêtée, dans les mots de Basekou : constater qu'il n'y avait *« pas d'explication concrète ou d'éléments explicites sur la marche à suivre »*, passer par le bon sens, construire la stratégie depuis l'expérience et les informations disponibles, et bâtir un plan assez fiable pour *« ne pas nous considérer comme des personnes mal intentionnées ou mal exécutantes »*.** 🎯 **MOTIF STRATÉGIQUE, consigné tel quel : *« plus on est dans leur tête, plus ils pensent à nous »*** — chaque question posée est une occasion de contrôle offerte. 📌 **Et : *« quand on innove, c'est normal qu'il n'y ait pas encore les solutions pour notre cas de figure »*.**
+
+📌 **CETTE POSTURE N'EST PAS NOUVELLE, ET LA FICHE LE PROUVE : le 18/08, Basekou avait déjà décidé que le mail des 3 questions n'était pas nécessaire *(ci-dessus)*.** ⇒ **La doctrine du 19/10 ne renverse rien, elle ÉCRIT enfin ce que le dossier pratiquait par intermittence depuis deux mois.**
+
+🔴 **CE QUE LA DOCTRINE IMPOSE EN CONTREPARTIE, et c'est accepté : LA JUSTIFICATION DOIT EXISTER AVANT LE CONTRÔLE.** **Un contrôleur ne lit pas une intention, il lit un dossier.** ⛔ **Or aujourd'hui le dossier contient le courrier 2026-8172 disant la dérogation obligatoire, et RIEN en face.** ➡️ **À produire : une page interne DATÉE, qui ne part à personne — la lecture retenue, sa base, et le fait constaté que le formulaire n'a pas notre catégorie.** 📌 **C'est la mise en œuvre de *« montrer comment on a choisi d'agir »*, écrite d'avance plutôt qu'improvisée le jour J.**
 
 ## Démarche DDPP (suivi daté)
 

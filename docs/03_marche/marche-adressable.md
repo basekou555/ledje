@@ -1,7 +1,7 @@
 ---
 statut: hypothèse
 domaine: marche
-maj: 2026-10-08
+maj: 2026-10-19
 source: "Décision et dimensionnement 2026-07-20 (page relais / validation Basekou 2026-07-24)"
 resume: "Premier dimensionnement du marché : panier observé 1-4 bouteilles/semaine, SAM cœur 13-100 M€/an, SOM an 2-3 : 130 k€-3 M€ (base plafond B2C 2,50 €). ✅✅ **2026-10-08 — LES EAUX MIELLÉES AROMATISÉES EXISTENT : la catégorie n'est pas à créer, et CITRON et GINGEMBRE — les deux saveurs les plus citées par le terrain — ont déjà été faites sur base eau + miel** *(Blume Honey Water, Honeydrop, Mellos)*. 🔴 **Mais la plus proche de Lédjé — Honeydrop, citron + gingembre + miel en bouteille de verre — est donnée comme PLUS DISPONIBLE : pas une preuve d'échec, mais le seul précédent proche, à regarder avant d'investir une réimpression.** ⚠️ **Aucun équivalent FRANÇAIS trouvé, et on ne peut rien en conclure : l'outil de recherche est à dominante américaine ⇒ la question « la catégorie existe-t-elle en France » reste OUVERTE.** ⛔ **MAJIYA NON TROUVÉ : c'est l'orthographe qui bloque — le moyen le plus court est de photographier l'étiquette chez Mauya ou Le Goût de Ça.** ⚠️ Candidat proche et NON confirmé : **MORIBA** (Ouendemor, jus africains fabriqués en France, huit saveurs dont le corossol). ⛔ Tout ceci est `[en discussion]` : résultats de recherche, aucune marque vue en rayon par le projet."
 ---
@@ -51,6 +51,16 @@ Détail du calcul (taille de population retenue, taux de pénétration) : à com
 - ⚠️ **AUCUN ÉQUIVALENT FRANÇAIS OU EUROPÉEN N'A ÉTÉ TROUVÉ, et on ne peut RIEN en conclure : l'outil de recherche est à dominante américaine.** 📌 **La question « la catégorie existe-t-elle EN FRANCE » reste donc OUVERTE, et c'est elle qui compte pour le marché adressable.**
 
 ⛔ **Tout ce qui précède est `[en discussion]` : ce sont des résultats de recherche, pas des faits vérifiés au produit. Aucune de ces marques n'a été vue en rayon par le projet.**
+
+## 🏭 2026-10-19 — L'AMBITION DE SORTIE EST NOMMÉE : LES FRANCHISES ET LA GMS
+
+✅✅ **`[figé]` Première inscription au dépôt de la destination commerciale du projet.** *« Là où nous on va aller chercher, c'est les franchises, c'est les GMS. C'est ça notre ambition. »*
+
+⛔ **VÉRIFIÉ : « franchise » et « GMS » n'apparaissaient dans AUCUNE fiche avant ce jour.** **La phase industrielle n'existait au dépôt que sous deux formes partielles — un objectif de financement (`../04_operations/production-artisanale.md`, objectif 5 : « autofinancer la première production industrielle ») et la précommande du cristal (`site-precommande.md`) — jamais comme DÉBOUCHÉ.** ➡️ **Le projet avait un plan de production industrielle et aucun client industriel.**
+
+🎯🎯 **ET ÇA DONNE SA PLACE EXACTE AU CANAL ÉVÉNEMENTIEL : c'est un LABO CLIENT, pas un modèle.** *« On voulait pas en faire notre vache à lait. Ça nous sert vraiment de labo vis-à-vis des clients… ça nous permet de vendre, de racheter du stock, de faire connaître le projet. »* ⚠️ **Mais sa scalabilité est limitée** — *« c'est pas comme ça qu'on va tenir notre boîte toute l'année »* — **et il faut vite penser à la suite.** ➡️ **OBJET DU CANAL, désormais écrit : VALIDER LE PMF pour passer à la partie industrielle.** *(`canal-evenementiel.md`)*
+
+📌 **CE QUE ÇA OUVRE, et c'est le chantier que le dossier n'a pas : entre « le PMF est validé en événement » et « une franchise ou une centrale référence le produit », il n'existe aujourd'hui AUCUNE étape écrite** — ni cahier des charges GMS, ni format, ni DLC industrielle, ni conditionneur. ⚠️ **À ne pas confondre avec le dimensionnement de marché ci-dessus, qui mesure une demande : ici il s'agit du CHEMIN pour l'atteindre.**
 
 ## Renvois
 
