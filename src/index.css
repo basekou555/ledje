@@ -1257,3 +1257,53 @@ img, svg, video { display: block; max-width: 100%; }
   background-repeat: no-repeat;
   padding-bottom: 2px;
 }
+
+/* ════════════════════════════════════════════
+   LE FORMULAIRE DE DEMANDE (/offrir, /prestations) — 2026-10-16
+   Il remplace deux `mailto:`, impasses pour les 91 % de visiteurs sur
+   téléphone. Donc : une seule colonne sous 700 px, des champs hauts de
+   48 px minimum (saisie au pouce), et aucun format imposé.
+   ════════════════════════════════════════════ */
+.v-demande { margin-top: 1.8rem; max-width: 560px; }
+.v-demande-row { display: grid; gap: 0.9rem; }
+@media (min-width: 700px) { .v-demande-row { grid-template-columns: 1fr 1fr; } }
+
+.v-field { display: block; margin-bottom: 0.9rem; }
+.v-field > span {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-bottom: 0.35rem;
+}
+/* L'astérisque du seul champ obligatoire : discrète, pas alarmante. */
+.v-field > span em { color: var(--gold-deep); font-style: normal; }
+
+.v-field input,
+.v-field textarea {
+  width: 100%;
+  font-family: var(--font-sans);
+  font-size: 1rem;              /* 16 px : en dessous, iOS zoome à la saisie */
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid rgba(20, 61, 43, 0.22);
+  border-radius: 12px;
+  padding: 0.8rem 0.9rem;
+  min-height: 48px;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+.v-field textarea { min-height: 96px; resize: vertical; }
+.v-field input::placeholder,
+.v-field textarea::placeholder { color: rgba(20, 61, 43, 0.38); }
+.v-field input:focus,
+.v-field textarea:focus {
+  outline: none;
+  border-color: var(--green-deep);
+  box-shadow: 0 0 0 3px rgba(20, 61, 43, 0.12);
+}
+.v-field input[aria-invalid='true'] { border-color: #B3402F; }
+
+.v-demande .btn-primary { margin-top: 0.4rem; width: 100%; }
+@media (min-width: 560px) { .v-demande .btn-primary { width: auto; min-width: 200px; } }
+.v-demande .v-note { margin-top: 0.8rem; }

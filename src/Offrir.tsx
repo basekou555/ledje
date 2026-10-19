@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { SiteHeader, SiteFooter, SOCIALS } from './Chrome'
 import { trackEvent } from './lib/supabase'
+import DemandeForm from './DemandeForm'
 
 /* ════════════════════════════════════════════════════════════════
    lédjé — « Offrir un lot à sa mosquée »
@@ -129,22 +130,20 @@ export default function Offrir() {
           <div className="container container--wide">
             <h2 id="contact-title" className="v-title v-title--xl">On en parle ?</h2>
             <p className="v-text v-text--lead">
-              Il n’y a pas encore de commande en ligne pour ça, et c’est très bien
-              comme ça : on cale la quantité et la date ensemble, en deux
-              messages.
+              Dis-nous où, combien et pour quand. On revient vers toi avec ce
+              que ça donne concrètement — il n’y a pas de commande en ligne
+              pour ça, et c’est très bien comme ça.
             </p>
-            <p className="v-page-actions">
-              <a
-                className="btn-primary"
-                href={MAIL}
-                onClick={() => trackEvent('offrir_page_mail_click')}
-              >
-                Nous écrire
-              </a>
-            </p>
+            <DemandeForm
+              type="offrir"
+              labelStructure="La mosquée"
+              placeholderStructure="Son nom, ou la ville"
+              mailto={MAIL}
+            />
             {INSTA && (
               <p className="v-note">
-                ou en message sur{' '}
+                Tu préfères écrire&nbsp;? <a href={MAIL}>Par mail</a>, ou en
+                message sur{' '}
                 <a
                   href={INSTA}
                   target="_blank"
