@@ -173,7 +173,7 @@ def planche(src: Path, dst: Path, duree: float, pas: float, colonnes: int = 4) -
     dst.parent.mkdir(parents=True, exist_ok=True)
     if dst.exists() or duree <= 0:
         return
-    n = max(1, int(duree // pas) + 1)
+    n = max(1, int((duree - 0.001) // pas) + 1)  # images à 0, pas, 2·pas… strictement avant la fin
     lignes = (n + colonnes - 1) // colonnes
     cmd = [
         "ffmpeg", "-v", "error", "-y", "-i", str(src),
