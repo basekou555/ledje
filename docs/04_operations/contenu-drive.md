@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-17
+maj: 2026-10-21
 source: "Drive « Lédjé contenu » (arborescence posée par Basekou le 2026-09-08) + test de rangement du 2026-09-11 (8 images)"
 resume: "Où vivent les fichiers de contenu (photo, vidéo, IA ou tourné) : la chaîne de dossiers Drive, la convention de nommage, et pourquoi l'asset-log logue un ID Drive et jamais un chemin."
 ---
@@ -179,3 +179,5 @@ des verdicts mais **perdait les images**. La colonne *Asset ID* y accueille dés
 Le shot-book ne couvre aujourd'hui que des plans destinés à la génération. Faut-il que **les plans
 réels** (`01_plans-reels/`) reçoivent eux aussi des IDs de shot, ou le shot-book reste-t-il l'outil
 de la seule production générée ? — arbitrage de Basekou, non tranché.
+
+➡️ *2026-10-21 : [`contenu-rushes.md`](contenu-rushes.md) propose « non » (IDs `R-xxxx` + tags dans un `rushes-index.csv`, le shot-book reste l'outil de la production générée) — arbitrage n° 4 de cette fiche, toujours à Basekou.*
