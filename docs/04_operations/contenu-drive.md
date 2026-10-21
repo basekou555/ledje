@@ -180,10 +180,19 @@ Le shot-book ne couvre aujourd'hui que des plans destinés à la génération. F
 réels** (`01_plans-reels/`) reçoivent eux aussi des IDs de shot, ou le shot-book reste-t-il l'outil
 de la seule production générée ? — arbitrage de Basekou, non tranché.
 
-## 🎞️ 2026-10-21 — QUATRE CLIPS LONGS N'ONT JAMAIS ÉTÉ VISIONNÉS *(descendu de la file 📥, posé le 16/10)*
+## 🎞️ 2026-10-21 — LES QUATRE CLIPS LONGS, ET CE QU'ILS PORTENT — ⛔ SECTION CORRIGÉE LE JOUR MÊME *(descendu de la file 📥, posé le 16/10)*
 
 ⛔ **Vérifié le 21/10 : le mot « clip » n'apparaissait nulle part dans cette fiche** — l'inventaire du disque y était descendu le 17/10, mais **pas ce point-là**, qui est le seul à désigner du contenu dont on ignore la valeur.
 
-📌 **Quatre clips longs du fonds `D:\LEDJE` n'ont jamais été ouverts.** ➡️ **Ce ne sont donc ni des rushes exploitables ni des rushes écartés : ce sont des inconnues.** ⚠️ **Et ils comptent double avec les trois gisements inédits déjà listés ici** *(miellerie de Saint Jérôme, tests de dosage, packs d'eau)* : **la part du fonds dont on ne sait rien n'est pas marginale.**
+📌 **Quatre clips longs du fonds `D:\LEDJE` n'ont jamais été ouverts.** ⛔⛔ **ÉCRIT PUIS CORRIGÉ LE 21/10 : « ce sont des inconnues » est FAUX. Ils ont été DÉPOUILLÉS LE 16/10** *(une image toutes les 6 à 12 s, planches `long.jpg` posées sur le disque, session Com)*, **et la ligne 🎬 de la page 🎯 ÉTAT nomme leur contenu — voir ci-dessous.** ⚠️ **Et ils comptent double avec les trois gisements inédits déjà listés ici** *(miellerie de Saint Jérôme, tests de dosage, packs d'eau)* : **la part du fonds dont on ne sait rien n'est pas marginale.**
+
+✅✅ **CE QUE LES QUATRE CLIPS PORTENT RÉELLEMENT** *(relevé du 16/10, descendu de la page ÉTAT le 21/10)* **— et c'est l'inverse d'un gisement inconnu : c'est le meilleur contenu identifié du disque.**
+
+- 🧪 **IMG_5339 — 268 s — LA SÉANCE DE DOSAGE.** Trois à quatre verres à concentrations différentes, paille, pot de miel, **grimace de rejet vers 3 m 22** ⇒ **la recette en train de se décider, filmée.** 🎯 **Matière unique : c'est le sujet « la dose » et « d'où vient le geste », et rien d'autre au fonds ne le montre.**
+- 🏷️ **IMG_5716 — 132 s — L'ÉTIQUETAGE AVEC LE ROULEAU VISIBLE.** ⇒ **Le meilleur plan de production du disque : il dit « série » sans un mot.**
+- 🏷️ **IMG_5675 — 336 s — l'étiquetage à la main en coworking**, dont **un plan exploitable tel quel à 5 m 27** *(bouteille finie posée, étiquette lisible)*.
+- 🔴 **IMG_5177 — 184 s — une CONVERSATION en plan fixe, valeur visuelle nulle.** ⇒ **Toute sa valeur est dans le SON, et aucune session ne peut l'entendre : à écouter par Basekou.**
+
+⚠️ **RÉSERVE DE LECTURE À GARDER : le nombre de verres et de dosages testés n'est PAS déterminable à l'image** ⇒ **ne jamais le chiffrer en public sans confirmation de Basekou.**
 
 🎯 **Pourquoi c'est un point de production et pas du rangement : la grille de contenu se décide sur ce qu'on CROIT avoir.** **Visionner quatre clips coûte une heure ; décider une grille sans eux, c'est écarter sans savoir.**
