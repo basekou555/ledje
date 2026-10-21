@@ -1,0 +1,71 @@
+# GABARIT — recette d'une pièce de contenu (rushes → pièce), rendue par tools/contenu/rendu.py
+# Dupliquer, remplir, rendre : `python3 tools/contenu/rendu.py ma-recette.yaml`
+#
+# Une recette = le BRIEF (ce qu'on dit, à qui, pourquoi) + l'EDL (quels rushes, quels timecodes,
+# quel texte, quel son). Elle est le seul endroit où la pièce est décrite : la rendre deux fois
+# donne la même pièce, changer UN paramètre et re-rendre donne une variante comparable.
+#
+# Les deux points de validation de Basekou (chaine-contenu.md) sont portés par `piece.statut` :
+#   brouillon → valide-production (point 1 : « avant qu'on produise ») → rendu
+#   → valide-publication (point 2 : « avant qu'on publie »). Tant que le statut n'est pas
+#   valide-publication, le rendu porte un filigrane TEST. Le statut est écrit par Basekou, jamais déduit.
+#
+# ⚠️ Garde-fous (docs/01_adn/conformite.md, identite-verbale.md, grille-contenu.md) :
+#   - aucune allégation santé, explicite ou implicite, image comprise ; toute mention du sucre porte « jusqu'à » ;
+#   - aucune marque nommée DANS le contenu (mention possible en description) ;
+#   - Basekou filmé : yeux visibles admis ; toute IMAGE FABRIQUÉE : yeux jamais visibles ;
+#   - une personne réelle qui n'est pas lui dans un rush : cas NON TRANCHÉ — ne pas publier sans son arbitrage ;
+#   - si quelqu'un parle du produit dans un plan gardé avec son son : passer le transcript à relecture.py d'abord.
+
+piece:
+  id: P-AAAA-MM-JJ-001            # un ID par pièce ; les variantes s'écrivent P-…-001a, 001b
+  titre: "à compléter"            # ce que raconte la pièce, en une ligne
+  format: le-geste                # le-geste | la-voix-off | produit-en-situation | le-terrain | la-sensation | l-ecrit | l-evidence | detournement-de-pub
+  niveau: 1                       # 1 produit · 2 expérience · 3 marque · 4 univers (grille-contenu.md)
+  sujet: "à compléter"            # un sujet de la grille (ex. « la dose », « le miel jamais chauffé », « un lot de production »)
+  intention: "à compléter"        # ce que le spectateur doit comprendre ou ressentir, en une phrase
+  variable_testee: ""             # si c'est une variante : LE paramètre qui change par rapport à la pièce de référence
+  reference: ""                   # l'ID de la pièce de référence, le cas échéant
+  statut: brouillon               # brouillon | valide-production | rendu | valide-publication | ecarte
+  valide_par: ""                  # « Basekou, AAAA-MM-JJ » — jamais une session
+  canal: instagram-reel           # instagram-reel | instagram-post | tiktok | story | site
+  hook: "à compléter"             # les 3 premières secondes : texte à l'écran du plan 1 (voir plans[0].texte)
+  legende: |                      # la légende prête à publier (passe la grille conformité + lexique)
+    à compléter
+  rushes_utilises: []             # les IDs de rushes-index.csv (ex. [R-0012, R-0013]) — pour la traçabilité
+
+rushes_dir: "D:/LEDJE"            # dossier racine des rushes (les `rush` ci-dessous sont relatifs à ce dossier)
+
+sortie:
+  fichier: "P-AAAA-MM-JJ-001_TEST.mp4"   # le nom suit la convention de contenu-drive.md : descriptif-date_SUFFIXE
+  ratio: "9:16"                   # 9:16 (reels, TikTok) | 1:1 | 4:5 | 16:9
+  fps: 30
+  # police: "C:/Windows/Fonts/arialbd.ttf"   # facultatif ; sinon une police système est cherchée
+
+audio:
+  source: rushes                  # rushes (le son réel, ce qui manquait au pilote) | fichier (voix off de Basekou mixée) | silence
+  # fichier: "02_voix/voix-off-la-dose-2026-10-22.wav"   # si source: fichier
+  volume_rushes: 0.25             # niveau du son des rushes sous la voix off (si source: fichier)
+  fondu: 0.2                      # fondu entrant/sortant du son de chaque plan, en secondes (0 = aucun)
+
+# texte_global: ""                # un texte affiché en haut sur toute la pièce (rare — préférer le texte par plan)
+
+plans:                            # dans l'ordre de montage ; 3 à 6 plans de 2 à 5 s pour un reel de 15 à 25 s
+  - rush: "2026-08-14/IMG_0001.MP4"   # chemin relatif à rushes_dir (ou absolu)
+    in: "00:00:12.0"              # timecode de début dans le rush
+    out: "00:00:15.5"             # timecode de fin
+    cadrage: centre               # pour recadrer un 16:9 en 9:16 : gauche | centre | droite | x=0.35 (fraction)
+    vitesse: 1.0                  # 1.0 normal · 0.5 ralenti · 2.0 accéléré (le son suit entre 0.5 et 2, sinon son: couper)
+    texte: "à compléter"          # le HOOK — texte à l'écran, jamais généré par l'IA ; vide = aucun texte
+    texte_position: haut          # haut | centre | bas
+    son: garder                   # garder | couper
+  - rush: "2026-08-14/IMG_0002.MP4"
+    in: "00:01:40.0"
+    out: "00:01:44.0"
+    cadrage: centre
+    texte: ""
+  - rush: "2026-08-14/IMG_0003.MP4"
+    in: "00:00:03.0"
+    out: "00:00:07.0"
+    texte: "lédjé — de l'eau, du miel."   # la chute est toujours à la fin (grille-contenu.md)
+    texte_position: bas
