@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-17
+maj: 2026-10-21
 source: "SOT Partie 7 (archive 2026-07-24) ; Apior écarté (Basekou, 24/07) ; critères cartographie 2026-07-21 (page relais) ; aligné le 2026-09-01 sur les décisions déjà consignées le 31/08 ; ordre miel-avant-étiquettes établi le 2026-09-02 ; assemblage arrêté et rupture de miel constatée le 2026-09-07 (montagne + châtaignier 25/75) ; contact corrigé (Joan, pas Jérôme) et commande déclarée passée le 2026-09-08 ; réponse de Joan (taux d'humidité 16-18 %) consignée le 2026-09-10"
 resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — contact : JOAN, nom corrigé le 08/09 ; ✅ assemblage ARRÊTÉ le 07/09 : montagne + châtaignier 25/75, tilleul en repli — ⚠️ mais la DOSE reste à travailler — et il n'y avait PLUS DE MIEL au 07/09, ce qui a fait de l'appel la condition du figeage et non sa conséquence). ✅ COMMANDE DÉCLARÉE PASSÉE le 08/09, et ✅ JOAN A RÉPONDU le 10/09 : **taux d'humidité 16-18 %** — la conversion en grammes est donc FAITE et le tableau nutritionnel corroboré. ⚠️ Mais le miel est à RETIRER et la date de retrait est inconnue : la dose reste bloquée faute de matière. 🔗 La commande du miel passe AVANT celle des étiquettes depuis le 02/09 : le taux d'humidité demandé à Joan conditionne le tableau nutritionnel. Sourcing industriel : apprentissages (dont logique « 2 miels », sujet ouvert), shortlist tracks cristal/RTD, cartographie cristaux à lancer (le conditionneur pour Ramadan 2027 n'existe pas encore)."
 ---
@@ -115,3 +115,20 @@ Prompt Cowork « cartographie large » rédigé (lister tout, filtrer par télé
 ⚠️ **ET IL EST DOUBLEMENT PÉRIMÉ À LA DATE OÙ ON LE RETROUVE : son critère de classement — l'échantillon physique — a été ÉCARTÉ par Basekou le 14/10 comme non obtenable, et le choix s'est depuis réduit à DEUX candidats qu'il a nommés le 16/10.** 🎯 **Donc on ne le cherche plus pour décider : on le note pour comprendre pourquoi un travail commandé a dû être refait.**
 
 📌 **TROISIÈME OCCURRENCE DU MÊME MÉCANISME EN CINQ JOURS, et c'est ça qui compte** : le relevé de prix écrit sur une page gelée *(15/10)*, le wordmark vectoriel cru inexistant *(17/10)*, et ce xlsx. ➡️ **À chaque fois : le livrable EXISTE, il est rangé quelque part, et la session suivante le croit absent et recommence.** ⚡ **Le coût n'est pas le fichier perdu, c'est le travail refait.**
+
+## 🍯 2026-10-21 — LE MAIL ÉCRIT DE JOAN *(descendu de la file 📥, posé le 15/10 ; `[figé]` : ce sont ses mots écrits)*
+
+**Joan répond PAR ÉCRIT à une partie des quatre demandes, et il en OUVRE une.** 📌 **Première fois que ce fournisseur produit de l'écrit vérifiable plutôt qu'un échange déclaré** *(angle mort de la boîte Zoho, cf. `../05_systeme/workflow-maj.md`)*.
+
+✅ **CE QUI EST FERMÉ** : **humidité 16 à 18 %** confirmée *(motif donné : au-delà le miel ne se conserve pas)* · **tilleul pur** confirmé, et il **fige plus vite** qu'acacia ou châtaignier · **certification Bio transmissible sur demande** · **densité : 1 litre de miel pèse 1,40 à 1,45 kg** ⇒ **15 mL = 21,0 à 21,75 g**, ce qui **corrobore les 21,3 g** de `../02_produit/eau-miellee-33cl.md`.
+
+🔴🔴 **CE QU'IL OUVRE, ET ÇA TOUCHE LA PROMESSE CENTRALE : *« si vous voulez du miel non cristallisé nous pouvons le rendre liquide pour vous »*** ⇒ **ILS CHAUFFENT LE MIEL SUR DEMANDE, à une température inconnue.** 📌 **Lecture exacte, sans alarmisme : nous ne le demandons pas, donc notre miel n'est pas chauffé de ce fait.** ⚠️ **Mais l'attestation de process thermique ≤ 35 °C reste à obtenir, et la question change de forme : ce n'est plus « est-ce qu'ils chauffent », c'est « à quelle température, et pour quels lots ».** 🎯 **« Miel pur, jamais chauffé » est une mention autorisée** *(`../01_adn/conformite.md`)* ⇒ **elle doit pouvoir s'appuyer sur un écrit du fournisseur, pas sur une absence de demande de notre part.**
+
+⛔⛔ **IL NE FAIT NI ANALYSE POLLINIQUE NI MESURE DE pH.** ➡️ **Deux conséquences, et elles ferment des portes :** ① **la question du MIELLAT ne pourra JAMAIS être tranchée par analyse chez lui — la mention « miel de fleurs » repose sur sa seule déclaration** ; ② **le pH du miel, que le PMS n'a jamais mesuré, ne viendra pas de lui non plus** *(`production-artisanale.md`)*.
+
+⚠️ **TRAÇABILITÉ : numéro de lot donné comme « potentiellement »** ⇒ **la traçabilité par lot n'est PAS acquise** — et le GBPH ne dit rien du lot *(ci-dessus)*, donc ce volet du PMS n'a d'appui ni en amont ni au référentiel. ⛔ **ORIGINE FRANÇAISE : pas répondu.**
+
+🎯🎯 **ET LE FAIT PRODUIT NEUF, qui dépasse le sourcing : les MONOFLORAUX (acacia, châtaignier, tilleul) ont un goût STABLE ; *« pour les autres le miel peut changer de goût suivant l'année et le lieu de récolte »*.** 🔴 **Or le MONTAGNE, qui fait 75 % de la recette 25/75, est précisément un « autre »** ⇒ **le goût du produit varie avec le lot, et ce n'est pas un défaut de production.** 📌 **Proposition de descente en `../02_produit/eau-miellee-33cl.md` — fiche de régime INTERMÉDIAIRE, donc en attente de l'accord de Basekou.**
+
+💰 *Les prix du devis sont dans la page 💸 Comptabilité, section ⑧ — pas ici.*
+

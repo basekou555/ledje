@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-19
+maj: 2026-10-21
 source: "Créée le 2026-10-12 après le débrief de l'événement du 11/10, à la demande de Basekou : « ça mérite pas tout un document, mais il y a des leçons à en tirer pour les prochains — qu'est-ce qu'on a utilisé, qu'est-ce qu'on a bien utilisé, qu'est-ce qu'on doit améliorer »."
 resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteilles là où cinq rendez-vous restaurateurs ont donné zéro. 🎯 Vente directe au consommateur, Lédjé exposant et pas fournisseur. ✅ Ce qui marche : un public dont la clientèle est musulmane, le frigo apporté (chaîne du froid ET support d'affiche), la seringue, le paiement sans contact, proposer au client de choisir entre boire frais sur place ou emporter. 🔴 Ce qui doit s'améliorer : le stand est « un peu léger », l'affiche en portrait n'a nulle part où s'accrocher sans frigo, pas de fonds de caisse, l'étiquetage est le goulot et il est PIRE que proportionnel au-delà de ≈ 50 bouteilles, la DLC n'a pas été tamponnée. 🔴🔴 **2026-10-12 — L'ÉVÉNEMENT EST CHIFFRÉ ET IL EST EN PERTE : les frais fixes du stand ont à eux seuls dépassé le chiffre d'affaires, donc la perte était acquise AVANT la matière.** L'emplacement est le premier poste, à lui seul plus de la moitié du CA ; le seuil d'équilibre était ≈ 2,4 fois le volume produit. ➡️ **Ce n'est ni le produit ni le prix : c'est le coût du stand — et le prochain événement n'en a pas.** ⚡ Et une réserve sur la lecture du succès : certains ont refusé le prix réduit pour payer plein tarif « pour donner de la force », donc une part des ventes est du SOUTIEN et pas une décision d'achat sur le goût. ⛔ Aucun montant ici : les valeurs vivent dans la page Notion privée, le dépôt n'en garde que les rapports."
 ---
@@ -110,6 +110,14 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 ⏳ **CE QUE LA FENÊTRE IMPLIQUE, sans rien décider ici : entre le 17/10 et le 8/02 il y a près de QUATRE MOIS, et le dossier n'a aucun événement à y mettre.** ✅ **Deux lectures coexistent et le dépôt ne tranche pas : soit c'est un creux à remplir par de la prospection d'événements, soit c'est le temps dont le produit a besoin — les saveurs, le chemin d'achat, l'étiquette à son nouveau prix.** ⚠️ **À arbitrer par Basekou à une revue, pas en séance de terrain.**
 
 🆕 **Trois opportunités d'événements nouvelles sont sorties de la visio du 13/10**, non détaillées ici *(la page Notion « Calendrier événements et lieux récurrents » les porte)*. ⛔ **Les FLYERS y sont écartés par les deux interlocuteurs** — ⚠️ **à rapprocher du constat inverse du 11/10 : les flyers étaient DEMANDés sur place, les gens les PRENAIENT EN PHOTO, et le stock a manqué. Les deux observations ne portent pas sur la même chose : l'une juge le support en prospection, l'autre l'a vu marcher en événement.**
+
+## 📍 2026-10-21 — LE SIGNAL DU 11/10 QUI NE VIVAIT QUE SUR LA PAGE ÉTAT : ≈ 15-20 % DES VISITEURS ONT DEMANDÉ OÙ RETROUVER LA BOISSON
+
+⛔ **Descendu de la file 📥 le 21/10, posé le 14/10 par la routine, qui avait déjà constaté l'absence : zéro occurrence dans `docs/` au 14/10, vérifié à nouveau le 21/10.** 📌 **Le fait datait du 11/10 ; il a mis dix jours à atteindre une fiche, alors qu'il est le signal de demande le plus direct que le projet ait produit.**
+
+🎯🎯 **CE QU'IL DIT, et il n'a pas d'équivalent ailleurs dans le dossier : une personne sur cinq à six, APRÈS avoir goûté et payé, demande spontanément où racheter.** ➡️ **C'est une intention de réachat exprimée sans sollicitation — le seul indicateur de PMF que le canal événementiel ait livré en clair** *(`marche-adressable.md` : le canal est un labo client, et voilà ce qu'il mesure)*.
+
+⚠️ **ET LA RÉSERVE EST DE MÉTHODE, pas de fond : le pourcentage est une appréciation de terrain, pas un comptage.** 📌 **Il se lit comme un ordre de grandeur, et il n'a pas été recueilli au salon du 17/10 — donc on n'a pas de second point.** ➡️ **À relever au prochain événement, c'est une question à poser, pas un ressenti à estimer.**
 
 ## 📊 2026-10-19 — LE DÉBRIEF DU SALON DU 17/10 : PEU DE MONDE, ET LE RENDEMENT EST AILLEURS QUE DANS LE VOLUME
 

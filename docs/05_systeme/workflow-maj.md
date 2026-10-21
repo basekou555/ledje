@@ -1,9 +1,9 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-09-11
+maj: 2026-10-21
 source: "Validé par Basekou en session 2026-07-24 (+ compléments même jour : garde-fous métier, council-context protégé) — remplace la Partie 9 (@update) du SOT archivé ; section 6 ajoutée le 2026-09-10 sur demande explicite de Basekou (captation, tri, péremption, relance des attentes dormantes)"
-resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, rituels de session (page relais Notion, resynchro Project Knowledge), tri de l'inbox. ➕ Section 6 (10/09) — les règles de vie de l'information. R0 LE DIGEST lit TOUT le relais, ligne par ligne, jusqu'au bout des cellules longues — c'est sa charge (règle de Basekou, 10/09) ; R1 tout fait déclaré entre le jour même · R2 critère de ce qui entre (est-ce que ça change l'état ?) + garde-fou de clôture · R3 péremption, le relais porte l'ÉTAT et non son histoire, purge à chaque revue de semaine · R4 la session INTERROGE les attentes dormantes (114 marqueurs au 10/09) pour qu'un oubli ne se referme pas en silence. ➕ R5 (11/09) — LE TEST D'ENTRÉE DU RELAIS : une phrase y entre si elle répond à « où ça en est MAINTENANT » et à rien d'autre (présent → relais · passé → journal · impératif général → ce fichier) ; aucun bloc de clôture de séance au relais, état courant ~800 caractères max. ⚠️ Motif mesuré : le relais a repris +10 977 caractères le lendemain de sa purge, dont 73 % écrits par la session qui venait d'écrire R3 elle-même. ⚠️ Diagnostic corrigé en séance : les sessions déposaient bien, c'est LE DIGEST qui n'a pas lu le relais — devenu illisible (une cellule de 21 261 caractères)."
+resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, rituels de session (page relais Notion, resynchro Project Knowledge), tri de l'inbox. ➕ Section 6 (10/09) — les règles de vie de l'information. R0 LE DIGEST lit TOUT le relais, ligne par ligne, jusqu'au bout des cellules longues — c'est sa charge (règle de Basekou, 10/09) ; R1 tout fait déclaré entre le jour même · R2 critère de ce qui entre (est-ce que ça change l'état ?) + garde-fou de clôture · R3 péremption, le relais porte l'ÉTAT et non son histoire, purge à chaque revue de semaine · R4 la session INTERROGE les attentes dormantes (114 marqueurs au 10/09) pour qu'un oubli ne se referme pas en silence. ➕ R5 (11/09) — LE TEST D'ENTRÉE DU RELAIS : une phrase y entre si elle répond à « où ça en est MAINTENANT » et à rien d'autre (présent → relais · passé → journal · impératif général → ce fichier) ; aucun bloc de clôture de séance au relais, état courant ~800 caractères max. ⚠️ Motif mesuré : le relais a repris +10 977 caractères le lendemain de sa purge, dont 73 % écrits par la session qui venait d'écrire R3 elle-même. ⚠️ Diagnostic corrigé en séance : les sessions déposaient bien, c'est LE DIGEST qui n'a pas lu le relais — devenu illisible (une cellule de 21 261 caractères). ➕➕ **R6 (21/10, demande explicite de Basekou) — LA SESSION LIT LE DOSSIER D'UN SUJET AVANT DE LE POSER** : la fiche du domaine, la ligne de la table 🎯 ÉTAT, et les entrées du journal qui le portent. 📏 **TEST : on ne pose pas un sujet dont on ne peut pas citer la dernière ligne datée** — si on ne peut pas l'écrire, on ne l'a pas lue. ⚠️ Motif : reproche général de Basekou aux sessions (« à chaque discussion il faut remettre tout le contexte »), et preuve mesurée le 19/10 — la DDPP posée comme un retard alors que la fiche portait depuis le 12/10 le changement d'objet du sujet ET l'appréciation de Basekou dessus. 🔴 Et la moitié du problème est ailleurs : la page ÉTAT, qui est l'instrument du recul, fait 31 363 caractères pour un plafond de 12 000."
 ---
 
 # Workflow de mise à jour du cerveau
@@ -151,3 +151,26 @@ Concrètement, à l'ouverture :
 *(Appliquée à la journée du 11/09, cette règle donnait **≈ +1 500 caractères au lieu de +8 000**.)*
 
 ⚠️ **Ce que cet épisode apprend sur les règles elles-mêmes** : R3 a été écrite le 10/09 et enfreinte le 11/09 **par la session qui l'avait écrite**. Une règle qui énonce un principe sans donner de **test applicable phrase par phrase** ne se tient pas au moment d'écrire — parce qu'au moment d'écrire, **tout paraît utile à la prochaine session.** C'est le test, pas le principe, qui fait le travail.
+
+### R6 — La session LIT le dossier d'un sujet avant de le POSER *(posé le 2026-10-21, sur demande explicite de Basekou)*
+
+**Le constat, et c'est Basekou qui le formule comme le reproche général aux sessions de travail** : *« il y a un vrai manque de relecture du dossier… j'ai l'impression qu'à chaque discussion, il faut remettre tout le contexte. Tu te bases pas sur la page ÉTAT, sur le decisions-log, sur le SOT. Et donc t'es pas pertinent. »* ⚠️ **Et il précise que ce n'est pas de l'invention : les informations sont erronées parce que *pas mises à jour, pas prises au bon endroit, pas revérifiées* — « c'est comme ça dans CHAQUE session ».**
+
+🔗 **PREUVE MESURÉE, le 2026-10-19.** La session a posé la dérogation DDPP comme un sujet en retard — « 10ᵉ jour, et il glisse ». Or `../04_operations/demarches-admin.md` portait, **daté du 12/10**, le changement d'objet du sujet *(ce n'est plus « déposer le 13982 » mais « demander sous quelle rubrique déposer », le formulaire n'ayant pas notre catégorie)* **et l'appréciation de Basekou lui-même** : *« c'est pas vraiment un sujet, mais il faudra trouver »*. **La même fiche portait en outre, au 18/08, sa décision de ne PAS écrire à la DDPP.** ⛔ **La fiche n'avait pas été ouverte une seule fois.**
+
+➡️ **LA RÈGLE : on ne pose pas un sujet avant d'avoir lu les trois endroits où il vit.**
+1. **La fiche du domaine** — et jusqu'au bout, l'état récent étant en bas *(même mécanique que R0)*.
+2. **La ligne du sujet dans la table 🎯 ÉTAT.**
+3. **Les entrées de `decisions-log.md` qui portent ce sujet.**
+
+📏 **LE TEST, applicable avant d'écrire la phrase — et c'est le test qui fait le travail, pas le principe** *(leçon de R5)* :
+
+> ⛔ **Je ne pose pas un sujet dont je ne peux pas citer la dernière ligne datée.**
+
+**Si je ne peux pas l'écrire, je ne l'ai pas lue** — et le sujet n'est pas prêt à être posé. ✅ **Trois issues légitimes après lecture** : le sujet tient et se pose avec son antériorité · il était déjà tranché et il sort · il a changé d'objet et c'est le NOUVEL objet qu'on pose.
+
+⚠️ **CE QUI EST UN DÉFAUT DE SESSION, et non une question** : poser un sujet sans ces trois lectures. **Ça coûte double** — le temps de Basekou pour recontextualiser, et la confiance dans tout le reste de la séance, puisqu'un sujet mal posé rend les autres suspects.
+
+📌 **Corollaire sur la nature des erreurs.** Les quatre conclusions fausses de la séance du 19/10 *(modèle économique du salon, périmètre géographique, exclusivité refroidir/maintenir, volume écoulé)* avaient toutes **une forme logique correcte** et une prémisse non vérifiée. ➡️ **Un raisonnement propre sur une prémisse non relue produit une erreur CONFIANTE, qui est la plus coûteuse à détecter.** 🎯 **Et un nombre juste issu d'un modèle faux n'est pas une vérification** *(le volume du salon tombait à une bouteille du bon par coïncidence)*.
+
+🔴 **CE QUE LA RÈGLE NE RÉGLERA PAS À ELLE SEULE, et il faut l'écrire ici parce que c'est la moitié du problème : l'instrument du recul est la page 🎯 ÉTAT, et elle est inutilisable.** **Mesurée le 17/10 : 31 363 caractères pour un plafond de 12 000, avec de l'historique, des justifications et des auto-corrections dedans — alors que sa propre règle interdit les trois.** ➡️ **Une session qui cherche « où en est le projet » tombe sur de l'archive et reconstruit au lieu de lire.** 📌 **Appliquer la règle de la page la ramènerait à ≈ 15 000 sans perdre un seul fait.**
