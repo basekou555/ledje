@@ -1,7 +1,7 @@
 ---
 statut: bloquant
 domaine: adn
-maj: 2026-10-17
+maj: 2026-10-21
 source: "SOT Partie 3 (archive 2026-07-24) ; retours Inès 2026-07-10 ; réalignement relevé COO 2026-07-28 (MMD 3)"
 resume: "Palette ROUVERTE (seul l'émeraude tient) ; aucun designer mandaté sur l'identité (Inès = conseil, Léa a coproduit l'étiquette du lot O'Daba) ; wordmark Basekou = seul élément d'identité ; identité à trancher par Basekou."
 ---
@@ -46,7 +46,7 @@ L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« enco
 - **Où le vert domine :** landing, cartons, communication (l'écrin de marque). **Où l'ambre domine :** l'étiquette et le cristal de miel (contact alimentaire → préserver l'appétence ; le vert y devient le sceau).
 - Sobre et digne, pas d'effets criards.
 - **Visages (tranché 2026-07-30, précisé 2026-07-31)** : les visages deviennent **possibles**, mais la règle de conduite reste de **privilégier le moins de visage possible**. **Les yeux ne sont JAMAIS visibles** (floutés, cachés, détournés, hors cadre) — non négociable **sur toute image fabriquée (IA ou mise en scène)**. ✅ **Exception tranchée le 2026-09-28 : Basekou filmé lui-même n'est pas concerné** — sur ses vidéos, les yeux peuvent être visibles. *(Cas non tranché : une personne réelle qui n'est pas lui.)* Montrer une **partie** du visage est admis quand le visuel le justifie ; ce n'est pas un encouragement, c'est une permission au cas par cas. Codes subtils bienvenus (main droite, vêtement, gestes — la cible les décode). Remplace la règle antérieure « jamais de visage identifiable ».
-- **Matière source ≠ image publiée (précisé le 2026-10-16, descendu de la file le 2026-10-17)** : ✅ **la règle vise L'IMAGE PUBLIÉE, pas le RUSH.** ⇒ **les 79 rushes du fonds vidéo, dont ceux qui portent le visage de Basekou, sont EXPLOITABLES comme matière** — les dérusher, les monter et les indexer ne pose aucune question. 🎯 **Ce qui est encadré, c'est ce qui SORT.** ⚠️ **Le traitement à la publication reste `[en discussion]` : floutage ou non, cadrage, durée à l'image.** 📌 **Et cette précision ne crée pas d'exception — elle en explicite une qui existait déjà : depuis le 2026-09-28, Basekou filmé lui-même n'est pas concerné par la règle des yeux.** ⛔ **Reste non tranché, et c'est le vrai trou : une personne réelle qui n'est PAS lui, filmée dans un rush.**
+- **Matière source ≠ image publiée (précisé le 2026-10-16, descendu de la file le 2026-10-17)** : ✅ **la règle vise L'IMAGE PUBLIÉE, pas le RUSH.** ⇒ **les 79 rushes du fonds vidéo, dont ceux qui portent le visage de Basekou, sont EXPLOITABLES comme matière** — les dérusher, les monter et les indexer ne pose aucune question. 🎯 **Ce qui est encadré, c'est ce qui SORT.** ⚠️ **Le traitement à la publication reste `[en discussion]` : floutage ou non, cadrage, durée à l'image.** 📌 **Et cette précision ne crée pas d'exception — elle en explicite une qui existait déjà : depuis le 2026-09-28, Basekou filmé lui-même n'est pas concerné par la règle des yeux.** ⛔ **Reste non tranché, et c'est le vrai trou : une personne réelle qui n'est PAS lui, filmée dans un rush.** ✅ **Arbitré à l'oral le 2026-10-21 par Basekou : *« on cache les visages autant que possible ; s'il faut remplacer par une motion ou par des images en mode b-roll, ça peut être cool »*.** ➡️ Un rush avec un tiers peut sortir si le visage n'est pas identifiable ; sinon le plan est remplacé. *(Ligne au decisions-log du 21/10 ; à confirmer en séance pour passer `[figé]`.)*
 
 ## Typographie — ⚠️ EN REFONTE
 

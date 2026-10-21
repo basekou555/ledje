@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-17
+maj: 2026-10-21
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
 resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication."
 ---
@@ -17,6 +17,14 @@ resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiab
 ⚠️ **Une session qui écrit un support — affiche, flyer, QR, pied de mail — prend cette valeur ICI et nulle part ailleurs.** 📌 **Et aucune session ne peut LIRE ce compte** *(Instagram et TikTok sont bloqués par le proxy, re-testé le 11/10)* ⇒ **toute mention de son état — nombre de publications, abonnés, stories — est déclarative, se date, et ne devient jamais un fait de référence.**
 
 ⛔ **TIKTOK : le compte n'est pas identifié au dépôt.** ⚠️ **Et `acquisition-tiktok.md` le donne encore comme « canal toujours inactif », sur une fiche qui n'a pas bougé depuis le 13/07** — **à recaler, Basekou déclarant publier depuis plus d'une semaine.**
+
+## 📱 TikTok ≠ Instagram — la séparation énoncée le 2026-10-21 *(déclaré par Basekou, en discussion)*
+
+**TikTok = face cam, l'avancée du projet, humain.** *« J'ai du mal à imaginer un contenu de marque sur TikTok où on ne voit pas le fondateur, où on ne voit pas de personne. Je pense que ça a peu de chances de convertir. »* Basekou à l'image, oui. ⚡ **Ça renverse explicitement l'écart du 14/08** (*« je ne me vois pas en personnage »*).
+
+**Instagram = carrousels, mise en avant du produit et de la marque.** Les posts déjà publiés sur `@its.ledje` vont dans ce sens, *« beaucoup plus de la mise en avant de la bouteille et de la marque que de la personal brand »*.
+
+⚠️ **La grille ci-dessous (20/08) ne fait pas cette séparation : les 7 formats et la cadence ont été pensés pour un seul compte cross-posté.** Chantier à mener avec Basekou après les deux premières pièces montées (cf. `../04_operations/contenu-rushes.md`). **Tiers filmés** : cacher les visages autant que possible, repli b-roll ou motion (arbitrage du 21/10, `../01_adn/identite-visuelle.md`).
 
 ## À quoi sert le contenu — dans cet ordre
 

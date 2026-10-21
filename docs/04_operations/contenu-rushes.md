@@ -3,7 +3,7 @@ statut: hypothèse
 domaine: operations
 maj: 2026-10-21
 source: "Session Claude Code du 2026-10-21 (17h-18h CEST, branche claude/exciting-babbage-hm0xps), construite sur chaine-contenu.md, contenu-drive.md, grille-contenu.md, conformite.md, identite-visuelle.md, le decisions-log (2026-08-20 → 2026-10-17) et le SOT archivé (Partie 6). PROPOSITION — rien n'y est tranché par Basekou."
-resume: "Le système rushes → pièces : trois objets (le rush indexé, la recette, le gabarit de format), six étapes dont trois outillées dans tools/contenu/, ce que le cerveau impose déjà, le premier lot proposé sur les trois gisements, et les neuf arbitrages qui reviennent à Basekou."
+resume: "Le système rushes → pièces : trois objets (le rush indexé, la recette, le gabarit de format), six étapes dont trois outillées dans tools/contenu/, ce que le cerveau impose déjà, le premier lot proposé sur les trois gisements, et dix arbitrages — cinq rendus par Basekou le 21/10 au soir (PC, Bureau + disque, tiers, conformité cas par cas), cinq ouverts."
 ---
 
 # Le système rushes → pièces — proposition
@@ -189,15 +189,16 @@ plans:
 
 | # | Question | Proposition de la session |
 |---|---|---|
-| 1 | **Où vit la copie de sûreté** du disque local et unique *(réserve du 17/10)* ? | Les **originaux** dans `01_plans-reels/` du Drive pro (17 Go, le compte pro a été choisi pour ça) ; les proxies à côté dans `_proxies/`. |
-| 2 | **Où tourne le rendu** ? | Option A, sa machine. |
+| 1 | **Où vit la copie de sûreté** du disque local et unique *(réserve du 17/10)* ? | ✅ **Rendu le 21/10** : le dossier « ledje Rush Bureau » sur le PC porte ce qui est à exploiter, le disque garde le reste. *(Le Drive n'est plus requis pour travailler ; il reste utile pour qu'une session distante lise les planches.)* |
+| 2 | **Où tourne le rendu** ? | ✅ **Rendu le 21/10** : option A, son PC, où Claude Code est déjà installé. |
 | 3 | **L'index est-il versionné au dépôt** ? | Oui : `docs/04_operations/rushes-index.csv`, recopié à chaque dérushage. C'est le seul moyen pour une session d'écrire une recette sans voir le disque. |
 | 4 | **Les plans réels reçoivent-ils des IDs de shot** *(question ouverte de contenu-drive.md)* ? | Non. Les rushes ont leurs `R-xxxx` et leurs tags ; le shot-book reste l'outil de la production générée. Une recette relie les deux quand une pièce mélange les sources. |
-| 5 | **Une personne réelle qui n'est pas lui, filmée** : floutage, accord écrit, exclusion ? | Hors de cette session — c'est une règle ADN. En attendant : **aucune sortie** d'un rush `tiers`. |
-| 6 | **Relecture de l'oral avant publication** : règle systématique ou cas par cas *(ouvert depuis le 02/10)* ? | Systématique : transcription + `relecture.py` + lecture humaine, sur tout rush `oral: oui`. |
+| 5 | **Une personne réelle qui n'est pas lui, filmée** : floutage, accord écrit, exclusion ? | ✅ **Rendu le 21/10 (oral)** : cacher les visages autant que possible ; repli b-roll ou motion. Un rush `tiers` sort si le visage n'est pas identifiable. |
+| 6 | **Relecture de l'oral avant publication** : règle systématique ou cas par cas *(ouvert depuis le 02/10)* ? | ✅ **Rendu le 21/10** : la conformité se traite **au cas par cas** — pour chaque élément qui frôle, on adapte et on propose une formulation qui tient. `relecture.py` sert à trouver les passages, pas à trancher. |
 | 7 | **Où vivent les recettes** ? | Au Drive, dans `04_montages/` à côté du rendu, nommées comme lui. *(Variante : au dépôt, une PR par lot — la revue de PR serait alors le point de validation 1. Plus traçable, plus lourd.)* |
 | 8 | **La bouteille dans les rushes d'avant le 29/09** : étiquette finale ou non ? | À vérifier au dérushage. Si non : le format « produit en situation » attend des rushes postérieurs, et les rushes anciens servent les formats où la bouteille n'est pas le sujet. |
 | 9 | **L'outil de transcription** de l'oral ? | Whisper en local (gratuit, hors ligne, sort un `.srt`). N'importe quel autre outil qui sort un `.srt` convient. |
+| 10 | **TikTok ≠ Instagram** *(énoncé le 21/10)* : face cam et avancée du projet d'un côté, carrousels et produit de l'autre — la grille du 20/08 ne le fait pas. | Chantier à mener avec Basekou après les deux premières pièces. Les gabarits du § 2.3 se dédoubleront par plateforme. |
 
 ## 8. Ce qui est livré dans la PR du 2026-10-21
 
@@ -207,6 +208,7 @@ plans:
 - [`tools/contenu/README.md`](../../tools/contenu/README.md) — l'installation et l'usage.
 - [`../05_systeme/templates/template-recette-piece.yaml`](../05_systeme/templates/template-recette-piece.yaml) — le gabarit de recette.
 - Cette fiche, et les renvois depuis `chaine-contenu.md`, `contenu-drive.md`, le `CLAUDE.md` racine.
+- [`../../tools/contenu/seances/2026-10-21-seance-01-derushage.md`](../../tools/contenu/seances/2026-10-21-seance-01-derushage.md) — la mission de la première séance sur le PC de Basekou *(ajoutée le 21/10 au soir)*.
 
 ✅ **Testé le 2026-10-21 sur trois rushes synthétiques** (détail dans le README des outils).
 ⛔ **Pas testé sur les vrais rushes 4K/60** : c'est le premier geste à faire sur la machine de Basekou.
