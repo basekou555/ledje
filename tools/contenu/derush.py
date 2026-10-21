@@ -6,18 +6,25 @@ Ce que ça fait :
      date de tournage (métadonnée, sinon date du fichier), taille, piste son.
   2. Écrit ou MET À JOUR `rushes-index.csv` : les colonnes techniques sont rafraîchies, les colonnes
      de TAG (gisement, sujet, formats, niveau, personnes, son, oral, état, timecodes, notes, drive_id)
-     sont conservées telles quelles — c'est Basekou (ou une session) qui les remplit, jamais ce script.
-  3. En option : des PROXIES 720p (légers, pour visionner et monter vite) et une VIGNETTE par rush
-     (3 images : début, milieu, fin) — pour qu'une session puisse « voir » un rush sans le disque.
+     sont conservées telles quelles. **C'est la session Claude Code qui les remplit**, après avoir
+     regardé les planches et lu les transcriptions (ci-dessous) — pas Basekou, qui corrige seulement.
+  3. En option :
+     --planches  : une PLANCHE-CONTACT par rush, une image toutes les N secondes (défaut 5 s), en
+                   grille — c'est ce qu'une session LIT pour savoir ce qu'il y a dans le rush ;
+     --transcrire : la TRANSCRIPTION (.srt) de ce qui est dit, via `whisper` s'il est installé —
+                   c'est ce qu'une session lit pour savoir ce qui a été DIT (et relecture.py après) ;
+     --proxies   : des PROXIES 720p, légers, pour monter vite ;
+     --vignettes : 3 images (début, milieu, fin) par rush, pour un coup d'œil.
 
 Il ne supprime rien, n'écrit jamais dans le dossier source autre que l'index (ou l'emplacement
 que vous donnez), et ne touche pas aux rushes.
 
 Usage (Windows, disque D:\\LEDJE) :
     python derush.py D:\\LEDJE --index D:\\LEDJE\\rushes-index.csv
+    python derush.py D:\\LEDJE --planches D:\\LEDJE\\_planches --transcrire D:\\LEDJE\\_transcripts
     python derush.py D:\\LEDJE --proxies D:\\LEDJE\\_proxies --vignettes D:\\LEDJE\\_vignettes
 
-Prérequis : ffmpeg et ffprobe dans le PATH.
+Prérequis : ffmpeg et ffprobe dans le PATH ; `pip install openai-whisper` pour --transcrire.
 """
 from __future__ import annotations
 
@@ -25,6 +32,7 @@ import argparse
 import csv
 import json
 import os
+import shutil
 import subprocess
 import sys
 from datetime import datetime
@@ -159,12 +167,48 @@ def vignette(src: Path, dst: Path, duree: float) -> None:
     subprocess.run(cmd, check=False)
 
 
+def planche(src: Path, dst: Path, duree: float, pas: float, colonnes: int = 4) -> None:
+    """Une image toutes les `pas` secondes, en grille de `colonnes`, 360 px de haut par image,
+    avec le timecode incrusté — pour qu'une session lise le rush ET sache où couper."""
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    if dst.exists() or duree <= 0:
+        return
+    n = max(1, int(duree // pas) + 1)
+    lignes = (n + colonnes - 1) // colonnes
+    cmd = [
+        "ffmpeg", "-v", "error", "-y", "-i", str(src),
+        "-vf", (f"fps=1/{pas},scale=-2:360,"
+                "drawtext=text='%{pts\\:hms}':x=8:y=8:fontsize=22:fontcolor=white:box=1:boxcolor=black@0.6,"
+                f"tile={colonnes}x{lignes}"),
+        "-frames:v", "1", str(dst),
+    ]
+    subprocess.run(cmd, check=False)
+
+
+def transcrire(src: Path, dossier: Path) -> None:
+    """Transcription via la CLI whisper (openai-whisper), en .srt, français. Silencieux si absente."""
+    dossier.mkdir(parents=True, exist_ok=True)
+    if (dossier / src.with_suffix(".srt").name).exists():
+        return
+    if shutil.which("whisper") is None:
+        print("  ⚠️ `whisper` introuvable — pip install openai-whisper (ou déposez un .srt à la main)", file=sys.stderr)
+        return
+    subprocess.run(
+        ["whisper", str(src), "--language", "fr", "--model", "small", "--output_format", "srt",
+         "--output_dir", str(dossier), "--verbose", "False"],
+        check=False,
+    )
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("source", type=Path, help="dossier des rushes (ex. D:\\LEDJE)")
     p.add_argument("--index", type=Path, help="chemin du CSV (défaut : <source>/rushes-index.csv)")
     p.add_argument("--proxies", type=Path, help="génère des proxies 720p dans ce dossier")
     p.add_argument("--vignettes", type=Path, help="génère une vignette (3 images) par rush dans ce dossier")
+    p.add_argument("--planches", type=Path, help="génère une planche-contact par rush (une image toutes les --pas secondes) dans ce dossier")
+    p.add_argument("--pas", type=float, default=5.0, help="intervalle des images de la planche, en secondes (défaut 5)")
+    p.add_argument("--transcrire", type=Path, help="transcrit ce qui est dit (whisper, .srt) dans ce dossier")
     p.add_argument("--prefixe", default="R", help="préfixe des IDs (défaut : R → R-0001)")
     args = p.parse_args(argv)
 
@@ -173,7 +217,7 @@ def main(argv: list[str] | None = None) -> int:
         print(f"dossier introuvable : {racine}", file=sys.stderr)
         return 2
     index_path = (args.index or racine / "rushes-index.csv").resolve()
-    exclus = {d.resolve() for d in (args.proxies, args.vignettes) if d}
+    exclus = {d.resolve() for d in (args.proxies, args.vignettes, args.planches, args.transcrire) if d}
 
     existant = charger_index(index_path)
     nouvelles: list[dict] = []
@@ -181,6 +225,9 @@ def main(argv: list[str] | None = None) -> int:
         if chemin.suffix.lower() not in EXTENSIONS or not chemin.is_file():
             continue
         if any(str(chemin.resolve()).startswith(str(e)) for e in exclus):
+            continue
+        # Les dossiers de travail (_proxies, _planches, _transcripts…) et cachés ne sont jamais des rushes.
+        if any(part.startswith(("_", ".")) for part in chemin.relative_to(racine).parts[:-1]):
             continue
         tech = analyser(chemin, racine)
         if not tech:
@@ -194,6 +241,10 @@ def main(argv: list[str] | None = None) -> int:
             proxy(chemin, args.proxies / Path(tech["fichier"]).with_suffix(".mp4"))
         if args.vignettes:
             vignette(chemin, args.vignettes / Path(tech["fichier"]).with_suffix(".jpg"), float(tech["duree_s"]))
+        if args.planches:
+            planche(chemin, args.planches / Path(tech["fichier"]).with_suffix(".jpg"), float(tech["duree_s"]), args.pas)
+        if args.transcrire and tech["son_piste"] == "oui":
+            transcrire(chemin, args.transcrire / Path(tech["fichier"]).parent)
 
     # IDs : ceux qui existent sont conservés ; les nouveaux sont numérotés dans l'ordre date puis nom.
     pris = {l["id"] for l in nouvelles if l.get("id")}

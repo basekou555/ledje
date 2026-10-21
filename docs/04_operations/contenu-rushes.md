@@ -47,32 +47,37 @@ d'œil **pourquoi le système a la forme qu'il a**.
 ### 2.1 Le rush indexé — `rushes-index.csv`
 
 Un rush n'existe pour le système que s'il a une ligne dans l'index. Le script `derush.py` crée la
-ligne et remplit les colonnes **techniques** ; les colonnes de **tag** sont remplies par Basekou (ou
-par une session à partir de ce qu'il dit du rush) et **survivent à chaque relance du script**.
+ligne et remplit les colonnes **techniques** ; les colonnes de **tag** sont remplies **par la session
+Claude Code**, qui regarde la planche-contact et lit la transcription de chaque rush (produites par
+le même script), puis écrit ce qu'il contient et à quoi il peut servir. **Basekou ne remplit rien :
+il corrige.** Les tags **survivent à chaque relance du script**. *(Règle posée par Basekou le 21/10 :
+« l'outil doit être autonome là-dessus, lire les vidéos et comprendre le contenu ».)*
 
 | Colonne | Remplie par | Valeurs |
 |---|---|---|
 | `id` | script | `R-0001`… dans l'ordre des dates de tournage — stable une fois attribué |
 | `fichier` `date` `duree_s` `resolution` `fps` `orientation` `taille_mo` `son_piste` | script | lus dans le fichier (ffprobe) |
-| `gisement` | humain | `miellerie-st-jerome` · `tests-dosage` · `packs-eau` · `production` · `terrain` · `autre` |
-| `lieu` | humain | libre |
-| `sujet` | humain | un sujet de la grille (« la dose », « le miel jamais chauffé », « un lot de production »…) |
-| `formats` | humain | formats candidats, séparés par `;` : `geste` · `voix-off` · `situation` · `terrain` · `sensation` |
-| `niveau` | humain | `1` produit · `2` expérience · `3` marque · `4` univers |
-| `personnes` | humain | `aucune` · `mains` · `basekou` · `tiers` · `basekou+tiers` |
-| `son` | humain | `utile` · `ambiance` · `bruit` · `muet` |
-| `oral` | humain | `oui` / `non` — quelqu'un parle du produit |
-| `etat` | humain | `non-visionne` *(défaut)* · `visionne` · `derushe` · `utilise` · `ecarte` |
-| `timecodes_utiles` | humain | `00:12-00:19 pesée ; 01:40-01:46 versement` |
-| `notes` `drive_id` | humain | libre · l'ID Drive une fois déposé |
+| `gisement` | session | `miellerie-st-jerome` · `tests-dosage` · `packs-eau` · `production` · `terrain` · `autre` |
+| `lieu` | session | libre |
+| `sujet` | session | un sujet de la grille (« la dose », « le miel jamais chauffé », « un lot de production »…) |
+| `formats` | session | formats candidats, séparés par `;` : `geste` · `voix-off` · `situation` · `terrain` · `sensation` |
+| `niveau` | session | `1` produit · `2` expérience · `3` marque · `4` univers |
+| `personnes` | session | `aucune` · `mains` · `basekou` · `tiers` · `basekou+tiers` |
+| `son` | session | `utile` · `ambiance` · `bruit` · `muet` |
+| `oral` | session | `oui` / `non` — quelqu'un parle du produit |
+| `etat` | session | `non-visionne` *(défaut)* · `visionne` · `derushe` · `utilise` · `ecarte` |
+| `timecodes_utiles` | session | `00:12-00:19 pesée ; 01:40-01:46 versement` |
+| `notes` `drive_id` | session · Basekou | libre · l'ID Drive une fois déposé |
 
 **Pourquoi un CSV et pas Notion** : c'est le seul format qu'un script lit, qu'un tableur ouvre et
 qu'un dépôt versionne. Notion garde le statut des **pièces** (cf. frontière dans `contenu-drive.md`) ;
 l'index décrit des **rushes**, qui n'y ont jamais eu leur place.
 
-**Les proxies et les vignettes** : `derush.py` produit en option un proxy 720p par rush (pour
-visionner et monter vite) et une vignette de trois images. ➡️ **Déposer les vignettes au Drive est
-le seul moyen pour une session de « voir » le fonds** — 79 images légères, pas 17 Go.
+**Comment la session « voit » un rush** : `derush.py` produit, pour chaque rush, une
+**planche-contact** (une image toutes les 5 s, timecode incrusté) et une **transcription** `.srt`
+de ce qui est dit (whisper, en local). C'est ce que la session lit — pas la vidéo. Une session sur
+le PC de Basekou les lit directement ; une session distante les lit si elles sont déposées au Drive
+(79 planches légères, pas 17 Go). Les proxies 720p et les vignettes restent en option.
 
 ### 2.2 La recette — un fichier YAML par pièce
 
@@ -112,7 +117,7 @@ n'est jamais généré** — il est écrit, relu (`brand-review`), puis posé.
 | # | Étape | Qui | Outil | Sortie | Maillon(s) |
 |---|---|---|---|---|---|
 | 0 | **Sauvegarder** | Basekou | copie du disque | `01_plans-reels/` au Drive pro — originaux ou proxies *(arbitrage n° 1)* | — |
-| 1 | **Dérusher** | script, puis Basekou | `derush.py` | `rushes-index.csv` + proxies + vignettes ; **les 4 clips longs visionnés** et tagués ; transcription des rushes `oral: oui` | — |
+| 1 | **Dérusher** | script, puis **la session** (Basekou corrige) | `derush.py` | `rushes-index.csv` + planches + transcriptions ; la session lit les planches et écrit les tags ; **les 4 clips longs compris** | — |
 | 2 | **Choisir et écrire** | une session propose, Basekou valide | l'index + `draft-content` | une recette `brouillon`, puis `valide-production` *(point de validation 1)* | 1 · 2 · 3 |
 | 3 | **Rendre** | script, sur la machine de Basekou | `rendu.py` | un `.mp4` filigrané TEST dans `04_montages/` ; les variantes à côté | 4 · 5 |
 | 4 | **Relire** | script, puis Basekou | `relecture.py` sur le transcript de la pièce + `brand-review` sur hook et légende + **le filtre en 5 points** de la grille | `valide-publication` *(point de validation 2)* ou `ecarte` | 6 |
@@ -174,7 +179,7 @@ plans:
 ## 6. Ce que Basekou seul peut fournir
 
 1. **Le disque** — ou sa copie au Drive, et l'index déjà posé dessus (à verser dans `rushes-index.csv`).
-2. **Le visionnage des 4 clips longs**, et les tags des 79 rushes (dits de vive voix suffisent : une session les écrit).
+2. **Ses corrections sur les tags** écrits par la session — pas le visionnage ni le tri, qui sont à elle.
 3. **Sa voix** — les fichiers de `02_voix/`, sans lesquels le format « voix off » reste du texte à l'écran.
 4. **Les 2 ou 3 vidéos de référence dont le son lui plaît**, demandées depuis le 08/09 et jamais déposées — en fichiers.
 5. **Les verdicts** : `valide-production`, `valide-publication`, `ecarte`. Aucune session ne les écrit.

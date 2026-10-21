@@ -22,15 +22,18 @@ distante — une session Claude Code ne voit ni le disque ni les médias (limite
 ## 1. Dérusher
 
 ```
-python tools/contenu/derush.py D:\LEDJE --proxies D:\LEDJE\_proxies --vignettes D:\LEDJE\_vignettes
+python tools/contenu/derush.py D:\LEDJE --planches D:\LEDJE\_planches --transcrire D:\LEDJE\_transcripts
 ```
 
 - Écrit `D:\LEDJE\rushes-index.csv` (ou `--index <chemin>`). Relançable à volonté : les colonnes techniques
-  sont rafraîchies, **les tags que vous avez remplis sont conservés**.
+  sont rafraîchies, **les tags déjà écrits sont conservés**.
+- **Qui remplit les tags : la session Claude Code**, pas Basekou. Elle lit les planches-contact
+  (`--planches`, une image toutes les 5 s avec timecode) et les transcriptions (`--transcrire`, whisper),
+  puis écrit gisement, sujet, formats, personnes, son, oral, état, timecodes utiles. Basekou corrige.
 - Les colonnes de tag et leurs valeurs attendues sont en tête de `derush.py` (`COLONNES_TAG`) et
   expliquées dans la fiche. Le vocabulaire des tags est celui de la grille de contenu.
-- Les proxies (720p, légers) servent à visionner et à monter vite ; les vignettes (3 images par rush)
-  permettent à une session de « voir » un rush si on les dépose au Drive.
+- Les dossiers dont le nom commence par `_` ou `.` ne sont jamais pris pour des rushes.
+- Les proxies (720p, légers) servent à monter vite ; les vignettes (3 images par rush) donnent un coup d'œil.
 
 ## 2. Écrire une recette
 
