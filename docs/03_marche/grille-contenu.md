@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-17
+maj: 2026-10-21
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
 resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication."
 ---
@@ -253,3 +253,23 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 - **Le cahier des charges vidéo** — la restitution technique est déposée (`../visual/ledje-generateur.md`), mais la spec vidéo pour une production en volume reste à écrire.
 - **Les registres du format « évidence »** (universelles neutres vs quotidien de la cible), à départager par le test.
 - **Le compte « style UGC »** : où passe exactement la ligne entre mise en scène assumée et faux témoignage.
+
+## 🎬 2026-10-21 — DEUX ÉLÉMENTS DE CONTENU QUI NE VIVAIENT QUE SUR LA PAGE 🎯 ÉTAT
+
+### ⛔ `[figé]` LA MIELLERIE NE SE NOMME PAS PUBLIQUEMENT
+
+**Tranché par Basekou le 16/10.** ⛔ **Vérifié le 21/10 : cette décision n'était écrite NULLE PART au dépôt** — elle ne vivait que sur la page ÉTAT, et une session qui monte un sujet « origine » l'aurait nommée.
+
+✅ **CE QUE ÇA N'INTERDIT PAS, et c'est la moitié utile de la décision : les rushes tournés là-bas RESTENT EXPLOITABLES.** ➡️ **On coupe ou on couvre le plan d'enseigne `IMG_5629`, et on GARDE la voix off** `[figé]`. 🎯 **Donc la preuve filmée de « miel de France » — ruches, enfumoir, vallée — reste utilisable ; c'est le NOM qui sort, pas le lieu.**
+
+### 💡 `[idée]` UN FILM EST POSÉ : L'ÉCART ENTRE L'ÉVIDENCE ET L'EFFORT
+
+📌 **Niveau `[idée]`, non engageant.** 🎯 **Le point de départ : l'ADN dit que le produit doit provoquer « mais oui, c'est évident » — et les rushes disent sept dosages, des nuits à goûter, des étiquettes collées une par une. Le film est dans cet écart, et il se résout en revenant à l'évidence du départ.**
+
+🎞️ **Quatre mouvements, ≈ 70 s** : l'évidence *(muet)* · ce que ça a coûté *(accumulation + la grimace de rejet)* · l'échelle *(packs, laboratoire, étiquetage)* · le retour *(la bouteille dans la vallée, muet)*.
+
+🛠️ **Quatre principes de montage, posés parce que les rushes sont moyens et que c'est la COUPE qui doit travailler** : ① le raccord sur le même geste à des mois d'écart · ② l'accumulation plutôt que l'explication · ③ l'échelle qui monte *(un verre → quatre → des dizaines)* · ④ **la voix porte et l'image ponctue, sans jamais commenter ce qu'on voit.**
+
+⚠️ **RÉSERVE QUI VAUT POUR TOUTE LA GRILLE : CE FILM NE DONNE PAS SOIF.** **C'est du niveau 3 pur — une ancre mensuelle, pas un régime.** 🔴 **Ce qui donne envie de boire n'est toujours pas tourné : la condensation, le verre qui se remplit, la première gorgée dans la chaleur.**
+
+⚠️ **Et une réserve de chiffre : le nombre de dosages testés n'est pas déterminable à l'image** ⇒ **le film dit « plusieurs », pas « sept », tant que Basekou ne l'a pas confirmé.**

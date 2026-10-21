@@ -152,3 +152,13 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 📊 **Volume annoncé pour samedi : 76 bouteilles pré-remplies en miel** *(déclaré par Basekou le 16/10, après récupération de la commande de miel, COMPLÈTE)*. 📌 **Le parc étiqueté est de 89 ; l'écart n'est pas arbitré en fiche et n'a pas besoin de l'être — le miel ne limite plus rien.**
 
 **❓ Question du moment, mise à jour le 19/10 — la précédente portait sur l'avant-samedi et elle est consommée** *(elle disait : rien de bloquant, sauf les pains de glace au congélateur ; la journée a eu lieu, et ce sont des glaçons qui ont servi)*. ➡️ **CE QUI RESTE OUVERT MAINTENANT, en deux points et un seul est arbitrable :** ① **la CRÉANCE SUR L'ASSOCIATION n'est pas réclamée** — l'écoulement est figé à 31, le reversement dû est très en dessous de la caution, donc une somme est à récupérer et le décompte est prêt ; ② **aucun événement suivant n'est calé** — aucun stand gratuit confirmé d'octobre 2026 à février 2027, et les marchés de Ramadan sont projetés au 08/02/2027 *(cf. le calendrier ci-dessus)*. 📌 **Donc le canal n'a PAS de prochaine date : c'est le seul point de ce canal qui demande une décision, et il ne presse qu'à la mesure du délai d'inscription d'un marché.**
+
+## 📲 2026-10-21 — UN QR FAIT *SUIVRE*, IL NE *RECUEILLE* PAS *(descendu de la page 🎯 ÉTAT)*
+
+🎯 **Distinction de méthode qui vaut pour tout événement, et qui n'était écrite nulle part au dépôt : un QR vers un compte fait GAGNER UN ABONNÉ ; il ne recueille AUCUN contact.**
+
+➡️ **CE QUE ÇA CHANGE CONCRÈTEMENT : après le salon, on ne possède pas de liste.** **On possède une audience sur une plateforme qu'on ne contrôle pas, qu'on ne peut ni exporter ni recontacter individuellement.** ⚠️ **Les ≈ 20 abonnés du 17/10 sont donc un actif RÉEL mais LOUÉ.**
+
+📌 **La carte NFC reste `[en discussion]` et ne règle pas ça non plus** si elle pointe vers un profil. ➡️ **Seul un formulaire — celui de `/offrir`, en production depuis le 19/10 — transforme un passage en contact qu'on possède.**
+
+⚠️ **À garder en tête au prochain événement : la question à poser n'est pas « combien d'abonnés », c'est « combien de gens peut-on recontacter sans passer par Instagram ».**

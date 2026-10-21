@@ -118,6 +118,21 @@ Ces documents sont référencés par le projet mais ne vivent pas dans ce dépô
 
 ⛔ **Vérifié le 21/10 : l'outil n'était pas inscrit ici, alors que la ligne de file le destinait explicitement à cette fiche.** ⚠️ **Où il vit : sur le poste de Basekou, pas au dépôt** — donc **il n'est pas réexécutable depuis une session**, et un prochain visuel de stand sera soit refait à la main, soit refait au même endroit. 📌 **Même catégorie que le dépouillement ffmpeg du disque : un outil local qui a produit un livrable réel mais qui n'est pas partagé.**
 
+## 🛠️ `gen_affiche_mosquee.py` et `gen_visuel_v2.py` — les deux autres générateurs de supports *(descendus de la page 🎯 ÉTAT le 2026-10-21)*
+
+⛔ **Vérifié le 21/10 : ni l'un ni l'autre n'était inscrit ici, alors qu'ils ont produit des livrables réels.** 📌 **Même catégorie que `gen_visuel_qr.py` : des outils de session Com qui vivent sur le poste de Basekou, donc NON réexécutables depuis une session.**
+
+- **`gen_affiche_mosquee.py`** — rejoue l'affiche mosquée depuis les actifs de l'étiquette. **Entrées : l'URL du QR, le format, l'amplitude de la vague, la densité du filigrane.** ✅ **Point de conception à retenir : la mise en page est calculée EN DEUX PASSES et les blancs absorbent l'écart** ⇒ **le texte ne peut pas sortir de la zone sûre**, quel que soit le volume de texte.
+- **`gen_visuel_v2.py`** — seconde version du générateur de visuel de stand.
+
+⚠️ **RÉSERVE TECHNIQUE À NE PAS REDÉCOUVRIR : le glyphe de l'EULOGIE n'existe dans aucune police d'impression propre du poste** *(seul Unifont le porte, et son rendu est grossier)*. ➡️ **Deux PDF sont rendus, et c'est la forme EN TOUTES LETTRES qui est imprimable.** 📌 **L'outil porte un paramètre `eulogie = lettres ou glyphe` pour ça.**
+
+### 📌 Le connecteur Canva ne dépose PAS où on le croit — vérifié le 2026-10-16
+
+⛔ **Un dépôt de fichier via le connecteur Canva n'atterrit PAS dans le dossier « Importations ».** **Les fichiers existent bien et appartiennent au compte, mais ils sont INTROUVABLES à la main.**
+
+✅ **LA VOIE QUI MARCHE : créer un DESIGN et y poser les pièces page par page.** 📌 **Fait le 16/10 : « Lédjé — QR Instagram (stand) + actifs de marque », 6 pages** *(page 1 le visuel, pages 2 à 6 les actifs détourés)*, **`canva.com/d/IUTSWdv49Ycf6ge`**. 🎯 **À savoir avant tout prochain dépôt, sinon on cherche des fichiers qui sont là.**
+
 ## Ce qui vit dans le repo
 
 - Le cerveau : `docs/` (ce système).

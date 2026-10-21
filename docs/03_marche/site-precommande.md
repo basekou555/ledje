@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-08-20
+maj: 2026-10-21
 source: "SOT §5.0, 5.5, 5.9 (archive 2026-07-24) — refonte décidée 2026-07-10"
 resume: "Le site comme machine à convertir : refonte en cours (bouteille séduit, cristal convertit), structure de parcours, copy, écart avec l'état déployé."
 ---
@@ -47,3 +47,17 @@ Ordre en prod : **Hero** (vidéo plein écran ; voile + texte en fondu à ~5 s) 
 
 - Technique (stack, Supabase, pièges Vercel, a11y, git) : `../04_operations/site-technique.md`
 - Tracking & acquisition : `acquisition-tiktok.md`
+
+## 📦 2026-10-21 — LA LECTURE DU PACK DE 6, ET POURQUOI 6 *(descendue de la page 🎯 ÉTAT)*
+
+⛔ **Vérifié le 21/10 : la lecture que Basekou fait de son propre pack n'était écrite NULLE PART au dépôt**, alors que c'est elle qui explique le prix.
+
+✅ **SA LECTURE, mot pour mot (19/10) : *« je le vois comme 5 bouteilles vendues à 10 € et une offerte »*** ⇒ **10 € ÷ 5 = 2 € la bouteille PAYÉE**, soit exactement le tarif B2C événementiel. 🎯 **DONC LE PACK NE CRÉE AUCUN ÉTAGE DE PRIX NOUVEAU : il reprend un prix déjà pratiqué et y ajoute une concession EN BOUTEILLE** — le mécanisme déjà arrêté en B2B, où l'on concède en bouteilles offertes et jamais sur le prix.
+
+📦 **POURQUOI 6 ET PAS 5 : un pack c'est 6 dans les habitudes des gens, *« comme les canettes »*.**
+
+⚠️ **ET LA MÉCANIQUE NE S'ANNONCE PAS : le client achète un pack de 6 à 10 €. Le « 5 + 1 » est une lecture INTERNE**, pas un argument de vente.
+
+🔴 **DEUX POINTS RESTENT OUVERTS, et ils sont pour Basekou** : ① **le plafond B2C de 2,50 € ne correspond plus à aucune vente réelle** *(rien ne se vend à l'unité en ligne)* — reste-t-il la référence, ou le pack le devient-il ? ② **la sixième bouteille est un COÛT, pas une remise** : elle se produit, se conditionne et s'étiquette ⇒ **à ≈ 5 min/bouteille, la concession se paie en marge ET en temps de production.**
+
+⚠️ **RÉSERVE DE FICHE : `../02_produit/prix.md` n'est PAS corrigé sur `main`** — la grille par canal vit dans la PR #119, non mergée. 📌 **Ce qui n'est pas tranché, c'est le SENS de l'alignement : on met la fiche au niveau du site, ou on corrige le prix du site.**

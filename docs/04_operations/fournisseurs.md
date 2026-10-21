@@ -132,3 +132,11 @@ Prompt Cowork « cartographie large » rédigé (lister tout, filtrer par télé
 
 💰 *Les prix du devis sont dans la page 💸 Comptabilité, section ⑧ — pas ici.*
 
+
+## 🏷️ 2026-10-21 — TROIS CANDIDATS IMPRIMEURS QUI N'ÉTAIENT NULLE PART, ET OÙ VIT LE RELEVÉ
+
+⛔ **Vérifié le 21/10 : `Printpascher`, `Sticker It` et `LabelG2` n'avaient AUCUNE occurrence au dépôt**, alors qu'ils figurent au classement des candidats. *(A Réaction et Realisaprint, eux, sont au journal des décisions.)*
+
+📌 **Ce que le classement du 14/10 dit, port compris** : **IMPRIMERIE A RÉACTION devant Printpascher et Printoclock** à 240 et à 500 exemplaires ; **Avery et A Réaction au coude à coude à 1000**. ⛔ **Vistaprint et Onlineprinters n'ont PAS pu être chiffrés** *(configurateur en panne)* — **repli téléphone**. ⛔ **Realisaprint est derrière un compte client à ouvrir ; Lebonprint et Labelprint24 sont hors course.** 💰 *Les valeurs sont au Notion 💸 Comptabilité, pas ici.*
+
+🔴🔴 **ET LE POINT DE DISPOSITIF, qui compte plus que le classement : CE RELEVÉ EST ÉCRIT SUR LA PAGE 🧵 « Sujets ouverts », GELÉE DEPUIS LE 11/09.** **Sa dernière modification est le 14/10 à 19h53 — donc postérieure au gel.** ⚠️ **Une page déclarée morte a continué de recevoir du travail neuf, et ce travail n'a aucun chemin vers le dépôt.** ➡️ **Avant de commander, c'est là qu'il faut aller rechercher le détail — pas dans les fiches, qui ne l'ont jamais reçu.**

@@ -196,3 +196,11 @@ de la seule production générée ? — arbitrage de Basekou, non tranché.
 ⚠️ **RÉSERVE DE LECTURE À GARDER : le nombre de verres et de dosages testés n'est PAS déterminable à l'image** ⇒ **ne jamais le chiffrer en public sans confirmation de Basekou.**
 
 🎯 **Pourquoi c'est un point de production et pas du rangement : la grille de contenu se décide sur ce qu'on CROIT avoir.** **Visionner quatre clips coûte une heure ; décider une grille sans eux, c'est écarter sans savoir.**
+
+## 📱 2026-10-21 — LE DOSSIER DU TÉLÉPHONE EST ILLISIBLE, ET IL N'EST PAS DANS L'INVENTAIRE
+
+⛔ **Descendu de la page 🎯 ÉTAT. Le dossier `DCIM/ledje` du TÉLÉPHONE reste illisible : l'appareil est en MTP, donc sans chemin de fichier exploitable** ⇒ **aucun outil ne peut le dépouiller comme le disque l'a été.**
+
+📌 **CE QUE ÇA VEUT DIRE POUR L'INVENTAIRE CI-DESSUS : les 79 rushes comptés ne sont PAS tout le fonds.** ➡️ **Le correctif est mécanique et il tient en un geste : recopier le dossier du téléphone SUR le disque, puis relancer le dépouillement.**
+
+⚠️ **Et ça se croise avec la limite déjà écrite ici : le disque s'arrête au 22/09** ⇒ **la production du 29/09 et le salon du 11/10 ne sont ni sur le disque ni dépouillés, et c'est probablement le téléphone qui les porte.**
