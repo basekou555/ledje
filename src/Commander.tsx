@@ -37,11 +37,21 @@ import { submitCommande, trackEvent } from './lib/supabase'
 
    ⚠️ Ne pas « corriger » ce prix sans Basekou.
 
-   ⚠️ LE PAIEMENT N'EST PAS EN LIGNE. Le connecteur Stripe n'était pas
-   autorisé le jour de la création. La commande est donc PRISE ici, et le
-   lien de paiement part par le canal que le client choisit. Dès qu'un
-   Payment Link existe, il se renseigne dans STRIPE_LINK ci-dessous et le
-   bouton de confirmation s'y branche — le reste ne bouge pas.
+   ✅ LE PAIEMENT EST EN LIGNE DEPUIS LE 21/10 (Basekou, « option 1 »).
+   Produit et prix créés sur le compte Stripe Lédjé, en MODE RÉEL — c'est le
+   seul compte, il n'y a pas de sandbox. Le bouton de confirmation ouvre le
+   Payment Link ; la commande reste écrite en base AVANT, donc un client qui
+   abandonne le paiement est quand même joignable.
+
+   ⚠️⚠️ LA QUANTITÉ NE SE PRÉ-REMPLIT PAS DANS UN PAYMENT LINK. Stripe
+   n'accepte pas de quantité en paramètre d'URL : le lien ouvre TOUJOURS à
+   1 pack, et le client ajuste sur la page de paiement (bornes 1 à 20, posées
+   sur le lien). ⇒ C'est pour ça que le bouton n'affiche PLUS le total : il
+   annoncerait 30 € pour une page ouverte à 10 €. La consigne est écrite
+   sous le bouton quand la commande porte plus d'un pack.
+   ⛔ NE PAS remettre le total dans le libellé sans résoudre la quantité —
+   ce qui demanderait un Checkout Session, donc un back-end que ce site n'a
+   pas.
 
    ⚠️ Et un point que Basekou a tranché en connaissance de cause : le
    réglementaire de la vente artisanale est `en_cours`, pas clos
@@ -51,9 +61,11 @@ import { submitCommande, trackEvent } from './lib/supabase'
 const PRIX_PACK = 10
 const BOUTEILLES_PAR_PACK = 6
 
-/** Vide tant qu'aucun Payment Link n'existe : on prend la commande et on
- *  envoie le lien à la main. Le remplir suffit à ouvrir le paiement direct. */
-const STRIPE_LINK = ''
+/** Payment Link du pack de 6, compte Lédjé, mode réel — créé le 2026-10-21.
+ *  `plink_1UT54wBmuJiv7YKNrxj6MkIS`, sur `price_1UT53HBmuJiv7YKNEEwfFuYq`
+ *  (10 €, paiement unique). Le vider suffit à refermer le paiement direct :
+ *  le bouton disparaît et la commande repart par le canal de contact. */
+const STRIPE_LINK = 'https://buy.stripe.com/14AcN4fCXbRp6kxb28gQE05'
 
 const CANAUX = ['WhatsApp', 'Instagram', 'Email', 'Téléphone'] as const
 
@@ -75,6 +87,9 @@ export default function Commander() {
   const [canal, setCanal] = useState<string>('WhatsApp')
   const [message, setMessage] = useState('')
   const [etat, setEtat] = useState<Etat>('idle')
+  // Référence de la commande écrite, passée à Stripe pour rapprocher le
+  // paiement de la ligne. Nulle si l'insert n'a pas abouti.
+  const [ref, setRef] = useState<string | null>(null)
 
   useEffect(() => {
     document.title = 'Commander — lédjé'
@@ -93,13 +108,14 @@ export default function Commander() {
       return
     }
     setEtat('loading')
-    const { error } = await submitCommande({
+    const { error, id } = await submitCommande({
       packs, ville, horsZone, quand, nom, contact, canal, message,
     })
     if (error) {
       setEtat('network')
       return
     }
+    setRef(id)
     trackEvent(horsZone ? 'commande_hors_zone' : 'commande')
     setEtat('done')
   }
@@ -121,11 +137,24 @@ export default function Commander() {
                   : `On te recontacte sur ${canal} pour le paiement et l’heure de livraison. Les bouteilles sont préparées le soir même et livrées le lendemain.`}
               </p>
               {!horsZone && STRIPE_LINK && (
-                <p className="v-page-actions">
-                  <a className="btn-primary" href={STRIPE_LINK} target="_blank" rel="noopener noreferrer">
-                    Payer maintenant — {total} €
-                  </a>
-                </p>
+                <>
+                  <p className="v-page-actions">
+                    <a
+                      className="btn-primary"
+                      href={ref ? `${STRIPE_LINK}?client_reference_id=${encodeURIComponent(ref)}` : STRIPE_LINK}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() => trackEvent('commande_paiement_stripe')}
+                    >
+                      Payer maintenant
+                    </a>
+                  </p>
+                  <p className="v-note">
+                    {packs === 1
+                      ? `${PRIX_PACK} €, un pack de ${BOUTEILLES_PAR_PACK} bouteilles. Tu peux aussi régler à la livraison.`
+                      : `La page de paiement s’ouvre sur un pack : mets-en ${packs} pour arriver à ${total} €. Tu peux aussi régler à la livraison.`}
+                  </p>
+                </>
               )}
             </div>
           </section>
