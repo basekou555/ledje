@@ -145,9 +145,12 @@ export function SiteHeader({ home = false }: { home?: boolean }) {
             écran, le bloc de l'accueil et le pied de page prennent le
             relais. */}
         <span className="v-header-social"><SocialLinks where="header" /></span>
-        <a className="v-header-cta" href="/avis">
-          <span className="v-cta-long">Donner t</span>
-          <span className="v-cta-short">T</span>on avis
+        {/* 2026-10-16 : « retirer les avis et remplacer par une commande »
+            (Basekou). La page /avis reste en ligne — elle sert aux
+            dégustations et son QR circule — elle n'est simplement plus
+            l'action principale du site. */}
+        <a className="v-header-cta" href="/commander">
+          Commander
         </a>
       </nav>
     </header>
