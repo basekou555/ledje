@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { SiteHeader, SiteFooter, SOCIALS } from './Chrome'
 import { trackEvent } from './lib/supabase'
+import DemandeForm from './DemandeForm'
 
 /* ════════════════════════════════════════════════════════════════
    lédjé — « Prestations événement »
@@ -145,21 +146,18 @@ export default function Prestations() {
             <h2 id="contact-title" className="v-title v-title--xl">Parlons de votre date</h2>
             <p className="v-text v-text--lead">
               Dites-nous le jour, le lieu et le monde attendu. On revient vers
-              vous avec une proposition et un prix, rapidement — c’est encore
-              nous qui préparons chaque bouteille, donc on répond vite.
+              vous avec une proposition et un prix, rapidement.
             </p>
-            <p className="v-page-actions">
-              <a
-                className="btn-primary"
-                href={MAIL}
-                onClick={() => trackEvent('presta_mail_click')}
-              >
-                Nous écrire
-              </a>
-            </p>
+            <DemandeForm
+              type="prestation"
+              labelStructure="Ton événement"
+              placeholderStructure="Kermesse, fête d’école…"
+              mailto={MAIL}
+            />
             {INSTA && (
               <p className="v-note">
-                ou en message sur{' '}
+                Tu préfères écrire&nbsp;? <a href={MAIL}>Par mail</a>, ou en
+                message sur{' '}
                 <a
                   href={INSTA}
                   target="_blank"
