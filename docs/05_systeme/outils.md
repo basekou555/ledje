@@ -1,7 +1,7 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-10-12
+maj: 2026-10-21
 source: "SOT Partie 8 + §8.1 (archive 2026-07-24) + outillage conseil 2026-07-21 (page relais) ; générateur de prompts visuels rendu visible le 2026-08-20 (il n'était référencé que par CLAUDE.md)"
 resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo. 🆕 `[idée]` **Agent Reach** (MIT) : couche de LECTURE des réseaux sociaux pour agents — ⛔ ne prospecte pas, ne contacte personne. 🎯 L'accès internet générique est DÉJÀ couvert ; le vrai trou est la lecture du contenu social (TikTok, Instagram, X, Reddit, sous-titres YouTube), non couverte à ce jour. ⚠️ Deux réserves : les canaux sociaux passent par les COOKIES de Basekou (comptes récents = les plus faciles à suspendre), et l'installation documentée fait exécuter à un agent un fichier distant. Rien n'est installé. 🛠️ **Deux pages Notion INTERNES de travail inventoriées le 12/10** (« Argumentaire de RDV restaurateur — questions, SONCAS, objections » et « Générateur de hooks ») : elles n'étaient référencées que dans la file 📥 de la page ÉTAT, dont la fonction est d'être vidée. ⛔ Elles ne sortent pas."
 ---
@@ -111,6 +111,12 @@ Ces documents sont référencés par le projet mais ne vivent pas dans ce dépô
 |---|---|---|
 | **« Argumentaire de RDV restaurateur — questions, SONCAS, objections »** *(créée le 06/10, sous Sales)* | 8 questions d'ouverture — **les questions passent AVANT la dégustation** · grille de lecture réponse → levier · un argument par levier SONCAS · **les 6 objections déjà entendues avec leur réponse** · le déroulé, les 6 interdits, le geste « secouer le 25/75 ». Entrée : le verbatim du prospect ; sortie : le levier à tirer. | 🔴 **Elle devait être corrigée par le terrain après chaque RDV. La série des 5 RDV est close et ça n'a jamais été fait.** ⚠️ Et ce qu'elle a produit le 07/10 est documenté : la passerelle question → levier n'a pas fonctionné, **parce que ce qui manquait n'était aucun des six leviers, c'était le GOÛT** *(`../03_marche/canal-restaurant.md`)*. |
 | **« 🪝 Générateur de hooks — matrice et 10 templates »** *(créée le 07/10)* | 5 matrices *(ruptures de pattern, déclencheurs, gaps de curiosité, mots autorisés/interdits, structures éprouvées)* · 10 templates à remplir avec exemple, format et objectif · méthode de test *(une variable à la fois, rétention à 3 s)*. | ✅ Son **existence** est le fait, pas sa qualité : contenu non relu, aucun hook validé. 🔴 **Limite écrite dans la page : le registre religieux étant exclu des réseaux, l'argument le plus distinctif du produit n'apparaît dans aucun template.** |
+
+## 🔧 `gen_visuel_qr.py` — générateur de visuel de stand avec QR *(descendu de la file 📥, posé le 16/10)*
+
+**Outil de session Com, écrit pour le salon du 17/10.** **Produit un visuel de stand A5 + A4 portant un QR vers `@its.ledje`.** ✅ **Point de qualité qui mérite d'être retenu comme méthode : le décodage du QR a été VÉRIFIÉ jusqu'à 10 % de la taille d'impression** — *un QR trop petit ou trop dense ne se lit pas, et ça ne se découvre pas au stand.*
+
+⛔ **Vérifié le 21/10 : l'outil n'était pas inscrit ici, alors que la ligne de file le destinait explicitement à cette fiche.** ⚠️ **Où il vit : sur le poste de Basekou, pas au dépôt** — donc **il n'est pas réexécutable depuis une session**, et un prochain visuel de stand sera soit refait à la main, soit refait au même endroit. 📌 **Même catégorie que le dépouillement ffmpeg du disque : un outil local qui a produit un livrable réel mais qui n'est pas partagé.**
 
 ## Ce qui vit dans le repo
 

@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-17
+maj: 2026-10-21
 source: "Drive « Lédjé contenu » (arborescence posée par Basekou le 2026-09-08) + test de rangement du 2026-09-11 (8 images)"
 resume: "Où vivent les fichiers de contenu (photo, vidéo, IA ou tourné) : la chaîne de dossiers Drive, la convention de nommage, et pourquoi l'asset-log logue un ID Drive et jamais un chemin."
 ---
@@ -179,3 +179,11 @@ des verdicts mais **perdait les images**. La colonne *Asset ID* y accueille dés
 Le shot-book ne couvre aujourd'hui que des plans destinés à la génération. Faut-il que **les plans
 réels** (`01_plans-reels/`) reçoivent eux aussi des IDs de shot, ou le shot-book reste-t-il l'outil
 de la seule production générée ? — arbitrage de Basekou, non tranché.
+
+## 🎞️ 2026-10-21 — QUATRE CLIPS LONGS N'ONT JAMAIS ÉTÉ VISIONNÉS *(descendu de la file 📥, posé le 16/10)*
+
+⛔ **Vérifié le 21/10 : le mot « clip » n'apparaissait nulle part dans cette fiche** — l'inventaire du disque y était descendu le 17/10, mais **pas ce point-là**, qui est le seul à désigner du contenu dont on ignore la valeur.
+
+📌 **Quatre clips longs du fonds `D:\LEDJE` n'ont jamais été ouverts.** ➡️ **Ce ne sont donc ni des rushes exploitables ni des rushes écartés : ce sont des inconnues.** ⚠️ **Et ils comptent double avec les trois gisements inédits déjà listés ici** *(miellerie de Saint Jérôme, tests de dosage, packs d'eau)* : **la part du fonds dont on ne sait rien n'est pas marginale.**
+
+🎯 **Pourquoi c'est un point de production et pas du rangement : la grille de contenu se décide sur ce qu'on CROIT avoir.** **Visionner quatre clips coûte une heure ; décider une grille sans eux, c'est écarter sans savoir.**
