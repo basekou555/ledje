@@ -1,7 +1,7 @@
 ---
 statut: figé
 domaine: operations
-maj: 2026-10-02
+maj: 2026-10-22
 source: "SOT §5.1-5.4, 5.6, 5.7, 5.8 (archive 2026-07-24) — état vérifié en prod"
 resume: "La technique du site : stack, fichiers clés, Supabase (pièges voulus), piège majeur Vercel, analytics, accessibilité, workflow git."
 ---
@@ -9,6 +9,42 @@ resume: "La technique du site : stack, fichiers clés, Supabase (pièges voulus)
 # Site — état technique (vérifié en prod)
 
 **Le rôle marketing du site (refonte, copy, précommande) : `../03_marche/site-precommande.md`.** Ici : la machine.
+
+
+## 🛒 2026-10-22 — Le parcours d'achat : six liens de paiement, et un mail après encaissement
+
+**État au 22/10, après le test de Basekou en production.**
+
+### Le parcours, dans l'ordre
+
+1. **`/commander`** — formulaire *(packs, ville, prénom, quand, contact, canal)*. La commande est écrite dans `commandes` **avant** tout le reste : un client qui abandonne ensuite reste joignable.
+2. **L'écran « Plus qu'un geste »** — deux gestes numérotés : **prévenir**, puis **payer**. L'ordre porte du sens : prévenir ouvre la discussion, et ça marche même si le paiement est abandonné.
+3. **Stripe** — le lien correspond à la quantité choisie.
+4. **`/commande-confirmee`** — la page d'après paiement.
+
+### ⚠️ Trois pièges à connaître avant de toucher à ce parcours
+
+**① LA QUANTITÉ NE SE PRÉ-REMPLIT PAS DANS UN PAYMENT LINK.** Aucun paramètre d'URL ne la porte. D'où **un lien par quantité**, 1 à 6 packs, dans `LIENS` (`src/Commander.tsx`). ⛔ **Ajouter un choix au-delà de 6 sans créer le lien correspondant fait disparaître le bouton de paiement** — `lienPaiement` retombe sur `null`, et la commande partirait sans moyen de payer. L'ancien lien à quantité ajustable est **désactivé** côté Stripe : c'était lui qui obligeait à ressaisir la quantité.
+
+**② `/commande-confirmee` EST UNE PREUVE DE PAIEMENT, pas une page comme les autres.** On n'y arrive que par la redirection Stripe, qui ne se déclenche qu'après un paiement réussi. ⛔ **Ne jamais la mettre dans un menu, un bouton ou un lien du site** : ce serait annoncer un paiement qui n'a pas eu lieu. ⚠️ La redirection est écrite **en dur sur `ledje.fr`** côté Stripe ⇒ depuis un aperçu de PR, le paiement ramène en **production**, pas sur l'aperçu.
+
+**③ UN SITE NE PEUT PAS ENVOYER UN MESSAGE À LA PLACE DU CLIENT.** On pré-remplit, il appuie. Et **Instagram n'a aucune API de DM pré-rempli** : on ouvre la conversation et on copie le texte. Chaque canal porte donc **sa** note — une note générique mentirait sur l'un des quatre *(défaut trouvé au test : le canal Téléphone affichait la consigne d'Instagram)*.
+
+### Le mail après paiement — `supabase/functions/commande-payee`
+
+**Pourquoi côté serveur** : un client qui ferme l'onglet après avoir payé ne déclenche rien côté navigateur.
+
+- Déclenchée par un **webhook Stripe** sur `checkout.session.completed` → `https://<projet>.supabase.co/functions/v1/commande-payee` *(`verify_jwt: false` — un webhook n'a pas de JWT)*.
+- **Le contenu du formulaire n'est pas dans l'événement Stripe** : Stripe ne transporte que le `client_reference_id` posé par le site. La fonction **relit la ligne `commandes`** avec la clé de service. ✅ La table reste **INSERT-only pour `anon`, sans policy SELECT** : seule la clé de service relit.
+- **Envoi par Resend**, avec **les mêmes secrets que `alerte-reclamation`** — rien de neuf à configurer de ce côté. *(Ne pas revenir au SMTP Zoho : bloqué sur le plan gratuit, cf. l'historique de cette fiche.)*
+- **Signature vérifiée à la main** (HMAC-SHA256 sur `<t>.<corps brut>`), tolérance 5 min contre le rejeu. ⚠️ **Le corps doit être le texte brut** : un `JSON.parse` suivi d'un `JSON.stringify` invalide la signature.
+- ⛔ **Sans `STRIPE_WEBHOOK_SECRET`, la fonction refuse tout** (500 `webhook_not_configured`). Le secret se colle dans les **secrets Edge Function du dashboard Supabase** — il ne peut pas être posé depuis une session IA, l'outil ouvre un formulaire dans le navigateur de Basekou.
+
+### Où regarder quand un paiement n'a pas produit de mail
+
+1. **Stripe → l'endpoint du webhook** : chaque tentative y est gardée avec sa réponse. Un **401** = le secret manque ou ne correspond pas. Un **500 `resend_not_configured`** = secret Resend absent.
+2. **Supabase → logs de la fonction** `commande-payee`.
+3. Un paiement **sans `client_reference_id`** *(lien partagé à la main)* envoie quand même le mail, avec « commande non retrouvée » : c'est voulu.
 
 ## Stack
 
