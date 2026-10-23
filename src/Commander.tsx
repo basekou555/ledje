@@ -60,16 +60,24 @@ import { submitCommande, trackEvent } from './lib/supabase'
    disparaître le bouton de paiement (`lienPaiement` retombe sur null) : la
    commande partirait sans moyen de payer.
 
-   ③ « LE FORMULAIRE DOIT PRÉVENIR BASEKOU PAR LE CANAL CHOISI », puis
-   envoyer au paiement. ✅ Fait, avec une limite à connaître : UN SITE NE PEUT
-   PAS ENVOYER UN MESSAGE À LA PLACE DU CLIENT. On pré-remplit, il appuie.
-   — WhatsApp et Mail : message pré-rempli, il n'a plus qu'à envoyer ;
-   — Instagram : AUCUNE API ne permet de pré-remplir un DM. On ouvre la
-     conversation et on COPIE le message dans le presse-papier ;
-   — Téléphone : rien à pré-remplir, on compose le numéro.
-   ⚠️ Le mail automatique vers Basekou APRÈS paiement est la seconde moitié
-   de sa demande, et il ne peut pas vivre ici : un client qui ferme l'onglet
-   n'envoie rien. Il est côté serveur — `supabase/functions/commande-payee`.
+   ③ « LE FORMULAIRE DOIT PRÉVENIR BASEKOU PAR LE CANAL CHOISI ».
+   ⚠️⚠️ ORDRE INVERSÉ LE 23/10, APRÈS SON TEST SUR ORDINATEUR — et le motif
+   est le bon : « il faut faire payer AVANT de faire envoyer le message,
+   parce que sinon on quitte l'appli, on oublie de revenir pour payer ».
+   ⇒ Le geste « prévenir » ouvrait WhatsApp ou Instagram, donc faisait
+   SORTIR DU SITE un client qui n'avait pas encore payé. Revenir régler
+   après avoir changé d'application demande un effort que personne ne fait.
+   ✅ Donc ici, après le formulaire, IL N'Y A PLUS QU'UN SEUL GESTE : payer.
+   Le message au canal choisi a déménagé sur `/commande-confirmee`, où il ne
+   coûte plus rien : le paiement est déjà fait.
+   ⛔ NE PAS y remettre un bouton qui quitte le site — c'est le défaut qu'on
+   vient de corriger.
+   📌 Le contenu du message est préparé ICI quand même, et déposé avec le
+   récapitulatif : après le détour par Stripe, la page de retour est un
+   chargement neuf, elle n'a plus les champs du formulaire sous la main.
+   ⚠️ Le mail automatique vers Basekou après paiement ne peut vivre ni ici ni
+   là-bas : un client qui ferme l'onglet n'envoie rien. Il est côté serveur
+   — `supabase/functions/commande-payee`.
 
    ⚠️ Et un point que Basekou a tranché en connaissance de cause : le
    réglementaire de la vente artisanale est `en_cours`, pas clos
@@ -96,14 +104,8 @@ const LIENS: Record<number, string> = {
   6: 'https://buy.stripe.com/dRmfZg62n6x58sF5HOgQE0b',
 }
 
-/* Où le client prévient Basekou.
-   ⚠️ LE NUMÉRO PART DANS LE BUNDLE PUBLIC — un lien `wa.me` ne peut pas
-   faire autrement, il porte le numéro en clair dans l'URL. Assumé parce que
-   Basekou a nommé WhatsApp comme canal pour le joindre (22/10) ; le vider
-   suffit à le retirer, le canal WhatsApp basculant alors sur le mail. */
-const WHATSAPP = '33652036548'
-const MAIL_BASEKOU = 'basekou@ledje.fr'
-const INSTA_DM = 'https://ig.me/m/its.ledje'
+/* Les adresses des canaux et leur logique vivent dans `lib/canaux.ts` depuis
+   le 23/10 : la page de confirmation en a besoin des mêmes. */
 
 const CANAUX = ['WhatsApp', 'Instagram', 'Email', 'Téléphone'] as const
 
@@ -114,10 +116,10 @@ const CANAUX = ['WhatsApp', 'Instagram', 'Email', 'Téléphone'] as const
    trop, qu'on filtre au contact, à un client perdu en silence. */
 const ZONE = /(^|\D)69\d{3}|lyon|villeurbanne|bron|venissieux|vénissieux|caluire|oullins|vaulx|decines|décines|meyzieu|saint-?fons|tassin|ecully|écully|rillieux|genas|chassieu/i
 
-/* 'relance' remplace l'ancien 'done' : ce qui suit l'envoi du formulaire
-   n'est plus une confirmation mais une ÉTAPE — prévenir, puis payer. La
-   confirmation, elle, est une page à part où Stripe renvoie après paiement. */
-type Etat = 'idle' | 'loading' | 'relance' | 'invalid' | 'network'
+/* 'paiement' est ce qui suit l'envoi du formulaire : UN SEUL GESTE, régler.
+   (C'était 'relance' le 22/10, avec deux gestes dont le premier faisait
+   sortir du site avant d'avoir payé — inversion du 23/10.) */
+type Etat = 'idle' | 'loading' | 'paiement' | 'invalid' | 'network'
 
 /* Le récapitulatif déposé avant de partir vers Stripe, relu par
    /commande-confirmee au retour. localStorage et pas un état React : le
@@ -132,7 +134,9 @@ export type CommandeMemo = {
   total: number
   canal: string
   prenom: string
-  prevenu: boolean
+  /* Le message au canal, écrit ici et relu là-bas : après le détour par
+     Stripe, la page de retour n'a plus les champs du formulaire. */
+  message: string
 }
 
 export function lireMemo(): CommandeMemo | null {
@@ -164,8 +168,6 @@ export default function Commander() {
   // Référence de la commande écrite, passée à Stripe pour rapprocher le
   // paiement de la ligne. Nulle si l'insert n'a pas abouti.
   const [ref, setRef] = useState<string | null>(null)
-  // Le message a-t-il été copié ? Sert au libellé, pas à la logique.
-  const [copie, setCopie] = useState(false)
 
   useEffect(() => {
     document.title = 'Commander — lédjé'
@@ -196,9 +198,10 @@ export default function Commander() {
     }
     setRef(id)
     trackEvent(horsZone ? 'commande_hors_zone' : 'commande')
-    setRef(id)
-    ecrireMemo({ packs, total, canal, prenom: nom.trim(), prevenu: false })
-    setEtat('relance')
+    // Le récapitulatif ET le message sont déposés maintenant : après le
+    // détour par Stripe, la page de retour est un chargement neuf.
+    ecrireMemo({ packs, total, canal, prenom: nom.trim(), message: messagePret })
+    setEtat('paiement')
   }
 
   /* Le message que le client envoie à Basekou. Court exprès : il doit tenir
@@ -211,80 +214,19 @@ export default function Commander() {
     '.',
   ].join('')
 
-  /* Où prévenir, selon le canal choisi au formulaire — et ce qu'on en dit.
-     Chaque canal porte SA note : ce qui est pré-rempli n'est pas le même d'un
-     canal à l'autre, et une note générique mentirait sur l'un des quatre.
-     `montrer` n'est vrai que là où le client doit RECOPIER le message. */
-  type Canal = { href: string; libelle: string; note: string; copier: boolean; montrer: boolean }
-
-  function lienCanal(): Canal {
-    const t = encodeURIComponent(messagePret)
-    if (canal === 'WhatsApp' && WHATSAPP) {
-      return {
-        href: `https://wa.me/${WHATSAPP}?text=${t}`,
-        libelle: 'Prévenir sur WhatsApp',
-        note: 'Le message est déjà écrit, tu n’as plus qu’à l’envoyer.',
-        copier: false,
-        montrer: false,
-      }
-    }
-    if (canal === 'Instagram') {
-      // Aucune API ne pré-remplit un DM Instagram : on ouvre la conversation
-      // et on copie le texte, que le client colle.
-      return {
-        href: INSTA_DM,
-        libelle: 'Prévenir sur Instagram',
-        note: copie
-          ? 'Ton message est copié : colle-le dans la conversation.'
-          : 'Instagram ne permet pas de pré-remplir un message — recopie celui-ci :',
-        copier: true,
-        montrer: true,
-      }
-    }
-    if (canal === 'Téléphone' && WHATSAPP) {
-      // Un appel ne transporte pas de texte : rien à copier, rien à montrer.
-      return {
-        href: `tel:+${WHATSAPP}`,
-        libelle: 'Appeler',
-        note: 'Si ça ne décroche pas, laisse un message — on rappelle.',
-        copier: false,
-        montrer: false,
-      }
-    }
-    return {
-      href: `mailto:${MAIL_BASEKOU}?subject=${encodeURIComponent('Commande lédjé')}&body=${t}`,
-      libelle: 'Prévenir par mail',
-      note: 'Le message est déjà écrit, tu n’as plus qu’à l’envoyer.',
-      copier: false,
-      montrer: false,
-    }
-  }
-
-  async function onPrevenir() {
-    const { copier } = lienCanal()
-    // Le presse-papier peut être refusé (permission, contexte non sécurisé) :
-    // ce n'est pas bloquant, le client a le message sous les yeux.
-    if (copier) {
-      try {
-        await navigator.clipboard.writeText(messagePret)
-        setCopie(true)
-      } catch {
-        setCopie(false)
-      }
-    }
-    trackEvent(`commande_prevenir_${canal.toLowerCase()}`)
-    const memo = lireMemo()
-    if (memo) ecrireMemo({ ...memo, prevenu: true })
-  }
-
-  /* ══ L'ÉTAPE INTERMÉDIAIRE — prévenir, puis payer ══
+  /* ══ APRÈS LE FORMULAIRE : UN SEUL GESTE, RÉGLER ══
 
      Hors zone, il n'y a rien à payer : l'écran reste une fin de parcours.
-     En zone, c'est une ÉTAPE à deux gestes numérotés, et l'ordre compte :
-     prévenir d'abord — c'est ce qui ouvre la discussion, et ça marche même
-     si le paiement est abandonné. */
-  if (etat === 'relance') {
-    const { href, libelle, note, montrer } = lienCanal()
+
+     En zone, cet écran ne porte plus QU'UN bouton. Le 22/10 il en portait
+     deux, « prévenir » puis « payer » — et le premier ouvrait WhatsApp ou
+     Instagram, donc faisait sortir du site quelqu'un qui n'avait pas encore
+     payé. Basekou l'a vu en testant : « on quitte l'appli, on oublie de
+     revenir pour payer ». ⛔ Ne pas y remettre un lien qui quitte le site.
+
+     📌 Pas de redirection automatique vers Stripe : on n'envoie personne
+     sur une page de paiement sans qu'il ait appuyé. */
+  if (etat === 'paiement') {
     return (
       <>
         <SiteHeader />
@@ -293,46 +235,39 @@ export default function Commander() {
             <div className="container container--wide">
               <p className="v-eyebrow">Commander</p>
               <h1 className="v-title v-title--huge">
-                {horsZone ? 'On te prévient.' : 'Plus qu’un geste.'}
+                {horsZone ? 'On te prévient.' : 'Plus qu’à régler.'}
               </h1>
               <p className="v-text v-text--lead">
                 {horsZone
                   ? 'On ne livre pas encore chez toi, mais ta demande est enregistrée. Dès qu’on ouvre ta ville, tu es prévenu — par le canal que tu as choisi.'
-                  : `Ta commande est enregistrée : ${packs * BOUTEILLES_PAR_PACK} bouteilles pour ${total} €. Préviens-nous, et on cale l’heure de livraison.`}
+                  : `Ta commande est enregistrée : ${packs * BOUTEILLES_PAR_PACK} bouteilles pour ${total} €. On la prépare ce soir dès que c’est réglé.`}
               </p>
 
-              {!horsZone && (
-                <ol className="v-relance">
-                  <li>
+              {!horsZone && lienPaiement && (
+                <>
+                  <p className="v-page-actions">
                     <a
                       className="btn-primary"
-                      href={href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={onPrevenir}
+                      href={ref ? `${lienPaiement}?client_reference_id=${encodeURIComponent(ref)}` : lienPaiement}
+                      onClick={() => trackEvent('commande_paiement_stripe')}
                     >
-                      {libelle}
+                      Payer {total} €
                     </a>
-                    <span className="v-note">{note}</span>
-                    {montrer && <blockquote className="v-message">{messagePret}</blockquote>}
-                  </li>
+                  </p>
+                  <p className="v-note">
+                    {packs} pack{packs > 1 ? 's' : ''} de {BOUTEILLES_PAR_PACK} bouteilles,
+                    livrées demain. Paiement par carte, sécurisé par Stripe.
+                  </p>
+                </>
+              )}
 
-                  {lienPaiement && (
-                    <li>
-                      <a
-                        className="btn-ghost"
-                        href={ref ? `${lienPaiement}?client_reference_id=${encodeURIComponent(ref)}` : lienPaiement}
-                        onClick={() => trackEvent('commande_paiement_stripe')}
-                      >
-                        Payer {total} €
-                      </a>
-                      <span className="v-note">
-                        {packs} pack{packs > 1 ? 's' : ''} de {BOUTEILLES_PAR_PACK} bouteilles. Tu peux
-                        aussi régler à la livraison.
-                      </span>
-                    </li>
-                  )}
-                </ol>
+              {/* Aucun lien pour cette quantité : on ne laisse pas la page
+                  muette — le contact reste la sortie. */}
+              {!horsZone && !lienPaiement && (
+                <p className="v-note">
+                  On te recontacte sur {canal} pour le règlement et l’heure de
+                  livraison.
+                </p>
               )}
             </div>
           </section>

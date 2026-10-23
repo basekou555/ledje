@@ -18,9 +18,17 @@ resume: "La technique du site : stack, fichiers clés, Supabase (pièges voulus)
 ### Le parcours, dans l'ordre
 
 1. **`/commander`** — formulaire *(packs, ville, prénom, quand, contact, canal)*. La commande est écrite dans `commandes` **avant** tout le reste : un client qui abandonne ensuite reste joignable.
-2. **L'écran « Plus qu'un geste »** — deux gestes numérotés : **prévenir**, puis **payer**. L'ordre porte du sens : prévenir ouvre la discussion, et ça marche même si le paiement est abandonné.
+2. **L'écran « Plus qu'à régler »** — **un seul bouton : payer**. Rien d'autre, et surtout aucun lien qui quitte le site.
 3. **Stripe** — le lien correspond à la quantité choisie.
-4. **`/commande-confirmee`** — la page d'après paiement.
+4. **`/commande-confirmee`** — la page d'après paiement, **et c'est là que le client prévient** par le canal qu'il a choisi.
+
+### 🔴 L'ORDRE DE CES DEUX GESTES EST UNE DÉCISION, pas un héritage — inversion du 23/10
+
+**Le 22/10, « prévenir » venait AVANT « payer »** *(l'idée : la discussion s'ouvre même si le paiement est abandonné)*. **Basekou a testé et tranché l'inverse** : *« il faut faire payer avant de faire envoyer le message, parce que sinon on quitte l'appli, on oublie de revenir pour payer »*.
+
+🎯 **Le raisonnement est juste et il vaut d'être gardé : ouvrir WhatsApp ou Instagram fait SORTIR DU SITE.** Revenir régler après avoir changé d'application demande un effort que personne ne fait — et le geste gratuit était placé avant le geste payant. ⛔ **Ne pas remettre de lien sortant sur l'écran d'avant-paiement.** Après paiement, ce coût n'existe plus : l'argent est encaissé, le client peut partir où il veut.
+
+📌 **Pas de redirection automatique vers Stripe** : on n'envoie personne sur une page de paiement sans qu'il ait appuyé.
 
 ### ⚠️ Trois pièges à connaître avant de toucher à ce parcours
 
@@ -28,7 +36,9 @@ resume: "La technique du site : stack, fichiers clés, Supabase (pièges voulus)
 
 **② `/commande-confirmee` EST UNE PREUVE DE PAIEMENT, pas une page comme les autres.** On n'y arrive que par la redirection Stripe, qui ne se déclenche qu'après un paiement réussi. ⛔ **Ne jamais la mettre dans un menu, un bouton ou un lien du site** : ce serait annoncer un paiement qui n'a pas eu lieu. ⚠️ La redirection est écrite **en dur sur `ledje.fr`** côté Stripe ⇒ depuis un aperçu de PR, le paiement ramène en **production**, pas sur l'aperçu.
 
-**③ UN SITE NE PEUT PAS ENVOYER UN MESSAGE À LA PLACE DU CLIENT.** On pré-remplit, il appuie. Et **Instagram n'a aucune API de DM pré-rempli** : on ouvre la conversation et on copie le texte. Chaque canal porte donc **sa** note — une note générique mentirait sur l'un des quatre *(défaut trouvé au test : le canal Téléphone affichait la consigne d'Instagram)*.
+**③ UN SITE NE PEUT PAS ENVOYER UN MESSAGE À LA PLACE DU CLIENT.** On pré-remplit, il appuie. Et **Instagram n'a aucune API de DM pré-rempli** : on ouvre la conversation et on copie le texte. Chaque canal porte donc **sa** note — une note générique mentirait sur l'un des quatre *(défaut trouvé au test : le canal Téléphone affichait la consigne d'Instagram)*. Tout ça vit dans **`src/lib/canaux.ts`**, partagé par les deux pages depuis le 23/10 — un numéro de téléphone dupliqué à deux endroits, c'est celui qui dérive à la première retouche.
+
+**④ LE MESSAGE EST ÉCRIT SUR `/commander` ET RELU SUR `/commande-confirmee`**, via `localStorage` *(clé `ledje_commande`)*. ⚠️ **La page de retour est un chargement NEUF** après le détour par Stripe : elle n'a jamais vu le formulaire. Si la mémoire manque *(navigation privée, autre appareil, stockage bloqué)*, **le bouton disparaît et seul le mail reste** — vérifié. La page ne doit pas promettre un message qu'elle ne peut pas pré-remplir.
 
 ### Le mail après paiement — `supabase/functions/commande-payee`
 

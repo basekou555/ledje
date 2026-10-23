@@ -1,6 +1,7 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { SiteHeader, SiteFooter, INSTAGRAM_URL } from './Chrome'
 import { trackEvent } from './lib/supabase'
+import { lienCanal } from './lib/canaux'
 import { lireMemo } from './Commander'
 
 /* ════════════════════════════════════════════════════════════════
@@ -23,15 +24,47 @@ import { lireMemo } from './Commander'
    annoncer un paiement qui n'a pas eu lieu. Elle n'est dans aucun menu,
    dans aucun bouton, et c'est volontaire.
 
-   📌 Ce qu'on ne prétend PAS savoir : si le client a réellement ENVOYÉ son
+   ══ ET C'EST ICI QUE LE CLIENT PRÉVIENT, DEPUIS LE 23/10 ══
+
+   Le geste « prévenir par le canal choisi » était sur `/commander`, AVANT le
+   paiement. Basekou l'a testé et a tranché l'inverse : « il faut faire payer
+   avant de faire envoyer le message, parce que sinon on quitte l'appli, on
+   oublie de revenir pour payer ».
+   🎯 Le raisonnement est juste : ouvrir WhatsApp ou Instagram fait SORTIR
+   DU SITE, et revenir régler après avoir changé d'application demande un
+   effort que personne ne fait. Ici ce coût n'existe plus — l'argent est
+   encaissé, le client peut partir où il veut.
+
+   ⚠️ Le message est RELU du `localStorage`, pas recalculé : cette page est un
+   chargement neuf après le détour par Stripe, elle n'a jamais vu le
+   formulaire. Si la mémoire manque (navigation privée, autre appareil), le
+   bouton disparaît et seul le mail reste — la page ne doit pas promettre un
+   message qu'elle ne peut pas pré-remplir.
+
+   📌 Ce qu'on ne prétend PAS savoir : si le client a réellement envoyé son
    message. Un site voit qu'on a ouvert WhatsApp ou copié un texte, jamais
-   qu'un message est parti. La page dit donc ce qui est vrai — la
-   conversation est ouverte — et repropose le geste si besoin, sans affirmer
-   qu'il a été fait.
+   qu'un message est parti. Le bouton INVITE, il ne confirme rien.
    ════════════════════════════════════════════════════════════════ */
 
 export default function CommandeConfirmee() {
   const memo = lireMemo()
+  // Le message a-t-il été copié ? Sert au libellé de la note, pas à la logique.
+  const [copie, setCopie] = useState(false)
+  const canal = memo?.message ? lienCanal(memo.canal, memo.message, copie) : null
+
+  async function onPrevenir() {
+    if (canal?.copier) {
+      // Le presse-papier peut être refusé (permission, contexte non
+      // sécurisé) : pas bloquant, le message est affiché juste en dessous.
+      try {
+        await navigator.clipboard.writeText(memo!.message)
+        setCopie(true)
+      } catch {
+        setCopie(false)
+      }
+    }
+    trackEvent(`confirmee_prevenir_${memo?.canal?.toLowerCase() ?? 'inconnu'}`)
+  }
 
   // La session Stripe, seulement pour l'afficher au client : c'est la
   // référence qu'il cite si quelque chose cloche. Aucune vérification n'est
@@ -98,14 +131,34 @@ export default function CommandeConfirmee() {
               <li className="v-step">
                 <span className="v-step-num" aria-hidden="true">3</span>
                 <div>
-                  <h2 className="v-step-title">
-                    {memo?.prevenu ? 'La discussion est ouverte' : 'Dis-nous un mot'}
-                  </h2>
+                  <h2 className="v-step-title">Envoie-nous un mot</h2>
                   <p className="v-text">
-                    {memo?.prevenu
-                      ? 'Tu as ouvert la conversation avant de payer — si tu n’as pas encore envoyé ton message, c’est le moment : c’est là qu’on cale tout.'
+                    {canal
+                      ? 'C’est là qu’on cale l’adresse et l’heure. Le message est prêt, il ne reste qu’à l’envoyer.'
                       : 'Une précision sur l’adresse, un horaire qui t’arrange mieux ? Écris-nous, on répond vite.'}
                   </p>
+
+                  {canal ? (
+                    <>
+                      <p className="v-page-actions">
+                        <a
+                          className="btn-primary"
+                          href={canal.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={onPrevenir}
+                        >
+                          {canal.libelle}
+                        </a>
+                      </p>
+                      <p className="v-note">{canal.note}</p>
+                      {canal.montrer && <blockquote className="v-message">{memo!.message}</blockquote>}
+                    </>
+                  ) : (
+                    <p className="v-note">
+                      <a href="mailto:basekou@ledje.fr">basekou@ledje.fr</a>
+                    </p>
+                  )}
                   {INSTAGRAM_URL && (
                     <p className="v-note">
                       <a
