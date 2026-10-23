@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-17
+maj: 2026-10-21
 source: "Créée le 2026-10-12 après le débrief de l'événement du 11/10, à la demande de Basekou : « ça mérite pas tout un document, mais il y a des leçons à en tirer pour les prochains — qu'est-ce qu'on a utilisé, qu'est-ce qu'on a bien utilisé, qu'est-ce qu'on doit améliorer »."
 resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteilles là où cinq rendez-vous restaurateurs ont donné zéro. 🎯 Vente directe au consommateur, Lédjé exposant et pas fournisseur. ✅ Ce qui marche : un public dont la clientèle est musulmane, le frigo apporté (chaîne du froid ET support d'affiche), la seringue, le paiement sans contact, proposer au client de choisir entre boire frais sur place ou emporter. 🔴 Ce qui doit s'améliorer : le stand est « un peu léger », l'affiche en portrait n'a nulle part où s'accrocher sans frigo, pas de fonds de caisse, l'étiquetage est le goulot et il est PIRE que proportionnel au-delà de ≈ 50 bouteilles, la DLC n'a pas été tamponnée. 🔴🔴 **2026-10-12 — L'ÉVÉNEMENT EST CHIFFRÉ ET IL EST EN PERTE : les frais fixes du stand ont à eux seuls dépassé le chiffre d'affaires, donc la perte était acquise AVANT la matière.** L'emplacement est le premier poste, à lui seul plus de la moitié du CA ; le seuil d'équilibre était ≈ 2,4 fois le volume produit. ➡️ **Ce n'est ni le produit ni le prix : c'est le coût du stand — et le prochain événement n'en a pas.** ⚡ Et une réserve sur la lecture du succès : certains ont refusé le prix réduit pour payer plein tarif « pour donner de la force », donc une part des ventes est du SOUTIEN et pas une décision d'achat sur le goût. ⛔ Aucun montant ici : les valeurs vivent dans la page Notion privée, le dépôt n'en garde que les rapports."
 ---
@@ -111,6 +111,30 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 
 🆕 **Trois opportunités d'événements nouvelles sont sorties de la visio du 13/10**, non détaillées ici *(la page Notion « Calendrier événements et lieux récurrents » les porte)*. ⛔ **Les FLYERS y sont écartés par les deux interlocuteurs** — ⚠️ **à rapprocher du constat inverse du 11/10 : les flyers étaient DEMANDés sur place, les gens les PRENAIENT EN PHOTO, et le stock a manqué. Les deux observations ne portent pas sur la même chose : l'une juge le support en prospection, l'autre l'a vu marcher en événement.**
 
+## 📍 2026-10-21 — LE SIGNAL DU 11/10 QUI NE VIVAIT QUE SUR LA PAGE ÉTAT : ≈ 15-20 % DES VISITEURS ONT DEMANDÉ OÙ RETROUVER LA BOISSON
+
+⛔ **Descendu de la file 📥 le 21/10, posé le 14/10 par la routine, qui avait déjà constaté l'absence : zéro occurrence dans `docs/` au 14/10, vérifié à nouveau le 21/10.** 📌 **Le fait datait du 11/10 ; il a mis dix jours à atteindre une fiche, alors qu'il est le signal de demande le plus direct que le projet ait produit.**
+
+🎯🎯 **CE QU'IL DIT, et il n'a pas d'équivalent ailleurs dans le dossier : une personne sur cinq à six, APRÈS avoir goûté et payé, demande spontanément où racheter.** ➡️ **C'est une intention de réachat exprimée sans sollicitation — le seul indicateur de PMF que le canal événementiel ait livré en clair** *(`marche-adressable.md` : le canal est un labo client, et voilà ce qu'il mesure)*.
+
+⚠️ **ET LA RÉSERVE EST DE MÉTHODE, pas de fond : le pourcentage est une appréciation de terrain, pas un comptage.** 📌 **Il se lit comme un ordre de grandeur, et il n'a pas été recueilli au salon du 17/10 — donc on n'a pas de second point.** ➡️ **À relever au prochain événement, c'est une question à poser, pas un ressenti à estimer.**
+
+## 📊 2026-10-19 — LE DÉBRIEF DU SALON DU 17/10 : PEU DE MONDE, ET LE RENDEMENT EST AILLEURS QUE DANS LE VOLUME
+
+⚠️ **`[figé]` IL N'Y A PAS EU BEAUCOUP DE MONDE, et peu de contacts récupérés.** *« Il n'y a pas eu beaucoup de monde à cet événement. Donc j'ai pas récupéré beaucoup de contacts. »*
+
+✅✅ **`[figé]` MAIS LA JOURNÉE A PRODUIT ≈ 20 ABONNÉS INSTAGRAM, et c'est un effort délibéré.** *« On a fait des efforts pour qu'il y ait du monde sur Instagram qui nous suivent… c'est des personnes qu'on peut recontacter. »* 🎯 **AVEC INSTAGRAM À 63 % DU TRAFIC DU SITE** *(mesure Vercel du 16/10, `../04_operations/site-technique.md`)*, **ce sont des contacts dans le canal qui amène déjà la majorité des visiteurs — pas une liste morte.** 📌 **Et c'est DEUX FOIS les contacts durables du 11/10**, où la capture n'existait pas.
+
+✅ **DONC LE CRITÈRE DE SUCCÈS DE CE CANAL EST SATISFAIT, et il faut le dire parce qu'il a été posé AVANT la journée : *« ce que la journée OUVRE, pas le volume »*.** ➡️ **Une journée à faible fréquentation qui double la base de recontact passe le critère ; une grosse journée sans capture ne le passerait pas.**
+
+⚠️ **CE QUE LA JOURNÉE NE PERMET PAS DE SAVOIR : la part du QR et celle de l'oral dans ces ≈ 20 abonnements.** 📌 **Les deux ont été mis en service le même jour** ⇒ **c'est le deuxième test à deux variables du dossier** *(le premier : le changement de miel ET de dose au test du 11/10)*. ➡️ **Au prochain événement, ne changer qu'une des deux choses si on veut savoir laquelle travaille.**
+
+📦 **`[figé]` LE DÉCOMPTE DE LA JOURNÉE BOUCLE SUR 89, ET L'ÉCOULEMENT DU SALON EST ≈ 32** *(figé par Basekou le 19/10 au soir)*. 🎯 **`89 apportées = ≈ 32 VENDUES au salon + 12 OFFERTES après l'événement (dons en mosquée) + 45 restantes, recomptées`.** ✅ **Le parc entier a été rempli et emporté : *« je suis bien allé au bout des 89 bouteilles »*.** ⛔ **DEUX LECTURES FAUSSES À ENTERRER, les deux de moi, le 19/10 : ① « base à deux valeurs, 31 ou 44 » — il n'y en avait qu'une ; ② « écoulement figé à 31, aucune ambiguïté, point final », calculé sur une base de 76.** ⚠️ **Les 76 déclarées le 16/10 étaient un volume PRÉVU, pas un volume réalisé — lu comme un constat.** 🎯 **Et le 31 tombait à une bouteille du bon PAR COÏNCIDENCE : les 12 dons post-événement compensaient l'erreur de base. Un nombre juste issu d'un modèle faux n'est pas une vérification.** 💶 **CONSÉQUENCE ÉCONOMIQUE, et elle va dans le sens inverse de ce que le dossier supposait : le reversement de 20 % dû à l'association est TRÈS INFÉRIEUR à la caution versée, qui en était l'avance** ⇒ **c'est l'ASSOCIATION QUI DOIT REMBOURSER la différence, et c'est vrai dans toutes les hypothèses d'écoulement.** ⛔ **Montants au Notion 💸 Comptabilité.**
+
+🛡️ **RÈGLE DE CALCUL, et elle n'est pas théorique : LES 20 % PORTENT SUR LES VENTES, PAS SUR LES BOUTEILLES SORTIES.** ⚠️ **Déclarer les 44 bouteilles parties au lieu des ≈ 32 vendues aurait fait reverser un tiers de plus, dont la part correspondant à des bouteilles OFFERTES en mosquée.** ➡️ **Un don n'est pas une vente : il sort du calcul.** ✅ **FORME ARRÊTÉE : on envoie LE DÉCOMPTE (bouteilles VENDUES × prix, puis les 20 %, puis la caution versée en avance), jamais le solde seul — un décompte se vérifie et exclut les dons sans avoir à les expliquer ; un solde se discute.** 📌 **Conséquence de stock : les 45 restantes ne sont pas un invendu de salon, c'est le stock que les dons en mosquée consomment déjà — 12 en deux jours.**
+
+🧊 **✅ LE FROID A TENU TOUTE LA JOURNÉE** — et il est désormais **mesuré** : ≈ 1 kg de glaçons suffit pour 9 h en lieu fermé, là où 4 kg ont été achetés *(mesure et correction de ma propre analyse dans `../04_operations/production-artisanale.md`)*. ⚠️ **À noter pour la fiche : la décision du 16/10 — pains de glace plutôt que glaçons — n'a pas été appliquée ; ce sont des glaçons qui ont servi.**
+
 ## Statut & prochaine étape
 
 ✅✅ **DEUXIÈME ÉVÉNEMENT : SAMEDI 17/10, 11 h – 19 h, installation dès 10 h — Salle Victor Jara, rue Jean Lesire, Vaulx-en-Velin, association organisatrice HUMAN DISTREAT.** ⛔ **LA DATE ÉTAIT FAUSSE AU DÉPÔT : cette fiche a porté « dimanche » du 12/10 au 16/10, et Basekou l'a corrigée de vive voix le 13/10 — *« c'est samedi l'événement et pas dimanche »*.** 📌 **Un « dimanche » non confirmé s'est maintenu quatre jours parce qu'il était écrit avec sa réserve — la réserve n'empêche pas la date de circuler.**
@@ -127,4 +151,14 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 
 📊 **Volume annoncé pour samedi : 76 bouteilles pré-remplies en miel** *(déclaré par Basekou le 16/10, après récupération de la commande de miel, COMPLÈTE)*. 📌 **Le parc étiqueté est de 89 ; l'écart n'est pas arbitré en fiche et n'a pas besoin de l'être — le miel ne limite plus rien.**
 
-**❓ Question du moment : rien de bloquant avant samedi.** — la seule chose qui ne se rattrape plus après ce soir est **les pains de glace au congélateur**. ➡️ **La question suivante est celle d'après-samedi : ce que la journée doit OUVRIR, puisque c'est le critère de réussite retenu — pas le volume.**
+**❓ Question du moment, mise à jour le 19/10 — la précédente portait sur l'avant-samedi et elle est consommée** *(elle disait : rien de bloquant, sauf les pains de glace au congélateur ; la journée a eu lieu, et ce sont des glaçons qui ont servi)*. ➡️ **CE QUI RESTE OUVERT MAINTENANT, en deux points et un seul est arbitrable :** ① **la CRÉANCE SUR L'ASSOCIATION n'est pas réclamée** — l'écoulement est figé à 31, le reversement dû est très en dessous de la caution, donc une somme est à récupérer et le décompte est prêt ; ② **aucun événement suivant n'est calé** — aucun stand gratuit confirmé d'octobre 2026 à février 2027, et les marchés de Ramadan sont projetés au 08/02/2027 *(cf. le calendrier ci-dessus)*. 📌 **Donc le canal n'a PAS de prochaine date : c'est le seul point de ce canal qui demande une décision, et il ne presse qu'à la mesure du délai d'inscription d'un marché.**
+
+## 📲 2026-10-21 — UN QR FAIT *SUIVRE*, IL NE *RECUEILLE* PAS *(descendu de la page 🎯 ÉTAT)*
+
+🎯 **Distinction de méthode qui vaut pour tout événement, et qui n'était écrite nulle part au dépôt : un QR vers un compte fait GAGNER UN ABONNÉ ; il ne recueille AUCUN contact.**
+
+➡️ **CE QUE ÇA CHANGE CONCRÈTEMENT : après le salon, on ne possède pas de liste.** **On possède une audience sur une plateforme qu'on ne contrôle pas, qu'on ne peut ni exporter ni recontacter individuellement.** ⚠️ **Les ≈ 20 abonnés du 17/10 sont donc un actif RÉEL mais LOUÉ.**
+
+📌 **La carte NFC reste `[en discussion]` et ne règle pas ça non plus** si elle pointe vers un profil. ➡️ **Seul un formulaire — celui de `/offrir`, en production depuis le 19/10 — transforme un passage en contact qu'on possède.**
+
+⚠️ **À garder en tête au prochain événement : la question à poser n'est pas « combien d'abonnés », c'est « combien de gens peut-on recontacter sans passer par Instagram ».**
