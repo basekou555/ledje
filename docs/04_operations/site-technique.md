@@ -50,6 +50,30 @@ resume: "La technique du site : stack, fichiers clés, Supabase (pièges voulus)
 - **Signature vérifiée à la main** (HMAC-SHA256 sur `<t>.<corps brut>`), tolérance 5 min contre le rejeu. ⚠️ **Le corps doit être le texte brut** : un `JSON.parse` suivi d'un `JSON.stringify` invalide la signature.
 - ⛔ **Sans `STRIPE_WEBHOOK_SECRET`, la fonction refuse tout** (500 `webhook_not_configured`). Le secret se colle dans les **secrets Edge Function du dashboard Supabase** — il ne peut pas être posé depuis une session IA, l'outil ouvre un formulaire dans le navigateur de Basekou.
 
+### 🧪 Tester sans vrai paiement — le mode test de Stripe
+
+**Demande de Basekou le 23/10** : *« j'ai pas envie de faire un vrai paiement, sachant que Stripe prennent des frais »*. ✅ **Le mode test existe pour ça : cartes fictives, aucun argent, aucun frais, illimité.**
+
+⚠️ **MODE RÉEL ET MODE TEST SONT DEUX MONDES SÉPARÉS.** Produits, prix, liens de paiement, clients, webhooks et **secrets de signature** y sont distincts. Un objet créé dans l'un n'existe pas dans l'autre.
+
+⛔ **Le connecteur Stripe des sessions Claude Code n'expose que le compte en MODE RÉEL** — vérifié le 23/10, une écriture en test renvoie `No account found for the provided stripe_context and livemode`. ⇒ **Les objets de test se créent à la main dans le dashboard**, bascule « Mode test » en haut à droite.
+
+✅ **Ce qui est DÉJÀ prêt côté code** : la fonction accepte **DEUX** secrets, `STRIPE_WEBHOOK_SECRET` et `STRIPE_WEBHOOK_SECRET_TEST`, et essaie les deux. ⇒ **Un webhook de test fonctionne sans toucher au réglage du mode réel.**
+
+⚠️ **Un paiement de test produit un VRAI mail** — c'est voulu, c'est l'intérêt du test. Il est marqué **`[TEST]`** dans l'objet et porte un bandeau d'avertissement : `livemode`, porté par l'événement, dit de quel monde il vient *(on ne le déduit pas du secret qui a validé)*.
+
+**Les cartes de test** : `4242 4242 4242 4242` passe, `4000 0000 0000 0002` est refusée — n'importe quelle date future, n'importe quel CVC.
+
+### 🧪 Le banc d'essai de la fonction — `banc-essai.mts`
+
+```
+node --experimental-strip-types supabase/functions/commande-payee/banc-essai.mts
+```
+
+**Pourquoi il existe** : `supabase.co` est bloqué par le proxy des sessions Claude Code, donc la fonction ne peut pas être appelée d'ici. Or elle porte la pièce la plus délicate du dispositif, et **une signature mal vérifiée ne se voit qu'en production** : soit tout est refusé *(401 silencieux, aucun mail)*, soit tout est accepté *(un faux « paiement reçu » à la demande)*.
+
+Il simule Stripe et Resend — `Deno` et `fetch` remplacés, aucun réseau, aucun mail. **Les secrets qu'il contient sont des faux, écrits en clair exprès.** Il couvre : les deux secrets, le mauvais secret, l'absence de signature, le rejeu d'un horodatage périmé, un paiement sans référence, et un événement d'un autre type. **À relancer après toute retouche de la fonction.**
+
 ### Où regarder quand un paiement n'a pas produit de mail
 
 1. **Stripe → l'endpoint du webhook** : chaque tentative y est gardée avec sa réponse. Un **401** = le secret manque ou ne correspond pas. Un **500 `resend_not_configured`** = secret Resend absent.

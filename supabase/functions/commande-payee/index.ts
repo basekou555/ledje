@@ -24,10 +24,24 @@ const RESEND_API_KEY = Deno.env.get('RESEND_API_KEY') ?? ''
 const RESEND_FROM = Deno.env.get('RESEND_FROM') ?? 'Lédjé <onboarding@resend.dev>'
 const ALERT_TO = Deno.env.get('ALERTE_DESTINATAIRE') ?? ''
 
-// Secret de signature du webhook, donné par Stripe à la création de
-// l'endpoint. Sans lui la fonction refuse tout : un endpoint public qui croit
-// n'importe quel corps JSON, c'est un faux « paiement reçu » à la demande.
+// Secrets de signature des webhooks, donnés par Stripe à la création de
+// chaque endpoint. Sans aucun des deux la fonction refuse tout : un endpoint
+// public qui croit n'importe quel corps JSON, c'est un faux « paiement reçu »
+// à la demande.
+//
+// DEUX secrets, parce que LE MODE TEST DE STRIPE A LE SIEN. Mode réel et mode
+// test sont deux mondes séparés : produits, prix, liens, cartes et webhooks y
+// sont distincts, et un secret ne vaut pas dans l'autre. Ajouté le 2026-10-23,
+// quand Basekou a demandé à tester sans vrai paiement.
+//
+// ✅ On essaie les deux à la vérification : ça permet d'éprouver toute la
+// chaîne — paiement, webhook, lecture en base, mail — avec une carte fictive,
+// sans qu'un euro bouge et sans toucher au réglage du mode réel.
+// ⚠️ Garde-fou à connaître : un événement de TEST produit donc un VRAI mail.
+// `livemode`, porté par l'événement, sert à le dire dans l'objet du message.
 const STRIPE_WEBHOOK_SECRET = Deno.env.get('STRIPE_WEBHOOK_SECRET') ?? ''
+const STRIPE_WEBHOOK_SECRET_TEST = Deno.env.get('STRIPE_WEBHOOK_SECRET_TEST') ?? ''
+const SECRETS = [STRIPE_WEBHOOK_SECRET, STRIPE_WEBHOOK_SECRET_TEST].filter(Boolean)
 
 const SUPABASE_URL = Deno.env.get('SUPABASE_URL') ?? ''
 const SERVICE_ROLE_KEY = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY') ?? ''
@@ -69,7 +83,7 @@ function esc(v: unknown) {
    On refuse aussi un horodatage trop vieux (tolérance 5 min), sinon une
    requête valide capturée une fois pourrait être rejouée indéfiniment. */
 async function signatureValide(brut: string, entete: string | null): Promise<boolean> {
-  if (!entete || !STRIPE_WEBHOOK_SECRET) return false
+  if (!entete || SECRETS.length === 0) return false
 
   const parts = new Map<string, string[]>()
   for (const morceau of entete.split(',')) {
@@ -87,26 +101,32 @@ async function signatureValide(brut: string, entete: string | null): Promise<boo
   const age = Math.abs(Math.floor(Date.now() / 1000) - Number(t))
   if (!Number.isFinite(age) || age > 300) return false
 
-  const cle = await crypto.subtle.importKey(
-    'raw',
-    new TextEncoder().encode(STRIPE_WEBHOOK_SECRET),
-    { name: 'HMAC', hash: 'SHA-256' },
-    false,
-    ['sign'],
-  )
-  const brutSigne = await crypto.subtle.sign('HMAC', cle, new TextEncoder().encode(`${t}.${brut}`))
-  const attendue = Array.from(new Uint8Array(brutSigne))
-    .map(o => o.toString(16).padStart(2, '0'))
-    .join('')
-
   // Comparaison à temps constant : une comparaison qui s'arrête au premier
   // octet différent laisse mesurer la signature attendue.
-  return signatures.some(s => {
-    if (s.length !== attendue.length) return false
+  const egal = (a: string, b: string) => {
+    if (a.length !== b.length) return false
     let diff = 0
-    for (let i = 0; i < s.length; i++) diff |= s.charCodeAt(i) ^ attendue.charCodeAt(i)
+    for (let i = 0; i < a.length; i++) diff |= a.charCodeAt(i) ^ b.charCodeAt(i)
     return diff === 0
-  })
+  }
+
+  // Un secret par mode : l'événement vient de l'un ou de l'autre, jamais des
+  // deux. On essaie chacun, et il suffit qu'UN corresponde.
+  for (const secret of SECRETS) {
+    const cle = await crypto.subtle.importKey(
+      'raw',
+      new TextEncoder().encode(secret),
+      { name: 'HMAC', hash: 'SHA-256' },
+      false,
+      ['sign'],
+    )
+    const brutSigne = await crypto.subtle.sign('HMAC', cle, new TextEncoder().encode(`${t}.${brut}`))
+    const attendue = Array.from(new Uint8Array(brutSigne))
+      .map(o => o.toString(16).padStart(2, '0'))
+      .join('')
+    if (signatures.some(sig => egal(sig, attendue))) return true
+  }
+  return false
 }
 
 async function lireCommande(id: string): Promise<Commande | null> {
@@ -130,8 +150,8 @@ async function lireCommande(id: string): Promise<Commande | null> {
 Deno.serve(async (req: Request) => {
   if (req.method !== 'POST') return new Response('Method Not Allowed', { status: 405 })
 
-  if (!STRIPE_WEBHOOK_SECRET) {
-    console.error('STRIPE_WEBHOOK_SECRET manquant — la fonction refuse tout')
+  if (SECRETS.length === 0) {
+    console.error('Aucun secret de webhook (STRIPE_WEBHOOK_SECRET / _TEST) — la fonction refuse tout')
     return new Response(JSON.stringify({ error: 'webhook_not_configured' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' },
@@ -160,6 +180,9 @@ Deno.serve(async (req: Request) => {
     })
   }
 
+  // `livemode` est porté par l'événement lui-même : c'est Stripe qui dit de
+  // quel monde il vient. On ne le déduit PAS du secret qui a validé.
+  const reel = (evenement as { livemode?: boolean }).livemode !== false
   const session = evenement.data?.object ?? {}
   const ref = typeof session.client_reference_id === 'string' ? session.client_reference_id : ''
   const montant = typeof session.amount_total === 'number' ? session.amount_total / 100 : null
@@ -200,6 +223,7 @@ Deno.serve(async (req: Request) => {
   ]
 
   const corpsTexte = [
+    reel ? '' : "⚠️ CECI EST UN PAIEMENT DE TEST — aucun argent n'a changé de main.",
     c?.hors_zone
       ? 'Paiement reçu sur ledje.fr/commander — ATTENTION : ville hors zone de livraison.'
       : 'Paiement reçu sur ledje.fr/commander.',
@@ -213,6 +237,7 @@ Deno.serve(async (req: Request) => {
   ].join('\n')
 
   const corpsHtml = `
+    ${reel ? '' : '<p style="background:#FFF3CD;padding:8px;border-radius:4px"><strong>⚠️ Paiement de TEST</strong> — aucun argent n&rsquo;a changé de main.</p>'}
     <p>${
       c?.hors_zone
         ? '<strong>Paiement reçu</strong> sur <strong>ledje.fr/commander</strong> — ⚠️ ville <strong>hors zone</strong> de livraison.'
@@ -251,11 +276,13 @@ Deno.serve(async (req: Request) => {
         from: RESEND_FROM,
         to: [ALERT_TO],
         reply_to: emailPayeur || undefined,
-        subject: c?.packs
-          ? `Lédjé — ${c.packs} pack${c.packs > 1 ? 's' : ''} payé${c.packs > 1 ? 's' : ''}${
-              c.ville ? ` · ${c.ville}` : ''
-            }`
-          : 'Lédjé — paiement reçu',
+        subject: `${reel ? '' : '[TEST] '}${
+          c?.packs
+            ? `Lédjé — ${c.packs} pack${c.packs > 1 ? 's' : ''} payé${c.packs > 1 ? 's' : ''}${
+                c.ville ? ` · ${c.ville}` : ''
+              }`
+            : 'Lédjé — paiement reçu'
+        }`,
         text: corpsTexte,
         html: corpsHtml,
       }),
@@ -278,7 +305,7 @@ Deno.serve(async (req: Request) => {
     })
   }
 
-  return new Response(JSON.stringify({ sent: true, commande: c?.id ?? null }), {
+  return new Response(JSON.stringify({ sent: true, commande: c?.id ?? null, test: !reel }), {
     status: 200,
     headers: { 'Content-Type': 'application/json' },
   })
