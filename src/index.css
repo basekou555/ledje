@@ -1424,3 +1424,82 @@ fieldset.v-field legend em { color: var(--gold-deep); font-style: normal; }
   height: auto;
   object-fit: cover;
 }
+
+/* ── L'étape « prévenir, puis payer » (/commander) ────────────────────────
+   Ajoutée le 2026-10-22. Deux gestes numérotés, et la numérotation porte du
+   SENS : prévenir d'abord — c'est ce qui ouvre la discussion, et ça marche
+   même si le paiement est abandonné. Le paiement est donc le second, en
+   bouton fantôme : visuellement second, pas caché.
+
+   Les numéros sont dessinés à la main (`counter`) plutôt que laissés au
+   navigateur : la puce d'un `<ol>` se place hors du flux et se désaligne
+   d'un bouton de 48 px de haut. */
+.v-relance {
+  list-style: none;
+  counter-reset: relance;
+  margin: 2rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1.8rem;
+}
+
+.v-relance > li {
+  counter-increment: relance;
+  display: grid;
+  gap: 0.6rem;
+  position: relative;
+  padding-left: 2.6rem;
+}
+
+.v-relance > li::before {
+  content: counter(relance);
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  color: var(--green-deep);
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+}
+
+/* `justify-self: start` : sans lui, le bouton s'étire sur toute la grille et
+   une pastille de 20 rem traverse l'écran sur mobile. */
+.v-relance .btn-primary,
+.v-relance .btn-ghost { justify-self: start; }
+
+.v-relance .v-note { margin: 0; }
+
+/* Le message à recopier — uniquement sur Instagram, où aucun pré-remplissage
+   n'est possible. Il doit être lisible et sélectionnable, donc pas un bouton. */
+.v-message {
+  margin: 0;
+  padding: 0.8rem 1rem;
+  border-left: 3px solid var(--gold);
+  background: rgba(20, 61, 43, 0.04);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+@media (max-width: 560px) {
+  .v-relance > li { padding-left: 2.2rem; }
+  .v-relance > li::before { width: 1.5rem; height: 1.5rem; font-size: 0.78rem; }
+}
+
+/* La référence de paiement sur /commande-confirmee — à lire et à recopier
+   dans un message, donc en chiffres lisibles et sélectionnables. */
+.v-ref {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85em;
+  padding: 0.15em 0.45em;
+  border-radius: 4px;
+  background: rgba(20, 61, 43, 0.06);
+  letter-spacing: 0.02em;
+  user-select: all;
+}
