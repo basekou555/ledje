@@ -159,7 +159,13 @@ export type CommandePayload = {
   message: string
 }
 
-export async function submitCommande(c: CommandePayload): Promise<{ error: string | null }> {
+/* Renvoie l'identifiant de la ligne écrite, en plus de l'erreur : depuis le
+   21/10 il part dans l'URL du Payment Link comme `client_reference_id`, ce
+   qui permet de rapprocher un paiement Stripe de SA commande. Sans lui, deux
+   commandes du même montant le même soir sont indiscernables à l'encaissement.
+   ⚠️ On continue de NE PAS faire de `.select()` après l'insert anon — l'id est
+   celui qu'on a généré nous-mêmes, pas un id relu de la base. */
+export async function submitCommande(c: CommandePayload): Promise<{ error: string | null; id: string | null }> {
   const { utm_source } = getUtm()
   const id = crypto.randomUUID()
   const { error } = await supabase.from('commandes').insert({
@@ -174,6 +180,6 @@ export async function submitCommande(c: CommandePayload): Promise<{ error: strin
     message: c.message.trim() || null,
     utm_source,
   })
-  if (error) return { error: 'network' }
-  return { error: null }
+  if (error) return { error: 'network', id: null }
+  return { error: null, id }
 }
