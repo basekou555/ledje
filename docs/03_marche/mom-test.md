@@ -1,7 +1,7 @@
 ---
 statut: hypothèse
 domaine: marche
-maj: 2026-08-20
+maj: 2026-10-19
 source: "SOT §8.2 (archive 2026-07-24) ; campagne v1 close et v2 ouverte le 2026-07-29 (session Com) ; H4 et H5 formulées le 2026-08-20 après sortie des rôles secondaires de l'ADN"
 resume: "Campagne v1 close (8 entretiens, H1/H2 validées, H3 fragile) ; campagne v2 active « Test CEP & actifs » ; H4 gardienne et H5 offreur à tester ; signaux récurrents et réserves méthodo."
 ---
@@ -12,7 +12,7 @@ resume: "Campagne v1 close (8 entretiens, H1/H2 validées, H3 fragile) ; campagn
 
 ## Infrastructure (Notion)
 
-Lédjé — Customer (ex-Dashboard Mom Test, restructuré le 2026-07-29 : sous-page « Mom Test v1 » = campagne close archivée avec script + pitchs ; sous-page « Test CEP & actifs — script v2 » = campagne active) — base Candidats & Verbatims (verdicts H1/H2/H3 + colonnes : mode de consommation, gardienne détectée, H3 comportemental pré-pitch, test rayon/canal, sonde prix, achat alimentaire en ligne), script d'appel calibré (25 min, questions ciblées BOISSON), et **3 argumentaires de vente écrits** (A Boisson+Cristal / B Foyer / C Cadeau). **Prévente Stripe active : 5 €** — proposée UNIQUEMENT sur signaux d'achat forts.
+Lédjé — Customer (ex-Dashboard Mom Test, restructuré le 2026-07-29 : sous-page « Mom Test v1 » = campagne close archivée avec script + pitchs ; sous-page « Test CEP & actifs — script v2 » = ⛔ **campagne EN SOMMEIL, corrigé le 2026-10-19** — elle était écrite « active » depuis le 29/07, et la page 🧭 ÉTAT la donne en sommeil avec un DERNIER MOUVEMENT AU 03/08. 🎯 C'est la page ÉTAT qui a raison : rien n'a bougé en deux mois et demi, donc « active » décrivait une intention et non un état) — base Candidats & Verbatims (verdicts H1/H2/H3 + colonnes : mode de consommation, gardienne détectée, H3 comportemental pré-pitch, test rayon/canal, sonde prix, achat alimentaire en ligne), script d'appel calibré (25 min, questions ciblées BOISSON), et **3 argumentaires de vente écrits** (A Boisson+Cristal / B Foyer / C Cadeau). **Prévente Stripe active : 5 €** — proposée UNIQUEMENT sur signaux d'achat forts.
 
 ## Pattern établi (le résultat le plus important)
 
