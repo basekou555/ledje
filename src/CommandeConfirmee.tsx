@@ -73,7 +73,10 @@ export default function CommandeConfirmee() {
   const session = new URLSearchParams(location.search).get('s') ?? ''
 
   useEffect(() => {
-    document.title = 'Commande confirmée — lédjé'
+    // ⚠️ Plus de `document.title` ici depuis le 2026-10-27 : le titre est
+    // désormais posé dans le HTML SERVI (`scripts/pages.mjs`), qui est le
+    // seul que lisent les robots de prévisualisation. L'écraser en JS
+    // remettait l'ancien titre, plus court, dans l'onglet et dans Google.
     trackEvent('commande_payee_retour')
   }, [])
 
