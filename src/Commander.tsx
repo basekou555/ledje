@@ -37,11 +37,47 @@ import { submitCommande, trackEvent } from './lib/supabase'
 
    ⚠️ Ne pas « corriger » ce prix sans Basekou.
 
-   ⚠️ LE PAIEMENT N'EST PAS EN LIGNE. Le connecteur Stripe n'était pas
-   autorisé le jour de la création. La commande est donc PRISE ici, et le
-   lien de paiement part par le canal que le client choisit. Dès qu'un
-   Payment Link existe, il se renseigne dans STRIPE_LINK ci-dessous et le
-   bouton de confirmation s'y branche — le reste ne bouge pas.
+   ✅ LE PAIEMENT EST EN LIGNE DEPUIS LE 21/10 (Basekou, « option 1 »).
+   Produit et prix créés sur le compte Stripe Lédjé, en MODE RÉEL — c'est le
+   seul compte, il n'y a pas de sandbox.
+
+   ══ LE PARCOURS, REFAIT LE 22/10 SUR TROIS DÉFAUTS VUS PAR BASEKOU ══
+
+   ① « LA PAGE "C'EST NOTÉ" N'A RIEN À FAIRE À CE MOMENT-LÀ ». Elle
+   s'affichait dès l'envoi du formulaire, AVANT le paiement — or c'est une
+   page d'APRÈS paiement. ✅ Elle est sortie d'ici : elle vit dans
+   `CommandeConfirmee.tsx`, sur `/commande-confirmee`, et c'est Stripe qui y
+   envoie (`after_completion: redirect`). Ce qui reste ici, c'est l'étape
+   intermédiaire : prévenir, puis payer.
+
+   ② « LA QUANTITÉ CHOISIE N'EST PAS CELLE DU LIEN DE PAIEMENT ». Exact, et
+   la cause est une limite de Stripe : AUCUN paramètre d'URL ne porte la
+   quantité d'un Payment Link. ✅ Parade : UN LIEN PAR QUANTITÉ, de 1 à 6
+   packs (`LIENS` ci-dessous), donc le bon montant d'emblée et plus rien à
+   ressaisir. ⚠️ Le sélecteur du formulaire s'arrête à 4 packs : les six
+   liens couvrent donc tout, et 5-6 sont d'avance.
+   ⛔ Ajouter un choix au-delà de 6 sans créer le lien correspondant ferait
+   disparaître le bouton de paiement (`lienPaiement` retombe sur null) : la
+   commande partirait sans moyen de payer.
+
+   ③ « LE FORMULAIRE DOIT PRÉVENIR BASEKOU PAR LE CANAL CHOISI ».
+   ⚠️⚠️ ORDRE INVERSÉ LE 23/10, APRÈS SON TEST SUR ORDINATEUR — et le motif
+   est le bon : « il faut faire payer AVANT de faire envoyer le message,
+   parce que sinon on quitte l'appli, on oublie de revenir pour payer ».
+   ⇒ Le geste « prévenir » ouvrait WhatsApp ou Instagram, donc faisait
+   SORTIR DU SITE un client qui n'avait pas encore payé. Revenir régler
+   après avoir changé d'application demande un effort que personne ne fait.
+   ✅ Donc ici, après le formulaire, IL N'Y A PLUS QU'UN SEUL GESTE : payer.
+   Le message au canal choisi a déménagé sur `/commande-confirmee`, où il ne
+   coûte plus rien : le paiement est déjà fait.
+   ⛔ NE PAS y remettre un bouton qui quitte le site — c'est le défaut qu'on
+   vient de corriger.
+   📌 Le contenu du message est préparé ICI quand même, et déposé avec le
+   récapitulatif : après le détour par Stripe, la page de retour est un
+   chargement neuf, elle n'a plus les champs du formulaire sous la main.
+   ⚠️ Le mail automatique vers Basekou après paiement ne peut vivre ni ici ni
+   là-bas : un client qui ferme l'onglet n'envoie rien. Il est côté serveur
+   — `supabase/functions/commande-payee`.
 
    ⚠️ Et un point que Basekou a tranché en connaissance de cause : le
    réglementaire de la vente artisanale est `en_cours`, pas clos
@@ -51,9 +87,25 @@ import { submitCommande, trackEvent } from './lib/supabase'
 const PRIX_PACK = 10
 const BOUTEILLES_PAR_PACK = 6
 
-/** Vide tant qu'aucun Payment Link n'existe : on prend la commande et on
- *  envoie le lien à la main. Le remplir suffit à ouvrir le paiement direct. */
-const STRIPE_LINK = ''
+/* Un Payment Link PAR QUANTITÉ — compte Lédjé, mode réel, créés le
+   2026-10-22 sur `price_1UT53HBmuJiv7YKNEEwfFuYq` (10 € le pack).
+   Tous redirigent vers /commande-confirmee après paiement RÉUSSI — Stripe
+   ne redirige pas autrement, c'est ce qui fait de cette page une preuve.
+   ⚠️ La redirection est écrite en dur sur ledje.fr côté Stripe : depuis un
+   aperçu de PR, le paiement ramène donc en PRODUCTION, pas sur l'aperçu.
+   ✅ Vider cet objet referme le paiement direct : le bouton disparaît et la
+   commande repart par le seul canal de contact. */
+const LIENS: Record<number, string> = {
+  1: 'https://buy.stripe.com/5kQdR8fCXbRp7oBfiogQE06',
+  2: 'https://buy.stripe.com/8x27sK9ez7B9fV75HOgQE07',
+  3: 'https://buy.stripe.com/fZu14m2Qb5t17oBgmsgQE08',
+  4: 'https://buy.stripe.com/bJecN40I3aNlbER3zGgQE09',
+  5: 'https://buy.stripe.com/14AeVc8av8Fd24h7PWgQE0a',
+  6: 'https://buy.stripe.com/dRmfZg62n6x58sF5HOgQE0b',
+}
+
+/* Les adresses des canaux et leur logique vivent dans `lib/canaux.ts` depuis
+   le 23/10 : la page de confirmation en a besoin des mêmes. */
 
 const CANAUX = ['WhatsApp', 'Instagram', 'Email', 'Téléphone'] as const
 
@@ -64,7 +116,45 @@ const CANAUX = ['WhatsApp', 'Instagram', 'Email', 'Téléphone'] as const
    trop, qu'on filtre au contact, à un client perdu en silence. */
 const ZONE = /(^|\D)69\d{3}|lyon|villeurbanne|bron|venissieux|vénissieux|caluire|oullins|vaulx|decines|décines|meyzieu|saint-?fons|tassin|ecully|écully|rillieux|genas|chassieu/i
 
-type Etat = 'idle' | 'loading' | 'done' | 'invalid' | 'network'
+/* 'paiement' est ce qui suit l'envoi du formulaire : UN SEUL GESTE, régler.
+   (C'était 'relance' le 22/10, avec deux gestes dont le premier faisait
+   sortir du site avant d'avoir payé — inversion du 23/10.) */
+type Etat = 'idle' | 'loading' | 'paiement' | 'invalid' | 'network'
+
+/* Le récapitulatif déposé avant de partir vers Stripe, relu par
+   /commande-confirmee au retour. localStorage et pas un état React : le
+   retour de paiement est un CHARGEMENT NEUF de la page, tout état mémoire
+   est perdu entre les deux.
+   ⚠️ Lecture et écriture sous try/catch : en navigation privée l'accès peut
+   lever, et la page doit s'afficher quand même. */
+export const CLE_COMMANDE = 'ledje_commande'
+
+export type CommandeMemo = {
+  packs: number
+  total: number
+  canal: string
+  prenom: string
+  /* Le message au canal, écrit ici et relu là-bas : après le détour par
+     Stripe, la page de retour n'a plus les champs du formulaire. */
+  message: string
+}
+
+export function lireMemo(): CommandeMemo | null {
+  try {
+    const brut = localStorage.getItem(CLE_COMMANDE)
+    return brut ? (JSON.parse(brut) as CommandeMemo) : null
+  } catch {
+    return null
+  }
+}
+
+function ecrireMemo(m: CommandeMemo) {
+  try {
+    localStorage.setItem(CLE_COMMANDE, JSON.stringify(m))
+  } catch {
+    /* Pas de mémoire disponible : la page de confirmation sera générique. */
+  }
+}
 
 export default function Commander() {
   const [packs, setPacks] = useState(1)
@@ -75,6 +165,9 @@ export default function Commander() {
   const [canal, setCanal] = useState<string>('WhatsApp')
   const [message, setMessage] = useState('')
   const [etat, setEtat] = useState<Etat>('idle')
+  // Référence de la commande écrite, passée à Stripe pour rapprocher le
+  // paiement de la ligne. Nulle si l'insert n'a pas abouti.
+  const [ref, setRef] = useState<string | null>(null)
 
   useEffect(() => {
     document.title = 'Commander — lédjé'
@@ -85,6 +178,9 @@ export default function Commander() {
   // champ vide n'est pas un refus.
   const horsZone = ville.trim().length > 2 && !ZONE.test(ville)
   const total = packs * PRIX_PACK
+  /* null si aucun lien n'existe pour cette quantité : le bouton disparaît
+     plutôt que d'ouvrir un paiement au mauvais montant. */
+  const lienPaiement = LIENS[packs] ?? null
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -93,18 +189,44 @@ export default function Commander() {
       return
     }
     setEtat('loading')
-    const { error } = await submitCommande({
+    const { error, id } = await submitCommande({
       packs, ville, horsZone, quand, nom, contact, canal, message,
     })
     if (error) {
       setEtat('network')
       return
     }
+    setRef(id)
     trackEvent(horsZone ? 'commande_hors_zone' : 'commande')
-    setEtat('done')
+    // Le récapitulatif ET le message sont déposés maintenant : après le
+    // détour par Stripe, la page de retour est un chargement neuf.
+    ecrireMemo({ packs, total, canal, prenom: nom.trim(), message: messagePret })
+    setEtat('paiement')
   }
 
-  if (etat === 'done') {
+  /* Le message que le client envoie à Basekou. Court exprès : il doit tenir
+     dans une notification, et tout le détail est déjà en base. */
+  const messagePret = [
+    `Bonjour, je viens de commander ${packs} pack${packs > 1 ? 's' : ''}`,
+    ` (${packs * BOUTEILLES_PAR_PACK} bouteilles) sur ledje.fr`,
+    ville.trim() ? ` pour ${ville.trim()}` : '',
+    nom.trim() ? `. Je m'appelle ${nom.trim()}` : '',
+    '.',
+  ].join('')
+
+  /* ══ APRÈS LE FORMULAIRE : UN SEUL GESTE, RÉGLER ══
+
+     Hors zone, il n'y a rien à payer : l'écran reste une fin de parcours.
+
+     En zone, cet écran ne porte plus QU'UN bouton. Le 22/10 il en portait
+     deux, « prévenir » puis « payer » — et le premier ouvrait WhatsApp ou
+     Instagram, donc faisait sortir du site quelqu'un qui n'avait pas encore
+     payé. Basekou l'a vu en testant : « on quitte l'appli, on oublie de
+     revenir pour payer ». ⛔ Ne pas y remettre un lien qui quitte le site.
+
+     📌 Pas de redirection automatique vers Stripe : on n'envoie personne
+     sur une page de paiement sans qu'il ait appuyé. */
+  if (etat === 'paiement') {
     return (
       <>
         <SiteHeader />
@@ -113,18 +235,38 @@ export default function Commander() {
             <div className="container container--wide">
               <p className="v-eyebrow">Commander</p>
               <h1 className="v-title v-title--huge">
-                {horsZone ? 'On te prévient.' : 'C’est noté.'}
+                {horsZone ? 'On te prévient.' : 'Plus qu’à régler.'}
               </h1>
               <p className="v-text v-text--lead">
                 {horsZone
                   ? 'On ne livre pas encore chez toi, mais ta demande est enregistrée. Dès qu’on ouvre ta ville, tu es prévenu — par le canal que tu as choisi.'
-                  : `On te recontacte sur ${canal} pour le paiement et l’heure de livraison. Les bouteilles sont préparées le soir même et livrées le lendemain.`}
+                  : `Ta commande est enregistrée : ${packs * BOUTEILLES_PAR_PACK} bouteilles pour ${total} €. On la prépare ce soir dès que c’est réglé.`}
               </p>
-              {!horsZone && STRIPE_LINK && (
-                <p className="v-page-actions">
-                  <a className="btn-primary" href={STRIPE_LINK} target="_blank" rel="noopener noreferrer">
-                    Payer maintenant — {total} €
-                  </a>
+
+              {!horsZone && lienPaiement && (
+                <>
+                  <p className="v-page-actions">
+                    <a
+                      className="btn-primary"
+                      href={ref ? `${lienPaiement}?client_reference_id=${encodeURIComponent(ref)}` : lienPaiement}
+                      onClick={() => trackEvent('commande_paiement_stripe')}
+                    >
+                      Payer {total} €
+                    </a>
+                  </p>
+                  <p className="v-note">
+                    {packs} pack{packs > 1 ? 's' : ''} de {BOUTEILLES_PAR_PACK} bouteilles,
+                    livrées demain. Paiement par carte, sécurisé par Stripe.
+                  </p>
+                </>
+              )}
+
+              {/* Aucun lien pour cette quantité : on ne laisse pas la page
+                  muette — le contact reste la sortie. */}
+              {!horsZone && !lienPaiement && (
+                <p className="v-note">
+                  On te recontacte sur {canal} pour le règlement et l’heure de
+                  livraison.
                 </p>
               )}
             </div>
