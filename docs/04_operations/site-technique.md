@@ -64,6 +64,14 @@ resume: "La technique du site : stack, fichiers clés, Supabase (pièges voulus)
 
 **Les cartes de test** : `4242 4242 4242 4242` passe, `4000 0000 0000 0002` est refusée — n'importe quelle date future, n'importe quel CVC.
 
+✅✅ **FAIT LE 27/10 : le mode test est monté et câblé.** Produit, prix à 10 € et **six liens de test** *(1 à 6 packs, même redirection que les liens réels)*, plus un **webhook de test** vers la même fonction.
+
+### « /commander?test=1 » — rejouer le parcours sans payer
+
+Le paramètre bascule `LIENS` sur `LIENS_TEST` *(`src/Commander.tsx`)*. ⛔ **On n'y arrive QUE par ce paramètre** : aucun lien du site n'y mène, un visiteur ordinaire ne peut pas tomber dessus, et le flag ne survit pas à une navigation. ✅ **Un bandeau voyant et hors charte l'annonce quand même** — une page qui ressemble à une vraie page de commande sans encaisser doit le dire.
+
+⚠️ **Les liens de test ne peuvent PAS encaisser** : ils n'existent que dans le monde de test. Vérifié à l'écran le 27/10 : sans le paramètre, les liens servis sont bien les liens RÉELS et le bandeau est absent.
+
 ### 🧪 Le banc d'essai de la fonction — `banc-essai.mts`
 
 ```
