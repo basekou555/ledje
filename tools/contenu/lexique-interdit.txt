@@ -1,0 +1,94 @@
+# Lexique interdit — relecture de l'oral et de l'écrit avant publication.
+# Source : docs/01_adn/conformite.md (figé) + docs/01_adn/identite-verbale.md §4.2-4.3.
+# Une ligne = un terme (ou une expression). Insensible à la casse et aux accents.
+# Format : terme | catégorie | règle citée
+# Catégories : SANTE (allégation santé, interdit absolu) · DIET (vocabulaire diététique réglementé)
+#              LEXIQUE (interdit stratégique de marque) · RELIGIEUX (à l'oral public : à éviter)
+#              CHIFFRE (chiffre caduc ou formulation à vérifier)
+
+# --- SANTE : jamais un effet sur le corps (conformite.md, règle unique) ---
+sain | SANTE | conformite.md — « sain » interdit
+saine | SANTE | conformite.md — « sain » interdit
+santé | SANTE | identite-verbale.md §4.2 — allégation santé
+vitalité | SANTE | conformite.md
+énergie | SANTE | conformite.md
+énergisant | SANTE | conformite.md
+immunité | SANTE | conformite.md
+immunitaire | SANTE | conformite.md
+défenses | SANTE | conformite.md — « renforce les défenses »
+antioxydant | SANTE | conformite.md
+antioxydants | SANTE | conformite.md
+purifie | SANTE | conformite.md
+purifiant | SANTE | conformite.md
+détox | SANTE | identite-verbale.md §4.2
+detox | SANTE | identite-verbale.md §4.2
+digestion | SANTE | conformite.md — « bon pour la digestion »
+vertus | SANTE | identite-verbale.md §4.2
+vertu | SANTE | identite-verbale.md §4.2
+remède | SANTE | conformite.md — CEP « miel-remède » interdit en communication
+remede | SANTE | conformite.md — CEP « miel-remède » interdit en communication
+hydratation | SANTE | decisions-log 2026-09-29 — mot relevé au transcript O'Daba, interdit
+hydrate | SANTE | decisions-log 2026-09-29
+récupération | SANTE | decisions-log 2026-09-29 + garde-fou V2 (jamais performance/sport/récup)
+récup | SANTE | garde-fou V2
+performance | SANTE | garde-fou V2 (jamais performance/sport/récup)
+sportif | SANTE | garde-fou V2
+bon pour | SANTE | conformite.md — « bon pour la santé / la digestion »
+bienfait | SANTE | grille-contenu.md — le MOT reste à revalider conformité avant tout emploi en contenu
+bienfaits | SANTE | grille-contenu.md — idem
+gorge | SANTE | cibles-et-contenu.md — le miel-remède (gorge, toux) interdit d'exploitation
+toux | SANTE | cibles-et-contenu.md — idem
+addictif | SANTE | conformite.md — aucune communication sur un caractère addictif
+addictive | SANTE | conformite.md
+
+# --- DIET : vocabulaire diététique réglementé ---
+allégé | DIET | conformite.md — « allégé / light / minceur » réglementé
+allégée | DIET | conformite.md
+light | DIET | conformite.md
+minceur | DIET | conformite.md
+sans sucres ajoutés | DIET | identite-verbale.md §4.2
+sans sucre ajouté | DIET | identite-verbale.md §4.2
+réduit en sucres | DIET | conformite.md — seuil 30 % frôlé (33 %), formulation non retenue
+4 fois moins | CHIFFRE | conformite.md 2026-09-21 — formulation CADUQUE, ne plus employer
+quatre fois moins | CHIFFRE | conformite.md 2026-09-21 — formulation CADUQUE
+3 fois moins | CHIFFRE | conformite.md — seule formulation retenue : « jusqu'à un tiers de sucres en moins qu'un soda classique »
+trois fois moins | CHIFFRE | conformite.md — idem
+plus légère | DIET | grille-contenu.md 2026-10-08 — jugement de limite (voisinage avec le chiffre de sucre)
+
+# --- LEXIQUE : interdits stratégiques de marque ---
+perle | LEXIQUE | conformite.md — on dit « cristal de miel »
+perles | LEXIQUE | conformite.md
+portion | LEXIQUE | conformite.md
+monodose | LEXIQUE | conformite.md
+pastille | LEXIQUE | conformite.md
+bonbon | LEXIQUE | conformite.md
+ancestral | LEXIQUE | conformite.md — banni (consigne 2026-07-24)
+ancestrale | LEXIQUE | conformite.md
+d'antan | LEXIQUE | identite-verbale.md §4.3
+à l'ancienne | LEXIQUE | identite-verbale.md §4.3
+premium | LEXIQUE | identite-verbale.md §4.3 — la dignité se montre
+luxe | LEXIQUE | identite-verbale.md §4.3
+haut de gamme | LEXIQUE | identite-verbale.md §4.3
+pas cher | LEXIQUE | identite-verbale.md §4.3 — « accessible » interdit comme revendication de prix
+coût de revient | LEXIQUE | identite-verbale.md §4.3 — jamais le coût de revient
+équipe | LEXIQUE | grille-contenu.md 2026-10-08 — il n'y a pas d'équipe (exactitude, pas conformité)
+s'abonner | LEXIQUE | identite-verbale.md §4.4 — réservé au vrai produit (site : « être prévenu »)
+
+# --- RELIGIEUX : évocation jamais proclamation ; à l'oral public = même régime que l'écrit ---
+sunna | RELIGIEUX | conformite.md — mot à éviter, même à l'oral
+sounna | RELIGIEUX | conformite.md
+hadith | RELIGIEUX | conformite.md — pas de citation sacrée sur support commercial
+verset | RELIGIEUX | conformite.md
+coran | RELIGIEUX | conformite.md
+prophète | RELIGIEUX | conformite.md — évocation, jamais proclamation
+
+# --- Marques nommées : jamais DANS le contenu (grille-contenu.md, détournement de pub ; combats.md) ---
+coca | MARQUE | grille-contenu.md — aucune marque nommée dans le contenu
+coca-cola | MARQUE | grille-contenu.md
+pepsi | MARQUE | grille-contenu.md
+prime | MARQUE | grille-contenu.md — ancre de prix entendue en entretien, pas à nommer en public
+monster | MARQUE | grille-contenu.md
+red bull | MARQUE | grille-contenu.md
+redbull | MARQUE | grille-contenu.md
+evian | MARQUE | grille-contenu.md
+volvic | MARQUE | grille-contenu.md
