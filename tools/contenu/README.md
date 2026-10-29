@@ -13,6 +13,9 @@ distante — une session Claude Code ne voit ni le disque ni les médias (limite
 | `relecture.py` | 4 · relire l'oral | un transcript `.srt/.vtt/.txt` → les timecodes des termes du lexique |
 | `lexique-interdit.txt` | — | la liste des termes, chacun avec la règle du cerveau qu'il cite |
 
+> **Depuis le 22/10, le montage réel passe par CapCut** : voir [`pc/README.md`](pc/README.md) — les outils
+> du PC de Basekou, copiés ici le 29/10. Les trois scripts ci-dessous restent valables pour l'index et la relecture de l'oral.
+
 ## Prérequis (une fois)
 
 - Python 3.10+ et `pip install pyyaml`

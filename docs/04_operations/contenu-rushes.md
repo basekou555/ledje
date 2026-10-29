@@ -1,7 +1,7 @@
 ---
 statut: hypothèse
 domaine: operations
-maj: 2026-10-21
+maj: 2026-10-29
 source: "Session Claude Code du 2026-10-21 (17h-18h CEST, branche claude/exciting-babbage-hm0xps), construite sur chaine-contenu.md, contenu-drive.md, grille-contenu.md, conformite.md, identite-visuelle.md, le decisions-log (2026-08-20 → 2026-10-17) et le SOT archivé (Partie 6). PROPOSITION — rien n'y est tranché par Basekou."
 resume: "Le système rushes → pièces : trois objets (le rush indexé, la recette, le gabarit de format), six étapes dont trois outillées dans tools/contenu/, ce que le cerveau impose déjà, le premier lot proposé sur les trois gisements, et dix arbitrages — cinq rendus par Basekou le 21/10 au soir (PC, Bureau + disque, tiers, conformité cas par cas), cinq ouverts."
 ---
@@ -212,6 +212,21 @@ plans:
 
 ✅ **Testé le 2026-10-21 sur trois rushes synthétiques** (détail dans le README des outils).
 ⛔ **Pas testé sur les vrais rushes 4K/60** : c'est le premier geste à faire sur la machine de Basekou.
+
+## 10. Ce qui tourne réellement depuis le 22/10 *(état au 2026-10-29)*
+
+La proposition ci-dessus a été mise à l'épreuve sur le PC de Basekou du 22 au 29/10. Ce qui en est sorti,
+pour le système (les choix faits vidéo par vidéo restent dans la discussion de montage, règle du 27/10) :
+
+- **Le montage passe par CapCut, plus par `rendu.py`.** La session fabrique ou met à jour un projet CapCut ;
+  Basekou le reprend à la main ; ce qui est jugé, c'est la vidéo exportée de CapCut. Un seul projet par
+  storyboard, mis à jour sur place.
+- **Les outils de cette chaîne sont versionnés** dans [`tools/contenu/pc/`](../../tools/contenu/pc/README.md)
+  (copie au 29/10 ; ils tournent depuis `Ledje rush bureau\_outils\` sur le PC).
+- **La transcription** (arbitrage n° 9) : faster-whisper large-v3, choisi au banc d'essai du 25/10 sur de vrais rushes.
+- **Les exports** vont dans `Ledje rush bureau\Export\`, une version par pièce.
+- **Où on en est** : deux pièces exportées et en relecture chez Basekou (S-08, 12 s ; S-13), d'autres
+  storyboardées (S-02, S-24). Aucune n'est validée pour publication ; rien n'est publié.
 
 ## 9. Ce que ce système n'est pas
 
