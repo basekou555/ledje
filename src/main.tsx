@@ -6,6 +6,8 @@ import Construction from './Construction.tsx'
 import Avis from './Avis.tsx'
 import Offrir from './Offrir.tsx'
 import Prestations from './Prestations.tsx'
+import Commander from './Commander.tsx'
+import CommandeConfirmee from './CommandeConfirmee.tsx'
 import App from './App.tsx'
 
 /* Routage minimal par pathname (SPA — Vercel réécrit déjà tout vers index.html).
@@ -16,6 +18,15 @@ import App from './App.tsx'
    retombe sur la vitrine.
 
    — /avis         : recueil d'avis, ouverte pendant les dégustations ;
+   — /commander    : le pack de 6, livré le lendemain à Lyon. Créée le
+                     2026-10-16 : c'est la première réponse à « où est-ce
+                     que j'en trouve », identifiée le 14/10 comme la fuite
+                     la plus coûteuse du dossier ;
+   — /commande-confirmee : la page d'APRÈS paiement. ⚠️ On n'y arrive QUE par
+                     la redirection de Stripe, qui ne se déclenche qu'après un
+                     paiement réussi — c'est ce qui en fait une preuve.
+                     ⛔ Ne JAMAIS la mettre dans un menu ni dans un bouton :
+                     ce serait annoncer un paiement qui n'a pas eu lieu.
    — /prestations  : les formules événement (kermesse, fête d'école…).
                      Créée le 2026-10-08 pour une visite précise : un
                      établissement scolaire qui organise une kermesse ;
@@ -36,6 +47,8 @@ function Page() {
   if (path === '/avis') return <Avis />
   if (path === '/offrir') return <Offrir />
   if (path === '/prestations') return <Prestations />
+  if (path === '/commander') return <Commander />
+  if (path === '/commande-confirmee') return <CommandeConfirmee />
   if (path === '/construction') return <Construction />
   return <App />
 }

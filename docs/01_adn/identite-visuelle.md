@@ -98,3 +98,13 @@ Brief moodboards corrigé (minéral rétrogradé, blocs réécrits) ; planche B 
 
 - Application au système de génération visuelle : `../visual/ledje-master-prompt.md` (⚠️ verrouillé — si le design system change, il doit être resynchronisé sur signalement à Basekou).
 - Typo réellement déployée sur le site (Cormorant Garamond + Lora, provisoire) : `../04_operations/site-technique.md`.
+
+## 🖼️ 2026-10-21 — LE WORDMARK N'EXISTE QU'EN IMAGE APLATIE *(descendu de la file 📥, posé le 16/10)*
+
+🔴 **Fait mesuré sur les fichiers d'impression : aucun texte ni tracé vectoriel dans les trois PDF — une seule image JPEG CMYK à ≈ 326 dpi.** ⛔ **Il n'existe donc AUCUNE source vectorielle du wordmark**, alors que c'est *« le seul élément d'identité existant »* *(ci-dessus)*.
+
+➡️ **CE QUE ÇA INTERDIT, concrètement : agrandir sans perte, changer une couleur proprement, décliner le wordmark sur un autre format, ou le confier à un imprimeur qui demande du vectoriel.** ⚠️ **À 326 dpi il passe à la taille de l'étiquette et ne passera pas sur une affiche, un kakémono ou un véhicule.**
+
+📌 **CE QUI EXISTE EN CONTOURNEMENT, et il faut dire ce que ça vaut : `public/brand/wordmark*.svg` est une VECTORISATION du fichier d'impression 210×50 v1.2, donc une approximation fidèle — pas le tracé d'origine.** ✅ **Elle suffit au site.** ⛔ **Elle ne remplace pas une source : si le tracé d'origine existe dans l'outil de design, il doit primer** *(note portée dans le fichier SVG lui-même)*.
+
+🎯 **Et ça rejoint le point déjà écrit ici : l'identité est à trancher par Basekou.** **Un wordmark sans source vectorielle est un wordmark qu'on ne peut pas faire évoluer sans le redessiner.**

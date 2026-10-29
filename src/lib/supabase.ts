@@ -139,3 +139,47 @@ export async function submitDemande(d: DemandePayload): Promise<{ error: string 
   if (error) return { error: 'network' }
   return { error: null }
 }
+
+/* ── Commandes (page /commander) ──────────────────────────────────────────
+   Ajouté le 2026-10-16. Première réponse à « où est-ce que j'en trouve »,
+   posé au journal le 14/10 comme la fuite la plus coûteuse du dossier :
+   15 à 20 % des visiteurs le demandaient, 117 bouteilles sorties, et un
+   client qui a aimé ne pouvait pas en racheter.
+
+   Table `commandes` : INSERT-only pour anon, aucune policy SELECT, id
+   généré côté client — même patron que waitlist, avis et demandes. */
+export type CommandePayload = {
+  packs: number
+  ville: string
+  horsZone: boolean
+  quand: string
+  nom: string
+  contact: string
+  canal: string
+  message: string
+}
+
+/* Renvoie l'identifiant de la ligne écrite, en plus de l'erreur : depuis le
+   21/10 il part dans l'URL du Payment Link comme `client_reference_id`, ce
+   qui permet de rapprocher un paiement Stripe de SA commande. Sans lui, deux
+   commandes du même montant le même soir sont indiscernables à l'encaissement.
+   ⚠️ On continue de NE PAS faire de `.select()` après l'insert anon — l'id est
+   celui qu'on a généré nous-mêmes, pas un id relu de la base. */
+export async function submitCommande(c: CommandePayload): Promise<{ error: string | null; id: string | null }> {
+  const { utm_source } = getUtm()
+  const id = crypto.randomUUID()
+  const { error } = await supabase.from('commandes').insert({
+    id,
+    packs: c.packs,
+    ville: c.ville.trim(),
+    hors_zone: c.horsZone,
+    quand: c.quand.trim() || null,
+    nom: c.nom.trim() || null,
+    contact: c.contact.trim(),
+    canal: c.canal,
+    message: c.message.trim() || null,
+    utm_source,
+  })
+  if (error) return { error: 'network', id: null }
+  return { error: null, id }
+}

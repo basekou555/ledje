@@ -181,10 +181,10 @@ export default function App() {
             <div className="v-hero-actions v-fade v-fade-4">
               <a
                 className="btn-ghost"
-                href="/avis"
-                onClick={() => trackEvent('avis_click')}
+                href="/commander"
+                onClick={() => trackEvent('hero_commander_click')}
               >
-                Donner ton avis
+                Commander un pack
               </a>
             </div>
           </div>
@@ -450,22 +450,25 @@ export default function App() {
             )}
             </div>
 
-            {/* Avis — prend la place de la précommande cristaux, retirée le
-                2026-09-09 (décision Basekou). Ce qu'on attend d'un visiteur
-                aujourd'hui, ce n'est pas qu'il achète : c'est qu'il dise ce
-                qu'il a goûté. */}
+            {/* ══ COMMANDER — remplace la carte d'avis (2026-10-16) ══
+                « Retirer les avis et remplacer par une commande » (Basekou).
+                Motif : le journal du 14/10 établit qu'AUCUN chemin d'achat
+                n'existait, et que 15 à 20 % des visiteurs demandaient où
+                retrouver la boisson. Ce qu'on attend d'un visiteur n'est
+                plus qu'il donne son avis, c'est qu'il puisse en racheter.
+                La page /avis reste en ligne pour les dégustations. */}
             <aside className="v-aside v-split-side">
-              <p className="v-aside-title">Tu l’as goûtée ?</p>
+              <p className="v-aside-title">Tu en veux ?</p>
               <p>
-                Dis-nous ce que tu en as pensé. Quelques questions, deux
-                minutes. C’est ce qui fait avancer la recette.
+                Un pack de six bouteilles, préparé le soir même et livré le
+                lendemain. À Lyon pour l’instant.
               </p>
               <a
                 className="btn-ghost"
-                href="/avis"
-                onClick={() => trackEvent('avis_click')}
+                href="/commander"
+                onClick={() => trackEvent('accueil_commander_click')}
               >
-                Donner ton avis
+                Commander un pack
               </a>
             </aside>
             </div>

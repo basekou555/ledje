@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-12
+maj: 2026-10-21
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
 resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF — LE POINT DÉCLARÉ CLOS LE 24/09 EST ROUVERT : relance du 07/10 sur une dette de cotisations, avec mention d'actions de recouvrement ; déclarer n'est pas payer.** Aucune décision prise, aucun montant au dépôt. 🔴 **LA DDPP 69 A RÉPONDU LE 01/10** (courrier 2026-8172) : catégorie « préparation de produits composés » CONFIRMÉE · **DÉROGATION À L'AGRÉMENT OBLIGATOIRE pour vendre à des professionnels, CERFA 13982** — tranche CONTRE la DDPP 56 du 18/07, la consigne « ne rien déposer avant l'arbitrage » TOMBE · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS. ⚠️ Aucun seuil identifiable à l'annexe III pour ce produit (absence constatée). ⛔ Le 13982 n'est PAS déposé, et trois professionnels ont déjà reçu du produit ou sont en négociation. + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
@@ -13,6 +13,45 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 **[2026-08-11] Statut `bloquant` → `en_cours`** : la déclaration d'activité **est partie**. Le point dur n'est plus l'envoi mais **l'attente de l'accusé d'enregistrement**, qui désignera la DDPP compétente et débloquera les 3 questions. Les autres volets (HACCP, étiquetage/DLC, stabilité) restent ouverts — la fiche n'est pas close pour autant.
 
 **[2026-08-18] Mise à jour** : l'accusé est reçu, la DDPP du Rhône est compétente — **cette attente-là est finie**. Le point dur devient l'**étiquetage/DLC** *(mention corrigée le 03/09 : c'était « DDM », erroné — voir `../02_produit/eau-miellee-33cl.md`)* et la **stabilité** (`production-artisanale.md`) ; la réserve HACCP reste ouverte.
+
+## 🏛️ 2026-10-19 — DOCTRINE DDPP : UN MAIL, PUIS LE SILENCE PAR DÉFAUT
+
+✅✅ **`[figé]` VOLET 1 — UN MAIL PART, ET UN SEUL : signaler que notre catégorie ne figure pas dans le CERFA 13982.** **Ce qui le rend légitime, et c'est le motif de Basekou : *« ça nous empêche de faire ce qu'ils ont dit qui était obligatoire »*.** ➡️ **Ce n'est donc PAS une demande de validation — c'est le signalement d'un obstacle matériel à une obligation que la DDPP 69 a elle-même posée dans son courrier 2026-8172.** 📌 **Interlocutrice identifiée, référence connue : c'est le seul échange du dossier qui a un objet fermé.**
+
+⛔⛔ **`[figé]` VOLET 2 — EN DEHORS DE ÇA, LE DIALOGUE SE LIMITE.** **On cesse de contacter la DDPP pour chaque zone floue et d'attendre sa validation.** ✅ **Posture arrêtée, dans les mots de Basekou : constater qu'il n'y avait *« pas d'explication concrète ou d'éléments explicites sur la marche à suivre »*, passer par le bon sens, construire la stratégie depuis l'expérience et les informations disponibles, et bâtir un plan assez fiable pour *« ne pas nous considérer comme des personnes mal intentionnées ou mal exécutantes »*.** 🎯 **MOTIF STRATÉGIQUE, consigné tel quel : *« plus on est dans leur tête, plus ils pensent à nous »*** — chaque question posée est une occasion de contrôle offerte. 📌 **Et : *« quand on innove, c'est normal qu'il n'y ait pas encore les solutions pour notre cas de figure »*.**
+
+📌 **CETTE POSTURE N'EST PAS NOUVELLE, ET LA FICHE LE PROUVE : le 18/08, Basekou avait déjà décidé que le mail des 3 questions n'était pas nécessaire *(ci-dessus)*.** ⇒ **La doctrine du 19/10 ne renverse rien, elle ÉCRIT enfin ce que le dossier pratiquait par intermittence depuis deux mois.**
+
+🔴 **CE QUE LA DOCTRINE IMPOSE EN CONTREPARTIE, et c'est accepté : LA JUSTIFICATION DOIT EXISTER AVANT LE CONTRÔLE.** **Un contrôleur ne lit pas une intention, il lit un dossier.** ⛔ **Or aujourd'hui le dossier contient le courrier 2026-8172 disant la dérogation obligatoire, et RIEN en face.** ➡️ **À produire : une page interne DATÉE, qui ne part à personne — la lecture retenue, sa base, et le fait constaté que le formulaire n'a pas notre catégorie.** 📌 **C'est la mise en œuvre de *« montrer comment on a choisi d'agir »*, écrite d'avance plutôt qu'improvisée le jour J.**
+
+## 📖 2026-10-21 — LE GBPH JUS DE FRUITS A ÉTÉ LU EN ENTIER LE 09/10, ET CETTE FICHE L'IGNORAIT DEPUIS DOUZE JOURS
+
+⛔⛔ **Descendu de la file 📥 le 21/10, posé le 15/10 par la session Produit. Cette fiche écrivait encore, plus bas : *« ce qui reste à faire, et c'est le seul point : LE LIRE ET L'INTERPRÉTER »*.** 📌 **Le guide a été lu le 09/10 — 106 pages, PDF scanné OCRisé, en session Produit.** 🎯 **La mention « reste à lire » est donc PÉRIMÉE ; elle est conservée plus bas pour qu'on voie l'écart, pas pour être suivie.**
+
+🔴🔴 **LE RÉSULTAT CENTRAL, ET IL RETIRE AU GUIDE SA PORTÉE SUR NOTRE CAS : le GBPH fonde TOUTE sa sécurité microbiologique sur un pH < 4,5.** **Lédjé est au-dessus de 5,5** *(série pH, `production-artisanale.md`)* ⇒ **la prémisse du guide ne s'applique pas, et il ne contient AUCUNE analyse des dangers pour un produit comme le nôtre.** ⛔ **Conséquence immédiate : l'écart n° 1 relevé le 01/10 — « ajouter une ligne spores documentée par le guide » — N'EST PAS RÉALISABLE, parce que le guide ne la documente pas.** ⚠️ **Et la règle du 02/10 (« on en reprend l'analyse des dangers, pas les mesures de maîtrise ») perd son objet : il n'y a pas d'analyse des dangers à reprendre.**
+
+✅ **TROIS APPORTS RÉELS, eux, et ils valent d'être nommés :**
+1. **Il NOMME notre règle des 24 h** — étape 15 a, « maîtrise du délai de mise en stock froid » ⇒ **le point critique n° 1 du PMS cesse d'être une invention maison.**
+2. **Il VALIDE la méthode de nos séries maison** — § 5.1.12, autocontrôle « en conditions représentatives » ⇒ **la série froid / ambiante / froid devient une EXIGENCE du référentiel, plus une bonne idée.**
+3. **Il donne la cible de froid : 0 à +4 °C** — § 5.1.2.7. ⚠️ **Le relevé du 29/09 à 4,4 °C est donc AU-DESSUS de la cible ; celui du 15/10 à 0 °C est à sa borne basse.**
+
+✅ **UNE ÉCONOMIE : l'a_w s'écrit comme NON LIMITANTE par dilution, SANS appareil** ⇒ **l'écart n° 2 du 01/10 coûte une phrase, pas un instrument.**
+
+🆕 **SEPT ÉCARTS NEUFS que la lecture fait apparaître** : contrôle d'étanchéité du bouchage · premier entré premier sorti · enregistrement de la température · désinfection des emballages neufs · consignes de dosage écrites et bilan de consommation · contenu précis des cahiers des charges fournisseurs · nettoyant-désinfectant en une seule opération non recommandé.
+
+⛔ **ET UN SILENCE DU GUIDE À CONNAÎTRE : il ne dit RIEN de la traçabilité, du lot, du retrait ni du rappel** *(il est antérieur au règlement 178/2002)* ⇒ **les volets 6 et 7 du PMS restent sans appui référentiel.**
+
+📄 **Le détail volet par volet vit dans `claude/lecture-gbph-jus-de-fruits-adaptation-pms-2026-10-09.md`** — ⚠️ **et rien n'est encore écrit dans le PMS : tout y est proposition.**
+
+### 🧭 La méthode DDPP était DÉJÀ tranchée le 15/10 — la doctrine du 19/10 n'en est que la confirmation
+
+⛔⛔ **À écrire parce que c'est le défaut de dispositif le plus net du mois : la file 📥 portait, le 15/10 et en `[figé]`, exactement la méthode que la séance du 19/10 a « établie » avec Basekou.** **Texte posé le 15/10 : *« on n'interroge PAS la DDPP point par point sur les questions d'interprétation technique. On se documente, on écrit le raisonnement, on le défend en cas de contrôle. Motif : interroger expose sans nécessité et fait entrer des pratiques qu'on ne sait pas tenir. »***
+
+✅ **ET SON FONDEMENT JURIDIQUE ÉTAIT DONNÉ, ce que la séance du 19/10 n'avait pas : conforme au règlement 852/2004 et au guide lui-même — *« d'application volontaire »*, moyens différents acceptés s'ils atteignent l'objectif, et l'« équivalence » définie à son glossaire.** 🎯 **C'est l'argument le plus solide du dossier sur ce point, et il a dormi six jours dans une file d'attente.**
+
+✅ **LA CONTREPARTIE ÉTAIT ÉCRITE AUSSI, et elle est plus précise que ma formulation du 19/10 : chaque écart au référentiel s'écrit EN TROIS TEMPS — ① ce que le guide prévoit · ② pourquoi ça ne s'applique pas ici · ③ ce qu'on fait à la place.** 📌 **C'est le format exact de la page interne à produire.**
+
+📌 **La question posée par la session Produit le 09/10 est RETIRÉE et ne se rejoue pas** *(décision du 15/10)*.
 
 ## Démarche DDPP (suivi daté)
 
@@ -185,6 +224,16 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 ✅✅ **2026-10-08 — BASEKOU TRANCHE : IL PAIE.** *« Je paie bientôt, pas besoin de revenir dessus. »* ➡️ **La dette est prise en charge par lui ; le point sort des relances et le compteur s'arrête.** ⛔ **Aucune date n'est écrite, et aucune ne lui est demandée.** 📌 **Les deux voies ci-dessus** *(délai de paiement, action sociale du CPSTI)* **ne sont donc pas empruntées — elles restent écrites à titre de rappel, pas de relance.** ⚠️ **L'alerte sur le SIRET partagé avec la démarche DDPP a été posée une fois : elle ne se rejoue pas.** ⛔ **Et ce qui reste ouvert ne l'est plus par ce point : le message du 03/10 n'est toujours pas ouvert, et le taux de cotisation lié au code APE 53.20Z reste à lire sur le portail.**
 
 ⚠️ **Un point n'a jamais été explicité et ne l'est toujours pas : le rattachement de ce statut à Lédjé.** ➡️ **Il cesse d'être bloquant** *(la déclaration est faite)* **mais il reste ouvert pour la suite** : c'est ce même statut qui portera **la facture de la première vente du 29/09** *(cf. `production-artisanale.md`)*. ⛔ **Aucun montant, aucun numéro, aucune donnée de ce statut ne s'écrit dans ce dépôt.**
+
+## 💳 Litige Trade Republic — ouvert au dépôt le 2026-10-21, et AUCUNE FICHE NE LE PORTAIT
+
+⛔ **Descendu de la file 📥 (posé le 15/10 par la session COO). Vérifié le 21/10 : « Trade Republic », « chargeback » et « mise en demeure » avaient ZÉRO occurrence dans `docs/`** — le sujet existait sans aucun point d'ancrage au dépôt.
+
+✅ **CE QUI EXISTE : le texte du champ « décrivez ce qui s'est passé » du formulaire de chargeback est ÉCRIT**, en version longue et en version courte, rédigé le 14/10 au soir. ⚠️ **Il ne vit que dans le chat de la session COO** ⇒ **surface non reliée : si personne ne le dépose, il disparaît** *(angle mort connu, cf. rituels d'ouverture ci-dessus)*.
+
+🔴 **CE QUI EST À VÉRIFIER AVANT TOUTE SUITE, et c'est la seule question ouverte : LA MISE EN DEMEURE DU 31/08 EST-ELLE PARTIE, ET AVEC QUELLE PREUVE ?** ⚠️ **Sans réponse, on ne sait pas si le dossier en est à la réclamation ou déjà à la contestation** — et un chargeback se juge sur la chronologie des démarches.
+
+⛔ **Aucun montant ne s'écrit ici** *(règle du 12/10 ; le chiffré va au Notion 💸 Comptabilité)*. 📌 **Et rien n'est tranché : cette section ouvre le suivi, elle ne décide pas de la suite.**
 
 ## Renvois
 

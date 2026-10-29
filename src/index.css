@@ -1307,3 +1307,199 @@ img, svg, video { display: block; max-width: 100%; }
 .v-demande .btn-primary { margin-top: 0.4rem; width: 100%; }
 @media (min-width: 560px) { .v-demande .btn-primary { width: auto; min-width: 200px; } }
 .v-demande .v-note { margin-top: 0.8rem; }
+
+/* ── Page /commander (2026-10-16) ─────────────────────────────────────────
+   Les choix de packs et de canal sont des BOUTONS, pas des listes
+   déroulantes : 91 % des visiteurs sont sur téléphone, et un select natif
+   y ouvre un sélecteur plein écran pour quatre options. */
+.v-packs { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.v-pack {
+  flex: 1 1 0;
+  min-width: 68px;
+  min-height: 64px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 0.1rem;
+  font-family: var(--font-title);
+  font-size: 1.35rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid rgba(20, 61, 43, 0.22);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: border-color var(--transition), background var(--transition), color var(--transition);
+}
+.v-pack span { font-family: var(--font-sans); font-size: 0.72rem; color: var(--ink-soft); }
+.v-pack.is-on { background: var(--green-deep); border-color: var(--green-deep); color: var(--surface); }
+.v-pack.is-on span { color: rgba(244, 235, 218, 0.8); }
+
+.v-total { margin-top: 0.8rem; font-size: 0.98rem; color: var(--ink-soft); }
+.v-total strong { font-family: var(--font-title); font-size: 1.2rem; color: var(--ink); }
+
+.v-canaux { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.7rem; }
+.v-canal {
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid rgba(20, 61, 43, 0.22);
+  border-radius: var(--radius-pill);
+  padding: 0.55rem 1rem;
+  min-height: 44px;
+  cursor: pointer;
+  transition: border-color var(--transition), background var(--transition), color var(--transition);
+}
+.v-canal.is-on { background: var(--green-deep); border-color: var(--green-deep); color: var(--surface); }
+
+/* Hors zone : un avertissement, pas un refus. On continue d'accepter la
+   demande pour prévenir le client quand la ville s'ouvre. */
+.v-horszone {
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: var(--ink);
+  background: rgba(200, 149, 68, 0.12);
+  border-left: 2px solid var(--gold);
+  border-radius: 0 10px 10px 0;
+  padding: 0.85rem 1rem;
+  margin-bottom: 1rem;
+}
+fieldset.v-field { border: none; padding: 0; margin-bottom: 1.3rem; }
+fieldset.v-field legend {
+  font-family: var(--font-sans);
+  font-size: 0.82rem; font-weight: 600; color: var(--ink-soft);
+  margin-bottom: 0.45rem; padding: 0;
+}
+fieldset.v-field legend em { color: var(--gold-deep); font-style: normal; }
+
+/* Le prix de /commander (2026-10-16, après retour de Basekou : « il manque
+   comment le prix est mis en avant »). Il était dans une plaque de specs,
+   au même rang visuel que la contenance. C'est l'argument de la page : il
+   prend la taille d'un argument, en chiffre de titre. */
+.v-prix {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  margin: 1.4rem 0 1.2rem;
+}
+.v-prix strong {
+  font-family: var(--font-title);
+  font-size: clamp(3.2rem, 11vw, 4.6rem);
+  line-height: 0.9;
+  color: var(--green-deep);
+  font-weight: 400;
+}
+.v-prix span {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  max-width: 11ch;
+  line-height: 1.35;
+}
+
+/* Trois faits, pas un paragraphe : ils se lisent au défilement. */
+.v-cmd-faits { list-style: none; margin-top: 1.4rem; display: grid; gap: 0.55rem; }
+.v-cmd-faits li {
+  position: relative;
+  padding-left: 1.3rem;
+  font-size: 0.97rem;
+  color: var(--ink);
+}
+.v-cmd-faits li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0.55em;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--gold);
+}
+
+/* ⚠️ L'image du haut de /commander était ÉTIRÉE : la colonne de texte est
+   haute (titre + prix + liste), la grille étire la colonne voisine, et
+   l'image suivait — la bouteille sortait allongée. Elle garde donc sa forme
+   native (1100 × 1375) et la colonne ne s'étire plus. */
+.v-page-head .v-split-side { align-self: start; }
+.v-page-head .v-figure img {
+  aspect-ratio: 1100 / 1375;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ── L'étape « prévenir, puis payer » (/commander) ────────────────────────
+   Ajoutée le 2026-10-22. Deux gestes numérotés, et la numérotation porte du
+   SENS : prévenir d'abord — c'est ce qui ouvre la discussion, et ça marche
+   même si le paiement est abandonné. Le paiement est donc le second, en
+   bouton fantôme : visuellement second, pas caché.
+
+   Les numéros sont dessinés à la main (`counter`) plutôt que laissés au
+   navigateur : la puce d'un `<ol>` se place hors du flux et se désaligne
+   d'un bouton de 48 px de haut. */
+.v-relance {
+  list-style: none;
+  counter-reset: relance;
+  margin: 2rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1.8rem;
+}
+
+.v-relance > li {
+  counter-increment: relance;
+  display: grid;
+  gap: 0.6rem;
+  position: relative;
+  padding-left: 2.6rem;
+}
+
+.v-relance > li::before {
+  content: counter(relance);
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  color: var(--green-deep);
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+}
+
+/* `justify-self: start` : sans lui, le bouton s'étire sur toute la grille et
+   une pastille de 20 rem traverse l'écran sur mobile. */
+.v-relance .btn-primary,
+.v-relance .btn-ghost { justify-self: start; }
+
+.v-relance .v-note { margin: 0; }
+
+/* Le message à recopier — uniquement sur Instagram, où aucun pré-remplissage
+   n'est possible. Il doit être lisible et sélectionnable, donc pas un bouton. */
+.v-message {
+  margin: 0;
+  padding: 0.8rem 1rem;
+  border-left: 3px solid var(--gold);
+  background: rgba(20, 61, 43, 0.04);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+@media (max-width: 560px) {
+  .v-relance > li { padding-left: 2.2rem; }
+  .v-relance > li::before { width: 1.5rem; height: 1.5rem; font-size: 0.78rem; }
+}
+
+/* La référence de paiement sur /commande-confirmee — à lire et à recopier
+   dans un message, donc en chiffres lisibles et sélectionnables. */
+.v-ref {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85em;
+  padding: 0.15em 0.45em;
+  border-radius: 4px;
+  background: rgba(20, 61, 43, 0.06);
+  letter-spacing: 0.02em;
+  user-select: all;
+}
