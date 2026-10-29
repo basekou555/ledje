@@ -180,6 +180,8 @@ Le shot-book ne couvre aujourd'hui que des plans destinés à la génération. F
 réels** (`01_plans-reels/`) reçoivent eux aussi des IDs de shot, ou le shot-book reste-t-il l'outil
 de la seule production générée ? — arbitrage de Basekou, non tranché.
 
+➡️ *2026-10-21 : [`contenu-rushes.md`](contenu-rushes.md) propose « non » (IDs `R-xxxx` + tags dans un `rushes-index.csv`, le shot-book reste l'outil de la production générée) — arbitrage n° 4 de cette fiche, toujours à Basekou.*
+
 ## 🎞️ 2026-10-21 — LES QUATRE CLIPS LONGS, ET CE QU'ILS PORTENT — ⛔ SECTION CORRIGÉE LE JOUR MÊME *(descendu de la file 📥, posé le 16/10)*
 
 ⛔ **Vérifié le 21/10 : le mot « clip » n'apparaissait nulle part dans cette fiche** — l'inventaire du disque y était descendu le 17/10, mais **pas ce point-là**, qui est le seul à désigner du contenu dont on ignore la valeur.
