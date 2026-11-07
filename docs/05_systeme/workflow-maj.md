@@ -1,9 +1,9 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-10-21
+maj: 2026-11-07
 source: "Validé par Basekou en session 2026-07-24 (+ compléments même jour : garde-fous métier, council-context protégé) — remplace la Partie 9 (@update) du SOT archivé ; section 6 ajoutée le 2026-09-10 sur demande explicite de Basekou (captation, tri, péremption, relance des attentes dormantes)"
-resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, rituels de session (page relais Notion, resynchro Project Knowledge), tri de l'inbox. ➕ Section 6 (10/09) — les règles de vie de l'information. R0 LE DIGEST lit TOUT le relais, ligne par ligne, jusqu'au bout des cellules longues — c'est sa charge (règle de Basekou, 10/09) ; R1 tout fait déclaré entre le jour même · R2 critère de ce qui entre (est-ce que ça change l'état ?) + garde-fou de clôture · R3 péremption, le relais porte l'ÉTAT et non son histoire, purge à chaque revue de semaine · R4 la session INTERROGE les attentes dormantes (114 marqueurs au 10/09) pour qu'un oubli ne se referme pas en silence. ➕ R5 (11/09) — LE TEST D'ENTRÉE DU RELAIS : une phrase y entre si elle répond à « où ça en est MAINTENANT » et à rien d'autre (présent → relais · passé → journal · impératif général → ce fichier) ; aucun bloc de clôture de séance au relais, état courant ~800 caractères max. ⚠️ Motif mesuré : le relais a repris +10 977 caractères le lendemain de sa purge, dont 73 % écrits par la session qui venait d'écrire R3 elle-même. ⚠️ Diagnostic corrigé en séance : les sessions déposaient bien, c'est LE DIGEST qui n'a pas lu le relais — devenu illisible (une cellule de 21 261 caractères). ➕➕ **R6 (21/10, demande explicite de Basekou) — LA SESSION LIT LE DOSSIER D'UN SUJET AVANT DE LE POSER** : la fiche du domaine, la ligne de la table 🎯 ÉTAT, et les entrées du journal qui le portent. 📏 **TEST : on ne pose pas un sujet dont on ne peut pas citer la dernière ligne datée** — si on ne peut pas l'écrire, on ne l'a pas lue. ⚠️ Motif : reproche général de Basekou aux sessions (« à chaque discussion il faut remettre tout le contexte »), et preuve mesurée le 19/10 — la DDPP posée comme un retard alors que la fiche portait depuis le 12/10 le changement d'objet du sujet ET l'appréciation de Basekou dessus. 🔴 Et la moitié du problème est ailleurs : la page ÉTAT, qui est l'instrument du recul, fait 31 363 caractères pour un plafond de 12 000."
+resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, rituels de session (page relais Notion, resynchro Project Knowledge), tri de l'inbox. ➕ Section 6 (10/09) — les règles de vie de l'information. R0 LE DIGEST lit TOUT le relais, ligne par ligne, jusqu'au bout des cellules longues — c'est sa charge (règle de Basekou, 10/09) ; R1 tout fait déclaré entre le jour même · R2 critère de ce qui entre (est-ce que ça change l'état ?) + garde-fou de clôture · R3 péremption, le relais porte l'ÉTAT et non son histoire, purge à chaque revue de semaine · R4 la session INTERROGE les attentes dormantes (114 marqueurs au 10/09) pour qu'un oubli ne se referme pas en silence. ➕ R5 (11/09) — LE TEST D'ENTRÉE DU RELAIS : une phrase y entre si elle répond à « où ça en est MAINTENANT » et à rien d'autre (présent → relais · passé → journal · impératif général → ce fichier) ; aucun bloc de clôture de séance au relais, état courant ~800 caractères max. ⚠️ Motif mesuré : le relais a repris +10 977 caractères le lendemain de sa purge, dont 73 % écrits par la session qui venait d'écrire R3 elle-même. ⚠️ Diagnostic corrigé en séance : les sessions déposaient bien, c'est LE DIGEST qui n'a pas lu le relais — devenu illisible (une cellule de 21 261 caractères). ➕➕ **R6 (21/10, demande explicite de Basekou) — LA SESSION LIT LE DOSSIER D'UN SUJET AVANT DE LE POSER** : la fiche du domaine, la ligne de la table 🎯 ÉTAT, et les entrées du journal qui le portent. 📏 **TEST : on ne pose pas un sujet dont on ne peut pas citer la dernière ligne datée** — si on ne peut pas l'écrire, on ne l'a pas lue. ⚠️ Motif : reproche général de Basekou aux sessions (« à chaque discussion il faut remettre tout le contexte »), et preuve mesurée le 19/10 — la DDPP posée comme un retard alors que la fiche portait depuis le 12/10 le changement d'objet du sujet ET l'appréciation de Basekou dessus. 🔴 Et la moitié du problème est ailleurs : la page ÉTAT, qui est l'instrument du recul, était elle-même devenue trop longue pour servir de recul. ➕➕ **PLAFONDS PRÉCISÉS LE 07/11 par Basekou : 20 LIGNES est le plafond DUR · 12 000 CARACTÈRES est un déclencheur de NETTOYAGE, pas une limite de lecture — un dépassement se signale et se nettoie, il n'autorise JAMAIS une lecture partielle, la lecture est toujours TOTALE.** ➕ **RELEVÉ DE SÉANCE (07/11) : pour une séance qui ouvre une PR, la description de la PR EST le relevé, plus un message court disant ce qui remonte ; le 📓 Journal des sessions reste obligatoire pour les séances sans PR.** ⚠️ Aucun chiffre de taille de la page ÉTAT n'est conservé ici : deux passages ne comptent pas les balises de la même façon, et trois digests ont raisonné sur une tendance qui n'existait pas (leçon du 21/10)."
 ---
 
 # Workflow de mise à jour du cerveau
@@ -29,7 +29,11 @@ resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, ritu
 
 ### Ouverture
 1. Lire `docs/README.md` (la carte).
-2. **Consulter la page ÉTAT** — une page, **20 lignes, 4 000 caractères plafond**, qui se RÉÉCRIT et ne s'allonge jamais : https://app.notion.com/p/3d84bc5926a8811cb601d33c71e39a42
+2. **Consulter la page ÉTAT** — une page qui se RÉÉCRIT et ne s'allonge jamais : https://app.notion.com/p/3d84bc5926a8811cb601d33c71e39a42
+   📏 **DEUX PLAFONDS, ET ILS NE FONT PAS LE MÊME TRAVAIL** *(précisé par Basekou le 2026-11-07 ; le 4 000 d'origine est relevé à 12 000 le 14/10)* :
+   · **20 LIGNES — plafond DUR.** La 21ᵉ ligne exige d'en fermer une. C'est lui qui tient le dispositif.
+   · **12 000 CARACTÈRES — plafond de NETTOYAGE, pas de lecture.** Le dépasser n'invalide rien ; **quand il est atteint, ça se SIGNALE et on NETTOIE.**
+   ⛔⛔ **ET DANS TOUS LES CAS LA LECTURE EST TOTALE : toute la page, jusqu'au bout des cellules longues.** Un dépassement n'a **jamais** autorisé une lecture partielle, et c'est le point que Basekou a dû reposer — *« malgré que le plafond il soit dépassé, ça ne doit pas empêcher la lecture ; par contre la lecture doit toujours se faire dans la totalité »*. 📌 **Motif historique, et il est lourd : la page relais a été GELÉE à 180 000 caractères parce que plus personne ne la lisait, digest compris — le diagnostic corrigé en séance le 11/09 n'était pas « les sessions n'écrivent pas », c'était « le digest n'a pas lu », une cellule faisant 21 261 caractères à elle seule.** ⇒ **Un plafond dépassé est une raison de nettoyer, jamais une raison de lire en diagonale.**
    ⛔ **L'ancienne page relais est GELÉE depuis le 2026-09-11** (180 000 caractères, plus personne ne la lisait — digest compris). On la lit pour le détail, **on n'y écrit plus** : https://app.notion.com/p/39e4bc5926a88163b425c0607514a3b6
 3. Ouvrir uniquement les fiches du domaine concerné, choisies via les `resume` des index. Ne jamais charger tout le cerveau.
 4. Sync check git : repartir d'`origin/main` à jour avant toute écriture.
@@ -40,6 +44,7 @@ resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, ritu
 2. Toute décision prise → une ligne dans `decisions-log.md`.
 3. Commit atomique par fiche, message clair.
 4. **Réflexe resynchro Project Knowledge** : si une fiche modifiée fait partie de la copie Project Knowledge Claude, terminer le rapport de session par un rappel explicite « à resynchroniser dans Project Knowledge ».
+5. **Le relevé de séance** *(règle arbitrée par Basekou le 2026-11-07)*. ✅ **Pour une séance qui ouvre une PR** *(les séances Claude Code)* : **la description de la PR EST le relevé** — on ne le recopie pas ailleurs. Elle doit donc porter ce qu'un relevé portait : ce qui a été fait, ce qui a été tranché, ce qui est reporté **et pourquoi**, et les leçons. ➕ **Et la séance termine par un message court disant CE QUI REMONTE** : les PR ouvertes, les décisions consignées, les reports motivés, les gestes qui restent chez Basekou. *La description est la source, ce message en est l'index.* ⚠️ **Pour une séance qui n'ouvre PAS de PR** *(COO, Com, Cowork)* : le **📓 Journal des sessions** reste obligatoire — c'est son seul endroit. 📌 **Motif : le Journal était immobile depuis 17 jours alors que le dépôt était à jour, parce que personne ne recopiait une description de PR plus complète que le relevé.** ⇒ **La règle épouse le fonctionnement réel au lieu de le contredire.**
 
 ## 4. Règles critiques (invariantes)
 
@@ -53,6 +58,36 @@ resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, ritu
 ## 5. Tri de l'inbox
 
 Sur demande (« trie l'inbox ») ou quand une session touche un domaine ayant des captures en attente : chaque capture est dispatchée vers ses fiches (mise à jour chirurgicale), puis supprimée. Une capture non triable reste, avec la raison notée dedans.
+
+## 6bis. ⚗️ R0 À R7 NE SONT PAS DES RÈGLES, CE SONT DES HYPOTHÈSES DE MÉTHODE *(requalifié par Basekou le 2026-11-07)*
+
+**Sa demande, et elle vise tout ce fichier** : *« j'ai plus envie qu'on parle en apprentissage et en hypothèse de méthode de travail, plutôt que de règles arbitraires à appliquer… on fonce dans des règles et on passe du temps à ne pas respecter ces règles, à les modifier, et du coup on est moins performant »*.
+
+🎯 **Le défaut qu'il nomme, et il est mesurable ici même : chaque R a été écrite UNE FOIS, depuis UN incident, et AUCUNE n'a jamais été ÉVALUÉE.** Rien dans ce fichier ne dit si une R fonctionne. ⇒ **Une règle enfreinte est une faute, et on n'apprend rien d'une faute. Une hypothèse qui échoue est un RÉSULTAT, et on en apprend.**
+
+➡️ **CE QUI CHANGE : chaque R porte désormais quatre choses — ce qu'on essaie · ce qu'on en attend · à quoi on verrait qu'elle échoue · ce qu'on a OBSERVÉ, daté.** Et une R sans résultat observé est une hypothèse neuve, pas une loi.
+
+### Ce qu'on sait déjà, au 2026-11-07, sans rien tester de plus
+
+| Hypothèse | Résultat OBSERVÉ | Ce que ça apprend |
+| --- | --- | --- |
+| **R6** — la session lit le dossier avant de poser un sujet | ❌ **Échoue deux fois** : le 19/10 *(dérogation posée en retard alors que la fiche portait son changement d'objet)* et le 07/11 *(la dose reposée alors qu'elle était figée depuis 27 jours)* | **Une règle déclarative ne se tient pas d'elle-même.** Son propre test — *« citer la dernière ligne datée »* — n'est vérifié par personne, donc il n'est pas appliqué |
+| **Plafond de caractères de la page ÉTAT** | ❌ **Renversé deux fois** : 4 000 → 12 000 le 14/10, puis déclaré clos le 22/10, puis requalifié le 07/11 | **On ne connaissait pas la bonne valeur, et on l'a quand même écrite comme une loi.** C'était une mesure à faire, pas une limite à décréter |
+| **Règle de la page ÉTAT du 11/09** — pas d'historique, pas de justification, pas de leçon | ❌ **Jamais appliquée pendant deux mois**, par aucune session, moi compris | **Une règle que personne ne tient n'est pas une règle, c'est un souhait.** Elle n'a été tenue qu'une fois quelqu'un l'ayant exécutée à la main *(07/11)* |
+| **R1** — tout fait déclaré entre au SOT le jour même | ⚠️ **Tenue par les séances Code, pas par les autres sessions** — faute de pouvoir écrire au dépôt | **Ce n'est pas une discipline qui manque, c'est un accès.** Une règle adressée à qui ne peut pas l'exécuter ne produit rien |
+| **R7** — le `resume:` dit un périmètre | ⬜ **Neuve, écrite le 07/11, aucun résultat** | À évaluer : un `resume:` de périmètre redevient-il faux ? Si oui, l'hypothèse tombe |
+
+### ⚗️ LES TROIS HYPOTHÈSES ACTIVES *(ouvertes le 2026-11-07)*
+
+**H1 · LE MENU DATÉ** — ✅ *retenue par Basekou.* Un sujet proposé en séance tient sur **une ligne** : son nom, l'enjeu, la question, **et la date du dernier fait daté au dossier**. 🎯 **Pourquoi c'est vérifiable et non déclaratif : si la date ne peut pas être imprimée, c'est que le dossier n'a pas été lu — et ça se voit.** ⛔ **Elle échoue si** : un sujet tranché revient quand même, ou si une date affichée est fausse. 📌 *Ce soir, la dose aurait affiché « dernier fait : 11/10 » à côté de « on fige à 15 mL ? ».*
+
+**H2′ · LA CAPTURE PAR LOT, À L'HEURE DU DIGEST** — ✅ *version de Basekou, qui remplace la mienne.* ⛔ **Ma version était fondée sur une prémisse FAUSSE** : j'avais écrit que les sessions n'écrivent pas d'elles-mêmes. **Elles écrivent — la page gelée a atteint 180 000 caractères.** Et sa mort n'était pas un défaut d'écriture mais de LECTURE, ce que le diagnostic du 11/09 disait déjà. ➡️ **Sa version : il ne colle rien après chaque conversation — *« c'est pas pertinent »* — mais AU MÊME MOMENT où il copie le digest, il copie aussi les conversations des pages où il a travaillé, en un seul geste.** 📌 **Ce que j'y ajoute, et c'est la leçon des deux échecs : la capture ne va pas dans UN tableau qui grossit (la page gelée) ni dans un tableau PLAFONNÉ où rien ne tient (la file 📥 à 10 lignes) — elle va dans une page DATÉE PAR JOUR, qu'on vide.** ⇒ **Une journée non vidée est visible ; un tableau trop long ne l'est pas.** ⛔ **Elle échoue si** : une journée reste non vidée, ou si un fait ressort plusieurs jours après avoir été dit.
+
+**H3 · LE TABLEAU DE RÉSULTATS** — ✅ *retenue.* Celui ci-dessus. C'est lui qui rend H1 et H2′ apprenables. ⛔ **Il échoue si** : dans un mois, aucune ligne de résultat n'y a été ajoutée.
+
+📏📏 **LE CRITÈRE D'ÉVALUATION, POSÉ PAR BASEKOU ET IL EST LE SEUL QUI COMPTE** : *« est-ce que les discussions que j'ai dans les sessions, qui doivent être remontées, elles remontent ? Et est-ce qu'elles remontent bien en temps et en heure, et dans le contenu ? »* ⇒ **Trois mesures, pas une : ça remonte · à temps · complet.** ⚠️ **Ni le volume écrit, ni le respect d'une consigne ne sont des mesures de succès.**
+
+⚠️ **CE QUE CETTE REQUALIFICATION N'ANNULE PAS.** Les **règles critiques** de la section 4 ne sont pas des hypothèses et ne se testent pas : la conformité *(santé, religion, sucre)*, les fiches protégées, et l'interdiction d'écrire un montant au dépôt. **Elles sont là pour éviter un dommage, pas pour améliorer une méthode.** 📌 **Le partage est simple : une hypothèse porte sur la MANIÈRE de travailler · une règle critique porte sur ce qu'on ne veut pas provoquer.**
 
 ## 6. Ce qui entre, ce qui sort, ce qui se demande *(posé le 2026-09-10, sur demande explicite de Basekou)*
 
@@ -129,7 +164,7 @@ Concrètement, à l'ouverture :
 
 **L'attribution, faite ligne par ligne** : **+2 961 pour une ligne NEUVE** créée par une autre session *(un sujet nouveau occupe légitimement de la place)* — et **+8 000, soit 73 %, écrits par la session de clôture elle-même**, c'est-à-dire par celle qui venait d'écrire la règle R3.
 
-⚠️ **Le pire item, isolé : 2 699 caractères de blocs « CLÔTURE DE SÉANCE »**, empilés l'un sous l'autre. Un compte rendu de séance **existe déjà à deux endroits** — `decisions-log.md` et le relevé Notion. **Il était écrit une troisième fois, dans le seul endroit qui n'est pas fait pour ça.**
+⚠️ **Le pire item, isolé : 2 699 caractères de blocs « CLÔTURE DE SÉANCE »**, empilés l'un sous l'autre. Un compte rendu de séance **existe déjà à deux endroits** — `decisions-log.md` et, **depuis la règle du 2026-11-07, la description de la PR pour une séance Code** *(le 📓 Journal des sessions pour une séance sans PR)*. **Il était écrit une troisième fois, dans le seul endroit qui n'est pas fait pour ça.**
 
 **Le diagnostic** : R3 disait « l'état, pas son histoire » — **elle ne nommait qu'un interdit sur deux.** Une cellule de relais se met à gonfler parce qu'on y mélange **trois registres qui ont chacun leur maison** :
 
@@ -174,3 +209,20 @@ Concrètement, à l'ouverture :
 📌 **Corollaire sur la nature des erreurs.** Les quatre conclusions fausses de la séance du 19/10 *(modèle économique du salon, périmètre géographique, exclusivité refroidir/maintenir, volume écoulé)* avaient toutes **une forme logique correcte** et une prémisse non vérifiée. ➡️ **Un raisonnement propre sur une prémisse non relue produit une erreur CONFIANTE, qui est la plus coûteuse à détecter.** 🎯 **Et un nombre juste issu d'un modèle faux n'est pas une vérification** *(le volume du salon tombait à une bouteille du bon par coïncidence)*.
 
 🔴 **CE QUE LA RÈGLE NE RÉGLERA PAS À ELLE SEULE, et il faut l'écrire ici parce que c'est la moitié du problème : l'instrument du recul est la page 🎯 ÉTAT, et elle est inutilisable.** **Mesurée le 17/10 : 31 363 caractères pour un plafond de 12 000, avec de l'historique, des justifications et des auto-corrections dedans — alors que sa propre règle interdit les trois.** ➡️ **Une session qui cherche « où en est le projet » tombe sur de l'archive et reconstruit au lieu de lire.** 📌 **Appliquer la règle de la page la ramènerait à ≈ 15 000 sans perdre un seul fait.**
+
+### R7 — Le `resume:` d'une fiche dit son PÉRIMÈTRE, jamais ses conclusions *(posé le 2026-11-07)*
+
+**Le défaut mesuré.** Le `resume:` de `../04_operations/demarches-admin.md` affirmait *« DÉROGATION À L'AGRÉMENT OBLIGATOIRE pour vendre à des professionnels »* — **dix jours après que le corps de la fiche ait été corrigé.** Or c'est le `resume:` que les index de dossier affichent, donc **ce que les sessions lisent en premier.** ⇒ **Une session qui suivait la procédure recommandée lisait le faux ; celle qui ouvrait la fiche entière lisait le vrai.**
+
+➡️ **LA RÈGLE : un `resume:` décrit ce que la fiche COUVRE. Il ne contient ni fait daté, ni chiffre, ni décision, ni conclusion de droit.**
+
+> ⛔ *Avant* : « la DDPP a répondu le 01/10, dérogation obligatoire, CERFA 13982 non déposé, GBPH apicole écarté… »
+> ✅ *Après* : « Le réglementaire à boucler avant la première vente : agrément, PMS, étiquetage, déclarations sociales, litige bancaire. »
+
+🎯 **Pourquoi ça marche : un périmètre ne périme pas.** Une affirmation, oui — et elle périme en silence, parce que corriger le corps d'une fiche ne force personne à relire son en-tête.
+
+⚠️ **LA CONTRAINTE, et il faut l'assumer : un `resume:` de périmètre dit QUELLE fiche ouvrir, pas CE QU'ELLE DIT.** ⇒ **Une session qui répondait depuis l'index devra ouvrir la fiche.** C'est un échange délibéré : **une lecture de plus par sujet, contre zéro affirmation périmée.** Et il est favorable, parce qu'ouvrir un fichier coûte des secondes à une session, là où une affirmation fausse a coûté dix jours.
+
+📌 **Pourquoi ce n'était pas fait avant.** Le `resume:` a été conçu au moment de l'éclatement du SOT monolithique *(24/07)*, pour **remplacer** sa lecture : c'était un résumé destiné à quelqu'un qui n'ouvrirait pas trente fiches, donc il devait contenir des conclusions. **L'architecture a changé — les sessions lisent les fichiers directement — et le `resume:` a gardé son ancien rôle.**
+
+🔗 **C'EST LE MÊME DÉFAUT QUE LA DOSE, un niveau plus haut.** Le 07/11, la dose a été reposée comme non arrêtée alors qu'elle était figée à 15 mL depuis le 11/10. La fiche `../02_produit/eau-miellee-33cl.md` portait **les deux faits** : la « fourchette assumée » du 09/10, et le 25/75 à 15 mL qui cartonne le 11/10 — **la seconde entrée, plus récente, tranchait la première.** ⇒ **Ce sont les lignes de RÉSUMÉ qui ont propagé l'ancien fait** : la ligne de la table ÉTAT et `../02_produit/reglementaire-etiquetage.md`. **La règle vaut donc pour tout texte qui résume un autre texte, pas seulement pour le frontmatter.**
