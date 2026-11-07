@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-28
+maj: 2026-11-07
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
-resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF — LE POINT DÉCLARÉ CLOS LE 24/09 EST ROUVERT : relance du 07/10 sur une dette de cotisations, avec mention d'actions de recouvrement ; déclarer n'est pas payer.** Aucune décision prise, aucun montant au dépôt. 🔴 **LA DDPP 69 A RÉPONDU LE 01/10** (courrier 2026-8172) : catégorie « préparation de produits composés » CONFIRMÉE · **DÉROGATION À L'AGRÉMENT OBLIGATOIRE pour vendre à des professionnels, CERFA 13982** — tranche CONTRE la DDPP 56 du 18/07, la consigne « ne rien déposer avant l'arbitrage » TOMBE · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS. ⚠️ Aucun seuil identifiable à l'annexe III pour ce produit (absence constatée). ⛔ Le 13982 n'est PAS déposé, et trois professionnels ont déjà reçu du produit ou sont en négociation. + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
+resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF — LE POINT DÉCLARÉ CLOS LE 24/09 EST ROUVERT : relance du 07/10 sur une dette de cotisations, avec mention d'actions de recouvrement ; déclarer n'est pas payer.** Aucune décision prise, aucun montant au dépôt. ✅✅ **AGRÉMENT : LE SUJET EST FERMÉ LE 28/10 PAR LA DDPP 69 ELLE-MÊME — ni agrément ni dérogation pour un produit à base de miel, la déclaration d'activité du 14/08 suffit.** Son courrier 2026-8172 du 01/10, qui disait l'inverse, est une **erreur retirée par son auteur** ; la DDPP 56 avait raison depuis le 18/07. ⛔ **Il n'y a RIEN à déposer : le CERFA 13982 ne concerne pas ce produit.** ⚠️ **Ça ne ferme ni le PMS, ni l'étiquetage, ni la DLC, ni l'article 13 INCO, ni la traçabilité par lot.** · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS — lu en entier le 09/10, **inapplicable à notre pH**. 🧾 **CFE / IFER : avis 2026 disponibles, adhésion au prélèvement jusqu'au 30/11, paiement au 15/12 — aucun montant au dépôt, il n'est lisible que dans l'espace professionnel.** + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
 
 # Démarches administratives & réglementaires
@@ -246,6 +246,21 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 ✅✅ **2026-10-08 — BASEKOU TRANCHE : IL PAIE.** *« Je paie bientôt, pas besoin de revenir dessus. »* ➡️ **La dette est prise en charge par lui ; le point sort des relances et le compteur s'arrête.** ⛔ **Aucune date n'est écrite, et aucune ne lui est demandée.** 📌 **Les deux voies ci-dessus** *(délai de paiement, action sociale du CPSTI)* **ne sont donc pas empruntées — elles restent écrites à titre de rappel, pas de relance.** ⚠️ **L'alerte sur le SIRET partagé avec la démarche DDPP a été posée une fois : elle ne se rejoue pas.** ⛔ **Et ce qui reste ouvert ne l'est plus par ce point : le message du 03/10 n'est toujours pas ouvert, et le taux de cotisation lié au code APE 53.20Z reste à lire sur le portail.**
 
 ⚠️ **Un point n'a jamais été explicité et ne l'est toujours pas : le rattachement de ce statut à Lédjé.** ➡️ **Il cesse d'être bloquant** *(la déclaration est faite)* **mais il reste ouvert pour la suite** : c'est ce même statut qui portera **la facture de la première vente du 29/09** *(cf. `production-artisanale.md`)*. ⛔ **Aucun montant, aucun numéro, aucune donnée de ce statut ne s'écrit dans ce dépôt.**
+
+## 🧾 2026-11-07 — CFE / IFER : AVIS 2026 DISPONIBLES, RIEN N'EST EN RETARD, ET AUCUN MONTANT N'EST LISIBLE D'ICI
+
+**Constat daté et sourcé, descendu de la file 📥 de la page ÉTAT où il attendait depuis le 03/11. Aucune décision n'est prise ici.**
+
+📩 **Courriel DGFiP du 2026-11-02 à 15h01 UTC, non lu** : les avis d'impôt 2026 de **CFE** *(cotisation foncière des entreprises)* et/ou d'**IFER** *(imposition forfaitaire sur les entreprises de réseaux)* sont mis à disposition dans l'espace professionnel.
+
+⏳ **Deux échéances, dans cet ordre :**
+
+* **30/11/2026** — dernier jour pour adhérer au **prélèvement à l'échéance**.
+* **15/12/2026** — paiement au plus tard.
+
+⛔⛔ **LE MONTANT N'EST PAS AU DÉPÔT, ET CE N'EST PAS UNE LACUNE À COMBLER.** Il n'est lisible que dans l'espace professionnel, auquel **aucun outil de session n'accède** — ni le connecteur Gmail, ni le navigateur. ⚠️ **Une estimation ne remplace pas une lecture : aucun chiffre ne s'écrit ici tant que Basekou ne l'a pas lu.** *(Et la règle générale tient : aucun montant ne s'écrit au dépôt.)*
+
+📌 **Au 07/11, rien n'est en retard** : la première échéance est à 23 jours. ⚠️ **Ce que ça ne dit pas** : si Lédjé est redevable, et de combien. Le courriel annonce une mise à disposition, pas une dette.
 
 ## 💳 Litige Trade Republic — ouvert au dépôt le 2026-10-21, et AUCUNE FICHE NE LE PORTAIT
 
