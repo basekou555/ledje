@@ -27,9 +27,15 @@ Boisson pré-mélangée = denrée préemballée → **étiquetage INCO** (dénom
 
 **② Le renvoi « voir bouchon » est FAUX.** L'étiquette renvoie au bouchon pour une information qui n'y est pas.
 
-### Ce que la correction ne tranche pas
+### ✅✅ LA DOSE EST FIGÉE À 15 mL `[figé 2026-11-07]` — le préalable tombe
 
-🔴 **La dose n'est pas arrêtée** : la fourchette assumée reste **15-20 mL**. ⇒ **Corriger le QUID suppose de figer la dose, sinon la v1.3 sera fausse à son tour.** 📌 C'est le seul vrai préalable : les deux autres motifs de réimpression — lancer une saveur, ajouter la mention « à secouer » — peuvent se décider après, mais **pas** la dose.
+**Déclaré par Basekou le 07/11 : *« la dose, c'est pas un sujet, on est passé à 15 mL depuis qu'on est passé au tilleul »*.** ⇒ **La fourchette « 15-20 mL assumée » que le dossier portait depuis le 11/10 n'existe plus : c'est 15 mL.**
+
+🎯 **Conséquence directe, et elle débloque une chaîne entière : le QUID de la v1.3 se calcule sur une valeur ARRÊTÉE** — ≈ **6,4 %** à 15 mL en recette 25/75 tilleul/montagne. ⇒ **Plus rien n'empêche de corriger l'étiquette et de commander.**
+
+📌 **Les deux autres motifs de réimpression restent ouverts et ne bloquent pas** : lancer une saveur, ajouter la mention « à secouer ». Ils peuvent arriver sur une v1.4.
+
+⚠️ **Ce que ça n'entraîne pas automatiquement : la série pH/DLC a été mesurée à l'ANCIENNE dose.** Figer la dose ne refait pas les mesures.
 
 ### À la commande
 
