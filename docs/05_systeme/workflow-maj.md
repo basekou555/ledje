@@ -59,6 +59,26 @@ resume: "Les règles du cerveau : hiérarchie des sources, protégé/libre, ritu
 
 Sur demande (« trie l'inbox ») ou quand une session touche un domaine ayant des captures en attente : chaque capture est dispatchée vers ses fiches (mise à jour chirurgicale), puis supprimée. Une capture non triable reste, avec la raison notée dedans.
 
+## 6bis. ⚗️ R0 À R7 NE SONT PAS DES RÈGLES, CE SONT DES HYPOTHÈSES DE MÉTHODE *(requalifié par Basekou le 2026-11-07)*
+
+**Sa demande, et elle vise tout ce fichier** : *« j'ai plus envie qu'on parle en apprentissage et en hypothèse de méthode de travail, plutôt que de règles arbitraires à appliquer… on fonce dans des règles et on passe du temps à ne pas respecter ces règles, à les modifier, et du coup on est moins performant »*.
+
+🎯 **Le défaut qu'il nomme, et il est mesurable ici même : chaque R a été écrite UNE FOIS, depuis UN incident, et AUCUNE n'a jamais été ÉVALUÉE.** Rien dans ce fichier ne dit si une R fonctionne. ⇒ **Une règle enfreinte est une faute, et on n'apprend rien d'une faute. Une hypothèse qui échoue est un RÉSULTAT, et on en apprend.**
+
+➡️ **CE QUI CHANGE : chaque R porte désormais quatre choses — ce qu'on essaie · ce qu'on en attend · à quoi on verrait qu'elle échoue · ce qu'on a OBSERVÉ, daté.** Et une R sans résultat observé est une hypothèse neuve, pas une loi.
+
+### Ce qu'on sait déjà, au 2026-11-07, sans rien tester de plus
+
+| Hypothèse | Résultat OBSERVÉ | Ce que ça apprend |
+| --- | --- | --- |
+| **R6** — la session lit le dossier avant de poser un sujet | ❌ **Échoue deux fois** : le 19/10 *(dérogation posée en retard alors que la fiche portait son changement d'objet)* et le 07/11 *(la dose reposée alors qu'elle était figée depuis 27 jours)* | **Une règle déclarative ne se tient pas d'elle-même.** Son propre test — *« citer la dernière ligne datée »* — n'est vérifié par personne, donc il n'est pas appliqué |
+| **Plafond de caractères de la page ÉTAT** | ❌ **Renversé deux fois** : 4 000 → 12 000 le 14/10, puis déclaré clos le 22/10, puis requalifié le 07/11 | **On ne connaissait pas la bonne valeur, et on l'a quand même écrite comme une loi.** C'était une mesure à faire, pas une limite à décréter |
+| **Règle de la page ÉTAT du 11/09** — pas d'historique, pas de justification, pas de leçon | ❌ **Jamais appliquée pendant deux mois**, par aucune session, moi compris | **Une règle que personne ne tient n'est pas une règle, c'est un souhait.** Elle n'a été tenue qu'une fois quelqu'un l'ayant exécutée à la main *(07/11)* |
+| **R1** — tout fait déclaré entre au SOT le jour même | ⚠️ **Tenue par les séances Code, pas par les autres sessions** — faute de pouvoir écrire au dépôt | **Ce n'est pas une discipline qui manque, c'est un accès.** Une règle adressée à qui ne peut pas l'exécuter ne produit rien |
+| **R7** — le `resume:` dit un périmètre | ⬜ **Neuve, écrite le 07/11, aucun résultat** | À évaluer : un `resume:` de périmètre redevient-il faux ? Si oui, l'hypothèse tombe |
+
+⚠️ **CE QUE CETTE REQUALIFICATION N'ANNULE PAS.** Les **règles critiques** de la section 4 ne sont pas des hypothèses et ne se testent pas : la conformité *(santé, religion, sucre)*, les fiches protégées, et l'interdiction d'écrire un montant au dépôt. **Elles sont là pour éviter un dommage, pas pour améliorer une méthode.** 📌 **Le partage est simple : une hypothèse porte sur la MANIÈRE de travailler · une règle critique porte sur ce qu'on ne veut pas provoquer.**
+
 ## 6. Ce qui entre, ce qui sort, ce qui se demande *(posé le 2026-09-10, sur demande explicite de Basekou)*
 
 Ces règles répondent à un constat de séance : **le SOT peut être rigoureux et faux en même temps**, parce que l'information ne l'atteint pas, ou qu'elle y stagne.
