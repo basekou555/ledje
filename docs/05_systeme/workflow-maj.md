@@ -77,6 +77,16 @@ Sur demande (« trie l'inbox ») ou quand une session touche un domaine ayant de
 | **R1** — tout fait déclaré entre au SOT le jour même | ⚠️ **Tenue par les séances Code, pas par les autres sessions** — faute de pouvoir écrire au dépôt | **Ce n'est pas une discipline qui manque, c'est un accès.** Une règle adressée à qui ne peut pas l'exécuter ne produit rien |
 | **R7** — le `resume:` dit un périmètre | ⬜ **Neuve, écrite le 07/11, aucun résultat** | À évaluer : un `resume:` de périmètre redevient-il faux ? Si oui, l'hypothèse tombe |
 
+### ⚗️ LES TROIS HYPOTHÈSES ACTIVES *(ouvertes le 2026-11-07)*
+
+**H1 · LE MENU DATÉ** — ✅ *retenue par Basekou.* Un sujet proposé en séance tient sur **une ligne** : son nom, l'enjeu, la question, **et la date du dernier fait daté au dossier**. 🎯 **Pourquoi c'est vérifiable et non déclaratif : si la date ne peut pas être imprimée, c'est que le dossier n'a pas été lu — et ça se voit.** ⛔ **Elle échoue si** : un sujet tranché revient quand même, ou si une date affichée est fausse. 📌 *Ce soir, la dose aurait affiché « dernier fait : 11/10 » à côté de « on fige à 15 mL ? ».*
+
+**H2′ · LA CAPTURE PAR LOT, À L'HEURE DU DIGEST** — ✅ *version de Basekou, qui remplace la mienne.* ⛔ **Ma version était fondée sur une prémisse FAUSSE** : j'avais écrit que les sessions n'écrivent pas d'elles-mêmes. **Elles écrivent — la page gelée a atteint 180 000 caractères.** Et sa mort n'était pas un défaut d'écriture mais de LECTURE, ce que le diagnostic du 11/09 disait déjà. ➡️ **Sa version : il ne colle rien après chaque conversation — *« c'est pas pertinent »* — mais AU MÊME MOMENT où il copie le digest, il copie aussi les conversations des pages où il a travaillé, en un seul geste.** 📌 **Ce que j'y ajoute, et c'est la leçon des deux échecs : la capture ne va pas dans UN tableau qui grossit (la page gelée) ni dans un tableau PLAFONNÉ où rien ne tient (la file 📥 à 10 lignes) — elle va dans une page DATÉE PAR JOUR, qu'on vide.** ⇒ **Une journée non vidée est visible ; un tableau trop long ne l'est pas.** ⛔ **Elle échoue si** : une journée reste non vidée, ou si un fait ressort plusieurs jours après avoir été dit.
+
+**H3 · LE TABLEAU DE RÉSULTATS** — ✅ *retenue.* Celui ci-dessus. C'est lui qui rend H1 et H2′ apprenables. ⛔ **Il échoue si** : dans un mois, aucune ligne de résultat n'y a été ajoutée.
+
+📏📏 **LE CRITÈRE D'ÉVALUATION, POSÉ PAR BASEKOU ET IL EST LE SEUL QUI COMPTE** : *« est-ce que les discussions que j'ai dans les sessions, qui doivent être remontées, elles remontent ? Et est-ce qu'elles remontent bien en temps et en heure, et dans le contenu ? »* ⇒ **Trois mesures, pas une : ça remonte · à temps · complet.** ⚠️ **Ni le volume écrit, ni le respect d'une consigne ne sont des mesures de succès.**
+
 ⚠️ **CE QUE CETTE REQUALIFICATION N'ANNULE PAS.** Les **règles critiques** de la section 4 ne sont pas des hypothèses et ne se testent pas : la conformité *(santé, religion, sucre)*, les fiches protégées, et l'interdiction d'écrire un montant au dépôt. **Elles sont là pour éviter un dommage, pas pour améliorer une méthode.** 📌 **Le partage est simple : une hypothèse porte sur la MANIÈRE de travailler · une règle critique porte sur ce qu'on ne veut pas provoquer.**
 
 ## 6. Ce qui entre, ce qui sort, ce qui se demande *(posé le 2026-09-10, sur demande explicite de Basekou)*
