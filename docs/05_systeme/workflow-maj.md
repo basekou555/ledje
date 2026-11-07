@@ -179,3 +179,20 @@ Concrètement, à l'ouverture :
 📌 **Corollaire sur la nature des erreurs.** Les quatre conclusions fausses de la séance du 19/10 *(modèle économique du salon, périmètre géographique, exclusivité refroidir/maintenir, volume écoulé)* avaient toutes **une forme logique correcte** et une prémisse non vérifiée. ➡️ **Un raisonnement propre sur une prémisse non relue produit une erreur CONFIANTE, qui est la plus coûteuse à détecter.** 🎯 **Et un nombre juste issu d'un modèle faux n'est pas une vérification** *(le volume du salon tombait à une bouteille du bon par coïncidence)*.
 
 🔴 **CE QUE LA RÈGLE NE RÉGLERA PAS À ELLE SEULE, et il faut l'écrire ici parce que c'est la moitié du problème : l'instrument du recul est la page 🎯 ÉTAT, et elle est inutilisable.** **Mesurée le 17/10 : 31 363 caractères pour un plafond de 12 000, avec de l'historique, des justifications et des auto-corrections dedans — alors que sa propre règle interdit les trois.** ➡️ **Une session qui cherche « où en est le projet » tombe sur de l'archive et reconstruit au lieu de lire.** 📌 **Appliquer la règle de la page la ramènerait à ≈ 15 000 sans perdre un seul fait.**
+
+### R7 — Le `resume:` d'une fiche dit son PÉRIMÈTRE, jamais ses conclusions *(posé le 2026-11-07)*
+
+**Le défaut mesuré.** Le `resume:` de `../04_operations/demarches-admin.md` affirmait *« DÉROGATION À L'AGRÉMENT OBLIGATOIRE pour vendre à des professionnels »* — **dix jours après que le corps de la fiche ait été corrigé.** Or c'est le `resume:` que les index de dossier affichent, donc **ce que les sessions lisent en premier.** ⇒ **Une session qui suivait la procédure recommandée lisait le faux ; celle qui ouvrait la fiche entière lisait le vrai.**
+
+➡️ **LA RÈGLE : un `resume:` décrit ce que la fiche COUVRE. Il ne contient ni fait daté, ni chiffre, ni décision, ni conclusion de droit.**
+
+> ⛔ *Avant* : « la DDPP a répondu le 01/10, dérogation obligatoire, CERFA 13982 non déposé, GBPH apicole écarté… »
+> ✅ *Après* : « Le réglementaire à boucler avant la première vente : agrément, PMS, étiquetage, déclarations sociales, litige bancaire. »
+
+🎯 **Pourquoi ça marche : un périmètre ne périme pas.** Une affirmation, oui — et elle périme en silence, parce que corriger le corps d'une fiche ne force personne à relire son en-tête.
+
+⚠️ **LA CONTRAINTE, et il faut l'assumer : un `resume:` de périmètre dit QUELLE fiche ouvrir, pas CE QU'ELLE DIT.** ⇒ **Une session qui répondait depuis l'index devra ouvrir la fiche.** C'est un échange délibéré : **une lecture de plus par sujet, contre zéro affirmation périmée.** Et il est favorable, parce qu'ouvrir un fichier coûte des secondes à une session, là où une affirmation fausse a coûté dix jours.
+
+📌 **Pourquoi ce n'était pas fait avant.** Le `resume:` a été conçu au moment de l'éclatement du SOT monolithique *(24/07)*, pour **remplacer** sa lecture : c'était un résumé destiné à quelqu'un qui n'ouvrirait pas trente fiches, donc il devait contenir des conclusions. **L'architecture a changé — les sessions lisent les fichiers directement — et le `resume:` a gardé son ancien rôle.**
+
+🔗 **C'EST LE MÊME DÉFAUT QUE LA DOSE, un niveau plus haut.** Le 07/11, la dose a été reposée comme non arrêtée alors qu'elle était figée à 15 mL depuis le 11/10. La fiche `../02_produit/eau-miellee-33cl.md` portait **les deux faits** : la « fourchette assumée » du 09/10, et le 25/75 à 15 mL qui cartonne le 11/10 — **la seconde entrée, plus récente, tranchait la première.** ⇒ **Ce sont les lignes de RÉSUMÉ qui ont propagé l'ancien fait** : la ligne de la table ÉTAT et `../02_produit/reglementaire-etiquetage.md`. **La règle vaut donc pour tout texte qui résume un autre texte, pas seulement pour le frontmatter.**
