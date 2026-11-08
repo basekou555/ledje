@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-11-07
+maj: 2026-11-08
 source: "SOT §4.4 partie étiquetage (archive 2026-07-24) + contenu légal 33cl figé 2026-07-24 (page relais) ; deux mentions résiduelles nettoyées en session le 2026-08-27 (QUID « de France », règle logo v2 caduque)"
 resume: "Étiquetage INCO de la boisson pré-mélangée, mentions obligatoires, allègements possibles ; contenu légal 33cl figé — dénomination, QUID, « sans arôme artificiel » (détail : eau-miellee-33cl.md)."
 ---
@@ -58,3 +58,13 @@ Le contenu légal de l'étiquette de la bouteille 33cl est figé — **dénomina
 
 - Démarches (déclaration d'activité, HACCP, DDPP) : `../04_operations/demarches-admin.md`
 - Allégation nutritionnelle comparative — ⚠️ **formulation CORRIGÉE le 2026-09-21** : *« jusqu'à un tiers de sucres en moins qu'un soda classique »* (≈ 33 %). ⛔ **L'ancienne — « jusqu'à 4 fois moins de sucre » — ne s'emploie plus** : elle reposait sur une dose ≈ 2,5 fois plus faible que la recette imprimée. **Jamais imprimée sur les étiquettes** *(vérifié le 21/09)*. Détail et seuil légal : `../01_adn/conformite.md`
+
+## 🏷️ 2026-11-08 — ON ARRÊTE DE PARLER EN VERSIONS D'ÉTIQUETTE `[figé]`
+
+**Demande de Basekou le 08/11 : *« je pense qu'on va arrêter de parler en version, parce que sinon on va s'y perdre. »***
+
+⛔ **Plus de v1.2 / v1.3 dans le dossier ni sur la page ÉTAT.** ✅ **À la place, deux états seulement, et ils se constatent sans compter : l'étiquette EN STOCK et l'étiquette À COMMANDER.**
+
+📌 **Pourquoi il a raison : le numéro de version ne porte aucune information utile.** Ce qui compte est **ce qui est corrigé** — le QUID, le renvoi « voir bouchon » — et ces corrections se nomment. ⚠️ **Et un numéro crée un faux repère : « v1.3 » laisse croire qu'une v1.3 existe, alors qu'elle n'est ni dessinée ni commandée.**
+
+➡️ **Formulation retenue : « les 55 étiquettes en stock portent un QUID inexact » · « l'étiquette à commander corrige le QUID et le renvoi bouchon ».** 🎯 **Et ce qui reste à faire tient en deux gestes, dans cet ordre : CORRIGER, puis COMMANDER.**
