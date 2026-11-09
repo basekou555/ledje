@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-21
+maj: 2026-11-07
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
-resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF — LE POINT DÉCLARÉ CLOS LE 24/09 EST ROUVERT : relance du 07/10 sur une dette de cotisations, avec mention d'actions de recouvrement ; déclarer n'est pas payer.** Aucune décision prise, aucun montant au dépôt. 🔴 **LA DDPP 69 A RÉPONDU LE 01/10** (courrier 2026-8172) : catégorie « préparation de produits composés » CONFIRMÉE · **DÉROGATION À L'AGRÉMENT OBLIGATOIRE pour vendre à des professionnels, CERFA 13982** — tranche CONTRE la DDPP 56 du 18/07, la consigne « ne rien déposer avant l'arbitrage » TOMBE · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS. ⚠️ Aucun seuil identifiable à l'annexe III pour ce produit (absence constatée). ⛔ Le 13982 n'est PAS déposé, et trois professionnels ont déjà reçu du produit ou sont en négociation. + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
+resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF — LE POINT DÉCLARÉ CLOS LE 24/09 EST ROUVERT : relance du 07/10 sur une dette de cotisations, avec mention d'actions de recouvrement ; déclarer n'est pas payer.** Aucune décision prise, aucun montant au dépôt. ✅✅ **AGRÉMENT : LE SUJET EST FERMÉ LE 28/10 PAR LA DDPP 69 ELLE-MÊME — ni agrément ni dérogation pour un produit à base de miel, la déclaration d'activité du 14/08 suffit.** Son courrier 2026-8172 du 01/10, qui disait l'inverse, est une **erreur retirée par son auteur** ; la DDPP 56 avait raison depuis le 18/07. ⛔ **Il n'y a RIEN à déposer : le CERFA 13982 ne concerne pas ce produit.** ⚠️ **Ça ne ferme ni le PMS, ni l'étiquetage, ni la DLC, ni l'article 13 INCO, ni la traçabilité par lot.** · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS — lu en entier le 09/10, **inapplicable à notre pH**. 🧾 **CFE / IFER : avis 2026 disponibles, adhésion au prélèvement jusqu'au 30/11, paiement au 15/12 — aucun montant au dépôt, il n'est lisible que dans l'espace professionnel.** + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
 
 # Démarches administratives & réglementaires
@@ -13,6 +13,26 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 **[2026-08-11] Statut `bloquant` → `en_cours`** : la déclaration d'activité **est partie**. Le point dur n'est plus l'envoi mais **l'attente de l'accusé d'enregistrement**, qui désignera la DDPP compétente et débloquera les 3 questions. Les autres volets (HACCP, étiquetage/DLC, stabilité) restent ouverts — la fiche n'est pas close pour autant.
 
 **[2026-08-18] Mise à jour** : l'accusé est reçu, la DDPP du Rhône est compétente — **cette attente-là est finie**. Le point dur devient l'**étiquetage/DLC** *(mention corrigée le 03/09 : c'était « DDM », erroné — voir `../02_produit/eau-miellee-33cl.md`)* et la **stabilité** (`production-artisanale.md`) ; la réserve HACCP reste ouverte.
+
+## ✅✅ 2026-10-28 — LA DDPP 69 SE RÉTRACTE : NI AGRÉMENT NI DÉROGATION. LA DÉCLARATION D'ACTIVITÉ SUFFIT.
+
+**Réponse reçue le 28/10 au mail envoyé par Basekou le 27/10, en réponse au courrier départ 2026-8172.** Émetteur : **Alexandre RYCKBOSCH, DVM, adjoint au chef de service Sécurité sanitaire des aliments, DDPP 69** *(245 rue Garibaldi, 69422 Lyon Cedex 03)* — le dossier était jusque-là suivi par Marie-Claire Monin. **Texte intégral, cité parce que c'est la pièce qui fonde la position :**
+
+> *« Veuillez m'excuser pour cette erreur. En effet, pour les produits à base de miel, il n'y a pas besoin d'agrément. La déclaration d'activité est donc suffisante pour votre activité. »*
+
+🎯🎯 **CE QUE ÇA FERME, ET C'EST LE SUJET LE PLUS ANCIEN DU CHEMIN CRITIQUE** *(ouvert le 08/09)* : il n'y a **rien à déposer**. Le CERFA 13982 ne concerne pas ce produit, la dérogation n'a pas à être demandée, et **la déclaration d'activité enregistrée le 14/08 suffit**. ⇒ **L'obligation posée par le courrier 2026-8172 du 01/10 n'existait pas, et c'est l'administration elle-même qui le dit.**
+
+✅ **L'HYPOTHÈSE QUE LA SÉANCE AVAIT NOMMÉE SANS LA TRANCHER ÉTAIT LA BONNE.** Le 23/10, face à un formulaire sans ligne pour le miel et à une annexe III sans seuil pour le miel, deux lectures étaient possibles : ① le produit est **hors du champ**, l'absence de ligne en est la conséquence normale ; ② il y est, et l'instrument n'a pas été écrit pour lui. ⛔ **Aucune n'a été tranchée en session — question de droit.** ➡️ **C'est ① : le formulaire n'avait pas de case pour le miel parce que le miel n'y a pas sa place.**
+
+🎯 **ET LA FORME DE LA QUESTION A COMPTÉ.** Le mail demandait d'abord *« ce produit relève-t-il du champ de l'agrément ? »*, la rubrique de dépôt ne venant qu'en second. **Poser « sous quelle rubrique déposer » en premier aurait admis qu'on était dans le champ** — et aurait probablement appelé une rubrique par défaut au lieu d'une rétractation.
+
+⚡⚡ **LA DDPP 56 AVAIT RAISON DEPUIS LE 18 JUILLET, ET LE DOSSIER A TRANCHÉ CONTRE ELLE.** Sa réponse du 18/07 disait mot pour mot *« ni agrément ni dérogation requis — déclaration d'activité seule »*. Le 02/10, la contradiction a été réglée **en faveur de la DDPP 69**, au motif qu'elle était l'autorité compétente du lieu de production. ⇒ **La règle « l'autorité compétente tranche » a été appliquée correctement et a produit le mauvais résultat pendant trois mois.** 📌 **Leçon, et elle n'est pas « faire confiance à la première réponse » : quand deux administrations se contredisent, le désaccord lui-même est un fait à instruire, pas un conflit à arbitrer par le rang de l'émetteur.**
+
+⛔⛔ **CE QUE ÇA NE FERME PAS — à lire avant d'en tirer quoi que ce soit.** La réponse porte sur **l'agrément et la dérogation, et sur rien d'autre.** Restent entières : le **plan de maîtrise sanitaire**, l'**étiquetage** et ses mentions obligatoires *(DLC, QUID, article 24 INCO)*, la question ouverte de l'**article 13 INCO**, la **traçabilité par lot**, et toutes les obligations d'hygiène de la production. ⚠️ **« Pas d'agrément » ne veut pas dire « pas d'obligations ».**
+
+📌 **LA PIÈCE EST À CONSERVER, et c'est la doctrine du 19/10 qui le commande** : *la justification doit exister AVANT le contrôle.* ⇒ **Ce courriel EST cette justification** — il est nominatif, daté, émis par le service compétent, et il répond à une question écrite. ✅ **À archiver au Drive avec le courrier 2026-8172 auquel il répond**, les deux se lisant ensemble. 🎯 **La « page interne datée » que la doctrine prévoyait pour justifier un écart n'a plus d'objet sur ce point : il n'y a plus d'écart, il y a une réponse.**
+
+✅ **CE QUE ÇA VALIDE DANS LA MÉTHODE, en une ligne :** la doctrine du 19/10 — *un mail part, et un seul* — a fermé en 24 heures un sujet ouvert depuis le 08/09, après quatre reports et trois versions du courrier.
 
 ## 🏛️ 2026-10-19 — DOCTRINE DDPP : UN MAIL, PUIS LE SILENCE PAR DÉFAUT
 
@@ -111,7 +131,9 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 
 **« Préparation de produits composés » est la bonne catégorie.** ➡️ **La déclaration du 14/08 n'est pas à refaire.** *(Réserve ouverte depuis le 21/07 : close.)*
 
-### ② 🔴 LA DÉROGATION À L'AGRÉMENT EST OBLIGATOIRE POUR VENDRE À DES PROFESSIONNELS — et la contradiction est tranchée
+### ② ⛔ CADUQUE DEPUIS LE 2026-10-28 — LA DÉROGATION N'EST PAS REQUISE *(section conservée pour l'histoire ; voir la rétractation de la DDPP 69 en tête de fiche)*
+
+~~② 🔴 LA DÉROGATION À L'AGRÉMENT EST OBLIGATOIRE POUR VENDRE À DES PROFESSIONNELS — et la contradiction est tranchée~~
 
 ⛔ **Pour céder des denrées à d'autres professionnels, il faut la dérogation à l'agrément sanitaire — CERFA 13982 — dans la limite de quantités et de distance.**
 
@@ -224,6 +246,21 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 ✅✅ **2026-10-08 — BASEKOU TRANCHE : IL PAIE.** *« Je paie bientôt, pas besoin de revenir dessus. »* ➡️ **La dette est prise en charge par lui ; le point sort des relances et le compteur s'arrête.** ⛔ **Aucune date n'est écrite, et aucune ne lui est demandée.** 📌 **Les deux voies ci-dessus** *(délai de paiement, action sociale du CPSTI)* **ne sont donc pas empruntées — elles restent écrites à titre de rappel, pas de relance.** ⚠️ **L'alerte sur le SIRET partagé avec la démarche DDPP a été posée une fois : elle ne se rejoue pas.** ⛔ **Et ce qui reste ouvert ne l'est plus par ce point : le message du 03/10 n'est toujours pas ouvert, et le taux de cotisation lié au code APE 53.20Z reste à lire sur le portail.**
 
 ⚠️ **Un point n'a jamais été explicité et ne l'est toujours pas : le rattachement de ce statut à Lédjé.** ➡️ **Il cesse d'être bloquant** *(la déclaration est faite)* **mais il reste ouvert pour la suite** : c'est ce même statut qui portera **la facture de la première vente du 29/09** *(cf. `production-artisanale.md`)*. ⛔ **Aucun montant, aucun numéro, aucune donnée de ce statut ne s'écrit dans ce dépôt.**
+
+## 🧾 2026-11-07 — CFE / IFER : AVIS 2026 DISPONIBLES, RIEN N'EST EN RETARD, ET AUCUN MONTANT N'EST LISIBLE D'ICI
+
+**Constat daté et sourcé, descendu de la file 📥 de la page ÉTAT où il attendait depuis le 03/11. Aucune décision n'est prise ici.**
+
+📩 **Courriel DGFiP du 2026-11-02 à 15h01 UTC, non lu** : les avis d'impôt 2026 de **CFE** *(cotisation foncière des entreprises)* et/ou d'**IFER** *(imposition forfaitaire sur les entreprises de réseaux)* sont mis à disposition dans l'espace professionnel.
+
+⏳ **Deux échéances, dans cet ordre :**
+
+* **30/11/2026** — dernier jour pour adhérer au **prélèvement à l'échéance**.
+* **15/12/2026** — paiement au plus tard.
+
+⛔⛔ **LE MONTANT N'EST PAS AU DÉPÔT, ET CE N'EST PAS UNE LACUNE À COMBLER.** Il n'est lisible que dans l'espace professionnel, auquel **aucun outil de session n'accède** — ni le connecteur Gmail, ni le navigateur. ⚠️ **Une estimation ne remplace pas une lecture : aucun chiffre ne s'écrit ici tant que Basekou ne l'a pas lu.** *(Et la règle générale tient : aucun montant ne s'écrit au dépôt.)*
+
+📌 **Au 07/11, rien n'est en retard** : la première échéance est à 23 jours. ⚠️ **Ce que ça ne dit pas** : si Lédjé est redevable, et de combien. Le courriel annonce une mise à disposition, pas une dette.
 
 ## 💳 Litige Trade Republic — ouvert au dépôt le 2026-10-21, et AUCUNE FICHE NE LE PORTAIT
 

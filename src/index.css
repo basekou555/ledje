@@ -1503,3 +1503,28 @@ fieldset.v-field legend em { color: var(--gold-deep); font-style: normal; }
   letter-spacing: 0.02em;
   user-select: all;
 }
+
+/* Le bandeau du mode test (/commander?test=1) — ajouté le 2026-10-27.
+   Volontairement voyant et hors charte : une page qui ressemble à une vraie
+   page de commande sans encaisser doit l'annoncer sans ambiguïté. Il n'est
+   visible que derrière le paramètre d'URL, aucun lien du site n'y mène. */
+.v-bandeau-test {
+  margin: 0 0 1.4rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px dashed #B8860B;
+  border-radius: 8px;
+  background: #FFF8E1;
+  color: #5A4300;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.v-bandeau-test code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: rgba(0, 0, 0, 0.06);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  user-select: all;
+}
+
+.v-bandeau-test a { color: inherit; text-decoration: underline; }

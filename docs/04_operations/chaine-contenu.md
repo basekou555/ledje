@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-09-11
+maj: 2026-10-21
 source: "Genèse dictée par Basekou le 2026-09-11. Pilote des 3 pièces du 2026-09-08 (decisions-log, 2026-09-10). Arborescence Drive posée le 2026-09-08."
 resume: "La chaîne de production du contenu : pourquoi elle existe (des agents, pas des outils), ses 7 maillons, les 2 points de validation de Basekou, où vit quoi, ce qui est outillé, ce que le pilote a prouvé et ses 3 limites."
 ---
@@ -11,6 +11,8 @@ resume: "La chaîne de production du contenu : pourquoi elle existe (des agents,
 **Ici : comment le contenu se fabrique.** Ce qu'on dit et pourquoi — niveaux, formats, cadence,
 filtre avant publication — vit dans [`../03_marche/grille-contenu.md`](../03_marche/grille-contenu.md).
 Les fichiers et leur nommage : [`contenu-drive.md`](contenu-drive.md).
+
+🆕 **2026-10-21 — Comment un rush devient une pièce (dérushage, recette, rendu par script, relecture de l'oral) : [`contenu-rushes.md`](contenu-rushes.md)** — proposition en `hypothèse`, avec les neuf arbitrages qu'elle demande à Basekou. Elle contourne la limite n° 2 ci-dessous par construction (le son réel des rushes) et déplace le montage du studio Higgsfield vers la machine de Basekou, là où sont les rushes.
 
 ## Pourquoi cette chaîne existe
 
