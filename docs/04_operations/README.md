@@ -22,3 +22,4 @@ production artisanale, démarches administratives et réglementaires, technique 
 | [`site-technique.md`](site-technique.md) | Stack, Supabase (pièges voulus), piège Vercel, accessibilité, workflow git | figé |
 | [`chaine-contenu.md`](chaine-contenu.md) | La machine à contenu : les 7 maillons, les 2 points de validation, où vit quoi, ce que le pilote a prouvé et ses 3 limites | en_cours |
 | [`contenu-drive.md`](contenu-drive.md) | Le Drive contenu : la chaîne de dossiers, la convention de nommage, et la règle « l'ID, pas le chemin » | en_cours |
+| [`contenu-rushes.md`](contenu-rushes.md) | 🆕 **Proposition du 21/10** — le système rushes → pièces : rush indexé, recette, gabarit de format ; six étapes dont trois outillées (`tools/contenu/`) ; premier lot sur les trois gisements ; neuf arbitrages pour Basekou | hypothèse |
