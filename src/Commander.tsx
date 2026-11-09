@@ -95,6 +95,35 @@ const BOUTEILLES_PAR_PACK = 6
    aperçu de PR, le paiement ramène donc en PRODUCTION, pas sur l'aperçu.
    ✅ Vider cet objet referme le paiement direct : le bouton disparaît et la
    commande repart par le seul canal de contact. */
+/* ══ LE MODE TEST — ouvert le 2026-10-27 ══
+
+   Basekou : « j'ai pas envie de faire un vrai paiement, sachant que Stripe
+   prennent des frais ». Le mode test de Stripe répond à ça : cartes fictives,
+   aucun argent, aucun frais.
+
+   ⚠️ MODE RÉEL ET MODE TEST SONT DEUX MONDES SÉPARÉS chez Stripe — produits,
+   prix, liens ET SECRETS DE WEBHOOK y sont distincts. Les liens ci-dessous
+   ne peuvent donc PAS encaisser : ils n'existent que dans le monde de test.
+
+   ⛔ ON N'Y ARRIVE QUE PAR `?test=1`, et jamais autrement : aucun lien du
+   site n'y mène, et un visiteur ordinaire ne peut pas tomber dessus. Un
+   bandeau bien visible le dit quand même — une page qui ressemble à une
+   vraie page de commande sans encaisser doit l'annoncer. */
+const LIENS_TEST: Record<number, string> = {
+  1: 'https://buy.stripe.com/test_3cIcN4gH19JhcIVb28gQE01',
+  2: 'https://buy.stripe.com/test_6oU7sKduP7B9cIV4DKgQE02',
+  3: 'https://buy.stripe.com/test_bJe6oG2Qb3kTfV7c6cgQE03',
+  4: 'https://buy.stripe.com/test_9B66oG0I3dZx10ddaggQE04',
+  5: 'https://buy.stripe.com/test_14AcN4fCXbRp6kxb28gQE05',
+  6: 'https://buy.stripe.com/test_5kQdR8fCXbRp7oBfiogQE06',
+}
+
+/* Lu une fois au chargement : la page ne change pas de mode en cours de
+   route, et le flag ne survit pas à une navigation — c'est voulu. */
+const MODE_TEST =
+  typeof window !== 'undefined' &&
+  new URLSearchParams(window.location.search).get('test') === '1'
+
 const LIENS: Record<number, string> = {
   1: 'https://buy.stripe.com/5kQdR8fCXbRp7oBfiogQE06',
   2: 'https://buy.stripe.com/8x27sK9ez7B9fV75HOgQE07',
@@ -119,6 +148,18 @@ const ZONE = /(^|\D)69\d{3}|lyon|villeurbanne|bron|venissieux|vénissieux|caluir
 /* 'paiement' est ce qui suit l'envoi du formulaire : UN SEUL GESTE, régler.
    (C'était 'relance' le 22/10, avec deux gestes dont le premier faisait
    sortir du site avant d'avoir payé — inversion du 23/10.) */
+/* Le bandeau du mode test. Il dit les trois choses qu'il faut : qu'aucun
+   argent ne circule, avec quelle carte payer, et comment en sortir. */
+function BandeauTest() {
+  return (
+    <p className="v-bandeau-test" role="status">
+      <strong>Mode test</strong> — aucun paiement réel, aucun frais. Carte :{' '}
+      <code>4242 4242 4242 4242</code>, n’importe quelle date future, n’importe
+      quel CVC. <a href="/commander">Revenir au vrai formulaire</a>
+    </p>
+  )
+}
+
 type Etat = 'idle' | 'loading' | 'paiement' | 'invalid' | 'network'
 
 /* Le récapitulatif déposé avant de partir vers Stripe, relu par
@@ -180,7 +221,7 @@ export default function Commander() {
   const total = packs * PRIX_PACK
   /* null si aucun lien n'existe pour cette quantité : le bouton disparaît
      plutôt que d'ouvrir un paiement au mauvais montant. */
-  const lienPaiement = LIENS[packs] ?? null
+  const lienPaiement = (MODE_TEST ? LIENS_TEST : LIENS)[packs] ?? null
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -233,6 +274,7 @@ export default function Commander() {
         <main className="v-page" id="top">
           <section className="v-section v-page-head">
             <div className="container container--wide">
+              {MODE_TEST && <BandeauTest />}
               <p className="v-eyebrow">Commander</p>
               <h1 className="v-title v-title--huge">
                 {horsZone ? 'On te prévient.' : 'Plus qu’à régler.'}
@@ -298,6 +340,7 @@ export default function Commander() {
           <div className="container container--wide">
             <div className="v-split">
               <div className="v-split-main">
+                {MODE_TEST && <BandeauTest />}
                 <p className="v-eyebrow">Commander</p>
                 <h1 id="cmd-title" className="v-title v-title--huge">
                   Fraîches, chez toi demain.
