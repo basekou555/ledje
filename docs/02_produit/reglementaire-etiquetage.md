@@ -110,3 +110,36 @@ Le contenu légal de l'étiquette de la bouteille 33cl est figé — **dénomina
 ➔ **La maquette vivante n'appartient donc pas à la série 185 × 67.** 🔍 **Lue à 96 dpi (convention Canva), elle fait **200 × 50 mm** : la HAUTEUR colle exactement à la mesure de la bande lisse du 09/09 (51-52 mm → 50 mm), la LARGEUR est à 200 et non 210. ⚠️ Écart de 10 mm non expliqué — à confirmer avant commande, parce que c'est la largeur qui décide du recouvrement autour de la bouteille.**
 
 ✏️ **Correction d'une phrase écrite plus haut le même jour : « aucun fichier modifié depuis le 11/09 » vaut POUR LE DRIVE.** 📌 **Le design Canva a été créé le 2026-10-03 — mais 39 pages en cinq minutes, donc une duplication, pas une correction, et antérieure au QUID du 07/11.** ➔ **Le fond tient : aucune correction n'est encore écrite, où que ce soit.**
+
+## 📋 2026-11-09 — LA LISTE COMPLÈTE DE CE QUI DOIT CHANGER SUR L'ÉTIQUETTE
+
+📌 **Pourquoi cette section existe : les points vivaient dans SIX endroits différents** <i>(relecture du 09/09, alerte bouchon du 16/09, arbitrage du 07/11, mesures du 09/11)</i>, **et trois étaient déjà réglés sans que ce soit visible.** ➔ **Demandée par Basekou le 09/11 : *« les étiquettes doivent évoluer, on s'était noté des choses à changer, je veux bien la liste »*. ✅ Il confirme au passage que la `v1.2` est bien la dernière version.**
+
+### A — Les trois corrections qui BLOQUENT la commande
+
+**① Remettre la maquette au format `210 × 50 mm`.** 📏 **La maquette Canva est à `4,00 : 1` au lieu de `4,20 : 1` ⇒ 200 mm de large sur un tour de bouteille de 204 mm ⇒ l'étiquette NE SE REFERME PAS** <i>(mesuré le 09/11)</i>.
+
+**② QUID : `8 %` → `6 %`.** ⛔ **Mention obligatoire inexacte depuis que la dose est figée à 15 mL** <i>(détail du calcul et des densités : section du 09/11 ci-dessus)</i>.
+
+**③ Le renvoi « DLC et n° de lot : voir bouchon » — LE POINT LE PLUS LOURD, ET CE N'EST PAS UNE CORRECTION DE TEXTE.** 📌 **La raison réelle n'est pas que le renvoi soit « faux » : c'est qu'AUCUN MOYEN DE MARQUER LE BOUCHON N'A JAMAIS ÉTÉ ACQUIS** — ni tampon dateur, ni pastilles de lot, ni marqueur validé <i>(alerte du 16/09)</i>. 🔴 **L'étiquette renvoie donc la DLC vers un support VIERGE, or l'article 24 du règlement INCO 1169/2011 rend la DLC obligatoire sur une denrée microbiologiquement très périssable. Une DLC renvoyée nulle part n'est pas une DLC.**
+
+✅ **PROPOSITION TECHNIQUE DE LA SÉANCE DU 09/11 — imprimer DEUX CHAMPS VIDES sur l'étiquette elle-même :** `DLC : __/__/__` et `Lot : ______`, remplis au conditionnement. ➔ **Ce que ça règle : les deux décisions d'origine sont tenues à la lettre** <i>(DLC et non DDM, 03/09 · aucune date pré-imprimée, 10/09)</i>**, le renvoi vers un support inexistant disparaît, et AUCUN ACHAT n'est nécessaire.** 📌 **Un feutre indélébile suffit tant que les séries font ≈ 50 bouteilles.**
+
+### B — Une mesure à faire, pas une décision
+
+**④ Hauteur de x ≥ `1,2 mm`** sur les lignes secondaires du tableau nutritionnel <i>(point ⑤ de la relecture du 09/09)</i>. ⚠️ **Jamais contrôlée, et ce n'est PAS « 6 pt »** — une erreur qui avait été consignée ailleurs. 🔧 **Se lit directement dans Canva ; sur un PDF aplati à ≈ 326 dpi, 1,2 mm ≈ 15 pixels.**
+
+### C — Une question de DROIT ouverte, qui ne bloque pas l'impression
+
+**⑤ « Eau de source » dans la dénomination**, où elle figure DEUX FOIS. ✅ **La moitié factuelle est tombée le 11/09 : Cristaline est bien commercialisée comme eau de source.** 🔴 **Ce qui reste : rien n'établit qu'une BOISSON TRANSFORMÉE puisse reprendre ce terme réglementé dans sa dénomination. Jamais posé à une source compétente.** ⛔ **Consigne inchangée : aucune session ne la tranche.** 🎯 **C'est la quatrième question pour la DDPP 69.**
+
+### D — DÉJÀ RÉGLÉS : ne pas les rouvrir
+
+- ✅ **Coquille « acides gras saturées »** → corrigée, la `v1.2` porte « saturés » <i>(point ② du 09/09)</i>
+- ✅ **DDM** → retirée en `v1.2` <i>(point ③)</i>
+- ✅ **« Miel de fleurs »** → tient : le châtaignier, seul porteur du doute sur le miellat, est sorti de la recette le 15/10 <i>(point ⑥, refermé le 09/11)</i>
+- ✅ **« Sans arôme artificiel »** → **DÉCISION DU 11/09 : LA MENTION RESTE.** L'objection de Basekou avait été retenue — des boissons portent bien des arômes artificiels, donc la mention EST distinctive <i>(point ④)</i>. ⚠️ **Subsiste un risque de périmètre de comparaison, mince, et il a déjà été pesé : ne pas le rejouer.**
+
+### E — Évolutions souhaitées, NON bloquantes
+
+📌 **Deux motifs de réimpression notés le 07/11 et explicitement non bloquants : lancer une SAVEUR · ajouter la mention « À SECOUER ».** ➔ **Ils ne retardent pas la commande en cours.**
