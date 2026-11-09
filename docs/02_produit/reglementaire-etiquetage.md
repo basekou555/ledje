@@ -92,3 +92,19 @@ Le contenu légal de l'étiquette de la bouteille 33cl est figé — **dénomina
 📖 **L'« ARTICLE 13 » NE BLOQUE PAS LA COMMANDE — ce n'est pas une question de droit.** 📌 **C'est le point ⑤ du 09/09 : la lisibilité, hauteur de x minimale **1,2 mm** (« pas 6 pt »). Ça se MESURE sur la maquette, ça ne se demande pas à la DDPP.** 🔧 **Repère pratique : les PDF étant des images aplaties ≈ 326 dpi, 1,2 mm ≈ 15 pixels de hauteur de x.** ➔ **Ce qui reste pour la DDPP, et seulement ça : « EAU DE SOURCE » (point ①), dénomination réglementée qui figure deux fois — consigne inchangée, NE PAS TRANCHER.**
 
 ⛔ **Ce qui reste à faire avant de commander, et l'ordre ne s'invente pas : IL N'Y A PAS DE FICHIER CORRIGÉ.** 📌 **Dernier PDF d'étiquette au Drive : `étiquette lédjé 210x50 v1.2.pdf`, du 2026-09-10 ; aucun fichier modifié dans ce dossier depuis le 11/09.** ⇒ **Les corrections accumulées (QUID, coquille « acides gras saturées », DDM, « sans arôme artificiel ») n'ont jamais été écrites dans un fichier. « Commander » veut donc dire : FAIRE LA MAQUETTE, puis commander.**
+
+### 🎨 2026-11-09 — Où vit réellement la maquette, et ce que son gabarit dit du format
+
+✅ **LA SOURCE EST UN DESIGN CANVA, PAS UN PDF.** 📌 **`ledje - etiquette`, id `DAHW_EMSsPg`, 39 pages, toutes à `756 × 189 px`.** ⇒ **Pour corriger le QUID il n'y a rien à recréer : il y a une maquette à éditer. Les PDF du Drive sont des SORTIES de cette source.**
+
+📏 **LE RATIO EXCLUT L'ANCIEN FORMAT, et il l'exclut sans conversion — un rapport ne dépend pas du dpi :**
+
+| format | rapport |
+|---|---|
+| maquette Canva `756 × 189 px` | **4,00 : 1** |
+| `210 × 50 mm` *(le format au dépôt)* | 4,20 : 1 |
+| `185 × 67 mm` *(série dont `V1.8` est le dernier fichier)* | 2,76 : 1 |
+
+➔ **La maquette vivante n'appartient donc pas à la série 185 × 67.** 🔍 **Lue à 96 dpi (convention Canva), elle fait **200 × 50 mm** : la HAUTEUR colle exactement à la mesure de la bande lisse du 09/09 (51-52 mm → 50 mm), la LARGEUR est à 200 et non 210. ⚠️ Écart de 10 mm non expliqué — à confirmer avant commande, parce que c'est la largeur qui décide du recouvrement autour de la bouteille.**
+
+✏️ **Correction d'une phrase écrite plus haut le même jour : « aucun fichier modifié depuis le 11/09 » vaut POUR LE DRIVE.** 📌 **Le design Canva a été créé le 2026-10-03 — mais 39 pages en cinq minutes, donc une duplication, pas une correction, et antérieure au QUID du 07/11.** ➔ **Le fond tient : aucune correction n'est encore écrite, où que ce soit.**
