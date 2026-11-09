@@ -6,6 +6,8 @@ source: "SOT §4.4 partie étiquetage (archive 2026-07-24) + contenu légal 33cl
 resume: "Étiquetage INCO de la boisson pré-mélangée, mentions obligatoires, allègements possibles ; contenu légal 33cl figé — dénomination, QUID, « sans arôme artificiel » (détail : eau-miellee-33cl.md)."
 ---
 
+⛔⛔ **FORMAT — À LIRE AVANT TOUTE COMMANDE : `210 × 50 mm`, ET RIEN D'AUTRE.** ⚠️ **Le `185 × 67 mm` qu'on retrouve dans d'anciens documents est l'ANCIEN format (maquettes V1.6 à V1.8 d'août), ABANDONNÉ le 09/09 sur mesure de la bande lisse.** 🔴 **Commander en 185 × 67 donnerait des étiquettes INUTILISABLES : 185 mm ne fait pas le tour d'une bouteille de 204 mm (Ø 65).** 📌 **Le piège complet, avec son historique, est dans `docs/04_operations/fournisseurs.md` — il y est marqué « PIÈGE VÉRIFIÉ LE 15/10 », et il a piégé deux fois : une routine le 15/10, puis une déclaration le 09/11.** ➔ **Ce pointeur existe parce qu'un avertissement rangé dans la fiche fournisseurs n'était pas lu par qui vient ici parler d'étiquettes.**
+
 # Réglementaire produit — étiquetage
 
 Boisson pré-mélangée = denrée préemballée → **étiquetage INCO** (dénomination, ingrédients dont miel, quantité nette, DDM/DLC, conservation, exploitant, mention nourrissons < 12 mois, déclaration nutritionnelle). **Allègement possible** (exemption de déclaration nutritionnelle) pour fabrication artisanale en petites quantités / circuit local — à confirmer au cas par cas.
