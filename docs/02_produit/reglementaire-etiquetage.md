@@ -143,3 +143,33 @@ Le contenu légal de l'étiquette de la bouteille 33cl est figé — **dénomina
 ### E — Évolutions souhaitées, NON bloquantes
 
 📌 **Deux motifs de réimpression notés le 07/11 et explicitement non bloquants : lancer une SAVEUR · ajouter la mention « À SECOUER ».** ➔ **Ils ne retardent pas la commande en cours.**
+
+### 🍾 2026-11-09 — LE POINT DU BOUCHON EST RÉSOLU : UN SEUL CHAMP, ET LA DLC VAUT LE LOT
+
+✅✅ **DÉCLARATION DE BASEKOU, FONDÉE EN DROIT : *« la DLC c'est le numéro de lot, c'est la même info chez nous »* `[figé 09/11]`.** 📌 **La **directive 2011/91/UE**, article 4, dispense de l'indication du lot dès lors que la DLC est indiquée — à UNE condition : que la date porte **au moins le JOUR et le MOIS, en clair et dans cet ordre**.** ➔ **Ce n'est donc pas un arrangement interne, c'est le régime légal.**
+
+✅ **⇒ UN SEUL CHAMP SUFFIT.** ✏️ **La proposition à DEUX champs (`DLC` + `Lot`), écrite plus tôt le même jour, est RETIRÉE : le second était un champ de trop.**
+
+✏️ **ET LE LIBELLÉ N'EST PAS « DLC ».** 📌 **Règlement 1169/2011, **annexe X** : la date limite de consommation est précédée de la mention **« À consommer jusqu'au »**.** ⇒ **C'est ce libellé qui s'imprime, suivi du blanc.**
+
+🔴 **CE QUI FAIT TENIR LA DISPENSE, et qu'il ne faut pas perdre de vue : une date CODÉE, ou réduite au mois, ferait tomber l'exemption — et le numéro de lot redeviendrait obligatoire.**
+
+#### Où placer le champ
+
+✅ **La contrainte est plus légère qu'on le croyait : l'article 13.5 n'impose le MÊME CHAMP DE VISION qu'à la dénomination, la quantité nette et le titre alcoométrique.** ⇒ **La DLC n'y est pas soumise et se place où l'on veut, pourvu qu'elle soit lisible.**
+
+- 📍 **Dernière ligne du bloc d'informations** <i>(ingrédients, tableau nutritionnel, fabricant)</i>, **sur sa propre ligne** — c'est là que l'œil la cherche, et rien n'est à déplacer
+- 📍 **≥ 10 mm du bord de fin** — l'étiquette se recouvre de ≈ 6 mm en se refermant, un champ trop près du bord passe sous le rabat
+- 📍 **Zone de ≈ 22 × 5 mm** pour le blanc, soit une date écrite à la main lisiblement
+- 📍 **Mots imprimés à hauteur de x ≥ 1,2 mm** <i>(point ④ de la liste)</i>
+
+#### ⚠⚠ Le piège matériel, à régler À LA COMMANDE
+
+📌 **Les étiquettes sont en PP blanc 60 µ — du plastique, pas du papier. Un feutre à base d'eau n'y tient pas, et la condensation du frigo le fait baver ou s'effacer.** 🔴 **Une DLC qui disparaît est PIRE qu'un champ absent : l'article 24 l'exige, et une mention effacée n'est pas une mention.**
+
+- ✅ **① Gratuit — demander une FENÊTRE EN VERNIS MAT** (ou non vernie) sur la zone de date : ça se spécifie à la commande et ça accepte n'importe quel stylo
+- ② Sinon, un **marqueur permanent à SOLVANT** <i>(Edding 3000, Sharpie)</i>, à tester sur une étiquette avant la série
+
+#### 🧹 Et une règle de traçabilité qui s'écrit toute seule
+
+📌 **Si la date EST le lot, un retrait ou un rappel porte sur TOUTE LA PRODUCTION D'UN JOUR** — deux lots faits le même jour ne sont pas distinguables. ✅ **À ≈ 50 bouteilles par série, sans conséquence pratique.** ➔ **Mais ça donne enfin un énoncé concret aux VOLETS 6 ET 7 du PMS** <i>(traçabilité, retrait, rappel — déclarés sans appui)</i> **: l'unité de rappel est la JOURNÉE DE PRODUCTION.**
