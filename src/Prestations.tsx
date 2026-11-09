@@ -53,12 +53,12 @@ const PRESTATIONS = [
   {
     titre: 'On fournit les bouteilles',
     texte:
-      'Vous servez vous-mêmes. On livre des lots, frais, le jour convenu. La formule la plus simple, et la plus souple sur les quantités.',
+      'Vous servez vous-mêmes. On livre des lots, frais, le jour convenu. C’est la formule la plus simple, et on suit vos quantités.',
   },
   {
     titre: 'Une étiquette à votre nom',
     texte:
-      'La bouteille porte le nom de votre événement. Il faut s’y prendre à l’avance — une étiquette se fabrique, elle ne s’improvise pas la veille.',
+      'La bouteille porte le nom de votre événement. Prévenez-nous le plus tôt possible : une étiquette se fabrique, ça ne se règle pas en deux jours.',
   },
   {
     titre: 'Carafes et verres',
@@ -121,8 +121,8 @@ export default function Prestations() {
           <div className="container container--wide">
             <h2 id="produit-title" className="v-title v-title--xl">Ce qu’on sert</h2>
             <p className="v-text v-text--lead">
-              De l’eau de source et du miel français. Rien d’autre. Ça se boit
-              glacé, et c’est ce qui fait la différence sur une journée dehors.
+              De l’eau de source et du miel français. Rien d’autre. Ça se sert
+              glacé, et ça tient sur une journée dehors.
             </p>
             <dl className="v-specs">
               <div className="v-spec">
@@ -156,7 +156,7 @@ export default function Prestations() {
             />
             {INSTA && (
               <p className="v-note">
-                Tu préfères écrire&nbsp;? <a href={MAIL}>Par mail</a>, ou en
+                Vous préférez écrire&nbsp;? <a href={MAIL}>Par mail</a>, ou en
                 message sur{' '}
                 <a
                   href={INSTA}

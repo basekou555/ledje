@@ -406,8 +406,8 @@ export default function Commander() {
               Glacée, à la sortie du frigo.
             </h2>
             <p className="v-text v-text--lead">
-              De l’eau de source et du miel français. C’est tout, et c’est au
-              froid que ça se joue.
+              De l’eau de source et du miel français. C’est tout. Ça se boit
+              glacé.
             </p>
           </div>
         </section>
@@ -529,8 +529,7 @@ export default function Commander() {
                 {etat === 'loading' ? 'Un instant…' : `Commander — ${total} €`}
               </button>
               <p className="v-note">
-                On confirme avant de préparer. Le paiement se fait au moment
-                où on te recontacte.
+                Paiement par carte juste après, sécurisé par Stripe.
               </p>
             </form>
           </div>
