@@ -96,7 +96,7 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 | `social-media-skills` | Garder, à surveiller | Utile pour TikTok/Instagram, mais le plus lourd (~110 skills, dont des plateformes non utilisées) |
 | `sales`, `operations`, `productivity` | Garder | RDV restaurateurs, fournisseurs, tâches |
 | `pdf-viewer`, `anthropic-skills`, `cowork-plugin-management` | Garder | Devis PDF, documents, adaptation des plugins |
-| `design`, `ui-design-review`, `landing-page-design`, `ui-ux-pro-max` | Doublon à réduire — **non tranché** | Quatre outils pour le même besoin (le site) |
+| `design`, `ui-design-review`, `landing-page-design`, `ui-ux-pro-max` | Doublon à réduire — **non tranché** | Quatre outils pour le même besoin (le site). `landing-page-design` et `ui-ux-pro-max` vivent au dépôt (`.claude/skills/`), pas dans l'application : ils se retirent par une PR |
 | `legal` | **Couper** | Doublon de `small-business:contract-review` |
 | `product-management`, `engineering` | **Couper** | Pensés pour une équipe logicielle ; portent la plupart des connecteurs en échec |
 | `human-resources`, `finance`, `data`, `enterprise-search` | **Couper** | Sans usage pour une marque à une personne |

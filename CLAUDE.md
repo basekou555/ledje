@@ -8,6 +8,7 @@ Dans tous les cas, commence par lire `docs/README.md` — la carte du cerveau L�
 Règles qui s'appliquent à TOUTE tâche, quel que soit le sujet
 
 * Quel outil pour quelle tâche, pourquoi et dans quel ordre : `docs/05_systeme/guide-outils.md`. À ouvrir avant de commencer, pour utiliser le skill ou le connecteur prévu plutôt que d'improviser. Si l'outil prévu n'est pas disponible dans la session, le dire à Basekou.
+* Avant de changer de session ou de la fermer : dérouler le skill `ledje-passation` pour vérifier que tout est transmis (`docs/05_systeme/workflow-maj.md`, Clôture § 6). Une PR non fusionnée n'existe pas pour la session suivante.
 * Aucune allégation santé, explicite ou implicite (`docs/01_adn/conformite.md`) — vrai pour le copy du site comme pour les prompts d'image.
 * Aucun symbole religieux explicite (`docs/01_adn/combats.md` et `conformite.md`).
 * Si une tâche touche la marque, la conformité ou les valeurs : vérifier dans `docs/01_adn/` avant d'agir, ne jamais improviser.
@@ -16,7 +17,7 @@ Si la tâche concerne le SITE (landing page, déploiement, DNS, Supabase)
 * Référence technique complète : `docs/04_operations/site-technique.md` (pièges connus : variables d'environnement Vercel qui écrasent le fallback, policies Supabase INSERT-only à ne pas modifier, ne jamais réintroduire de `.select()` après un insert anon). Côté conversion/copy : `docs/03_marche/site-precommande.md`.
 * Workflow git (`docs/04_operations/site-technique.md`) : repartir de `origin/main` à jour, nouvelle PR draft, ne jamais empiler sur du mergé.
 * Toute modification de copy (accroche, CTA, textes) doit respecter les règles de conformité ci-dessus.
-* Améliorer l'apparence ou le texte du site (« plus beau », « mieux écrit ») : ne pas retoucher le code à l'instinct. Suivre `docs/05_systeme/guide-outils.md` § 2 — regarder le site rendu, lister avec `ui-design-review:ui-review`, laisser Basekou choisir, corriger avec `ui-design-review:ui-polish`, passer tout texte à `marketing:brand-review`, prouver par des captures avant/après.
+* Améliorer l'apparence ou le texte du site (« plus beau », « mieux écrit ») : ne pas retoucher le code à l'instinct. Dérouler le skill `ledje-site` (`.claude/skills/ledje-site/SKILL.md`), qui détaille `docs/05_systeme/guide-outils.md` § 2 — regarder le site rendu, lister avec `ui-design-review:ui-review`, laisser Basekou choisir, corriger avec `ui-design-review:ui-polish`, passer tout texte à `marketing:brand-review`, prouver par des captures avant/après.
 Si la tâche concerne la PRODUCTION VISUELLE (compiler un prompt, générer un shot)
 Documents de référence (dans cet ordre de dépendance)
 

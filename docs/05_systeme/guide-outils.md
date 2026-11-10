@@ -153,6 +153,29 @@ se propose, elle ne s'applique qu'après l'accord de Basekou.
 | Décision prise | Une ligne dans `decisions-log.md`, jamais de réécriture |
 | Veille sur un concurrent | Skill `marketing:competitive-brief` — jamais de comparaison ni de nom en public |
 
+## 11 bis. Les sessions de Basekou et leur trame
+
+Liste donnée par Basekou le 2026-11-10. Une **trame** est un skill du dépôt (`.claude/skills/`),
+chargé par toutes les sessions : il détaille les étapes, les outils et la preuve attendue pour un
+type de session. On l'appelle par son nom (`/ledje-site`) ou la session le déclenche seule.
+
+| Session | Trame | État |
+|---|---|---|
+| Lédjé site | `ledje-site` | Écrite le 10/11, à éprouver à l'usage |
+| Lédjé tool (outils, formation à Claude) | — | À écrire |
+| COO | — | À écrire |
+| Com et branding | — | À écrire |
+| Produit | — | À écrire |
+| MAJ SOT | — | À écrire |
+| Système de création de contenu | — | À écrire |
+| Toutes, avant d'en changer | `ledje-passation` | Écrite le 10/11 |
+
+Les trames restantes s'écrivent une par une, **après** que celle du site a été éprouvée : une
+trame écrite sans avoir été déroulée est une supposition.
+
+**Trois skills vivent déjà au dépôt** et non dans l'application : `landing-page-design`,
+`ui-ux-pro-max` et `find-skills`. Ils se retirent par une PR, pas dans les réglages.
+
 ## 12. Ce que l'environnement ne sait pas faire
 
 | Limite | Conséquence | Contournement |
@@ -176,6 +199,7 @@ tableau.
 | Playwright (captures du site) | 10/11 | Fonctionne, accueil et `/commander` capturés à 375 px et 1440 px |
 | `ui-design-review:ui-review` | 10/11 | Fonctionne. Sa banque d'exemples (UXKIN) ne se connecte pas depuis une session cloud ; la revue se fait sans |
 | Aperçu Vercel sur une PR | 10/11 | Fonctionne, lien posté en commentaire de la PR |
+| `ledje-site`, `ledje-passation` | Non | Écrits le 10/11, pas encore déroulés par une autre session |
 | Tous les autres skills cités | Non | — |
 
 ## Renvois
