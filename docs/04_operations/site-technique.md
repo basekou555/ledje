@@ -11,6 +11,37 @@ resume: "La technique du site : stack, fichiers clés, Supabase (pièges voulus)
 **Le rôle marketing du site (refonte, copy, précommande) : `../03_marche/site-precommande.md`.** Ici : la machine.
 
 
+
+## 🔎 2026-10-27 — Une page HTML par route : partage et indexation
+
+**Cap donné par Basekou le 27/10** : *« prépare le site au Ramadan »* — **la north star du dossier** *(`01_adn/vision-positionnement.md`)*. C'est la période où on cherchera la marque et où on partagera son lien.
+
+### ⛔ Le défaut corrigé, et il ne se voyait pas dans un navigateur
+
+Ce site est une SPA. Les titres et descriptions étaient posés **en JavaScript** *(`document.title` dans un `useEffect`)*, donc **le HTML SERVI portait exactement les mêmes balises pour les cinq pages**. Et il n'y avait **aucune balise de partage** — ni `og:`, ni `twitter:`, ni canonique, ni `robots.txt`, ni `sitemap.xml`.
+
+🔴 **AUCUN robot de prévisualisation n'exécute de JavaScript** — ni WhatsApp, ni iMessage, ni Messenger, ni Signal. ⇒ **Un lien lédjé partagé en messagerie montrait un titre générique et aucune image, quelle que soit la page.** ⚡ **Or la diffusion de lédjé passe justement par les messageries** *(Instagram 91 visites sur 105 sources identifiées, Google 11)* — chaque partage perdait donc l'essentiel de son effet.
+
+### Comment c'est fait
+
+**`scripts/pages.mjs`**, lancé après `vite build` *(chaîné dans le `build` du `package.json`)* : il recopie `dist/index.html` **une fois par route** en substituant titre, description, image de partage, canonique et `robots`. **Aucun autre changement** — les liens vers le JS et le CSS restent ceux de Vite.
+
+⚠️ **`vercel.json` doit envoyer chaque route vers SON fichier AVANT le repli `/(.*) → /index.html`**, sinon le repli avale tout. Les réécritures sont évaluées dans l'ordre, la première qui matche gagne.
+
+📌 **Une réécriture ne change PAS l'URL** : le routeur de `src/main.tsx`, qui lit `window.location.pathname`, continue d'afficher la bonne page. Il tolère en plus le suffixe `.html` depuis le 27/10 — sans ça, une arrivée directe sur `/commander.html` retomberait sur la vitrine, en silence.
+
+⛔ **Ne plus poser de `document.title` dans les pages** : le HTML servi est la source de vérité, et l'écraser en JS remettait l'ancien titre, plus court, dans l'onglet et dans Google.
+
+### L'image de partage — `public/og.jpg`
+
+**1200 × 630, 76 ko.** Composée depuis la photo de dégustation validée et le wordmark officiel, aux couleurs mesurées de l'étiquette. ⚠️ **Référencée en URL ABSOLUE** : une URL relative n'est pas résolue par les robots de prévisualisation.
+
+📌 Pour la refaire : le gabarit HTML est capturé par Chromium en 1200×630 puis converti en JPEG — ImageMagick ne sait pas rendre les SVG ici *(pas de `rsvg-convert`)*, et Pillow est cassé dans ce conteneur.
+
+### Deux pages sont volontairement hors de Google
+
+`/commande-confirmee` *(`noindex, nofollow`)* — indexée, elle annoncerait un paiement qui n'a pas eu lieu. Et `/avis` *(`noindex, follow`)* — c'est un formulaire, pas un contenu ; son QR circule, ça suffit.
+
 ## 🛒 2026-10-22 — Le parcours d'achat : six liens de paiement, et un mail après encaissement
 
 **État au 22/10, après le test de Basekou en production.**
