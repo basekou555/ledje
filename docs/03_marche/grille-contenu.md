@@ -151,6 +151,7 @@ Cette liste s'allonge en continu. **Tout sujet qui revient trois fois dans la vr
 **Le produit est filmé pour de vrai ; tout le reste passe à l'IA.** L'IA ne sait pas produire la bouteille de façon fiable (l'étiquette change à chaque plan) — en revanche elle sait **traiter** des plans réels.
 
 - **Basekou n'apparaît jamais.** Cohérent avec la règle visuelle existante : pas de visage, pas de regard, mains et silhouettes (`../01_adn/identite-visuelle.md`).
+  *(Mise à jour du 2026-11-10 : cette règle du 20/08 n'est plus appliquée telle quelle. Basekou se filme face caméra sur TikTok depuis le 21/10 et précise : « pour l'instant on va tester ». **Sa présence à l'image est donc un TEST en cours, pas une règle arrêtée dans un sens ou dans l'autre.** Les yeux de Basekou filmé peuvent être visibles — tranché le 28/09, `../visual/README.md`.)*
 - **La voix off est sa vraie voix.** Voix synthétique écartée : elle s'entend, sur une marque qui défend le vrai. Texte à l'écran gardé en repli.
 - **Un seul tournage réel alimente deux formats** (le geste + la voix off).
 
@@ -301,5 +302,5 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 🎥 **UN CRÉATEUR DE CONTENU EST ENTRÉ EN CONTACT POUR UNE VIDÉO QU'IL DOIT RÉALISER POUR LÉDJÉ `[figé]`.** 📌 *« je suis entré en contacte avec un créateur de contenu pour une video qu'il doit faire pour moi faudra prapérer le rdv la date n'est pas encore fixé »* (2026-11-09) ⇒ **Le rendez-vous est à PRÉPARER, la date n'est pas fixée.**
 
 ⚠️ **Deux points à trancher AVANT le rendez-vous, pas pendant :**
-- ① **La règle `tiers`.** Une personne réelle qui n'est pas Basekou apparaît ou filme. `docs/04_operations/contenu-rushes.md` pose qu'un rush tagué `tiers` **ne sort pas tant que la règle n'est pas tranchée** — et elle ne l'est toujours pas. Le RDV est le bon moment pour la trancher, puisque c'est là qu'on sait ce qui sera filmé.
+- ① **La règle `tiers`.** Une personne réelle qui n'est pas Basekou apparaît ou filme. `docs/04_operations/contenu-rushes.md` pose qu'un rush tagué `tiers` **ne sort pas tant que la règle n'est pas tranchée** — et elle ne l'est toujours pas. *(Précisé par Basekou le 2026-11-10 : « c'est du cas par cas » — pas de règle générale, chaque rush se décide un par un ; `contenu-rushes.md` § 7.)* Le RDV est le bon moment pour la trancher, puisque c'est là qu'on sait ce qui sera filmé.
 - ② **La conformité vaut pour sa voix comme pour la nôtre.** Ce qu'un tiers dit d'un produit Lédjé engage Lédjé : aucune allégation santé même implicite, aucun symbole religieux explicite, le sucre uniquement avec « jusqu'à » et sans nommer de marque. ➡️ **Donc le brief écrit n'est pas une politesse : c'est le seul endroit où ces interdits peuvent être posés avant tournage.**
