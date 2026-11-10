@@ -74,7 +74,10 @@ export default function Prestations() {
     // ligne du 08/10, ces deux pages n'émettaient aucun événement de vue :
     // impossible de savoir si quelqu'un les a lues.
     trackEvent('prestations_view')
-    document.title = 'Prestations événement — lédjé'
+    // ⚠️ Plus de `document.title` ici depuis le 2026-10-27 : le titre est
+    // désormais posé dans le HTML SERVI (`scripts/pages.mjs`), qui est le
+    // seul que lisent les robots de prévisualisation. L'écraser en JS
+    // remettait l'ancien titre, plus court, dans l'onglet et dans Google.
   }, [])
 
   return (

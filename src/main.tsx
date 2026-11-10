@@ -41,7 +41,14 @@ import App from './App.tsx'
                      les variables Vercel qui écrasent un repli sont un piège
                      connu du projet (cf. docs/04_operations/site-technique.md).
    — le reste      : la vitrine. */
-const path = window.location.pathname.replace(/\/+$/, '')
+/* Le chemin, nettoyé de deux façons :
+   — la barre finale, pour que `/offrir/` vaille `/offrir` ;
+   — le suffixe `.html`, ajouté le 2026-10-27 avec les pages par route.
+     En production, Vercel réécrit `/commander` vers `/commander.html` SANS
+     changer l'URL, donc ce cas ne se produit pas. Mais une arrivée directe
+     sur `/commander.html` — un lien copié à la main, un aperçu local servi
+     sans les réécritures — retomberait sinon sur la vitrine, en silence. */
+const path = window.location.pathname.replace(/\/+$/, '').replace(/\.html$/, '')
 
 function Page() {
   if (path === '/avis') return <Avis />
