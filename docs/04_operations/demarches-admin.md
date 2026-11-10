@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-11-07
+maj: 2026-11-08
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
 resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF — LE POINT DÉCLARÉ CLOS LE 24/09 EST ROUVERT : relance du 07/10 sur une dette de cotisations, avec mention d'actions de recouvrement ; déclarer n'est pas payer.** Aucune décision prise, aucun montant au dépôt. ✅✅ **AGRÉMENT : LE SUJET EST FERMÉ LE 28/10 PAR LA DDPP 69 ELLE-MÊME — ni agrément ni dérogation pour un produit à base de miel, la déclaration d'activité du 14/08 suffit.** Son courrier 2026-8172 du 01/10, qui disait l'inverse, est une **erreur retirée par son auteur** ; la DDPP 56 avait raison depuis le 18/07. ⛔ **Il n'y a RIEN à déposer : le CERFA 13982 ne concerne pas ce produit.** ⚠️ **Ça ne ferme ni le PMS, ni l'étiquetage, ni la DLC, ni l'article 13 INCO, ni la traçabilité par lot.** · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS — lu en entier le 09/10, **inapplicable à notre pH**. 🧾 **CFE / IFER : avis 2026 disponibles, adhésion au prélèvement jusqu'au 30/11, paiement au 15/12 — aucun montant au dépôt, il n'est lisible que dans l'espace professionnel.** + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
@@ -261,6 +261,18 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 ⛔⛔ **LE MONTANT N'EST PAS AU DÉPÔT, ET CE N'EST PAS UNE LACUNE À COMBLER.** Il n'est lisible que dans l'espace professionnel, auquel **aucun outil de session n'accède** — ni le connecteur Gmail, ni le navigateur. ⚠️ **Une estimation ne remplace pas une lecture : aucun chiffre ne s'écrit ici tant que Basekou ne l'a pas lu.** *(Et la règle générale tient : aucun montant ne s'écrit au dépôt.)*
 
 📌 **Au 07/11, rien n'est en retard** : la première échéance est à 23 jours. ⚠️ **Ce que ça ne dit pas** : si Lédjé est redevable, et de combien. Le courriel annonce une mise à disposition, pas une dette.
+
+## ⛔ 2026-11-08 — LA CFE / IFER N'EST PAS UN SUJET LÉDJÉ : le constat sort du pilotage du projet
+
+**Déclaré par Basekou le 08/11, en relisant la page ÉTAT : *« le CFE, c'est pas en lien avec Lédjé »*.**
+
+⇒ **La ligne 🧾 CFE / IFER est RETIRÉE de la table ÉTAT.** Le constat du 02/11 reste consigné ci-dessus parce qu'il est daté et sourcé, mais **il ne pilote rien dans ce projet** et n'a pas à occuper une place sous le plafond de 20 lignes.
+
+📌 **Comment il était arrivé là, et c'est la leçon : la ligne venait de la file 📥, posée par une routine qui avait vu passer un courriel DGFiP dans la boîte de Basekou.** ⚠️ **Un courriel reçu par Basekou n'est pas un fait du projet** — et aucune session n'était en mesure de faire la différence, puisque le rattachement n'était écrit nulle part.
+
+➡️ **Règle qui en sort : un fait fiscal ou administratif n'entre au dossier Lédjé que si son rattachement au projet est ÉTABLI, pas supposé.** *Même angle mort que le statut auto-entrepreneur, dont le rattachement à Lédjé n'a jamais été explicité non plus (noté depuis le 24/09).*
+
+⛔ **Aucun montant, aucune échéance ne sont repris ici : ce n'est pas notre dossier.**
 
 ## 💳 Litige Trade Republic — ouvert au dépôt le 2026-10-21, et AUCUNE FICHE NE LE PORTAIT
 
