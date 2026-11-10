@@ -53,8 +53,9 @@ description: "Trame de travail d'une session « Système de création de contenu
 4. Écrire le texte à l'écran soi-même : il n'est jamais généré par une IA d'image.
 5. **Tout rush marqué `oral: oui` passe par `relecture.py` avant un clip.** L'outil pointe les
    passages à vérifier ; ce n'est pas un verdict.
-6. **Un rush marqué `tiers`** (une personne réelle qui n'est pas Basekou) : les fiches se
-   contredisent sur l'état de cette règle. Tant que Basekou ne l'a pas confirmée, il ne sort pas.
+6. **Un rush marqué `tiers`** (une personne réelle qui n'est pas Basekou) : **c'est du cas par
+   cas** (Basekou, 10/11). Poser la question pour chaque rush ; point de départ : cacher les
+   visages autant que possible, sinon se replier sur des plans sans personne.
 
 ## Étape 5 — Passer la conformité
 
@@ -64,7 +65,7 @@ Chaque script, légende et texte à l'écran :
 - ne porte aucun effet sur le corps, même suggéré ;
 - ne porte **aucun registre religieux** : il est exclu des réseaux ;
 - respecte la règle des yeux : jamais visibles sur une image fabriquée ; Basekou filmé lui-même
-  en est exclu.
+  en est exclu. Sa présence face caméra est un test en cours (10/11), pas une règle arrêtée.
 
 ## Étape 6 — Planifier
 
@@ -89,6 +90,7 @@ Chaque script, légende et texte à l'écran :
 1. Ce que la séance a appris sur la méthode : dans `contenu-rushes.md`, qui reste une hypothèse
    tant que Basekou n'a pas rendu ses arbitrages.
 2. Une pièce jugée par Basekou : son verdict s'écrit sur sa décision, avec sa date.
-3. `docs/03_marche/acquisition-tiktok.md` n'a pas été mise à jour depuis juillet et dit encore
-   le canal inactif : le signaler si la séance s'appuie dessus.
+3. `docs/03_marche/acquisition-tiktok.md` : son en-tête est à jour depuis le 10/11 (le canal
+   n'est plus inactif), mais son contenu date de juillet. Le relire avec Basekou avant de s'y
+   appuyer.
 4. Dérouler `ledje-passation`.

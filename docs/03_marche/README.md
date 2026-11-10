@@ -19,7 +19,7 @@ le dossier qui bouge le plus vite avec le terrain.
 | [`canal-mosquee.md`](canal-mosquee.md) | Canal mosquée en C2B2C : un fidèle donateur offre un lot, barème sans négociation | en_cours |
 | [`canal-evenementiel.md`](canal-evenementiel.md) | 🎯 **Le canal qui VEND** : 77 bouteilles en un événement communautaire contre zéro sur cinq RDV restaurateurs. Lédjé exposant, pas fournisseur. Ce qui marche, ce qui doit s'améliorer, et la liste pour le prochain | en_cours |
 | [`canal-restaurant.md`](canal-restaurant.md) | Canal en test (O'Daba) : accord, critère = réachat 1-2 mois ; prospection ouverte (18/08) ; leçons du marché | en_cours |
-| [`acquisition-tiktok.md`](acquisition-tiktok.md) | Canal digital (inactif à ce jour) : UTM, canal B créateurs, trigger fin octobre | bloquant |
+| [`acquisition-tiktok.md`](acquisition-tiktok.md) | Canal digital : des publications existent depuis l'automne 2026 (mis à jour le 10/11) ; le reste de la fiche date de juillet et est à relire | en_cours |
 | [`site-precommande.md`](site-precommande.md) | La refonte du site côté conversion : structure, hero, copy, précommande cristal | en_cours |
 | [`contenu-et-pubs.md`](contenu-et-pubs.md) | Méthode créa, pub 4 plans, scripts V1/V2, paramètres Higgsfield ; renvoi `../visual/` | en_cours |
 | [`mom-test.md`](mom-test.md) | Campagne v1 close (8 entretiens), v2 active « Test CEP & actifs » ; H4 gardienne et H5 offreur à tester ; signaux récurrents, réserves méthodo | hypothèse |

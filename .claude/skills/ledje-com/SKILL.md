@@ -40,8 +40,9 @@ rentre, il ne fait pas un livrable.
 - la signature (« Parmi les bienfaits de ce bas monde » est une option de travail) ;
 - l'accroche (trois options, aucune arrêtée) ;
 - la typographie, le logo, le symbole ;
-- la palette : la fiche se contredit (son en-tête la dit rouverte, son corps la dit arrêtée le
-  17/10). **À faire trancher par Basekou avant de s'appuyer dessus.**
+- la palette : **elle n'est pas figée, mais on travaille avec une palette de travail**, celle
+  mesurée sur l'étiquette le 17/10 (`identite-visuelle.md`, précisé par Basekou le 10/11). On
+  l'utilise pour produire ; on ne la présente pas comme définitive.
 
 Un texte de marque se propose en variantes. La session n'en choisit pas une à la place de
 Basekou.

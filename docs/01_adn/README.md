@@ -48,4 +48,4 @@ Le fil qui relie tout, et qu'il faut pouvoir refaire à tout moment :
 | [`territoire-de-marque.md`](territoire-de-marque.md) | Les 5 ingrédients créatifs et leurs questions filtres ; la cohérence comme résultat | en_cours |
 | [`identite-verbale.md`](identite-verbale.md) | Nom (100 % diakanké), personnalité, ton, lexique, architecture des messages — ⚠️ **signature ET accroche NON tranchées** | en_cours |
 | [`conformite.md`](conformite.md) | La grille autorisé/interdit, allégation nutritionnelle comparative, règles orales | figé |
-| [`identite-visuelle.md`](identite-visuelle.md) | Palette ROUVERTE, typo/logo/symbole en refonte, statut designer, typo « Alice » (étiquette O'Daba) | bloquant |
+| [`identite-visuelle.md`](identite-visuelle.md) | Palette non figée (palette de travail en usage), typo/logo/symbole en refonte, statut designer, typo « Alice » (étiquette O'Daba) | bloquant |

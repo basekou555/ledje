@@ -5,9 +5,8 @@ description: "Trame de travail d'une session « MAJ SOT » du projet lédjé : m
 
 # Trame d'une session « MAJ SOT »
 
-**Première version, écrite le 2026-11-10 à partir des fiches, jamais déroulée.** Le nom « MAJ SOT »
-n'est défini nulle part au dépôt : cette trame le comprend comme la séance qui tient le cerveau à
-jour. À corriger si Basekou entend autre chose.
+**Première version, écrite le 2026-11-10 à partir des fiches, jamais déroulée.** « MAJ SOT »
+désigne la mise à jour des fiches du cerveau (confirmé par Basekou le 2026-11-10).
 
 La référence est `docs/05_systeme/workflow-maj.md`. Cette trame en donne l'ordre de marche ; en
 cas d'écart, la fiche gagne.

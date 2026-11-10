@@ -166,7 +166,7 @@ type de session. On l'appelle par son nom (`/ledje-site`) ou la session le décl
 | COO | `ledje-coo` | Écrite le 10/11 d'après les fiches, jamais déroulée |
 | Com et branding | `ledje-com` | Écrite le 10/11 d'après les fiches, jamais déroulée |
 | Produit | `ledje-produit` | Écrite le 10/11 d'après les fiches, jamais déroulée |
-| MAJ SOT | `ledje-maj-sot` | Écrite le 10/11 d'après les fiches, jamais déroulée. Le nom n'est défini nulle part : compris comme la séance qui tient le cerveau à jour |
+| MAJ SOT | `ledje-maj-sot` | Écrite le 10/11 d'après les fiches, jamais déroulée. « MAJ SOT » = la mise à jour des fiches (confirmé par Basekou le 10/11) |
 | Système de création de contenu | `ledje-contenu` | Écrite le 10/11 d'après les fiches, jamais déroulée |
 | Toutes, avant d'en changer | `ledje-passation` | Écrite le 10/11 |
 
