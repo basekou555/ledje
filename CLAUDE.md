@@ -7,6 +7,9 @@ Ce dépôt contient
 Dans tous les cas, commence par lire `docs/README.md` — la carte du cerveau Lédjé (fiches atomiques avec frontmatter, un README par dossier). Ouvre ensuite uniquement les fiches du domaine concerné, via les `resume` des index. Les règles de mise à jour du cerveau (hiérarchie des sources, protégé/libre, rituels de session) : `docs/05_systeme/workflow-maj.md`. En cas de contradiction entre ta mémoire (ou Project Knowledge) et les fiches du repo, les fiches gagnent. *(L'ancien SOT monolithique est archivé : `docs/_ARCHIVE_SOT_monolithique_2026-07-24.md` — ne plus s'y référer sauf pour l'histoire.)*
 Règles qui s'appliquent à TOUTE tâche, quel que soit le sujet
 
+* Quel outil pour quelle tâche, pourquoi et dans quel ordre : `docs/05_systeme/guide-outils.md`. À ouvrir avant de commencer, pour utiliser le skill ou le connecteur prévu plutôt que d'improviser. Si l'outil prévu n'est pas disponible dans la session, le dire à Basekou.
+* Chaque type de session a sa trame, un skill du dépôt à dérouler dès l'ouverture : `ledje-site`, `ledje-com` (Com et branding), `ledje-produit`, `ledje-contenu` (création de contenu), `ledje-coo`, `ledje-maj-sot`, `ledje-tool`. Liste et état : `docs/05_systeme/guide-outils.md` § 11 bis. Si une trame guide mal, le dire à Basekou.
+* Avant de changer de session ou de la fermer : dérouler le skill `ledje-passation` pour vérifier que tout est transmis (`docs/05_systeme/workflow-maj.md`, Clôture § 6). Une PR non fusionnée n'existe pas pour la session suivante.
 * Aucune allégation santé, explicite ou implicite (`docs/01_adn/conformite.md`) — vrai pour le copy du site comme pour les prompts d'image.
 * Aucun symbole religieux explicite (`docs/01_adn/combats.md` et `conformite.md`).
 * Si une tâche touche la marque, la conformité ou les valeurs : vérifier dans `docs/01_adn/` avant d'agir, ne jamais improviser.
@@ -15,6 +18,7 @@ Si la tâche concerne le SITE (landing page, déploiement, DNS, Supabase)
 * Référence technique complète : `docs/04_operations/site-technique.md` (pièges connus : variables d'environnement Vercel qui écrasent le fallback, policies Supabase INSERT-only à ne pas modifier, ne jamais réintroduire de `.select()` après un insert anon). Côté conversion/copy : `docs/03_marche/site-precommande.md`.
 * Workflow git (`docs/04_operations/site-technique.md`) : repartir de `origin/main` à jour, nouvelle PR draft, ne jamais empiler sur du mergé.
 * Toute modification de copy (accroche, CTA, textes) doit respecter les règles de conformité ci-dessus.
+* Améliorer l'apparence ou le texte du site (« plus beau », « mieux écrit ») : ne pas retoucher le code à l'instinct. Dérouler le skill `ledje-site` (`.claude/skills/ledje-site/SKILL.md`), qui détaille `docs/05_systeme/guide-outils.md` § 2 — regarder le site rendu, lister avec `ui-design-review:ui-review`, laisser Basekou choisir, corriger avec `ui-design-review:ui-polish`, passer tout texte à `marketing:brand-review`, prouver par des captures avant/après.
 Si la tâche concerne la PRODUCTION VISUELLE (compiler un prompt, générer un shot)
 Documents de référence (dans cet ordre de dépendance)
 
@@ -68,7 +72,7 @@ Si la tâche concerne la CHAÎNE DE CONTENU (rushes, montage, pièces pour les r
 
 * La machine (7 maillons, 2 points de validation, 3 limites) : `docs/04_operations/chaine-contenu.md`. Les fichiers et leur nommage : `docs/04_operations/contenu-drive.md`. Ce qu'on dit et pourquoi : `docs/03_marche/grille-contenu.md`.
 * Le système rushes → pièces (index, recettes, gabarits, six étapes) : `docs/04_operations/contenu-rushes.md` — en `hypothèse` tant que Basekou n'a pas rendu ses arbitrages (§ 7). Les outils : `tools/contenu/` (dérushage, rendu par recette, relecture de l'oral) — ils tournent sur la machine de Basekou, jamais ici : une session n'a ni le disque ni les médias.
-* Une session écrit des **recettes** (gabarit `docs/05_systeme/templates/template-recette-piece.yaml`) à partir de l'index, jamais des verdicts : `valide-production`, `valide-publication` et `ecarte` s'écrivent sur décision de Basekou. Un rush tagué `tiers` (personne réelle qui n'est pas lui) ne sort pas tant que la règle n'est pas tranchée. Tout rush `oral: oui` passe par `relecture.py` avant un clip.
+* Une session écrit des **recettes** (gabarit `docs/05_systeme/templates/template-recette-piece.yaml`) à partir de l'index, jamais des verdicts : `valide-production`, `valide-publication` et `ecarte` s'écrivent sur décision de Basekou. Un rush tagué `tiers` (personne réelle qui n'est pas lui) se décide au cas par cas, par Basekou (précisé le 2026-11-10) : la session pose la question pour chaque rush, elle ne décide pas. Tout rush `oral: oui` passe par `relecture.py` avant un clip.
 Si la tâche ne rentre dans aucune des trois catégories ci-dessus
 Demande une clarification plutôt que de deviner — surtout si la tâche touche au positionnement, aux valeurs, ou à une décision déjà tranchée (`docs/05_systeme/decisions-log.md`).
 Ce qu'on ne construit PAS (décision consciente, mise à jour)

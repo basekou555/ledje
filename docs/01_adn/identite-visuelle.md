@@ -1,9 +1,9 @@
 ---
 statut: bloquant
 domaine: adn
-maj: 2026-11-08
+maj: 2026-11-10
 source: "SOT Partie 3 (archive 2026-07-24) ; retours Inès 2026-07-10 ; réalignement relevé COO 2026-07-28 (MMD 3)"
-resume: "Palette ROUVERTE (seul l'émeraude tient) ; aucun designer mandaté sur l'identité (Inès = conseil, Léa a coproduit l'étiquette du lot O'Daba) ; wordmark Basekou = seul élément d'identité ; identité à trancher par Basekou."
+resume: "Palette NON FIGÉE mais palette de TRAVAIL en usage (celle mesurée sur l'étiquette le 17/10 — précisé par Basekou le 10/11) ; aucun designer mandaté sur l'identité (Inès = conseil, Léa a coproduit l'étiquette du lot O'Daba) ; wordmark Basekou = seul élément d'identité ; identité à trancher par Basekou."
 ---
 
 # Identité visuelle (design system)
@@ -15,6 +15,8 @@ resume: "Palette ROUVERTE (seul l'émeraude tient) ; aucun designer mandaté sur
 L'identité impose un point de vue : la couleur reine n'est PAS l'ambre (« encore une marque de miel ») mais le **vert émeraude** — le sens, la tradition, la noblesse, par évocation. L'or = le précieux (contraste enluminure/manuscrit ancien). L'ambre = le produit et l'appétence. **Le contraste franc est la signature ; pas de douceur tiède.** La matière compte autant que la couleur (velours mat + dorure brillante).
 
 ## Palette (tokens) — ⚠️ ROUVERTE (2026-07-28 : seul l'émeraude tient, le reste est remis en question ; tokens ci-dessous = état de travail)
+
+> **Précision de Basekou, 2026-11-10** : *« la palette n'est pas figée mais on bosse avec une palette »*. Les deux mentions de cette section se lisent donc ensemble : **la palette n'est pas figée comme identité de marque**, et **on travaille avec une palette de travail, celle mesurée sur l'étiquette le 17/10** (ci-dessous). Une session l'utilise pour produire ; elle ne la présente pas comme définitive. *(Le mot « ARRÊTÉE » du paragraphe du 17/10 désigne cette palette de travail, pas un verrouillage.)*
 
 ✅✅ **PALETTE ARRÊTÉE LE 2026-10-17, sur décision de Basekou — et la référence n'est plus une intention, c'est une MESURE.** 📏 **Source : le fichier d'impression `étiquette lédjé 210x50 v1.2.pdf`, celui qui part au tirage, mesuré au Drive le 17/10.** ⚡ **Il est en CMJN : les valeurs d'ENCRE font foi, les hex sont des conversions approchées sans le profil de l'imprimeur.**
 
