@@ -12,7 +12,7 @@ resume: "La chaîne de production du contenu : pourquoi elle existe (des agents,
 filtre avant publication — vit dans [`../03_marche/grille-contenu.md`](../03_marche/grille-contenu.md).
 Les fichiers et leur nommage : [`contenu-drive.md`](contenu-drive.md).
 
-🆕 **2026-10-21 — Comment un rush devient une pièce (dérushage, recette, rendu par script, relecture de l'oral) : [`contenu-rushes.md`](contenu-rushes.md)** — proposition en `hypothèse`, avec les neuf arbitrages qu'elle demande à Basekou. Elle contourne la limite n° 2 ci-dessous par construction (le son réel des rushes) et déplace le montage du studio Higgsfield vers la machine de Basekou, là où sont les rushes.
+🆕 **2026-10-21 — Comment un rush devient une pièce (dérushage, recette, rendu par script, relecture de l'oral) : [`contenu-rushes.md`](contenu-rushes.md)** — proposition en `hypothèse`, avec les dix arbitrages qu'elle demande à Basekou. Elle contourne la limite n° 2 ci-dessous par construction (le son réel des rushes) et déplace le montage du studio Higgsfield vers la machine de Basekou, là où sont les rushes.
 
 ## Pourquoi cette chaîne existe
 
