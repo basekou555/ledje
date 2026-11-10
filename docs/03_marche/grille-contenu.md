@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-21
+maj: 2026-11-09
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
 resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication."
 ---
@@ -281,3 +281,25 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 ⚠️ **RÉSERVE QUI VAUT POUR TOUTE LA GRILLE : CE FILM NE DONNE PAS SOIF.** **C'est du niveau 3 pur — une ancre mensuelle, pas un régime.** 🔴 **Ce qui donne envie de boire n'est toujours pas tourné : la condensation, le verre qui se remplit, la première gorgée dans la chaleur.**
 
 ⚠️ **Et une réserve de chiffre : le nombre de dosages testés n'est pas déterminable à l'image** ⇒ **le film dit « plusieurs », pas « sept », tant que Basekou ne l'a pas confirmé.**
+
+## 📱📱 2026-11-08 — LA PUBLICATION A COMMENCÉ, ET LE DOSSIER DISAIT « RIEN DE PUBLIÉ »
+
+*(Déclaré par Basekou le 08/11. Session propriétaire : séance du 2026-11-08.)*
+
+✅ **Chiffres donnés : 5 posts sur Instagram · 2 sur TikTok · et une publication TOUTES LES SEMAINES.** ⇒ **Il y a un RYTHME, ce qui est l'information neuve : ce n'est pas une série de coups, c'est une cadence tenue.**
+
+⛔ **Ce que le dossier affirmait et qui était faux : *« aucune pièce validée, rien de publié »*.** 📌 **D'où venait l'erreur : cette phrase décrivait les PIÈCES DE MONTAGE issues de l'atelier du PC — deux exportées, en relecture, non validées. Elle a été lue comme un état de la publication en général.** ⇒ **Deux objets distincts portaient le même mot : les montages de l'atelier, et ce qui part sur les comptes.**
+
+➡️ **Ce qu'on en retient pour la méthode : « rien de publié » est une affirmation sur un CANAL, elle ne peut pas se déduire de l'état d'un ATELIER.**
+
+⚠️ **Ce que ça ne lève pas, et qui tient : les deux écarts de conformité repérés sur les scripts — deux mentions du sucre sans « jusqu'à » (S-02) et « c'est naturel » (S-05).** 🔴 **Ils portent sur la PUBLICATION, et la publication a maintenant lieu chaque semaine** ⇒ **la réserve change de nature : elle n'est plus théorique.**
+
+## ✅ 2026-11-09 — La réserve de conformité est close SUR LE PUBLIÉ, et un créateur de contenu entre dans la boucle
+
+✅✅ **LES PIÈCES DÉJÀ PUBLIÉES SONT CONFORMES — Basekou le déclare le 2026-11-09 `[figé]`.** 📌 *« elle sont conforme »* ⇒ **Les 5 publications Instagram et les 2 TikTok ne portent donc ni le sucre sans « jusqu'à » (S-02) ni « c'est naturel » (S-05).** ⚠️ **La portée est exactement celle-là : le déjà-publié au 09/11.** ➡️ **Les deux règles restent actives pour toute pièce à venir — « jusqu'à un tiers de sucres en moins qu'un soda classique », le « jusqu'à » obligatoire et aucune marque nommée ; et « miel pur, jamais chauffé » reste, lui, autorisé.**
+
+🎥 **UN CRÉATEUR DE CONTENU EST ENTRÉ EN CONTACT POUR UNE VIDÉO QU'IL DOIT RÉALISER POUR LÉDJÉ `[figé]`.** 📌 *« je suis entré en contacte avec un créateur de contenu pour une video qu'il doit faire pour moi faudra prapérer le rdv la date n'est pas encore fixé »* (2026-11-09) ⇒ **Le rendez-vous est à PRÉPARER, la date n'est pas fixée.**
+
+⚠️ **Deux points à trancher AVANT le rendez-vous, pas pendant :**
+- ① **La règle `tiers`.** Une personne réelle qui n'est pas Basekou apparaît ou filme. `docs/04_operations/contenu-rushes.md` pose qu'un rush tagué `tiers` **ne sort pas tant que la règle n'est pas tranchée** — et elle ne l'est toujours pas. Le RDV est le bon moment pour la trancher, puisque c'est là qu'on sait ce qui sera filmé.
+- ② **La conformité vaut pour sa voix comme pour la nôtre.** Ce qu'un tiers dit d'un produit Lédjé engage Lédjé : aucune allégation santé même implicite, aucun symbole religieux explicite, le sucre uniquement avec « jusqu'à » et sans nommer de marque. ➡️ **Donc le brief écrit n'est pas une politesse : c'est le seul endroit où ces interdits peuvent être posés avant tournage.**

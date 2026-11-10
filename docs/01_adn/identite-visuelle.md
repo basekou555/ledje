@@ -1,7 +1,7 @@
 ---
 statut: bloquant
 domaine: adn
-maj: 2026-10-21
+maj: 2026-11-08
 source: "SOT Partie 3 (archive 2026-07-24) ; retours Inès 2026-07-10 ; réalignement relevé COO 2026-07-28 (MMD 3)"
 resume: "Palette ROUVERTE (seul l'émeraude tient) ; aucun designer mandaté sur l'identité (Inès = conseil, Léa a coproduit l'étiquette du lot O'Daba) ; wordmark Basekou = seul élément d'identité ; identité à trancher par Basekou."
 ---
@@ -108,3 +108,13 @@ Brief moodboards corrigé (minéral rétrogradé, blocs réécrits) ; planche B 
 📌 **CE QUI EXISTE EN CONTOURNEMENT, et il faut dire ce que ça vaut : `public/brand/wordmark*.svg` est une VECTORISATION du fichier d'impression 210×50 v1.2, donc une approximation fidèle — pas le tracé d'origine.** ✅ **Elle suffit au site.** ⛔ **Elle ne remplace pas une source : si le tracé d'origine existe dans l'outil de design, il doit primer** *(note portée dans le fichier SVG lui-même)*.
 
 🎯 **Et ça rejoint le point déjà écrit ici : l'identité est à trancher par Basekou.** **Un wordmark sans source vectorielle est un wordmark qu'on ne peut pas faire évoluer sans le redessiner.**
+
+## 🎨 2026-11-08 — DEUX CORRECTIONS DE BASEKOU : LA TYPO ET L'ACCROCHE SONT EN USAGE, ET UN WORDMARK NON APLATI EXISTERAIT
+
+*(Déclaré par Basekou le 08/11, en relisant la page ÉTAT. Session propriétaire : séance du 2026-11-08.)*
+
+**① « NON TRANCHÉES » ÉTAIT TROMPEUR.** Ses mots : *« en soi on utilise bien une typo et une accroche, mais il n'y a rien de figé. On se cherche aussi là-dessus. »* ⇒ **Il y a donc un USAGE réel et constant, sans décision écrite.** ⚠️ **Écrire « non tranchées » laissait croire qu'il n'y avait rien ; la vérité est qu'il y a quelque chose qui n'est pas figé — ce n'est pas le même problème, et ça n'appelle pas la même action.** 📌 **Ce que ça change pour la suite : la question n'est plus « que choisit-on ? » mais « fige-t-on ce qui est déjà en usage, ou en cherche-t-on mieux ? ».**
+
+**② LE WORDMARK EXISTERAIT HORS IMAGE APLATIE.** Ses mots : *« le wordmark, normalement il est accessible même en image pas aplatie. »* ⚠️ **Ça ne contredit pas la mesure du dossier, et il faut tenir les deux ensemble** : la mesure portait sur les **trois PDF d'impression** — aucun texte ni tracé vectoriel, une seule image JPEG CMYK à ≈ 326 dpi. **Un fichier source non aplati peut exister ailleurs sans que ces PDF en contiennent la trace.**
+
+➡️ **Ce qui trancherait, et c'est la seule chose : ouvrir le fichier.** ⛔ **Tant qu'il n'est pas localisé, les interdits du dossier tiennent pour tout ce qui part à l'impression** — on ne peut ni agrandir sans perte, ni recolorer proprement, ni fournir du vectoriel à un imprimeur qui en demande. ✅ **Mais on cesse d'écrire qu'AUCUNE source vectorielle n'existe : on écrit qu'elle n'est pas localisée.**
