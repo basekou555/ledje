@@ -3,7 +3,7 @@ statut: figé
 domaine: systeme
 maj: 2026-11-10
 source: "SOT Partie 8 + §8.1 (archive 2026-07-24) + outillage conseil 2026-07-21 (page relais) ; générateur de prompts visuels rendu visible le 2026-08-20 (il n'était référencé que par CLAUDE.md)"
-resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo. 🆕 `[idée]` **Agent Reach** (MIT) : couche de LECTURE des réseaux sociaux pour agents — ⛔ ne prospecte pas, ne contacte personne. 🎯 L'accès internet générique est DÉJÀ couvert ; le vrai trou est la lecture du contenu social (TikTok, Instagram, X, Reddit, sous-titres YouTube), non couverte à ce jour. ⚠️ Deux réserves : les canaux sociaux passent par les COOKIES de Basekou (comptes récents = les plus faciles à suspendre), et l'installation documentée fait exécuter à un agent un fichier distant. Rien n'est installé. 🛠️ **Deux pages Notion INTERNES de travail inventoriées le 12/10** (« Argumentaire de RDV restaurateur — questions, SONCAS, objections » et « Générateur de hooks ») : elles n'étaient référencées que dans la file 📥 de la page ÉTAT, dont la fonction est d'être vidée. ⛔ Elles ne sortent pas. 🧹 **Tri de la configuration Claude le 10/11** : 7 plugins à couper, 5 connecteurs gardés pour test, Stripe se déconnecte seul."
+resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo. 🆕 `[idée]` **Agent Reach** (MIT) : couche de LECTURE des réseaux sociaux pour agents — ⛔ ne prospecte pas, ne contacte personne. 🎯 L'accès internet générique est DÉJÀ couvert ; le vrai trou est la lecture du contenu social (TikTok, Instagram, X, Reddit, sous-titres YouTube), non couverte à ce jour. ⚠️ Deux réserves : les canaux sociaux passent par les COOKIES de Basekou (comptes récents = les plus faciles à suspendre), et l'installation documentée fait exécuter à un agent un fichier distant. Rien n'est installé. 🛠️ **Deux pages Notion INTERNES de travail inventoriées le 12/10** (« Argumentaire de RDV restaurateur — questions, SONCAS, objections » et « Générateur de hooks ») : elles n'étaient référencées que dans la file 📥 de la page ÉTAT, dont la fonction est d'être vidée. ⛔ Elles ne sortent pas. 🧹 **Tri de la configuration Claude le 10/11** : 7 plugins à couper, 4 connecteurs gardés pour test, Granola testé mais trop cher, Stripe se déconnecte seul."
 ---
 
 # Outils & répartition
@@ -105,7 +105,8 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 
 **Connecteurs**
 
-- **Apollo, Clay, Docusign, Granola, Postiz** : non utilisés à ce jour, **gardés parce que Basekou songe à les tester**. Aucun test fait. *(Grain et Granola couvrent le même besoin — notes de réunion.)*
+- **Apollo, Clay, Docusign, Postiz** : non utilisés à ce jour, **gardés parce que Basekou songe à les tester**. Aucun test fait.
+- **Granola** : **testé par Basekou, apprécié, mais trop cher pour l'instant** — non retenu à ce stade. Grain reste l'outil de notes de réunion.
 - **Stripe** : Basekou signale le 10/11 qu'**il se déconnecte tout seul**. Cause non établie. Conséquence : les skills `small-business` qui lisent Stripe (trésorerie, marge, relance de factures, clôture du mois) tournent sans données tant qu'il n'est pas reconnecté.
 
 ## Salle du conseil (2026-07-21)
