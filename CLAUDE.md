@@ -8,6 +8,7 @@ Dans tous les cas, commence par lire `docs/README.md` — la carte du cerveau L�
 Règles qui s'appliquent à TOUTE tâche, quel que soit le sujet
 
 * Quel outil pour quelle tâche, pourquoi et dans quel ordre : `docs/05_systeme/guide-outils.md`. À ouvrir avant de commencer, pour utiliser le skill ou le connecteur prévu plutôt que d'improviser. Si l'outil prévu n'est pas disponible dans la session, le dire à Basekou.
+* Chaque type de session a sa trame, un skill du dépôt à dérouler dès l'ouverture : `ledje-site`, `ledje-com` (Com et branding), `ledje-produit`, `ledje-contenu` (création de contenu), `ledje-coo`, `ledje-maj-sot`, `ledje-tool`. Liste et état : `docs/05_systeme/guide-outils.md` § 11 bis. Si une trame guide mal, le dire à Basekou.
 * Avant de changer de session ou de la fermer : dérouler le skill `ledje-passation` pour vérifier que tout est transmis (`docs/05_systeme/workflow-maj.md`, Clôture § 6). Une PR non fusionnée n'existe pas pour la session suivante.
 * Aucune allégation santé, explicite ou implicite (`docs/01_adn/conformite.md`) — vrai pour le copy du site comme pour les prompts d'image.
 * Aucun symbole religieux explicite (`docs/01_adn/combats.md` et `conformite.md`).

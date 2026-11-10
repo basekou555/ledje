@@ -161,17 +161,17 @@ type de session. On l'appelle par son nom (`/ledje-site`) ou la session le décl
 
 | Session | Trame | État |
 |---|---|---|
-| Lédjé site | `ledje-site` | Écrite le 10/11, à éprouver à l'usage |
-| Lédjé tool (outils, formation à Claude) | — | À écrire |
-| COO | — | À écrire |
-| Com et branding | — | À écrire |
-| Produit | — | À écrire |
-| MAJ SOT | — | À écrire |
-| Système de création de contenu | — | À écrire |
+| Lédjé site | `ledje-site` | Écrite le 10/11 d'après une revue réelle ; à éprouver par une autre session |
+| Lédjé tool (outils, formation à Claude) | `ledje-tool` | Écrite le 10/11 d'après la séance du jour |
+| COO | `ledje-coo` | Écrite le 10/11 d'après les fiches, jamais déroulée |
+| Com et branding | `ledje-com` | Écrite le 10/11 d'après les fiches, jamais déroulée |
+| Produit | `ledje-produit` | Écrite le 10/11 d'après les fiches, jamais déroulée |
+| MAJ SOT | `ledje-maj-sot` | Écrite le 10/11 d'après les fiches, jamais déroulée. Le nom n'est défini nulle part : compris comme la séance qui tient le cerveau à jour |
+| Système de création de contenu | `ledje-contenu` | Écrite le 10/11 d'après les fiches, jamais déroulée |
 | Toutes, avant d'en changer | `ledje-passation` | Écrite le 10/11 |
 
-Les trames restantes s'écrivent une par une, **après** que celle du site a été éprouvée : une
-trame écrite sans avoir été déroulée est une supposition.
+**Une trame écrite d'après les fiches est une première version.** La première session qui la
+déroule note ici ce qui l'a mal guidée, et la session « lédjé tool » corrige la trame.
 
 **Trois skills vivent déjà au dépôt** et non dans l'application : `landing-page-design`,
 `ui-ux-pro-max` et `find-skills`. Ils se retirent par une PR, pas dans les réglages.
@@ -199,7 +199,7 @@ tableau.
 | Playwright (captures du site) | 10/11 | Fonctionne, accueil et `/commander` capturés à 375 px et 1440 px |
 | `ui-design-review:ui-review` | 10/11 | Fonctionne. Sa banque d'exemples (UXKIN) ne se connecte pas depuis une session cloud ; la revue se fait sans |
 | Aperçu Vercel sur une PR | 10/11 | Fonctionne, lien posté en commentaire de la PR |
-| `ledje-site`, `ledje-passation` | Non | Écrits le 10/11, pas encore déroulés par une autre session |
+| Les huit trames `ledje-…` | Non | Écrites le 10/11, pas encore déroulées par une autre session |
 | Tous les autres skills cités | Non | — |
 
 ## Renvois
