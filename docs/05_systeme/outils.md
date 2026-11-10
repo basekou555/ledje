@@ -1,9 +1,9 @@
 ---
 statut: figé
 domaine: systeme
-maj: 2026-10-21
+maj: 2026-11-10
 source: "SOT Partie 8 + §8.1 (archive 2026-07-24) + outillage conseil 2026-07-21 (page relais) ; générateur de prompts visuels rendu visible le 2026-08-20 (il n'était référencé que par CLAUDE.md)"
-resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo. 🆕 `[idée]` **Agent Reach** (MIT) : couche de LECTURE des réseaux sociaux pour agents — ⛔ ne prospecte pas, ne contacte personne. 🎯 L'accès internet générique est DÉJÀ couvert ; le vrai trou est la lecture du contenu social (TikTok, Instagram, X, Reddit, sous-titres YouTube), non couverte à ce jour. ⚠️ Deux réserves : les canaux sociaux passent par les COOKIES de Basekou (comptes récents = les plus faciles à suspendre), et l'installation documentée fait exécuter à un agent un fichier distant. Rien n'est installé. 🛠️ **Deux pages Notion INTERNES de travail inventoriées le 12/10** (« Argumentaire de RDV restaurateur — questions, SONCAS, objections » et « Générateur de hooks ») : elles n'étaient référencées que dans la file 📥 de la page ÉTAT, dont la fonction est d'être vidée. ⛔ Elles ne sortent pas."
+resume: "Qui fait quoi (Claude.ai / Code / Cowork, Higgsfield, CapCut, Canva, Notion, Supabase/Vercel/OVH) + inventaire des documents hors repo. 🆕 `[idée]` **Agent Reach** (MIT) : couche de LECTURE des réseaux sociaux pour agents — ⛔ ne prospecte pas, ne contacte personne. 🎯 L'accès internet générique est DÉJÀ couvert ; le vrai trou est la lecture du contenu social (TikTok, Instagram, X, Reddit, sous-titres YouTube), non couverte à ce jour. ⚠️ Deux réserves : les canaux sociaux passent par les COOKIES de Basekou (comptes récents = les plus faciles à suspendre), et l'installation documentée fait exécuter à un agent un fichier distant. Rien n'est installé. 🛠️ **Deux pages Notion INTERNES de travail inventoriées le 12/10** (« Argumentaire de RDV restaurateur — questions, SONCAS, objections » et « Générateur de hooks ») : elles n'étaient référencées que dans la file 📥 de la page ÉTAT, dont la fonction est d'être vidée. ⛔ Elles ne sortent pas. 🧹 **Tri de la configuration Claude le 10/11** : 7 plugins à couper, 4 connecteurs gardés pour test, Granola testé mais trop cher, Stripe se déconnecte seul."
 ---
 
 # Outils & répartition
@@ -85,6 +85,29 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 🔴 **ET UN SECOND BLOCAGE, DISTINCT, A ÉTÉ TESTÉ LE 25/09 : l'écriture par le CONNECTEUR GitHub renvoie `403 Resource not accessible by integration`** *(constaté sur une création de branche)*. ➡️ **Il y a donc DEUX verrous, de natures différentes : l'un au proxy sur le `push`, l'autre sur les droits du connecteur.** ⛔ **LEVER L'UN NE LÈVERAIT PAS L'AUTRE** — et c'est ce qui change le geste : ajouter le dépôt aux sources d'une session ne donnera rien tant que le connecteur reste en 403, et inversement.
 
 ➡️ **Ce n'est donc PAS un droit GitHub manquant, ni une propriété du connecteur : c'est que le dépôt n'est pas déclaré dans les sources autorisées de CETTE session-là.** 📌 **La différence compte, parce qu'elle change ce qu'il faudrait faire pour la lever** : on ne cherche pas un jeton ou une permission GitHub, on ajoute le dépôt aux sources de la session. ⛔ **Rien n'est décidé là-dessus** — la file 📥 de la page ÉTAT reste le chemin des sessions qui ne peuvent pas écrire, et elle fonctionne.
+
+## 🧹 Configuration Claude — tri du 2026-11-10
+
+**Constat de départ** : environ 250 skills chargés à chaque session, et une vingtaine de connecteurs de plugins refusés par le réseau de l'environnement cloud (Slack, Linear, Asana, Figma, Box…). Aucune configuration ne vit au dépôt (pas de dossier `.claude/`) : tout se règle au niveau du compte de Basekou — **une session ne peut pas couper un plugin, c'est lui qui le fait.**
+
+| Plugin | Décision | Motif |
+|---|---|---|
+| `small-business`, `marketing` | Garder | Déjà adaptés à Lédjé |
+| `social-media-skills` | Garder, à surveiller | Utile pour TikTok/Instagram, mais le plus lourd (~110 skills, dont des plateformes non utilisées) |
+| `sales`, `operations`, `productivity` | Garder | RDV restaurateurs, fournisseurs, tâches |
+| `pdf-viewer`, `anthropic-skills`, `cowork-plugin-management` | Garder | Devis PDF, documents, adaptation des plugins |
+| `design`, `ui-design-review`, `landing-page-design`, `ui-ux-pro-max` | Doublon à réduire — **non tranché** | Quatre outils pour le même besoin (le site). `landing-page-design` et `ui-ux-pro-max` vivent au dépôt (`.claude/skills/`), pas dans l'application : ils se retirent par une PR |
+| `legal` | **Couper** | Doublon de `small-business:contract-review` |
+| `product-management`, `engineering` | **Couper** | Pensés pour une équipe logicielle ; portent la plupart des connecteurs en échec |
+| `human-resources`, `finance`, `data`, `enterprise-search` | **Couper** | Sans usage pour une marque à une personne |
+
+**Liste « couper » validée par Basekou le 10/11.** L'exécution (désactivation dans son compte) reste à faire par lui ; elle n'est pas vérifiable depuis une session tant qu'une nouvelle session n'a pas été ouverte.
+
+**Connecteurs**
+
+- **Apollo, Clay, Docusign, Postiz** : non utilisés à ce jour, **gardés parce que Basekou songe à les tester**. Aucun test fait.
+- **Granola** : **testé par Basekou, apprécié, mais trop cher pour l'instant** — non retenu à ce stade. Grain reste l'outil de notes de réunion.
+- **Stripe** : Basekou signale le 10/11 qu'**il se déconnecte tout seul**. Cause non établie. Conséquence : les skills `small-business` qui lisent Stripe (trésorerie, marge, relance de factures, clôture du mois) tournent sans données tant qu'il n'est pas reconnecté.
 
 ## Salle du conseil (2026-07-21)
 
