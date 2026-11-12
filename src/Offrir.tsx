@@ -44,7 +44,7 @@ const ETAPES = [
   {
     titre: 'Tu nous écris',
     texte:
-      'Tu dis quelle mosquée, combien de bouteilles, et pour quand. On répond avec ce que ça donne concrètement.',
+      'Tu dis quelle mosquée, combien de bouteilles, et pour quand. On répond avec un prix et une date.',
   },
   {
     titre: 'La mosquée dit oui',
@@ -133,9 +133,9 @@ export default function Offrir() {
           <div className="container container--wide">
             <h2 id="contact-title" className="v-title v-title--xl">On en parle ?</h2>
             <p className="v-text v-text--lead">
-              Dis-nous où, combien et pour quand. On revient vers toi avec ce
-              que ça donne concrètement — il n’y a pas de commande en ligne
-              pour ça, et c’est très bien comme ça.
+              Dis-nous où, combien et pour quand. On te répond avec un prix et
+              une date. Il n’y a pas de commande en ligne pour ça : on en parle
+              d’abord.
             </p>
             <DemandeForm
               type="offrir"
