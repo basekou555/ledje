@@ -282,7 +282,7 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 
 🔴 **CE QUI EST À VÉRIFIER AVANT TOUTE SUITE, et c'est la seule question ouverte : LA MISE EN DEMEURE DU 31/08 EST-ELLE PARTIE, ET AVEC QUELLE PREUVE ?** ⚠️ **Sans réponse, on ne sait pas si le dossier en est à la réclamation ou déjà à la contestation** — et un chargeback se juge sur la chronologie des démarches.
 
-⛔ **Aucun montant ne s'écrit ici** *(règle du 12/10 ; le chiffré va au Notion 💸 Comptabilité)*. 📌 **Et rien n'est tranché : cette section ouvre le suivi, elle ne décide pas de la suite.**
+⛔ **Aucun montant ne s'écrit ici** *(règle du 12/10, PRÉCISÉE le 2026-11-12 : ce sont les chiffres INTERNES — coûts, marges, point mort, chiffre d'affaires, soldes — qui vont au Notion 💸 Comptabilité ; les PRIX PUBLICS, eux, s'écrivent au dépôt. Ici, dossier bancaire, tout est interne)*. 📌 **Et rien n'est tranché : cette section ouvre le suivi, elle ne décide pas de la suite.**
 
 ## Renvois
 

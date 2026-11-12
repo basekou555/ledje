@@ -120,8 +120,11 @@ Le connecteur OpusClip demande un abonnement payant pour fonctionner depuis une 
 | Clôture du mois, pièces manquantes | Skill `small-business:month-end-prep` |
 
 **Tous lisent Stripe** : si le connecteur est déconnecté, ils tournent sans données, et la session
-doit le dire au lieu de produire un document vide. **Aucun montant ne s'écrit au dépôt**
-(`workflow-maj.md`) : ces documents restent internes.
+doit le dire au lieu de produire un document vide. **Les chiffres INTERNES ne s'écrivent pas au dépôt** `[figé 2026-11-12]` — coût d'achat, prix
+fournisseur, marge, point mort, chiffre d'affaires, solde : ils vont au Notion 💸 Comptabilité.
+**Les prix PUBLICS, eux, s'écrivent** *(prix de vente au consommateur, prix public négocié)* : ils
+sont déjà lisibles sur le site, sur l'étiquette et dits à voix haute. ⚠️ La clé de partage reste
+`[en discussion]`. Ces documents restent internes.
 
 ## 9. Fournisseurs et contrats
 
