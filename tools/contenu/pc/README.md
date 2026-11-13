@@ -22,6 +22,7 @@ reprend à la main, et le résultat jugé est la vidéo exportée de CapCut.
 | Découper | `extraire.py`, `extraire_son.py` | extraits courts des rushes 4K HDR, convertis en SDR ; morceaux de son seul |
 | | `sans_voix.py` | retire une voix d'un morceau de rush en gardant le vrai son autour (Demucs) |
 | Monter | `capcut_projet.py` | un JSON de montage → un projet CapCut (pistes vidéo, titres, sous-titres, sons) |
+| | `accroche_projet.py` | **(13/11)** fabrique un projet « accroche » à partir de la version retouchée : copie le projet, ajoute ou retire un morceau au début, décale tout le reste (recette JSON) |
 | | `maj_projet.py` | met à jour un projet CapCut **existant** en ne remplaçant que les pistes demandées |
 | | `retouche_projet.py`, `anim_bold_in.py`, `anim_retirer.py`, `vitesse_bloc.py`, `st_hauteur.py` | retouches ciblées dans un projet déjà retouché par Basekou |
 | | `sous_titres_relus.py`, `temps_morts.py` | sous-titres relus par le sens ; repérage des mises en place en début de plan |

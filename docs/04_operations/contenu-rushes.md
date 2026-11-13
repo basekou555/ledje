@@ -255,3 +255,19 @@ pour le système (les choix faits vidéo par vidéo restent dans la discussion d
 - 📌 **On compare sur la rétention et le temps moyen, pas sur les vues** : les vues dépendent du temps passé en ligne et du jour.
 - ⚠️ **Une vidéo, un jour par version, quelques centaines de vues : ce sont des observations, pas une règle.** La voix en ouverture est **la piste à retester**, sur S-13 (accroche A : sa voix qui hésite, tirée du rush ; accroche B : un geste). Prévu les 13 et 14/11, **pas parti** (rien publié la semaine du 10/11).
 - Le relevé détaillé et le suivi vivent sur le PC : `_montages\resultats-S-09-accroches_2026-11-09.md` et `_montages\suivi-accroches-tiktok.csv`.
+
+### 11.1 Le deuxième tour, lancé le 13/11
+
+- **S-13 (référence) est programmée sur TikTok le 13/11 à 18 h 30**, avec son « oui ».
+- **Huit projets CapCut d'accroche sont fabriqués le 13/11**, deux par vidéo. Pour chacun, seule l'ouverture change, et le reste est sa version retouchée, copiée telle quelle (outil `tools/contenu/pc/accroche_projet.py`) :
+
+| Vidéo | Accroche A | Accroche B |
+|---|---|---|
+| S-13 | sa voix qui hésite : « Je ne sais même pas si je dois l'ouvrir tout de suite. » (rush IMG_5675, 2,3-5,2 s) | le geste : la première étiquette posée, « La première, montre. » |
+| S-10 | sa voix de S-09 : « Ma boisson, c'est deux ingrédients. Regarde. » sur l'étiquette | le filet de miel au ralenti (plan de S-09), avec le début du beat |
+| S-02 | « C'est pas normal. » mis devant | on retire « Bon les gars, dégustation à l'aveugle » : la vidéo commence sur « Je me bouche les oreilles » |
+| S-14 | « Ça fait huit heures que je suis sur le projet. » mis devant | « Je peux pas faire une phrase intéressante, là. » mis devant |
+
+- ⚠️ **S-10 B a changé en route** : l'angle prévu était « lui qui boit, plan du 17/09 », mais ce rush est un **test de fermentation** (pH, « odeur de fermentation »). Il est écarté pour cette raison, et remplacé par le filet de miel.
+- **Reste à faire** : exporter les huit projets, contrôler le son et les sous-titres, et obtenir son « oui » sur chaque version et son créneau. On publie la référence, puis A, puis B, trois jours de suite à 18 h 30, une vidéo à la fois.
+
