@@ -1,9 +1,9 @@
 ---
 statut: hypothèse
 domaine: operations
-maj: 2026-10-29
+maj: 2026-11-13
 source: "Session Claude Code du 2026-10-21 (17h-18h CEST, branche claude/exciting-babbage-hm0xps), construite sur chaine-contenu.md, contenu-drive.md, grille-contenu.md, conformite.md, identite-visuelle.md, le decisions-log (2026-08-20 → 2026-10-17) et le SOT archivé (Partie 6). PROPOSITION — rien n'y est tranché par Basekou."
-resume: "Le système rushes → pièces : trois objets (le rush indexé, la recette, le gabarit de format), six étapes dont trois outillées dans tools/contenu/, ce que le cerveau impose déjà, le premier lot proposé sur les trois gisements, et dix arbitrages — cinq rendus par Basekou le 21/10 au soir (PC, Bureau + disque, tiers, conformité cas par cas), cinq ouverts."
+resume: "Le système rushes → pièces : trois objets (le rush indexé, la recette, le gabarit de format), six étapes dont trois outillées dans tools/contenu/, ce que le cerveau impose déjà, le premier lot proposé sur les trois gisements, et dix arbitrages — cinq rendus par Basekou le 21/10 au soir (PC, Bureau + disque, tiers, conformité cas par cas), cinq ouverts. ➕ § 11 (13/11) : le premier test d'accroches mesuré (S-09) — l'ouverture à la voix garde le mieux, ouvrir sur la fin perd la moitié des gens dès la 1ʳᵉ seconde ; observation à retester."
 ---
 
 # Le système rushes → pièces — proposition
@@ -239,3 +239,37 @@ pour le système (les choix faits vidéo par vidéo restent dans la discussion d
 - **Pas le système visuel** — il ne génère rien ; il prend ce que `03_generes/` lui donne.
 - **Pas un nouveau lieu de statut** — Notion garde les statuts des pièces, le Drive les fichiers, le dépôt les règles.
 - **Pas une cadence** — il produit des pièces vraies ; le volume, s'il vient, vient d'ailleurs.
+
+## 11. Le test d'accroches — premier test mesuré *(S-09, relevé le 09/11 ; consigné le 13/11)*
+
+**La méthode** *(demandée par Basekou le 02/11 : « il faut continuer pareil pour les autres vidéos »)* : sa version reste la référence ; à côté, 2 ou 3 versions où **seule l'ouverture change**, avec des angles vraiment différents dès la première image. Même légende, même heure (18 h 30), une version par jour, sur TikTok. On compare après 48 h dans TikTok Studio.
+
+| Version | Ouverture | Temps moyen | Vue en entier | Reste à 1 s / 3 s |
+|---|---|---|---|---|
+| Référence (05/11) | la cuillère, sans texte | 5,7 s | 8,8 % | 75 % / 44 % |
+| A (06/11) | la liste qui se barre | 5,6 s | 8,7 % | 73 % / 45 % |
+| B (07/11) | la fin d'abord (bouteille + « De l'eau. Du miel. C'est tout. ») | 2,9 s | 3,8 % | **47 %** / 16 % |
+| **C (08/11)** | **sa voix : « Ma boisson, c'est deux ingrédients. Regarde. »** | **7,2 s** | **14,6 %** | **78 % / 54 %** |
+
+- **L'ouverture à la voix garde le mieux, à chaque seconde.** **Ouvrir sur la fin fait partir la moitié des gens dès la première seconde.** La liste barrée ne change rien.
+- 📌 **On compare sur la rétention et le temps moyen, pas sur les vues** : les vues dépendent du temps passé en ligne et du jour.
+- ⚠️ **Une vidéo, un jour par version, quelques centaines de vues : ce sont des observations, pas une règle.** La voix en ouverture est **la piste à retester**, sur S-13 (accroche A : sa voix qui hésite, tirée du rush ; accroche B : un geste). Prévu les 13 et 14/11, **pas parti** (rien publié la semaine du 10/11).
+- Le relevé détaillé et le suivi vivent sur le PC : `_montages\resultats-S-09-accroches_2026-11-09.md` et `_montages\suivi-accroches-tiktok.csv`.
+
+### 11.1 Le deuxième tour, lancé le 13/11
+
+- **S-13 (référence) est programmée sur TikTok le 13/11 à 18 h 30**, avec son « oui ».
+- **Huit projets CapCut d'accroche sont fabriqués le 13/11 (S-13, S-10, S-02, S-14), ouverts dans CapCut et exportés** — deux par vidéo. Pour chacun, seule l'ouverture change, et le reste est sa version retouchée, copiée telle quelle (outil `tools/contenu/pc/accroche_projet.py`) :
+
+| Vidéo | Accroche A | Accroche B |
+|---|---|---|
+| S-13 | sa voix qui hésite : « Je ne sais même pas si je dois l'ouvrir tout de suite. » (rush IMG_5675, 2,3-5,2 s) | le geste : la première étiquette posée, « La première, montre. » |
+| S-10 | sa voix de S-09 : « Ma boisson, c'est deux ingrédients. Regarde. » sur l'étiquette | le filet de miel au ralenti (plan de S-09), avec le début du beat |
+| S-02 | « C'est pas normal. » mis devant | on retire « Bon les gars, dégustation à l'aveugle » : la vidéo commence sur « Je me bouche les oreilles » |
+| S-14 | « Ça fait huit heures que je suis sur le projet. » mis devant | « Je peux pas faire une phrase intéressante, là. » mis devant |
+
+- ⚠️ **S-10 B a changé en route** : l'angle prévu était « lui qui boit, plan du 17/09 », mais ce rush est un **test de fermentation** (pH, « odeur de fermentation »). Il est écarté pour cette raison, et remplacé par le filet de miel.
+- **Exportés et contrôlés le 13/11** : les huit sont dans `Export\` (1080×1920), les cinq premières secondes vérifiées sur planches (texte, sous-titres, son). Contrôle consigné sur le PC : `_montages\accroches-2026-11-13\controle-exports.md`. Ce contrôle n'est pas un « oui » de Basekou.
+- ⚠️ **Piège rencontré (CapCut 9.8)** : un projet copié **ne s'ouvre pas, sans message d'erreur**, si l'`id` de son `draft_content.json` diffère du `main_timeline_id` de `Timelines/project.json`. La première version de l'outil changeait cet `id` ; corrigé le 13/11, avant l'export. **Vérifier qu'un projet fabriqué s'ouvre dans CapCut avant de l'annoncer comme fait.**
+- **Reste à faire** : obtenir son « oui » sur chaque version et son créneau. On publie la référence, puis A, puis B, trois jours de suite à 18 h 30, une vidéo à la fois.
+
