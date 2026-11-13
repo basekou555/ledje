@@ -277,5 +277,7 @@ pour le système (les choix faits vidéo par vidéo restent dans la discussion d
   - **D — « Donc ça va finir à la poubelle. »** (20261024_180210, 16,95-19,78 s) : face caméra, verre en main (test gingembre, personne d'autre dans le cadre).
   - Le disque D: n'était pas branché : les rushes qui n'y sont que là (les abeilles, « J'ai peur, t'approches pas trop ») n'ont pas pu être essayés.
 - 📌 **Observation (un seul cas, pas une règle)** : un extrait coupé net peut craquer sur sa première image. `extraire.py` pose désormais un fondu de 50 ms au début et 80 ms à la fin de chaque extrait.
-- **Reste à faire** : son avis sur S-02 C et D ; son « oui » et les créneaux pour S-13, S-14 et S-10. On publie la référence, puis A, puis B, trois jours de suite à 18 h 30, une vidéo à la fois.
+- **Verdict de Basekou (13/11) : S-02 C et D écartées, S-10 B (le filet) aussi.** Ses mots : l'esprit est le bon, « la phrase fait réagir », mais **« ça manque de lien avec la continuité de la vidéo, c'est sorti de nulle part, donc on ne comprend pas »**. Le filet de S-10 B : « pas pertinent ».
+- 📌 **Ce que ça apprend (deux essais, pas encore une règle)** : une ouverture tirée d'un autre rush doit **faire réagir ET être expliquée par les secondes qui suivent** — la vidéo répond tout de suite à la question que l'ouverture pose. Une phrase forte sans ce lien ne marche pas. Le choix de C et D ne vérifiait que trois choses (lui seul à l'image, rush présent sur le PC, phrase frappante), pas le lien.
+- **Reste à faire** : nouvelles ouvertures pour S-02 et S-10 B selon ce critère ; son « oui » et les créneaux pour S-13, S-14 et S-10 A. On publie la référence, puis A, puis B, trois jours de suite à 18 h 30, une vidéo à la fois.
 
