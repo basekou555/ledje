@@ -253,7 +253,8 @@ def main():
         shutil.rmtree(dst)
     shutil.copytree(src, dst, ignore=shutil.ignore_patterns("draft_content.avant-*", "_copies-*", "*.avant-*"))
     d = contenu(src)
-    d["id"] = str(uuid.uuid4()).upper()
+    # Ne PAS changer d["id"] : il doit rester égal au main_timeline_id de Timelines/project.json,
+    # sinon CapCut 9.8 refuse d'ouvrir le projet sans message (constaté le 13/11).
     for op in rec["operations"]:
         OPS[op["type"]](d, op)
     texte = json.dumps(d, ensure_ascii=False)

@@ -259,7 +259,7 @@ pour le système (les choix faits vidéo par vidéo restent dans la discussion d
 ### 11.1 Le deuxième tour, lancé le 13/11
 
 - **S-13 (référence) est programmée sur TikTok le 13/11 à 18 h 30**, avec son « oui ».
-- **Six projets CapCut d'accroche sont fabriqués le 13/11 (S-10, S-02, S-14) ; ceux de S-13 attendent que CapCut soit fermé** — deux par vidéo. Pour chacun, seule l'ouverture change, et le reste est sa version retouchée, copiée telle quelle (outil `tools/contenu/pc/accroche_projet.py`) :
+- **Huit projets CapCut d'accroche sont fabriqués le 13/11 (S-13, S-10, S-02, S-14), ouverts dans CapCut et exportés** — deux par vidéo. Pour chacun, seule l'ouverture change, et le reste est sa version retouchée, copiée telle quelle (outil `tools/contenu/pc/accroche_projet.py`) :
 
 | Vidéo | Accroche A | Accroche B |
 |---|---|---|
@@ -269,5 +269,7 @@ pour le système (les choix faits vidéo par vidéo restent dans la discussion d
 | S-14 | « Ça fait huit heures que je suis sur le projet. » mis devant | « Je peux pas faire une phrase intéressante, là. » mis devant |
 
 - ⚠️ **S-10 B a changé en route** : l'angle prévu était « lui qui boit, plan du 17/09 », mais ce rush est un **test de fermentation** (pH, « odeur de fermentation »). Il est écarté pour cette raison, et remplacé par le filet de miel.
-- **Reste à faire** : exporter les huit projets, contrôler le son et les sous-titres, et obtenir son « oui » sur chaque version et son créneau. On publie la référence, puis A, puis B, trois jours de suite à 18 h 30, une vidéo à la fois.
+- **Exportés et contrôlés le 13/11** : les huit sont dans `Export\` (1080×1920), les cinq premières secondes vérifiées sur planches (texte, sous-titres, son). Contrôle consigné sur le PC : `_montages\accroches-2026-11-13\controle-exports.md`. Ce contrôle n'est pas un « oui » de Basekou.
+- ⚠️ **Piège rencontré (CapCut 9.8)** : un projet copié **ne s'ouvre pas, sans message d'erreur**, si l'`id` de son `draft_content.json` diffère du `main_timeline_id` de `Timelines/project.json`. La première version de l'outil changeait cet `id` ; corrigé le 13/11, avant l'export. **Vérifier qu'un projet fabriqué s'ouvre dans CapCut avant de l'annoncer comme fait.**
+- **Reste à faire** : obtenir son « oui » sur chaque version et son créneau. On publie la référence, puis A, puis B, trois jours de suite à 18 h 30, une vidéo à la fois.
 
