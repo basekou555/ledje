@@ -271,5 +271,11 @@ pour le système (les choix faits vidéo par vidéo restent dans la discussion d
 - ⚠️ **S-10 B a changé en route** : l'angle prévu était « lui qui boit, plan du 17/09 », mais ce rush est un **test de fermentation** (pH, « odeur de fermentation »). Il est écarté pour cette raison, et remplacé par le filet de miel.
 - **Exportés et contrôlés le 13/11** : les huit sont dans `Export\` (1080×1920), les cinq premières secondes vérifiées sur planches (texte, sous-titres, son). Contrôle consigné sur le PC : `_montages\accroches-2026-11-13\controle-exports.md`. Ce contrôle n'est pas un « oui » de Basekou.
 - ⚠️ **Piège rencontré (CapCut 9.8)** : un projet copié **ne s'ouvre pas, sans message d'erreur**, si l'`id` de son `draft_content.json` diffère du `main_timeline_id` de `Timelines/project.json`. La première version de l'outil changeait cet `id` ; corrigé le 13/11, avant l'export. **Vérifier qu'un projet fabriqué s'ouvre dans CapCut avant de l'annoncer comme fait.**
-- **Reste à faire** : obtenir son « oui » sur chaque version et son créneau. On publie la référence, puis A, puis B, trois jours de suite à 18 h 30, une vidéo à la fois.
+- **Verdict de Basekou sur les exports (13/11)** : **S-13 A et B, S-14 A et B : « elles sont bien ».** **S-02 A et B : écartées** — A, « un bruit trop fort au début » (mesuré : un craquement sur la 1ʳᵉ image, son coupé net, crête à −1 dB) ; B, « pas impactante ».
+- **S-02, nouvelle piste demandée par Basekou** : des ouvertures tirées de **rushes qui n'ont rien à voir** avec la vidéo. Deux faites le 13/11, exportées et contrôlées, **en attente de son avis** :
+  - **C — « Là, c'est la caverne d'Ali Baba. »** (IMG_5644, 628,45-630,85 s) : chez l'apiculteur, devant la chambre froide pleine de fûts. Il entre dans le cadre à 1,5 s ; la première demi-seconde est calme.
+  - **D — « Donc ça va finir à la poubelle. »** (20261024_180210, 16,95-19,78 s) : face caméra, verre en main (test gingembre, personne d'autre dans le cadre).
+  - Le disque D: n'était pas branché : les rushes qui n'y sont que là (les abeilles, « J'ai peur, t'approches pas trop ») n'ont pas pu être essayés.
+- 📌 **Observation (un seul cas, pas une règle)** : un extrait coupé net peut craquer sur sa première image. `extraire.py` pose désormais un fondu de 50 ms au début et 80 ms à la fin de chaque extrait.
+- **Reste à faire** : son avis sur S-02 C et D ; son « oui » et les créneaux pour S-13, S-14 et S-10. On publie la référence, puis A, puis B, trois jours de suite à 18 h 30, une vidéo à la fois.
 
