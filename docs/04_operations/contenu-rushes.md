@@ -259,7 +259,7 @@ pour le système (les choix faits vidéo par vidéo restent dans la discussion d
 ### 11.1 Le deuxième tour, lancé le 13/11
 
 - **S-13 (référence) est programmée sur TikTok le 13/11 à 18 h 30**, avec son « oui ».
-- **Huit projets CapCut d'accroche sont fabriqués le 13/11**, deux par vidéo. Pour chacun, seule l'ouverture change, et le reste est sa version retouchée, copiée telle quelle (outil `tools/contenu/pc/accroche_projet.py`) :
+- **Six projets CapCut d'accroche sont fabriqués le 13/11 (S-10, S-02, S-14) ; ceux de S-13 attendent que CapCut soit fermé** — deux par vidéo. Pour chacun, seule l'ouverture change, et le reste est sa version retouchée, copiée telle quelle (outil `tools/contenu/pc/accroche_projet.py`) :
 
 | Vidéo | Accroche A | Accroche B |
 |---|---|---|
