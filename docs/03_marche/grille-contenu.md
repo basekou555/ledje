@@ -1,9 +1,9 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-09
+maj: 2026-11-13
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
-resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication."
+resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication. ➕ 13/11 : « où la trouver » = ledje.fr ; l'apiculteur « à une heure de Lyon » (contredit les 40 min du flyer, à trancher) ; plus de tournage à Lorient ; deux tournages bookés les 14-15/11 ; rien publié la semaine du 10/11."
 ---
 
 # Grille de contenu
@@ -304,3 +304,40 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 ⚠️ **Deux points à trancher AVANT le rendez-vous, pas pendant :**
 - ① **La règle `tiers`.** Une personne réelle qui n'est pas Basekou apparaît ou filme. `docs/04_operations/contenu-rushes.md` pose qu'un rush tagué `tiers` **ne sort pas tant que la règle n'est pas tranchée** — et elle ne l'est toujours pas. *(Précisé par Basekou le 2026-11-10 : « c'est du cas par cas » — pas de règle générale, chaque rush se décide un par un ; `contenu-rushes.md` § 7.)* Le RDV est le bon moment pour la trancher, puisque c'est là qu'on sait ce qui sera filmé.
 - ② **La conformité vaut pour sa voix comme pour la nôtre.** Ce qu'un tiers dit d'un produit Lédjé engage Lédjé : aucune allégation santé même implicite, aucun symbole religieux explicite, le sucre uniquement avec « jusqu'à » et sans nommer de marque. ➡️ **Donc le brief écrit n'est pas une politesse : c'est le seul endroit où ces interdits peuvent être posés avant tournage.**
+
+## 🎬 2026-11-13 — Les faits de la séance contenu du 10 au 13/11
+
+*Consignés le 13/11 par la session Claude Code « contenu » (atelier de montage du PC). Les fichiers de travail vivent sur le PC de Basekou, dans `Desktop\Ledje rush bureau\_montages\` : plan de publication du 09/11, suivi des accroches, résultats du test S-09. Le test S-09 lui-même est consigné dans `../04_operations/contenu-rushes.md` § 11.*
+
+### 📍 « Où la trouver » dans le contenu = ledje.fr *(déclaré par Basekou le 10/11)*
+
+- `[figé]` **Dans les vidéos, on dit seulement « en commande, sur ledje.fr ».** Le site est mis en avant pour la commande B2C.
+- `[idée]` **Une page « Où nous trouver » sur le site** portera les autres lieux. Elle n'existe pas encore.
+
+### 🍯 L'origine du miel, telle qu'elle se dit *(déclaré par Basekou le 10/11)*
+
+- **« Un apiculteur français, à une heure de Lyon »**, sans nommer la miellerie (règle du 21/10 ci-dessus).
+- 🔴 **CONTRADICTION SIGNALÉE, NON TRANCHÉE : le flyer imprimé dit « un apiculteur situé à 40 min de Lyon »** (point ③ de la relecture du 08/10). Les deux ne peuvent pas être vrais en même temps ⇒ à Basekou de dire quelle distance est juste, et si le flyer est à corriger.
+
+### 🏠 Plus de tournage à Lorient « avant un moment » *(déclaré par Basekou le 10/11)*
+
+- **Basekou n'est plus à Lorient** ⇒ pas de plans en famille ni dans la cuisine familiale avant un moment.
+- **Il y a tourné des rushes avant de partir, pas encore dérushés.** À regarder dès que le disque est branché : ils peuvent couvrir **S-20** (ma famille goûte), **S-33** (l'aveugle inversé) et **S-19** (je la prépare à la main). Sinon, S-20 et S-33 attendent son prochain passage.
+- **S-19 se tourne chez lui, à Lyon** : le texte à l'écran passe de « Chez ma mère. » à « Chez moi. ».
+
+### 🎬 Deux tournages bookés *(agenda de Basekou)*
+
+| Quand | Où | Quoi |
+|---|---|---|
+| **Samedi 14/11, 10 h-12 h** | chez lui | face caméra et voix : S-24 (voix off), S-27, S-18, S-12, S-21, et S-17 en dernier s'il le veut |
+| **Dimanche 15/11, 14 h-16 h** | sa cuisine, en plein jour, mains seulement | S-19, S-11, S-12 (la goutte), S-30 (stop-motion) |
+
+- La séance « en famille » du 22/11 est **retirée** (Lorient).
+- 📄 La feuille de tournage, avec les phrases et les plans : https://claude.ai/artifact/KAngwwsfmMkNhb1s5XBTN7
+- ⚠️ **S-17 est la plus risquée** : elle remontre un vieux rush « c'est bon pour mon corps », même bipé. **Basekou tranche avant la publication, pas avant le tournage.** « Jamais chauffé » est retiré de sa phrase en attendant la fiche conformité.
+
+### ⛔ Rien publié la semaine du 10/11 *(déclaré par Basekou le 13/11)*
+
+- **Prévu** : S-13 le 10, S-10 le 11, S-02 ou S-14 le 12, puis deux accroches de S-13 les 13 et 14. **Rien n'est parti.**
+- **Prêt** : S-13, S-10, S-02 et S-14 sont exportés depuis le 09/11. S-08 attend la recoupe de son plan de rue.
+- Chaque post passe par son « oui », puis la programmation dans TikTok Studio à 18 h 30.
