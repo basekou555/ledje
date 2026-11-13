@@ -1,9 +1,9 @@
 ---
 statut: hypothèse
 domaine: operations
-maj: 2026-10-29
+maj: 2026-11-13
 source: "Session Claude Code du 2026-10-21 (17h-18h CEST, branche claude/exciting-babbage-hm0xps), construite sur chaine-contenu.md, contenu-drive.md, grille-contenu.md, conformite.md, identite-visuelle.md, le decisions-log (2026-08-20 → 2026-10-17) et le SOT archivé (Partie 6). PROPOSITION — rien n'y est tranché par Basekou."
-resume: "Le système rushes → pièces : trois objets (le rush indexé, la recette, le gabarit de format), six étapes dont trois outillées dans tools/contenu/, ce que le cerveau impose déjà, le premier lot proposé sur les trois gisements, et dix arbitrages — cinq rendus par Basekou le 21/10 au soir (PC, Bureau + disque, tiers, conformité cas par cas), cinq ouverts."
+resume: "Le système rushes → pièces : trois objets (le rush indexé, la recette, le gabarit de format), six étapes dont trois outillées dans tools/contenu/, ce que le cerveau impose déjà, le premier lot proposé sur les trois gisements, et dix arbitrages — cinq rendus par Basekou le 21/10 au soir (PC, Bureau + disque, tiers, conformité cas par cas), cinq ouverts. ➕ § 11 (13/11) : le premier test d'accroches mesuré (S-09) — l'ouverture à la voix garde le mieux, ouvrir sur la fin perd la moitié des gens dès la 1ʳᵉ seconde ; observation à retester."
 ---
 
 # Le système rushes → pièces — proposition
@@ -239,3 +239,19 @@ pour le système (les choix faits vidéo par vidéo restent dans la discussion d
 - **Pas le système visuel** — il ne génère rien ; il prend ce que `03_generes/` lui donne.
 - **Pas un nouveau lieu de statut** — Notion garde les statuts des pièces, le Drive les fichiers, le dépôt les règles.
 - **Pas une cadence** — il produit des pièces vraies ; le volume, s'il vient, vient d'ailleurs.
+
+## 11. Le test d'accroches — premier test mesuré *(S-09, relevé le 09/11 ; consigné le 13/11)*
+
+**La méthode** *(demandée par Basekou le 02/11 : « il faut continuer pareil pour les autres vidéos »)* : sa version reste la référence ; à côté, 2 ou 3 versions où **seule l'ouverture change**, avec des angles vraiment différents dès la première image. Même légende, même heure (18 h 30), une version par jour, sur TikTok. On compare après 48 h dans TikTok Studio.
+
+| Version | Ouverture | Temps moyen | Vue en entier | Reste à 1 s / 3 s |
+|---|---|---|---|---|
+| Référence (05/11) | la cuillère, sans texte | 5,7 s | 8,8 % | 75 % / 44 % |
+| A (06/11) | la liste qui se barre | 5,6 s | 8,7 % | 73 % / 45 % |
+| B (07/11) | la fin d'abord (bouteille + « De l'eau. Du miel. C'est tout. ») | 2,9 s | 3,8 % | **47 %** / 16 % |
+| **C (08/11)** | **sa voix : « Ma boisson, c'est deux ingrédients. Regarde. »** | **7,2 s** | **14,6 %** | **78 % / 54 %** |
+
+- **L'ouverture à la voix garde le mieux, à chaque seconde.** **Ouvrir sur la fin fait partir la moitié des gens dès la première seconde.** La liste barrée ne change rien.
+- 📌 **On compare sur la rétention et le temps moyen, pas sur les vues** : les vues dépendent du temps passé en ligne et du jour.
+- ⚠️ **Une vidéo, un jour par version, quelques centaines de vues : ce sont des observations, pas une règle.** La voix en ouverture est **la piste à retester**, sur S-13 (accroche A : sa voix qui hésite, tirée du rush ; accroche B : un geste). Prévu les 13 et 14/11, **pas parti** (rien publié la semaine du 10/11).
+- Le relevé détaillé et le suivi vivent sur le PC : `_montages\resultats-S-09-accroches_2026-11-09.md` et `_montages\suivi-accroches-tiktok.csv`.
