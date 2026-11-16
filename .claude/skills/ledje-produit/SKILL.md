@@ -49,9 +49,12 @@ d'écrire « eau de source », deux attestations fournisseur non reçues, les sa
   partenaire.
 - Terminologie verrouillée : « eau miellée », « cristal de miel ».
 - On n'écrit jamais « le produit tient X jours ».
-- Séparer ce qui est **constaté** de ce qui est **déclaré** par Basekou. La boîte
-  `basekou@ledje.fr` n'est reliée à aucun outil : une réponse de fournisseur ou d'administration
-  qui y arrive ne se voit pas depuis une session.
+- Séparer ce qui est **constaté** de ce qui est **déclaré** par Basekou. ✅ **La boîte
+  `basekou@ledje.fr` est LISIBLE depuis le 13/11** *(lue pour la première fois le 16/11)* : une
+  réponse de fournisseur ou d'administration qui y arrive **se vérifie** au lieu d'être déclarée —
+  c'est par là que le mail à Joan et sa réponse sur le taux d'humidité ont cessé d'être des
+  déclarations. ⚠️ **Mais la lecture n'est acquise à aucune session d'avance**, et une absence de
+  trace dans cette boîte ne prouve toujours rien. ⛔ On LIT : aucun envoi, aucun classement.
 
 ## Étape 4 — Lire un test de conservation
 
