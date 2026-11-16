@@ -204,6 +204,7 @@ tableau.
 | Aperçu Vercel sur une PR | 10/11 | Fonctionne, lien posté en commentaire de la PR |
 | Les huit trames `ledje-…` | Non | Écrites le 10/11, pas encore déroulées par une autre session |
 | Tous les autres skills cités | Non | — |
+| Connecteur **Zoho Mail** (boîte pro `basekou@ledje.fr`) | **Non** | Branché par Basekou le 13/11. **Jamais lu depuis une session** : le jour même, les dix-huit connecteurs MCP étaient en panne (502 à la passerelle). Le catalogue d'outils s'était chargé plus tôt dans la session, donc le branchement existe ; qu'il lise reste à constater. ⚠️ Il doit aussi être **attaché à la tâche planifiée du digest** pour que la routine le voie — geste distinct, à faire sur claude.ai |
 
 ## Renvois
 

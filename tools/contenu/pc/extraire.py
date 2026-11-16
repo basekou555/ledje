@@ -54,7 +54,8 @@ for ligne in Path(sys.argv[2]).read_text(encoding="utf-8").splitlines():
     # Hauteur 1920 : un 16:9 garde de quoi être recadré en 9:16 sans perte ; un 9:16 sort en 1080x1920.
     vf = (f"{TONEMAP}," if hdr else "") + (f"{retouche}," if retouche else "") + "scale=-2:1920:flags=lanczos"
     # 23/10 : volume égalisé (les téléphones et les distances varient de 13 dB d'un rush à l'autre).
-    af = "loudnorm=I=-16:TP=-1.5:LRA=11"
+    # 13/11 : fondu de 50 ms au début et 80 ms à la fin — S-02 accroche A craquait sur sa 1re image (son coupé net).
+    af = f"afade=t=in:d=0.05,afade=t=out:st={max(duree - 0.08, 0):.3f}:d=0.08,loudnorm=I=-16:TP=-1.5:LRA=11"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{debut:.3f}", "-i", str(src),
                     "-t", f"{duree:.3f}", "-vf", vf, "-af", af, "-c:v", "libx264", "-preset", "fast", "-crf", "16",
                     "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2", str(dst)], check=True)
