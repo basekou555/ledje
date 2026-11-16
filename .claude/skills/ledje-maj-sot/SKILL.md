@@ -97,7 +97,7 @@ en échéance, ni redemander ce qui est déjà tranché (erreurs des 08/10 et 13
 
 ## Ce qui ne se fait pas
 
-- Aucun montant ne s'écrit au dépôt.
+- Montants (règle du 12/11) : les chiffres internes — coûts, prix fournisseur, marges, point mort, chiffre d'affaires, soldes, clé de partage — ne s'écrivent pas au dépôt, ils vont dans la page Notion de comptabilité. Les prix publics s'écrivent.
 - Zéro invention : un trou reste balisé « à compléter ».
 - On ne fusionne pas une PR à la place de Basekou.
 - Les règles R0 à R7 de `workflow-maj.md` sont, depuis le 07/11, des hypothèses de méthode en

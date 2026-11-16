@@ -171,7 +171,7 @@ type de session. On l'appelle par son nom (`/ledje-site`) ou la session le décl
 | Produit | `ledje-produit` | Écrite le 10/11 d'après les fiches, jamais déroulée |
 | MAJ SOT | `ledje-maj-sot` | Écrite le 10/11 d'après les fiches, jamais déroulée. « MAJ SOT » = la mise à jour des fiches (confirmé par Basekou le 10/11) |
 | Système de création de contenu | `ledje-contenu` | Écrite le 10/11 d'après les fiches, jamais déroulée |
-| Toutes, avant d'en changer | `ledje-passation` | Écrite le 10/11 |
+| Toutes, avant d'en changer | `ledje-passation` | Écrite le 10/11 ; **déroulée par une session COO et corrigée d'après son retour le 16/11** (échéances, repères, variante sans dépôt, comptage de la file, questions avant les gestes) |
 
 **Une trame écrite d'après les fiches est une première version.** La première session qui la
 déroule note ici ce qui l'a mal guidée, et la session « lédjé tool » corrige la trame.
