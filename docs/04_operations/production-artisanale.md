@@ -788,3 +788,28 @@ Paroi très souple *(les deux bouteilles restantes au frigo aussi)*, **qui se re
 ⚠️ **Le relevé du 19/10 portait ≈ 2,25 kg d'acacia. Un kilo est resté à Lorient** ⇒ **l'acacia disponible côté Lyon est nettement inférieur à ce chiffre.** ⛔ **Aucune valeur de remplacement n'est écrite ici : tout est pesé à vue, il n'y a pas de balance à 1 g, et une estimation inventée serait pire qu'un intervalle.**
 
 📌 **Ce que ça ne change pas : le montagne et le tilleul, qui portent la recette, ne sont pas concernés.**
+
+## ⏱️🧊 2026-11-16 — LE GOULOT N'EST PLUS LA PRODUCTION, C'EST LE FROID
+
+### Les deux capacités déclarées le 16/11, et elles ne tiennent pas ensemble
+
+| Capacité | Valeur déclarée | Source |
+|---|---|---|
+| **Production** | **100 bouteilles en un soir, en partant de zéro** | Basekou, 16/11 |
+| **Froid** | **40 à 60 bouteilles au frigo** | Basekou, 16/11 |
+
+🔴🔴 **LA TENSION EST ARITHMÉTIQUE, ET ELLE EST NOUVELLE : LA CAPACITÉ DE PRODUCTION DÉPASSE LA CAPACITÉ DE FROID.** ➡️ **Produire au maximum d'un soir crée immédiatement 40 à 60 bouteilles QUI N'ONT PAS DE PLACE AU FROID — or le point critique n° 1 du PMS est ≤ 24 h hors froid.** ⇒ **Le dimensionnement ne se fait plus sur le temps de production, il se fait sur le volume de froid disponible.**
+
+📐 **Ce que ça donne contre l'ambition du Ramadan** *(un carton = 231 bouteilles par semaine)* : à ≈ 50 bouteilles par soir servi, il faut **4 à 5 soirs par semaine**, et **chacun exige son volume de froid**. **La production peut suivre en ≈ 2 soirées ; le frigo, lui, ne tient qu'un soir à la fois.** ⚠️ **C'est donc le ROULEMENT du froid qui plafonne le plan, et il n'est pas mesuré.**
+
+⛔ **ET LE CONTOURNEMENT NATUREL EST PRÉCISÉMENT CELUI QUI N'EST PAS VALIDÉ** `[figé 16/11]` : **la LIVRAISON TIÈDE À J-1 est NON VALIDÉE.** **Livraison froide tant que le test n'a pas eu lieu.** ✅ **Trois conditions pour pouvoir l'utiliser, toutes nécessaires : ① le frigo du lieu est VÉRIFIÉ et LIBRE à la réception · ② l'heure de remise est ÉCRITE · ③ un test préalable a eu lieu.**
+
+🧪 **Le test est dans la séquence de la semaine du 16/11 : 12 BOUTEILLES SCELLÉES, tiède 24 h PUIS froid.** ⚠️ **Réserve de méthode à tenir : « tiède puis froid » n'a AUCUN POINT DE MESURE écrit** — ni température de départ, ni température ambiante, ni critère d'échec. **Sans eux, le test produira une impression, pas un résultat.** ⛔ **Et il ne dit rien de la DLC : le plancher de 14 jours reste OBSERVÉ, on n'écrit ni ne dit jamais « le produit tient X jours ».**
+
+### 📦 Les 50 bouteilles aux anciennes étiquettes
+
+✅ **`[figé 16/11]` Elles servent aux TESTS et aux DÉGUSTATIONS, pas à la vente.** 📌 **Fait précisé ce jour : les anciennes étiquettes — QUID à 8 % — sont déjà POSÉES sur 50 bouteilles vides** *(le dossier ne portait que « 55 étiquettes en stock au QUID faux »)*. ⚠️ **À tenir : un TEST reste interne, une DÉGUSTATION met l'étiquette sous les yeux d'un tiers. Le QUID y surdéclare le miel (8 % imprimé pour 6 % réel).** ➡️ **Décision de Basekou, consignée telle quelle ; et la dégustation du 23/11 devant un responsable se fait, elle, AVEC LES NOUVELLES étiquettes.**
+
+### ⏱️ Ce que le chiffre de production corrige
+
+⚠️ **100 bouteilles en un soir est en écart avec les mesures de cette fiche** *(≈ 5 min/bouteille au 29-30/09, soit ≈ 12/heure, et « plus il y a de bouteilles, moins je suis rapide », pause nécessaire à 50)*. 📌 **Les deux peuvent être vrais — la dose est figée depuis le 07/11 et le secouage de chaque bouteille a été abandonné.** ⛔ **Mais c'est une CAPACITÉ DÉCLARÉE, pas un chronométrage : le dimensionnement reste sur les mesures tant qu'un soir à 100 n'a pas été compté.**
