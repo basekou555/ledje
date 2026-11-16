@@ -27,8 +27,10 @@ Reproche de Basekou aux sessions : « à chaque discussion il faut remettre tout
 
 Avant d'affirmer « aucune trace », savoir ce que la session ne voit pas :
 
-- la boîte `basekou@ledje.fr` (Zoho) n'est reliée à aucun outil : ce qui y passe est déclaré par
-  Basekou, jamais constaté ;
+- ✅ **la boîte `basekou@ledje.fr` (Zoho) EST lisible depuis le 13/11**, et lue pour la première fois
+  le 16/11 : les échanges fournisseurs et administratifs s'y vérifient au lieu d'être déclarés.
+  ⚠️ La lecture n'est acquise à aucun run d'avance, et une absence de trace n'y prouve toujours
+  rien. ⛔ On LIT : aucun envoi, aucune réponse, aucun classement ;
 - le connecteur Drive pointe sur un autre compte que l'ancien dossier « Lédjé » ;
 - une pièce jointe déposée par Basekou dans Notion est illisible ;
 - le contenu des réseaux sociaux n'est pas lisible depuis une session.

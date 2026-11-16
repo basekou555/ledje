@@ -80,14 +80,40 @@ resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — 
 
 | Piste | État |
 |---|---|
-| **VISTAPRINT** | 🟠 **Prix jugé intéressant et test sur fichier CONCLUANT** *(qualité jugée correcte)*. ✅ Candidat déjà repéré, à chiffrer sur la spec ci-dessus. ⚠️ *Une somme déjà payée chez eux reste à se faire rembourser.* |
+| **VISTAPRINT** | ✅✅ **RETENU — COMMANDE PASSÉE LE 2026-11-13** `[figé 16/11]`. Commande `VP_5ZZ34C2H`, **1000 étiquettes adhésives EN ROULEAU**, livraison annoncée **lundi 23/11** au lieu de travail. *(Vérifié dans Gmail le 16/11, non déclaré.)* ⚠️ **Trois points NON vérifiables au dépôt, détaillés plus bas.** ⚠️ *Une somme déjà payée chez eux reste à se faire rembourser.* |
 | **Imprimeurs en ligne FR et UE** d'étiquettes adhésives, bobine ou planche | ⏳ À chercher. |
 | **Avery en direct** | ⏳ C'est la référence actuelle. |
 | 🎯 **Fabricants pour BRASSEURS et producteurs de boissons** | ⏳ **Même contrainte de condensation et de lavage — c'est leur métier.** |
 
 ⛔ **HORS PÉRIMÈTRE, et c'écrit dans le brief** : passer au papier sous un argument de prix · **chercher une imprimante à acheter** — autre piste, **autre base de coût** *(elle suppose du support PP imprimable)*, à arbitrer séparément.
 
-✅✅ **État au 2026-10-15 : LA RECHERCHE EST FAITE.** Un panel a été relevé le 14/10 au soir *(navigateur piloté, prix réels à 240 / 500 / 1000 port compris)*, et une base unique de **29 candidats** existe après fusion des deux listes. ⚠️ **Le livrable vit en Notion, pas au dépôt** — et la première version a été écrite sur la page 🧵 **GELÉE**, ce qui l'a rendue introuvable pendant une journée. ✅✅ **CORRIGÉ LE 15/10 PAR BASEKOU : VISTAPRINT EST CHIFFRÉ.** Il l'a configuré lui-même et **a mis à jour la base des imprimeurs** — l'échec du configurateur était celui d'une session, pas une impasse. 🎯 **DEUX CANDIDATS EN TÊTE, et ce sont les siens : VISTAPRINT et un imprimeur ALLEMAND**, tous deux chiffrés **sur le bon format, 210 × 50**. ⏳ **Choix final non tranché au 15/10.** ⚠️ *Cette fiche a porté pendant quelques heures « Vistaprint n'a pas pu être chiffré » : c'était un énoncé de bloc de routine relayé sans vérification possible, et il était faux.* 💰 *Le prix unitaire de référence vit dans la page Notion 💸 Comptabilité — il ne s'écrit pas ici.*
+✅✅ **État au 2026-10-15 : LA RECHERCHE EST FAITE.** Un panel a été relevé le 14/10 au soir *(navigateur piloté, prix réels à 240 / 500 / 1000 port compris)*, et une base unique de **29 candidats** existe après fusion des deux listes. ⚠️ **Le livrable vit en Notion, pas au dépôt** — et la première version a été écrite sur la page 🧵 **GELÉE**, ce qui l'a rendue introuvable pendant une journée. ✅✅ **CORRIGÉ LE 15/10 PAR BASEKOU : VISTAPRINT EST CHIFFRÉ.** Il l'a configuré lui-même et **a mis à jour la base des imprimeurs** — l'échec du configurateur était celui d'une session, pas une impasse. 🎯 **DEUX CANDIDATS EN TÊTE, et ce sont les siens : VISTAPRINT et un imprimeur ALLEMAND**, tous deux chiffrés **sur le bon format, 210 × 50**. ✅✅ **CHOIX TRANCHÉ ET COMMANDE PASSÉE LE 2026-11-13 : VISTAPRINT** `[figé 16/11]` *(voir le bloc du 16/11 en fin de fiche)*. ⚠️ *Cette fiche a porté pendant quelques heures « Vistaprint n'a pas pu être chiffré » : c'était un énoncé de bloc de routine relayé sans vérification possible, et il était faux.* 💰 *Le prix unitaire de référence vit dans la page Notion 💸 Comptabilité — il ne s'écrit pas ici.*
+
+## 🏷️ 2026-11-16 — LA COMMANDE D'ÉTIQUETTES EST PARTIE, ET TROIS POINTS RESTENT INVÉRIFIABLES
+
+✅ **VISTAPRINT EST RETENU, et ce n'est pas une intention : la commande `VP_5ZZ34C2H` est confirmée le 13/11 à 11h08**, facture émise à 12h34, **1000 étiquettes adhésives en rouleau**, **livraison annoncée le lundi 23 novembre**. *(Lu dans Gmail le 16/11 — la commande n'avait été déclarée nulle part.)* 💰 *Le montant est INTERNE : page Notion 💸 Comptabilité.*
+
+📌 **WIRmachenDRUCK est ÉCARTÉ.** Le compte client ouvert le 13/11 à 11h20 l'a été **pour consulter l'offre en détail**, douze minutes APRÈS la commande — *« pour l'instant c'est plus pertinent »* (Basekou, 16/11). ⚠️ **Le digest du 16/11 en avait fait un bloquant** *(« un compte créé, aucune commande »)* : l'ordre des faits le contredisait.
+
+⛔ **LABELG2 EST ÉCARTÉ, et depuis longtemps.** Offre de prix du 13/10, relance du 22/10, **trop cher** — *« ça n'a pas donné suite. Sujet clos. »* 🎯 **Leçon sur la boîte Zoho comme source neuve : elle porte un historique que le dossier n'a jamais vu. Un échange sans réponse n'y vaut pas « négligé » — il peut valoir « décidé ailleurs ». Toute remontée antérieure au 13/11 se pose en question, jamais en manquement.**
+
+### ✅ Ce que le mail de confirmation ÉTABLIT, et rien d'autre
+
+| Fait | Valeur |
+|---|---|
+| Numéro de commande | `VP_5ZZ34C2H` |
+| Date | vendredi 13/11, confirmation 11h08, facture 12h34 |
+| Article | **Étiquettes adhésives en rouleau** |
+| Quantité | **1000** |
+| Livraison annoncée | **lundi 23 novembre**, au lieu de travail |
+
+⛔ **Ces cinq lignes sont la commande. Tout le reste de cette fiche est antérieur et ne s'y mélange pas** `[règle posée par Basekou le 16/11]` — les formats, quantités et formes étudiés en octobre décrivent une recherche, pas cette commande.
+
+✅ **MAQUETTE : C'EST LA PAGE 1 QUI A ÉTÉ IMPRIMÉE** `[figé 16/11, Basekou]`. ⇒ **La réserve de conformité est LEVÉE** : le tirage porte le QUID à **6 %** et les valeurs **90 kJ / 21 kcal · 5,3 g · 5,3 g**, pas l'ancienne page à 8 %.
+
+⏳ **Un seul point reste sans réponse, et le mail ne le dit pas : la FENÊTRE EN VERNIS MAT sur la zone de date.** Sans elle, le PP ne retient pas le feutre à eau ⇒ la DLC ne peut pas s'écrire à la main, alors que **la date vaut le numéro de lot** (directive 2011/91/UE) et doit figurer sur chaque bouteille. ⚠️ **Se constate à la réception, le 23/11.**
+
+📌 **Et la décision qui déplace le risque** `[figé 16/11]` : **les 40 pages du Canva sont CONSERVÉES telles quelles**, comme archive de travail et source d'idées — *« ça me sert d'exemple […] ça me donne des idées pour la suite »*. ⇒ **On ne supprime plus la mauvaise page ; on vérifie quelle page part à l'impression.**
 
 ## Process & statut (2026-07-04)
 

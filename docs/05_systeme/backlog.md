@@ -58,6 +58,16 @@ resume: "Les pistes ouvertes et actions en attente. ⚠️ Nettoyé le 2026-08-2
     **② `visual/ledje-asset-log.md` a été modifié dans `main` le 24/09 et n'a toujours AUCUN frontmatter** — le point ④ tient donc tel quel : le dossier `visual/` reste hors convention et invisible à tout audit par `maj:`.
     📌 **Le reste de l'audit est inchangé : les mesures ont été prises sur `main` au 23/09, et aucune fiche ADN ni `prix.md` n'a bougé depuis.**
 
-## 2026-11-10 — À clarifier par Basekou : la règle sur les montants
+## 2026-11-10 → ✅ TRANCHÉ LE 2026-11-12 : la règle sur les montants
 
-Deux formulations coexistent : « aucun montant ne s'écrit au dépôt » (`workflow-maj.md`, `guide-outils.md`, `demarches-admin.md`) et « jamais dans un document partageable » (page ÉTAT, cité dans `prix.md`). Des montants sont déjà écrits dans des fiches produit. **Question à trancher** : la règle vise-t-elle tout montant, ou seulement les chiffres internes (coûts, marges, plancher), en laissant les prix publics affichés sur le site ? Tant que ce n'est pas tranché, une session n'ajoute aucun montant au dépôt et ne retire pas ceux qui y sont.
+**Question close.** Deux formulations coexistaient — « aucun montant ne s'écrit au dépôt » et « jamais dans un document partageable ». ✅ **Basekou a tranché le 12/11, option (b) : ce sont les chiffres INTERNES qui sortent du dépôt** *(coût d'achat, prix fournisseur, marge, point mort, chiffre d'affaires, solde, et la CLÉ DE PARTAGE)* **⇒ page Notion 💸 Comptabilité.** ✅ **Les PRIX PUBLICS, eux, s'écrivent** *(prix de vente au consommateur, prix public négocié)* : ils sont déjà sur le site, sur l'étiquette et dits à voix haute. ⛔ **Aucune purge rétroactive** — la règle vaut pour ce qu'on écrit désormais. 📄 `guide-outils.md`, `demarches-admin.md`, journal du 12/11.
+
+## 2026-11-16 — ✅ L'ITEM 20 EST RÉACTIVÉ PAR UNE DÉCISION, APRÈS 77 JOURS
+
+**L'item 20 — « rendre le site mesurable » — est ouvert depuis le 2026-08-31 et n'a jamais été commencé.** ✅ **Basekou le rouvre le 16/11 : *« ouais, ce serait bien qu'on l'instrumente »*.**
+
+🎯 **Et le motif a changé : il n'est plus théorique, il est opérationnel.** Le 15/11 à 03h56, une session complète en `utm_source=ig` *(vue → scroll 50 % → scroll 100 % → clic TikTok, 77 secondes)* est la **première arrivée tracée depuis le lien en bio Instagram** — et **rien ne permet de dire si c'est un visiteur ou Basekou**. 📌 C'est le défaut de dispositif nommé le 12/11 après quatre rectifications dans la même séance ; c'est la première fois qu'il a une conséquence commerciale.
+
+⚠️ **Ce que l'item 20 disait déjà en août et qui n'a pas changé** : la table `page_events` ne porte que `event_type`, `time_on_page_sec`, `utm_source` et `created_at` — **ni referrer, ni chemin de page, ni identifiant de session**. On ne peut donc ni distinguer un visiteur d'un rechargement, ni savoir d'où il vient, ni ce qu'il a regardé.
+
+⛔ **Contraintes à tenir** *(`site-technique.md`)* : policies Supabase **INSERT-only** côté anon, **jamais de `.select()` après un insert anon**, et sobriété sur les données personnelles. ⏳ **Conception technique à la charge de la séance — c'est son ressort, pas un arbitrage de Basekou.**
