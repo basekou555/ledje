@@ -332,6 +332,7 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 | **Samedi 14/11, 10 h-12 h** | chez lui | face caméra et voix : S-24 (voix off), S-27, S-18, S-12, S-21, et S-17 en dernier s'il le veut |
 | **Dimanche 15/11, 14 h-16 h** | sa cuisine, en plein jour, mains seulement | S-19, S-11, S-12 (la goutte), S-30 (stop-motion) |
 
+- ⛔ **Ni le 14 ni le 15/11 n'ont été tournés** *(déclaré le 16/11)*. **Tournage 1 reporté au mercredi 18/11, 10 h-12 h** ; tournage 2 à refixer.
 - La séance « en famille » du 22/11 est **retirée** (Lorient).
 - 📄 La feuille de tournage, avec les phrases et les plans : https://claude.ai/artifact/KAngwwsfmMkNhb1s5XBTN7
 - ⚠️ **S-17 est la plus risquée** : elle remontre un vieux rush « c'est bon pour mon corps », même bipé. **Basekou tranche avant la publication, pas avant le tournage.** « Jamais chauffé » est retiré de sa phrase en attendant la fiche conformité.
