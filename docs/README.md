@@ -47,6 +47,7 @@ d'une session (ou la copie Project Knowledge Claude) et ces fiches, **les fiches
 - **Zéro invention** : une info manquante reste balisée « à compléter ».
 - **Contradiction repérée = signalée à Basekou**, jamais tranchée en autonomie.
 - Décision prise → une ligne dans `05_systeme/decisions-log.md` (append-only).
+- **Avant de changer de session ou de la fermer** → dérouler la passation : `.claude/skills/ledje-passation/SKILL.md` (à lire dans le dépôt si la session ne charge pas les trames d'elle-même — COO, Cowork, Claude.ai). Elle a une variante pour les sessions qui n'écrivent pas au dépôt.
 
 > Migration en cours : les fiches marquées « à créer — étape 4 » dans les index sont en
 > attente de la découpe du SOT monolithique, qui sera ensuite archivé

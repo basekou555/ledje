@@ -92,7 +92,7 @@ Dérouler `ledje-passation`.
 
 ## Ce qui ne se fait pas
 
-- Aucun montant ne s'écrit au dépôt.
+- Montants (règle du 12/11) : les chiffres internes — coûts, prix fournisseur, marges, point mort, chiffre d'affaires, soldes, clé de partage — ne s'écrivent pas au dépôt, ils vont dans la page Notion de comptabilité. Les prix publics s'écrivent.
 - Aucune allégation santé, même implicite, dans un brief ou un texte ; pas de registre religieux
   en façade.
 - La COO ne modifie pas une fiche protégée sans demande explicite de Basekou.
