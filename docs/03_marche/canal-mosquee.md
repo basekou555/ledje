@@ -136,6 +136,66 @@ Identifier les volumes de consommation par mosquée → construire la courbe jus
 
 ⛔ **`[figé]` LA RESPONSABLE COM NE DÉCIDE NI DU STOCK NI DE L'AFFICHAGE.** Basekou : *« je sais qu'elle n'est pas en capacité de décider ce qu'ils prennent du stock ou pas, est-ce qu'on peut laisser une affiche ou pas »*. ➡️ **Être demandeuse et être décisionnaire sont deux choses, et c'est la seconde qui ouvre un canal.** ✅ **Ce qu'elle reste : un relais POUR L'AFFICHE — et le seul objet précis capable de ressusciter le message du 09/10 resté sans réponse.**
 
+## 🕌 2026-11-16 — LE TEXTE DE L'AFFICHE, ENFIN ÉCRIT : TROIS VERSIONS À CHOISIR
+
+✅ **Basekou nomme l'affiche comme l'un des vrais blocages** *(16/11)*, **et tranche la cible : `[figé]` L'AFFICHE PARLE AU FIDÈLE**, pas au responsable de la mosquée — *« c'est au fidèle, option a »*. ⇒ **Elle propose un geste à faire, elle ne demande pas une autorisation.**
+
+🎯 **Ce que le diagnostic du 16/11 a établi : rien ne bloquait sauf les mots.** La décision, le mécanisme verbal, la ligne de conformité, la destination `/offrir`, le générateur et la règle de canal étaient tous tranchés depuis le 19-21/10. **Aucune affiche n'avait jamais été rédigée en un mois.**
+
+### Le cahier des charges que ces trois versions respectent
+
+| Contrainte | Source | Comment elle est tenue |
+|---|---|---|
+| « **OFFRIR** », jamais « don » | `[figé 19/10]` | Le verbe *offrir* porte les trois versions ; le mot *don* n'apparaît nulle part |
+| ⛔ **Aucun argument religieux à l'écrit** | `identite-verbale.md`, 06/10 | Aucune des trois ne cite de registre religieux. ⚠️ **Et aucune ne porte d'EULOGIE** — le paramètre `eulogie` de `gen_affiche_mosquee.py` doit rester inutilisé ici |
+| ⛔ **Aucune allégation santé**, explicite ou implicite | `conformite.md` | Pas de « bienfait », pas de « sain », pas de « naturel », pas de « médecine » |
+| ⛔ Pas de « le produit tient X jours » | `[figé]` | Aucune durée n'est écrite |
+| ✅ « miel pur, jamais chauffé » autorisé | `[figé]` | Utilisé tel quel en version B |
+| La mosquée ne paie rien | `/offrir`, code vérifié | *« Elle n'achète rien et n'avance rien »*, reprise mot pour mot du site |
+| Destination | `[figé 21/10]` | `ledje.fr/offrir` — vrai formulaire, envoi réel confirmé en base |
+| ⛔ Pas de tricolon d'adjectifs courts | leçon du 13/11 | Aucune des trois n'en porte |
+
+### Version A — LE GESTE *(entrée par l'action)*
+
+> # Offrez un lot à votre mosquée
+>
+> De l'eau de source et du miel, en bouteille, livrées sur place le jour que vous choisissez.
+>
+> **La mosquée n'achète rien et n'avance rien.**
+>
+> Dites-nous laquelle, combien, et pour quand.
+>
+> `[QR]` **ledje.fr/offrir**
+
+### Version B — LE PRODUIT *(entrée par ce que c'est)*
+
+> # De l'eau de source et du miel. Rien d'autre.
+>
+> Du miel pur, jamais chauffé. Ça se boit glacé.
+>
+> **Offrez-en un lot à votre mosquée : elle n'achète rien et n'avance rien.**
+>
+> `[QR]` **ledje.fr/offrir**
+
+### Version C — LA SIMPLICITÉ *(entrée par la facilité du geste)*
+
+> # Vous offrez. On livre.
+>
+> Un lot de bouteilles d'eau miellée, apporté à votre mosquée au jour convenu.
+>
+> Vous choisissez laquelle, combien, et quand. **Elle n'achète rien et n'avance rien.**
+>
+> `[QR]` **ledje.fr/offrir**
+
+### ⏳ Ce qui reste après le choix
+
+1. **Basekou choisit une version** — elle passe alors en `[figé]` et les deux autres sont consignées comme écartées.
+2. **Il lance `gen_affiche_mosquee.py`** sur son poste *(il n'est pas réexécutable depuis une session)* avec : le texte retenu · `url_qr = ledje.fr/offrir` · `eulogie` **non utilisé** · le format.
+3. **Impression.** ⚠️ **Le wordmark n'existe qu'en image aplatie à 326 dpi et n'est pas localisé hors de là** *(`identite-visuelle.md`)* ⇒ **à vérifier avant un tirage grand format : en A1, une JPEG de cette résolution peut ne pas passer.**
+4. **Et la règle de canal s'applique au moment de la poser** `[figé 19/10]` : **arriver AVANT la prière** *(les responsables sont présents au Asr)*, **affiche en main, n'engager que 5 bouteilles.** 📌 Erreur à ne pas refaire : à Gerland, les bouteilles ont été déposées sans avoir trouvé de responsable.
+
+⚠️ **Statut : `[en discussion]` — ces trois textes sont des propositions de séance, aucune n'est figée.**
+
 ## Contacts
 
 | Nom | Rôle | Dernier échange | Suivi |
