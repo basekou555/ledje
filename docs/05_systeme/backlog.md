@@ -71,3 +71,7 @@ resume: "Les pistes ouvertes et actions en attente. ⚠️ Nettoyé le 2026-08-2
 ⚠️ **Ce que l'item 20 disait déjà en août et qui n'a pas changé** : la table `page_events` ne porte que `event_type`, `time_on_page_sec`, `utm_source` et `created_at` — **ni referrer, ni chemin de page, ni identifiant de session**. On ne peut donc ni distinguer un visiteur d'un rechargement, ni savoir d'où il vient, ni ce qu'il a regardé.
 
 ⛔ **Contraintes à tenir** *(`site-technique.md`)* : policies Supabase **INSERT-only** côté anon, **jamais de `.select()` après un insert anon**, et sobriété sur les données personnelles. ⏳ **Conception technique à la charge de la séance — c'est son ressort, pas un arbitrage de Basekou.**
+
+## 2026-11-16 — À repenser avec Basekou : le périmètre des sessions
+
+Les instructions du projet disent « une fiche appartient à une session ; avant de modifier une fiche hors de ton périmètre, signale-le et demande ». Aucune liste ne dit quelle fiche appartient à quelle session, donc la règle n'est pas applicable telle quelle. Basekou, le 16/11 : « pour le périmètre faut le repenser ». Pistes à discuter, aucune retenue : une table session → fiches dans `guide-outils.md` § 11 bis ; un champ dans l'en-tête de chaque fiche ; ou abandonner l'idée de propriété et garder seulement « relire la fiche avant de la modifier ».
