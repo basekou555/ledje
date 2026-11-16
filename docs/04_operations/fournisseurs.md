@@ -97,15 +97,21 @@ resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — 
 
 ⛔ **LABELG2 EST ÉCARTÉ, et depuis longtemps.** Offre de prix du 13/10, relance du 22/10, **trop cher** — *« ça n'a pas donné suite. Sujet clos. »* 🎯 **Leçon sur la boîte Zoho comme source neuve : elle porte un historique que le dossier n'a jamais vu. Un échange sans réponse n'y vaut pas « négligé » — il peut valoir « décidé ailleurs ». Toute remontée antérieure au 13/11 se pose en question, jamais en manquement.**
 
-### ⚠️ Ce qui n'est vérifiable ni au dépôt ni dans le mail de confirmation
+### ✅ Ce que le mail de confirmation ÉTABLIT, et rien d'autre
 
-| # | Point | Pourquoi ça compte |
-|---|---|---|
-| ① | **Quelle maquette a été envoyée ?** | 🔴 **CONFORMITÉ.** Le Canva porte 40 pages et la **page 2 est l'ANCIENNE étiquette** — QUID à **8 %**, 118 kJ, « voir bouchon ». Un tirage depuis celle-là serait une non-conformité imprimée à **1000 exemplaires**. La bonne est la page 1, au QUID **6 %** et aux valeurs **90 kJ / 21 kcal · 5,3 g · 5,3 g**. |
-| ② | **La forme et le format** | La commande dit « **en rouleau** » ; le dossier travaillait sur des **planches au format 200 × 50 mm**. Ce n'est pas forcément un écart, mais ce n'est pas confirmé. |
-| ③ | **La fenêtre en vernis mat sur la zone de date** | Sans elle, le **PP blanc 60 µ ne retient pas le feutre à eau** ⇒ la DLC ne peut pas s'écrire à la main. Et comme **la date vaut le numéro de lot** (directive 2011/91/UE), elle est obligatoire sur chaque bouteille. |
+| Fait | Valeur |
+|---|---|
+| Numéro de commande | `VP_5ZZ34C2H` |
+| Date | vendredi 13/11, confirmation 11h08, facture 12h34 |
+| Article | **Étiquettes adhésives en rouleau** |
+| Quantité | **1000** |
+| Livraison annoncée | **lundi 23 novembre**, au lieu de travail |
 
-⏳ **Ces trois points vivent dans le compte Vistaprint, que nulle session ne lit. Fenêtre pour agir : avant le 23/11.**
+⛔ **Ces cinq lignes sont la commande. Tout le reste de cette fiche est antérieur et ne s'y mélange pas** `[règle posée par Basekou le 16/11]` — les formats, quantités et formes étudiés en octobre décrivent une recherche, pas cette commande.
+
+✅ **MAQUETTE : C'EST LA PAGE 1 QUI A ÉTÉ IMPRIMÉE** `[figé 16/11, Basekou]`. ⇒ **La réserve de conformité est LEVÉE** : le tirage porte le QUID à **6 %** et les valeurs **90 kJ / 21 kcal · 5,3 g · 5,3 g**, pas l'ancienne page à 8 %.
+
+⏳ **Un seul point reste sans réponse, et le mail ne le dit pas : la FENÊTRE EN VERNIS MAT sur la zone de date.** Sans elle, le PP ne retient pas le feutre à eau ⇒ la DLC ne peut pas s'écrire à la main, alors que **la date vaut le numéro de lot** (directive 2011/91/UE) et doit figurer sur chaque bouteille. ⚠️ **Se constate à la réception, le 23/11.**
 
 📌 **Et la décision qui déplace le risque** `[figé 16/11]` : **les 40 pages du Canva sont CONSERVÉES telles quelles**, comme archive de travail et source d'idées — *« ça me sert d'exemple […] ça me donne des idées pour la suite »*. ⇒ **On ne supprime plus la mauvaise page ; on vérifie quelle page part à l'impression.**
 
