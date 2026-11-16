@@ -203,3 +203,37 @@ Ces documents sont référencés par le projet mais ne vivent pas dans ce dépô
 - Le brief designeuse : `docs/ledje-brief-designer.md`.
 - Le routeur de sessions : `CLAUDE.md` (racine).
 - Le code du site : `src/`, `public/`, `index.html`, `vercel.json`.
+
+## 📡 2026-11-16 — LIRE LES MÉTRIQUES DES RÉSEAUX : la voie retenue et son état
+
+**Décision de Basekou le 16/11** : *« on part sur la clé api instagram et pour tiktok pareil si c'est pas possible claude chrome quand je te demande le digest le matin »*.
+
+### Pourquoi une clé d'API et pas autre chose
+
+🎯 **Le critère qui tranche : la ROUTINE doit pouvoir lire les métriques SEULE, à 7h, sans Basekou.** C'est ce qui classe les trois voies.
+
+| Voie | La routine peut-elle l'utiliser seule ? | État |
+|---|---|---|
+| **Clé d'API** | ✅ **Oui** — un jeton posé sur l'environnement est injecté dans *toutes* les sessions, y compris celles de la tâche planifiée | ✅ **RETENUE** |
+| **Claude Chrome** | ⛔ **Non** — il agit dans le navigateur de Basekou, sur sa machine | ✅ Retenue **en repli**, quand il demande le digest |
+| **MCP payant** *(Windsor.ai, Supermetrics)* | ✅ Oui, mais il faut l'attacher à la tâche | ⛔ **Écarté** : abonnement — même arbitrage que Granola |
+| **OpusClip** | — | ⛔ **Écarté** : *« on n'utilise pas Opus Clip »* |
+| **Lire les pages du site** | — | ⛔ **Impossible** : `instagram.com` / `tiktok.com` en `HTTP 000`, et ça ne s'ouvre pas par un réglage de liste blanche |
+
+### ✅ Ce qui est déjà fait, et mesuré
+
+**Trois hôtes ajoutés à la liste blanche de l'environnement `Default` le 16/11** *(elle était vide)* : `graph.facebook.com` · `graph.instagram.com` · `open.tiktokapis.com`.
+
+📊 **Vérifié par appel réel après l'ajout** : `graph.facebook.com` renvoie **une vraie erreur OAuth** — *« An active access token must be used to query information about the current user »*. ⇒ **L'API est joignable. Il ne manque que le jeton.**
+
+🎯 **Et `Default` est le BON endroit, pour une raison précise : c'est l'environnement que la routine utilise aussi.** ⚠️ **À ne pas confondre avec le cas Zoho : un CONNECTEUR MCP doit être attaché à la tâche planifiée séparément, un SECRET RÉSEAU non — il vaut pour toutes les sessions de l'environnement.** 📌 `allow_mcp_servers` était déjà vrai : **un MCP n'a jamais besoin de la liste blanche, une clé d'API oui.**
+
+### ⏳ Ce qui reste, et à qui
+
+| Qui | Quoi |
+|---|---|
+| **Basekou** | Créer l'app Meta et générer un jeton longue durée *(étapes données en séance)*. ⛔ **Le jeton ne se colle JAMAIS dans la conversation** : il s'entre dans le formulaire sécurisé que la séance ouvre, et il est stocké sur l'environnement, pas au dépôt |
+| **La séance** | Dès le jeton posé : vérifier par appel réel **quelles métriques sont réellement disponibles** — ⚠️ pas les promettre de mémoire — puis écrire la section « réseaux » du digest |
+| **La séance** | Tester si TikTok est faisable sans approbation. ⚠️ **Les vues et mentions passent par l'API publique, mais la RÉTENTION demande la Business ou Research API, soumise à approbation** ⇒ à mesurer |
+
+⚠️ **Et la limite à garder en tête quelle que soit la voie** : ce que l'API donne, ce sont les chiffres de la PLATEFORME. **Le tunnel côté site reste la seule mesure de ce que les réseaux RAPPORTENT** — et c'est lui qui a produit le constat du 16/11 : zéro visite sur la page de commande, sur 119 arrivées Instagram.
