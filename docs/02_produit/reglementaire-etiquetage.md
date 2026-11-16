@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-11-09
+maj: 2026-11-16
 source: "SOT §4.4 partie étiquetage (archive 2026-07-24) + contenu légal 33cl figé 2026-07-24 (page relais) ; deux mentions résiduelles nettoyées en session le 2026-08-27 (QUID « de France », règle logo v2 caduque)"
 resume: "Étiquetage INCO de la boisson pré-mélangée, mentions obligatoires, allègements possibles ; contenu légal 33cl figé — dénomination, QUID, « sans arôme artificiel » (détail : eau-miellee-33cl.md)."
 ---
@@ -173,3 +173,26 @@ Le contenu légal de l'étiquette de la bouteille 33cl est figé — **dénomina
 #### 🧹 Et une règle de traçabilité qui s'écrit toute seule
 
 📌 **Si la date EST le lot, un retrait ou un rappel porte sur TOUTE LA PRODUCTION D'UN JOUR** — deux lots faits le même jour ne sont pas distinguables. ✅ **À ≈ 50 bouteilles par série, sans conséquence pratique.** ➔ **Mais ça donne enfin un énoncé concret aux VOLETS 6 ET 7 du PMS** <i>(traçabilité, retrait, rappel — déclarés sans appui)</i> **: l'unité de rappel est la JOURNÉE DE PRODUCTION.**
+
+## 🔴 2026-11-16 — LA SIGNALÉTIQUE DE TRI MANQUE SUR LA PAGE 1, ET LA « LISTE COMPLÈTE » DU 09/11 NE LA PORTAIT PAS `[en discussion]`
+
+**Descendu de la file le 16/11 ; posé par la session COO le 13/11, resté sans réponse.**
+
+### Le fait
+
+⛔ **La page 1 — celle qui est partie à l'impression — ne porte NI le logo Triman, NI la mention Info-tri.** 📌 **L'obligation : art. L541-9-3 du code de l'environnement, signalétique et info-tri sur les emballages ménagers.** ⚠️ **Et l'adhésion à un éco-organisme n'est PAS établie** — or c'est elle qui conditionne la façon d'apposer la signalétique.
+
+### 🔴 Ce que cette séance ajoute, et c'est le point dur
+
+**① La liste du 09/11 s'intitule « LA LISTE COMPLÈTE DE CE QUI DOIT CHANGER SUR L'ÉTIQUETTE » et cette mention n'y est dans AUCUNE des cinq sections** — ni en A <i>(ce qui bloque la commande)</i>, ni même en E <i>(les évolutions non bloquantes)</i>. ➔ **Une liste déclarée complète ne l'était pas.**
+
+**② L'obligation ÉTAIT déjà au dossier depuis le 09/11 — mais pour la PAGE 40**, auto-signalée par la séance qui l'avait omise en reportant le décor <i>(« la mention “Bouteille et bouchon en PET recyclé à trier” n'a pas été reportée… à remettre, avec le logo Triman »)</i>. ⇒ **Le dossier portait le point sur la maquette secondaire et pas sur celle qu'on imprime.**
+
+**③ 🔴 ET LA COMMANDE EST PARTIE DEPUIS : 1000 étiquettes commandées chez Vistaprint le 13/11, livraison le 23/11.** ➡️ **Donc la question n'est plus théorique : si la signalétique est obligatoire pour notre cas, elle manque sur un tirage de mille, et ce tirage n'est plus modifiable.**
+
+### Ce qui se décide, et par qui
+
+⛔ **Aucune session ne tranche une obligation d'éco-organisme : c'est une question de droit, au même titre que « eau de source ».** ➔ **C'est la CINQUIÈME question pour la DDPP 69** <i>(ou plus justement, pour l'éco-organisme : Citeo)</i>. ⚠️ **Alerte posée UNE FOIS, requalifiée le 16/11 parce que les enjeux ont changé, et non rejouée.**
+
+📌 **À rapprocher de la « mention de TRI du PET » que la page ÉTAT porte déjà comme restant à faire sur la page 1 : c'est le même point, nommé autrement, dans deux endroits qui ne se parlaient pas.**
+
