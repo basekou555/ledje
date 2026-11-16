@@ -104,7 +104,7 @@ Heuristique : **Cowork pour le jugement et le contenu ; Code pour ce qui se comp
 | Enregistrer un brouillon | L'outil existe. **Non essayé** | — |
 | Envoyer, répondre, transférer | Les outils existent. **Non essayés, volontairement** | — |
 
-⚠️ **Date de première lecture.** Cette session a lu la boîte le **12/11** selon son horloge. `workflow-maj.md` écrit « branché le 13/11, lue pour la première fois le 16/11 ». L'écart vient de ce que cette lecture n'avait jamais été écrite au dépôt. Fiche protégée : signalé à Basekou, non corrigé.
+✅ **Date de première lecture — ÉCART RÉSOLU LE 16/11, sur demande de Basekou.** Cette session a lu la boîte le **12/11** selon son horloge ; `workflow-maj.md` écrivait « branché le 13/11, lue pour la première fois le 16/11 ». ⛔ **C'était faux sur les deux dates, et l'écart venait de ce que la lecture du 12/11 n'avait jamais été écrite au dépôt.** ✅ **Formulation retenue partout : connecteur branché AU PLUS TARD le 12/11** *(Basekou l'a déclaré à la séance Code le 13/11)* **· lu par une SESSION dès le 12/11 · lu par la ROUTINE QUOTIDIENNE le 16/11.** 📌 **Corrigé aux six endroits qui le portaient**, `workflow-maj.md` comprise *(fiche protégée, sur autorisation explicite)*.
 
 **Une liste d'outils rechargée tard.** Quand Basekou ajoute des outils dans la console Zoho, une session déjà ouverte ne les voit pas tout de suite : il a fallu que le connecteur se reconnecte. Avant de conclure qu'un outil manque, vérifier la liste dans Claude (Customize, Connectors) ou ouvrir une session neuve.
 

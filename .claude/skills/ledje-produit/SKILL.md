@@ -50,7 +50,8 @@ d'écrire « eau de source », deux attestations fournisseur non reçues, les sa
 - Terminologie verrouillée : « eau miellée », « cristal de miel ».
 - On n'écrit jamais « le produit tient X jours ».
 - Séparer ce qui est **constaté** de ce qui est **déclaré** par Basekou. ✅ **La boîte
-  `basekou@ledje.fr` est LISIBLE depuis le 13/11** *(lue pour la première fois le 16/11)* : une
+  `basekou@ledje.fr` est LISIBLE au plus tard depuis le 12/11** *(lue par une session dès le 12/11,
+  par la routine le 16/11)* : une
   réponse de fournisseur ou d'administration qui y arrive **se vérifie** au lieu d'être déclarée —
   c'est par là que le mail à Joan et sa réponse sur le taux d'humidité ont cessé d'être des
   déclarations. ⚠️ **Mais la lecture n'est acquise à aucune session d'avance**, et une absence de
