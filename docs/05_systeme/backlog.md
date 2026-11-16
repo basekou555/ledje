@@ -75,3 +75,7 @@ resume: "Les pistes ouvertes et actions en attente. ⚠️ Nettoyé le 2026-08-2
 ## 2026-11-16 — À repenser avec Basekou : le périmètre des sessions
 
 Les instructions du projet disent « une fiche appartient à une session ; avant de modifier une fiche hors de ton périmètre, signale-le et demande ». Aucune liste ne dit quelle fiche appartient à quelle session, donc la règle n'est pas applicable telle quelle. Basekou, le 16/11 : « pour le périmètre faut le repenser ». Pistes à discuter, aucune retenue : une table session → fiches dans `guide-outils.md` § 11 bis ; un champ dans l'en-tête de chaque fiche ; ou abandonner l'idée de propriété et garder seulement « relire la fiche avant de la modifier ».
+
+## 2026-11-16 — À trancher par Basekou : qui vide la file de la page ÉTAT, et quand
+
+La file est plafonnée à 10 lignes et seule une séance qui écrit au dépôt peut la vider. Rien ne dit laquelle, ni à quel moment. Constat du 16/11, rapporté par une session sans accès au dépôt : la file est restée à dix lignes sur dix depuis midi, et aucune autre session de ce type ne pouvait plus y déposer. La trame `ledje-passation` fait maintenant dire l'état de la file en tête du message, mais cela signale le blocage sans le lever. Proposition de la session Lédjé Tool, non retenue à ce stade : toute séance Claude Code compte la file à son ouverture et la vide si elle dépasse la moitié, quel que soit son sujet.

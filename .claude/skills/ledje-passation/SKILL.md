@@ -5,17 +5,19 @@ description: "Vérification à faire AVANT de changer de session sur le projet l
 
 # Passation — vérifier que tout est transmis avant de changer de session
 
-**Pourquoi** : une session ne sait rien de ce qu'une autre a fait. Elle ne lit que trois choses :
-la branche `main` du dépôt, la page ÉTAT de Notion, et le message que Basekou lui écrit. Tout ce
-qui n'est dans aucune des trois est perdu. Règle posée par Basekou le 2026-11-10
+**Pourquoi** : une session ne sait rien de ce qu'une autre a fait. Elle ne lit que ce qui est
+écrit : la branche `main` du dépôt, la page ÉTAT de Notion, et le message que Basekou lui écrit.
+Une session ouverte dans le projet Claude.ai ou Cowork voit en plus les documents du projet, mais
+c'est une copie qui peut dater : elle ne remplace pas le dépôt. Tout ce qui n'est écrit dans
+aucun de ces endroits est perdu. Règle posée par Basekou le 2026-11-10
 (`docs/05_systeme/workflow-maj.md`, Clôture).
 
 **Le test** : une session qui démarre demain, sans cette conversation, peut-elle reprendre le
 travail sans que Basekou réexplique ? Si la réponse est non, la passation n'est pas finie.
 
-*Version du 2026-11-16, corrigée d'après le retour d'une session COO qui l'a déroulée : échéances
-et repères ajoutés au message, variante pour les sessions sans accès au dépôt, comptage de la
-file, questions séparées des gestes.*
+*Version du 2026-11-16, corrigée deux fois d'après les retours de sessions qui l'ont déroulée :
+échéances et repères ajoutés au message, variante pour les sessions sans accès au dépôt, comptage
+de la file, questions séparées des gestes, puis état de la file dit en tête quand elle est pleine.*
 
 ## D'abord : cette session écrit-elle au dépôt ?
 
@@ -37,6 +39,11 @@ Pour chaque point, répondre **fait**, **pas fait** ou **sans objet**, avec la p
 4. **L'état de la PR est dit sans ambiguïté.** Ouverte, en draft, fusionnée ou non.
    ⚠️ **Une PR non fusionnée n'existe pas pour la session suivante** : elle part de `main`.
    *Preuve : vérifier sur `origin/main` que le fichier y est, ne pas le supposer.*
+5. **La file de la page ÉTAT.** Seule une séance qui écrit au dépôt peut la vider : elle descend
+   chaque ligne dans sa fiche, puis la supprime de la file. Avant de fermer, compter la file. Si
+   elle est pleine ou presque, la vider, ou dire dans le message de passation qu'elle ne l'a pas
+   été. Une file pleine bloque toutes les sessions qui n'écrivent pas au dépôt.
+   *Preuve : le nombre de lignes, avant et après.*
 
 ## Variante B — la session n'écrit pas au dépôt
 
@@ -45,7 +52,9 @@ Pour chaque point, répondre **fait**, **pas fait** ou **sans objet**, avec la p
    ⚠️ **Avant d'écrire : relire la file et COMPTER ses lignes.** Elle a un plafond (dix lignes au
    16/11 ; vérifier la règle en vigueur dans `workflow-maj.md`). Si l'ajout le dépasse, ne pas
    écrire en force : regrouper, ou dire à Basekou que la file doit d'abord être vidée par une
-   séance Code. *Preuve : le nombre de lignes avant et après, et les lignes ajoutées.*
+   séance Code. **Si la file est pleine, le dire en première ligne du message de passation** :
+   c'est la première chose à faire, avant tout le reste.
+   *Preuve : le nombre de lignes avant et après, et les lignes ajoutées.*
 2. **Le relevé est au « Journal des sessions »** de Notion : c'est le seul endroit où une séance
    sans PR laisse une trace. *Preuve : le lien de l'entrée.*
 3. **Les pages Notion modifiées sont listées**, avec ce qui y a changé. *Preuve : les liens.*
@@ -54,21 +63,21 @@ Pour chaque point, répondre **fait**, **pas fait** ou **sans objet**, avec la p
 
 ## Points communs aux deux variantes
 
-5. **Ce qui expire, et quand.** Toute échéance connue de la session : une date butoir, une
+6. **Ce qui expire, et quand.** Toute échéance connue de la session : une date butoir, une
    facture échue, un délai de recours, une livraison attendue. Avec la date. C'est ce qu'une
    session neuve découvre trop tard si on ne le met pas en tête.
-6. **Ce qui reste**, séparé en trois :
+7. **Ce qui reste**, séparé en trois :
    - **les questions à Basekou** dont la réponse bloque la suite (« les bouteilles sont-elles
      arrivées ? ») — elles viennent en premier, la session suivante en a besoin dès la première
      minute ;
    - **les gestes de Basekou** (fusionner, répondre à quelqu'un, signer, refaire un réglage) ;
    - **le travail commencé et pas fini**, avec l'endroit où il s'arrête.
-7. **Où ça vit.** Les trois ou quatre liens dont la session suivante aura besoin : pages et bases
+8. **Où ça vit.** Les trois ou quatre liens dont la session suivante aura besoin : pages et bases
    Notion, dossier Drive, PR, fiche. Sans eux elle perd son début à chercher.
-8. **Les pièges déjà rencontrés.** La passation porte l'état, pas l'histoire : on ne raconte pas
+9. **Les pièges déjà rencontrés.** La passation porte l'état, pas l'histoire : on ne raconte pas
    les erreurs. Mais on donne **une ligne de renvoi** vers l'endroit où elles sont écrites
    (la fiche, la ligne du journal), pour que la session suivante n'y retombe pas.
-9. **Ce qui n'est PAS transmis.** Ce qui n'a été vu qu'à l'écran, ce qui vit dans un dossier
+10. **Ce qui n'est PAS transmis.** Ce qui n'a été vu qu'à l'écran, ce qui vit dans un dossier
    temporaire, ce qui n'a pas été vérifié.
 
 ## Le message de passation
@@ -78,6 +87,9 @@ comprendre sans cette conversation. L'ordre compte : ce qui presse et ce qui blo
 
 ```text
 Reprise du travail de la session « <nom> » du <date>.
+
+File de la page ÉTAT : <n> lignes sur 10. <Si pleine : PREMIÈRE CHOSE À FAIRE, la faire
+vider par une séance Claude Code — tant qu'elle est pleine, personne d'autre ne peut y écrire.>
 
 Ce qui expire, et quand : <échéance — date> ; <échéance — date>. (ou : rien)
 
