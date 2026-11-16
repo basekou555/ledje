@@ -162,3 +162,13 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 📌 **La carte NFC reste `[en discussion]` et ne règle pas ça non plus** si elle pointe vers un profil. ➡️ **Seul un formulaire — celui de `/offrir`, en production depuis le 19/10 — transforme un passage en contact qu'on possède.**
 
 ⚠️ **À garder en tête au prochain événement : la question à poser n'est pas « combien d'abonnés », c'est « combien de gens peut-on recontacter sans passer par Instagram ».**
+
+## 🎪 2026-11-16 — LES STANDS DE MAIRIE SONT EN JUIN, ET LE CANAL EST REQUALIFIÉ
+
+🆕 **`[figé]` LES ÉVÉNEMENTS DE LA MAIRIE SONT EN JUIN** *(déclaré par Basekou le 16/11)* — **et non en décembre-janvier.** ⚠️ **Ce n'est PAS une correction de cette fiche : le mot « mairie » n'y figurait nulle part, et aucune fiche ne portait de date. La croyance « décembre-janvier » vivait dans les séances et sur la page ÉTAT, jamais au dépôt.** ➡️ **Conséquence directe sur le plan Ramadan : l'événementiel municipal ne peut RIEN apporter avant le Ramadan 2027, qui est passé en juin.**
+
+🆕 **Un événement existe le 13/12, près de Saint-Étienne — et il est écarté faute de MOYEN DE S'Y RENDRE** *(déclaré le 16/11)*. 📌 **Saint-Étienne sort du périmètre jusqu'au 8/02** *(conseil du 16/11)*. ⚠️ **Le motif est logistique, pas commercial : si le transport se règle, la piste redevient examinable.**
+
+✅ **`[figé]` REQUALIFICATION QUI LÈVE UN MALENTENDU DU DOSSIER : « pas la cible » voulait dire CANAL INSTABLE, pas règle d'identité.** *(Basekou, 16/11 : les stands, « oui en général ».)* ➡️ **Ce qui est reproché au canal, c'est que ses dates ne dépendent pas de nous — pas qu'il s'adresse aux mauvaises personnes.** ⚠️ **À ne pas relire comme un refus de principe : le canal événementiel reste LE SEUL qui ait vendu** *(80 bouteilles à la kermesse du 11/10, plus grosse vente du projet et premier encaissement Stripe)*.
+
+📌 **Et c'est précisément pour ça qu'il est le REPLI nommé par le conseil** : si au 20/12 aucun interlocuteur de mosquée qui décide n'est identifié et qu'aucun pilote n'est fait, **l'effort bascule sur les marchés du Ramadan** — un canal événementiel, lui aussi, mais dont les dates tombent dans la fenêtre.

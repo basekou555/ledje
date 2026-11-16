@@ -196,6 +196,35 @@ Identifier les volumes de consommation par mosquée → construire la courbe jus
 
 ⚠️ **Statut : `[en discussion]` — ces trois textes sont des propositions de séance, aucune n'est figée.**
 
+## 🕌 2026-11-16 — LE CANAL DEVIENT LA PRIORITÉ DU RAMADAN, ET IL A UN MÉCANISME
+
+✅✅ **`[figé]` PRIORITÉ RAMADAN : LES MOSQUÉES** *(conseil du 16/11, retenu par Basekou le jour même — dossier complet : `../05_systeme/conseil/2026-11-16-priorite-ramadan.md`)*. **Ambition : un carton — 231 bouteilles — par semaine pendant le Ramadan.**
+
+### Le mécanisme : LE SOIR PARRAINÉ
+
+✅ **`[figé]` Un fidèle paie un lot pour UN SOIR DATÉ dans une mosquée, via `/offrir`. Chaque lot est PAYÉ À LA COMMANDE.**
+
+🎯 **Pourquoi ce mécanisme et pas une présence générale** : pendant le Ramadan, une mosquée organise une rupture du jeûne **chaque soir**, pour un nombre de personnes **connu d'avance**, dans un **lieu fixe**. ⇒ **C'est la seule configuration du dossier où la demande est datée, répétée et dimensionnée** — partout ailleurs il faut la créer.
+
+📌 **Et il déplace le PAYEUR, ce qui lève l'objection de fond** : une mosquée n'a pas de budget boisson. Dans ce montage, elle ne décide que d'**accepter**. C'est exactement ce que `/offrir` écrit déjà — *« Elle n'achète rien et n'avance rien »*.
+
+⚠️ **Le paiement à la commande est ce qui sépare ce plan d'O'Daba** : le dépôt-vente a produit dix bouteilles bues et zéro euro encaissé.
+
+⛔ **`[figé]` L'AFFICHE RESTE NEUTRE : date, lieu, lot. L'argument religieux reste À L'ORAL** — ligne tranchée le 19/10, inchangée, et les trois textes du 16/11 la tiennent.
+
+### 🔴 La question qui ouvre le canal, et elle n'est pas « qui dirige la mosquée »
+
+**QUI DÉCIDE DES RUPTURES DU JEÛNE ?** 📌 Ce n'est pas nécessairement le responsable de l'établissement, et c'est cette personne-là qu'il faut voir. ✅ **Trois questions à poser au RDV en personne : qui organise les ruptures du jeûne · le frigo est-il libre · combien de couverts par soir.** 📌 **Contact de départ : le responsable de la mosquée du 3ᵉ** *(Youssouf, contact obtenu, relation existante avec l'imam)*. ⚠️ **Règle de canal inchangée** `[figé 19/10]` : arriver AVANT la prière *(les responsables sont au Asr)*, affiche en main, n'engager que 5 bouteilles.
+
+### Signaux d'arrêt datés
+
+| Quand | Condition | Conséquence |
+|---|---|---|
+| **20/12** | Aucun interlocuteur qui DÉCIDE identifié **et** aucun pilote fait | L'effort bascule sur **les marchés du Ramadan** |
+| **25/01** | Moins de **trois soirs réservés** | Objectif ramené à **un carton sur le mois** |
+
+⏳ **Jalons** : avant le **30/11**, un **vrai paiement d'un lot sur `/offrir`** *(aucun encaissement en ligne n'a jamais eu lieu)*. Avant le **20/12**, **un soir pilote payé, ≈ 50 bouteilles, COMPTÉ** — bues, rendues, demandes de réachat. **Janvier** : deux autres mosquées, le carton suivant, le calendrier des soirs. **1/02** : répétition à un carton.
+
 ## Contacts
 
 | Nom | Rôle | Dernier échange | Suivi |
