@@ -43,7 +43,7 @@ d'écrire « eau de source », deux attestations fournisseur non reçues, les sa
 
 - **Zone intermédiaire** : toute modification de `docs/02_produit/` se propose dans la réponse et
   s'applique après l'accord de Basekou.
-- **Aucun montant ne s'écrit au dépôt.** Les chiffres vont dans la page Notion de comptabilité.
+- **Montants (règle du 12/11) : les chiffres internes — coûts, prix fournisseur, marges, point mort, chiffre d'affaires, soldes, clé de partage — ne s'écrivent pas au dépôt, ils vont dans la page Notion de comptabilité. Les prix publics s'écrivent.**
   Si un montant est déjà présent dans une fiche, le signaler ; ne pas en ajouter.
 - Le plancher de prix est interne : il ne sort jamais dans un texte destiné à un client ou à un
   partenaire.
