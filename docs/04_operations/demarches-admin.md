@@ -304,3 +304,13 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 **Un REFUS de Trade Republic arrivé et non vu.** ⛔ **Aucun n'est tracé au 17/11** *(et le mail La Banque Postale du 16/11 est un relevé de compte disponible, pas une réponse à la contestation — deux établissements différents)*.
 
 ➔ **Donc un seul geste, et ce n'est pas une relance : vérifier dans l'application Trade Republic qu'aucune décision n'est tombée avant vendredi.** ⛔ **Aucun montant ici** *(dossier bancaire : tout est interne, règle du 12/11)*.
+
+#### ⏳ 2026-11-17 — LE DÉLAI DE TRAITEMENT EST ANNONCÉ : ENTRE 1 ET 3 MOIS `[figé]`
+
+📌 **Basekou, 17/11** : *« ils ont dit c'est entre 1 et 3 mois »*, et il précise dans l'heure que ce chiffre porte bien sur la banque — *« le 1 à 3 mois c'est pour la banque »*.
+
+✅ **Contestation déposée le 14/10** ⇒ **réponse attendue entre ≈ la MI-NOVEMBRE et ≈ la MI-JANVIER.**
+
+🎯 **Ce que ça établit, et c'est la pièce qui manquait : L'ABSENCE DE RÉPONSE AU 17/11 EST NORMALE.** ⇒ **Le silence n'est pas un mauvais signe, et il n'appelle aucune relance.** ⛔ **Troisième raison, et la plus solide, de ne pas traiter le 20/11 comme une échéance : non seulement le geste est fait, mais le délai annoncé par la banque elle-même DÉPASSE cette date.**
+
+📌 **Conséquence pratique : le dossier n'est pas « en attente depuis trop longtemps », il est dans sa fenêtre. ⚠️ Il sortirait de sa fenêtre à la MI-JANVIER — et c'est à ce moment-là, pas avant, qu'une relance aurait un objet.**

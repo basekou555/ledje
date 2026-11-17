@@ -814,25 +814,20 @@ Paroi très souple *(les deux bouteilles restantes au frigo aussi)*, **qui se re
 
 ⚠️ **100 bouteilles en un soir est en écart avec les mesures de cette fiche** *(≈ 5 min/bouteille au 29-30/09, soit ≈ 12/heure, et « plus il y a de bouteilles, moins je suis rapide », pause nécessaire à 50)*. 📌 **Les deux peuvent être vrais — la dose est figée depuis le 07/11 et le secouage de chaque bouteille a été abandonné.** ⛔ **Mais c'est une CAPACITÉ DÉCLARÉE, pas un chronométrage : le dimensionnement reste sur les mesures tant qu'un soir à 100 n'a pas été compté.**
 
-## 🌡️ 2026-11-17 — LE FROID : BASEKOU DÉCLARE QUE LA MESURE EXISTE DÉJÀ `[en discussion]`
+## 🌡️ 2026-11-17 — LE FROID A DÉJÀ ÉTÉ MESURÉ, PENDANT LA SÉRIE pH `[en discussion]`
 
-📌 **Déclaré le 17/11** : *« pour le froid ça a été mesuré lorsqu'on a fait les tests pH et tout. Ils ont dit c'est entre 1 et 3 mois. »*
+📌 **Déclaré le 17/11** : *« pour le froid ça a été mesuré lorsqu'on a fait les tests pH et tout. »*
 
-### ⚠️ Énoncé consigné TEL QUEL, et la séance ne choisit pas entre ses deux lectures
+✅ **Donc le goulot du froid n'est PAS à mesurer de zéro : la série pH de septembre porterait déjà des relevés de température.** 🎯 **Ce que ça change dans l'ordre des travaux, et c'est beaucoup plus léger que prévu : on RELIT la série pour en extraire les températures réellement consignées, au lieu d'ouvrir une campagne de mesure.**
 
-| Lecture | Ce qu'elle voudrait dire | Conséquence |
-|---|---|---|
-| **①** | Le relevé de TEMPÉRATURE a été pris pendant la série pH de septembre, et « 1 à 3 mois » porte sur autre chose | ✅ **Le goulot du froid n'est pas à mesurer de zéro : la série porterait déjà des relevés** |
-| **②** | « Ils » — laboratoire, fournisseur, interlocuteur non nommé — ont donné une **DURÉE DE CONSERVATION** de 1 à 3 mois | 🔴 **C'est un énoncé de durée, et il touche la conformité** |
+⚠️ **Rappel de l'état actuel, inchangé** : le frigo tourne autour de 0 °C depuis des semaines, mais **la seule valeur CONSIGNÉE reste 4,4 °C au 29/09** — et c'est celle-là qu'un contrôle lit.
 
-### 🔴 Une ligne d'alerte, et une seule — elle porte sur la lecture ②
+⚠️ **Et ça ne répond pas à la question du ROULEMENT**, qui est le vrai plafond du plan Ramadan : *combien* de bouteilles passent au froid par jour, et en combien de temps elles descendent. **Un relevé de température n'est pas un débit.** 📌 **Avec l'objectif porté à ≈ 1000 bouteilles le 17/11, soit ≈ 5 soirs servis par semaine, cette question se durcit.**
 
-⛔ **La règle du dossier ne bouge pas : on n'écrit ni ne dit JAMAIS « le produit tient X ».** 📌 **Le plancher de 14 jours est OBSERVÉ, au froid**, et le dépassement a **fermenté deux fois à 15 jours, sur deux recettes**.
+### ⛔ RÉTRACTATION DU MÊME JOUR — « entre 1 et 3 mois » ne concerne PAS le produit
 
-⚠️ **1 à 3 mois est d'un ordre de grandeur QUATRE À SIX FOIS supérieur à tout ce qui a été observé ici** ⇒ **ça ne peut pas devenir une DLC sans savoir QUI l'a dit et SUR QUELLE BASE** *(une analyse microbiologique ? un avis oral ? une analogie avec un autre produit ?)*. ⛔ **Donc rien n'est écrit comme durée — ni ici, ni sur une étiquette — tant que la source n'est pas nommée.**
+🔴 **Une alerte de conformité a été posée ici le 17/11 au matin, sur l'hypothèse que *« ils ont dit c'est entre 1 et 3 mois »* pouvait désigner une DURÉE DE CONSERVATION. ⛔ C'EST FAUX, et Basekou l'a corrigé dans l'heure : *« le 1 à 3 mois c'est pour la banque »* — c'est le DÉLAI DE TRAITEMENT annoncé pour la contestation bancaire** *(cf. `demarches-admin.md`)*.
 
-📌 **Et la réserve de fond tient, indépendamment du chiffre : nos séries établissent une STABILITÉ, pas une innocuité.** *Listeria* pousse à 0 °C au-dessus de pH 5, sans gaz, sans odeur et sans goût.
+✅ **Il n'y a donc AUCUN énoncé de durée de conservation au dossier, et le plancher de 14 jours observé reste la seule donnée.** ⛔ **La règle est inchangée et n'avait pas besoin d'être rejouée : on n'écrit ni ne dit JAMAIS « le produit tient X ».**
 
-### ➔ Ce que ça change dans l'ordre des travaux
-
-✅ **À faire d'abord, et c'est moins lourd que prévu : relire la série pH de septembre pour en extraire les températures réellement CONSIGNÉES**, au lieu d'ouvrir une campagne de mesure. ⚠️ **Rappel de l'état actuel : le frigo tourne autour de 0 °C depuis des semaines, mais la seule valeur consignée reste 4,4 °C au 29/09 — et c'est celle-là qu'un contrôle lit.**
+🎯 **Cause racine de l'erreur, et le dossier pouvait la lever : la réponse de Basekou traitait DEUX sujets du menu dans la même phrase — le froid (sujet 3) et la banque (sujet 8) — et la séance a rattaché la seconde proposition au sujet le plus PROCHE au lieu du sujet auquel elle appartenait.** ⚠️ **Deux indices étaient disponibles et non utilisés : *« ils ont dit »* désigne un TIERS qui parle, or aucun contact de laboratoire n'était ouvert, tandis que la banque était précisément le seul dossier en attente de la réponse d'un tiers — et la séance venait de le lire.** ➔ **Règle : quand une réponse traite plusieurs sujets du menu, chaque proposition se rattache à SON sujet nommé, jamais au plus proche ; et un tiers qui parle se cherche dans la liste des dossiers en attente d'un tiers.**
