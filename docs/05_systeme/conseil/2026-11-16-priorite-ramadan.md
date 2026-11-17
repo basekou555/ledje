@@ -59,7 +59,7 @@ Le raisonnement : pendant le Ramadan, une mosquée organise une rupture du jeûn
 ## Séquence
 
 **Semaine du 16/11** — RDV **en personne** avec le responsable de la mosquée du 3ᵉ *(qui organise les ruptures du jeûne ? frigo libre ? combien de couverts par soir ?)* · relancer l'épicerie de la mosquée et les associations du 11/10 · **tester 12 bouteilles scellées, tiède 24 h puis froid** · régler le transport.
-**Dès le 23/11** — dégustation devant un responsable **avec les nouvelles étiquettes**.
+**Dès le 23/11** — dégustation devant un responsable **avec les nouvelles étiquettes**. ⚠️ **PRÉCISION DU 17/11 : c'est une ÉTAPE DE PLAN, pas un rendez-vous — aucune personne, aucune heure.** *« je vois pas de quelle dégustation tu parles »* **(Basekou, 17/11). ⛔ Le digest du 17/11 l'avait promue en rendez-vous daté et en avait tiré une collision avec la livraison des étiquettes : à ne pas refaire. « Dès le 23/11 » veut dire À PARTIR DU 23.**
 **Avant le 30/11** — date du live fixée · **un vrai paiement d'un lot sur `/offrir`** · les trois lignes écrites.
 **Avant le 20/12** — **un soir pilote payé**, ≈ 50 bouteilles, **compté** *(bues, rendues, demandes de réachat)*.
 **Janvier** — deux autres mosquées · commande du carton suivant · calendrier des soirs.
