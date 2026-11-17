@@ -75,3 +75,7 @@ resume: "Les pistes ouvertes et actions en attente. ⚠️ Nettoyé le 2026-08-2
 ## 2026-11-16 — À repenser avec Basekou : le périmètre des sessions
 
 Les instructions du projet disent « une fiche appartient à une session ; avant de modifier une fiche hors de ton périmètre, signale-le et demande ». Aucune liste ne dit quelle fiche appartient à quelle session, donc la règle n'est pas applicable telle quelle. Basekou, le 16/11 : « pour le périmètre faut le repenser ». Pistes à discuter, aucune retenue : une table session → fiches dans `guide-outils.md` § 11 bis ; un champ dans l'en-tête de chaque fiche ; ou abandonner l'idée de propriété et garder seulement « relire la fiche avant de la modifier ».
+
+## 2026-11-16 → tranché le 2026-11-17 : la file et les passations
+
+**Question close.** Une passation ne se dépose plus dans la file : elle s'écrit en un bloc daté dans la section « Passations à descendre » de la page ÉTAT, créée le 17/11, plafonnée à deux passations en attente. La file garde son plafond de dix lignes pour les faits isolés. Les deux se vident par une séance Claude Code, qui descend puis supprime ; elle les compte à sa propre passation (`ledje-passation`, variante A, point 5). Décision de Basekou du 17/11.
