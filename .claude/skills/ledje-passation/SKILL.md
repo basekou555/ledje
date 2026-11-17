@@ -17,7 +17,8 @@ travail sans que Basekou réexplique ? Si la réponse est non, la passation n'es
 
 *Version du 2026-11-16, corrigée deux fois d'après les retours de sessions qui l'ont déroulée :
 échéances et repères ajoutés au message, variante pour les sessions sans accès au dépôt, comptage
-de la file, questions séparées des gestes, puis état de la file dit en tête quand elle est pleine.*
+de la file, questions séparées des gestes, état de la file dit en tête, puis une section à part
+dans la page ÉTAT pour les passations (décision de Basekou du 17/11).*
 
 ## D'abord : cette session écrit-elle au dépôt ?
 
@@ -39,22 +40,25 @@ Pour chaque point, répondre **fait**, **pas fait** ou **sans objet**, avec la p
 4. **L'état de la PR est dit sans ambiguïté.** Ouverte, en draft, fusionnée ou non.
    ⚠️ **Une PR non fusionnée n'existe pas pour la session suivante** : elle part de `main`.
    *Preuve : vérifier sur `origin/main` que le fichier y est, ne pas le supposer.*
-5. **La file de la page ÉTAT.** Seule une séance qui écrit au dépôt peut la vider : elle descend
-   chaque ligne dans sa fiche, puis la supprime de la file. Avant de fermer, compter la file. Si
-   elle est pleine ou presque, la vider, ou dire dans le message de passation qu'elle ne l'a pas
-   été. Une file pleine bloque toutes les sessions qui n'écrivent pas au dépôt.
-   *Preuve : le nombre de lignes, avant et après.*
+5. **La file et les passations en attente, dans la page ÉTAT.** Seule une séance qui écrit au
+   dépôt peut les vider : elle descend chaque ligne de la file et chaque bloc de la section
+   « Passations à descendre » dans sa fiche, puis les supprime. Avant de fermer, compter les
+   deux. S'il reste quelque chose, le vider, ou dire dans le message de passation que ça ne l'a
+   pas été. Une file pleine, ou deux passations en attente, bloquent toutes les sessions qui
+   n'écrivent pas au dépôt.
+   *Preuve : le nombre de lignes et de blocs, avant et après.*
 
 ## Variante B — la session n'écrit pas au dépôt
 
-1. **Les faits et les décisions sont déposés dans la file de la page ÉTAT**, pour qu'une séance
-   Claude Code les descende dans les fiches.
-   ⚠️ **Avant d'écrire : relire la file et COMPTER ses lignes.** Elle a un plafond (dix lignes au
-   16/11 ; vérifier la règle en vigueur dans `workflow-maj.md`). Si l'ajout le dépasse, ne pas
-   écrire en force : regrouper, ou dire à Basekou que la file doit d'abord être vidée par une
-   séance Code. **Si la file est pleine, le dire en première ligne du message de passation** :
-   c'est la première chose à faire, avant tout le reste.
-   *Preuve : le nombre de lignes avant et après, et les lignes ajoutées.*
+1. **Les faits et les décisions de la passation s'écrivent en UN bloc daté, dans la section
+   « Passations à descendre » de la page ÉTAT** (juste sous la file), pour qu'une séance Claude
+   Code les descende dans les fiches. Une seule écriture, à un endroit que toute session lit.
+   **Pas dans la file** : elle est plafonnée à dix lignes et sert aux faits isolés déposés en
+   cours de séance. Une passation de huit faits l'a fait déborder le 16/11.
+   ⚠️ **Avant d'écrire : compter les passations déjà en attente. Le plafond est de DEUX.** S'il y
+   en a déjà deux, ne pas en ajouter une troisième : le dire à Basekou, et l'écrire en première
+   ligne du message de passation. La première chose à faire est alors d'ouvrir une séance Code.
+   *Preuve : le nombre de blocs avant et après, et le bloc ajouté.*
 2. **Le relevé est au « Journal des sessions »** de Notion : c'est le seul endroit où une séance
    sans PR laisse une trace. *Preuve : le lien de l'entrée.*
 3. **Les pages Notion modifiées sont listées**, avec ce qui y a changé. *Preuve : les liens.*
@@ -88,8 +92,9 @@ comprendre sans cette conversation. L'ordre compte : ce qui presse et ce qui blo
 ```text
 Reprise du travail de la session « <nom> » du <date>.
 
-File de la page ÉTAT : <n> lignes sur 10. <Si pleine : PREMIÈRE CHOSE À FAIRE, la faire
-vider par une séance Claude Code — tant qu'elle est pleine, personne d'autre ne peut y écrire.>
+Page ÉTAT : file à <n> lignes sur 10 · <n> passation(s) en attente sur 2.
+<Si la file est pleine ou si deux passations attendent : PREMIÈRE CHOSE À FAIRE, les faire
+descendre par une séance Claude Code. Tant que c'est plein, personne d'autre ne peut déposer.>
 
 Ce qui expire, et quand : <échéance — date> ; <échéance — date>. (ou : rien)
 
@@ -113,7 +118,7 @@ Ce qui n'a pas été vérifié : <liste>.
 - On ne dit pas « tout est transmis » sans avoir déroulé les points de sa variante.
 - On ne fusionne pas une PR de sa propre initiative pour que la passation « passe » ; on le fait
   si Basekou le demande.
-- On n'écrit pas dans la file sans l'avoir relue et comptée.
+- On n'écrit pas dans la file sans l'avoir relue et comptée, et on n'y dépose pas une passation.
 - On ne recopie pas la conversation : la passation porte l'état, pas l'histoire.
 
 ## Si la session ne charge pas cette trame toute seule
