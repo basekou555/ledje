@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-16
+maj: 2026-11-17
 source: "SOT §1.4bis pt 3 (archive 2026-07-24) — bascule C2B2C 2026-07-21, volet com 2026-07-24 (page relais + arbitrage Basekou)"
 resume: "✅✅✅ **2026-10-19 — L'AFFICHE EN MOSQUÉE EST DÉCIDÉE : le sujet n'est plus « si » mais « LAQUELLE », et ce qui la rend possible est LE CHOIX DES MOTS — « offrir » (le mot du site) dit le geste sans nommer le registre, là où « don » le nomme.** ⛔ **LA LIGNE EXACTE NE SÉPARE PAS L'ORAL DE L'ÉCRIT, ELLE SÉPARE LA RELIGION DE LA SANTÉ : « tradition prophétique » à l'oral est COUVERT (règle du 06/10), « médecine prophétique » est une ALLÉGATION SANTÉ et ne passe dans AUCUN registre.** ✅ **Cadre assumé : la communauté la plus susceptible de consommer est musulmane, on s'adresse à elle là où elle est.** ✅ **La destination de l'affiche EXISTE (`/offrir`, route vérifiée dans le code) — à ne pas confondre avec l'ENCAISSEMENT, qui n'existe toujours pas.** ⚠️ **Terrain du 19/10 : dépôt à Gerland sans responsable — arriver AVANT la prière, affiche en main, 5 bouteilles ; le critère de sélection est QUI DÉCIDE, pas la géographie.** ⛔ **La responsable com NE DÉCIDE NI DU STOCK NI DE L'AFFICHAGE : relais pour l'affiche seulement.** ✅✅ **2026-10-09 — LE CANAL SORT DE SON ATTENTE VOLONTAIRE : ≈ 10 MOSQUÉES CONTACTÉES PAR DM INSTAGRAM le 08/10, et le contact de la responsable com est OBTENU (message parti, sans réponse) — la fiche écrivait qu'il n'avait jamais été recueilli.** 📄 **La page `/offrir` est en production depuis le 08/10 ; la RÈGLE qu'elle supposerait reste `[en discussion]`.** ⛔ **Et la mécanique de paiement n'existe toujours pas.** Canal basculé en C2B2C le 21/07 (don sponsorisé : un fidèle offre un lot à sa mosquée) ; barème sans négociation ; volet com après étiquette + branding. 🆕 **LE CANAL SE RÉVEILLE LE 02/10, EN SOMMEIL DEPUIS LE 03/08, ET PAR UN AUTRE MODÈLE** : une cliente acheteuse d'O'Daba est responsable com d'une mosquée et demande une **BOUTEILLE PERSONNALISÉE en PRESTATION PAYÉE à 1 €** — ici la mosquée est le CLIENT, pas le bénéficiaire d'un don. ⚠️ **Correction du 06/10 : le cadre religieux a été posé par Basekou, pas reconnu spontanément** — la demande naît APRÈS l'argument. ✅ **ET LA TENSION EST TRANCHÉE LE MÊME JOUR : la religion se nomme À L'ORAL et seulement devant un public dont on sait qu'il est musulman, jamais publiquement** *(`../01_adn/identite-verbale.md`)* ⇒ **une parole orale en mosquée est COUVERTE, une AFFICHE ne l'est pas.** ⛔ Rien n'est tranché : ni le modèle, ni le support, ni le prix. Question de marque à trancher avant toute affiche : **un support en mosquée doit dire LE PRODUIT, pas LA VERTU**. Point matériel : une bouteille personnalisée = une étiquette de plus par client."
 ---
@@ -245,3 +245,25 @@ Identifier les volumes de consommation par mosquée → construire la courbe jus
 🎯 **Et ça compte précisément maintenant, pas comme une précision d'annuaire : le conseil du 16/11 fait de la mosquée du 3e le PREMIER rendez-vous de la séquence, et la question qui ouvre le canal est *« qui décide des ruptures du jeûne »* — dont la fiche dit déjà que ce n'est pas nécessairement le responsable de l'établissement.** ➡️ **Donc Youssouf est la porte, pas forcément le décideur : la première question du rendez-vous reste entière.**
 
 ⚠️ **Et le QR de l'affiche doit porter sa source** <i>(`?utm_source=` — cf. `acquisition-tiktok.md`, 16/11)</i> : **sans ça, le soir parrainé ne sera pas mesurable.**
+## 🎯 2026-11-17 — L'OBJECTIF RAMADAN EST TRANCHÉ : ≈ 1000 BOUTEILLES `[figé]`
+
+📌 **Basekou, 17/11** : *« l'objectif c'est plus 900, enfin environ 900. On peut même arrondir à 1000 plutôt que 500 comme c'était dit. »*
+
+✅ **Le chiffre retenu est ≈ 1000.** ⛔ **Les 500 du 29/10 sont RETIRÉS** — deux chiffres coexistaient au dossier depuis le 16/11, il n'en reste qu'un.
+
+🎯 **Pourquoi ça compte plus qu'un chiffre : c'est le DÉNOMINATEUR de tout le dimensionnement** — le nombre de soirs à vendre, les cartons à commander, la capacité de froid à trouver.
+
+### Ce qui en découle mécaniquement
+
+| Grandeur | Valeur |
+|---|---|
+| Objectif | **≈ 1000 bouteilles** |
+| En cartons de 231 | **≈ 4,3 cartons** |
+| À ≈ 50 bouteilles par soir servi | **≈ 20 soirs** sur le Ramadan |
+| Soit, sur quatre semaines | **≈ 5 soirs par semaine** |
+
+✅ **Cohérent avec l'ambition écrite le 16/11** — *« un carton par semaine pendant le Ramadan »*, soit ≈ 924 sur quatre semaines. ⇒ **1000 va avec elle ; les 500 n'allaient plus avec rien.**
+
+⚠️ **Et ça durcit le point du froid plutôt que de le résoudre** : 5 soirs par semaine à ≈ 50 bouteilles suppose un roulement de froid que personne n'a mesuré *(cf. `../04_operations/production-artisanale.md`)*. 📌 **Le signal d'arrêt du 25/01 reste la soupape : moins de trois soirs réservés ⇒ objectif ramené à un carton sur le mois.**
+
+⛔ **Un nombre de bouteilles est un VOLUME, pas un montant : il s'écrit ici. Tout ce qui en découle en euros va au Notion 💸 Comptabilité.**

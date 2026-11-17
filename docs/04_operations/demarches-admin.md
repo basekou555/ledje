@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-11-08
+maj: 2026-11-17
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
 resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF — LE POINT DÉCLARÉ CLOS LE 24/09 EST ROUVERT : relance du 07/10 sur une dette de cotisations, avec mention d'actions de recouvrement ; déclarer n'est pas payer.** Aucune décision prise, aucun montant au dépôt. ✅✅ **AGRÉMENT : LE SUJET EST FERMÉ LE 28/10 PAR LA DDPP 69 ELLE-MÊME — ni agrément ni dérogation pour un produit à base de miel, la déclaration d'activité du 14/08 suffit.** Son courrier 2026-8172 du 01/10, qui disait l'inverse, est une **erreur retirée par son auteur** ; la DDPP 56 avait raison depuis le 18/07. ⛔ **Il n'y a RIEN à déposer : le CERFA 13982 ne concerne pas ce produit.** ⚠️ **Ça ne ferme ni le PMS, ni l'étiquetage, ni la DLC, ni l'article 13 INCO, ni la traçabilité par lot.** · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS — lu en entier le 09/10, **inapplicable à notre pH**. 🧾 **CFE / IFER : avis 2026 disponibles, adhésion au prélèvement jusqu'au 30/11, paiement au 15/12 — aucun montant au dépôt, il n'est lisible que dans l'espace professionnel.** + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
@@ -288,3 +288,29 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 
 - Étiquetage INCO du produit : `../02_produit/reglementaire-etiquetage.md`
 - Vigilances de la phase artisanale : `production-artisanale.md`
+
+### 🏦 2026-11-17 — LE 20/11 N'EST PAS UNE ÉCHÉANCE ACTIONNABLE, et c'est écrit ICI pour que ça cesse d'être redécouvert `[figé]`
+
+⛔⛔ **LA DATE : le recours se ferme le 20/11** *(motif Visa 13.1)*. ✅ **ET ELLE N'EST PLUS ACTIONNABLE DEPUIS LE 14/10 : la contestation est DÉPOSÉE** — *« elle est déposée, c'est plus entre mes mains, j'attends leur retour »* — **le sujet est en DÉPENDANCE ÉCRITE SANS COMPTEUR, et plus rien n'est à faire côté Lédjé.**
+
+🔴 **Pourquoi ce paragraphe existe : le 20/11 a été promu en échéance DEUX FOIS par la routine.** Une première fois, corrigé le **13/10** — *« correction d'une date que la routine a promue en échéance alors qu'elle n'en est pas une, et le dossier le dit noir sur blanc »*. Une seconde fois le **17/11**, avec pour action « relancer avant le 20 », **et la séance l'a relayé deux fois avant de vérifier.**
+
+🎯 **Cause racine, plus précise que « ne pas promouvoir une date » : une date SURVIT dans le dossier après que le geste qu'elle commandait a été fait, et rien ne la marque comme morte à l'endroit où on la lit.** ➔ **Règle : une date qui n'est plus actionnable s'écrit comme telle À CÔTÉ D'ELLE-MÊME, pas seulement dans la ligne de journal qui la neutralise.**
+
+⚠️ **`../05_systeme/council-context.md` porte encore *« le recours se ferme le 20/11 »* sans cette précision — fiche PROTÉGÉE, signalée, non modifiée.**
+
+#### ⚡ Le seul cas où le 20/11 redeviendrait actionnable
+
+**Un REFUS de Trade Republic arrivé et non vu.** ⛔ **Aucun n'est tracé au 17/11** *(et le mail La Banque Postale du 16/11 est un relevé de compte disponible, pas une réponse à la contestation — deux établissements différents)*.
+
+➔ **Donc un seul geste, et ce n'est pas une relance : vérifier dans l'application Trade Republic qu'aucune décision n'est tombée avant vendredi.** ⛔ **Aucun montant ici** *(dossier bancaire : tout est interne, règle du 12/11)*.
+
+#### ⏳ 2026-11-17 — LE DÉLAI DE TRAITEMENT EST ANNONCÉ : ENTRE 1 ET 3 MOIS `[figé]`
+
+📌 **Basekou, 17/11** : *« ils ont dit c'est entre 1 et 3 mois »*, et il précise dans l'heure que ce chiffre porte bien sur la banque — *« le 1 à 3 mois c'est pour la banque »*.
+
+✅ **Contestation déposée le 14/10** ⇒ **réponse attendue entre ≈ la MI-NOVEMBRE et ≈ la MI-JANVIER.**
+
+🎯 **Ce que ça établit, et c'est la pièce qui manquait : L'ABSENCE DE RÉPONSE AU 17/11 EST NORMALE.** ⇒ **Le silence n'est pas un mauvais signe, et il n'appelle aucune relance.** ⛔ **Troisième raison, et la plus solide, de ne pas traiter le 20/11 comme une échéance : non seulement le geste est fait, mais le délai annoncé par la banque elle-même DÉPASSE cette date.**
+
+📌 **Conséquence pratique : le dossier n'est pas « en attente depuis trop longtemps », il est dans sa fenêtre. ⚠️ Il sortirait de sa fenêtre à la MI-JANVIER — et c'est à ce moment-là, pas avant, qu'une relance aurait un objet.**

@@ -215,7 +215,7 @@ Ces documents sont référencés par le projet mais ne vivent pas dans ce dépô
 | Voie | La routine peut-elle l'utiliser seule ? | État |
 |---|---|---|
 | **Clé d'API** | ✅ **Oui** — un jeton posé sur l'environnement est injecté dans *toutes* les sessions, y compris celles de la tâche planifiée | ✅ **RETENUE** |
-| **Claude Chrome** | ⛔ **Non** — il agit dans le navigateur de Basekou, sur sa machine | ✅ Retenue **en repli**, quand il demande le digest |
+| **Claude Chrome** | ⛔ **Non** — il agit dans le navigateur de Basekou, sur sa machine | ⚠️ **Retenue en repli, mais C'EST BASEKOU QUI L'OUVRE** *(corrigé le 17/11 — voir ci-dessous)* |
 | **MCP payant** *(Windsor.ai, Supermetrics)* | ✅ Oui, mais il faut l'attacher à la tâche | ⛔ **Écarté** : abonnement — même arbitrage que Granola |
 | **OpusClip** | — | ⛔ **Écarté** : *« on n'utilise pas Opus Clip »* |
 | **Lire les pages du site** | — | ⛔ **Impossible** : `instagram.com` / `tiktok.com` en `HTTP 000`, et ça ne s'ouvre pas par un réglage de liste blanche |
@@ -234,6 +234,19 @@ Ces documents sont référencés par le projet mais ne vivent pas dans ce dépô
 |---|---|
 | **Basekou** | Créer l'app Meta et générer un jeton longue durée *(étapes données en séance)*. ⛔ **Le jeton ne se colle JAMAIS dans la conversation** : il s'entre dans le formulaire sécurisé que la séance ouvre, et il est stocké sur l'environnement, pas au dépôt |
 | **La séance** | Dès le jeton posé : vérifier par appel réel **quelles métriques sont réellement disponibles** — ⚠️ pas les promettre de mémoire — puis écrire la section « réseaux » du digest |
+| **Basekou, et lui seul** | ⚠️ **OUVRIR CLAUDE CHROME, depuis l'app Claude sur SA machine.** ⛔ **Une séance en cloud ne peut PAS le déclencher** *(mesuré le 17/11, cf. ci-dessous)* |
 | **La séance** | Tester si TikTok est faisable sans approbation. ⚠️ **Les vues et mentions passent par l'API publique, mais la RÉTENTION demande la Business ou Research API, soumise à approbation** ⇒ à mesurer |
 
 ⚠️ **Et la limite à garder en tête quelle que soit la voie** : ce que l'API donne, ce sont les chiffres de la PLATEFORME. **Le tunnel côté site reste la seule mesure de ce que les réseaux RAPPORTENT** — et c'est lui qui a produit le constat du 16/11 : zéro visite sur la page de commande, sur 119 arrivées Instagram.
+
+### ⛔ 2026-11-17 — PRÉCISION MESURÉE : UNE SÉANCE EN CLOUD NE PEUT PAS OUVRIR CLAUDE CHROME NON PLUS
+
+📌 **Demande de Basekou le 17/11** : *« tu peux ouvrir un Claude Chrome sur mon Instagram »*.
+
+⛔ **Non, et ce n'est pas un réglage à changer.** 🧪 **Vérifié dans la séance : AUCUN outil `claude-in-chrome` n'existe, aucune variante navigateur non plus, et la liste des dossiers que la machine de Basekou offre à cette séance est VIDE — pas même un dossier marqué inutilisable.**
+
+🎯 **Le motif est structurel : cette séance tourne dans un conteneur en CLOUD, et Claude in Chrome vit dans le navigateur de Basekou, sur SA machine.** ⚠️ **Et même en branchant son ordinateur par Remote Control, ça donnerait un DOSSIER, pas un navigateur** — donc ça ne résout rien ici.
+
+⛔ **Ce que la fiche laissait croire, et qui était faux : la ligne du 16/11 écrivait *« retenue en repli, quand il demande le digest »*, comme si une séance pouvait le déclencher à sa demande. Elle ne peut pas.** ✅ **Formulation juste : Claude in Chrome, c'est BASEKOU qui l'ouvre, dans une session sur sa machine** *(app Claude, ou Claude Code en local)*.
+
+🎯 **Conséquence sur l'arbitrage du 16/11, et elle le renforce : des deux voies retenues, LA CLÉ D'API EST LA SEULE QUI MARCHE SANS BASEKOU.** 📌 **Le 16/11 on avait écrit que la routine de 7h ne pourrait jamais se servir de Claude Chrome ; on sait maintenant qu'AUCUNE séance en cloud ne peut, la routine comme les autres.** ⇒ **Le jeton Instagram n'est pas une voie parmi deux, c'est la seule voie automatisable.**

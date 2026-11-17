@@ -15,8 +15,37 @@ cas d'écart, la fiche gagne.
 à 180 000 caractères parce que plus personne ne la lisait, et sept faits s'y étaient perdus
 (10/09).
 
+## Étape 0 — « Fais le digest » = ALLER LE CHERCHER, jamais le recomposer
+
+⛔ **Règle de Basekou, 2026-11-17 : *« au lieu de recréer un digest de zéro tu peux aller le
+récupérer dans le Notion »*.**
+
+**Le digest du jour est écrit par la ROUTINE, en semaine, autour de 6h30-7h00**, dans
+`Lédjé / ⚙️ Système et routine / Digests de synchronisation`. Il porte sa fenêtre couverte, son
+numéro de run, son chemin critique et son bloc de repli.
+
+➔ **Donc une séance à qui on demande « le digest » OUVRE CELUI-LÀ** *(recherche Notion
+« Digest AAAA-MM-JJ », ou la page des digests)* **et le restitue.** ⛔ **Elle ne refait pas le
+tour des sources pour en fabriquer un second.**
+
+**Deux motifs, et le second est le plus grave :**
+
+1. **Le coût.** Refaire le tour de huit sources consomme pour rien ce que la routine a déjà payé
+   à 6h30.
+2. 🔴 **Le risque de DIVERGENCE : deux digests du même matin qui ne disent pas la même chose, et
+   rien ne dit lequel fait foi.** C'est exactement le défaut qui a gelé la page relais et
+   l'ancien registre.
+
+✅ **Ce que la séance ajoute, et c'est son seul apport légitime : LE DELTA depuis l'heure du
+digest** — ce qui a bougé depuis *(PR mergées, mails, agenda du jour à l'heure qu'il est)*, ce
+qu'elle a vérifié elle-même, et ce que le digest a écrit de FAUX.
+
+⚠️ **Si le digest du jour est absent** *(week-end, routine non fiée)* : le dire, prendre le
+dernier en date, et ne fabriquer un état de zéro que si Basekou le demande explicitement.
+
 ## Étape 1 — Lire tout
 
+0. **Le digest du jour dans Notion** *(étape 0 ci-dessus)* — avant tout le reste.
 1. `docs/README.md` et `docs/05_systeme/workflow-maj.md`.
 2. La **page ÉTAT** de Notion, ligne par ligne, jusqu'au bout des cellules longues, et sa file.
 3. Le « Journal des sessions » de Notion depuis la dernière mise à jour.
