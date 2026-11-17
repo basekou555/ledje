@@ -863,6 +863,24 @@ Paroi très souple *(les deux bouteilles restantes au frigo aussi)*, **qui se re
 
 ⚠️ **Et ça ne répond pas à la question du ROULEMENT**, qui est le vrai plafond du plan Ramadan : *combien* de bouteilles passent au froid par jour, et en combien de temps elles descendent. **Un relevé de température n'est pas un débit.** 📌 **Avec l'objectif porté à ≈ 1000 bouteilles le 17/11, soit ≈ 5 soirs servis par semaine, cette question se durcit.**
 
+### 🔎 RELECTURE FAITE LE 17/11 (≈ 14h20) — ce que la série pH porte réellement en température
+
+**Relue dans cette fiche (sections de septembre) et dans le PMS v2 au Drive.** Résultat, sans arrondir :
+
+| Ce qu'on cherchait | Ce qui est consigné | Source |
+|---|---|---|
+| Froid pendant la série *(J0 le 15/09 à 01h30 → J+14 le 29/09)* | ⛔ **Rien du J0 au J+10** — le thermomètre n'a été alimenté que le **25/09**. *« Toute la série pH s'est faite sur un froid supposé, jamais vérifié »* (écrit le 28/09) | § « Première mesure de température », 28/09 |
+| Froid en fin de série | ✅ **3 à 5 °C** au premier relevé *(daté 25/09 dans le tableau, 28/09 dans la section qui l'annonce — la fiche porte les deux dates pour la même valeur)* · **29/09 : 4,4 °C** — point froid du frigo | tableau des relevés |
+| Froid après la série | ✅ **15/10 à 10h07 : 0 °C** *(déclaré, après nettoyage du frigo)* | tableau des relevés |
+| Ambiante du lot ambiant | ⛔ **≈ 25 °C ESTIMÉS, jamais mesurés** | J0, 15/09 |
+| Tenue du lot ambiant | **Aucun signe jusqu'à ≈ 36 h · gaz + odeur + baisse de pH entre ≈ 36 et 48 h** — sur une bouteille ouverte trois fois, donc un plancher prudent | J+2, 17/09 |
+| Temps de descente d'une bouteille au froid | ⛔ **JAMAIS MESURÉ** — le seul chiffre est le « ≈ 5 min en bain eau + glaçons », une estimation | § froid événementiel |
+| Recette actuelle (08/11, tilleul 15 mL) | ⛔ **Aucune température** : *« sans mesure de pH ni de température continue »* | `eau-miellee-33cl.md`, 08/11 |
+
+🎯 **Ce que ça établit : la déclaration « ça a été mesuré pendant les tests pH » est VRAIE POUR LE FRIGO, EN FIN DE SÉRIE SEULEMENT** *(deux relevés dans la fenêtre, 25/09 et 29/09)*. **Elle est fausse pour l'ambiante, et rien n'existe sur le temps de refroidissement.** ⇒ **Il n'y a pas de campagne cachée à exploiter : le dossier ne contient que les quatre relevés déjà connus.**
+
+📌 **Le chiffre qui sert vraiment pour la suite** : **≈ 36 h sans signe à ≈ 25 °C estimés.** C'est le seul repère du dossier sur un produit hors froid, et c'est lui qui borne le test de la livraison tiède *(24 h hors froid, la limite du point critique n° 1)* : **l'écart entre 24 h et ≈ 36 h est petit, et l'ambiante n'a jamais été mesurée** ⇒ le test doit mesurer l'ambiante, faute de quoi il ne dira rien de plus que la série.
+
 ### ⛔ RÉTRACTATION DU MÊME JOUR — « entre 1 et 3 mois » ne concerne PAS le produit
 
 🔴 **Une alerte de conformité a été posée ici le 17/11 au matin, sur l'hypothèse que *« ils ont dit c'est entre 1 et 3 mois »* pouvait désigner une DURÉE DE CONSERVATION. ⛔ C'EST FAUX, et Basekou l'a corrigé dans l'heure : *« le 1 à 3 mois c'est pour la banque »* — c'est le DÉLAI DE TRAITEMENT annoncé pour la contestation bancaire** *(cf. `demarches-admin.md`)*.
