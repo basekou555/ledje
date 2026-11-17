@@ -236,6 +236,15 @@ Identifier les volumes de consommation par mosquée → construire la courbe jus
 
 - Option branding léger : carafe + verres logotés en événement si bouteilles personnalisées trop chères.
 
+### 👤 2026-11-16 — Le contact de la mosquée de Lyon 3e a un nom, et ce n'est pas l'imam `[figé]`
+
+**Descendu de la file ; posé par la session COO le 10/11.**
+
+✅ **Le contact est YOUSSOUF, le RESPONSABLE de la mosquée.** ⛔ **Le dossier parlait d'« une relation avec l'imam » : c'est corrigé.**
+
+🎯 **Et ça compte précisément maintenant, pas comme une précision d'annuaire : le conseil du 16/11 fait de la mosquée du 3e le PREMIER rendez-vous de la séquence, et la question qui ouvre le canal est *« qui décide des ruptures du jeûne »* — dont la fiche dit déjà que ce n'est pas nécessairement le responsable de l'établissement.** ➡️ **Donc Youssouf est la porte, pas forcément le décideur : la première question du rendez-vous reste entière.**
+
+⚠️ **Et le QR de l'affiche doit porter sa source** <i>(`?utm_source=` — cf. `acquisition-tiktok.md`, 16/11)</i> : **sans ça, le soir parrainé ne sera pas mesurable.**
 ## 🎯 2026-11-17 — L'OBJECTIF RAMADAN EST TRANCHÉ : ≈ 1000 BOUTEILLES `[figé]`
 
 📌 **Basekou, 17/11** : *« l'objectif c'est plus 900, enfin environ 900. On peut même arrondir à 1000 plutôt que 500 comme c'était dit. »*

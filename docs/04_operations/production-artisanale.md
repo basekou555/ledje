@@ -814,6 +814,45 @@ Paroi très souple *(les deux bouteilles restantes au frigo aussi)*, **qui se re
 
 ⚠️ **100 bouteilles en un soir est en écart avec les mesures de cette fiche** *(≈ 5 min/bouteille au 29-30/09, soit ≈ 12/heure, et « plus il y a de bouteilles, moins je suis rapide », pause nécessaire à 50)*. 📌 **Les deux peuvent être vrais — la dose est figée depuis le 07/11 et le secouage de chaque bouteille a été abandonné.** ⛔ **Mais c'est une CAPACITÉ DÉCLARÉE, pas un chronométrage : le dimensionnement reste sur les mesures tant qu'un soir à 100 n'a pas été compté.**
 
+## 🧾 2026-11-16 — LE REGISTRE DE PRODUCTION EXISTE, ET SA RECONSTITUTION A SORTI UN TROU DE TRAÇABILITÉ `[figé]`
+
+**Créé en Notion le 16/11 par la séance Produit. Descendu au dépôt le 16/11.**
+
+### Ce qui existe désormais
+
+✅ **Deux bases liées : `Productions` et `Sorties`.** Champs tirés du volet 6 du PMS, **plus deux cases neuves** : la **TEMPÉRATURE** et la **DLC COMMUNIQUÉE AU CLIENT**.
+
+✅ **Sept lignes reconstituées depuis le journal des décisions**, chacune marquée **« reconstitué »** avec sa source. ⛔ **Les colonnes de MESURE ont été laissées VIDES** — on ne fabrique pas une mesure qu'on n'a pas prise. 🎯 **C'est la même règle que le garde-fou posé pour le digest : signaler un manque, jamais le remplir à notre place.**
+
+### 🔴🔴 Le trou que la reconstitution a révélé
+
+**Sur les CINQ remises de septembre-octobre, QUATRE n'ont aucune production datée au dossier :**
+
+| Remise | Date | Production datée au dossier ? |
+|---|---|---|
+| **H7** | 29/09 | ⛔ **non** |
+| **O'Daba** | 30/09 | ⛔ **non** |
+| **Baca Bamba** | 01/10 | ⛔ **non** |
+| **Sisters** | 02/10 | ⛔ **non** |
+| Kermesse | 11/10 | ✅ **oui** — seule sortie reliée à sa production |
+
+🔴 **Conséquence, et elle est réglementaire : leur LOT ne peut pas être nommé ⇒ un RETRAIT DE LOT aurait été IMPOSSIBLE sur ces quatre remises.**
+
+🎯 **Et ça éclaire autrement la décision du 10/11 — « la date en clair vaut le numéro de lot ».** ➡️ **La règle est juste, mais elle ne suffit pas : une date ne vaut un lot que si la PRODUCTION de ce jour-là est enregistrée. Sans registre tenu le jour même, l'étiquette seule ne rend rien traçable.** ⇒ **Le registre n'est pas de la paperasse ajoutée à la règle : c'est ce qui la rend opérante.**
+
+### ⚙️ Ce que la séance Produit a spécifié pour la routine, et qui reste à appliquer
+
+**Trois contrôles de rattrapage à ajouter au digest** : ① une production mentionnée sans ligne au registre · ② une sortie sans lot · ③ une ligne « relevé en direct » incomplète. ⏳ **NON APPLIQUÉ au prompt** — la spécification vit en bas de la page du registre, et la séance qui descendait la file ne l'a pas lue. **À faire au prochain amendement de la routine.**
+
+### 🧼 Deux points du PMS v2 qui touchent cette fiche
+
+✅ **LE MARQUAGE DU BOUCHON SORT DU PMS** — la date en clair sur l'étiquette vaut le numéro de lot <i>(directive 2011/91/UE)</i> ⇒ **aucun outil de marquage n'est à acquérir.** ⚠️ **Les volets 3 et 6 de la v1 en exigeaient un : c'est une exigence RETIRÉE, pas oubliée.** 🎯 **Ça ferme le point ouvert depuis le 16/09 — deux mois — et ça rend caduques les colonnes « tampon dateur » / « marqueur permanent » des tableaux d'arbitrage ci-dessus : il n'y a plus d'arbitrage à rendre.**
+
+✅ **PMS v2 écrit, sept volets complets** <i>(cadre refait : ni agrément ni dérogation, GBPH jus de fruits · dangers recodifiés · sept mesures de maîtrise ajoutées · procédé aligné sur le 25/75 tilleul à 15 mL)</i>. ⛔ **HORS DÉPÔT : il vit dans le projet, `claude/pms-ledje-brouillon.md`.** 📌 **Cohérent avec la formulation du 08/11 : il était hors dépôt parce qu'INACHEVÉ. Ce motif est tombé.**
+
+### ⚖️ Et pas de balance
+
+⛔ **Décision de Basekou le 16/11 : pas d'achat de balance** — *« on se débrouille très bien sans pour l'instant »*. ➡️ **Donc toute dose reste CONVERTIE depuis un volume à la seringue, jamais pesée, et le registre héritera de cette limite : la colonne de masse sera toujours un calcul.**
 ## 🌡️ 2026-11-17 — LE FROID A DÉJÀ ÉTÉ MESURÉ, PENDANT LA SÉRIE pH `[en discussion]`
 
 📌 **Déclaré le 17/11** : *« pour le froid ça a été mesuré lorsqu'on a fait les tests pH et tout. »*

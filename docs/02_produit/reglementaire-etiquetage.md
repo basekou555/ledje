@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: produit
-maj: 2026-11-09
+maj: 2026-11-16
 source: "SOT §4.4 partie étiquetage (archive 2026-07-24) + contenu légal 33cl figé 2026-07-24 (page relais) ; deux mentions résiduelles nettoyées en session le 2026-08-27 (QUID « de France », règle logo v2 caduque)"
 resume: "Étiquetage INCO de la boisson pré-mélangée, mentions obligatoires, allègements possibles ; contenu légal 33cl figé — dénomination, QUID, « sans arôme artificiel » (détail : eau-miellee-33cl.md)."
 ---
@@ -173,3 +173,41 @@ Le contenu légal de l'étiquette de la bouteille 33cl est figé — **dénomina
 #### 🧹 Et une règle de traçabilité qui s'écrit toute seule
 
 📌 **Si la date EST le lot, un retrait ou un rappel porte sur TOUTE LA PRODUCTION D'UN JOUR** — deux lots faits le même jour ne sont pas distinguables. ✅ **À ≈ 50 bouteilles par série, sans conséquence pratique.** ➔ **Mais ça donne enfin un énoncé concret aux VOLETS 6 ET 7 du PMS** <i>(traçabilité, retrait, rappel — déclarés sans appui)</i> **: l'unité de rappel est la JOURNÉE DE PRODUCTION.**
+
+## ✅ 2026-11-17 — LA SIGNALÉTIQUE DE TRI EST SUR LA PAGE 1 : LE BLOQUANT N'EXISTAIT PAS `[figé]`
+
+⛔⛔ **CORRECTION DU 17/11, PAR BASEKOU, AVANT QUE CETTE SECTION N'ATTEIGNE `main` : *« ce que j'ai fait sur les étiquettes, c'est que j'ai quand même mis le logo du Triman avec un petit élément aussi pour dire qu'il faut trier dans tel bac »*.** ⇒ **LA PAGE 1 PORTE LE TRIMAN ET LA RÈGLE DE TRI.** 🎯 **Donc les 1000 étiquettes ne sont PAS parties sans signalétique, et le « point le plus lourd du jour » du digest du 17/11 n'avait pas d'objet.**
+
+📌 **La section ci-dessous est conservée pour ce qu'elle garde de juste — le défaut de la « liste complète » du 09/11 — et pour ce qu'elle apprend sur la façon dont un bloquant se fabrique.**
+
+### ⚠️ ET IL FAUT SÉPARER DEUX OBLIGATIONS QUE LE DOSSIER CONFONDAIT
+
+| | Obligation | État au 17/11 |
+|---|---|---|
+| **① MARQUAGE** | Triman + règle de tri **sur l'étiquette** | ✅ **FAIT** — déclaré par Basekou le 17/11 |
+| **② ADHÉSION** | déclarer ses emballages à un éco-organisme et payer la contribution | ⏳ **ouvert** — Basekou déclare *« j'ai fait un test qui m'a dit que j'avais pas besoin d'être adhérent, je rentrais pas dans les critères »* |
+
+🎯 **Ces deux obligations sont INDÉPENDANTES, et c'est ce qui change tout : ② est administratif et financier, il ne touche PAS l'étiquette.** ⇒ **Quelle que soit l'issue de ②, les 1000 étiquettes sont utilisables.** ⛔ **Il n'y a donc plus aucun enjeu d'étiquetage ici.**
+
+⚠️ **Une ligne d'alerte, et une seule, posée parce que Basekou a demandé une vérification de notre côté : les sources publiques atteintes le 17/11 ne confirment PAS de seuil d'exemption à l'adhésion.** Deux analyses spécialisées écrivent qu'*aucun seuil de chiffre d'affaires ni de volume n'est prévu* pour la REP elle-même ; ce qui existe pour les petits volumes est un **forfait simplifié** *(moins de 10 000 unités de vente consommateur par an)*, c'est-à-dire une adhésion ALLÉGÉE, pas une dispense. 📌 **Une seule piste irait dans le sens de son test : le guide tarifaire Citeo 2026 note qu'au titre du PPWR une entreprise est productrice *« sauf si elle est une microentreprise »* — exception qui porte sur la DÉFINITION du producteur.** ⛔ **La session ne tranche pas : c'est une question de droit, la cinquième du dossier, et elle est pour Citeo plus que pour la DDPP 69.** ➔ **Le geste qui la ferme : refaire le questionnaire d'éligibilité sur le site de l'éco-organisme et garder sa réponse, ou la demander à Citeo.** ⚠️ **L'exemption dépend de critères qui incluent le chiffre d'affaires : c'est un chiffre INTERNE, il ne s'écrit pas ici.**
+
+### Ce que la section du 16/11 gardait de juste
+
+📌 **L'obligation de marquage : art. L541-9-3 du code de l'environnement.** ⚠️ **Et le défaut de méthode, lui, reste entier.**
+
+### 🔴 Ce que cette séance ajoute, et c'est le point dur
+
+**① La liste du 09/11 s'intitule « LA LISTE COMPLÈTE DE CE QUI DOIT CHANGER SUR L'ÉTIQUETTE » et cette mention n'y est dans AUCUNE des cinq sections** — ni en A <i>(ce qui bloque la commande)</i>, ni même en E <i>(les évolutions non bloquantes)</i>. ➔ **Une liste déclarée complète ne l'était pas.**
+
+**② L'obligation ÉTAIT déjà au dossier depuis le 09/11 — mais pour la PAGE 40**, auto-signalée par la séance qui l'avait omise en reportant le décor <i>(« la mention “Bouteille et bouchon en PET recyclé à trier” n'a pas été reportée… à remettre, avec le logo Triman »)</i>. ⇒ **Le dossier portait le point sur la maquette secondaire et pas sur celle qu'on imprime.**
+
+**③ La commande est partie depuis : 1000 étiquettes chez Vistaprint le 13/11, livraison le 23/11.** ⛔ **Et c'est là que la séance a fabriqué un bloquant : de « la mention n'est pas au dossier » elle a conclu « la mention n'est pas sur l'étiquette ».** ➡️ **Faux. Le dossier ne portait pas le geste ; le geste avait été fait.**
+
+### 🎯 Le vrai enseignement, et il ne porte pas sur l'étiquette
+
+**Un silence du dossier a été lu comme un silence du terrain.** La question posée le 13/11 est restée sans réponse ⇒ la séance a pris l'absence de réponse pour une absence de geste, et quatre jours plus tard le digest en faisait « le point le plus lourd du jour ».
+
+➔ **Règle : une question sans réponse ne prouve rien sur le terrain. Elle prouve seulement qu'on n'a pas la réponse.** 📌 **Même famille que le 16/11 — « un fait neuf se lit d'abord seul » — et que les 231 bouteilles, bloquant n° 1 pendant six jours alors qu'elles étaient en main.**
+
+📌 **Reste ouvert, et c'est tout ce qui reste : la « mention de TRI du PET » que la page ÉTAT porte comme à faire sur la page 1. ⚠️ À vérifier à la réception du 23/11 contre ce que Basekou déclare avoir posé — c'est peut-être le même élément, nommé autrement.**
+
