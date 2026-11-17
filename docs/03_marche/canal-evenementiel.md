@@ -190,7 +190,7 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 
 ## 🌙 2026-11-17 — LES ÉVÉNEMENTS DU RAMADAN : QUATRE RAPPELS À L'AGENDA `[figé 17/11]`
 
-*(Session événements, Cowork, 17/11 vers 14h50 ; descendu de la file de la page ÉTAT par la séance Claude Code le 17/11 vers 15h20. Détail et sources : page Notion « Calendrier événements et lieux récurrents — Lyon + 1 h », journal du 17/11.)*
+*(Session événements, Cowork, 17/11 — rappels créés dans l'agenda à 14h43 ; descendu de la file de la page ÉTAT par la séance Claude Code le 17/11 vers 15h20. Détail et sources : page Notion « Calendrier événements et lieux récurrents — Lyon + 1 h », journal du 17/11.)*
 
 ✅ **Décidé par Basekou : quatre rappels à l'agenda Google**
 
@@ -199,7 +199,7 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 | **Jeudi 19/11, 10h** | Messages aux trois organisateurs : **Arqam** *(Festi Ramadan, Plaza Réception Meyzieu)*, **Avas** *(marché du Ramadan de Vaulx-en-Velin)*, **mairie de Saint-Fons** *(marché du Ramadan, place Durel)* |
 | **Mardi 1/12** | Guet de l'appel à candidatures de Saint-Fons |
 | **Vendredi 18/12, 17h** | Décision |
-| **Chaque mercredi, 12h30**, jusqu'à la fin du Ramadan | Veille Instagram / TikTok |
+| **Chaque mercredi, 12h30, du 25/11 au 10/03** *(fin du Ramadan)* | Veille Instagram / TikTok |
 
 `[en discussion]` **Vaulx-en-Velin : Basekou décidera selon les réponses d'Avas.**
 
