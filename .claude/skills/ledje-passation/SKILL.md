@@ -58,6 +58,9 @@ Pour chaque point, répondre **fait**, **pas fait** ou **sans objet**, avec la p
    ⚠️ **Avant d'écrire : compter les passations déjà en attente. Le plafond est de DEUX.** S'il y
    en a déjà deux, ne pas en ajouter une troisième : le dire à Basekou, et l'écrire en première
    ligne du message de passation. La première chose à faire est alors d'ouvrir une séance Code.
+   **Le bloc reste court : un fait ou une décision par ligne, avec son niveau.** Le détail (le
+   contexte, les raisons, ce qui a été essayé) va dans le relevé du Journal des sessions, au
+   point 2, et le bloc y renvoie par un lien. La page ÉTAT ne doit pas regonfler.
    *Preuve : le nombre de blocs avant et après, et le bloc ajouté.*
 2. **Le relevé est au « Journal des sessions »** de Notion : c'est le seul endroit où une séance
    sans PR laisse une trace. *Preuve : le lien de l'entrée.*
