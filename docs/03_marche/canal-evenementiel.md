@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-16
+maj: 2026-11-17
 source: "Créée le 2026-10-12 après le débrief de l'événement du 11/10, à la demande de Basekou : « ça mérite pas tout un document, mais il y a des leçons à en tirer pour les prochains — qu'est-ce qu'on a utilisé, qu'est-ce qu'on a bien utilisé, qu'est-ce qu'on doit améliorer »."
 resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteilles là où cinq rendez-vous restaurateurs ont donné zéro. 🎯 Vente directe au consommateur, Lédjé exposant et pas fournisseur. ✅ Ce qui marche : un public dont la clientèle est musulmane, le frigo apporté (chaîne du froid ET support d'affiche), la seringue, le paiement sans contact, proposer au client de choisir entre boire frais sur place ou emporter. 🔴 Ce qui doit s'améliorer : le stand est « un peu léger », l'affiche en portrait n'a nulle part où s'accrocher sans frigo, pas de fonds de caisse, l'étiquetage est le goulot et il est PIRE que proportionnel au-delà de ≈ 50 bouteilles, la DLC n'a pas été tamponnée. 🔴🔴 **2026-10-12 — L'ÉVÉNEMENT EST CHIFFRÉ ET IL EST EN PERTE : les frais fixes du stand ont à eux seuls dépassé le chiffre d'affaires, donc la perte était acquise AVANT la matière.** L'emplacement est le premier poste, à lui seul plus de la moitié du CA ; le seuil d'équilibre était ≈ 2,4 fois le volume produit. ➡️ **Ce n'est ni le produit ni le prix : c'est le coût du stand — et le prochain événement n'en a pas.** ⚡ Et une réserve sur la lecture du succès : certains ont refusé le prix réduit pour payer plein tarif « pour donner de la force », donc une part des ventes est du SOUTIEN et pas une décision d'achat sur le goût. ⛔ Aucun montant ici : les valeurs vivent dans la page Notion privée, le dépôt n'en garde que les rapports."
 ---
@@ -187,3 +187,23 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 ⏳ **Prochaine étape, et elle est minuscule : dire qu'on est intéressé pour être mis en contact.**
 
 📌 **Cohérent avec le fait établi le 16/11 ci-dessus — les événements de mairie sont en JUIN.** ➡️ **Donc hors fenêtre Ramadan, dans la saison qui suit : à garder au dossier sans l'instruire maintenant.** ⚠️ **Et le motif qui a écarté Saint-Étienne le 13/12 s'appliquera ici aussi : quatre mairies de l'agglomération, c'est quatre fois la question du transport.**
+
+## 🌙 2026-11-17 — LES ÉVÉNEMENTS DU RAMADAN : QUATRE RAPPELS À L'AGENDA `[figé 17/11]`
+
+*(Session événements, Cowork, 17/11 vers 14h50 ; descendu de la file de la page ÉTAT par la séance Claude Code le 17/11 vers 15h20. Détail et sources : page Notion « Calendrier événements et lieux récurrents — Lyon + 1 h », journal du 17/11.)*
+
+✅ **Décidé par Basekou : quatre rappels à l'agenda Google**
+
+| Quand | Quoi |
+|---|---|
+| **Jeudi 19/11, 10h** | Messages aux trois organisateurs : **Arqam** *(Festi Ramadan, Plaza Réception Meyzieu)*, **Avas** *(marché du Ramadan de Vaulx-en-Velin)*, **mairie de Saint-Fons** *(marché du Ramadan, place Durel)* |
+| **Mardi 1/12** | Guet de l'appel à candidatures de Saint-Fons |
+| **Vendredi 18/12, 17h** | Décision |
+| **Chaque mercredi, 12h30**, jusqu'à la fin du Ramadan | Veille Instagram / TikTok |
+
+`[en discussion]` **Vaulx-en-Velin : Basekou décidera selon les réponses d'Avas.**
+
+`[idée]` **Tri proposé par la session, NON tranché** : à jouer — Festi Ramadan Arqam, Vaulx en week-ends, les mosquées par le soir parrainé · en veille — Saint-Fons, Guillotière, gala Es-Salem, salle Majorelle · écartés — Festi Lyon, Marhaba Expo, marché de Noël de Solaize, galas à dîner assis.
+
+📌 **Repères** : Ramadan 2027 prévu du ≈ 8 février au ≈ 9 mars ; **aucune édition 2027 n'est encore annoncée** pour ces marchés. ⚠️ **La décision du 18/12 tombe deux jours avant le signal d'arrêt mosquées du 20/12** *(si aucun interlocuteur qui décide ni pilote fait, l'effort bascule sur les marchés du Ramadan)* — les deux se lisent ensemble.
+

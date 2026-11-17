@@ -804,7 +804,7 @@ Paroi très souple *(les deux bouteilles restantes au frigo aussi)*, **qui se re
 
 ⛔ **ET LE CONTOURNEMENT NATUREL EST PRÉCISÉMENT CELUI QUI N'EST PAS VALIDÉ** `[figé 16/11]` : **la LIVRAISON TIÈDE À J-1 est NON VALIDÉE.** **Livraison froide tant que le test n'a pas eu lieu.** ✅ **Trois conditions pour pouvoir l'utiliser, toutes nécessaires : ① le frigo du lieu est VÉRIFIÉ et LIBRE à la réception · ② l'heure de remise est ÉCRITE · ③ un test préalable a eu lieu.**
 
-🧪 **Le test est dans la séquence de la semaine du 16/11 : 12 BOUTEILLES SCELLÉES, tiède 24 h PUIS froid.** ⚠️ **Réserve de méthode à tenir : « tiède puis froid » n'a AUCUN POINT DE MESURE écrit** — ni température de départ, ni température ambiante, ni critère d'échec. **Sans eux, le test produira une impression, pas un résultat.** ⛔ **Et il ne dit rien de la DLC : le plancher de 14 jours reste OBSERVÉ, on n'écrit ni ne dit jamais « le produit tient X jours ».**
+🧪 **Le test est dans la séquence de la semaine du 16/11 : 12 BOUTEILLES SCELLÉES, tiède 24 h PUIS froid.** ⚠️ **Réserve de méthode à tenir : « tiède puis froid » n'a AUCUN POINT DE MESURE écrit** — ni température de départ, ni température ambiante, ni critère d'échec. **Sans eux, le test produira une impression, pas un résultat.** ⛔ **Et il ne dit rien de la DLC : le plancher de 14 jours reste OBSERVÉ, on n'écrit ni ne dit jamais « le produit tient X jours ».** ➡️ *Nuancé le 17/11 : le scénario ≈ 24 h hors froid a déjà eu lieu sur le terrain sans conséquence sur le goût — la seule inconnue est l'effet sur la tenue au froid qui suit (voir « 2026-11-17 — ce que la série pH établit sur le froid »).*
 
 ### 📦 Les 50 bouteilles aux anciennes étiquettes
 
@@ -857,29 +857,29 @@ Paroi très souple *(les deux bouteilles restantes au frigo aussi)*, **qui se re
 
 📌 **Déclaré le 17/11** : *« pour le froid ça a été mesuré lorsqu'on a fait les tests pH et tout. »*
 
+⛔ **LECTURE CORRIGÉE LE MÊME JOUR** *(confirmée par Basekou, descendue de la file de la page ÉTAT le 17/11 vers 15h20 — posée par la session Produit)* : **la phrase désigne la TENUE DE LA BOISSON AU FROID, pas un relevé de température.** ⇒ Les deux paragraphes qui suivent *(« on relit la série pour en extraire les températures », « un relevé de température n'est pas un débit »)* partent d'une mauvaise lecture ; la relecture faite dans l'après-midi et sa correction sont juste en dessous.
+
 ✅ **Donc le goulot du froid n'est PAS à mesurer de zéro : la série pH de septembre porterait déjà des relevés de température.** 🎯 **Ce que ça change dans l'ordre des travaux, et c'est beaucoup plus léger que prévu : on RELIT la série pour en extraire les températures réellement consignées, au lieu d'ouvrir une campagne de mesure.**
 
 ⚠️ **Rappel de l'état actuel, inchangé** : le frigo tourne autour de 0 °C depuis des semaines, mais **la seule valeur CONSIGNÉE reste 4,4 °C au 29/09** — et c'est celle-là qu'un contrôle lit.
 
 ⚠️ **Et ça ne répond pas à la question du ROULEMENT**, qui est le vrai plafond du plan Ramadan : *combien* de bouteilles passent au froid par jour, et en combien de temps elles descendent. **Un relevé de température n'est pas un débit.** 📌 **Avec l'objectif porté à ≈ 1000 bouteilles le 17/11, soit ≈ 5 soirs servis par semaine, cette question se durcit.**
 
-### 🔎 RELECTURE FAITE LE 17/11 (≈ 14h20) — ce que la série pH porte réellement en température
+### 🔎 2026-11-17 — CE QUE LA SÉRIE pH ÉTABLIT SUR LE FROID, ET CE QUI N'EST PAS UN TROU `[figé 17/11]`
 
-**Relue dans cette fiche (sections de septembre) et dans le PMS v2 au Drive.** Résultat, sans arrondir :
+*(Relecture de cette fiche par la séance Claude Code vers 14h20, puis corrigée vers 15h20 par cinq lignes de la session Produit, confirmées par Basekou. La première version de la relecture concluait « pas de mesure cachée, ambiante jamais mesurée » : elle répondait à une question que personne ne posait, et la seconde moitié était inexacte.)*
 
-| Ce qu'on cherchait | Ce qui est consigné | Source |
-|---|---|---|
-| Froid pendant la série *(J0 le 15/09 à 01h30 → J+14 le 29/09)* | ⛔ **Rien du J0 au J+10** — le thermomètre n'a été alimenté que le **25/09**. *« Toute la série pH s'est faite sur un froid supposé, jamais vérifié »* (écrit le 28/09) | § « Première mesure de température », 28/09 |
-| Froid en fin de série | ✅ **3 à 5 °C** au premier relevé *(daté 25/09 dans le tableau, 28/09 dans la section qui l'annonce — la fiche porte les deux dates pour la même valeur)* · **29/09 : 4,4 °C** — point froid du frigo | tableau des relevés |
-| Froid après la série | ✅ **15/10 à 10h07 : 0 °C** *(déclaré, après nettoyage du frigo)* | tableau des relevés |
-| Ambiante du lot ambiant | ⛔ **≈ 25 °C ESTIMÉS, jamais mesurés** | J0, 15/09 |
-| Tenue du lot ambiant | **Aucun signe jusqu'à ≈ 36 h · gaz + odeur + baisse de pH entre ≈ 36 et 48 h** — sur une bouteille ouverte trois fois, donc un plancher prudent | J+2, 17/09 |
-| Temps de descente d'une bouteille au froid | ⛔ **JAMAIS MESURÉ** — le seul chiffre est le « ≈ 5 min en bain eau + glaçons », une estimation | § froid événementiel |
-| Recette actuelle (08/11, tilleul 15 mL) | ⛔ **Aucune température** : *« sans mesure de pH ni de température continue »* | `eau-miellee-33cl.md`, 08/11 |
+✅ **LE FROID EST TESTÉ, ET C'EST LE RÉSULTAT LE PLUS SOLIDE DU DOSSIER.** « Mesuré pendant les tests pH » désigne **la tenue de la boisson au froid** : **lot frais, 14 jours sans aucun signe à ≈ 4,4 °C** ; au-delà, fermentation *(Lorient, tourné à 15 jours ; bouteilles de l'événement associatif gardées plus de deux semaines)*.
 
-🎯 **Ce que ça établit : la déclaration « ça a été mesuré pendant les tests pH » est VRAIE POUR LE FRIGO, EN FIN DE SÉRIE SEULEMENT** *(deux relevés dans la fenêtre, 25/09 et 29/09)*. **Elle est fausse pour l'ambiante, et rien n'existe sur le temps de refroidissement.** ⇒ **Il n'y a pas de campagne cachée à exploiter : le dossier ne contient que les quatre relevés déjà connus.**
+🌡️ **L'AMBIANTE A UN REPÈRE, ET IL EST PLUS CHAUD QUE CE QU'ÉCRIVAIT LA FICHE** : **≈ 27 °C sur toute la période, sans gros écart** *(septembre, appartement chaud — déclaré de mémoire par Basekou)* et **un relevé à 27 °C le 29/09**. Pas de relevé pendant la fenêtre des 36-48 h elle-même. ⇒ **La tenue du lot ambiant — aucun signe jusqu'à ≈ 36 h, gaz + odeur + baisse de pH entre ≈ 36 et 48 h — vaut à ≈ 27 °C, pas à « ≈ 25 °C estimés ».** *(Le second affichage du thermomètre lisait 26 °C le 28/09 : cohérent avec une sonde d'ambiance, comme le supposait la lecture ① de la section du 28/09.)*
 
-📌 **Le chiffre qui sert vraiment pour la suite** : **≈ 36 h sans signe à ≈ 25 °C estimés.** C'est le seul repère du dossier sur un produit hors froid, et c'est lui qui borne le test de la livraison tiède *(24 h hors froid, la limite du point critique n° 1)* : **l'écart entre 24 h et ≈ 36 h est petit, et l'ambiante n'a jamais été mesurée** ⇒ le test doit mesurer l'ambiante, faute de quoi il ne dira rien de plus que la série.
+✅ **LE SCÉNARIO « ≈ 24 h HORS FROID » A DÉJÀ EU LIEU SUR LE TERRAIN** : à la **kermesse** *(11/10)* et à **l'événement associatif de Vaulx-en-Velin** *(date à compléter — le dossier porte un salon à Vaulx le 17/10, rapprochement non confirmé)*, des bouteilles sont restées **jusqu'à ≈ 24 h dehors, sans conséquence sur le goût**, par température extérieure fraîche *(octobre)*. ⇒ **La réserve posée le 16/11 — « sans points de mesure, le test tiède produira une impression » — était trop forte : la seule inconnue est l'effet d'une phase tiède sur la tenue au froid qui SUIT.**
+
+💡 `[idée]` **Saison** *(Basekou)* : en saison fraîche, la tenue à l'ambiante serait plus longue que les 36-48 h obtenues à ≈ 27 °C. ⚠️ **La température qui compte est celle de l'endroit où dorment les bouteilles** *(un appartement chauffé)*, pas celle du dehors ; **la règle des ≤ 24 h hors froid du PMS ne bouge pas sans test.**
+
+`[en discussion]` **Le débit du froid et le temps de descente sont des questions de LOGISTIQUE RAMADAN, pas des résultats de test manquants** ⇒ ils ne se présentent plus comme un trou de la série pH. Discussion ouverte avec Basekou le 17/11.
+
+📌 **Leçon de séance** : une phrase de Basekou a été lue comme « relevé de température » et la séance est allée chercher des températures ; la question était la tenue. **Avant de relire un dossier pour vérifier une déclaration, reformuler ce qu'elle affirme et le faire confirmer.**
 
 ### ⛔ RÉTRACTATION DU MÊME JOUR — « entre 1 et 3 mois » ne concerne PAS le produit
 
