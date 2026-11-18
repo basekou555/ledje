@@ -762,6 +762,6 @@ Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimente
 
 ## 💶 2026-11-18 — O'DABA A PAYÉ `[figé 18/11]`
 
-📌 *« Aujourd'hui elle est payée, on n'en parle plus »* *(Basekou, 18/11)*. ⇒ **La facture 2026-002 est RÉGLÉE** ; la créance ouverte depuis la livraison du 30/09 est **close**, et le sujet sort du pilotage. 💰 Montant et moyen de paiement : 💸 Comptabilité *(moyen non précisé ; aucune trace dans Stripe, donc hors terminal et hors facture Stripe)*.
+📌 *« Aujourd'hui elle est payée, on n'en parle plus »* *(Basekou, 18/11)*. ⇒ **La facture 2026-002 est RÉGLÉE** ; la créance ouverte depuis la livraison du 30/09 est **close**, et le sujet sort du pilotage. ✅ **Par VIREMENT, déclaré reçu le 18/11 à 19h42, et il couvre la facture ENTIÈRE** *(confirmé par Basekou à 19h47, relevé par la session COO sur la page ÉTAT)* ⇒ **la créance est soldée.** 💰 Montant : 💸 Comptabilité *(aucune trace Stripe, c'est normal pour un virement)*.
 🎯 **Conséquence pour le dossier** : c'est **le premier paiement d'un professionnel** à Lédjé ⇒ les phrases « aucun professionnel n'a jamais payé » et « zéro euro encaissé en B2B » sont périmées à partir de cette date. **H7 (30 bouteilles du 29/09) reste impayé.** ✅ Et le critère du 10/11 *(« ne démarcher que ceux qui paient »)* a désormais un premier cas où le client a payé.
 
