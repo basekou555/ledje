@@ -758,4 +758,4 @@ Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimente
 
 *(Lu par la routine du 18/11 dans la boîte Zoho ; descendu par la séance Claude Code le 18/11.)*
 
-✅ **« Tu es dispo le 27 matin ? »** *(Francesco, 17/11 à 08h54)* — **« oui très bien »** *(Basekou, 17/11 à 18h03)*. ⚠️ **Heure non dite, et rien n'est encore à l'agenda.** Rappel : c'est lui qui attend le marché adressable et les coûts unitaires *(items 16 et 17 du backlog)*.
+✅ **« Tu es dispo le 27 matin ? »** *(Francesco, 17/11 à 08h54)* — **« oui très bien »** *(Basekou, 17/11 à 18h03)*. 🆕 **L'heure est posée : invitation « Basekou x Francesco », vendredi 27/11 de 10h30 à 11h**, reçue sur `basekou@ledje.fr` le 18/11 à 08h43. ✅ **Compatible avec la contrainte de Basekou (avant 11h, pour être libre ensuite pour la mosquée).** ⏳ **Invitation non encore acceptée** — elle se répond depuis la boîte `ledje.fr`, que la séance ne pilote pas. Rappel : c'est lui qui attend le marché adressable et les coûts unitaires *(items 16 et 17 du backlog)*.

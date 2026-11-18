@@ -347,6 +347,6 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 *(Deux transcripts Grain « Audit Bsk », 11 min à 10h10 puis 1 h 16 à 10h50, lus par la routine du 18/11 ; la séance Claude Code ne les a pas relus. Descendu le 18/11.)*
 
 ✅ **Ce que les notes portent** : le message du site et la cible **avant** le contenu · un objectif de ventes à court terme · un atelier sur le montage assisté et ses limites · les chiffres TikTok regardés dans l'application · le recyclage des histoires vidéo en posts LinkedIn et carrousels.
-✅ **Trois actions en sortent** : une V1 du format LinkedIn tiré des histoires vidéo · un fichier de contexte du système vidéo · tourner les rushes manquants des 30 vidéos.
-📅 **Suite proposée : mercredi 25/11, 10h-11h** *(invitation « 2m rdv Ledje » reçue le 17/11 à 13h10)* — **non répondue** au 18/11 matin.
+✅ **Trois actions en sortent** *(relevées par Grain, sans échéance, toutes « en attente »)* : ① **créer une première version du format LinkedIn à partir des histoires vidéo, puis l'itérer avec Richard** · ② **faire générer par l'assistant un fichier Markdown qui récapitule le contexte et les apprentissages du système de création vidéo** · ③ **tourner les rushes manquants pour compléter les 30 vidéos prévues.**
+📅 **Suite : mercredi 25/11, 10h-11h, en visio** *(invitation « 2m rdv Ledje » reçue le 17/11 à 13h10)* — ✅ **ACCEPTÉE le 18/11 à 15h07** par la séance, sur demande de Basekou.
 ⛔ **ZONE SENSIBLE, rien n'est adopté** : la cible y est dite **incertaine**, avec des pistes hors dossier *(mères, enfants, sport durable)*. **Cible et positionnement ne bougent que sur décision explicite de Basekou** ; ces pistes sont consignées comme **évoquées**, pas retenues.

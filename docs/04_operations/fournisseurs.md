@@ -173,10 +173,10 @@ Prompt Cowork « cartographie large » rédigé (lister tout, filtrer par télé
 
 🔴🔴 **ET LE POINT DE DISPOSITIF, qui compte plus que le classement : CE RELEVÉ EST ÉCRIT SUR LA PAGE 🧵 « Sujets ouverts », GELÉE DEPUIS LE 11/09.** **Sa dernière modification est le 14/10 à 19h53 — donc postérieure au gel.** ⚠️ **Une page déclarée morte a continué de recevoir du travail neuf, et ce travail n'a aucun chemin vers le dépôt.** ➡️ **Avant de commander, c'est là qu'il faut aller rechercher le détail — pas dans les fiches, qui ne l'ont jamais reçu.**
 
-## 📦 2026-11-17/18 — TROIS FAITS FOURNISSEURS LUS PAR LA ROUTINE, DONT DEUX SANS OBJET CONNU
+## 📦 2026-11-17/18 — TROIS FAITS FOURNISSEURS LUS PAR LA ROUTINE *(objets précisés par Basekou le 18/11)*
 
 *(Lus par la routine du 18/11 dans les boîtes Zoho et Gmail ; descendus par la séance Claude Code le 18/11. 💰 Montants en 💸 Comptabilité, jamais ici.)*
 
 1. ✅ **VISTAPRINT `VP_5ZZ34C2H` EST EXPÉDIÉ** — « votre commande est en chemin », mail du **18/11 à 02h05** *(Gmail)*. **Livraison annoncée lundi 23/11, inchangée**, au lieu de travail de Basekou.
-2. ❓ **PRINTOCLOCK, commande `002113234` du 17/11 à 18h21 : 100 stickers autocollants** *(paiement `POC_5541428` et facture à 18h22, boîte Zoho)*. ⛔ **Leur objet n'est écrit nulle part au dossier** — à compléter par Basekou.
-3. ❓ **FIRPLAST, facture n° `F00335049` du 17/11** *(compta Firplast, 12h28, boîte Zoho)*. ⛔ **Le dossier ne dit pas ce qu'elle couvre** : le carton retiré le 12/11, ou une seconde commande — à compléter par Basekou.
+2. ⛔ **PRINTOCLOCK, commande `002113234` du 17/11 à 18h21 : 100 stickers — USAGE PERSONNEL, HORS LÉDJÉ** *(Basekou, 18/11)*. Passée depuis la boîte pro, d'où sa trace ; **elle ne concerne pas le projet** et n'entre ni dans les étiquettes ni en comptabilité Lédjé.
+3. ✅ **FIRPLAST, facture n° `F00335049` du 17/11 = LA FACTURE DES BOUTEILLES** *(le carton de 231 retiré le 12/11 — Basekou, 18/11)* ⇒ **pas de seconde commande.** ⏳ **Sa date de paiement est à prendre en compte** *(montant et échéance : 💸 Comptabilité)* — ⚠️ **l'échéance n'a pas pu être lue par la séance** : la pièce jointe PDF arrive illisible par le connecteur Zoho ⇒ à compléter.
