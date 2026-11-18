@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-17
+maj: 2026-11-18
 source: "SOT §1.4bis pt 3 (archive 2026-07-24) — bascule C2B2C 2026-07-21, volet com 2026-07-24 (page relais + arbitrage Basekou)"
 resume: "✅✅✅ **2026-10-19 — L'AFFICHE EN MOSQUÉE EST DÉCIDÉE : le sujet n'est plus « si » mais « LAQUELLE », et ce qui la rend possible est LE CHOIX DES MOTS — « offrir » (le mot du site) dit le geste sans nommer le registre, là où « don » le nomme.** ⛔ **LA LIGNE EXACTE NE SÉPARE PAS L'ORAL DE L'ÉCRIT, ELLE SÉPARE LA RELIGION DE LA SANTÉ : « tradition prophétique » à l'oral est COUVERT (règle du 06/10), « médecine prophétique » est une ALLÉGATION SANTÉ et ne passe dans AUCUN registre.** ✅ **Cadre assumé : la communauté la plus susceptible de consommer est musulmane, on s'adresse à elle là où elle est.** ✅ **La destination de l'affiche EXISTE (`/offrir`, route vérifiée dans le code) — à ne pas confondre avec l'ENCAISSEMENT, qui n'existe toujours pas.** ⚠️ **Terrain du 19/10 : dépôt à Gerland sans responsable — arriver AVANT la prière, affiche en main, 5 bouteilles ; le critère de sélection est QUI DÉCIDE, pas la géographie.** ⛔ **La responsable com NE DÉCIDE NI DU STOCK NI DE L'AFFICHAGE : relais pour l'affiche seulement.** ✅✅ **2026-10-09 — LE CANAL SORT DE SON ATTENTE VOLONTAIRE : ≈ 10 MOSQUÉES CONTACTÉES PAR DM INSTAGRAM le 08/10, et le contact de la responsable com est OBTENU (message parti, sans réponse) — la fiche écrivait qu'il n'avait jamais été recueilli.** 📄 **La page `/offrir` est en production depuis le 08/10 ; la RÈGLE qu'elle supposerait reste `[en discussion]`.** ⛔ **Et la mécanique de paiement n'existe toujours pas.** Canal basculé en C2B2C le 21/07 (don sponsorisé : un fidèle offre un lot à sa mosquée) ; barème sans négociation ; volet com après étiquette + branding. 🆕 **LE CANAL SE RÉVEILLE LE 02/10, EN SOMMEIL DEPUIS LE 03/08, ET PAR UN AUTRE MODÈLE** : une cliente acheteuse d'O'Daba est responsable com d'une mosquée et demande une **BOUTEILLE PERSONNALISÉE en PRESTATION PAYÉE à 1 €** — ici la mosquée est le CLIENT, pas le bénéficiaire d'un don. ⚠️ **Correction du 06/10 : le cadre religieux a été posé par Basekou, pas reconnu spontanément** — la demande naît APRÈS l'argument. ✅ **ET LA TENSION EST TRANCHÉE LE MÊME JOUR : la religion se nomme À L'ORAL et seulement devant un public dont on sait qu'il est musulman, jamais publiquement** *(`../01_adn/identite-verbale.md`)* ⇒ **une parole orale en mosquée est COUVERTE, une AFFICHE ne l'est pas.** ⛔ Rien n'est tranché : ni le modèle, ni le support, ni le prix. Question de marque à trancher avant toute affiche : **un support en mosquée doit dire LE PRODUIT, pas LA VERTU**. Point matériel : une bouteille personnalisée = une étiquette de plus par client."
 ---
@@ -267,3 +267,19 @@ Identifier les volumes de consommation par mosquée → construire la courbe jus
 ⚠️ **Et ça durcit le point du froid plutôt que de le résoudre** : 5 soirs par semaine à ≈ 50 bouteilles suppose un roulement de froid que personne n'a mesuré *(cf. `../04_operations/production-artisanale.md`)*. 📌 **Le signal d'arrêt du 25/01 reste la soupape : moins de trois soirs réservés ⇒ objectif ramené à un carton sur le mois.**
 
 ⛔ **Un nombre de bouteilles est un VOLUME, pas un montant : il s'écrit ici. Tout ce qui en découle en euros va au Notion 💸 Comptabilité.**
+
+## 🕌 2026-11-17 — AFFICHE : AUCUN DES TROIS TEXTES, UNE AFFICHE EXISTANTE REPRISE `[en discussion]`
+
+*(Descendu de la file de la page ÉTAT par la séance Claude Code le 18/11 vers 13h15 ; posé le 17/11 par la session COO.)*
+
+⛔ **Les versions A, B et C ci-dessus sont ÉCARTÉES par Basekou** : il **reprend une affiche existante, à retravailler.**
+📅 **Un accord serait possible vendredi 20/11 pour poser une affiche dans une mosquée** — laquelle : **non dit**.
+📝 Un message à **Youssouf** a été rédigé par Basekou via ChatGPT, **hors séance** *(texte non versé au dossier)*.
+📌 Les interdits du tableau ci-dessus restent valables pour l'affiche reprise : aucun argument religieux, aucune eulogie, aucune allégation, aucune durée de conservation, QR vers `/offrir` avec sa source.
+
+## 🧊 2026-11-17 — LE FROID SUR PLACE : DES BAINS GLACÉS, PAS LE FRIGO DE LA MOSQUÉE
+
+*(Session Produit, 17/11 ; détail et réserve dans `../04_operations/production-artisanale.md`.)*
+
+✅ `[figé 17/11]` **Le frigo d'une mosquée n'est pas fiable : ce seront des BAINS D'EAU GLACÉE dans les éviers**, et un bain glacé sur place **vaut mise au froid** pour la condition ① de la règle du 16/11. Au service, **« pas tiède » suffit** ; les bouteilles partent en général au moment de la rupture du jeûne.
+💡 `[idée]` **Grands formats de 2 L pour les soirs en mosquée** *(Basekou, 17/11)* — discussion ouverte en session Produit, rien n'est décidé.

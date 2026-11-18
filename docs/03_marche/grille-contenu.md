@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-13
+maj: 2026-11-18
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
 resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication. ➕ 13/11 : « où la trouver » = ledje.fr ; l'apiculteur « à une heure de Lyon » (contredit les 40 min du flyer, à trancher) ; plus de tournage à Lorient ; deux tournages bookés les 14-15/11 ; rien publié la semaine du 10/11."
 ---
@@ -341,3 +341,12 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 - **Prévu** : S-13 le 10, S-10 le 11, S-02 ou S-14 le 12, puis deux accroches de S-13 les 13 et 14. **Rien n'est parti.**
 - **Prêt** : S-13, S-10, S-02 et S-14 sont exportés depuis le 09/11. S-08 attend la recoupe de son plan de rue.
 - Chaque post passe par son « oui », puis la programmation dans TikTok Studio à 18 h 30.
+
+## 🎧 2026-11-17 — L'AUDIT AVEC RICHARD SINAMA A EU LIEU
+
+*(Deux transcripts Grain « Audit Bsk », 11 min à 10h10 puis 1 h 16 à 10h50, lus par la routine du 18/11 ; la séance Claude Code ne les a pas relus. Descendu le 18/11.)*
+
+✅ **Ce que les notes portent** : le message du site et la cible **avant** le contenu · un objectif de ventes à court terme · un atelier sur le montage assisté et ses limites · les chiffres TikTok regardés dans l'application · le recyclage des histoires vidéo en posts LinkedIn et carrousels.
+✅ **Trois actions en sortent** : une V1 du format LinkedIn tiré des histoires vidéo · un fichier de contexte du système vidéo · tourner les rushes manquants des 30 vidéos.
+📅 **Suite proposée : mercredi 25/11, 10h-11h** *(invitation « 2m rdv Ledje » reçue le 17/11 à 13h10)* — **non répondue** au 18/11 matin.
+⛔ **ZONE SENSIBLE, rien n'est adopté** : la cible y est dite **incertaine**, avec des pistes hors dossier *(mères, enfants, sport durable)*. **Cible et positionnement ne bougent que sur décision explicite de Basekou** ; ces pistes sont consignées comme **évoquées**, pas retenues.
