@@ -208,7 +208,7 @@ Identifier les volumes de consommation par mosquée → construire la courbe jus
 
 📌 **Et il déplace le PAYEUR, ce qui lève l'objection de fond** : une mosquée n'a pas de budget boisson. Dans ce montage, elle ne décide que d'**accepter**. C'est exactement ce que `/offrir` écrit déjà — *« Elle n'achète rien et n'avance rien »*.
 
-⚠️ **Le paiement à la commande est ce qui sépare ce plan d'O'Daba** : le dépôt-vente a produit dix bouteilles bues et zéro euro encaissé.
+⚠️ **Le paiement à la commande est ce qui sépare ce plan d'O'Daba** : le dépôt-vente a produit dix bouteilles bues et zéro euro encaissé. *(Mis à jour le 18/11 : O'Daba a fini par payer, sept semaines après la livraison — l'argument tient, il porte désormais sur le DÉLAI, pas sur l'absence de paiement.)*
 
 ⛔ **`[figé]` L'AFFICHE RESTE NEUTRE : date, lieu, lot. L'argument religieux reste À L'ORAL** — ligne tranchée le 19/10, inchangée, et les trois textes du 16/11 la tiennent.
 
