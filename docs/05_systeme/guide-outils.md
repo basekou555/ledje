@@ -171,6 +171,7 @@ type de session. On l'appelle par son nom (`/ledje-site`) ou la session le décl
 | Produit | `ledje-produit` | Écrite le 10/11 d'après les fiches, jamais déroulée |
 | MAJ SOT | `ledje-maj-sot` | Écrite le 10/11 d'après les fiches, jamais déroulée. « MAJ SOT » = la mise à jour des fiches (confirmé par Basekou le 10/11) |
 | Système de création de contenu | `ledje-contenu` | Écrite le 10/11 d'après les fiches, jamais déroulée |
+| Veille enregistrée (vidéos enregistrées sur Instagram et TikTok) | `ledje-veille` | Écrite le 19/11, jamais déroulée. Tourne sur le PC de Basekou, pas en cloud |
 | Toutes, avant d'en changer | `ledje-passation` | Écrite le 10/11 ; **déroulée par une session COO et corrigée d'après son retour le 16/11** (échéances, repères, variante sans dépôt, comptage de la file, questions avant les gestes) |
 
 **Une trame écrite d'après les fiches est une première version.** La première session qui la
@@ -203,6 +204,7 @@ tableau.
 | `ui-design-review:ui-review` | 10/11 | Fonctionne. Sa banque d'exemples (UXKIN) ne se connecte pas depuis une session cloud ; la revue se fait sans |
 | Aperçu Vercel sur une PR | 10/11 | Fonctionne, lien posté en commentaire de la PR |
 | Les huit trames `ledje-…` | Non | Écrites le 10/11, pas encore déroulées par une autre session |
+| `ledje-veille` et `tools/veille/` | **Non** | Écrits le 19/11. Seule la lecture du fichier de liens est vérifiée (doublons, hôtes refusés, refus d'écrire dans un dépôt). Téléchargement et transcription jamais lancés : à essayer sur le PC avec trois liens |
 | Tous les autres skills cités | Non | — |
 | Connecteur **Zoho Mail** (boîte pro `basekou@ledje.fr`) | 12/11, 13/11, 16/11 | **Lecture : fonctionne**, y compris avec le plan gratuit de Zoho (constaté le 12/11 par la session Lédjé Tool, puis le 16/11). **Classement : non testé**, bloqué — lister les dossiers est refusé tant que l'autorisation n'est pas refaite, et aucun outil ne liste les étiquettes. Brouillon et envoi : non essayés. Détail et règle d'usage : `outils.md`, section « Connecteur Zoho Mail ». ⚠️ Il doit aussi être **attaché à la tâche planifiée du digest** pour que la routine le voie — geste distinct, à faire sur claude.ai |
 
