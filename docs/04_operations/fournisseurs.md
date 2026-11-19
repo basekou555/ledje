@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-10-22
+maj: 2026-11-18
 source: "SOT Partie 7 (archive 2026-07-24) ; Apior écarté (Basekou, 24/07) ; critères cartographie 2026-07-21 (page relais) ; aligné le 2026-09-01 sur les décisions déjà consignées le 31/08 ; ordre miel-avant-étiquettes établi le 2026-09-02 ; assemblage arrêté et rupture de miel constatée le 2026-09-07 (montagne + châtaignier 25/75) ; contact corrigé (Joan, pas Jérôme) et commande déclarée passée le 2026-09-08 ; réponse de Joan (taux d'humidité 16-18 %) consignée le 2026-09-10"
 resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — contact : JOAN, nom corrigé le 08/09 ; ✅ assemblage ARRÊTÉ le 07/09 : montagne + châtaignier 25/75, tilleul en repli — ⚠️ mais la DOSE reste à travailler — et il n'y avait PLUS DE MIEL au 07/09, ce qui a fait de l'appel la condition du figeage et non sa conséquence). ✅ COMMANDE DÉCLARÉE PASSÉE le 08/09, et ✅ JOAN A RÉPONDU le 10/09 : **taux d'humidité 16-18 %** — la conversion en grammes est donc FAITE et le tableau nutritionnel corroboré. ⚠️ Mais le miel est à RETIRER et la date de retrait est inconnue : la dose reste bloquée faute de matière. 🔗 La commande du miel passe AVANT celle des étiquettes depuis le 02/09 : le taux d'humidité demandé à Joan conditionne le tableau nutritionnel. Sourcing industriel : apprentissages (dont logique « 2 miels », sujet ouvert), shortlist tracks cristal/RTD, cartographie cristaux à lancer (le conditionneur pour Ramadan 2027 n'existe pas encore)."
 ---
@@ -172,3 +172,11 @@ Prompt Cowork « cartographie large » rédigé (lister tout, filtrer par télé
 📌 **Ce que le classement du 14/10 dit, port compris** : **IMPRIMERIE A RÉACTION devant Printpascher et Printoclock** à 240 et à 500 exemplaires ; **Avery et A Réaction au coude à coude à 1000**. ⛔ **Vistaprint et Onlineprinters n'ont PAS pu être chiffrés** *(configurateur en panne)* — **repli téléphone**. ⛔ **Realisaprint est derrière un compte client à ouvrir ; Lebonprint et Labelprint24 sont hors course.** 💰 *Les valeurs sont au Notion 💸 Comptabilité, pas ici.*
 
 🔴🔴 **ET LE POINT DE DISPOSITIF, qui compte plus que le classement : CE RELEVÉ EST ÉCRIT SUR LA PAGE 🧵 « Sujets ouverts », GELÉE DEPUIS LE 11/09.** **Sa dernière modification est le 14/10 à 19h53 — donc postérieure au gel.** ⚠️ **Une page déclarée morte a continué de recevoir du travail neuf, et ce travail n'a aucun chemin vers le dépôt.** ➡️ **Avant de commander, c'est là qu'il faut aller rechercher le détail — pas dans les fiches, qui ne l'ont jamais reçu.**
+
+## 📦 2026-11-17/18 — TROIS FAITS FOURNISSEURS LUS PAR LA ROUTINE *(objets précisés par Basekou le 18/11)*
+
+*(Lus par la routine du 18/11 dans les boîtes Zoho et Gmail ; descendus par la séance Claude Code le 18/11. 💰 Montants en 💸 Comptabilité, jamais ici.)*
+
+1. ✅ **VISTAPRINT `VP_5ZZ34C2H` EST EXPÉDIÉ** — « votre commande est en chemin », mail du **18/11 à 02h05** *(Gmail)*. **Livraison annoncée lundi 23/11, inchangée**, au lieu de travail de Basekou.
+2. ⛔ **PRINTOCLOCK, commande `002113234` du 17/11 à 18h21 : 100 stickers — USAGE PERSONNEL, HORS LÉDJÉ** *(Basekou, 18/11)*. Passée depuis la boîte pro, d'où sa trace ; **elle ne concerne pas le projet** et n'entre ni dans les étiquettes ni en comptabilité Lédjé.
+3. ✅ **FIRPLAST, facture n° `F00335049` du 17/11 = LA FACTURE DES BOUTEILLES** *(le carton de 231 retiré le 12/11 — Basekou, 18/11)* ⇒ **pas de seconde commande.** ⏳ **Sa date de paiement est à prendre en compte** *(montant et échéance : 💸 Comptabilité)* — ⚠️ **l'échéance n'a pas pu être lue par la séance** : la pièce jointe PDF arrive illisible par le connecteur Zoho ⇒ à compléter.
