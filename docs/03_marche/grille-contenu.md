@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-18
+maj: 2026-11-19
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
 resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication. ➕ 13/11 : « où la trouver » = ledje.fr ; l'apiculteur « à une heure de Lyon » (contredit les 40 min du flyer, à trancher) ; plus de tournage à Lorient ; deux tournages bookés les 14-15/11 ; rien publié la semaine du 10/11."
 ---
@@ -350,3 +350,9 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 ✅ **Trois actions en sortent** *(relevées par Grain, sans échéance, toutes « en attente »)* : ① **créer une première version du format LinkedIn à partir des histoires vidéo, puis l'itérer avec Richard** · ② **faire générer par l'assistant un fichier Markdown qui récapitule le contexte et les apprentissages du système de création vidéo** · ③ **tourner les rushes manquants pour compléter les 30 vidéos prévues.**
 📅 **Suite : mercredi 25/11, 10h-11h, en visio** *(invitation « 2m rdv Ledje » reçue le 17/11 à 13h10)* — ✅ **ACCEPTÉE le 18/11 à 15h07** par la séance, sur demande de Basekou.
 ⛔ **ZONE SENSIBLE, rien n'est adopté** : la cible y est dite **incertaine**, avec des pistes hors dossier *(mères, enfants, sport durable)*. **Cible et positionnement ne bougent que sur décision explicite de Basekou** ; ces pistes sont consignées comme **évoquées**, pas retenues.
+
+## 🎬 2026-11-19 — LE TOURNAGE PRÉVU LE 18/11 A ÉTÉ FAIT LE 19/11 AU MATIN
+
+*(Déclaré par Basekou en séance Claude Code le 19/11, en réponse au digest du jour.)*
+
+✅ **Tournage fait le 19/11 au matin** *(créneaux du 18/11 : 10h-12h face caméra et voix, 14h-16h cuisine mains seulement)*. ⚠️ **Lesquels des deux et quels plans : non dit** ⇒ les rushes sont à indexer (`../04_operations/contenu-rushes.md`). 🔴 Rappel : la conformité des plans se tranche avant publication.

@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-17
+maj: 2026-11-19
 source: "Créée le 2026-10-12 après le débrief de l'événement du 11/10, à la demande de Basekou : « ça mérite pas tout un document, mais il y a des leçons à en tirer pour les prochains — qu'est-ce qu'on a utilisé, qu'est-ce qu'on a bien utilisé, qu'est-ce qu'on doit améliorer »."
 resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteilles là où cinq rendez-vous restaurateurs ont donné zéro. 🎯 Vente directe au consommateur, Lédjé exposant et pas fournisseur. ✅ Ce qui marche : un public dont la clientèle est musulmane, le frigo apporté (chaîne du froid ET support d'affiche), la seringue, le paiement sans contact, proposer au client de choisir entre boire frais sur place ou emporter. 🔴 Ce qui doit s'améliorer : le stand est « un peu léger », l'affiche en portrait n'a nulle part où s'accrocher sans frigo, pas de fonds de caisse, l'étiquetage est le goulot et il est PIRE que proportionnel au-delà de ≈ 50 bouteilles, la DLC n'a pas été tamponnée. 🔴🔴 **2026-10-12 — L'ÉVÉNEMENT EST CHIFFRÉ ET IL EST EN PERTE : les frais fixes du stand ont à eux seuls dépassé le chiffre d'affaires, donc la perte était acquise AVANT la matière.** L'emplacement est le premier poste, à lui seul plus de la moitié du CA ; le seuil d'équilibre était ≈ 2,4 fois le volume produit. ➡️ **Ce n'est ni le produit ni le prix : c'est le coût du stand — et le prochain événement n'en a pas.** ⚡ Et une réserve sur la lecture du succès : certains ont refusé le prix réduit pour payer plein tarif « pour donner de la force », donc une part des ventes est du SOUTIEN et pas une décision d'achat sur le goût. ⛔ Aucun montant ici : les valeurs vivent dans la page Notion privée, le dépôt n'en garde que les rapports."
 ---
@@ -207,3 +207,8 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 
 📌 **Repères** : Ramadan 2027 prévu du ≈ 8 février au ≈ 9 mars ; **aucune édition 2027 n'est encore annoncée** pour ces marchés. ⚠️ **La décision du 18/12 tombe deux jours avant le signal d'arrêt mosquées du 20/12** *(si aucun interlocuteur qui décide ni pilote fait, l'effort bascule sur les marchés du Ramadan)* — les deux se lisent ensemble.
 
+## ✅ 2026-11-19 — LES TROIS ORGANISATEURS DU RAMADAN SONT CONTACTÉS
+
+*(Déclaré par Basekou en séance Claude Code le 19/11, en réponse au digest du jour.)*
+
+✅ **Arqam, Avas et la mairie de Saint-Fons : fait**, comme prévu au rappel du 19/11 à 10h. ⏳ Réponses attendues ; Vaulx reste `[en discussion]` selon celle d'Avas. Prochain rappel : guet de l'appel de Saint-Fons le 1/12.
