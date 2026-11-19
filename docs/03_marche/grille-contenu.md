@@ -356,3 +356,10 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 *(Déclaré par Basekou en séance Claude Code le 19/11, en réponse au digest du jour.)*
 
 ✅ **Tournage fait le 19/11 au matin** *(créneaux du 18/11 : 10h-12h face caméra et voix, 14h-16h cuisine mains seulement)*. ⚠️ **Lesquels des deux et quels plans : non dit** ⇒ les rushes sont à indexer (`../04_operations/contenu-rushes.md`). 🔴 Rappel : la conformité des plans se tranche avant publication.
+
+## 🔁 2026-11-19 — LE SYSTÈME DE CRÉATION DE CONTENU SERA REFAIT DE A À Z PAR RICHARD
+
+*(Déclaré par Basekou le 19/11, en réponse à la question « la cible évoquée à l'audit, on en fait quoi ? ».)*
+
+📌 **Réponse de Basekou : le système de création de contenu va être refait de A à Z par Richard Sinama** — c'est là que se traite la question de la cible soulevée à l'audit du 17/11. ⛔ **Zone sensible, inchangée : la cible et le positionnement ne bougent que sur décision explicite de Basekou** ; les pistes évoquées à l'audit (mères, enfants, sport durable) **restent non adoptées**. ⏳ Prochain point : la visio du 25/11 à 10h.
+
