@@ -116,4 +116,6 @@ Basekou a retenu six actions le 20/11, tirées de ses vidéos enregistrées (tra
 
 **Contacts d'entreprises par Apify, essayé le 20/11** : Google Maps Scraper, 15 épiceries « africaines » à Lyon en une minute, pour environ 0,08 $ (minimum de 0,50 $ de plafond par lancement). 13 numéros de téléphone, 4 adresses mail, 4 comptes Instagram. Aucune donnée personnelle de dirigeant demandée (option payante, et RGPD). La liste n'est pas au dépôt : elle va dans Notion si Basekou s'en sert.
 
-**marketingskills (Corey Haines, MIT, 53 skills en anglais, pensés pour le logiciel)** : la moitié fait doublon avec les plugins installés. Cinq apportent du neuf : `offers`, `cro`, `public-relations`, `referrals`, `pricing`. À installer un par un, pas le pack entier. **Non installés** : décision de Basekou.
+**marketingskills (Corey Haines, MIT, 53 skills en anglais, pensés pour le logiciel)** : la moitié fait doublon avec les plugins installés. Cinq apportent du neuf : `offers`, `cro`, `public-relations`, `referrals`, `pricing`. À installer un par un, pas le pack entier. ✅ **Installés le 20/11 au soir** sur demande de Basekou (`outils.md`).
+
+**Apify, second passage le 20/11** : 60 commerces à Lyon (restaurants africains, épiceries fines, traiteurs halal), 53 gardés après tri, dans `Bureau\prospection-lyon-apify-2026-11-20.csv` (hors dépôt). À verser dans Notion si Basekou s'en sert. Une piste à noter : La Maison du Miel (Lyon 4), une boutique de miel.

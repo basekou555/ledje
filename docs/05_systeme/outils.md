@@ -168,6 +168,7 @@ Les outils génériques de boîte mail passent par IMAP, fermé sur le plan grat
 | Awesome Design (VoltAgent, MIT) | lu | Fichiers `DESIGN.md` de marques, presque toutes tech. Utile pour des chiffres (espacements, boutons), pas pour une direction. Ne pas copier l'identité d'une autre marque |
 | Playwright CLI (Microsoft, Apache-2.0) | `npm install -g @playwright/cli`, installé | **Essayé** : captures mobile pleine page de ledje.fr. Fait doublon avec le navigateur de la session |
 | img2threejs | — | **Écarté** : ne tourne pas sous Windows |
+| marketingskills : `offers`, `cro`, `public-relations`, `referrals`, `pricing` (coreyhaines31, MIT, commit 5b2b400) | `.claude/skills/<nom>/`, sans leurs `evals/` ; contexte lédjé dans `.claude/product-marketing.md` | Ajoutés le 20/11 à la demande de Basekou, **non essayés**. En anglais et pensés pour le logiciel : les fiches du dépôt passent avant eux, conformité obligatoire |
 | Apify, Google Maps Scraper | connecteur Apify | **Essayé** : 15 commerces en une minute pour environ 0,08 $ (plafond minimum 0,50 $ par lancement). Pas de données personnelles de dirigeants |
 
 ## 🧹 Configuration Claude — tri du 2026-11-10
