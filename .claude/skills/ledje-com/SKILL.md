@@ -76,7 +76,8 @@ Tout texte sortant y passe : script, légende, page, affiche, étiquette, mail �
 | Un prompt d'image | La procédure « compiler un shot » de `CLAUDE.md` |
 
 Puis, **toujours** : skill `marketing:brand-review` sur le texte produit, et correction des
-écarts qu'il relève. La liste `tools/contenu/lexique-interdit.txt` complète le lexique.
+écarts qu'il relève. Pour un texte qui « sent l'IA » : skill `stop-slop` avant la revue (au dépôt
+depuis le 20/11, pas encore comparé à ChatGPT ; l'accroche garde le droit d'être courte). La liste `tools/contenu/lexique-interdit.txt` complète le lexique.
 
 ## Étape 5 — Fabriquer un support
 

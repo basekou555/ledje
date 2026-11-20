@@ -21,6 +21,7 @@ reprend à la main, et le résultat jugé est la vidéo exportée de CapCut.
 | Écrire | `storyboard.py`, `recueil.py` | le script en images, puis tous les storyboards en une page |
 | Découper | `extraire.py`, `extraire_son.py` | extraits courts des rushes 4K HDR, convertis en SDR ; morceaux de son seul |
 | | `sans_voix.py` | retire une voix d'un morceau de rush en gardant le vrai son autour (Demucs) |
+| | `bruitages.py` | **(20/11)** cherche et télécharge des bruitages du domaine public sur Openverse, dans `_sons\openverse\`, avec leur source (`sources.tsv`). Recherches en anglais |
 | Monter | `capcut_projet.py` | un JSON de montage → un projet CapCut (pistes vidéo, titres, sous-titres, sons) |
 | | `accroche_projet.py` | **(13/11)** fabrique un projet « accroche » à partir de la version retouchée : copie le projet, ajoute ou retire un morceau au début, décale tout le reste (recette JSON) |
 | | `maj_projet.py` | met à jour un projet CapCut **existant** en ne remplaçant que les pistes demandées |

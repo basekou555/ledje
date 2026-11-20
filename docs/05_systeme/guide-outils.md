@@ -77,6 +77,7 @@ Les pièges connus (variables Vercel, pas de `.select()` après un insert anonym
 | Lire | `docs/03_marche/grille-contenu.md` | Elle dit quoi dire, à quel niveau, à quelle cadence |
 | Écrire | Skill `marketing:draft-content`, qui s'appuie sur `marketing:content-creation` | Adaptés à lédjé : grille de contenu, voix, garde-fous |
 | Formats précis | Skills `social-media-skills:hook-writer`, `tiktok-script`, `reels-script`, `caption-writer`, `carousel-writer` | Ils connaissent les contraintes de chaque format. Ils ne connaissent PAS la marque |
+| Rendre moins « IA » | Skill `stop-slop` (au dépôt depuis le 20/11), avec son complément `references/francais.md` | Chasse les tics d'écriture automatique (contrastes « ce n'est pas X, c'est Y », adverbes vides, tirets longs). **Non essayé face à ChatGPT** : à comparer sur une légende avant d'en faire une étape fixe |
 | Vérifier | Skill `marketing:brand-review` | Obligatoire après un skill `social-media-skills`, qui est générique |
 | Planifier | Skill `marketing:campaign-plan` | Lancement de compte, dégustation, Ramadan |
 

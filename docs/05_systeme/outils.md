@@ -155,6 +155,15 @@ Les outils génériques de boîte mail passent par IMAP, fermé sur le plan grat
 - Claude Chrome était connecté sur **its.ledje**, qui n'a pas les collections « IA » et « Création de contenu ». La vraie veille se fera sur le compte personnel de Basekou.
 - `yt-dlp` est installé sur le PC.
 
+**Ce que la veille du 20/11 a fait entrer** (38 vidéos lues ; détail des choix dans `backlog.md`, section du 20/11)
+
+| Outil | Où | État au 20/11 |
+|---|---|---|
+| `stop-slop` (hardikpandya, MIT, commit 8da1f03) | `.claude/skills/stop-slop/`, plus `references/francais.md` ajouté pour lédjé | Au dépôt, **non essayé** sur une vraie légende |
+| Agent Desktop (Vercel Labs, Apache-2.0) | PC de Basekou, `npm install -g agent-desktop`, version 1.3.1 | Installé, accès accessibilité accordé, lecture des applications vérifiée. **Non essayé sur CapCut** : à faire CapCut ouvert, sur signal de Basekou. Agit sans prendre la souris (« headless »), mais ne pas le lancer pendant qu'il travaille sans son accord |
+| Openverse | `tools/contenu/pc/bruitages.py` | Essayé : cherche, télécharge, note la source. Domaine public seulement (CC0, PDM). 20 résultats au plus par recherche sans compte (au-delà : erreur 401) |
+| `/ig-human` (Instagram Agent Skill) | — | **Non retenu** : ses scripts et son lexique sont en anglais, `stop-slop` couvre le même besoin plus simplement |
+
 ## 🧹 Configuration Claude — tri du 2026-11-10
 
 **Constat de départ** : environ 250 skills chargés à chaque session, et une vingtaine de connecteurs de plugins refusés par le réseau de l'environnement cloud (Slack, Linear, Asana, Figma, Box…). Aucune configuration ne vit au dépôt (pas de dossier `.claude/`) : tout se règle au niveau du compte de Basekou — **une session ne peut pas couper un plugin, c'est lui qui le fait.**

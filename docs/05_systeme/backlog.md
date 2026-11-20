@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: systeme
-maj: 2026-10-08
+maj: 2026-11-20
 source: "SOT Partie 11 (archive 2026-07-24) — annotations d'état 24/07"
 resume: "Les pistes ouvertes et actions en attente. ⚠️ Nettoyé le 2026-08-24 : deux items reposaient sur des décisions annulées (retour designeuse, éviction des formats sensoriels) — supprimés avec leur motif. Items 19 et 20 ajoutés le 2026-08-31 : reprendre le site sur le fond (grief non encore dicté) et le rendre mesurable (l'instrumentation ne dit ni la source, ni les pages, ni la durée). ⚠️ Item 19 : le site a été mis « en construction » le 2026-09-03 (PR #65, hors séance) avant que le grief soit écrit ; le **grief est dicté depuis le 07/09** et le site devient une **VITRINE** ; 🔕 **dépriorisé le 08/09 sur consigne de Basekou — l'item reste ouvert mais sort des relances, c'est lui qui le rouvrira.**"
 ---
@@ -79,3 +79,16 @@ Les instructions du projet disent « une fiche appartient à une session ; avant
 ## 2026-11-16 → tranché le 2026-11-17 : la file et les passations
 
 **Question close.** Une passation ne se dépose plus dans la file : elle s'écrit en un bloc daté dans la section « Passations à descendre » de la page ÉTAT, créée le 17/11, plafonnée à deux passations en attente. La file garde son plafond de dix lignes pour les faits isolés. Les deux se vident par une séance Claude Code, qui descend puis supprime ; elle les compte à sa propre passation (`ledje-passation`, variante A, point 5). Décision de Basekou du 17/11.
+
+## 2026-11-20 — Retenu après la veille enregistrée (38 vidéos lues)
+
+Basekou a retenu six actions le 20/11, tirées de ses vidéos enregistrées (trame `ledje-veille`).
+
+1. **Refaire les profils Instagram et TikTok** : nom avec le service et la ville, bio, stories à la une en parcours (« Commence ici », « Où la trouver », « Questions », « Retours », « Coulisses »), un post épinglé « Commence ici ». Source : Serwaa, tom_lans. **En cours** : relevé des deux profils par Claude Chrome, puis propositions, conformité, brand-review ; Basekou choisit.
+2. **L'effet « boisson qui s'illumine » dans CapCut** (stevenwommack) : photo de bouteilles sous-exposée, détourage CapCut, luminosité remontée bouteille par bouteille, texte calé sur l'allumage. **Premier pas** : la photo, au prochain tournage.
+3. **La veille ×3 sur les comptes de la niche** : vues des 12 derniers reels, médiane du compte, reels à 3 fois la médiane, accroches reprises en version lédjé. Point de départ : `Ledje rush bureau\_montages\recherche-comptes-niche-2026-11-04.md`. **Premier pas** : relevé Instagram par Claude Chrome (le 04/11, sans connexion, aucune vue n'était visible).
+4. **Des textes moins « IA »** : skill `stop-slop` ajouté au dépôt (MIT), avec un complément français. À comparer avec ChatGPT sur une légende avant d'en faire un passage obligé.
+5. **Agent Desktop** (Vercel Labs, Apache-2.0) : installé sur le PC le 20/11, version 1.3.1. **Non essayé sur CapCut** : il faut CapCut ouvert, donc sur signal de Basekou.
+6. **Bruitages libres Openverse** : `tools/contenu/pc/bruitages.py`, domaine public seulement. Essayé le 20/11 (trois sons téléchargés).
+
+**Écartés le même jour, à ne pas reproposer sans fait nouveau** : « commente un mot, reçois le lien » par ManyChat (gratuit limité à 25 contacts par mois depuis mars 2026) ; OmniRoute (envoie les conversations chez d'autres fournisseurs) ; ReelCut Editor (payant, doublon de la chaîne de montage) ; le second cerveau Instagram de 0xloucash (exige les identifiants du compte).
