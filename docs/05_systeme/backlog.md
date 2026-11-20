@@ -92,3 +92,28 @@ Basekou a retenu six actions le 20/11, tirées de ses vidéos enregistrées (tra
 6. **Bruitages libres Openverse** : `tools/contenu/pc/bruitages.py`, domaine public seulement. Essayé le 20/11 (trois sons téléchargés).
 
 **Écartés le même jour, à ne pas reproposer sans fait nouveau** : « commente un mot, reçois le lien » par ManyChat (gratuit limité à 25 contacts par mois depuis mars 2026) ; OmniRoute (envoie les conversations chez d'autres fournisseurs) ; ReelCut Editor (payant, doublon de la chaîne de montage) ; le second cerveau Instagram de 0xloucash (exige les identifiants du compte).
+
+### 2026-11-20 (soir) — Ce que Basekou ajoute après lecture du tableau
+
+**Le site n'est plus une vitrine : on peut commander dessus** (Basekou, 20/11). Ce qui est écrit ailleurs au dépôt sur la « vitrine » (décision du 08/09, item 19) est dépassé. Et même vitrine, il se perfectionne.
+
+**Idées de posts Instagram retenues** (Basekou : « bonne idée pour les posts, même si ce ne sont pas des pubs »). Tirées des formats de pubs fixes d'amine.slprotocole, adaptés à lédjé :
+- « N'achète pas lédjé si… » (tu veux des bulles, tu veux très sucré) ;
+- « Lettre du fondateur » ;
+- capture d'une commande sur ledje.fr (« Screen du panier ») ;
+- « Brouillon » dessiné à la main : eau + miel = lédjé ;
+- « Pose tes questions » ;
+- « Notes iPhone » (la liste du jour de production) ;
+- « Affiche disparu » (la dernière bouteille du lot) ;
+- « Témoignage client » (avec l'accord de la personne) ;
+- ⚠️ « Nous vs Eux » : jamais un concurrent nommé ; face à « un soda classique », seule la formule de `../01_adn/conformite.md` sur le sucre, mot pour mot.
+
+**Idées de contenu retenues** : le défi « mets pause au bon moment », dont l'image cachée donne un avantage (robertmckeaveney ; jeu d'adresse, pas de hasard) ; les effets Canva pour les carrousels (flou « verre dépoli », image qui sort du cadre, puzzle, animation sur trajectoire : social.julie, anas_graphics07, creativebee) ; le zoom « de l'espace jusqu'au lieu » (sdlabs.ai, générateur vidéo ; le texte à l'écran ne se génère pas par IA). Antoine (spambusiness) : Basekou se reconnaît dans son style, une anecdote personnelle reliée au sujet, racontée longtemps.
+
+**Les règles de Myriam Fernandes** (négocier, relancer, écrire un mail) entrent dans les process : `../03_marche/relance-negociation-mail.md`.
+
+**Outils de design essayés sur ledje.fr le 20/11** (détail dans `outils.md`) : Impeccable a trouvé deux défauts réels (texte or #a9740f sur crème à 3,9:1 au lieu de 4,5:1 ; police Inter jugée trop commune) ; Taste donne une critique utile mais impose un style ; Awesome Design sert de référence de chiffres (espacements, boutons) ; Playwright CLI marche mais fait doublon avec le navigateur de la session ; img2threejs ne tourne pas sous Windows. **Point à vérifier en session site** : sur une capture pleine page, plusieurs blocs restent vides (apparition au défilement) ; à voir sur un vrai téléphone avant de corriger.
+
+**Contacts d'entreprises par Apify, essayé le 20/11** : Google Maps Scraper, 15 épiceries « africaines » à Lyon en une minute, pour environ 0,08 $ (minimum de 0,50 $ de plafond par lancement). 13 numéros de téléphone, 4 adresses mail, 4 comptes Instagram. Aucune donnée personnelle de dirigeant demandée (option payante, et RGPD). La liste n'est pas au dépôt : elle va dans Notion si Basekou s'en sert.
+
+**marketingskills (Corey Haines, MIT, 53 skills en anglais, pensés pour le logiciel)** : la moitié fait doublon avec les plugins installés. Cinq apportent du neuf : `offers`, `cro`, `public-relations`, `referrals`, `pricing`. À installer un par un, pas le pack entier. **Non installés** : décision de Basekou.

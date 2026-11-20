@@ -163,6 +163,12 @@ Les outils génériques de boîte mail passent par IMAP, fermé sur le plan grat
 | Agent Desktop (Vercel Labs, Apache-2.0) | PC de Basekou, `npm install -g agent-desktop`, version 1.3.1 | Installé, accès accessibilité accordé, lecture des applications vérifiée. **Non essayé sur CapCut** : à faire CapCut ouvert, sur signal de Basekou. Agit sans prendre la souris (« headless »), mais ne pas le lancer pendant qu'il travaille sans son accord |
 | Openverse | `tools/contenu/pc/bruitages.py` | Essayé : cherche, télécharge, note la source. Domaine public seulement (CC0, PDM). 20 résultats au plus par recherche sans compte (au-delà : erreur 401) |
 | `/ig-human` (Instagram Agent Skill) | — | **Non retenu** : ses scripts et son lexique sont en anglais, `stop-slop` couvre le même besoin plus simplement |
+| Impeccable (pbakaus, Apache-2.0) | `npx impeccable detect <url>`, sans installation durable ; télémétrie coupée (`~/.impeccable/config.json`) | **Essayé sur ledje.fr** : contraste de l'or #a9740f sur crème à 3,9:1 (il faut 4,5:1), police Inter jugée trop commune, un mot seul en fin de paragraphe. Le plus utile des cinq. Mode « live » : régler `IMPECCABLE_LIVE_COPY_AGENT=chat`, sinon son bouton peut lancer Claude sans garde-fou |
+| Taste (Leonxlnx, MIT) | lu, non installé | **Essayé en critique** : remarques justes (apparition au défilement, premier écran sans fait concret, offre trop bas), mais il impose un style (modèles, palette tirée au hasard). À prendre comme grille de critique, jamais comme constructeur |
+| Awesome Design (VoltAgent, MIT) | lu | Fichiers `DESIGN.md` de marques, presque toutes tech. Utile pour des chiffres (espacements, boutons), pas pour une direction. Ne pas copier l'identité d'une autre marque |
+| Playwright CLI (Microsoft, Apache-2.0) | `npm install -g @playwright/cli`, installé | **Essayé** : captures mobile pleine page de ledje.fr. Fait doublon avec le navigateur de la session |
+| img2threejs | — | **Écarté** : ne tourne pas sous Windows |
+| Apify, Google Maps Scraper | connecteur Apify | **Essayé** : 15 commerces en une minute pour environ 0,08 $ (plafond minimum 0,50 $ par lancement). Pas de données personnelles de dirigeants |
 
 ## 🧹 Configuration Claude — tri du 2026-11-10
 
