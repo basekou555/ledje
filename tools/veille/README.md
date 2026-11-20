@@ -4,8 +4,18 @@ Deux scripts qui tournent **sur le PC de Basekou**. Une session cloud ne peut pa
 `instagram.com` et `tiktok.com` y sont injoignables. La trame complète est dans
 `.claude/skills/ledje-veille/SKILL.md`.
 
-**État au 2026-11-19 : écrits, jamais lancés sur de vraies vidéos.** Seule la lecture du fichier de
-liens a été vérifiée (doublons, hôtes refusés, refus d'écrire dans un dépôt).
+**État au 2026-11-20 : lancés une fois sur le PC, trois liens.**
+
+- **Instagram : fonctionne de bout en bout**, sans connexion. Téléchargement, transcription en
+  français (43 s de vidéo), quatre images, vidéo supprimée.
+- **TikTok : échoue** pour tous les liens avec yt-dlp 2026.10.26 (« Unexpected response from
+  webpage request »). Un lien mort donne le même message : l'échec ne dit pas si le lien existe.
+  Piste non essayée : `yt-dlp --impersonate`, qui demande un module de plus (`curl_cffi`), à
+  n'installer qu'avec l'accord de Basekou.
+- **Corrigé dans `lire.py`** : la transcription plantait (`metadata_errors`), parce que
+  faster-whisper 1.2.1 décodait la vidéo avec PyAV 19, dont l'API a changé. Le son est maintenant
+  décodé par ffmpeg, comme dans `tools/contenu/`. Et une vidéo dont la transcription échoue reste
+  dans le lot : une relance la reprend.
 
 ## La chaîne
 
@@ -36,8 +46,8 @@ sert de note (auteur, légende, texte à l'écran relevés par Claude Chrome).
 ## Ce qu'il faut sur le PC
 
 - `ffmpeg` et `ffprobe` dans le PATH, `faster-whisper` : déjà là pour `tools/contenu/pc/`.
-- **`yt-dlp`**, seule dépendance nouvelle : `pip install -U yt-dlp`. À installer une fois, en le disant
-  à Basekou.
+- **`yt-dlp`**, seule dépendance nouvelle : `pip install -U yt-dlp`. **Installé le 20/11**
+  (2026.10.26), avec l'accord de Basekou.
 - Sur Windows, lancer avec `PYTHONIOENCODING=utf-8`.
 
 ## Ce que ces scripts font exprès

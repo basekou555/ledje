@@ -45,6 +45,17 @@ def images(video: Path, d: float, prefixe: Path) -> list:
     return sorties
 
 
+def son(video: Path):
+    """Le son en 16 kHz mono, décodé par ffmpeg. faster-whisper ne reçoit jamais le fichier : son
+    décodeur (PyAV) change d'API d'une version à l'autre (cassé avec av 19, mesuré le 20/11)."""
+    import numpy as np
+    r = subprocess.run(["ffmpeg", "-v", "error", "-i", str(video), "-vn", "-ac", "1", "-ar", "16000",
+                        "-f", "f32le", "-"], capture_output=True)
+    if r.returncode != 0:
+        raise RuntimeError(r.stderr.decode("utf-8", "replace")[-200:] or "ffmpeg a échoué")
+    return np.frombuffer(r.stdout, dtype=np.float32)
+
+
 def horodatage(s: float) -> str:
     return f"{int(s // 60):02d}:{int(s % 60):02d}"
 
@@ -77,13 +88,15 @@ def main() -> int:
         e["duree_s"] = round(d, 1) or e.get("duree_s")
         e["images"] = images(video, d, a.lot / video.stem) if d else []
         try:
-            segs, info = modele.transcribe(str(video), beam_size=5, vad_filter=True)
+            segs, info = modele.transcribe(son(video), beam_size=5, vad_filter=True)
             segments = [(s.start, s.text.strip()) for s in segs if s.text.strip()]
             e["langue"] = info.language
         except Exception as err:                      # un fichier illisible ne bloque pas les suivants
-            e.update(statut="non lu", erreur=f"transcription impossible : {str(err)[-200:]}")
-            print(f"    non lu : {e['erreur']}", flush=True)
+            # Le statut reste « ok » : la vidéo est gardée et une relance de lire.py la reprend.
+            e["erreur"] = f"transcription impossible : {str(err)[-200:]}"
+            print(f"    non lu (vidéo gardée, relancer pour réessayer) : {e['erreur']}", flush=True)
             continue
+        e.pop("erreur", None)
         textes = [t for _, t in segments]
         e["transcription_douteuse"] = any(textes.count(t) >= 3 for t in set(textes) if len(t) > 12)
         e["sans_parole"] = not segments

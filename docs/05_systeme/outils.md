@@ -126,7 +126,7 @@ Les outils génériques de boîte mail passent par IMAP, fermé sur le plan grat
 
 **Le besoin, dit par Basekou** : *« il me faut un outil qui va chercher les vidéos que j'enregistre sur les réseaux sociaux, qui les lit et qui me propose un plan d'action pour le projet ou pour ma productivité »*.
 
-**Ce qui a été construit** : une trame, `ledje-veille`, et deux scripts dans `tools/veille/`. **État : écrits le 19/11, jamais lancés sur de vraies vidéos.**
+**Ce qui a été construit** : une trame, `ledje-veille`, et deux scripts dans `tools/veille/`. **État : écrits le 19/11, essayés le 20/11 sur trois liens** (résultat ci-dessous, sous « Premier essai »).
 
 | Temps | Qui | Avec quoi |
 |---|---|---|
@@ -146,6 +146,14 @@ Les outils génériques de boîte mail passent par IMAP, fermé sur le plan grat
 - La chaîne n'est pas automatique : c'est Basekou qui lance Claude Chrome à chaque lot.
 - `yt-dlp` est à installer sur le PC ; c'est la seule dépendance nouvelle.
 - Les vidéos appartiennent à leurs auteurs : usage privé d'analyse, fichier supprimé après lecture, rien au dépôt.
+
+**Premier essai, le 20/11** (un Instagram, un TikTok, un lien mort)
+
+- **Instagram : fonctionne de bout en bout**, sans connexion — contrairement à la limite supposée plus haut.
+- **TikTok : échoue** pour tous les liens (yt-dlp 2026.10.26, « Unexpected response from webpage request »). Le lien mort donne le même message. Piste non essayée : `--impersonate`, qui demande `curl_cffi`.
+- `lire.py` plantait à la transcription (PyAV 19 incompatible avec faster-whisper 1.2.1) : corrigé, le son passe par ffmpeg.
+- Claude Chrome était connecté sur **its.ledje**, qui n'a pas les collections « IA » et « Création de contenu ». La vraie veille se fera sur le compte personnel de Basekou.
+- `yt-dlp` est installé sur le PC.
 
 ## 🧹 Configuration Claude — tri du 2026-11-10
 

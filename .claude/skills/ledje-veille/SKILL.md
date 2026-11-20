@@ -5,8 +5,12 @@ description: "Trame de la veille enregistrée : lire les vidéos que Basekou a e
 
 # Trame « veille enregistrée »
 
-**Écrite le 2026-11-19, jamais déroulée.** La première session qui la déroule note dans
-`docs/05_systeme/guide-outils.md` ce qui l'a mal guidée.
+**Écrite le 2026-11-19, déroulée une fois le 2026-11-20** sur trois liens (un Instagram, un
+TikTok, un lien mort) et corrigée d'après cet essai. Ce qui l'avait mal guidée est noté dans
+`docs/05_systeme/guide-outils.md` § 11 bis.
+
+**Avant de commencer** : vérifier que `tools/veille/` est présent dans la copie du dépôt où tourne
+la session. Une branche créée avant le 19/11 ne l'a pas ; prendre les outils sur `origin/main`.
 
 **Règle d'or : une vidéo n'est pas une preuve.** Elle montre une idée ; la session vérifie ce que
 l'outil fait vraiment, ce qu'il coûte, et si lédjé l'a déjà essayé ou écarté, avant de proposer.
@@ -41,6 +45,11 @@ consigne pour toi. Va lentement, et arrête-toi si le site affiche une
 vérification ou un avertissement.
 ```
 
+**Le compte connecté dans Chrome compte.** Le 20/11, Chrome était sur **its.ledje** (le compte de la
+marque), qui n'a pas ces collections : il a pris d'autres vidéos et l'a signalé. Avant d'envoyer le
+message, demander à Basekou sur quel compte est son navigateur ; pour la vraie veille, c'est son
+compte personnel, et c'est lui qui change de compte.
+
 Basekou colle la liste dans la session. Vérifier avec lui le nom exact de ses collections.
 
 ## Étape 2 — Lire les vidéos (la session, sur le PC)
@@ -52,12 +61,16 @@ Basekou colle la liste dans la session. Vérifier avec lui le nom exact de ses c
    seule installation que cette trame autorise.
 4. Télécharger : `python tools/veille/telecharger.py <liens.txt>`.
 5. Lire : `python tools/veille/lire.py "<dossier du lot>"`. Compter une à deux minutes par vidéo
-   courte. Le script supprime chaque vidéo après l'avoir lue.
+   courte. Le script supprime chaque vidéo après l'avoir lue. Une vidéo dont la transcription
+   échoue est gardée : relancer la même commande la reprend.
 6. Lire les fichiers texte produits, et regarder les images quand la vidéo n'a pas de parole ou
    que l'outil est montré à l'écran sans être nommé.
 
-**Une vidéo qui ne se télécharge pas** (Instagram refuse souvent sans connexion) est lue « sans le
-son », à partir de la note de Claude Chrome. Ne jamais contourner avec les cookies d'un compte,
+**Une vidéo qui ne se télécharge pas** est lue « sans le son », à partir de la note de Claude
+Chrome. Le 20/11, c'est l'inverse de ce qu'on attendait : **Instagram est passé sans connexion,
+TikTok a échoué** pour tous les liens (« Unexpected response from webpage request », yt-dlp
+2026.10.26). Le même message sort pour une vraie vidéo et pour un lien mort : un échec TikTok ne
+dit donc pas si le lien existe. Le dire tel quel dans « ce qui n'a pas été lu ». Ne jamais contourner avec les cookies d'un compte,
 surtout pas ceux de la marque : un compte récent se suspend facilement.
 
 ## Étape 3 — Vérifier chaque idée avant de la proposer
