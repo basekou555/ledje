@@ -122,6 +122,31 @@ Le risque est connu : une session qui lit la boîte lit aussi ce que des inconnu
 
 Les outils génériques de boîte mail passent par IMAP, fermé sur le plan gratuit. Les intermédiaires (Composio et équivalents) font transiter les mails par un tiers de plus. Les serveurs communautaires demandent une installation et des clés à gérer soi-même.
 
+## 🎞️ Veille enregistrée — lire les vidéos que Basekou enregistre sur les réseaux (2026-11-19)
+
+**Le besoin, dit par Basekou** : *« il me faut un outil qui va chercher les vidéos que j'enregistre sur les réseaux sociaux, qui les lit et qui me propose un plan d'action pour le projet ou pour ma productivité »*.
+
+**Ce qui a été construit** : une trame, `ledje-veille`, et deux scripts dans `tools/veille/`. **État : écrits le 19/11, jamais lancés sur de vraies vidéos.**
+
+| Temps | Qui | Avec quoi |
+|---|---|---|
+| Relever les liens des collections enregistrées | Basekou | Claude Chrome, sur son compte connecté |
+| Télécharger, transcrire, extraire quelques images | Une session Claude Code **sur son PC** | `tools/veille/telecharger.py`, puis `lire.py` |
+| Comparer au cerveau et proposer un plan d'action | La même session | Dans la discussion |
+
+**Pourquoi cette forme, et pas un outil qui tourne seul**
+
+- Les vidéos enregistrées sont privées : ni l'API d'Instagram ni celle de TikTok ne les exposent. Seul le navigateur connecté de Basekou les voit, d'où Claude Chrome, qu'il lance lui-même (une session cloud ne peut pas le déclencher, mesuré le 17/11).
+- `instagram.com` et `tiktok.com` sont injoignables depuis une session cloud (retesté le 17/11). Le téléchargement se fait donc sur le PC, qui a déjà ffmpeg et faster-whisper.
+- Deux autres voies ont été proposées pour relever les liens et **non retenues par Basekou le 19/11** : le partage vers une page Notion à chaque enregistrement, et l'export officiel des données des deux plateformes.
+
+**Limites connues avant tout essai**
+
+- Instagram refuse souvent le téléchargement sans connexion. Les scripts n'utilisent aucun cookie de compte, exprès : ces vidéos-là sont lues « sans le son », à partir de ce que Claude Chrome a relevé.
+- La chaîne n'est pas automatique : c'est Basekou qui lance Claude Chrome à chaque lot.
+- `yt-dlp` est à installer sur le PC ; c'est la seule dépendance nouvelle.
+- Les vidéos appartiennent à leurs auteurs : usage privé d'analyse, fichier supprimé après lecture, rien au dépôt.
+
 ## 🧹 Configuration Claude — tri du 2026-11-10
 
 **Constat de départ** : environ 250 skills chargés à chaque session, et une vingtaine de connecteurs de plugins refusés par le réseau de l'environnement cloud (Slack, Linear, Asana, Figma, Box…). Aucune configuration ne vit au dépôt (pas de dossier `.claude/`) : tout se règle au niveau du compte de Basekou — **une session ne peut pas couper un plugin, c'est lui qui le fait.**
