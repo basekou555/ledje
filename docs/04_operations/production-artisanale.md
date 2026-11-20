@@ -904,3 +904,10 @@ Paroi très souple *(les deux bouteilles restantes au frigo aussi)*, **qui se re
 *(Déclaré par Basekou en séance Claude Code le 19/11, en réponse au digest du jour.)*
 
 ✅ **Production faite le 19/11 au matin : 30 bouteilles** *(prévue le 18/11 au soir, anciennes étiquettes)*. **2 offertes ⇒ 28 restantes.** ✅ **Finalement mises AU FRIGO, pas en glacière** *(déclaré par Basekou le 20/11)*. 📦 **Répartition des 28** : **12 offertes à une mosquée** *(laquelle : non précisé)* · **12 prises par Amine (Crousty Game), payantes** *(prix : 💸 Comptabilité)* · **4 restantes**. 📅 Production du 19/11 ⇒ le plancher observé de 14 jours tombe le 03/12. ⏳ À reporter au registre de production Notion. 🔴 **Les 24 bouteilles destinées à Crousty Game n'ont plus de destination** : le dépôt est reporté, voire annulé (`../03_marche/canal-restaurant.md`) ⇒ **leur sort est à dire** *(et le compte des 14 jours court depuis ce matin)*.
+
+## 🍯 2026-11-19 — TILLEUL RESTANT APRÈS LA PRODUCTION : ≈ 1,1 kg, ET UN ÉCART D'≈ 1 kg
+
+*(Déclaré par Basekou le 19/11 à 13h46 en session Produit ; descendu de la file le 20/11.)*
+
+📦 **Reste de tilleul : 1 pot de 1 kg + ≈ 1/10 de pot, soit ≈ 1,1 kg** *(estimé à vue, pas de balance)* ⇒ **≈ 200 à 210 bouteilles** à 3,75 mL de tilleul par bouteille.
+⚠️ **ÉCART NON EXPLIQUÉ** : la ligne Miel de la page ÉTAT portait ≈ 2,1 kg de tilleul. **Les 30 bouteilles du 19/11 n'expliquent pas l'écart d'≈ 1 kg (≈ 190 bouteilles)** ⇒ à rapprocher des productions depuis le 12/11 (registre de production). ✅ **DLC du lot écrite au stylo sur le bouchon : 03/12/2026** (`../02_produit/eau-miellee-33cl.md`).
