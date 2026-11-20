@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-10-21
+maj: 2026-11-20
 source: "SOT §5.0, 5.5, 5.9 (archive 2026-07-24) — refonte décidée 2026-07-10"
 resume: "Le site comme machine à convertir : refonte en cours (bouteille séduit, cristal convertit), structure de parcours, copy, écart avec l'état déployé."
 ---
@@ -61,3 +61,11 @@ Ordre en prod : **Hero** (vidéo plein écran ; voile + texte en fondu à ~5 s) 
 🔴 **DEUX POINTS RESTENT OUVERTS, et ils sont pour Basekou** : ① **le plafond B2C de 2,50 € ne correspond plus à aucune vente réelle** *(rien ne se vend à l'unité en ligne)* — reste-t-il la référence, ou le pack le devient-il ? ② **la sixième bouteille est un COÛT, pas une remise** : elle se produit, se conditionne et s'étiquette ⇒ **à ≈ 5 min/bouteille, la concession se paie en marge ET en temps de production.**
 
 ✅ **RÉSERVE LEVÉE LE 21/10 : LA PR #119 EST MERGÉE** ⇒ **`../02_produit/prix.md` EST corrigé sur `main`, et `/commander` est EN PRODUCTION.** 📌 **Le site a donc enfin un chemin d'achat, et la fiche de prix dit la même chose que lui.** ⚠️ **CE QUI RESTE OUVERT, et ce n'est plus un problème d'alignement mais un arbitrage : le plafond B2C de 2,50 € ne correspond à aucune vente réelle** ⇒ **reste-t-il la référence, ou le pack devient-il le prix public ?**
+
+## 📊 2026-11-19 — UN CLIC « COMMANDER » DEPUIS LA PAGE D'ACCUEIL, ET POURQUOI ON N'EN CONCLUT RIEN `[repris de la page ÉTAT, 20/11]`
+
+*(Descendu de la page ÉTAT le 20/11 avant son nettoyage : ces faits n'étaient écrits que là. Sources d'origine : digests de la routine des 18-20/11 et déclarations de Basekou.)*
+
+- **Le 19/11 à 16h39** : `page_view` → `page_exit` à 8 s → **`hero_commander_click`** → `commander_view`, puis `header_prestations_click` → `prestations_view` à 16h40. **C'est le premier déclenchement de `hero_commander_click` depuis l'ouverture de la table** *(requête sans borne de date : 1 occurrence)*. Second passage à 19h19-19h21 (défilement à 50 puis 100 %, `offrir_view`, `prestations_view`).
+- ⛔ **L'explication évidente d'abord** : aucun `utm_source`, et ces créneaux tombent dans les heures de travail de Basekou ce jour-là ⇒ **rien ne permet de dire que ce n'est pas lui.** C'est exactement ce que l'instrumentation décidée le 16/11 doit lever (referrer, chemin de page, identifiant de session).
+- **Repères de mesure au 20/11** : 35 `commander_view` depuis le début de la table ; 8 lignes dans la table des commandes, la dernière du 09/11 ; aucune session de paiement Stripe depuis le 09/11 à 18h23, zéro `checkout.session.completed` depuis toujours.

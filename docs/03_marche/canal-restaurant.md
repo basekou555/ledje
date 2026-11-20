@@ -780,3 +780,10 @@ Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimente
 *(Déclaré par Basekou le 20/11.)*
 
 ✅ **Malgré le refus du siège pour le dépôt, Amine prend 12 bouteilles de la production du 19/11, payantes** *(prix de cession : 💸 Comptabilité, règle des montants du 12/11)*. ⚠️ **Une ligne, sans la rejouer** : le prix est sous la fourchette de prix public négocié de 2-3 € écrite à la ligne B2B. 📌 Statut exact (achat du restaurant ou achat personnel) : non précisé. ⏳ Encaissement à constater.
+
+## 🥕 2026-11-20 — CAROT : RENDEZ-VOUS LE MARDI 24/11 À 11h · FRANCESCO : INVITATION ACCEPTÉE
+
+*(Déclaré par Basekou le 20/11 en séance Claude Code, en réponse au digest du jour.)*
+
+✅ **Carot devient un rendez-vous daté : mardi 24/11, 11h-12h, avec Marion Coullet** *(créé par Basekou le 19/11 à 17h46 ; le DM LinkedIn du 10/11 a abouti)*. **La bouteille prévue pour Marion fait partie du lot du 19/11.** ⏳ **Le rendez-vous est à préparer** (ce qu'on lui montre, ce qu'on lui demande) — en session COO.
+✅ **Francesco, 27/11 à 10h30 : l'invitation est acceptée depuis la boîte ledje.fr** (« Oui » cliqué par Basekou).
