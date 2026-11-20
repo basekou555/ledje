@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-11-19
+maj: 2026-11-20
 source: "SOT Partie 7 (archive 2026-07-24) ; Apior écarté (Basekou, 24/07) ; critères cartographie 2026-07-21 (page relais) ; aligné le 2026-09-01 sur les décisions déjà consignées le 31/08 ; ordre miel-avant-étiquettes établi le 2026-09-02 ; assemblage arrêté et rupture de miel constatée le 2026-09-07 (montagne + châtaignier 25/75) ; contact corrigé (Joan, pas Jérôme) et commande déclarée passée le 2026-09-08 ; réponse de Joan (taux d'humidité 16-18 %) consignée le 2026-09-10"
 resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — contact : JOAN, nom corrigé le 08/09 ; ✅ assemblage ARRÊTÉ le 07/09 : montagne + châtaignier 25/75, tilleul en repli — ⚠️ mais la DOSE reste à travailler — et il n'y avait PLUS DE MIEL au 07/09, ce qui a fait de l'appel la condition du figeage et non sa conséquence). ✅ COMMANDE DÉCLARÉE PASSÉE le 08/09, et ✅ JOAN A RÉPONDU le 10/09 : **taux d'humidité 16-18 %** — la conversion en grammes est donc FAITE et le tableau nutritionnel corroboré. ⚠️ Mais le miel est à RETIRER et la date de retrait est inconnue : la dose reste bloquée faute de matière. 🔗 La commande du miel passe AVANT celle des étiquettes depuis le 02/09 : le taux d'humidité demandé à Joan conditionne le tableau nutritionnel. Sourcing industriel : apprentissages (dont logique « 2 miels », sujet ouvert), shortlist tracks cristal/RTD, cartographie cristaux à lancer (le conditionneur pour Ramadan 2027 n'existe pas encore)."
 ---
@@ -180,3 +180,8 @@ Prompt Cowork « cartographie large » rédigé (lister tout, filtrer par télé
 1. ✅ **VISTAPRINT `VP_5ZZ34C2H` EST EXPÉDIÉ** — « votre commande est en chemin », mail du **18/11 à 02h05** *(Gmail)*. **Livraison annoncée lundi 23/11, inchangée**, au lieu de travail de Basekou.
 2. ⛔ **PRINTOCLOCK, commande `002113234` du 17/11 à 18h21 : 100 stickers — USAGE PERSONNEL, HORS LÉDJÉ** *(Basekou, 18/11)*. Passée depuis la boîte pro, d'où sa trace ; **elle ne concerne pas le projet** et n'entre ni dans les étiquettes ni en comptabilité Lédjé.
 3. ✅ **FIRPLAST, facture n° `F00335049` du 17/11 = LA FACTURE DES BOUTEILLES** *(le carton de 231 retiré le 12/11 — Basekou, 18/11)* ⇒ **pas de seconde commande.** 📅 **ÉCHÉANCE DE PAIEMENT : 17/12/2026** *(donnée par Basekou le 19/11 ; montant : 💸 Comptabilité)*.
+
+## 📦 2026-11-20 — LES ÉTIQUETTES NE SONT PAS ENCORE ARRIVÉES
+
+*(Déclaré par Basekou le 20/11.)* ⏳ **Le colis des 1000 étiquettes n'est pas arrivé au 20/11.** Le colis DPD « CUSTOM PRINT SERVICE » annoncé pour le 20/11 au quai Perrache ne nomme aucune commande : son rattachement aux étiquettes reste une inférence. Livraison Vistaprint annoncée le **lundi 23/11**. 🍯 **Réassort de tilleul prévu en décembre** (`production-artisanale.md`).
+
