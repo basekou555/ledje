@@ -185,3 +185,11 @@ Prompt Cowork « cartographie large » rédigé (lister tout, filtrer par télé
 
 *(Déclaré par Basekou le 20/11.)* ⏳ **Le colis des 1000 étiquettes n'est pas arrivé au 20/11.** Le colis DPD « CUSTOM PRINT SERVICE » annoncé pour le 20/11 au quai Perrache ne nomme aucune commande : son rattachement aux étiquettes reste une inférence. Livraison Vistaprint annoncée le **lundi 23/11**. 🍯 **Réassort de tilleul prévu en décembre** (`production-artisanale.md`).
 
+## 🍾 FIRPLAST — LE CARTON EN COURS, LE SUIVANT, ET LE CERTIFICAT `[repris de la page ÉTAT, 20/11]`
+
+*(Descendu de la page ÉTAT le 20/11 avant son nettoyage : ces faits n'étaient écrits que là. Sources d'origine : digests de la routine des 18-20/11 et déclarations de Basekou.)*
+
+- **Commande en cours** : devis `DEV019563` validé le 09/11 à 16h56, un carton de `800039/C4` (bouteille rPET striée 330 mL + bouchon), **231 unités bouchons compris**. **Retiré le jeudi 12/11 au magasin Distram de Saint-Priest** *(le quai Perrache est le lieu de travail de Basekou, où Vistaprint livre)*. Facture `F00335049` du 17/11, échéance 17/12/2026 *(montant : 💸 Comptabilité)*.
+- **Pour un 2ᵉ carton** : **aucune dégressivité** *(le seuil réel est de 20 colis)* · **Firplast est d'inventaire les 3 et 4 décembre** · cadence mesurée : un carton part en ≈ un mois · **le lieu de stockage de deux cartons n'est écrit nulle part**.
+- **Certificat d'alimentarité de la référence `800039/C4` : REÇU le 16/11 à 14h56** *(pièce jointe d'un mail de `be@sagem-networks.com`, Marine Dias de Firplast en copie, après la demande de Basekou du 16/11 à 11h39)*. **Condition chiffrée : utilisation et stockage à 60 °C au plus.** ⇒ L'orientation « pas de rinçage sauf doute » s'appuie sur un document détenu. ⚠️ L'expéditeur n'est pas une adresse Firplast : fait consigné tel quel. ⚠️ La pièce jointe elle-même n'a pas été ouverte par une séance.
+- **Colis DPD du 20/11** : « CUSTOM PRINT SERVICE », n° `10014002303129`, annoncé au quai Perrache — son rattachement aux étiquettes Vistaprint reste une inférence ; au 20/11 après-midi, les étiquettes ne sont pas arrivées.

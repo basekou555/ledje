@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-19
+maj: 2026-11-20
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
 resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication. ➕ 13/11 : « où la trouver » = ledje.fr ; l'apiculteur « à une heure de Lyon » (contredit les 40 min du flyer, à trancher) ; plus de tournage à Lorient ; deux tournages bookés les 14-15/11 ; rien publié la semaine du 10/11."
 ---
@@ -363,3 +363,8 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 
 📌 **Réponse de Basekou : le système de création de contenu va être refait de A à Z par Richard Sinama** — c'est là que se traite la question de la cible soulevée à l'audit du 17/11. ⛔ **Zone sensible, inchangée : la cible et le positionnement ne bougent que sur décision explicite de Basekou** ; les pistes évoquées à l'audit (mères, enfants, sport durable) **restent non adoptées**. ⏳ Prochain point : la visio du 25/11 à 10h.
 
+## 🔑 2026-11-19 — LE COMPTE META FOR DEVELOPERS EXISTE `[repris de la page ÉTAT, 20/11]`
+
+*(Descendu de la page ÉTAT le 20/11 avant son nettoyage : ces faits n'étaient écrits que là. Sources d'origine : digests de la routine des 18-20/11 et déclarations de Basekou.)*
+
+✅ **Compte Meta for Developers créé le 19/11** *(mail de bienvenue à 18h41)*. ⏳ **Restent l'app et le jeton Instagram** — reportés à plus tard par Basekou le 20/11. Rappel : c'est la seule voie automatisable pour lire les chiffres Instagram (une séance cloud ne peut pas ouvrir Claude Chrome).
