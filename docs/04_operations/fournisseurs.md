@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-11-20
+maj: 2026-11-23
 source: "SOT Partie 7 (archive 2026-07-24) ; Apior écarté (Basekou, 24/07) ; critères cartographie 2026-07-21 (page relais) ; aligné le 2026-09-01 sur les décisions déjà consignées le 31/08 ; ordre miel-avant-étiquettes établi le 2026-09-02 ; assemblage arrêté et rupture de miel constatée le 2026-09-07 (montagne + châtaignier 25/75) ; contact corrigé (Joan, pas Jérôme) et commande déclarée passée le 2026-09-08 ; réponse de Joan (taux d'humidité 16-18 %) consignée le 2026-09-10"
 resume: "Fournisseur de miel ARTISANAL retenu (Le Cueilleur de Miels, 17/08 — contact : JOAN, nom corrigé le 08/09 ; ✅ assemblage ARRÊTÉ le 07/09 : montagne + châtaignier 25/75, tilleul en repli — ⚠️ mais la DOSE reste à travailler — et il n'y avait PLUS DE MIEL au 07/09, ce qui a fait de l'appel la condition du figeage et non sa conséquence). ✅ COMMANDE DÉCLARÉE PASSÉE le 08/09, et ✅ JOAN A RÉPONDU le 10/09 : **taux d'humidité 16-18 %** — la conversion en grammes est donc FAITE et le tableau nutritionnel corroboré. ⚠️ Mais le miel est à RETIRER et la date de retrait est inconnue : la dose reste bloquée faute de matière. 🔗 La commande du miel passe AVANT celle des étiquettes depuis le 02/09 : le taux d'humidité demandé à Joan conditionne le tableau nutritionnel. Sourcing industriel : apprentissages (dont logique « 2 miels », sujet ouvert), shortlist tracks cristal/RTD, cartographie cristaux à lancer (le conditionneur pour Ramadan 2027 n'existe pas encore)."
 ---
@@ -193,3 +193,9 @@ Prompt Cowork « cartographie large » rédigé (lister tout, filtrer par télé
 - **Pour un 2ᵉ carton** : **aucune dégressivité** *(le seuil réel est de 20 colis)* · **Firplast est d'inventaire les 3 et 4 décembre** · cadence mesurée : un carton part en ≈ un mois · **le lieu de stockage de deux cartons n'est écrit nulle part**.
 - **Certificat d'alimentarité de la référence `800039/C4` : REÇU le 16/11 à 14h56** *(pièce jointe d'un mail de `be@sagem-networks.com`, Marine Dias de Firplast en copie, après la demande de Basekou du 16/11 à 11h39)*. **Condition chiffrée : utilisation et stockage à 60 °C au plus.** ⇒ L'orientation « pas de rinçage sauf doute » s'appuie sur un document détenu. ⚠️ L'expéditeur n'est pas une adresse Firplast : fait consigné tel quel. ⚠️ La pièce jointe elle-même n'a pas été ouverte par une séance.
 - **Colis DPD du 20/11** : « CUSTOM PRINT SERVICE », n° `10014002303129`, annoncé au quai Perrache — son rattachement aux étiquettes Vistaprint reste une inférence ; au 20/11 après-midi, les étiquettes ne sont pas arrivées.
+
+## 📦 2026-11-23 — LE COLIS EST EN COURS DE LIVRAISON
+
+*(Déclaré par Basekou en séance Claude Code le 23/11, vérifié dans Gmail le même matin.)*
+
+✅ **Un mail DPD du 23/11 au matin, « Livraison de votre colis CUSTOM PRINT SERVICE », annonce le colis `10014002303129` en cours de livraison.** ⏳ **La réception n'est pas constatée au 23/11 matin.** 📌 Le rattachement de ce colis aux 1000 étiquettes Vistaprint (`VP_5ZZ34C2H`) **reste une inférence** : le mail ne nomme aucune commande.
