@@ -911,3 +911,10 @@ Paroi très souple *(les deux bouteilles restantes au frigo aussi)*, **qui se re
 
 📦 **Reste de tilleul : 1 pot de 1 kg + ≈ 1/10 de pot, soit ≈ 1,1 kg** *(estimé à vue, pas de balance)* ⇒ **≈ 200 à 210 bouteilles** à 3,75 mL de tilleul par bouteille.
 ⚠️ **ÉCART NON EXPLIQUÉ** : la ligne Miel de la page ÉTAT portait ≈ 2,1 kg de tilleul. **Les 30 bouteilles du 19/11 n'expliquent pas l'écart d'≈ 1 kg (≈ 190 bouteilles)** ⇒ à rapprocher des productions depuis le 12/11 (registre de production). ✅ **DLC du lot écrite au stylo sur le bouchon : 03/12/2026** (`../02_produit/eau-miellee-33cl.md`).
+
+## 🍾🍯 2026-11-20 — LES 4 BOUTEILLES RESTANTES, ET LE TILLEUL
+
+*(Déclaré par Basekou le 20/11 en séance Claude Code, en réponse au digest du jour.)*
+
+📦 **Des 4 bouteilles restantes du lot du 19/11 : 1 est pour Marion (Carot, rendez-vous du 24/11 à 11h)** ; le reste, « on verra ».
+🍯 **Tilleul : assez pour le carton en cours** *(le carton de 231 commandé)* ; **réassort de tilleul en décembre.** ⇒ L'écart d'≈ 1 kg avec la ligne Miel reste non expliqué, mais il ne bloque pas le carton en cours.

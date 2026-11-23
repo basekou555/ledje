@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-10
+maj: 2026-11-20
 source: "SOT §5.6, §8.1 canal B, Partie 11 (archive 2026-07-24)"
 resume: "Le canal d'acquisition digital : TikTok organique (des publications existent depuis l'automne 2026 — fiche à recaler, le reste date de juillet), UTM en place, canal B créateurs payés en secours (trigger fin octobre 2026)."
 ---
@@ -84,3 +84,9 @@ Créateurs payés (seeding rémunéré) comme plan de secours si le trafic TikTo
 ✅ **Geste : ajouter `?utm_source=tk` au lien en bio TikTok** *(le lien est chez Basekou, pas au dépôt)*. **Coût : une ligne. Effet : les deux canaux deviennent comparables.**
 
 📌 **Et ça se généralise** : tout lien posé hors du site doit porter sa source — bio Instagram, bio TikTok, lien LinkedIn, **QR de l'affiche mosquée**. Sans ça, le soir parrainé ne sera pas mesurable non plus.
+
+## 🔗 2026-11-20 — `utm_source=tk` : ESSAYÉ, AUCUN RÉSULTAT À CE JOUR
+
+*(Déclaré par Basekou le 20/11 en séance Claude Code, en réponse au digest du jour.)*
+
+📌 *« J'ai essayé ce qu'il fallait faire pour TikTok, il n'y a pas eu de résultat. »* ✅ **Vérifié en base le 20/11 vers 15h40 : aucun événement avec `utm_source = tk` depuis l'ouverture de la table** *(seules valeurs : vide, 1131 événements ; `ig`, 307, la dernière le 15/11)*. ⇒ **Soit le lien en bio ne porte pas encore le paramètre, soit personne n'a cliqué depuis.** ⏳ À vérifier : l'adresse exacte posée dans la bio TikTok.
