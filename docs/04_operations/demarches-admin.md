@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: operations
-maj: 2026-11-20
+maj: 2026-11-23
 source: "SOT §4.4, §2.1 (archive 2026-07-24) + décisions 2026-07-20/21 (page relais : HACCP, CERFA, email pro) ; mention « étiquetage/DDM » corrigée en « étiquetage/DLC » le 2026-09-03 ; mail des 3 questions envoyé à la DDPP 69 le 2026-09-08 (texte lu en séance)"
 resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF — LE POINT DÉCLARÉ CLOS LE 24/09 EST ROUVERT : relance du 07/10 sur une dette de cotisations, avec mention d'actions de recouvrement ; déclarer n'est pas payer.** Aucune décision prise, aucun montant au dépôt. ✅✅ **AGRÉMENT : LE SUJET EST FERMÉ LE 28/10 PAR LA DDPP 69 ELLE-MÊME — ni agrément ni dérogation pour un produit à base de miel, la déclaration d'activité du 14/08 suffit.** Son courrier 2026-8172 du 01/10, qui disait l'inverse, est une **erreur retirée par son auteur** ; la DDPP 56 avait raison depuis le 18/07. ⛔ **Il n'y a RIEN à déposer : le CERFA 13982 ne concerne pas ce produit.** ⚠️ **Ça ne ferme ni le PMS, ni l'étiquetage, ni la DLC, ni l'article 13 INCO, ni la traçabilité par lot.** · **GBPH apicole ÉCARTÉ**, orientation vers le GBPH JUS DE FRUITS — lu en entier le 09/10, **inapplicable à notre pH**. 🧾 **CFE / IFER : avis 2026 disponibles, adhésion au prélèvement jusqu'au 30/11, paiement au 15/12 — aucun montant au dépôt, il n'est lisible que dans l'espace professionnel.** + les trois adresses du dossier, le code APE 53.20Z à vérifier, et l'administratif marque (domaine, email pro Zoho, INPI différé)."
 ---
@@ -326,3 +326,10 @@ resume: "Le réglementaire à boucler avant la première vente. 🔴 **URSSAF �
 
 « Confirmation de remplacement de carte » (18/11, 05h05) puis « carte ajoutée à Samsung Wallet » (05h08). ⛔ **Ce n'est pas une décision sur la contestation** : aucun des deux ne parle du litige. Le geste reste de regarder dans l'application si une décision est tombée ; réponse attendue d'ici ≈ mi-janvier.
 
+### 🧾 2026-11-23 — Facturation électronique : comparatif préparé, choix à faire
+
+*(Demandé par Basekou le 23/11 ; recherche web de la séance. Les montants des offres ne sont pas écrits ici.)*
+- **Il n'existe plus de solution publique gratuite** pour recevoir des factures : le portail public ne garde que l'annuaire et la transmission des données fiscales. Il faut passer par une **plateforme agréée (PA)** privée.
+- **Désigner une PA** : la choisir sur la liste officielle (impots.gouv.fr), signer son accord, et c'est elle qui inscrit l'entreprise à l'annuaire. Une PA se change à tout moment. Un logiciel qui n'est pas une PA (Henrri, Freebe, d'après des sources tierces) ne suffit pas seul.
+- **Plateformes comparées, qui se disent toutes gratuites en réception pour une micro-entreprise** : Tiime, Indy, Abby, Qonto, Shine. ⚠️ **Le statut de PA n'a PAS été vérifié sur la liste officielle** : la séance n'a pas pu ouvrir impots.gouv.fr. Tout vient des pages des éditeurs et de comparatifs tiers.
+- **Piste recommandée** : une PA gratuite et simple (Tiime ou Indy) ; ou bien celle de la banque si le compte pro est déjà chez Qonto ou Shine. Avant de signer, vérifier le nom sur la liste officielle. ⏳ **Choix : Basekou.**
