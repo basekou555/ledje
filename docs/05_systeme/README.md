@@ -15,7 +15,6 @@ métier ici : que de l'outillage.
 | [`guide-outils.md`](guide-outils.md) | Quel outil pour quelle tâche, pourquoi et dans quel ordre (site, texte, réseaux, vente, argent, fournisseurs, clients, pilotage) | en_cours |
 | [`council-context.md`](council-context.md) | Socle permanent de la Salle du conseil (v. 19/07) — **protégé**, à répercuter dans l'artefact à chaque màj | figé |
 | [`templates/`](templates/) | Les 5 gabarits : fiche-produit, fiche-canal, fiche-fournisseur, debrief-terrain, entree-conseil | ✅ en place |
-| [`archives/`](archives/) | Copies figées de pages de pilotage (page ÉTAT avant le nettoyage du 20/11/2026) — historique seulement | figé |
 | `conseil/` | Les entrées de conseil datées (verdict, décision, prédiction à revisiter) | créé à la première entrée |
 
 ## Règles du dossier
