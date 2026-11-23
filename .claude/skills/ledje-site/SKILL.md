@@ -52,8 +52,13 @@ Capturer avec Playwright (déjà installé, ne pas le réinstaller) :
   (pas de défilement horizontal) ;
 - le parcours de commande se rejoue sans payer avec `/commander?test=1`.
 
-Sans variables Supabase locales, les formulaires n'écrivent nulle part : on juge l'affichage, pas
-l'enregistrement.
+⚠️ **CORRIGÉ LE 2026-11-23 — CETTE TRAME AFFIRMAIT LE CONTRAIRE, ET C'ÉTAIT FAUX.** Il n'y a pas
+besoin de `.env.local` pour écrire en production : **le repli est codé en dur dans
+`src/lib/supabase.ts`**, et le bundle construit pointe sur le projet `qihlqrmbcbfzjwfegsxv`. Donc
+**toute navigation de test écrit de vraies lignes dans `page_events`** — sur la machine de Basekou
+en tout cas. *(Depuis une session cloud, le proxy bloque `supabase.co` : la requête part avec le
+bon corps mais n'aboutit pas, donc l'enregistrement ne s'y vérifie pas.)* ⇒ Juger l'affichage
+librement, mais savoir qu'une session locale POLLUE les mesures, et le dire quand c'est le cas.
 
 ## Étape 3 — Lister
 

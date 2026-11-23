@@ -147,7 +147,7 @@ Il simule Stripe et Resend — `Deno` et `fetch` remplacés, aucun réseau, aucu
 **Schéma (3 tables, RLS activée, policy INSERT anon uniquement) :**
 - `waitlist` : id (uuid pk), email (unique not null), utm_source/medium/campaign, created_at.
 - `survey_responses` : id, waitlist_id (fk nullable), frequency, attraction (text[]), **entry_format** (remplace l'ancien `intent` — migration `survey_v2_entry_format` appliquée en prod), created_at.
-- `page_events` : id, event_type (`page_view`, `cta_click`, `scroll_50`, `scroll_100`, `page_exit`, `stripe_click`), time_on_page_sec, utm_source, created_at.
+- `page_events` : id, event_type (`page_view`, `cta_click`, `scroll_50`, `scroll_100`, `page_exit`, `stripe_click`…), time_on_page_sec, utm_source, **referrer**, **page_path**, **visit_id**, created_at. *(Les trois dernières colonnes : migration `page_events_referrer_page_visite`, 2026-11-23 — cf. Analytics ci-dessous.)*
 
 **Pièges de sécurité (voulus — ne pas « corriger ») :**
 - Policies INSERT-only pour anon (pas de SELECT) → personne ne peut lire les emails côté client.
@@ -166,6 +166,44 @@ Câblage vidéo hero : `VITE_HERO_VIDEO_URL` (video autoplay muette en fond de h
 ## Analytics
 
 UTM depuis le lien bio TikTok, stockés avec l'email et les événements. Événements passifs : page_view, cta_click, scroll_50, scroll_100, page_exit (+ time_on_page_sec). Pas d'outil tiers, pas de cookies invasifs. (Stratégie d'acquisition : `../03_marche/acquisition-tiktok.md`.)
+
+### ⛔ LA SOURCE SE PERDAIT À CHAQUE CHANGEMENT DE PAGE — corrigé le 2026-11-23
+
+**`getUtm()` lisait `window.location.search` au moment de CHAQUE événement.** Or ce site n'a pas de navigation interne : chaque lien provoque un **chargement neuf**, et la page d'arrivée n'a aucune chaîne de requête. La source était donc perdue dès le premier clic.
+
+📊 **Mesuré le 20/11 à 19h05 (18h05 UTC)** — quatre lignes de `page_events` :
+
+| heure | événement | utm_source |
+|---|---|---|
+| 18:05:15,335 | page_view | `ig` |
+| 18:05:18,021 | hero_commander_click | `ig` |
+| 18:05:18,365 | commander_view | **null** ← 0,344 s plus tard |
+
+🎯 **CONSÉQUENCE À RETENIR, parce qu'elle a produit un énoncé faux : sur les 38 `commander_view` de toute la table, ZÉRO ne portait de source.** Non parce qu'aucun visiteur Instagram n'y arrive, mais parce qu'**aucun n'aurait PU y arriver avec son étiquette**. C'est un zéro structurel, qui ne mesure rien. ⛔ **Tout chiffre « par source » portant sur une page AUTRE que celle d'arrivée est faux avant le 23/11.**
+
+✅ **Correction** : la source, le referrer externe et un `visit_id` sont lus **une fois à l'arrivée** et conservés dans `sessionStorage` (clé `ledje_visite`) pour toute la visite. Profite aussi aux formulaires (`waitlist`, `demandes`, `commandes`, `avis`), qui passent tous par `getUtm()`.
+
+⚠️ **Le referrer est FIGÉ à l'arrivée, et c'est un piège** : après une navigation interne, `document.referrer` vaut « ledje.fr ». Relu à chaque événement, il dirait que tout visiteur de `/commander` vient de notre propre site. Seul le referrer **externe** du premier affichage est conservé.
+
+📌 **`sessionStorage`, pas `localStorage` : une visite, pas un visiteur.** Il meurt avec l'onglet — aucun suivi durable, pas de cookie. Un second onglet est une autre visite : assumé, c'est le prix de ne pas pister les gens. Tous les accès sont en `try/catch` (navigation privée) avec repli en mémoire : la mesure dégrade, elle ne casse jamais la page.
+
+### ⛔⛔ ORDRE DE DÉPLOIEMENT — un insert qui nomme une colonne absente échoue EN ENTIER
+
+La migration **doit** précéder le code. Sinon ce n'est pas la nouveauté qui manque : c'est **toute la mesure qui s'arrête**, silencieusement, parce que `trackEvent` n'inspecte pas l'erreur retournée. Après toute migration de ce genre, `notify pgrst, 'reload schema';` pour rafraîchir le cache de schéma de PostgREST.
+
+### ⚠️ UNE SESSION LOCALE ÉCRIT DANS LES MESURES DE PRODUCTION
+
+**Contrairement à ce qu'affirmait la trame `ledje-site`** *(corrigée le 23/11)*, un `npm run build` + `vite preview` sans `.env.local` **ne tape pas dans le vide** : le repli est **codé en dur** dans `src/lib/supabase.ts`, et le bundle produit pointe sur `qihlqrmbcbfzjwfegsxv`. ⇒ **Toute navigation de test écrit de vraies lignes dans `page_events`.** *(Depuis une session cloud le proxy bloque `supabase.co`, donc l'écriture n'aboutit pas — mais sur la machine de Basekou, si.)*
+
+### 📡 Les sources réellement observées
+
+**Seules deux valeurs d'`utm_source` existent depuis le 01/07 : `ig` (318 événements, depuis le 28/09) et null (1159).** ⛔ **Aucun `tk`, jamais** — vérifié sans borne de date. Cause : **le lien en bio TikTok ne porte aucune étiquette** *(constat du 16/11 ; le lien est chez Basekou, pas au dépôt)*. ✅ **Vérifié le 23/11 que le site, lui, est prêt** : `ledje.fr/?utm_source=tk` répond 308 vers `www.ledje.fr` **en conservant le paramètre**, et le corps envoyé à Supabase porte bien `utm_source: "tk"` (lu sur le réseau).
+
+📌 **Règle générale : tout lien posé hors du site doit porter sa source** — bio Instagram, bio TikTok, lien LinkedIn, QR d'affiche.
+
+### ⚠️ Ce qui reste aveugle
+
+**Aucun événement ne trace un clic vers `/commander` depuis l'en-tête** : il n'existe que `hero_commander_click` (2 lignes dans toute la table). Le tunnel « arrivée → page de commande » n'a donc qu'une seule porte instrumentée sur deux.
 
 ## 📱 Réseaux sociaux dans le pied de page (ajouté le 2026-10-02)
 
