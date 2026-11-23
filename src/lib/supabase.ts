@@ -54,6 +54,59 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
    elle ne casse jamais la page.
    ════════════════════════════════════════════════════════════════ */
 
+/* ════════════════════════════════════════════════════════════════
+   « C'EST MOI » — le repère qui sort Basekou de ses propres chiffres.
+
+   Demandé le 2026-11-23. Il répond au but écrit du 16/11, que les trois
+   mesures précédentes ne suffisaient pas à atteindre : `visit_id` recoud
+   une visite, il ne dit pas DE QUI elle est.
+
+   📌 Pourquoi ça manquait : le 15/11 à 03h56, une visite complète avec
+   `utm_source=ig` — et rien ne permettait de dire si c'était un visiteur
+   ou Basekou à trois heures du matin. Tant que ses propres passages sont
+   indistincts, aucun chiffre du site ne veut dire quoi que ce soit.
+
+   ✅ USAGE : ouvrir `?moi=1` UNE FOIS sur un appareil. Le repère y reste.
+   ✅ POUR L'ENLEVER : `?moi=0`. Prévu dès le départ, parce qu'un appareil
+   se prête, et qu'il faut pouvoir se remettre dans la peau d'un visiteur.
+
+   ⚠️ `localStorage` ici, et c'est l'INVERSE du choix fait pour la visite :
+   on veut justement que ça SURVIVE à la fermeture de l'onglet. C'est un
+   appareil qu'on marque, pas une visite.
+
+   ⚠️ CE QUE LE REPÈRE N'EST PAS : une identification de personne. C'est un
+   drapeau que Basekou pose lui-même sur ses propres appareils. Aucune
+   donnée personnelle, aucun pistage de visiteur — la règle « pas de
+   cookies invasifs » tient.
+
+   🎯 UN APERÇU VERCEL EST INTERNE PAR DÉFINITION : personne n'achète sur
+   une URL `*.vercel.app`. On le marque donc sans rien demander, ce qui
+   évite que nos propres essais de PR polluent la mesure.
+   ⇒ Si ce choix ne convient pas, retirer la condition sur l'hôte suffit.
+
+   ⛔ Et ce qu'on ne peut PAS rattraper : les 1477 lignes d'avant le 23/11
+   restent indistinctes. La colonne y vaut `null`, et `null` ne se lit
+   JAMAIS comme « pas Basekou ».
+   ════════════════════════════════════════════════════════════════ */
+
+const CLE_MOI = 'ledje_moi'
+
+function estInterne(): boolean {
+  /* L'aperçu de PR : interne par nature, aucun repère à poser. */
+  if (window.location.hostname.endsWith('.vercel.app')) return true
+
+  const moi = new URLSearchParams(window.location.search).get('moi')
+  try {
+    if (moi === '1') localStorage.setItem(CLE_MOI, '1')
+    if (moi === '0') localStorage.removeItem(CLE_MOI)
+    return localStorage.getItem(CLE_MOI) === '1'
+  } catch {
+    /* Stockage refusé : le repère ne tient pas d'une page à l'autre, mais
+       le paramètre vaut au moins pour le chargement en cours. */
+    return moi === '1'
+  }
+}
+
 const CLE_VISITE = 'ledje_visite'
 
 type Visite = {
@@ -147,6 +200,11 @@ export async function trackEvent(
     referrer: v.referrer,
     page_path: window.location.pathname,
     visit_id: v.visit_id,
+    /* Colonne `interne` — migration `page_events_interne`. On envoie
+       TOUJOURS le booléen, jamais null : `false` veut dire « mesuré comme
+       visiteur ordinaire », alors que `null` veut dire « on ne sait pas »
+       et ne concerne que les lignes d'avant le 23/11. */
+    interne: estInterne(),
   })
 }
 

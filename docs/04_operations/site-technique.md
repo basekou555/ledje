@@ -147,7 +147,7 @@ Il simule Stripe et Resend — `Deno` et `fetch` remplacés, aucun réseau, aucu
 **Schéma (3 tables, RLS activée, policy INSERT anon uniquement) :**
 - `waitlist` : id (uuid pk), email (unique not null), utm_source/medium/campaign, created_at.
 - `survey_responses` : id, waitlist_id (fk nullable), frequency, attraction (text[]), **entry_format** (remplace l'ancien `intent` — migration `survey_v2_entry_format` appliquée en prod), created_at.
-- `page_events` : id, event_type (`page_view`, `cta_click`, `scroll_50`, `scroll_100`, `page_exit`, `stripe_click`…), time_on_page_sec, utm_source, **referrer**, **page_path**, **visit_id**, created_at. *(Les trois dernières colonnes : migration `page_events_referrer_page_visite`, 2026-11-23 — cf. Analytics ci-dessous.)*
+- `page_events` : id, event_type (`page_view`, `cta_click`, `scroll_50`, `scroll_100`, `page_exit`, `stripe_click`…), time_on_page_sec, utm_source, **referrer**, **page_path**, **visit_id**, **interne**, created_at. *(Migrations `page_events_referrer_page_visite` et `page_events_interne`, 2026-11-23 — cf. Analytics ci-dessous.)* *(Les trois dernières colonnes : migration `page_events_referrer_page_visite`, 2026-11-23 — cf. Analytics ci-dessous.)*
 
 **Pièges de sécurité (voulus — ne pas « corriger ») :**
 - Policies INSERT-only pour anon (pas de SELECT) → personne ne peut lire les emails côté client.
@@ -200,6 +200,33 @@ La migration **doit** précéder le code. Sinon ce n'est pas la nouveauté qui m
 **Seules deux valeurs d'`utm_source` existent depuis le 01/07 : `ig` (318 événements, depuis le 28/09) et null (1159).** ⛔ **Aucun `tk`, jamais** — vérifié sans borne de date. Cause : **le lien en bio TikTok ne porte aucune étiquette** *(constat du 16/11 ; le lien est chez Basekou, pas au dépôt)*. ✅ **Vérifié le 23/11 que le site, lui, est prêt** : `ledje.fr/?utm_source=tk` répond 308 vers `www.ledje.fr` **en conservant le paramètre**, et le corps envoyé à Supabase porte bien `utm_source: "tk"` (lu sur le réseau).
 
 📌 **Règle générale : tout lien posé hors du site doit porter sa source** — bio Instagram, bio TikTok, lien LinkedIn, QR d'affiche.
+
+### 🙋 LE REPÈRE « C'EST MOI » — `?moi=1` (2026-11-23)
+
+**Le but du 16/11 était de distinguer les visites de Basekou de celles des vrais clients.** `visit_id` recoud une visite, il ne dit pas **de qui** elle est. D'où le repère, demandé par Basekou le 23/11.
+
+| geste | effet |
+|---|---|
+| ouvrir **`?moi=1`** une fois sur un appareil | le repère y reste (clé `ledje_moi` dans `localStorage`) |
+| ouvrir **`?moi=0`** | il est retiré — prévu dès le départ : un appareil se prête, et il faut pouvoir se remettre dans la peau d'un visiteur |
+
+⚠️ **`localStorage` ici, à l'INVERSE du choix fait pour la visite** : on veut que ça survive à la fermeture de l'onglet. C'est un **appareil** qu'on marque, pas une visite.
+
+🎯 **Un aperçu Vercel est marqué interne sans rien demander** : personne n'achète sur une URL `*.vercel.app`, et ça évite que nos essais de PR polluent la mesure. *(Pour annuler ce choix : retirer la condition sur l'hôte dans `estInterne()`.)*
+
+**Lecture de la colonne, et c'est le piège :**
+
+| valeur | sens |
+|---|---|
+| `true` | visite marquée (Basekou, ou un aperçu) |
+| `false` | visiteur ordinaire, **mesuré comme tel depuis le 23/11** |
+| `null` | ligne **antérieure** au repère — ⛔ **ON NE SAIT PAS, et ça ne se lit JAMAIS comme `false`** |
+
+⛔ **Les 1477 lignes d'avant le 23/11 restent indistinctes.** C'est irrattrapable : le repère n'existait pas. Donc **tout comptage de « vrais visiteurs » doit s'écrire `where interne is false`, jamais `where interne is not true`** — le second avale tout l'historique inconnu.
+
+📌 **Ce que le repère n'est pas** : une identification de personne. C'est un drapeau que Basekou pose lui-même sur ses propres appareils. Aucune donnée personnelle, aucun pistage de visiteur — la règle « pas de cookies invasifs » tient.
+
+✅ **Éprouvé au navigateur en 375 px, cycle complet** : visiteur → `?moi=1` → survit sans paramètre → survit sur `/commander` → `?moi=0` → redevenu visiteur. ⚠️ **Au moment où le repère se pose, un `page_exit` part encore à `false` : ce n'est pas un défaut, il appartient à la page qu'on quittait.**
 
 ### ⚠️ Ce qui reste aveugle
 
