@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-20
+maj: 2026-11-23
 source: "SOT §5.0, 5.5, 5.9 (archive 2026-07-24) — refonte décidée 2026-07-10"
 resume: "Le site comme machine à convertir : refonte en cours (bouteille séduit, cristal convertit), structure de parcours, copy, écart avec l'état déployé."
 ---
@@ -69,3 +69,12 @@ Ordre en prod : **Hero** (vidéo plein écran ; voile + texte en fondu à ~5 s) 
 - **Le 19/11 à 16h39** : `page_view` → `page_exit` à 8 s → **`hero_commander_click`** → `commander_view`, puis `header_prestations_click` → `prestations_view` à 16h40. **C'est le premier déclenchement de `hero_commander_click` depuis l'ouverture de la table** *(requête sans borne de date : 1 occurrence)*. Second passage à 19h19-19h21 (défilement à 50 puis 100 %, `offrir_view`, `prestations_view`).
 - ⛔ **L'explication évidente d'abord** : aucun `utm_source`, et ces créneaux tombent dans les heures de travail de Basekou ce jour-là ⇒ **rien ne permet de dire que ce n'est pas lui.** C'est exactement ce que l'instrumentation décidée le 16/11 doit lever (referrer, chemin de page, identifiant de session).
 - **Repères de mesure au 20/11** : 35 `commander_view` depuis le début de la table ; 8 lignes dans la table des commandes, la dernière du 09/11 ; aucune session de paiement Stripe depuis le 09/11 à 18h23, zéro `checkout.session.completed` depuis toujours.
+
+## 🔬 2026-11-23 — LA SOURCE SE PERD D'UNE PAGE À L'AUTRE
+
+*(Mesuré par la routine du 23/11 dans Supabase, table `page_events` ; repris en séance Claude Code le 23/11. Basekou : « il faut faire un prompt pour la session site ».)*
+
+✅ **Constat** : le 20/11 à 19h05, une visite arrive avec `utm_source=ig` (`page_view`), clique « Commander » (`hero_commander_click`, `ig`), quitte la page à 3 s (`page_exit`, `ig`)… et la vue de la page de commande qui suit, 0,34 s plus tard, porte **`utm_source` à `null`**. ⇒ **L'`utm_source` ne survit pas à la navigation interne.**
+⚠️ **Conséquence** : « zéro `commander_view` venu d'Instagram » n'est pas un constat de terrain, c'est **une colonne qui ne peut pas le voir**. L'énoncé de la #141 *« le trafic social n'atteint jamais la page de commande »* **n'est pas mesurable en l'état** — écart signalé, il se rouvre une fois la mesure réparée.
+📌 *Explication évidente écartée d'abord : ces trois arrivées `ig` du 20/11 au soir tombent le jour où Basekou était connecté à TikTok et Instagram depuis son PC ⇒ probablement un essai de son propre lien en bio. Attribuées à personne.*
+➡️ **Travail confié à la session site** (brief donné à Basekou le 23/11) : garder la source tout au long de la visite, et poser l'instrumentation décidée le 16/11 (référent, chemin de page, identifiant de visite) pour distinguer le trafic de Basekou.
