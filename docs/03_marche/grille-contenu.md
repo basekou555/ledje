@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-20
+maj: 2026-11-23
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
 resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication. ➕ 13/11 : « où la trouver » = ledje.fr ; l'apiculteur « à une heure de Lyon » (contredit les 40 min du flyer, à trancher) ; plus de tournage à Lorient ; deux tournages bookés les 14-15/11 ; rien publié la semaine du 10/11."
 ---
@@ -368,3 +368,9 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 *(Descendu de la page ÉTAT le 20/11 avant son nettoyage : ces faits n'étaient écrits que là. Sources d'origine : digests de la routine des 18-20/11 et déclarations de Basekou.)*
 
 ✅ **Compte Meta for Developers créé le 19/11** *(mail de bienvenue à 18h41)*. ⏳ **Restent l'app et le jeton Instagram** — reportés à plus tard par Basekou le 20/11. Rappel : c'est la seule voie automatisable pour lire les chiffres Instagram (une séance cloud ne peut pas ouvrir Claude Chrome).
+
+## 🎯 2026-11-23 — POUR LE POINT DU 25/11 AVEC RICHARD : LA CIBLE ACTUELLE EST LE CADRE
+
+*(Décidé par Basekou en séance Claude Code le 23/11, sujet 14 du digest, option a.)* `[figé 23/11]`
+
+✅ **Basekou arrive au point du 25/11 à 10h avec la cible actuelle, et Richard la respecte** en refaisant le système de contenu. Les pistes évoquées à l'audit du 17/11 (mères, enfants, sport durable) **restent non retenues.** ⛔ Zone sensible : cible et positionnement ne bougent que sur décision explicite de Basekou.

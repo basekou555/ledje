@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-20
+maj: 2026-11-23
 source: "SOT §1.4bis pt 3 (archive 2026-07-24) — bascule C2B2C 2026-07-21, volet com 2026-07-24 (page relais + arbitrage Basekou)"
 resume: "✅✅✅ **2026-10-19 — L'AFFICHE EN MOSQUÉE EST DÉCIDÉE : le sujet n'est plus « si » mais « LAQUELLE », et ce qui la rend possible est LE CHOIX DES MOTS — « offrir » (le mot du site) dit le geste sans nommer le registre, là où « don » le nomme.** ⛔ **LA LIGNE EXACTE NE SÉPARE PAS L'ORAL DE L'ÉCRIT, ELLE SÉPARE LA RELIGION DE LA SANTÉ : « tradition prophétique » à l'oral est COUVERT (règle du 06/10), « médecine prophétique » est une ALLÉGATION SANTÉ et ne passe dans AUCUN registre.** ✅ **Cadre assumé : la communauté la plus susceptible de consommer est musulmane, on s'adresse à elle là où elle est.** ✅ **La destination de l'affiche EXISTE (`/offrir`, route vérifiée dans le code) — à ne pas confondre avec l'ENCAISSEMENT, qui n'existe toujours pas.** ⚠️ **Terrain du 19/10 : dépôt à Gerland sans responsable — arriver AVANT la prière, affiche en main, 5 bouteilles ; le critère de sélection est QUI DÉCIDE, pas la géographie.** ⛔ **La responsable com NE DÉCIDE NI DU STOCK NI DE L'AFFICHAGE : relais pour l'affiche seulement.** ✅✅ **2026-10-09 — LE CANAL SORT DE SON ATTENTE VOLONTAIRE : ≈ 10 MOSQUÉES CONTACTÉES PAR DM INSTAGRAM le 08/10, et le contact de la responsable com est OBTENU (message parti, sans réponse) — la fiche écrivait qu'il n'avait jamais été recueilli.** 📄 **La page `/offrir` est en production depuis le 08/10 ; la RÈGLE qu'elle supposerait reste `[en discussion]`.** ⛔ **Et la mécanique de paiement n'existe toujours pas.** Canal basculé en C2B2C le 21/07 (don sponsorisé : un fidèle offre un lot à sa mosquée) ; barème sans négociation ; volet com après étiquette + branding. 🆕 **LE CANAL SE RÉVEILLE LE 02/10, EN SOMMEIL DEPUIS LE 03/08, ET PAR UN AUTRE MODÈLE** : une cliente acheteuse d'O'Daba est responsable com d'une mosquée et demande une **BOUTEILLE PERSONNALISÉE en PRESTATION PAYÉE à 1 €** — ici la mosquée est le CLIENT, pas le bénéficiaire d'un don. ⚠️ **Correction du 06/10 : le cadre religieux a été posé par Basekou, pas reconnu spontanément** — la demande naît APRÈS l'argument. ✅ **ET LA TENSION EST TRANCHÉE LE MÊME JOUR : la religion se nomme À L'ORAL et seulement devant un public dont on sait qu'il est musulman, jamais publiquement** *(`../01_adn/identite-verbale.md`)* ⇒ **une parole orale en mosquée est COUVERTE, une AFFICHE ne l'est pas.** ⛔ Rien n'est tranché : ni le modèle, ni le support, ni le prix. Question de marque à trancher avant toute affiche : **un support en mosquée doit dire LE PRODUIT, pas LA VERTU**. Point matériel : une bouteille personnalisée = une étiquette de plus par client."
 ---
@@ -295,3 +295,13 @@ Identifier les volumes de consommation par mosquée → construire la courbe jus
 *(Déclaré par Basekou le 20/11.)*
 
 ✅ **12 bouteilles de la production du 19/11 offertes à une mosquée** — laquelle n'est pas précisée *(l'accord pour l'affiche était attendu le 20/11 à la mosquée du 2ᵉ ; le rapprochement n'est pas fait ici)*. ⚠️ Anciennes étiquettes (QUID 8 % pour 6 % réel) : décision de Basekou du 17/11, consignée, non rejouée.
+
+## 🕌 2026-11-23 — MOSQUÉE DU 2ᵉ : L'ACCORD N'EST PAS DEMANDÉ · VÉNISSIEUX LE 27/11
+
+*(Déclaré par Basekou en séance Claude Code le 23/11, en réponse au digest du jour.)*
+
+⏳ **Affiche, mosquée du 2ᵉ : l'accord n'est pas obtenu, parce qu'il n'a pas encore été demandé.** Basekou pense qu'il peut s'obtenir, mais que ça prendra du temps ; **il attend la bonne occasion.** Aucune échéance.
+
+📅 **Vendredi 27/11 : Basekou veut aller à la mosquée de Vénissieux** — celle de l'événement de la kermesse — pour **reprendre la discussion avec l'épicerie de la mosquée**, et parce qu'il a compris qu'**il y a des stands le vendredi** : une façon de **montrer le produit et, au minimum, de voir comment ça fonctionne.** `[en discussion]` *(intention, pas un rendez-vous pris.)*
+⚠️ *Signalé une fois : les épiceries sont hors périmètre jusqu'au 8/02 (conseil du 16/11) ; l'épicerie de la mosquée de Vénissieux figure au stock de prospection du 16/11. La visite touche aussi le canal mosquée (stands du vendredi), qui, lui, est dans la fenêtre. C'est la décision de Basekou.*
+📌 Le même vendredi : Francesco 10h30-11h (`canal-restaurant.md`).
