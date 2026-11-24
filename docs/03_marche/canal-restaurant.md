@@ -439,6 +439,8 @@ Le **carnet de prospection**, le **script d'appel** complet et le suivi des appe
 
 📌 **CE QUE ÇA OUVRE pour les deux RDV restants** *(Mauya 07/10, Chez Magie 08/10)* **: si le prospect ne goûte pas, le rendez-vous ne produit ni signal produit ni décision — seulement du temps passé. ⛔ Rien n'est tranché ici : faire goûter d'emblée plutôt que de présenter d'abord est un changement de méthode, et il appartient à Basekou.**
 
+➡️ **Tranché le 23/11 par Basekou — remplace la question ouverte ci-dessus :** faire goûter d'emblée **n'est pas l'argument le plus fort** ; la finalité de la prospection est de **créer une relation et trouver des partenaires** (voir la section du 23/11, « Prospection des épiceries »). *Le constat d'octobre reste vrai — deux rendez-vous sur trois sans dégustation — ; c'est la conclusion de méthode qui est remplacée.*
+
 #### 📹 Des vidéos existent
 
 **Basekou a filmé : *« j'ai des vidéos avec le chef Arnaud »*.** ⚠️ **Rien n'est décidé de leur usage, et la réserve de périmètre sur les clips publics reste entière** *(`grille-contenu.md`)*. 📌 **Un rendez-vous qui n'aboutit pas, filmé, demande un arbitrage avant toute diffusion — il y a une personne identifiable dedans.**
