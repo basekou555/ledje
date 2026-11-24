@@ -378,3 +378,10 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 ## 🚆 2026-11-24 — SÉJOUR À PARIS DU 3 AU 6/12 : LES BILLETS ATTENDENT LE FEU VERT D'ABOUBAKR
 
 *(Déclaré par Basekou le 24/11, en réponse au digest.)* Séjour de création de contenu à Paris du jeudi 3 au dimanche 6/12, avec Aboubakr (créateur). **Les billets se prennent dès qu'Aboubakr donne son accord.** `[figé 24/11]` Les vêtements pour le séjour se commandent avec Léa le 24/11 au soir. *(Le détail du séjour posé dans la file ÉTAT le 23/11 reste à descendre.)*
+
+### 🚆 Détail du séjour à Paris (3-6/12), descendu de la file ÉTAT le 24/11
+
+*(Posé le 23/11 vers 13h33 par la session COO, sur déclarations de Basekou.)* `[figé 23/11]`
+- **Logement** à Saint-Denis, en famille, à confirmer par Basekou.
+- **Création de contenu avec Aboubakr** (créateur, ≈ 80 000 abonnés) sur cette période ; **tournage probable avec Brian** (vidéaste, ami de Basekou). Basekou écrit lui-même à Aboubakr et à Brian.
+- **Transport choisi le 23/11 à 13h55, non réservé** : aller en Ouigo à 9h04 (Lyon Perrache → Marne-la-Vallée), retour en FlixBus le dimanche matin (Paris Bercy → Lyon Gerland). Réservation **dès le feu vert d'Aboubakr** (24/11).
