@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-23
+maj: 2026-11-24
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
 resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication. ➕ 13/11 : « où la trouver » = ledje.fr ; l'apiculteur « à une heure de Lyon » (contredit les 40 min du flyer, à trancher) ; plus de tournage à Lorient ; deux tournages bookés les 14-15/11 ; rien publié la semaine du 10/11."
 ---
@@ -374,3 +374,7 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 *(Décidé par Basekou en séance Claude Code le 23/11, sujet 14 du digest, option a.)* `[figé 23/11]`
 
 ✅ **Basekou arrive au point du 25/11 à 10h avec la cible actuelle, et Richard la respecte** en refaisant le système de contenu. Les pistes évoquées à l'audit du 17/11 (mères, enfants, sport durable) **restent non retenues.** ⛔ Zone sensible : cible et positionnement ne bougent que sur décision explicite de Basekou.
+
+## 🚆 2026-11-24 — SÉJOUR À PARIS DU 3 AU 6/12 : LES BILLETS ATTENDENT LE FEU VERT D'ABOUBAKR
+
+*(Déclaré par Basekou le 24/11, en réponse au digest.)* Séjour de création de contenu à Paris du jeudi 3 au dimanche 6/12, avec Aboubakr (créateur). **Les billets se prennent dès qu'Aboubakr donne son accord.** `[figé 24/11]` Les vêtements pour le séjour se commandent avec Léa le 24/11 au soir. *(Le détail du séjour posé dans la file ÉTAT le 23/11 reste à descendre.)*
