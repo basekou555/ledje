@@ -364,6 +364,28 @@ export default function Commander() {
                   <li>Livrée le lendemain</li>
                   <li>De l’eau et du miel, rien d’autre</li>
                 </ul>
+
+                {/* ⚠️ 2026-11-24 — LE FORMULAIRE ÉTAIT À ~2,5 ÉCRANS DE LÀ,
+                    derrière deux visuels. Sur mobile, c'est long pour
+                    quelqu'un qui a déjà décidé d'acheter.
+
+                    ⛔ ON NE REMONTE PAS LE FORMULAIRE, et c'est délibéré :
+                    la bande qui le précède a été ajoutée le 16/10 SUR LE
+                    RETOUR DE BASEKOU (« la page est ennuyeuse »), précisément
+                    parce que la page passait « d'un prix à un formulaire sans
+                    rien donner envie entre les deux ». Remonter le formulaire
+                    défairait sa décision.
+                    ⇒ On ajoute un RACCOURCI : qui est décidé descend d'un
+                    clic, qui hésite garde la bande. */}
+                <p className="v-page-actions">
+                  <a
+                    className="btn-primary"
+                    href="#form-title"
+                    onClick={() => trackEvent('commander_raccourci_formulaire')}
+                  >
+                    Commander — {PRIX_PACK} €
+                  </a>
+                </p>
               </div>
 
               <div className="v-split-side">
@@ -423,7 +445,17 @@ export default function Commander() {
               <fieldset className="v-field">
                 <legend>Combien de packs</legend>
                 <div className="v-packs">
-                  {[1, 2, 3, 4].map(n => (
+                  {/* ⛔ 2026-11-24 — LE CHOIX S'ARRÊTAIT À 4, ET PERSONNE NE
+                      L'AVAIT VU. Le journal écrit deux fois « 1 à 6 packs »
+                      et trois fois « six liens », SIX liens de paiement
+                      existent chez Stripe (réels ET test) — mais la page
+                      n'en proposait que quatre. ⇒ Un client qui voulait 5 ou
+                      6 packs, donc LE PLUS GROS PANIER, ne pouvait pas, et
+                      deux liens payés dormaient.
+                      ⚠️ RÈGLE : une quantité n'apparaît ici que si son lien
+                      existe dans LIENS **et** LIENS_TEST. Vérifié pour 5 et 6
+                      avant d'ouvrir. */}
+                  {[1, 2, 3, 4, 5, 6].map(n => (
                     <button
                       key={n}
                       type="button"

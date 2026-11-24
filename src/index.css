@@ -134,7 +134,10 @@ img, svg, video { display: block; max-width: 100%; }
   font-weight: 500;
   font-size: 0.95rem;
   padding: 0.8rem 1.6rem;
-  border: 1.5px solid rgba(20, 61, 43, 0.28);
+  /* 2026-11-24 : 0.28 d'opacité se perdait sur les fonds crème (le bouton
+     « Voir les formules » était presque invisible). Monté à 0.48 — le trait
+     se voit, le bouton reste secondaire face au plein. */
+  border: 1.5px solid rgba(20, 61, 43, 0.48);
   border-radius: var(--radius-pill);
   cursor: pointer;
   text-decoration: none;
@@ -195,6 +198,12 @@ img, svg, video { display: block; max-width: 100%; }
   background: var(--green-deep);
   text-decoration: none;
   padding: 0.55rem 1.1rem;
+  /* 2026-11-24 : il mesurait 36 px de haut, sous les 44 px que la fiche
+     `site-technique.md` impose pour une cible tactile. Le remplissage seul
+     ne suffisait pas, d'où la hauteur minimale explicite. */
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
   border-radius: var(--radius-pill);
   /* Le libellé peut passer sur deux lignes plutôt que déborder : aux grandes
      tailles de police système (réglage d'accessibilité), « nowrap » faisait
@@ -652,7 +661,18 @@ img, svg, video { display: block; max-width: 100%; }
 
 /* Métadonnée à côté du bouton (desktop seulement) */
 
+/* ⚠️ 2026-11-24 — SUR MOBILE, LA COMMANDE PASSE AVANT L'ADRESSE MAIL.
+   Les deux colonnes s'empilent sous 900 px, et l'ordre du code mettait le
+   formulaire « Être prévenu » EN PREMIER : on demandait donc une adresse
+   mail avant de proposer d'acheter, sur 91 % du trafic.
+   📌 `order` ne change que l'affichage : l'ordre du code, donc celui lu par
+   un lecteur d'écran et par les robots, reste inchangé. Et au-dessus de
+   900 px les deux colonnes sont côte à côte, donc rien ne bouge. */
 .v-split { display: flex; flex-direction: column; gap: 2rem; }
+/* ⛔ CIBLÉ SUR #contact, ET SURTOUT PAS SUR TOUS LES `.v-split` : le haut de
+   `/commander` utilise la même structure pour sa photo produit. Une règle
+   globale aurait fait passer l'image AVANT le titre et le prix. */
+#contact .v-split-side { order: -1; }
 
 @media (min-width: 900px) {
   /* Le cadre redevient large : le recadrage s'annule, on revient au centre. */
@@ -712,6 +732,7 @@ img, svg, video { display: block; max-width: 100%; }
   }
   .v-split-main { flex: 1 1 54%; min-width: 0; }
   .v-split-side { flex: 1 1 46%; min-width: 0; }
+  #contact .v-split-side { order: 0; }
 
   /* ── Échelle typographique élargie ── */
   .v-title--lg { font-size: clamp(2rem, 3vw, 2.7rem); }
