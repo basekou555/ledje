@@ -10,12 +10,177 @@ const supabaseAnonKey =
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
-function getUtm() {
+/* ════════════════════════════════════════════════════════════════
+   LA VISITE — ce qui doit survivre au passage d'une page à l'autre.
+
+   Créé le 2026-11-23, sur une mesure de Basekou. Le défaut, et il rendait
+   faux le seul chiffre qui compte :
+
+   ⛔ `getUtm()` lisait `window.location.search` AU MOMENT DE CHAQUE
+   ÉVÉNEMENT. Or ce site n'est pas une application à navigation interne :
+   chaque lien (`<a href="/commander">`) provoque un CHARGEMENT NEUF, et la
+   nouvelle page n'a aucune chaîne de requête. La source était donc perdue
+   dès le premier clic.
+
+   📊 Mesuré le 20/11 à 19h05 (18h05 UTC), quatre lignes de `page_events` :
+      page_view            ig      18:05:15,335
+      hero_commander_click ig      18:05:18,021
+      commander_view     (null)    18:05:18,365   ← 0,344 s plus tard
+   ⇒ Le visiteur Instagram EST arrivé sur la page de commande. La mesure,
+   elle, l'a enregistré comme venu de nulle part.
+
+   🎯 CONSÉQUENCE À RETENIR : sur les 38 `commander_view` de toute la table,
+   ZÉRO ne portait de source — non parce qu'aucun visiteur Instagram n'y
+   arrive, mais parce qu'AUCUN n'aurait PU y arriver avec son étiquette.
+   Un zéro structurel, qui ne mesure rien.
+
+   ✅ Ce qu'on fait : la source, le site d'origine et un identifiant de
+   visite sont lus UNE FOIS, à l'arrivée, puis conservés dans
+   `sessionStorage` pour toute la visite.
+
+   ⚠️ POURQUOI LE REFERRER EST FIGÉ À L'ARRIVÉE, et c'est le piège : après
+   une navigation interne, `document.referrer` vaut « ledje.fr ». Relu à
+   chaque événement, il dirait que tout visiteur de /commander vient de
+   notre propre site. On ne garde donc que le referrer EXTERNE du premier
+   affichage, et on ignore le nôtre.
+
+   📌 `sessionStorage` et non `localStorage` : une visite, pas un visiteur.
+   Il vit dans l'onglet et s'efface à sa fermeture — donc aucun suivi
+   durable, et pas de cookie. Un onglet ouvert à côté est une autre visite :
+   accepté, c'est le prix de ne pas pister les gens.
+
+   ⚠️ L'accès peut ÉCHOUER (navigation privée, stockage bloqué) : tout est
+   en try/catch et on retombe sur une visite en mémoire. La mesure dégrade,
+   elle ne casse jamais la page.
+   ════════════════════════════════════════════════════════════════ */
+
+/* ════════════════════════════════════════════════════════════════
+   « C'EST MOI » — le repère qui sort Basekou de ses propres chiffres.
+
+   Demandé le 2026-11-23. Il répond au but écrit du 16/11, que les trois
+   mesures précédentes ne suffisaient pas à atteindre : `visit_id` recoud
+   une visite, il ne dit pas DE QUI elle est.
+
+   📌 Pourquoi ça manquait : le 15/11 à 03h56, une visite complète avec
+   `utm_source=ig` — et rien ne permettait de dire si c'était un visiteur
+   ou Basekou à trois heures du matin. Tant que ses propres passages sont
+   indistincts, aucun chiffre du site ne veut dire quoi que ce soit.
+
+   ✅ USAGE : ouvrir `?moi=1` UNE FOIS sur un appareil. Le repère y reste.
+   ✅ POUR L'ENLEVER : `?moi=0`. Prévu dès le départ, parce qu'un appareil
+   se prête, et qu'il faut pouvoir se remettre dans la peau d'un visiteur.
+
+   ⚠️ `localStorage` ici, et c'est l'INVERSE du choix fait pour la visite :
+   on veut justement que ça SURVIVE à la fermeture de l'onglet. C'est un
+   appareil qu'on marque, pas une visite.
+
+   ⚠️ CE QUE LE REPÈRE N'EST PAS : une identification de personne. C'est un
+   drapeau que Basekou pose lui-même sur ses propres appareils. Aucune
+   donnée personnelle, aucun pistage de visiteur — la règle « pas de
+   cookies invasifs » tient.
+
+   🎯 UN APERÇU VERCEL EST INTERNE PAR DÉFINITION : personne n'achète sur
+   une URL `*.vercel.app`. On le marque donc sans rien demander, ce qui
+   évite que nos propres essais de PR polluent la mesure.
+   ⇒ Si ce choix ne convient pas, retirer la condition sur l'hôte suffit.
+
+   ⛔ Et ce qu'on ne peut PAS rattraper : les 1477 lignes d'avant le 23/11
+   restent indistinctes. La colonne y vaut `null`, et `null` ne se lit
+   JAMAIS comme « pas Basekou ».
+   ════════════════════════════════════════════════════════════════ */
+
+const CLE_MOI = 'ledje_moi'
+
+function estInterne(): boolean {
+  /* L'aperçu de PR : interne par nature, aucun repère à poser. */
+  if (window.location.hostname.endsWith('.vercel.app')) return true
+
+  const moi = new URLSearchParams(window.location.search).get('moi')
+  try {
+    if (moi === '1') localStorage.setItem(CLE_MOI, '1')
+    if (moi === '0') localStorage.removeItem(CLE_MOI)
+    return localStorage.getItem(CLE_MOI) === '1'
+  } catch {
+    /* Stockage refusé : le repère ne tient pas d'une page à l'autre, mais
+       le paramètre vaut au moins pour le chargement en cours. */
+    return moi === '1'
+  }
+}
+
+const CLE_VISITE = 'ledje_visite'
+
+type Visite = {
+  visit_id: string
+  utm_source: string | null
+  utm_medium: string | null
+  utm_campaign: string | null
+  referrer: string | null
+}
+
+/* Repli si le stockage est refusé : la visite vit alors le temps du
+   chargement de page. On perd le recoudre entre pages, pas l'événement. */
+let visiteEnMemoire: Visite | null = null
+
+function nouvelleVisite(): Visite {
   const params = new URLSearchParams(window.location.search)
+
+  /* Le referrer ne vaut que s'il est EXTERNE. Le nôtre n'apprend rien. */
+  let referrer: string | null = null
+  try {
+    const r = document.referrer
+    if (r && new URL(r).host !== window.location.host) referrer = r
+  } catch {
+    referrer = null
+  }
+
   return {
+    visit_id: crypto.randomUUID(),
     utm_source: params.get('utm_source'),
     utm_medium: params.get('utm_medium'),
     utm_campaign: params.get('utm_campaign'),
+    referrer,
+  }
+}
+
+function visite(): Visite {
+  let v: Visite | null = null
+  try {
+    const brut = sessionStorage.getItem(CLE_VISITE)
+    if (brut) v = JSON.parse(brut) as Visite
+  } catch {
+    v = null
+  }
+  if (!v?.visit_id) v = visiteEnMemoire ?? nouvelleVisite()
+
+  /* ⚠️ UNE SOURCE VUE EN COURS DE VISITE GAGNE SUR UNE ABSENCE, jamais sur
+     une autre source : si quelqu'un revient par un second lien étiqueté, on
+     garde le premier — c'est lui qui a amené la visite. */
+  const params = new URLSearchParams(window.location.search)
+  const vu = params.get('utm_source')
+  if (vu && !v.utm_source) {
+    v = {
+      ...v,
+      utm_source: vu,
+      utm_medium: params.get('utm_medium') ?? v.utm_medium,
+      utm_campaign: params.get('utm_campaign') ?? v.utm_campaign,
+    }
+  }
+
+  visiteEnMemoire = v
+  try {
+    sessionStorage.setItem(CLE_VISITE, JSON.stringify(v))
+  } catch {
+    /* stockage refusé : `visiteEnMemoire` fait le travail pour ce chargement */
+  }
+  return v
+}
+
+function getUtm() {
+  const v = visite()
+  return {
+    utm_source: v.utm_source,
+    utm_medium: v.utm_medium,
+    utm_campaign: v.utm_campaign,
   }
 }
 
@@ -23,11 +188,23 @@ export async function trackEvent(
   event_type: string,
   time_on_page_sec?: number,
 ) {
-  const { utm_source } = getUtm()
+  const v = visite()
   await supabase.from('page_events').insert({
     event_type,
     time_on_page_sec: time_on_page_sec ?? null,
-    utm_source,
+    utm_source: v.utm_source,
+    /* Mesures décidées le 16/11 — colonnes ajoutées par la migration
+       `page_events_referrer_page_visite`. ⛔ Ne pas déployer ce code sans
+       elle : un insert nommant une colonne absente échoue EN ENTIER, et
+       c'est toute la mesure qui s'arrête, pas seulement la nouveauté. */
+    referrer: v.referrer,
+    page_path: window.location.pathname,
+    visit_id: v.visit_id,
+    /* Colonne `interne` — migration `page_events_interne`. On envoie
+       TOUJOURS le booléen, jamais null : `false` veut dire « mesuré comme
+       visiteur ordinaire », alors que `null` veut dire « on ne sait pas »
+       et ne concerne que les lignes d'avant le 23/11. */
+    interne: estInterne(),
   })
 }
 
