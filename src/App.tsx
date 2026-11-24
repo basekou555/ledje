@@ -178,9 +178,16 @@ export default function App() {
               <span className="v-line"><span className="v-line-in v-line-1">De l’eau et du miel.</span></span>
               <span className="v-line"><span className="v-line-in v-line-2">Rien de plus.</span></span>
             </h1>
+            {/* ⚠️ 2026-11-24 — BOUTON PLEIN, ET C'EST UNE CORRECTION DE
+                HIÉRARCHIE : il était en CONTOUR alors que « S'abonner sur
+                Instagram », juste en dessous, est PLEIN. Sur une page qui
+                vend, l'œil allait donc à l'action gratuite.
+                📌 Ça ne contredit pas la décision du 16/10 : son argument
+                (« pas deux liens de même poids ») vaut À L'INTÉRIEUR de la
+                bande, entre Instagram et TikTok. La bande n'est pas touchée. */}
             <div className="v-hero-actions v-fade v-fade-4">
               <a
-                className="btn-ghost"
+                className="btn-primary"
                 href="/commander"
                 onClick={() => trackEvent('hero_commander_click')}
               >
@@ -464,7 +471,7 @@ export default function App() {
                 lendemain. À Lyon pour l’instant.
               </p>
               <a
-                className="btn-ghost"
+                className="btn-primary"
                 href="/commander"
                 onClick={() => trackEvent('accueil_commander_click')}
               >
