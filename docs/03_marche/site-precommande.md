@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-23
+maj: 2026-11-24
 source: "SOT §5.0, 5.5, 5.9 (archive 2026-07-24) — refonte décidée 2026-07-10"
 resume: "Le site comme machine à convertir : refonte en cours (bouteille séduit, cristal convertit), structure de parcours, copy, écart avec l'état déployé."
 ---
@@ -78,3 +78,11 @@ Ordre en prod : **Hero** (vidéo plein écran ; voile + texte en fondu à ~5 s) 
 ⚠️ **Conséquence** : « zéro `commander_view` venu d'Instagram » n'est pas un constat de terrain, c'est **une colonne qui ne peut pas le voir**. L'énoncé de la #141 *« le trafic social n'atteint jamais la page de commande »* **n'est pas mesurable en l'état** — écart signalé, il se rouvre une fois la mesure réparée.
 📌 *Explication évidente écartée d'abord : ces trois arrivées `ig` du 20/11 au soir tombent le jour où Basekou était connecté à TikTok et Instagram depuis son PC ⇒ probablement un essai de son propre lien en bio. Attribuées à personne.*
 ➡️ **Travail confié à la session site** (brief donné à Basekou le 23/11) : garder la source tout au long de la visite, et poser l'instrumentation décidée le 16/11 (référent, chemin de page, identifiant de visite) pour distinguer le trafic de Basekou.
+
+## ✅ 2026-11-24 — LA MESURE EST RÉPARÉE ET EN LIGNE (#151)
+
+✅ **PR #151 fusionnée par Basekou le 24/11 à 09h19.** La source, le référent externe et un identifiant de visite sont lus **une fois à l'arrivée** et gardés pour toute la visite ; trois colonnes (`referrer`, `page_path`, `visit_id`) et un repère `interne` existent en base. ✅ **Vérifié en base sur l'aperçu le 23/11 à 13h41** (routine) : `utm_source=tk` conservé de `/` à `/commander`, même `visit_id`, `interne = true`.
+⏳ **Dernier geste humain** : ouvrir le site avec **`?moi=1` une fois sur chaque appareil de Basekou**, sinon son trafic reste mêlé à celui des visiteurs.
+⛔ **Piège de lecture** : `null` n'est pas `false`. Les ≈ 1 477 lignes d'avant le 23/11 restent indistinctes. Un comptage de vrais visiteurs s'écrit `where interne is false`.
+⛔ **L'énoncé de la #141, « le trafic social n'atteint jamais la page de commande », est RETIRÉ** : il ne pouvait pas être mesuré, et la ligne du 20/11 le contredit. La mesure redevient possible à partir du 24/11.
+⚠️ **Reste aveugle** : le clic vers `/commander` depuis l'en-tête n'est pas tracé (seul `hero_commander_click` existe). Non tranché.

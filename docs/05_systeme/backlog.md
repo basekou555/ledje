@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: systeme
-maj: 2026-10-08
+maj: 2026-11-24
 source: "SOT Partie 11 (archive 2026-07-24) — annotations d'état 24/07"
 resume: "Les pistes ouvertes et actions en attente. ⚠️ Nettoyé le 2026-08-24 : deux items reposaient sur des décisions annulées (retour designeuse, éviction des formats sensoriels) — supprimés avec leur motif. Items 19 et 20 ajoutés le 2026-08-31 : reprendre le site sur le fond (grief non encore dicté) et le rendre mesurable (l'instrumentation ne dit ni la source, ni les pages, ni la durée). ⚠️ Item 19 : le site a été mis « en construction » le 2026-09-03 (PR #65, hors séance) avant que le grief soit écrit ; le **grief est dicté depuis le 07/09** et le site devient une **VITRINE** ; 🔕 **dépriorisé le 08/09 sur consigne de Basekou — l'item reste ouvert mais sort des relances, c'est lui qui le rouvrira.**"
 ---
@@ -79,3 +79,15 @@ Les instructions du projet disent « une fiche appartient à une session ; avant
 ## 2026-11-16 → tranché le 2026-11-17 : la file et les passations
 
 **Question close.** Une passation ne se dépose plus dans la file : elle s'écrit en un bloc daté dans la section « Passations à descendre » de la page ÉTAT, créée le 17/11, plafonnée à deux passations en attente. La file garde son plafond de dix lignes pour les faits isolés. Les deux se vident par une séance Claude Code, qui descend puis supprime ; elle les compte à sa propre passation (`ledje-passation`, variante A, point 5). Décision de Basekou du 17/11.
+
+## 2026-11-24 — À regarder en profondeur avec Basekou : comment le SOT gère ce qui est remplacé
+
+*(Demandé par Basekou le 24/11 : « faudra qu'on regarde ce système en profondeur pour le SOT ».)* `[en discussion]`
+
+**Le constat qui l'a déclenché** : une conclusion d'octobre (« faire goûter d'emblée, non tranché ») restait au milieu de `canal-restaurant.md` sans renvoi vers la décision du 23/11 qui la remplace. Corrigé à la main le 24/11, mais rien ne garantit qu'il n'en reste pas d'autres.
+
+**Ce qu'il faudra regarder** :
+- **La taille des fiches** : `production-artisanale.md` (≈ 920 lignes), `canal-restaurant.md` (≈ 830), `eau-miellee-33cl.md` (≈ 500). Une fiche qui empile des comptes rendus datés devient un journal bis, et la règle de `workflow-maj.md` (R3, « une valeur nouvelle remplace l'ancienne ») n'y est appliquée qu'au cas par cas.
+- **Séparer l'état et l'histoire** : l'état courant en tête de fiche ; les comptes rendus datés archivés ou renvoyés au journal, comme pour la page ÉTAT le 20/11.
+- **Une marque standard pour ce qui est remplacé** (« remplacé le {date} par … »), et un moyen de retrouver les conclusions périmées sans relire 800 lignes.
+- ⚠️ `workflow-maj.md` est une fiche **protégée** : toute nouvelle règle s'y écrit seulement sur décision de Basekou.

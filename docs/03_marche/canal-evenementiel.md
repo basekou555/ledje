@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-23
+maj: 2026-11-24
 source: "Créée le 2026-10-12 après le débrief de l'événement du 11/10, à la demande de Basekou : « ça mérite pas tout un document, mais il y a des leçons à en tirer pour les prochains — qu'est-ce qu'on a utilisé, qu'est-ce qu'on a bien utilisé, qu'est-ce qu'on doit améliorer »."
 resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteilles là où cinq rendez-vous restaurateurs ont donné zéro. 🎯 Vente directe au consommateur, Lédjé exposant et pas fournisseur. ✅ Ce qui marche : un public dont la clientèle est musulmane, le frigo apporté (chaîne du froid ET support d'affiche), la seringue, le paiement sans contact, proposer au client de choisir entre boire frais sur place ou emporter. 🔴 Ce qui doit s'améliorer : le stand est « un peu léger », l'affiche en portrait n'a nulle part où s'accrocher sans frigo, pas de fonds de caisse, l'étiquetage est le goulot et il est PIRE que proportionnel au-delà de ≈ 50 bouteilles, la DLC n'a pas été tamponnée. 🔴🔴 **2026-10-12 — L'ÉVÉNEMENT EST CHIFFRÉ ET IL EST EN PERTE : les frais fixes du stand ont à eux seuls dépassé le chiffre d'affaires, donc la perte était acquise AVANT la matière.** L'emplacement est le premier poste, à lui seul plus de la moitié du CA ; le seuil d'équilibre était ≈ 2,4 fois le volume produit. ➡️ **Ce n'est ni le produit ni le prix : c'est le coût du stand — et le prochain événement n'en a pas.** ⚡ Et une réserve sur la lecture du succès : certains ont refusé le prix réduit pour payer plein tarif « pour donner de la force », donc une part des ventes est du SOUTIEN et pas une décision d'achat sur le goût. ⛔ Aucun montant ici : les valeurs vivent dans la page Notion privée, le dépôt n'en garde que les rapports."
 ---
@@ -222,3 +222,6 @@ resume: "Le canal qui VEND : un événement communautaire a écoulé 77 bouteill
 - 📅 **Relance posée au jeudi 26/11 à 10h**, seulement pour ceux qui n'ont pas répondu *(agenda Google)*.
 
 - 📣 **23/11 — Basekou : les non-réponses sont notées, « il faudra faire des relances dans la semaine, parce que c'est important ».** Côté organisateurs, la relance est déjà à l'agenda le **jeudi 26/11 à 10h** *(Saint-Fons, Arqam, Avas)*.
+
+- 🕌 **23/11, 18h20 — ARQAM A RÉPONDU** *(Mme Hatice Karaduman ; écrit par Basekou dans la description du rappel du 26/11, et nulle part ailleurs)* : **un salon est en préparation pour MARS, date non fixée ; elle préviendra. Pas de relance.** ⇒ La relance du 26/11 vise **Avas, Saint-Fons et Joan**.
+  ✅ **24/11 — Basekou retient l'option (a) du digest : Arqam reste une piste de mars, hors du pari Ramadan, et on attend qu'elle prévienne.** `[figé 24/11]` *(Lecture de la séance d'un « ok pour la maison d'Arqam » ; la moins avancée des options, à corriger si besoin.)*
