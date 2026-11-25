@@ -1,7 +1,7 @@
 ---
 statut: en_cours
 domaine: marche
-maj: 2026-11-24
+maj: 2026-11-25
 source: "Reconstruite le 2026-08-20 (session Com). L'ancienne grille du 2026-07-02 est caduque : elle précédait la sortie des rôles secondaires, la hiérarchie des motivations, l'architecture des messages en 4 niveaux et le territoire en 5 ingrédients. Fusion le 2026-08-24 de deux dépôts parallèles (PR #53 et #54) — aucun contenu perdu."
 resume: "À quoi sert le contenu, les 4 niveaux et leur test, ce qui est publiable malgré l'identité non figée, les 7 formats répétables, les sujets, le partage réel/IA, les comptes, la cadence et le filtre avant publication. ➕ 13/11 : « où la trouver » = ledje.fr ; l'apiculteur « à une heure de Lyon » (contredit les 40 min du flyer, à trancher) ; plus de tournage à Lorient ; deux tournages bookés les 14-15/11 ; rien publié la semaine du 10/11."
 ---
@@ -385,3 +385,6 @@ Pas les vues. Deux signaux comptent à ce stade : **un restaurateur démarché a
 - **Logement** à Saint-Denis, en famille, à confirmer par Basekou.
 - **Création de contenu avec Aboubakr** (créateur, ≈ 80 000 abonnés) sur cette période ; **tournage probable avec Brian** (vidéaste, ami de Basekou). Basekou écrit lui-même à Aboubakr et à Brian.
 - **Transport choisi le 23/11 à 13h55, non réservé** : aller en Ouigo à 9h04 (Lyon Perrache → Marne-la-Vallée), retour en FlixBus le dimanche matin (Paris Bercy → Lyon Gerland). Réservation **dès le feu vert d'Aboubakr** (24/11).
+- ✅ **25/11 — Les billets sont pris pour l'aller ET le retour** *(Basekou, 25/11)*. Aller : Ouigo du 03/12, 09h04 Lyon Perrache → **11h20 Paris Aéroport Roissy-CDG 2** (réf. `EPTUGP`, lue dans Gmail le 24/11) — et non Marne-la-Vallée comme dans le choix du 23/11 ; de Roissy, le RER B va directement à Saint-Denis. Retour : Paris Bercy → Lyon Gerland le 06/12 (à l'agenda).
+- 📅 **Aucun événement prévu pendant le séjour pour l'instant, mais c'est possible** *(Basekou, 25/11)*.
+- 📝 **Brief de conformité d'Aboubakr : confié à la session Com** (prompt remis le 25/11), à écrire avant le tournage du 3/12, selon la règle du 09/11 : la conformité d'un créateur se tranche avant son tournage.
