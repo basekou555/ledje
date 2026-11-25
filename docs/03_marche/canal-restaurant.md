@@ -819,8 +819,16 @@ Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimente
 
 📒 **Première recherche** `[en discussion]` : **19 lignes ajoutées au carnet Notion** (catégorie 7, désormais **33 épiceries**). ⚠️ **Toutes au niveau C** : aucune photo de rayon lue, aucune visite. La sélection de 10 à 12 est proposée, **pas validée**.
 - **Bachut et l'épicerie « en bas de chez la dame » (ouverture du 07/11) sont la MÊME épicerie**, juste à côté de l'arrêt de tram. Nom et adresse non établis : deux candidates au carnet, Oriental Market et Tannourine.
-- **« Bel Air » n'est pas à Bel Air** : son nom serait proche de « Candy Shop » (bonbons, sucre). Basekou a vu son compte Instagram et doit retrouver l'information.
+- **« Bel Air » n'est pas à Bel Air, et elle s'appelle « My Candy's »** (corrigé par Basekou le 24/11 ; remplace « nom proche de Candy Shop » du 23/11). Basekou a vu son compte Instagram. Lu en ligne le 24/11 par la session prospection : le site mycandys.fr est en maintenance, et la société MY CANDYS LYON a été radiée le 09/09/2026 ⇒ **aucune boutique physique active établie** ; l'adresse est à donner par Basekou.
 
 🗣️ **Ce qu'on dit du produit est à retravailler** `[en discussion]` (la réponse à « c'est quoi votre produit »), en cours dans la session prospection. Des bouteilles peuvent servir aux tests en épicerie, et la production s'adapte. ⚠️ Le même sujet est aussi travaillé par la session Com (« comment parler du projet et de nous ») : chevauchement signalé.
 
 🧊 **Ce qu'on dit au gérant sur la conservation** `[figé 23/11]` : au frigo, pas plus de 24 h hors du froid, **la date limite est écrite sur chaque bouteille**. Aucune durée n'est annoncée (`../02_produit/eau-miellee-33cl.md`).
+
+## 📞 2026-11-24 — UNE SÉANCE COMMERCIALE PAR SEMAINE, LE MARDI APRÈS-MIDI
+
+*(Descendu de la file ÉTAT le 25/11 ; posé le 24/11 à 12h44 par la session COO, sur décision de Basekou.)* `[figé 24/11]`
+
+✅ **Au moins une séance d'appels ou de rendez-vous commerciaux par semaine, à l'initiative de Basekou ; l'inbound ne compte pas.** Créneau : **le mardi de 14h à 16h**, récurrent à l'agenda depuis le 24/11.
+- **Format de découverte** : par thèmes, avec la liste des informations à obtenir, à cocher ; questions factuelles et incisives.
+- ⏳ La première séance (24/11, épiceries puis restaurants du Moyen-Orient et du Maghreb, d'après le rappel d'agenda) n'a encore aucun résultat écrit.
