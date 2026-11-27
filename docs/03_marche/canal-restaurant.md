@@ -833,7 +833,7 @@ Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimente
 - **Format de découverte** : par thèmes, avec la liste des informations à obtenir, à cocher ; questions factuelles et incisives.
 - ⏳ La première séance (24/11, épiceries puis restaurants du Moyen-Orient et du Maghreb, d'après le rappel d'agenda) n'a encore aucun résultat écrit.
 
-## 🛒 2026-11-27 — RIZE MARKET : PREMIÈRE VENTE EN ÉPICERIE, TROIS MAGASINS
+## 🛒 2026-11-27 — RIZE MARKET : PREMIÈRE VENTE EN ÉPICERIE, TROIS MAGASINS, 40 BOUTEILLES
 
 *(Déclaré par Basekou le 27/11 au matin, pendant les livraisons ; adresses et noms tirés de ses événements d'agenda du 26/11. Basekou : « c'est pas encore bien clair ».)*
 
@@ -843,7 +843,7 @@ Ce que le terrain apprend sur la catégorie et sur les acheteurs — à alimente
 
 🧪 **Le cadre, tel que dit le 27/11** `[en discussion]` : un **test avec le nombre de bouteilles qu'ils ont pris**, à **prix fixe** (montant : 💸 Comptabilité, section ⑭), **sur facture** — un achat, pas un dépôt. **Pour l'instant, 3 magasins sur 4 contactés.** Durée du test, prix en rayon et suite pour les autres points de vente : non établis.
 📅 **Point d'étape le mercredi 2/12 à 10h** avec Mikhail, à Vaulx : ventes, retours clients, place au froid, prix en rayon, réassort avant Paris (3-6/12), qui décide pour les autres magasins.
-⚠️ **Points ouverts** : la production d'où viennent ces 42 bouteilles et la date écrite dessus ne sont pas au dossier ; la date limite (2 semaines) tombe avant la fin d'un test long ; la facture doit partir (précédent H7, impayé faute de facture).
-- ✅ **Précisé par Basekou le 27/11** `[figé 27/11]` : les **42 bouteilles** portent les **nouvelles étiquettes**, avec la **date limite du 09/12/2026** écrite dessus. **Tour des trois magasins le mardi 1/12 ou le mercredi 2/12**, avant le départ à Paris. **Facture faite si le magasin la demande ; paiement en liquide.**
+⚠️ **Points ouverts** : la date de production de ces bouteilles n'est pas au dossier (date limite écrite : 09/12) ; la date limite (2 semaines) tombe avant la fin d'un test long ; la facture doit partir (précédent H7, impayé faute de facture).
+- ✅ **Précisé par Basekou le 27/11** `[figé 27/11]` : **finalement 40 bouteilles au total, et non 42** (répartition entre Saint-Priest et Vénissieux à confirmer). Les **40 bouteilles** portent les **nouvelles étiquettes**, avec la **date limite du 09/12/2026** écrite dessus. **Tour des trois magasins le mardi 1/12 ou le mercredi 2/12**, avant le départ à Paris. **Facture faite si le magasin la demande ; paiement en liquide.**
   ⚠️ *Signalé une fois : entre professionnels, la facture est en principe obligatoire, même payée en liquide, et c'est ce qui a manqué pour H7. L'encaissement en liquide se note en 💸 Comptabilité. Décision de Basekou consignée telle quelle.*
 
